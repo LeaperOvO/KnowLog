@@ -1,0 +1,4419 @@
+[
+ [
+  [
+   "%ASA-6-311004: LU xmit thread up",
+   "A Stateful Failover update was transmitted to the standbySecure Firewall ASA."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageItemCapacityWarning:Disk usage for partition [name] on fabric interconnect [id] exceeded 90%",
+   "This fault occurs when the partition disk usage exceeds 90%."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-303002: FTP connection fromsrc_ifc:src_ip/src_porttodst_ifc:dst_ip/dst_port, userusernameactionfilefilename",
+   "A client has uploaded or downloaded a file from the FTP server."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713255: IP =peer-IP, Received ISAKMP Aggressive Mode message 1 with unknown tunnel group namegroup-name",
+   "An unknown tunnel group was specified in ISAKMP Aggressive Mode message 1."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-105503: (Primary|Secondary) Internal state change from previous_state to new_state",
+   "The WebVPN URL namedacl_IDhas been hitcounttimes for locationurl,whoseactionis permitted or denied."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-713267: Deleting static route for L2L peer that came in on a dynamic map. address:IP_address, mask: /prefix_len",
+   "TheSecure Firewall ASAfailed while attempting to add a route for the private address or networks of the peer. In this case, the peer is either a client or a L2L peer with an unknown address. Both of these cases use dynamic crypto maps to allow the tunnel."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-211003: Error in computed percentage CPU usage value",
+   "An internal TCP socket I/O error occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-718044: Deleted peerIP_address",
+   "A single shunned host was removed from the shun database. An institution to keep a record of shunning activity was allowed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-219002:I2C_API_nameerror, slot =slot_number, device =device_number, address =address, byte count =count. Reason:reason_string",
+   "The I2C serial bus API has failed because of a hardware or software problem."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105035: Receive a LAN failover interface down msg from peer.",
+   "A tunnel to a hardware client in network extension mode is being removed, and the static route for the private network is being deleted behind the hardware client."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-105509: (Primary|Secondary) Error sending message_name message to peer unit peer-ip, error: error_string",
+   "This fault typically occurs when an IQN pool does not contain any IQNs."
+  ],
+  0
+ ],
+ [
+  [
+   "fltCommDateTimeCommTimeZoneInvalid:Timezone:[timezone] is invalid",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported role."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718080: Fail to create crypto policy for peerIP_address.",
+   "TheSecure Firewall ASAexperienced a failure when attempting to create a transform set to be used in securing the communication between load balancing peers. This might indicate an internal software problem."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-722043: GroupgroupUseruserIPipDTLS disabled: unable to negotiate cipher.",
+   "TheSecure Firewall ASAcannot set up connection parameters. This is a defect in theSecureFirewall ASAsoftware."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-713238: Invalid source proxy address: 0.0.0.0! Check private address on remote client",
+   "The number of ciphers supported by theSecure Firewall ASAfor an SSL session are listed."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPowerBudgetPowerBudgetCmcProblem:Power cap application failed for chassis [id]",
+   "The specified object in the message has exceeded the specified burst threshold rate or average threshold rate. The object can be a drop activity of a host, TCP/UDP port, IP protocol, or various drops caused by potential attacks. TheSecure Firewall ASAmay be under attack."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-720029: (VPN-unit) HA status callback: Start VPN bulk sync state.",
+   "An internal error occurred while attempting to create an authentication header needed for changing Azure routes."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-318004: areastringlsidIP_addressmasknetmaskadv IP_address typenumber",
+   "The OSPF process had a problem locating the link state advertisement, which might lead to a memory leak."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105021: (failover_unit) Standby unit failed to sync due to a lockedcontext_nameconfig. Lock held bylock_owner_name",
+   "The Websense server is unavailable for access, and the ASA attempts to either try to access the same server if it is the only server installed, or another server if there is more than one."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSmLogicalDeviceIncompleteConfig:Logical Device [name] is not configured correctly. Error [errorMsg]",
+   "This fault occurs when a logical device is not configured correctly."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-723006: WebVPN Citrix SOCKS errors.",
+   "An internal Citrix SOCKS error has occurred on theSecure Firewall ASA."
+  ],
+  1
+ ],
+ [
+  [
+   "fltPowerPolicyPowerPolicyApplicationFail:Insufficient budget to apply no-cap priority through policy [name]. Blades will continue to be capped",
+   "This fault occurs when a power policy cannot be applied to one or more blade servers. The affected blade servers cannot operate normally without power capping due to the limited power budget for those servers."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-720036: (VPN-unit) Failed to process state update message from the active peer.",
+   "The VPN failover subsystem initialization is completed at boot time."
+  ],
+  0
+ ],
+ [
+  [
+   "fltStorageFlexFlashControllerInoperable:FlexFlash Controller [id] on server [chassisId]/[slotId] is inoperable. Reason: [operQualifierReason] Status: [controllerHealth]FlexFlash Controller [id] on server [id] is inoperable. Reason: [operQualifierReason] Status: [controllerHealth]",
+   "Power supply unit redundancy has been restored."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-713227: Rejecting new IPsec SA negotiation for peerPeer_address. A negotiation was already in progress for local ProxyLocal_address/Local_netmask, remote ProxyRemote_address/Remote_netmask",
+   "When establishing a Phase SA, theSecure Firewall ASAwill reject a new Phase 2 matching this proxy."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-802005: IPip_addressReceived MDM requestdetails",
+   "A new MDM request has been received while the MDM proxy service is active."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-721001: (device) WebVPN Failover SubSystem started successfully.(device) either WebVPN-primary or WebVPN-secondary.",
+   "TheSecure Firewall ASAhas received a valid change of authorization request, but the session ID specified in the request does not match any active sessions on theSecure Firewall ASA. This could be the result of the change of authorization server attempting to issue a change of authorization on a session that has already been closed by the user."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentSwitchIOCardThermalThresholdCritical:[side] FI IOM [chassisId]/[id] ([switchId]) temperature: [thermal]",
+   "This fault occurs when blade failed to boot up."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-713223: Static Crypto Map check, map =crypto_map_tag, seq =seq_number, no ACL configured",
+   "The crypto map associated with this peer is not linked to an ACL."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720010: (VPN-unit) VPN failover client is being disabled",
+   "The downloaded dynamic filter database file failed to decrypt."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-109013: User must authenticate before using this service",
+   "The user must be authenticated before using the service."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-212003: Unable to receive an SNMP request on interfaceinterface_number, error code =code, will try again.",
+   "When the size of the received Hostscan data exceeds the limit configured on theSecure Firewall ASA, the data is discarded."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentPsuPowerThreshold:Power supply [id] on chassis [id] has exceeded its power thresholdPower supply [id] on server [id] has exceeded its power threshold",
+   "This fault occurs when a power supply unit is drawing too much current."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715071: AH proposal not supported",
+   "A new NAC-policy has been added to the ASA."
+  ],
+  0
+ ],
+ [
+  [
+   "fltNetworkElementInoperable:Fabric Interconnect [id] operability: [operability]",
+   "An IPv6 packet with out-of-order extension headers has been detected."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-305017: Pba-interim-logging: Active ICMP block of ports for translation from<source device IP>to<destination device IP>/<Active Port Block>",
+   "An error has occurred, which may be the result of a configuration error either on the headend or remote access client."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-722011: GroupgroupUseruser-nameIPIP_addressSVC Message:type-num/NOTICE:message",
+   "A keepalive of the type indicated in the message was received unexpectedly."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentIOCardUnsupportedConnectivity:IOM [chassisId]/[id] ([switchId]) current connectivity does not match discovery policy or connectivity is unsupported: [configState]",
+   "This fault typically occurs when the current connectivity for an I/O module does not match the configuration in the chassis discovery policy."
+  ],
+  1
+ ],
+ [
+  [
+   "fltPowerChassisMemberChassisFirmwareProblem:Chassis [id] cannot be capped as at least one of the CMC or CIMC or BIOS firmware version is less than 1.4. Please upgrade the firmware for cap to be applied.",
+   "This fault typically occurs when the CIMC firmware on a server is an earlier release than Cisco FPR, Release 1.4."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentPsuPerfThresholdNonCritical:Power supply [id] in chassis [id] output power: [perf]Power supply [id] in fabric interconnect [id] output power: [perf]Power supply [id] in server [id] output power: [perf]",
+   "This fault is raised as a warning if the current output of the PSU in a chassis, fabric interconnect, or rack server does not match the desired output value."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-716044: Groupgroup-nameUseruser-nameIPIP_addressAAA parameterparam-namevalueparam-valueout of range.",
+   "A dynamic DNS update succeeded in the DNS server."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-401003: Shun deleted:IP_address",
+   "A single shunned host was removed from the shun database. An institution to keep a record of shunning activity was allowed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720023: (VPN-unit) HA status callback: Peer isnotpresent.",
+   "Testing of a specified network interface has occurred. This testing is performed only if theSecure Firewall ASAfails to receive a message from the standby unit on that interface after the expected interval. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPoolElementDuplicatedAssigned:Duplicated ID is assigned for multiple blades",
+   "None set."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-109032: Unable to install ACLaccess_list, downloaded for userusername; Error in ACE:ace.",
+   "TheSecure Firewall ASAreceived an access control list from a RADIUS server to apply to a user connection, but an entry in the list contains a syntax error. Th euse of a list containing an error could result in the violation of a security policy, so theSecure Firewall ASAfailed to authenticate the user."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-717036: Looking for a tunnel group match based on certificate maps for peer certificate withcertificate_identifier.",
+   "The e-mail proxy is disabled. All resources are cleaned up, and all threads are terminated."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-105539: (Primary|Secondary) No response to route state request for route route_name from url",
+   "No response was received to an Azure route state request."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-105540: (Primary|Secondary) No route-tables configured",
+   "No Azure route-tables were detected to change."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-336004: Negative refcount in pakdescpakdesc.",
+   "A user attempted to log in to a server using the CIFS protocol, but was unsuccessful."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSmAppAppMetaCorrupted:The application [appId] cannot be reloaded.",
+   "This fault occurs when an application meta data cannot be reloaded."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-719011: Protocol Email Proxy feature is enabled on interfaceinterface_name.",
+   "An internal error occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFabricVlanMisconfigured-mcast-policy:VLAN [name] multicast policy [mcastPolicyName] is non-default.",
+   "This fault typically occurs when a MAC address pool does not contain any MAC addresses."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-721004: (device) Create access listlist_nameon standby unit.",
+   "A WebVPN-specific access list is replicated from the active unit to the standby unit. A successful installation of the WebVPN access list on the standby unit has occurred."
+  ],
+  1
+ ],
+ [
+  [
+   "fltProcessorUnitVoltageThresholdNonRecoverable:Processor [id] on server [chassisId]/[slotId] voltage: [voltage]Processor [id] on server [id] voltage: [voltage]",
+   "A service from the web cache of theSecure Firewall ASAwas acquired."
+  ],
+  0
+ ],
+ [
+  [
+   "fltProcessorUnitDisabled:Processor [id] on server [chassisId]/[slotId] operState: [operState]Processor [id] on server [id] operState: [operState]",
+   "This fault occurs in the unlikely event that a processor is disabled."
+  ],
+  1
+ ],
+ [
+  [
+   "fltComputePhysicalUnassignedMissing:Server [id] (no profile) missingServer [chassisId]/[slotId] (no profile) missing",
+   "While iterating through the configured crypto maps, theSecure Firewall ASAcannot match any of the associated ACLs. This generally means that an ACL was misconfigured."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-718023: Received KEEPALIVE response fromIP_address",
+   ""
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-101003: (Primary) Failover cable not connected (this unit).",
+   "Failover mode is enabled, but the failover cable is not connected to one unit of the failover pair. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-717004: PKCS #12 export failed for trustpointtrustpoint_name.",
+   "The trustpoint failed to export, because of one of the following: only a CA certificate exists, and an identity certificate does not exist for the trustpoint, or a required keypair is missing."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-721007: (device) Fail to update access listlist_nameon standby unit.",
+   "An error occurred while the standby unit tried to update a WebVPN-specific access list. The access list cannot be located on the standby unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-305012: Teardown {dynamic|static} {TCP|UDP|ICMP} translation frominterface_name[(acl-name)]:real_address/{real_port|real_ICMP_ID} [(idfw_user)] tointerface_name:mapped_address/{mapped_port|mapped_ICMP_ID} durationtime",
+   "The address translation slot was deleted."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-302027: Teardown stub ICMP connection forinterface:real-address/real-porttointerface:real-address/real-portdurationhh:mm:ssforwarded bytesbytesreason",
+   "An ICMP director/backup/forwarder flow has been torn down."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-323001: Modulemodule_idexperienced a control channel communications failure.",
+   "An error occurred while creating a PIM tunnel interface."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-717001: Querying keypair failed.",
+   "This fault occurs in the unlikely event that a fan in a fan module cannot be detected."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715069: Invalid ESP SPI size ofSPI_size",
+   "TheSecure Firewall ASAreceived an IPsec SA proposal with an invalid ESP SPI size. This proposal will be skipped."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-324005: Unable to create tunnel fromsource_interface:source_address/source_porttodest_interface:dest_address/dest_port",
+   "An error occurred while trying to create the tunnel for the transport protocol data units."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-213003: PPP virtual interfaceinterface_numberisn't opened.",
+   "An internal software error occurred while closing a PPP virtual interface."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-109008: Authorization denied for user user fromoutside_address/outside_port to inside_address/ inside_port on interfaceinterface_name.",
+   "A user is not authorized to access the specified address, possibly because of an incorrect password."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentSwitchIOCardThermalThresholdNonCritical:[side] FI IOM [chassisId]/[id] ([switchId]) temperature: [thermal]",
+   "This fault occurs when the temperature of an FI I/O module has exceeded a non-critical threshold value, but is still below the critical threshold. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105006: (Primary) Link status Up on interface interface_name.",
+   "The policy agent failed to start."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-720045: (VPN-unit) Start bulk syncing of state information on standby unit.",
+   "The standby unit has been notified to start receiving bulk synchronization information from the active unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-720013: (VPN-unit) Failed to insert certificate in trustpointtrustpoint_name",
+   "An unexpected timer event woke up the task, but the task does not know how to handle the event. A task can register a set of timer services with the scheduler. If any of the timers expire, the scheduler wakes up the task to take action. This message is generated if the task is awakened by an unrecognized timer event."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-305008: Free unallocated global IP address.",
+   "The ASA kernel detected an inconsistency condition when trying to free an unallocated global IP address back to the address pool. This abnormal condition may occur if the ASA is running a Stateful Failover setup, and some of the internal states are momentarily out of sync between the active unit and the standby unit. This condition is not catastrophic, and the synchronization recovers automatically."
+  ],
+  1
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: user configuration to secondary(FSM-STAGE:sam:dme:AaaUserEpUpdateUserEp:SetUserPeer)",
+   "The FSM could not send the user configuration to the subordinate fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  1
+ ],
+ [
+  [
+   "fltComputePhysicalAssignedMissing:Server [id] (service profile: [assignedToDn]) missingServer [chassisId]/[slotId] (service profile: [assignedToDn]) missing",
+   "The SVC issued a message."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-106027:acl_ID: Deny src [source address] dst [destination address] by access-group \u201caccess-list name\"",
+   "TheSecure Firewall ASAdiscarded a TCP packet that has no associated connection in theSecureFirewall ASAconnection table. TheSecure Firewall ASAlooks for a SYN flag in the packet, which indicates a request to establish a new connection. If the SYN flag is not set, and there is no existing connection, theSecure Firewall ASAdiscards the packet."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-105538: (Primary|Secondary) Failure reading response to route state request for route route_name",
+   "A connection was rejected because the per-client connection limit was exceeded."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-109202: UAUTH Sessionsession, Userusername, Assigned IPIP Address, Succeeded incrementing entry use.",
+   "The VPN user account already exists and successfully incremented the reference count."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718087: Fail to delete LB NP rules: typerule_type, rulerule_ID.",
+   "TheSecure Firewall ASAexperienced a failure when attempting to delete the SoftNP ACL rule used in securing the communication between load balancing peers."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718057: Queue send failure from ISR, msg typefailure_code",
+   "TheSecure Firewall ASAfailed while attempting to add a route for the private address or networks of the peer. In this case, the peer is either a client or a L2L peer with an unknown address. Both of these cases use dynamic crypto maps to allow the tunnel."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentPsuPsuUnidentified:Power supply inserted into slot [id] unidentified",
+   "This fault typically occurs when Cisco FPR Manager can not identify a PSU"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-105550: (Primary|Secondary) Error encrypting Azure secret key",
+   "Traffic to a domain, which is on an block list in the dynamic filter database, has appeared. The threat level is a string that shows one of the following values: none, very-low, low, moderate, high, and very-high. The category is a string that shows the reason why a domain name is on a block list (for example, botnet, Trojan, and spyware)."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-713225: [IKEv1], Static Crypto Map check, mapmap_name, seq =sequence_numberis a successful match",
+   "TheSecure Firewall ASAfound a valid matching crypto map for this VPN tunnel."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-717035: OCSP status is being checked for certificate.certificate_identifier.",
+   "TheSecure Firewall ASAreceived a Hello Response packet from a load balancing peer."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-201012: Per-client embryonic connection limit exceededcurrnum/limitfor [input|output] packet fromIP_address/ port toip/porton interfaceinterface_name",
+   "This fault is raised when the CMOS battery voltage has dropped to lower than the normal operating range. This could impact the clock and other CMOS settings."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-105009: (Primary) Testing on interface interface_name {Passed|Failed}.",
+   "This log is generated when an ASDM connection is authenticated via certificates and allowed based on the configured certificate map rules."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-713904:Descriptive_event_string.",
+   "None set."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-713264: Received local IP Proxy Subnet data in ID Payload: AddressIP_address, Mask/prefix_len, Protocolprotocol, Portport{\u201cReceived remote IP Proxy Subnet data in ID Payload: Address%a, Mask/%d, Protocol%u, Port%u\u201d}",
+   "TheSecure Firewall ASAis adding a route for the private address or networks of the peer. In this case, the peer is either a client or a L2L peer with an unknown address. Both of these cases use dynamic crypto maps to allow the tunnel."
+  ],
+  1
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: keyring configuration on secondary(FSM-STAGE:sam:dme:PkiEpUpdateEp:SetKeyRingPeer)",
+   "The hostname has successfully been resolved with the IP address."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentFanPerfThresholdNonRecoverable:Fan [id] in Fan Module [tray]-[id] under chassis [id] speed: [perf]Fan [id] in fabric interconnect [id] speed: [perf]Fan [id] in Fan Module [tray]-[id] under server [id] speed: [perf]",
+   "This fault occurs when the fan speed read from the fan controller has far exceeded the desired fan speed. It frequently indicates that the fan has failed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-105529: (Primary|Secondary) Error creating authentication header from access token",
+   "A packet has an address that matches MAP basic mapping rules (meaning it is meant to be translated) but the associated port does not fall within the range allocated to that address. This likely means there is misconfiguration on the MAP node where this packet originates."
+  ],
+  0
+ ],
+ [
+  [
+   "Current connectivity for chassis 1 does not match discovery policy: unsupported-connectivity",
+   "A hardware or software error occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715078: Received %s LAM attribute",
+   "This syslog is generated during parsing of challenge/response payload."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-340001: Loopback-proxy error:error_stringcontext idcontext_id, context type =version/request_type/address_typeclient socket (internal)=client_address_internal/client_port_internalserver socket (internal)=server_address_internal/server_port_internalserver socket (external)=server_address_external/server_port_externalremote socket (external)=remote_address_external/remote_port_external",
+   "The outgoing ICMP packet with the specified ICMP from local host (inside_address) to the foreign host (outside_address) was denied by the outbound ACL list."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-302015: Built {inbound|outbound} UDP connectionnumberforinterface_name:real_address/real_port(mapped_address/mapped_port) [(idfw_user)] tointerface_name:real_address/real_port(mapped_address/mapped_port)[(idfw_user)] [(user)]",
+   "A UDP connection slot between two hosts was created. The following list describes the message values:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-730009: Groupgroupname, Userusername,IPipaddr, CAScasaddr, capacity exceeded, terminating connection.",
+   "The interface does not have an IP address configured."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-101004: (Primary) Failover cable not connected (other unit).",
+   "You have configured the enable password for the first time. This message will not be displayed when you are modifying an existing enable password."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-324002: No PDP[MCB] exists to process GTPv0msg_typefromsource_interface:source_address/source_porttodest_interface:dest_address/dest_port, TID:tid_value",
+   "An internal software error occurred while allocating an IP address to the PPTP client when the IP local address pool was depleted."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-322001: Deny MAC address MAC_address, possible spoof attempt on interfaceinterface",
+   "TheSecure Firewall ASAreceived a packet from the offending MAC address on the specified interface, but the source MAC address in the packet is statically bound to another interface in the configuration. Either a MAC-spoofing attack or a misconfiguration may be the cause."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-338304: Successfully downloaded dynamic filter data filefrom updater serverurl",
+   "A new version of the data file has been downloaded."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-716044: Groupgroup-nameUseruser-nameIPIP_addressAAA parameterparam-namevalueparam-valueout of range.",
+   "The given parameter has a bad value."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMemoryArrayVoltageThresholdNonRecoverable:Memory array [id] on server [chassisId]/[slotId] voltage: [voltage]Memory array [id] on server [id] voltage: [voltage]",
+   "This fault occurs when the memory array voltage exceeded the specified hardware voltage rating and potentially memory hardware may be in damage or jeopardy"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715046: Group =groupname, Username =username, IP =IP_address, constructingpayload_descriptionpayload",
+   "An IP address from a remote client for a specific group and user shows details about the IKE payload being constructed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715052: Old P1 SA is being deleted but new SA is DEAD, cannot transition centries",
+   "The old P1 SA is being deleted, but has no new SA to transition to because it was marked for deletion as well. This generally indicates that the two IKE peers are out-of-sync with each other and may be using different rekey times. The problem should correct itself, but there may be some small amount of data loss until a fresh P1 SA is reestablished."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713240: Received DH key with bad length: received length=rlengthexpected length=elength",
+   "A Diffie-Hellman key with the incorrect length was received from the peer."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-321007: System is low on free memory blocks of sizeblock_size(free_blocksCNT out ofmax_blocksMAX)",
+   "The system is low on free blocks of memory. Running out of blocks may result in traffic disruption."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-328002: Attempt made instringto register with out of bounds key",
+   "In the FASTCASE registry, the key has to be smaller than the size specified when the registry was created. An attempt was made to register with a key out-of-bounds."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-716501: internal error in:function: Fiber library cannot attach AK47 instance",
+   "The fiber library cannot attach the application kernel layer 4 to 7 instance."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-338304: Successfully downloaded dynamic filter data filefrom updater serverurl",
+   "This fault occurs when a fan module is not operational."
+  ],
+  0
+ ],
+ [
+  [
+   "fltStorageFlexFlashVirtualDriveDegraded:FlexFlash Virtual Drive RAID degraded on server [chassisId]/[slotId]. Reason: [raidState]FlexFlash Virtual Drive RAID degraded on server [id]. Reason: [raidState]",
+   "This fault occurs when the flexflash raid is degraded."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718067: Cannot delete secondary address to interfaceinterface_name, ipIP_address.",
+   "The deletion of the secondary address failed, which might indicate an addressing problem or an internal software error."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-718004: Got unknown internal messagemessage_number",
+   "An internal software error occurred."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-302003: Built H245 connection for foreign_addressoutside_address/outside_portlocal_addressinside_address/inside_port",
+   "TheSecure Firewall ASAdetected a duplicate director and a stolen director."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-718011: Send HELLO request failure toIP_address",
+   "An error occurred when theSecure Firewall ASAtried to send a hello request message to one of the load-balancing peers. This may indicate a network problem or an internal software error."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-109039: AAA Authentication:Dropping an unsupported IPv6/IP46/IP64 packet fromlifc:laddrtofifc:faddr",
+   "A packet containing IPv6 addresses or IPv4 addresses translated to IPv6 addresses by NAT requires AAA authentication or authorization. AAA authentication and authorization do not support IPv6 addresses. The packet is dropped."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-717028: Certificate chain was successfully validatedadditional info.",
+   "This fault occurs when an app instance is not responding."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-716520:internal error in:function: OCCAM pool has no block list",
+   "The ACL determines what the user restrictions are on e-mail account access. The authorization checking using the ACL is not enabled."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715051: Received unexpected TLV typeTLV_typewhile processing FWTYPE ModeCfg Reply",
+   "The load balancing process has been stopped."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-716060: GroupgroupUseruserIPipTerminated AnyConnect session in inactive state to accept a new connection. License limit reached.",
+   "An AnyConnect session in the inactive state was logged out to allow a new incoming SSL VPN (AnyConnect or clientless) connection."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-718056: Deleted Master peer, IPIP_address",
+   "TheSecure Firewall ASAdeleted the load balancing director from its internal tables."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715057: Auto-detected a NAT device with NAT-Traversal. Ignoring IPsec-over-UDP configuration.",
+   "IPsec-over-UDP mode configuration information will not be exchanged because NAT-Traversal was detected."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718072: Becoming master of Load Balancing in contextcontext_ID.",
+   "TheSecure Firewall ASAhas become the LB director."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715056: Client is configured forTCP_transparency",
+   "Because the remote end (client) is configured for IPsec over TCP, the headendSecure Firewall ASAmust not negotiate IPsec over UDP or IPsec over NAT-T with the client."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-716019: GroupgroupUseruserCreate directorydirectory.",
+   "The specified WebVPN user created the specified directory."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718081: Fail to delete crypto policy for peerIP_address.",
+   "A hardware or software error occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-323006: Moduleipsexperienced a data channel communication failure, data channel is DOWN.",
+   "The Active unit has started the process of updating an Azure route-table."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-713216: Rule:action[Client type]:versionClient:typeversion allowed/not allowed",
+   "The client type and the version of a client have matched one of the rules. The results of the match and the rule are displayed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-302021: Teardown ICMP connection for faddr {faddr|icmp_seq_num} [(idfw_user)] gaddr {gaddr|icmp_type} laddrladdr[(idfw_user)] type {type} code {code}",
+   "This message is generated when an ICMP session is removed in the fast-path.The following list describes the message values:"
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentFanModuleMissing:Fan module [tray]-[id] in chassis [id] presence: [presence]Fan module [tray]-[id] in server [id] presence: [presence]Fan module [tray]-[id] in fabric interconnect [id] presence: [presence]",
+   "This fault occurs if a fan Module slot is not equipped or removed from its slot"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105004: (Primary) Monitoring on interface interface_name normal",
+   "The test of the specified network interface was successful. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-218003: Module Version inslot#is obsolete. The module in slot =slot#is obsolete and must be returned via RMA to Cisco Manufacturing. If it is a lab unit, it must be returned to Proto Servicesfor upgrade.",
+   "This fault occurs when an app instance stop fails."
+  ],
+  0
+ ],
+ [
+  [
+   "fltMemoryBufferUnitThermalThresholdCritical:Buffer Unit [id] on server [chassisId]/[slotId] temperature: [thermal]Buffer Unit [id] on server [id] temperature: [thermal]",
+   "This fault occurs when the temperature of a memory buffer unit on a blade or rack server exceeds a critical threshold value. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105046: (Primary|Secondary) Mate has a different chassis",
+   "This fault occurs when the processor temperature on a blade or rack server has been out of the operating range, and the issue is not recoverable. Be aware of the following possible contributing factors:"
+  ],
+  0
+ ],
+ [
+  [
+   "fltComputePhysicalAssociationFailed:Service profile [assignedToDn] failed to associate with server [id]Service profile [assignedToDn] failed to associate with server [chassisId]/[slotId]",
+   "This fault typically occurs for one of the following reasons:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-730001 Groupgroupname, Userusername, IPipaddr: VLAN MAPPING to VLANvlanid",
+   "VLAN mapping succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-109022: exceeded HTTPS proxy process limit",
+   "For each HTTPS authentication, the ASA dedicates a process to service the authentication request. When the number of concurrently running processes exceeds the system-imposed limit, the ASA does not perform the authentication, and this message appears."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713244:META-DATAReceived Legacy Authentication Method(LAM) typetypeis different from the last type receivedtype.",
+   "The LAM attribute type received differs from the last type received. The type must be consistent throughout the user authentication process. The user authentication process cannot proceed, and the VPN connection will not be established."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageLocalDiskInoperable:Local disk [id] on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]Local disk [id] on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "This fault occurs when the local disk has become inoperable."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-722046: GroupgroupUseruserIPipSession terminated: unable to establish tunnel.",
+   "TheSecure Firewall ASAcannot set up connection parameters. This is a defect in theSecureFirewall ASAsoftware."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-338204: Dynamic filter dropped greylistedprotocoltraffic fromin_interface:src_ip_addr/src_port(mapped-ip/mapped-port) toout_interface:dest_ip_addr/dest_port(mapped-ip/mapped-port), destinationmalicious addressresolved fromlocal or dynamiclist:domain name,threat-level:level_value,category:category_name",
+   "This fault occurs when the memory array voltage is out of normal operating range, but hasn\u2019t yet reached a critical stage. Typically the memory array recovers itself from this situation."
+  ],
+  0
+ ],
+ [
+  [
+   "fltStorageItemFilesystemIssues:Partition [name] on fabric interconnect [id] has file system errors",
+   "Processing for the Cisco IOS vendor ID payload has been performed. The action being performed might be Altiga spoofing the Cisco IOS."
+  ],
+  0
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: Identify pre-boot environment agent on server 1/2(FSM-STAGE:sam:dme:ComputeBladeDiscover:PnuOSIdent)",
+   "A GUP connection was started from the foreign address to the local address. The foreign port (outside port) only appears on connections from outside the security device. The local port value (inside port) only appears on connections started on an internal interface."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-718061: Inbound socket read fail: context=context_ID.",
+   "The socket read failed after data was detected through the select call. This might indicate an internal software error."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-723011: Groupgroup-name, Useruser-name, IPIP_address: WebVPN Citrix receives bad SOCKSsocksmessage length msg-length. Expected length isexp-msg-length.",
+   "The Citrix SOCKS message length is incorrect."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-716054: SAML Server deleted: name:nameType: SP",
+   "An attempt to connect to a mapped host using its actual address was rejected."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-720043: (VPN-unit) Failed to sendtypemessageidto standby unit",
+   "An error occurred when the VPN failover subsystem tried to send a message from the active unit to the standby unit. The error may be caused by message 720018, in which the core failover subsystem runs out of failover buffer or the failover LAN link is down."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageVirtualDriveInoperable:Virtual drive [id] on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]Virtual drive [id] on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "TheSecure Firewall ASAcannot create a VPN handle, because the VPN handle already exists."
+  ],
+  0
+ ],
+ [
+  [
+   "fltLsServerConfigFailure:Service profile [name] configuration failed due to [configQualifier]",
+   "The named configuration qualifier is not available. This fault typically occurs because Cisco FPR Manager cannot successfully deploy the service profile due to a lack of resources that meet the named qualifier. For example, this fault can occur if the following occurs:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-342006: Failed to install REST API image, reason:<reason>.",
+   "The REST API image installation may fail, for one of the following reasons: version check failed, image verification failed, image file not found, out of space on flash or mount failed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-314001: Pre-allocated RTSP UDP backconnection forsrc_intf:src_IPtodst_intf:dst_IP/dst_port.",
+   "TheSecure Firewall ASAopened a UDP media channel for the RTSP client that was receiving data from the server."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715069: Invalid ESP SPI size ofSPI_size",
+   "A TCP director/backup/forwarder flow has been torn down."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-213007: L2TP: Failed to install Redirect URL:redirect URLRedirect ACL: non_exist forassigned IP.",
+   "An error occurred for an L2TP connection when the redirect URL was installed and the ACL was received from the ISE, but the redirect ACL does not exist on the ASA."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-716504: internal error in:function: Fiber library cannot allocate fiber stacks pool",
+   "TheSecure Firewall ASAhas requested a client certificate for authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-341003: Policy Agent failed to start for VNMCvnmc_ip_addr",
+   "Traffic from a domain, which is on a greylist in the dynamic filter database, has appeared. The threat level is a string that shows one of the following values: none, very-low, low, moderate, high, and very-high. The category is a string that shows the reason why a domain name is on a block list (for example, botnet, Trojan, and spyware)."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-215001:Bad route_compress() call, sdb =number",
+   "An internal software error occurred."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718086: Fail to install LB NP rules: typerule_type, dstinterface_name, portport.",
+   "TheSecure Firewall ASAexperienced a failure when attempting to create a SoftNP ACL rule to be used in securing the communication between load balancing peers. This may indicate an internal software problem."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-216004:prevented:errorinfunctionatfile(line) -stack trace",
+   "An internal logic error has occurred, which should not occur during normal operation."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-332001: Unable to open cache discovery socket, WCCP V2 closing down.",
+   "This fault typically occurs when Cisco FPR Manager is actively capping the power for a blade server."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-303005: Strict FTP inspection matchedmatch_stringin policy-mappolicy-name,action_stringfromsrc_ifc:sip/sporttodest_ifc:dip/dport",
+   "The load balancing process has been started and initialized."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-105008: (Primary) Testing interface interface_name.",
+   "The protocol of the second Quick Mode packet was decoded."
+  ],
+  0
+ ],
+ [
+  [
+   "fltComputeABoardMotherBoardVoltageThresholdLowerNonRecoverable:Motherboard input voltage(12V/5V/3V) in server [id] is [voltage]Motherboard [faultQualifier] input voltage(12V/5V/3V) in server [chassisId]/[slotId] is [voltage]",
+   "This fault is raised when one or more motherboard input voltages has dropped too low and is unlikely to recover."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentIOCardPost-failure:[side] IOM [chassisId]/[id] ([switchId]) POST failure",
+   "This fault typically occurs when an I/O module encounters errors during the Power On Self Test (POST). The impact of this fault varies according to the errors that were encountered during POST."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageItemCapacityExceeded:Disk usage for partition [name] on fabric interconnect [id] exceeded 70%",
+   "This fault occurs when the partition disk usage exceeds 70% but is less than 90%."
+  ],
+  1
+ ],
+ [
+  [
+   "Adapter 1/2/1 is unreachable",
+   "TheSecure Firewall ASAprocessed a peer timeout."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPortPIoInvalid-sfp:[transport] port [portId] on chassis [id] role : [ifRole] transceiver type:[xcvrType][transport] port [slotId]/[aggrPortId]/[portId] on fabric interconnect [id] role : [ifRole] transceiver type:[xcvrType][transport] port [slotId]/[portId] on fabric interconnect [id] role : [ifRole] transceiver type:[xcvrType]",
+   "This fault occurs when FPRM enters into suspend state from receiving updates from FPR Central that it is registered with."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-716054: SAML Server deleted: name:nameType: SP",
+   "A SAML IDP server entry has been removed from the webvpn configuration. ."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-717018: CRL received fromissuerhas too many entries to process (number of entries =number_of_entries, maximum number allowed =max_allowed)",
+   "This fault typically occurs when the server has encountered a diagnostic failure or an error during POST."
+  ],
+  0
+ ],
+ [
+  [
+   "fltMgmtEntityDown:Fabric Interconnect [id], HA Cluster interconnect total link failure",
+   "This fault occurs when both cluster links (L1 and L2) of the fabric interconnects are in a link-down state. This issue impacts the full HA functionality of the fabric interconnect cluster."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricVlanPrimaryVlanMissingForIsolated:Primary Vlan can not be resolved for isolated vlan [name]",
+   "This fault typically occurs when Cisco FPR Manager encounters a problem resolving the primary VLAN ID corresponding to a particular isolated VLAN."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713247:META-DATAUnexpected error: in Next Card Code mode while not doing SDI.",
+   "The presence of a duplicate director indicates that one of the load balancing peers may be misconfigured."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSwVlanPortNsVLANCompNotSupport:VLAN Port Count Optimization is not supported",
+   "This fault typically occurs when private vlan properties of VLAN under one cloud conflicts with the private vlan properties of VLAN under another cloud for the fabric interconnect A. The cloud here means either a LAN cloud or an appliance cloud. This issue can stop the usage of this vlan."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-308001: console enable password incorrect fornumbertries (fromIP_address)",
+   "This is aSecureFirewall ASAmanagement message. This message appears after the specified number of times a user incorrectly types the password to enter privileged mode. The maximum is three attempts."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720039: (VPN-unit) VPN failover client is transitioning to active state",
+   "The local unit has become the active unit of the failover pair."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-720066: (VPN-unit) Failed to activate IKE database.",
+   "The specified address has been assigned to the given user."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFabricPinTargetDown:Pin target is a non-existent interface",
+   "This fault typically occurs when a PinGroup has an unresolvable target."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718066: Cannot add secondary address to interfaceinterface_name, ipIP_address.",
+   "This fault occurs when certificate status of Keyring has become invalid."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-318120: OSPFv3 was unable to register with IPsec",
+   "An internal error has occurred."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-315004: Fail to establish SSH session because RSA hostkey retrieval failed.",
+   "The REST API image must be successfully installed before starting the REST API Agent."
+  ],
+  0
+ ],
+ [
+  [
+   "Fabric Interconnect A, HA functionality not ready",
+   "Umbrella fail-open has been configured and a resolver unreachabilty has been detected."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-716051: Groupgroup-nameUseruser-nameIPIP_addressError adding dynamic ACL for user.",
+   "With server-name indication (SNI), the certificate used for a given connection may not be the certificate configured on the interface. There is also no indication of which certificate trustpoint has been selected. This syslog gives an indication of the trustpoint used by the connection (given byinterface:src-ip/src-port)."
+  ],
+  0
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: realm configuration to secondary(FSM-STAGE:sam:dme:AaaRealmUpdateRealm:SetRealmPeer)",
+   "The return codes of action routines belonging to the load balancing finite state machine are being traced."
+  ],
+  0
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: external VM manager configuration on local fabric(FSM-STAGE:sam:dme:ExtvmmEpConfig:SetLocal)",
+   "The FSM could not send the VM manager configuration to the primary fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-317006: Pdb index errorpdb,pdb_index,pdb_type",
+   "The index into the PDB is out of range."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-210005: LU allocatesecondary(optional) connection failed forprotocol[TCP|UDP] connection fromingress interface name:Real IP Address/Real Porttoegress interface name:Real IP Address/Real Port",
+   "Stateful Failover cannot allocate a new connection on the standby unit. This may be caused by little or no RAM memory available within theSecure Firewall ASA."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-109102: Received CoAaction-typefromcoa-source-ip, but cannot find named sessionaudit-session-id",
+   "TheSecure Firewall ASAhas received a valid change of authorization request, but the session ID specified in the request does not match any active sessions on theSecure Firewall ASA. This could be the result of the change of authorization server attempting to issue a change of authorization on a session that has already been closed by the user."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-720034: (VPN-unit) Invalid type (type) for message handler.",
+   "An error occurred when the VPN failover subsystem tried to process an invalid message type."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-318009: OSPF: Attempted reference of stale data encountered infunction, line:line_num",
+   "OSPF is running and has tried to reference some related data structures that have been removed elsewhere. Clearing interface and router configurations may resolve the problem. However, if this message appears, some sequence of steps caused premature deletion of data structures and this needs to be investigated."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageFlexFlashDriveUnhealthy:FlexFlash Drive [id] on server [chassisId]/[slotId] is unhealthy. Reason: [operQualifierReason] Status: [operationState]FlexFlash Drive [id] on server [id] is unhealthy. Reason: [operQualifierReason] Status: [operationState]",
+   "None set."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715076: Computing hash for ISAKMP",
+   "IKE computed various hash values."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-713258: IP =var1, Attempting to establish a phase2 tunnel onvar2interface but phase1 tunnel is onvar3interface. Tearing down old phase1 tunnel due to a potential routing change.",
+   "Cloud HA has been disabled on thisASA virtual."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-717025: Validating certificate chain containingnumber of certscertificate(s).",
+   "This fault typically occurs when an I/O adapter unit extension, such as a pass-through adapter, is missing. Cisco FPR Manager raises this fault when any of the following scenario occur:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-339007: Umbrella resolvercurrent resolver ipv46is unreachable, moving to fail-open. Starting probe to resolver.",
+   "Umbrella fail-open has been configured and a resolver unreachabilty has been detected."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-302014: Teardown [Probe] TCP connection\u00a0id\u00a0for\u00a0interface\u00a0:real-address\u00a0/real-port\u00a0[(idfw_user\u00a0)] to\u00a0interface\u00a0:real-address\u00a0/real-port\u00a0[(idfw_user\u00a0)]duration\u00a0hh:mm:ss\u00a0bytes\u00a0bytes\u00a0[reason [from teardown-initiator]] [(user\u00a0)]",
+   "A TCP connection between two hosts was deleted. The following list describes the message values:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-105545: (Primary|Secondary) Error starting load balancer probe socket on port port, error code: error_code",
+   "An internal error occurred while attempting to start receiving probes from an Azure Load Balancer. The Active unit will continue to attempt to enable the receiving of probes."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-317012: Interface IP route counter negative - nameif-string-value",
+   "This fault typically occurs when the bundle version in a firmware infrastructure package is not set."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-720046: (VPN-unit) End bulk syncing of state information on standby unit",
+   "The standby unit has been notified that bulk synchronization from the active unit is completed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-106023: Deny protocol src [interface_name:source_address/source_port] [([idfw_user|FQDN_string],sg_info)] dstinterface_name:dest_address/dest_port[([idfw_user|FQDN_string],sg_info)] [type {string}, code {code}] byaccess_group acl_ID[0x8ed66b60, 0xf8852875]",
+   "A real IP packet was denied by the ACL. This message appears even if you do not have thelogoption enabled for an ACL. The IP address is the real IP address instead of the values that display through NAT. Both user identity information and FQDN information is provided for the IP addresses if a matched one is found. TheSecure Firewall ASAlogs either identity information (domain\\user) or FQDN (if the username is not available). If the identity information or FQDN is available, theSecure Firewall ASAlogs this information for both the source and destination."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715055: Sendattribute_name",
+   "TheSecure Firewall ASAexperienced a failure when trying to create a tunnel group for securing the communication between load balancing peers."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-336011:eventevent",
+   "This message is generated when the device fails to delete due to invalid address or bad entry."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-717027: Certificate chain failed validation.reason_string.",
+   "A certificate chain cannot be validated."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricComputeSlotEpMisplacedInChassisSlot:Server, vendor([vendor]), model([model]), serial([serial]) in slot [chassisId]/[slotId] presence: [presence]",
+   "A new connection could not be created due to app-cache memory allocation failure. The failure could be due to system running out of memory or exceeding app-cache memory threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-341002: Policy Agent stopped successfully for VNMCvnmc_ip_addr",
+   "The policy agent processes (DME, ducatiAG, and commonAG) were stopped."
+  ],
+  1
+ ],
+ [
+  [
+   "%%ASA-5-105543: (Primary|Secondary) Disabling load balancer probe responses",
+   "This fault occurs when a logical device is not configured correctly."
+  ],
+  0
+ ],
+ [
+  [
+   "fltExtpolClientGracePeriodWarning:FPR domain [name] registered with FPR Central has entered into the grace period.",
+   "ASA receives an SNMP set message from NACApp to set the new VLAN ID for the session."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715027: IPsec SA Proposal# chosen_proposal, Transform #chosen_transformacceptable Matches global IPsec SA entry# crypto_map_index",
+   "This fault typically occurs when the server CIMC has failed to enforce the configured power cap."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-335008: NAC IPsec terminate from dynamic ACL:ACL-name-host-address",
+   "Indicates that the interface route count is negative."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-333010: EAP-SQ response Validation Flags TLV indicates PV request - context:EAP-context",
+   "The EAP-Status Query response includes a validation flags TLV, which indicates that the peer requested a full posture validation."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-713221: Static Crypto Map check, checking map =crypto_map_tag, seq =seq_number...",
+   "This event is generated when an ESMTP message size exceeds the size declared in the RCPT command."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPowerBudgetFirmwareMismatch:Firmware on blade [chassisId]/[slotId] does not allow chassis level power capping. Please consider upgrading to at least 1.4 version",
+   "This fault typically occurs when a power supply unit in a chassis, fabric interconnect, or a FEX is shut down, either due to higher than expected power current, higher than expected temperatures, or the failure of a fan."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentSwitchIOCardRemoved:[side] FI IOM [chassisId]/[id] ([switchId]) is removed",
+   "Traffic from an IP address, which is on an block list in the dynamic filter database, was denied. The threat level is a string that shows one of the following values: none, very-low, low, moderate, high, and very-high. The category is a string that shows the reason why a domain name is on a block list (for example, botnet, Trojan, and spyware)."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-326013: Internal error:stringinstringline%d(%s)",
+   "A fundamental error occurred in the MRIB."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105039: (Primary) Unable to verify the Interface count with mate. Failover may be disabled in mate.",
+   "TheSecure Firewall ASAdisallows any IP packet that is fragmented into more than 24 fragments. For more information, see thefragmentcommand in the command reference guide."
+  ],
+  0
+ ],
+ [
+  [
+   "fltNetworkElementThermalThresholdCritical:Fabric Interconnect [id] temperature: [thermal]",
+   "Errors that are encountered while trying to generate and reissue the local CA server CRL file are reported."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFabricInternalPcDown:[type] port-channel [portId] on fabric interconnect [id] oper state: [operState], reason: [stateQual]",
+   "This fault occurs when the transport VIF for a server is down. Cisco FPR Manager raises this fault when a fabric interconnect reports the connectivity state on virtual interface as one of the following:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720059: (VPN-unit) VPN Stateful failover Timer Thread is enabled.",
+   "The Citrix SOCKS message format is incorrect."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-718041: Timeout [msgType=type] processed with no callback",
+   "The fiber library cannot allocate the fiber descriptors pool."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-722031: GroupgroupUseruser-nameIPIP_addressSVC Session Termination: Out:data_bytes(+ctrl_bytes) bytes,data_pkts(+ctrl_pkts) packets,drop_pktsdrops.",
+   "An error occurred when the VPN failover subsystem tried to add a node secret file for the SDI server on the standby unit. The SDI node secret file is stored in flash. The error may indicate that the flash file system is full or corrupted."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFabricComputeSlotEpMisplacedInChassisSlot:Server, vendor([vendor]), model([model]), serial([serial]) in slot [chassisId]/[slotId] presence: [presence]",
+   "This fault typically occurs when Cisco FPR Manager detects a server in a chassis slot that does not match what was previously equipped in the slot."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-720044: (VPN-unit) Failed to receive message from active unit",
+   "An error occurred when the VPN failover subsystem tried to receive a message on the standby unit. The error may be caused by a corrupted message or an inadequate amount of memory allocated for storing the incoming message."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMgmtEntityDevice-1-shared-storage-error:device [chassis1], error accessing shared-storage",
+   "This fault occurs when the total memory on FI is less than expected."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-713257: Phasevar1failure: Mismatched attribute types for classvar2: Rcv'd:var3Cfg'd:var4",
+   "AnSecure Firewall ASAhas acted as the responder in a LAN-to-LAN connection. It indicates that theSecureFirewall ASAcrypto configuration does not match the configuration of the initiator. The message specifies during which phase the mismatch occurred, and which attributes both the responder and the initiator had that were different."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageRaidBatteryInoperable:RAID Battery on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]RAID Battery on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "This fault occurs when the RAID backup unit is not operational."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-341011: Storage device with serial numberser_noin baybay_nofaulty.",
+   "A power supply failure occurred. Power supply unit redundancy has been lost, but theSecure Firewall ASAis functioning normally with minimum resources. Any further failures will result in anSecure Firewall ASAshutdown."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-725016: Device selects trust-pointtrustpointforpeer-typeinterface:src-ip/src-porttodst-ip/dst-port",
+   "EAPoUDP has initiated EAP with the host."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentChassisInvalid-fru:Chassis [id] has a empty value for FRU identity reported by CMC.",
+   "This fault typically occurs when the FRU information for a chassis has empty value."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFirmwareSystemInfraBundleUpgradeFailure:Software Pack upgrade failure: [upgradeStatus]",
+   "This fault typically occurs when the bundle upgrade failed to upgrade one or more platform image(s)"
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentSwitchIOCardCpuThermalThresholdCritical:[side] FI IOM [chassisId]/[id] ([switchId]) processor temperature exceeded the limit",
+   "An error occurred when the VPN failover subsystem tried to look up a trustpoint by name."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-305019: MAP node addressip/porthas inconsistent Port Set ID encoding",
+   "A packet has an address that matches MAP basic mapping rules (meaning it is meant to be translated) but the Port Set ID encoded within the address is inconsistent (per RFC7599). This could be due to a software fault on the MAP node where this packet originates."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-109025: Authorization denied(acl=acl_ID) for user'user' fromsource_address/source_porttodest_address/dest_porton interfaceinterface_nameusingprotocol",
+   "The check failed. The check either matched a deny or did not match anything, such as an implicit deny. The connection was denied by the user acl_ID, which was defined according to the AAA authorization policy on the Cisco Secure Access Control Server (ACS)."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718074: Fail to create access list for peercontext_ID.",
+   "ACLs are used to create secure tunnels over which the LB peers can communicate. TheSecure Firewall ASAwas unable to create one of these ACLs. This might indicate an addressing problem or an internal software problem."
+  ],
+  1
+ ],
+ [
+  [
+   "fltSysdebugMEpLogTransferError:Server [chassisId]/[slotId] [type] transfer failed: [operState]Server [id] [type] transfer failed: [operState]",
+   "This fault occurs when the transfer of a managed endpoint log file, such as the SEL, fails."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715044: Ignoring Keepalive payload from vendor not support KeepAlive capability",
+   "Periodic certificate authentication succeeded."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-105045: (Primary) Mate license (number contexts) is not compatible with my license (number contexts).",
+   "A power supply has been restored to normal operation."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-722015: GroupgroupUseruser-nameIPIP_addressUnknown SVC frame type:type-num",
+   "The SVC sent an invalid frame type to the device, which might be caused by an SVC version incompatibility."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-107002: RIP pkt failed fromIP_address: version=number on interface interface_name",
+   "An internal software error occurred. This message occurs at five-second intervals."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-329001: Thestring0subblock namedstring1was not removed",
+   "TheSecure Firewall ASAtransmitted a Keepalive Response message to a load balancing peer."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715066: Can't load an IPsec SA! The corresponding IKE SA contains an invalid logical ID.",
+   "An EAPoUDP association has terminated with the host."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715046: Group =groupname, Username =username, IP =IP_address, constructingpayload_descriptionpayload",
+   "A new incoming e-mail client session has been established."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-316002: VPN Handle error: protocol=protocol, srcin_if_num:src_addr, dstout_if_num:dst_addr",
+   "TheSecure Firewall ASAcannot create a VPN handle, because the VPN handle already exists."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-315012: Weak SSH type (alg) provided from clientIP_address on interface Int. Connection failed. Not FIPS 140-2 compliant.",
+   "Queued Phase 2 messages are being processed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-716045: Groupgroup-nameUseruser-nameIPIP_addressAAA parameterparam-namevalue invalid.",
+   "An error occurred while attempting to send a failover control message to the peer unit."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-302302: ACL = deny; no sa created",
+   "The specified authorization request succeeded."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715019: GroupgroupUsernameusernameIPipIKEGetUserAttributes: Attribute name =name",
+   "Themodecfgattribute name and value pair being processed by theSecure Firewall ASAappear."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-105510: (Primary|Secondary) Error receiving message from peer unit peer-ip, error: error_string",
+   "An error occurred while attempting to receive a failover control message to the peer unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-214001: Terminating manager session fromIP_addresson interfaceinterface_name. Reason: incoming encrypted data (numberbytes) longer thannumberbytes",
+   "An incoming encrypted data packet destined for theSecureFirewall ASAmanagement port indicates a packet length exceeding the specified upper limit. This may be a hostile event. TheSecure Firewall ASAimmediately terminates this management connection."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-313001: Denied ICMP type=number, code=codefromIP_addresson interfaceinterface_name",
+   "When using the icmp command with an access list, if the first matched entry is a permit entry, the ICMP packet continues processing. If the first matched entry is a deny entry, or an entry is not matched, theSecure Firewall ASAdiscards the ICMP packet and generates this message. Theicmpcommand enables or disables pinging to an interface. With pinging disabled, theSecure Firewall ASAcannot be detected on the network. This feature is also referred to as configurable proxy pinging."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-109037: Exceeded 5000 attribute values for theattribute nameattribute for userusername.",
+   "You used the allow option of the filter command, and the ASA receives a response message from a Websense server that previously was not responding. With this response message, the ASA exits the allow mode, which enables the URL filtering feature again."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-720040: (VPN-unit) VPN failover client is transitioning to standby state.",
+   "The local unit has become the standby unit of the failover pair."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-216003: Unrecognized timertimer_ptr,timer_idreceived bytask_stringinfunctionat line:line_num",
+   "This fault is raised when the IO controller temperature is outside the recoverable range of operation."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-106011: Deny inbound (No xlate) protocol src Interface:IP/port dst Interface-nameif:IP/port",
+   "The FSM could not send the eth-uplink configuration to the fabric interconnects during the initial cluster configuration or the setup."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-321004: Resourcevar1rate log level ofvar2reached",
+   "Stateful Failover update information was sent to the standbySecure Firewall ASAwhen the standbySecure Firewall ASAis first to be online."
+  ],
+  0
+ ],
+ [
+  [
+   "fltAdaptorExtEthIfMisConnect:Adapter [id] eth interface [id] in server [id] mis-connected",
+   "An internal error occurred while attempting to create a socket needed for the failover connection or resonding to Azure load balancer probes."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentPsuThermalThresholdNonRecoverable:Power supply [id] in chassis [id] temperature: [thermal]Power supply [id] in fabric interconnect [id] temperature: [thermal]Power supply [id] in server [id] temperature: [thermal]",
+   "This fault occurs in an unlikely event that management services fail on a fabric interconnect. This impacts the full HA functionality of the fabric interconnect cluster."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-105532: (Primary|Secondary) Unexpected status in response to route-table change request for route-table route_table_name:status_string",
+   "TheSecure Firewall ASAcannot get authorization information for the remote user."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-326012: Initialization ofstringfunctionality failed",
+   "This fault typically occurs when discovery fails due to unavailable power in the group."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-109036: Exceeded 1000 attribute values for theattribute nameattribute for userusername.",
+   "The LDAP response message contains an attribute that has more than 1000 values."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105041: cmd failed during sync",
+   "This fault typically occurs because Cisco FPR Manager has detected an invalid communication policy confiuration."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-713262: Rejecting new IPSec SA negotiation for peerPeer_address. A negotiation was already in progress for local ProxyLocal_address/Local_prefix_len, remote ProxyRemote_address/Remote_prefix_len",
+   "When establishing a Phase SA, theSecure Firewall ASAwill reject a new Phase 2 SA matching this proxy."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-722039: Group group, User user, IP ip, SVC vpn-filter aclis an IPv6 ACL; ACL not applied.",
+   "The type of ACL to be applied is incorrect. An IPv6 ACL has been configured as an IPv4 ACL through thevpn-filtercommand."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-218005: Inconsistency detected in the system information programmed in non-volatile memory",
+   "This fault typically occurs when Cisco FPR Manager detects that a power supply unit in a chassis, fabric interconnect, or FEX is offline."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentChassisBoot-problem:Device [id] Boot Status: [bootStatus]",
+   "This fault occurs in the event that the Chassis Boot Status is not normal"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-314006: RTSP clientsrc_intf:src_IPexceeds configured rate limit ofrateforrequest_methodmessages.",
+   "The VPN failover subsystem failed to initialize the given timer event. The VPN failover subsystem cannot be started at boot time."
+  ],
+  0
+ ],
+ [
+  [
+   "fltDcxNsFailed:Server [chassisId]/[slotId] (service profile: [assignedToDn]) virtual network interface allocation failed.Server [id] (service profile: [assignedToDn]) virtual network interface allocation failed.",
+   "This message is generated when the reference count decremented successfully after tunnel removal."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-713207: Terminating connection: IKE Initiator and tunnel group specifies L2TP Over IPSec",
+   "A Diffie-Hellman key with the incorrect length was received from the peer."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-713212:",
+   "The shallow discovery that occurs when the server associated with service profile fails. If the server is up and the data path is working, this fault typically occurs as a result of one of the following issues:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-212010: Configuration request for SNMP user %sfailed. Host %sreason.",
+   "A user has tried to change the SNMP server user configuration by removing one or more hosts that reference the user. One message is generated per host."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-318116: SPIuis not being used by ospf processd.",
+   "The failover control channel is either up or down. The failover control channel is defined by thefailover linkandshow failovercommands, which indicate whether the failover link channel is up or down."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-723007: WebVPN Citrix ICA connectionconnectionlist is broken.",
+   "TheSecure Firewall ASAinternal Citrix connection list is broken."
+  ],
+  1
+ ],
+ [
+  [
+   "fltProcessorUnitThermalProblem:[typeInKp] thermal state is upper-critical. [faultMsg]",
+   "This fault typically occurs when the processor unit thermal sensors have detected a problem."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-719020: WebVPN uservpnuserauthorization completed successfully.",
+   "The primary unit has detected that the network interface on the secondary unit is okay. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-718012: Sent HELLO request toIP_address",
+   "TheSecure Firewall ASAtransmitted a hello request message to a load-balancing peer."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-342007: REST API image has been uninstalledsuccessfully.",
+   "The old REST API image must be successfully uninstalled before a new one can be installed."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMacpoolPoolEmpty:MAC pool [name] is empty",
+   "This fault typically occurs when a MAC address pool does not contain any MAC addresses."
+  ],
+  1
+ ],
+ [
+  [
+   "fltVnicProfileProfileConfigIncorrect:The Port Profile [name] has an invalid configuration.",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported chassis. For example, the model, vendor, or revision is not recognized."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPkiTPStatus:[name] Trustpoint\u2019s cert-chain is invalid, reason: [certStatus].",
+   "This fault occurs when certificate status of TrustPoint has become invalid."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-334004: Authentication request for NAC Clientless host -host-address",
+   "You have enabled TCP system log messaging and the syslog server cannot be reached, or when using the ASA syslog server (PFSS)and the disk on the Windows NT system is full, or when the auto-update timeout is configured and the auto-update server isnot reachable."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-713239:IP_Address: Tunnel Rejected: The maximum tunnel count allowed has been reached",
+   "An attempt to create a tunnel has occurred after the maximum number of tunnels allowed has been reached."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-109017: User atIP_addressexceeded auth proxy connection limit (max)",
+   "The fiber has joined fiber in an unfinished state."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-213005%: Dynamic-Access-Policy action(DAP) action aborted",
+   "When the device is configured to authenticate IPsec tunnels using digital certificates, CRLs may be cached in memory to avoid requiring a CRL download during each connection. This message is generated if a received CRL is too large to fit in the cache. Large CRLs are still supported even though they are not cached. This means that the CRL will be downloaded with each IPsec connection, which may affect performance during IPsec connection bursts."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-315004: Fail to establish SSH session because RSA hostkey retrieval failed.",
+   "The ASA cannot find the RSA host key, which is required for establishing an SSH session. The ASA host key may be absent because it was not generated or because the license for this ASA does not allow DES or 3DES encryption."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-724002: Groupgroup-nameUseruser-nameIPIP_addressWebVPN session not terminated. Cisco Secure Desktop was not running on the client's workstation.",
+   "This fault typically occurs when the FRU information for a fan module is corrupted or malformed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-718038: Slave processednumber_of_timeoutstimeouts",
+   "The ASA has detected a malicious pattern in an e-mail address and drops the connection. An attack is in progress."
+  ],
+  0
+ ],
+ [
+  [
+   "fltStorageRaidBatteryDegraded:RAID Battery on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]RAID Battery on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "TheSecure Firewall ASAcannot process the SNMP request being sent to it for the following reasons:"
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentPsuThermalThresholdNonCritical:Power supply [id] in chassis [id] temperature: [thermal]Power supply [id] in fabric interconnect [id] temperature: [thermal]Power supply [id] in server [id] temperature: [thermal]",
+   "This fault occurs when the temperature of a PSU module has exceeded a non-critical threshold value, but is still below the critical threshold. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720002: (VPN-unit) Starting VPN Stateful Failover Subsystem...",
+   "An internal error occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-323004: Modulestring onefailed to write softwarenewver(currentlyver),reason. Hw-module reset is required before further use.",
+   "The fiber scheduler is scheduling rotten fiber, so it cannot continue terminating."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-725014 SSL lib error. Function:functionReason:reason",
+   "AC power has been lost, or the power supply has failed."
+  ],
+  0
+ ],
+ [
+  [
+   "fltAaaUserLocaleUserLocaleNotDeployed:For user: [name] locale [name] can\u2019t be assigned. Error: [configStatusMessage].For Ldap Group: [name] locale [name] can\u2019t be assigned. Error: [configStatusMessage].",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported user locale for ldap groups or local users."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713255: IP =peer-IP, Received ISAKMP Aggressive Mode message 1 with unknown tunnel group namegroup-name",
+   "This fault typically occurs when a fabric interconnect reports one of the following connectivity states for a virtual interface:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-201005: FTP data connection failed for IP_addressIP_address",
+   "This fault typically occurs when the firmware was not properly install on the system"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-718024: Send CFG UPDATE failure toIP_address",
+   "An error has occurred while attempting to send a Configuration Update message to one of the load balancing peers. This might indicate a network problem or an internal software error."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMemoryUnitThermalThresholdNonCritical:DIMM [location] on server [chassisId]/[slotId] temperature: [thermal]DIMM [location] on server [id] temperature: [thermal]",
+   "This fault occurs when the temperature of a memory unit on a blade or rack server exceeds a non-critical threshold value, but is still below the critical threshold. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720040: (VPN-unit) VPN failover client is transitioning to standby state.",
+   "The REST API Agent could fail to start or crash for various reasons, and the reason is specified."
+  ],
+  0
+ ],
+ [
+  [
+   "%%ASA-5-105543: (Primary|Secondary) Disabling load balancer probe responses",
+   "The Active unit is no longer responding to probes from the Azure Load Balancer."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-722041: TunnelGrouptunnel_groupGroupPolicygroup_policyUserusernameIPpeer_addressNo IPv6 address available for SVC connection.",
+   "An IPv6 address was not available for assignment to the remote SVC client."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-103002: (Primary) Other firewall network interface interface_number OK.",
+   "The primary unit has detected that the network interface on the secondary unit is okay. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentPsuOffline:Power supply [id] in chassis [id] power: [power]Power supply [id] in fabric interconnect [id] power: [power]Power supply [id] in fex [id] power: [power]Power supply [id] in server [id] power: [power]",
+   "This fault typically occurs as a result of a satellite wiring problem on the network-facing interface of an I/O module and Cisco FPR Manager detects that at least one IOM uplink is misconnected to one of the fabric interconnect ports."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-720054: (VPN-unit) Failed to add new cTCP record, peer=IP_address, port=port.",
+   "TheSecure Firewall ASAcannot allocate a structure to track the data connection for FTP because of insufficient memory."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-409014: No valid authenticationsendkey is available on interfacenameif.",
+   "The authentication key configured on the interface is not valid."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMgmtInterfaceInbandUnsupportedServer:[configMessage]",
+   "Initiator either cannot be resolved or does not match with one of the targets."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-318122: IPsec sent asmessagesto OSPFv3 for interfaces. Recovery attemptd",
+   "An internal error has occurred. The system is trying to reopen the secure socket and to recover."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricVlanPrimaryVlanMissingForCommunity:Primary Vlan can not be resolved for community vlan [name]",
+   "The type of ACL to be applied is incorrect. An IPv6 ACL has been configured as an IPv4 ACL through thevpn-filtercommand."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentFanPerfThresholdCritical:Fan [id] in Fan Module [tray]-[id] under chassis [id] speed: [perf]Fan [id] in fabric interconnect [id] speed: [perf]Fan [id] in Fan Module [tray]-[id] under server [id] speed: [perf]",
+   "Additional routes will be added to the table."
+  ],
+  0
+ ],
+ [
+  [
+   "fltComputePhysicalInoperable:Server [id] (service profile: [assignedToDn]) health: [operability]Server [chassisId]/[slotId] (service profile: [assignedToDn]) health: [operability]",
+   "The PIM tunnel is not usable without a source address. This situation occurs because a numbered interface cannot be found, or because of an internal error."
+  ],
+  0
+ ],
+ [
+  [
+   "fltComputeRtcBatteryInoperable:RTC Battery on server [chassisId]/[slotId] operability: [operability]",
+   "This fault is raised when the CMOS battery voltage is below the normal operating range. This impacts the system clock."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-304007: URL ServerIP_addressnot responding, ENTERING ALLOW mode.",
+   "A CRL is retrieved, but found to be invalid and cannot be inserted into the cache because of thefailure_reason."
+  ],
+  0
+ ],
+ [
+  [
+   "fltMgmtEntityDevice-2-shared-storage error:device [chassis2], error accessing shared-storage",
+   "The FSM could not send the VM profile configuration to the subordinate fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-719023: WebVPN uservpnuserhas not been successfully authenticated. Access denied.",
+   "This fault occurs when the flexflash controller is unhealthy."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-339006: Umbrella resolvercurrent resolver ipv46is reachable, resuming Umbrella redirect.",
+   "Umbrella had failed to open, and the resolver was unreachable. The resolver is now reacheable and service is resumed."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMemoryBufferUnitThermalThresholdNonRecoverable:Buffer Unit [id] on server [chassisId]/[slotId] temperature: [thermal]Buffer Unit [id] on server [id] temperature: [thermal]",
+   "The capability catalog failed to load fully. This may be caused by either a faulty FPRM image or a faulty catalog image."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-713905:Descriptive_event_string.",
+   "This fault occurs when a slot is not operationally up."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-713264: Received local IP Proxy Subnet data in ID Payload: AddressIP_address, Mask/prefix_len, Protocolprotocol, Portport{\u201cReceived remote IP Proxy Subnet data in ID Payload: Address%a, Mask/%d, Protocol%u, Port%u\u201d}",
+   "The VPN failover subsystem failed to register to the core failover subsystem. The VPN failover subsystem cannot be started, which may be caused by initialization problems of other subsystems."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-323002: Modulemodule_idis not able to shut down, shut down request not answered.",
+   "The module installed did not respond to a shutdown request."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-334002: EAPoUDP association successfully established -host-address",
+   "An EAPoUDP association has been successfully established with the host."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-717018: CRL received fromissuerhas too many entries to process (number of entries =number_of_entries, maximum number allowed =max_allowed)",
+   "An IPsec connection caused a CRL that includes more revocation entries than can be supported to be downloaded. This is an error condition that will cause the connection to fail. This message is rate limited to one message every 10 seconds."
+  ],
+  1
+ ],
+ [
+  [
+   "fltComputePhysicalUnidentified:Server [id] (service profile: [assignedToDn]) has an invalid FRU: [presence]Server [chassisId]/[slotId] (service profile: [assignedToDn]) has an invalid FRU: [presence]",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported server or CPU."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-722003: IPIP_addressError authenticating SVC connect request.",
+   "The user took too long to download and connect."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713239:IP_Address: Tunnel Rejected: The maximum tunnel count allowed has been reached",
+   "This fault occurs when the processor temperature on a blade or rack server exceeds a non-critical threshold value, but is still below the critical threshold. Be aware of the following possible contributing factors:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-108004:action_class: actionESMTPreq_respfromsrc_ifc:sip|sporttodest_ifc:dip|dport;further_info",
+   "When theSecure Firewall ASAis an easy VPN remote device or server, the peer certificate includes asubject name that does not match the output of theca verifycertdncommand. A man-in-the-middle attack might be occurring, where a device spoofs the peer IP address and tries to intercept a VPN connection from theSecure Firewall ASA."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-318109: OSPFv3 has received an unexpected message: 0x/ 0x",
+   "This fault typically occurs when the FRU information for an FI I/O module is corrupted or malformed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-212002: Unable to open SNMP trap channel (UDP portport) on interfaceinterface_number, error code =code",
+   "None set."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-103003: (Primary) Other firewall network interface interface_number failed.",
+   "The primary unit has detected a bad network interface on the secondary unit. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-713231 Internal Error, ike_lock trying to unlock bit that is not locked for typetype",
+   "The Zonelab Integrity Server cannot reestablish a connection before timeout. In an active/standby failover setup, the SSL connection between a Zonelab Integrity Server and theSecure Firewall ASAneeds to be reestablished after a failover."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-338101: Dynamic filteractionwhitelistedprotocoltraffic fromin_interface:src_ip_addr/src_port(mapped-ip/mapped-port)toout_interface:dest_ip_addr/dest_port,(mapped-ip/mapped-port),sourcemalicious addressresolved fromlocal or dynamiclist:domain name",
+   "Traffic from a domain, which is on an allow list in the dynamic filter database, has appeared."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-209003: Fragment database limit ofnumberexceeded: src =source_address, dest =dest_address, proto =protocol, id =number",
+   "There is a gap in fragment numbers."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSysdebugAutoCoreFileExportTargetAutoCoreTransferFailure:Auto core transfer failure at remote server [hostname]:[path] [exportFailureReason]",
+   "This fault occurs when Cisco Firepower Manager cannot transfer a core file to a remote TFTP server. This is typically the result of one of the following issues:"
+  ],
+  1
+ ],
+ [
+  [
+   "fltComputePhysicalAssociationFailed:Service profile [assignedToDn] failed to associate with server [id]Service profile [assignedToDn] failed to associate with server [chassisId]/[slotId]",
+   "No security association is linked to the Phase 2 connection entry."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentPsuInoperable:Power supply [id] in chassis [id] operability: [operability]Power supply [id] in fabric interconnect [id] operability: [operability]Power supply [id] in fex [id] operability: [operability]Power supply [id] in server [id] operability: [operability]",
+   "The OCCAM has a corrupted standalone block."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-106101 Number of cached deny-flows for ACL log has reached limit (number).",
+   "NOTE: This fault is not currently implemented by Firepower ManagerThis fault is present only as a placeholder, possibly for another release,such as stand-alone rack servers.---This fault occurs when a Patrol Read operation has failed."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFabricEthLanPcOverlapping-vlan:Overlapping VLANs detected on Fabric: [switchId], Port: [portId] in configured VLANs: [overlappingVlans]",
+   "The REST API Agent must be successfully started before a REST API Client can configure the ASA."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-722050: GroupgroupUseruserIPipSession terminated: SVC not enabled for the user.",
+   "The user logged in through the AnyConnect client. The SVC service is not enabled for this user. The session connection has been terminated."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-201009: TCP connection limit ofnumberfor hostIP_addressoninterface_nameexceeded",
+   "TheSecure Firewall ASAreceived the displayed ID information during the negotiation."
+  ],
+  0
+ ],
+ [
+  [
+   "fltVnicEtherPinningMisconfig:Hard pinning target for eth vNIC [name], service profile [name] is missing or misconfigured",
+   "This fault occurs when one or more vNIC target uplink ports or port channels for a hard-pinned LAN pin group are either missing or misconfigured as the wrong port type."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-105551: (Primary|Secondary) Error encrypting Azure secret key",
+   "An internal error occurred while decrypting the Azure secret key in the configuration."
+  ],
+  1
+ ],
+ [
+  [
+   "fltNetworkElementThermalThresholdCritical:Fabric Interconnect [id] temperature: [thermal]",
+   "This fault occurs when the temperature of a Fabric Interconnect exceeds a critical threshold value. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageVirtualDriveReconstructionFailed:Virtual drive [id] on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]Virtual drive [id] on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "This fault occurs when an app instance start fails."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-716500: internal error in:function: Fiber library cannot locate AK47 instance",
+   "The fiber library cannot locate the application kernel layer 4 to 7 instance."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-321002: Resourcevar1rate limit ofvar2reached.",
+   "The results of monitoring the link status of the specified interface have been reported. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-332004: Web CacheIP_address/service_IDlost",
+   "A service from the web cache of theSecure Firewall ASAwas lost."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-719015: Parsed emailproxy session pointer fromsource_addressusername: mailuser =mail_user, vpnuser =VPN_user, mailserver =server",
+   "This fault typically occurs when the FRU information for a power supply unit is corrupted or malformed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715078: Received %s LAM attribute",
+   "The OCCAM pool has no associated arena."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-313005: No matching connection for ICMP error message:icmp_msg_infooninterface_nameinterface. Original IP payload:embedded_frame_info icmp_msg_info =icmpsrc src_interface_name:src_address[([idfw_user|FQDN_string],sg_info)]dst dest_interface_name:dest_address[([idfw_user|FQDN_string],sg_info)](typeicmp_type,codeicmp_code)embedded_frame_info =protsrc source_address/source_port[([idfw_user|FQDN_string],sg_info)]dst dest_address/dest_port[(idfw_user|FQDN_string),sg_info]",
+   "Traffic to a domain name, which is on an allow list in the dynamic filter database, has appeared."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFabricEthLanPcMissingPrimaryVlan:Primary vlan missing from fabric: [switchId], port-channel: [portId].",
+   "The FSM could not send the fibre channel uplink configuration to the fabric interconnects during the initial cluster configuration or the setup."
+  ],
+  0
+ ],
+ [
+  [
+   "fltComputePhysicalInsufficientlyEquipped:Server [id] (service profile: [assignedToDn]) has insufficient number of DIMMs, CPUs and/or adaptersServer [chassisId]/[slotId] (service profile: [assignedToDn]) has insufficient number of DIMMs, CPUs and/or adapters",
+   "This fault typically occurs because Cisco FPR Manager has detected that the server has an insufficient number of DIMMs, CPUs, and/or adapters."
+  ],
+  1
+ ],
+ [
+  [
+   "fltPkiKeyRingKeyRingNotDeployed:Keyring [name] can\u2019t be deployed. Error: [configStatusMessage]",
+   "This fault typically occurs because Cisco FPR Manager has detected an invalid Keyring."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageFlexFlashVirtualDriveDegraded:FlexFlash Virtual Drive RAID degraded on server [chassisId]/[slotId]. Reason: [raidState]FlexFlash Virtual Drive RAID degraded on server [id]. Reason: [raidState]",
+   "A TCP, UDP, or ICMP address translation slot was created. The slot translates the source socket from the local side to the global side. In reverse, the slot translates the destination socket from the global side to the local side."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715050: Claims to be IOS but failed authentication",
+   "The username is authenticated by the AAA server."
+  ],
+  0
+ ],
+ [
+  [
+   "fltProcessorUnitVoltageThresholdNonCritical:Processor [id] on server [chassisId]/[slotId] voltage: [voltage]Processor [id] on server [id] voltage: [voltage]",
+   "This fault occurs when the processor voltage is out of normal operating range, but hasn\u2019t yet reached a critical stage. Normally the processor recovers itself from this situation"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-318105: lsidiadvitype 0xxgatewayimetricdnetworkimaskiprotocol#xattr#xnet-metricd",
+   "The index into the PDB is out of range."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-105529: (Primary|Secondary) Error creating authentication header from access token",
+   "An internal error occurred while attempting to create an authentication header needed for changing Azure routes."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-106015: Deny TCP (no connection) fromIP_address/port toIP_address/port flags tcp_flags on interface interface_name.",
+   "The link for a network-facing adapter interface is misconnected. Cisco FPR Manager raises this fault when it detects that the connectivity between a previously configured port on a fabric interconnect or FEX and its prior peer network-facing adapter interface is misconnected or missing."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-717005: PKCS #12 export succeeded for trustpointtrustpoint_name.",
+   "Parsing of a downloaded ACL failed."
+  ],
+  0
+ ],
+ [
+  [
+   "fltMemoryUnitThermalThresholdCritical:DIMM [location] on server [chassisId]/[slotId] temperature: [thermal]DIMM [location] on server [id] temperature: [thermal]",
+   "Address assignment failed for the AnyConnect session. No IP addresses are available."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-106023: Deny protocol src [interface_name:source_address/source_port] [([idfw_user|FQDN_string],sg_info)] dstinterface_name:dest_address/dest_port[([idfw_user|FQDN_string],sg_info)] [type {string}, code {code}] byaccess_group acl_ID[0x8ed66b60, 0xf8852875]",
+   "This fault occurs in an unlikely event that the shared storage selected for writing the cluster state is not accessible. This fault is typically a transient fault. You might see this fault when one of the following occurs: (a) the Fabric Interconnect boots, (b) the IO Module is reset, (c) the rack server is reboot, or (d) system is upgraded/downgraded. If this fault is not cleared after the system returns to normal operation following the reboot/reset/upgrade/downgrade, then it may affect the full HA functionality of the Fabric Interconnect cluster."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-720046: (VPN-unit) End bulk syncing of state information on standby unit",
+   "This fault is raised when the CMOS battery voltage is below the normal operating range. This impacts the system clock."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-409015: Key IDkey-idreceivedon interfacenameif.",
+   "The ID is not found in the configured key chain."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715047: processingpayload_descriptionpayload",
+   "Details of the IKE payload received and being processed appear."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718064: Admin. interfaceinterface_nameis down.",
+   "An error has occurred while attempting to send an OOS indicator message to one of the load balancing peers. This might indicate a network problem or an internal software error."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-722025: SVC Global Compression Disabled",
+   "Subsequent SVC connections will not be allowed to perform tunnel compression."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-717032: OCSP status check failed. Reason:reason_string",
+   "When the OCSP status check fails, this message is generated with the reason for the failure. The following list mentions the failure reasons:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-733103: Threat-detection removes host%Ifrom shun list",
+   "A host has been shunned by the threat detection engine. When you use theclear-threat-detection shuncommand, the specified host will be removed from the shunned list."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105003: (Primary) Monitoring on interface interface_name waiting",
+   "TheSecure Firewall ASAis testing the specified network interface with the other unit of the failover pair. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720005: (VPN-unit) VPN failover timer thread started.",
+   "The VPN failover timer processing thread is started at boot time."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMemoryBufferUnitThermalThresholdNonRecoverable:Buffer Unit [id] on server [chassisId]/[slotId] temperature: [thermal]Buffer Unit [id] on server [id] temperature: [thermal]",
+   "This fault occurs when the temperature of a memory buffer unit on a blade or rack server has been out of the operating range, and the issue is not recoverable. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-109039: AAA Authentication:Dropping an unsupported IPv6/IP46/IP64 packet fromlifc:laddrtofifc:faddr",
+   "This fault typically occurs when a PinGroup has an unresolvable target."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-717054: Thetypecertificate in the trustpointtp nameis due to expire innumberdays. Expirationdate and timeSubject Namesubject nameIssuer Nameissuer nameSerial Numberserial number",
+   "The specified certificate in the trustpoint is about to expire."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715076: Computing hash for ISAKMP",
+   "FXOS discovered the chassis with only one link in the first attempt although the chassis discovery policy is configured for four links. Until the discovery is successful with that link, the remaining links cannot be marked as active."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-718038: Slave processednumber_of_timeoutstimeouts",
+   "TheSecure Firewall ASAin the member role processed the specified number of peer timeouts."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-716037: GroupnameUseruserFile Access: Useruserfailed to login into theserverserver.",
+   "This fault typically occurs as a result of one of the following issues:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-720031: (VPN-unit) HA status callback: Invalid event received. event=event_ID.",
+   "The VPN failover subsystem received an invalid callback event from the underlying failover subsystem."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718084: Public/cluster IP not on the same subnet: publicIP_address, masknetmask, clusterIP_address",
+   "The cluster IP address is not on the same network as the outside interface of theSecure Firewall ASA."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricEthLanPcEpDown:[type] Member [slotId]/[aggrPortId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership][type] Member [slotId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership]",
+   "This fault typically occurs when a member port in an Ethernet port channel is down."
+  ],
+  1
+ ],
+ [
+  [
+   "fltPowerChassisMemberChassisPsuRedundanceFailure:Chassis [id] was configured for redundancy, but running in a non-redundant configuration.",
+   "This fault typically occurs when chassis power redundancy has failed."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricEthEstcPcEpDown:[type] Member [slotId]/[aggrPortId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership][type] Member [slotId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership]",
+   "The local unit has become the standby unit of the failover pair."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentChassisThermalThresholdCritical:Chassis thermal state is [thermal]. [faultMsg]",
+   "This fault occurs under the following conditions:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-723005: No channel to set up WebVPN Citrix ICA connection.",
+   "An ICMP director/backup/forwarder flow has been torn down."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-109207: UAUTH Sessionsession, Userusername, Assigned IPIP Address, Succeeded updating entry.",
+   "The OSPF process is being reset, and it is going to select a new router ID, which brings down all virtual links. To make them work again, you need to change the virtual link configuration on all virtual link neighbors."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-318005: lsidip_addressadvIP_addresstypenumbergatewaygateway_addressmetricnumbernetworkIP_addressmasknetmaskprotocolhexattrhexnet-metricnumber",
+   "One of the components of the downloaded authorization has a configuration error. The entire text of the element is included in the message. This message is usually caused by an invalid access-list command statement."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-338103: Dynamic filteractionwhitelistedprotocoltraffic fromin_interface:src_ip_addr/src_port(mapped-ip/mapped-port)toout_interface:dest_ip_addr/dest_port,(mapped-ip/mapped-port),sourcemalicious addressresolved fromlocal or dynamiclist:ip address/netmask",
+   "Traffic from an IP address, which is on an allow list in the dynamic filter database, has appeared."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-719025: Email Proxy DNS name resolution failed forhostname.",
+   "The ASA has no more address translation slots available."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-105552: (Primary|Secondary) Stopped HA",
+   "This fault typically occurs when the FRU information for an I/O module is corrupted or malformed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-718017: Got timeout for unknown peerIP_addressmsg typemessage_type",
+   "TheSecure Firewall ASAprocessed a timeout for an unknown peer. The message was ignored because the peer may have already been removed from the active list."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-105505: (Primary|Secondary) Failed to connect to peer unit peer-ip:port",
+   "This HA unit has failed to establish communication with its HA peer."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-719009: Email Proxy service is starting.",
+   "An IPsec API (internal) error has occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-341010: Storage device with serial numberser_no[inserted into | removed from] baybay_no",
+   "TheSecure Firewall ASAhas detected insertion or removal events and generates this syslog message immediately."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentChassisUnacknowledged:Chassis [id] connectivity configuration: [configState]",
+   "This fault typically occurs when or more of the I/O module links from the chassis are unacknowledged."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-305010: Teardown {dynamic|static} translation frominterface_name:real_address[(idfw_user)] tointerface_name:mapped_addressdurationtime",
+   "TheSecure Firewall ASAis deleting a route for the private address or networks of the peer. In this case, the peer is either a client or a L2L peer with an unknown address. Both of these cases use dynamic crypto maps to allow the tunnel."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSmSlotBladeNotWorking:Slot [slotId] has a fault, either blade discovery is failed or service profile association is failed",
+   "The administrator is alerted to an upcoming CA certificate expiration so that the administrator can take action to export the replacement certificate to all ASAs that will require the new certificate."
+  ],
+  0
+ ],
+ [
+  [
+   "fltVnicEtherConfig-failed:Eth vNIC [name], service profile [name] failed to apply configuration",
+   "The crypto map associated with this VPN tunnel is missing critical information."
+  ],
+  0
+ ],
+ [
+  [
+   "fltLsServerInaccessible:Service profile [name] cannot be accessed",
+   "Cisco FPR Manager cannot communicate with the CIMC on the server. This fault typically occurs as a result of one of the following issues:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-109208: UAUTH Sessionsession, Userusername, Assigned IPIP Address, Failed updating entry - no entry.",
+   "The adapter\u2019s vif-namespace activation failed due to insufficient resources. Cisco FPR Manager raises this fault when the number of deployed VIF resources exceeds the maximum VIF resources available on the adapter connected to the fabric interconnect."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-323003: Modulemodule_idis not able to reload, reload request not answered.",
+   "This fault occurs when Cisco FPR cannot send or receive data through an uplink port."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-338202: Dynamic filter monitored greylistedprotocoltraffic fromin_interface:src_ip_addr/src_port(mapped-ip/mapped-port) toout_interface:dest_ip_addr/dest_port(mapped-ip/mapped-port), destinationmalicious addressresolved fromlocal or dynamiclist:domain name,threat-level:level_value,category:category_name",
+   "A description of an IKE protocol event or packet was provided."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPowerBudgetPowerCapReachedCommit:P-State lowered as consumption hit power cap for server [chassisId]/[slotId]P-State lowered as consumption hit power cap for server [id]",
+   "TheSecure Firewall ASAis iterating through the crypto maps looking for configuration information."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-109029: Parsing downloaded ACL:string",
+   "A syntax error occurred while parsing an access list that was downloaded from a RADIUS server during user authentication."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-719007: Email Proxy sessionpointercannot be found forsource_address.",
+   "If this message was preceded by message 321100, memory allocation error, the message indicates that there were not enough resources to create the PDP context. If not, it was not preceded by message 321100. For version 0, it indicates that the corresponding PDP context cannot be found. For version 1, if this message was preceded by message 324001, then a packet processing error occurred, and the operation stopped."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-719021: WebVPN user:vpnuseris not checked against ACL.",
+   "This syslog is needed to indicate that an SSH rekey has successfully completed. This is a Common Criteria certification requirement."
+  ],
+  0
+ ],
+ [
+  [
+   "fltVnicEtherVirtualization-conflict:Multiple connection policies cannot be assigned to the same Eth vNIC",
+   "This fault occurs when multiple connection policies are assigned to the same vNIC."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentFanModuleFanModuleUnidentified:Fan module inserted unidentified",
+   "This fault typically occurs when Cisco FPR Manager can not identify a Fan Tray"
+  ],
+  1
+ ],
+ [
+  [
+   "fltPkiKeyRingStatus:[name] Keyring\u2019s certificate is invalid, reason: [certStatus].",
+   "This fault occurs when certificate status of Keyring has become invalid."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentChassisBoot-problem:Device [id] Boot Status: [bootStatus]",
+   "The IKE subsystem received an SPI value from IPsec."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-718021: Sent KEEPALIVE response toIP_address",
+   "TheSecure Firewall ASAtransmitted a Keepalive Response message to a load balancing peer."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-212006: Dropping SNMP request fromsrc_addr/src_porttoifc:dst_addr/dst_portbecause:reason username",
+   "TheSecure Firewall ASAcannot process the SNMP request being sent to it for the following reasons:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-716513: internal error in:function: Fiber in callback blocked on other channel",
+   "The fiber in the callback was blocked on the other channel."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-336015: \u201cUnable to open socket for AS as_number\u201d",
+   "A hardware or software error occurred."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-719019: WebVPN user:vpnuserauthorization failed.",
+   "The check failed. The check either matched a deny or did not match anything, such as an implicit deny. The connection was denied by the user acl_ID, which was defined according to the AAA authorization policy on the Cisco Secure Access Control Server (ACS)."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentSwitchIOCardThermalThresholdCritical:[side] FI IOM [chassisId]/[id] ([switchId]) temperature: [thermal]",
+   "This fault occurs when the temperature of an FI I/O module has exceeded a critical threshold value. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentIOCardUnsupportedConnectivity:IOM [chassisId]/[id] ([switchId]) current connectivity does not match discovery policy or connectivity is unsupported: [configState]",
+   "An audit request is being sent for the specified assigned IP address."
+  ],
+  0
+ ],
+ [
+  [
+   "fltComputePhysicalUnidentified:Server [id] (service profile: [assignedToDn]) has an invalid FRU: [presence]Server [chassisId]/[slotId] (service profile: [assignedToDn]) has an invalid FRU: [presence]",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported CPU in the server. For example, the model, vendor, or revision is not recognized."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-722023: GroupgroupUseruser-nameIPIP_addressSVC connection terminated {with|without} compression",
+   "The SVC terminated either with or without compression."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentPsuPowerSupplyShutdown:Power supply [id] in chassis [id] shutdown reason:[powerStateQualifier]",
+   "An authentication request cannot be processed because the server has too many requests pending."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-713213: Deleting static route for L2L peer that came in on a dynamic map. address:IP_address, mask:netmask",
+   "Cisco FPR Manager cannot communicate with the CIMC on the server. This fault typically occurs as a result of one of the following issues:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-313008: Denied ICMPv6 type=number, code=codefromIP_addresson interfaceinterface_name",
+   "When using theicmpcommand with an access list, if the first matched entry is a permit entry, the ICMPv6 packet continues processing. If the first matched entry is a deny entry, or an entry is not matched, theSecure Firewall ASAdiscards the ICMPv6 packet and generates this message."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-326027: Corrupted update:error_message",
+   "A reconnection attempt has occurred. An SVC connection is replacing a previously closed connection. There is no existing connection for this session because the connection was already dropped by the SVC or theSecure Firewall ASA. You may be having trouble connecting."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-713256: IP =peer-IP, Sending spoofed ISAKMP Aggressive Mode message 2 due to receipt of unknown tunnel group. Aborting connection.",
+   "When the peer specifies an invalid tunnel group, theSecure Firewall ASAwill still send message 2 to prevent the peer from gleaning tunnel group information."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713249:META-DATAReceived unsupported authentication results:result",
+   "A CRL is being retrieved."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-720022: (VPN-unit) Cannot find trustpointtrustpoint",
+   "This fault occurs when the temperature of a memory buffer unit on a blade or rack server has been out of the operating range, and the issue is not recoverable. Be aware of the following possible contributing factors:"
+  ],
+  0
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: QoS Classification Definition classification configuration on secondary(FSM-STAGE:sam:dme:QosclassDefinitionConfigGlobalQoS:SetPeer)",
+   "A problem occurred when a user of the CIFS protocol attempted to remove a folder, which probably occurred because of a permissions problem or a problem communicating with the server on which the file resides."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentPsuThermalThresholdCritical:Power supply [id] in chassis [id] temperature: [thermal]Power supply [id] in fabric interconnect [id] temperature: [thermal]Power supply [id] in server [id] temperature: [thermal]",
+   "This fault occurs when the temperature of a PSU module has exceeded a critical threshold value. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720061: (VPN-unit) VPN Stateful failover Sync Thread is enabled.",
+   "This fault is raised Blade LED changes to amber blinking"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-322004: No management IP address configured for transparent firewall. Dropping protocolprotocolpacket frominterface_in:source_address/source_porttointerface_out:dest_address/dest_port",
+   "TheSecure Firewall ASAdropped a packet because no management IP address was configured in the transparent mode."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-208005: (function:line_num) clear command return code",
+   "TheSecure Firewall ASAreceived a nonzero value (an internal error) when attempting to clear the configuration in flash memory. The message includes the reporting subroutine filename and line number."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-336016: Unknown timer type timer_type expiration",
+   "AnSecure Firewall ASAwith a 4GE-SSM installed experienced a short power surge, then rebooted. As a result, the 4GE-SSM may come online in an unresponsive state. TheSecure Firewall ASAhas detected that the 4GE-SSM is unresponsive, and automatically restarts the 4GE-SSM."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-109006: Authentication failed for useruser from inside_address/inside_port to outside_address/outside_port oninterface interface_name.",
+   "When a VPN user is sucessfully added, this message is generated."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-717041: Local CA Server event:event info.",
+   "Event details that have occurred on the CA server are reported to allow you to track or debug the CA server health, including when the CA server is created, enabled, or disabled, or when the CA server certificate is rolled over."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-109201: UAUTH Sessionsession, Userusername, Assigned IPIP Address, Succeeded adding entry.",
+   "When a VPN user is sucessfully added, this message is generated."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-323007: Module in slotslotexperienced a firware failure and the recovery is in progress.",
+   "A failure notification from the REST API Agent has been received and a restart of the Agent is being attempted."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-722007: GroupgroupUseruser-nameIPIP_addressSVC Message:type-num/ERROR:message",
+   "The ASA cannot apply the NAC settings because no memory is available."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-723010: Groupgroup-name, Useruser-name, IPIP_address: WebVPN Citrix received closing channelchannelfor invalid connectionconnection.",
+   "An abort was received on a nonexistent Citrix connection, which can be caused by massive data flow (such as stress testing) or a high volume of ICA connections, especially during network delay or packet loss."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715004: subroutinename() Q Send failure: RetCode (return_code)",
+   "This fault occurs if there is an issue in Inband interface configuration."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-106011: Deny inbound (No xlate) protocol src Interface:IP/port dst Interface-nameif:IP/port",
+   "The message appears under normal traffic conditions if there are internal users that are accessing the Internet through a web browser. Any time a connection is reset, when the host at the end of the connection sends a packet after theSecure Firewall ASAreceives the connection reset, this message appears. It can typically be ignored."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-720016: (VPN-unit) Failed to initialize default timer#index.",
+   "The VPN failover subsystem failed to initialize the given timer event. The VPN failover subsystem cannot be started at boot time."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-109010: Auth from inside_address/inside_port tooutside_address/outside_port failed (too many pending auths) on interfaceinterface_name.",
+   "The user took too long to download and connect."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-723007: WebVPN Citrix ICA connectionconnectionlist is broken.",
+   "This fault occurs when the connectivity between a server and a FEX is added or changed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-334008: NAC EAP association initiated -host-address, EAP context:EAP-context",
+   "EAPoUDP has initiated EAP with the host."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-326007: Entry-update failed for (IP_address,IP_address)",
+   "The maximum number of TCP connections to the specified global address was exceeded."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-325005: Invalid IPv6 Extension Header Content:string.detailregarding protocol, ingress and egress interface",
+   "An IPv6 packet with a bad extension header has been detected."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-713233: (VPN-unit) Remote network (remote network) validated for network extension mode.",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported user role for ldap groups or local users."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-402116: IPSEC: Received anprotocolpacket (SPI=spi, sequence number=seq_num) fromremote_IP(username) tolocal_IP. The decapsulated inner packet doesn\u2019t match the negotiated policy in the SA. The packet specifies its destination aspkt_daddr, its source aspkt_saddr, and its protocol aspkt_prot. The SA specifies its local proxy asid_daddr/id_dmask/id_dprot/id_dportand its remote proxy asid_saddr/id_smask/id_sprot/id_sport.",
+   "A decapsulated IPsec packet does not match the negotiated identity. The peer is sending other traffic through this security association, which may be caused by a security association selection error by the peer, or it may be part of an attack. This message is rate limited to no more than one message every five seconds."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-735003 IPMI: Power Supplyvar1: OK",
+   "A power supply has been restored to normal operation."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-314005: RTSP clientsrc_intf:src_IPdenied access to URLRTSP_URL.",
+   "An RTSP client tried to access a prohibited site."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFirmwareSystemInfraBundleInstallAppFailure:Software Pack upgrade failure",
+   "This fault typically occurs when the bundle upgrade failed to install the application"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-725010: Device supports the followingncipher(s).",
+   "The number of ciphers supported by theSecure Firewall ASAfor an SSL session are listed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-336001 Routedesination_networkstuck-in-active state in EIGRP-ddb_name as_num.Cleaning up",
+   "The SIA state means that an EIGRP router has not received a reply to a query from one or more neighbors within the time allotted (approximately three minutes). When this happens, EIGRP clears the neighbors that did not send a reply and logs an error message for the route that became active."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-305005: No translation group found forprotocolsrcinterface_name:source_address/source_port[(idfw_user)] dstinterface_name:dest_address/dest_port[(idfw_user)]",
+   "A user successfully logged into the server using the CIFS protocol"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-324011: SubscriberIMSIlocation changed during handoff from MCC/MNCmccmnc(IE type[/IE type]) [CellIDcellID]\u00a0to MCC/MNCmccmnc(IE type[/IE type]) [CellIDcellID]",
+   ""
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718042: Unable to ARP forIP_address",
+   "Stateful Failover cannot allocate a new connection on the standby unit. This may be caused by little or no RAM memory available within theSecure Firewall ASA."
+  ],
+  0
+ ],
+ [
+  [
+   "",
+   "Phase 2 messages are being enqueued after Phase 1 completes."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFabricNetflowMonSessionFlowMonConfigFail:Configuration for traffic flow monitor [name] failed, reason: [configFailReason]",
+   "This fault typically occurs when the configuration of a traffic flow monitoring session is incorrect."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricEthLanPcEpDown:[type] Member [slotId]/[aggrPortId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership][type] Member [slotId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership]",
+   "The FSM could not send the user configuration to the subordinate fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-105001: (Primary) Disabling failover.",
+   "In version 7.x and later, this message may indicate the following: failover has been automatically disabled because of a mode mismatch (single or multiple), a license mismatch (encryption or context), or a hardware difference (one unit has an IPS SSM installed, and its peer has a CSC SSM installed). Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-324008: No PDP exists to update the data sgsn [ggsn]PDPMCB Info REID:teid_value, Request TEID;teid_value, Local GSN: IPaddress (VPIfNum), Remove GSN:IPaddress (VPIfNum)",
+   "When a GTP HA message is received on the standby unit to update the PDP with data sgsn/ggsn PDPMCB information, the PDP is not found because of a previous PDP update message that was not successfully delivered or successfully processed on the standby unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-109007: Authorization permitted for user user frominside_address/inside_port to outside_address/outside_port on interfaceinterface_name.",
+   "A Stateful Failover update was transmitted to the standbySecure Firewall ASA."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-401005: Shun add failed: unable to allocate resources forIP_address IP_address port port",
+   "TheSecure Firewall ASAis out of memory; a shun cannot be applied."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715049: ReceivedVID_typeVID",
+   "The type of vendor ID payload received appears."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-718074: Fail to create access list for peercontext_ID.",
+   "This fault occurs if the Cisco FPR Manager software on the subordinate fabric interconnect is not the same release as that of the primary fabric interconnect. This impacts the full HA functionality of the fabric interconnect cluster."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSmSlotSmaHeartbeat:Slot [slotId], is not operationally up",
+   "The MFIB failed to register with the MRIB."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-718005: Fail to send toIP_address, portport",
+   "An internal software error occurred during packet transmission on the load-balancing socket. This mght indicate a network problem."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-305013: Asymmetric NAT rules matched for forward and reverse flows; Connectionprotocolsrcinterface_name:source_address/source_port[(idfw_user)] dstinterface_name:dst_address/dst_port[(idfw_user)] denied due to NAT reverse path failure.",
+   "The client is on the NAC Exception List and is therefore not subject to posture validation."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-716516: internal error in:function: OCCAM has corrupted ROL array. Cannot continue terminating",
+   "SCTP flow deletion is logged when SCTP-state-bypass is not configured."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-713250:META-DATAReceived unknown Internal Address attribute:attribute",
+   "TheSecure Firewall ASAreceived a request for an internal address attribute that is not recognizable. The attribute might be valid, but not currently supported, or the peer might be sending an illegal value. This should not cause connectivity problems, but might affect the functionality of the peer."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-341005: Storage device not available. Shutdown issued for module%s.",
+   "All SSDs have failed or been removed with the system in Up state. The system is shutting down the software module."
+  ],
+  1
+ ],
+ [
+  [
+   "fltSysdebugMEpLogTransferError:Server [chassisId]/[slotId] [type] transfer failed: [operState]Server [id] [type] transfer failed: [operState]",
+   "This fault is raised on the IOM/FEX backplane ports when Cisco FPR Manager detects a hardware failure."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-713222: GroupgroupUsernameusernameIPipStatic Crypto Map check, map =crypto_map_tag, seq =seq_number, ACL does not match proxy IDs src:source_addressdst:dest_address",
+   "No response was received to an Azure route-table change request."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-302036: Teardown SCTP connectionconn_idforoutside_interface:outside_ip/outside_port[([outside_idfw_user],[outside_sg_info])] toinside_interface:inside_ip/inside_port[([inside_idfw_user],[inside_sg_info])] durationtimebytesbytesreason[(user)]",
+   "SCTP flow deletion is logged when SCTP-state-bypass is not configured."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715058: NAT-Discovery payloads missing. Aborting NAT-Traversal.",
+   "The keepalive timer will monitor for a variable number of seconds for keepalive messages."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-210001: LUsw_module_nameerror =number",
+   "TheSecure Firewall ASAis under Syn flood attack and protected by the TCP intercept mechanism, if the average rate for intercepted attacks exceeds the configured threshold. The message is showing which server is under attack and where the attacks are coming from."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-338203: Dynamic filter dropped greylistedprotocoltraffic fromin_interface:src_ip_addr/src_port(mapped-ip/mapped-port) toout_interface:dest_ip_addr/dest_port(mapped-ip/mapped-port), sourcemalicious addressresolved fromlocal or dynamiclist:domain name,threat-level:level_value,category:category_name",
+   "Traffic from a greylisted domain name in the dynamic filter database was denied; however, the malicious IP address was also resolved to domain names that are unknown to the dynamic filter database. The threat level is a string that shows one of the following values: none, very-low, low, moderate, high, and very-high. The category is a string that shows the reason why a domain name is on a block list (for example, botnet, Trojan, and spyware)."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-713273: Deleting static route for client address:IP_Address IP_Addressaddress of client whose route is being removed",
+   "A route to the peer-assigned address or the networks protected by a hardware client were removed from the routing table."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-720021: (VPN-unit) HA non-block send failed for peer msgmessage_number. HA errorcode.",
+   "This fault occurs when an app instance is in a non-terminal error state."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-105544: (Primary|Secondary) Error creating load balancer probe socket on port port",
+   "An internal error occurred while attempting to create a socket for responding to probes from an Azure Load Balancer."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-5-722012: GroupgroupUseruser-nameIPIP_addressSVC Message:type-num/INFO:message",
+   "The SVC issued a message."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-105541: (Primary|Secondary) Failed to update route-table route_table_name, provisioning state: state_string",
+   "A response to an Azure route-table state request was received that contained a provisioningState that indicated a failure to update the route-table."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-338309: The license on this ASA does not support dynamicfilter updater feature.",
+   "The dynamic filter updater is a licensed feature; however, the license on the ASA does not support this feature."
+  ],
+  1
+ ],
+ [
+  [
+   "fltSmSlotBladeSwap:Blade swap detected on slot [slotId]",
+   "An SVC connection was terminated for the given reason. This behavior may be normal, or you may be having trouble connecting."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-732001: Groupgroupname,Userusername,IPipaddr,Fail to parse NAC-SETTINGSnac-settings-id, terminating connection.",
+   "Strict FTP inspection on FTP traffic has been used, and an FTP request message contains a command that is not recognized by the device."
+  ],
+  0
+ ],
+ [
+  [
+   "fltExtpolClientGracePeriodWarning1:FPR Domain [name] is registered with FPR Central without a valid license.",
+   "This FPR domain is registered with FPR Central without having a license. This fault typically occurs if this FPR domain is registered with FPR Central without the initial activation license and after all default licenses are assigned to other FPR domains."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105031: Failover LAN interface is up",
+   "When a GTP HA message is received on the standby unit to update the PDP with data sgsn/ggsn PDPMCB information, the PDP is not found because of a previous PDP update message that was not successfully delivered or successfully processed on the standby unit."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715053: MODE_CFG: Received request forattribute_info!",
+   "This fault typically occurs because Cisco FPR Manager has detected that the server has an insufficient number of DIMMs, CPUs, and/or adapters."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-720067: (VPN-unit) Failed to deactivate IKE database.",
+   "An error occurred when the VPN failover subsystem tried to deactivate the IKE security association database while the active unit was transitioning to the standby state. There may be resource-related issues on the active unit that prevent the IKE security association database from deactivating."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715035: Starting IOS keepalive monitor:secondssec.",
+   "The keepalive timer will monitor for a variable number of seconds for keepalive messages."
+  ],
+  1
+ ],
+ [
+  [
+   "fltPowerBudgetPowerBudgetBmcProblem:Power cap application failed for server [chassisId]/[slotId]Power cap application failed for server [id]",
+   "This fault occurs when a FlexFlash Card is missing."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-109035: Exceeded maximum number (<max_num>) of DAP attribute instances for user <user>",
+   "The reference count packet count became negative."
+  ],
+  0
+ ],
+ [
+  [
+   "fltMemoryBufferUnitThermalThresholdNonCritical:Buffer Unit [id] on server [chassisId]/[slotId] temperature: [thermal]Buffer Unit [id] on server [id] temperature: [thermal]",
+   "This fault occurs when the temperature of a memory buffer unit on a blade or rack server exceeds a non-critical threshold value, but is still below the critical threshold. Be aware of the following possible contributing factors:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-101002: (Primary) Bad failover cable.",
+   "In a cluster configuration, after the FXOS discovers the chassis through the I/O module connected to the primary fabric interconnect, it raises discovery through the I/O module connected to the secondary fabric interconnect."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-318108: OSPF processdis changing router-id. Reconfigure virtual link neighbors with our new router-id",
+   "The specified host tried to access the specified URL If you enable the HTTP inspection with custom HTTP policy map, the following possibilities are seen.When the packet of GET request does not have the hostname parameter, instead of printing the URI, it prints the following message:%ASA-5-304001: client IP Accessed URL server ip:Hostname not present URI: URIIf a large URI which cannot be printed in a single syslog, you can print partial wherever it is being chopped down.For instance, when the URL is to be divided into multiple chunks and logged, the following message is printed:%ASA-5-304001: client IP Accessed URL server ip: http(/ftp)://hostname/URI_CHUNK1 partial%ASA-5-304001: client IP Accessed URL server ip: partial URI_CHUNK1 partial............%ASA-5-304001: client IP Accessed URL server ip: partial URI_CHUNKnThe limit for URI is 1024 bytes.If the current packet contains partial URI at the beginning or end, use the same logic as explained above."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-722001: IPIP_addressError parsing SVC connect request.",
+   "The request from the SVC was invalid."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-720053: (VPN-unit) Failed to add cTCP IKE rule during bulk sync, peer=IP_address, port=port",
+   "This fault occurs when the fabric interconnect has more number of primary vlans than what is supported."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-109040: User atIPexceeded auth proxy rate limit of 10 connections/sec",
+   "A connection attempt has been rejected because the ASA has detected a high frequency of HTTPS authentication requests from the same host."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-106021: Deny protocol reverse path check from source_address to dest_address on interface interface_name",
+   "This message is generated when the device failed to apply ACL rules for newly created user entry."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-735003 IPMI: Power Supplyvar1: OK",
+   "This fault occurs under the following conditions:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715067: QM IsRekeyed: existing sa from different peer, rejecting new sa",
+   "An OCSP status check response was received successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-720050: (VPN-unit) Failed to remove timer. ID =id.",
+   "An error occurred when theSecure Firewall ASAtried to bind to the load-balancing socket. This might indicate a network problem or an internal software error."
+  ],
+  0
+ ],
+ [
+  [
+   "fltCallhomeEpNoSnmpPolicyForCallhome:FPR Manager cannot apply Callhome policy if SNMP Policy is not configured or if SNMP Syscontact has an empty value. The Callhome policy from FPR Central has not been applied.",
+   "This fault typically occurs when FPR Manager receives an invalid configuration from FPR Central wherein Callhome is configured on FPR Central but there is no SNMP Syscontact defined locally."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-302013: Built {inbound|outbound} [Probe] TCPconnection_idforinterface:real-address/real-port(mapped-address/mapped-port) [(idfw_user)] tointerface:real-address/real-port(mapped-address/mapped-port) [(idfw_user)] [(user)]",
+   "An error occurred when the VPN failover subsystem tried to add a new IKE rule for the cTCP database entry on the standby unit. TheSecure Firewall ASAmay be under heavy load, and the request for adding a cTCP IKE rule timed out and was never completed."
+  ],
+  0
+ ],
+ [
+  [
+   "fltStorageRaidBatteryRelearnAborted:RAID Battery on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]RAID Battery on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "Traffic from a domain, which is on an block list in the dynamic filter database, has appeared. The threat level is a string that shows one of the following values: none, very-low, low, moderate, high, and very-high. The category is a string that shows the reason why a domain name is on a block list (for example, botnet, Trojan, and spyware)."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-717064:Keypair keyname in the trustpoint tpname is regenerated for mode protocol certificate renewal",
+   "The keypair in the trustpoint is regenerated for certificate enrollment using CMP."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-718017: Got timeout for unknown peerIP_addressmsg typemessage_type",
+   "The dynamic filter updater is a licensed feature; however, the license on the ASA does not support this feature."
+  ],
+  0
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: Fabric interconnect mode configuration to primary(FSM-STAGE:sam:dme:FabricLanCloudSwitchMode:SwConfigPeer)",
+   "The FSM could not send the end-host mode configuration on to the primary fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageLocalDiskRebuildFailed:Local disk [id] on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]Local disk [id] on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "NOTE: This fault is not currently implemented by Firepower ManagerThis fault is present only as a placeholder, possibly for another release,such as stand-alone rack servers.---This fault occurs when a rebuild operation has failed. This may cause a degradation in performance."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-722048: GroupgroupUseruserIPipTunnel terminated: SVC not enabled for the user.",
+   "The user logged in via the web browser, and tried to start the SVC or AnyConnect client. The SVC service is not enabled for this user. The tunnel connection has been terminated, but the clientless connection remains."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricPooledVlanNamedVlanUnresolved:VLAN [name] for VLAN group [name] cannot be resolved to any existing vlans.",
+   "This fault typically occurs when a named VLAN in VLAN group cannot be resolved to any existing vlans."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricEthEstcPcEpDown:[type] Member [slotId]/[aggrPortId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership][type] Member [slotId]/[portId] of Port-Channel [portId] on fabric interconnect [id] is down, membership: [membership]",
+   "This fault typically occurs when a member port in an Ethernet port channel is down."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715077: Pitcher:msg string, spispi",
+   "Server has failed. This fault typically occurs if the adapter power on self-test results in major and critical errors."
+  ],
+  0
+ ],
+ [
+  [
+   "fltFirmwareSystemInfraBundleUpgradeFailure:Software Pack upgrade failure: [upgradeStatus]",
+   "Umbrella fail-open has NOT been configured and a resolver unreachabilty has been detected."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-717038: Tunnel group match found. Tunnel Group:tunnel_group_name, Peer certificate:certificate_identifier.",
+   "The crypto map associated with this peer is not linked to an ACL."
+  ],
+  0
+ ],
+ [
+  [
+   "fltMgmtEntityManagement-services-unresponsive:Fabric Interconnect [id], management services are unresponsive",
+   "This fault occurs when management services on a fabric interconnect are unresponsive. This impacts the full HA functionality of the fabric interconnect cluster."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-335010: NAC Revalidate All request by administrativeaction -numsessions",
+   "The specified WebVPN user created the specified directory."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-720051: (VPN-unit) Failed to add new SDI node secret file for serveridon the standby unit.",
+   "An error occurred when the VPN failover subsystem tried to add a node secret file for the SDI server on the standby unit. The SDI node secret file is stored in flash. The error may indicate that the flash file system is full or corrupted."
+  ],
+  1
+ ],
+ [
+  [
+   "fltMgmtEntityDegraded:Fabric Interconnect [id], HA Cluster interconnect link failure",
+   "The MRIB failed to register a client."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-713218: Tunnel Rejected: Client Type or Version not allowed.",
+   "When a WebVPN user logs in to the active unit, the login information is replicated to the standby unit. An error occurred while replicating the login information to the standby unit."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-333003: EAP association terminated - context:EAP-context",
+   "The EAP association has been terminated with the remote host."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-106020: Deny IP teardrop fragment (size = number, offset = number) fromIP_addresstoIP_address",
+   "TheSecure Firewall ASAdiscarded an IP packet with a teardrop signature containing either a small offset or fragment overlapping. This is a hostile event that circumvents theSecure Firewall ASAor an Intrusion Detection System."
+  ],
+  1
+ ],
+ [
+  [
+   "Chassis 1 connectivity configuration: un-acknowledged",
+   "The OCCAM has a corrupted ROL array, so it cannot continue terminating."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-105517: (Primary|Secondary) Error receiving message body of message_name message from peer unit peer-ip, error: error_string",
+   "An error occurred while attempting to receive a failover control message to the peer unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-105502: (Primary|Secondary) Restarting Cloud HA on this unit, reason: string.",
+   "A suitable or usable trustpoint is found that can be used to validate the certificate."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSwVlanPortNsVLANCompNotSupport:VLAN Port Count Optimization is not supported",
+   "None set."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-714007: IKE Initiator sending Initial Contact",
+   "FPRM raises this fault under the following conditions:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-336012: Interface interface_names going down and neighbor_links links exist",
+   "An interface is going down or is being removed from routing through IGRP, but not all links (neighbors) have been removed from the topology table."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFirmwareStatusPldFirmwareMismatch:Aggregate blade board controller firmware mismatch. Firmware: [pldVersion]",
+   "Two failover units have a different type of chassis. For example, one has a three-slot chassis; the other has a six-slot chassis."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-718013: PeerIP_addressis not answering HELLO",
+   "The load-balancing peer is not answering a hello request message."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-721017: (device) Fail to create WebVPN session for useruser_name, IPip_address.",
+   "An internal error occurred while attempting to create a process for receiving probes from an Azure Load Balancer."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentFanModuleThermalThresholdNonCritical:Fan module [tray]-[id] in chassis [id] temperature: [thermal]Fan module [tray]-[id] in server [id] temperature: [thermal]Fan module [tray]-[id] in fabric interconnect [id] temperature: [thermal]",
+   "This fault typically occurs when a FEX encounters errors during the Power On Self Test (POST). The impact of this fault varies depending on which errors were encountered during POST."
+  ],
+  0
+ ],
+ [
+  [
+   "fltStorageLocalDiskDegraded:Local disk [id] on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]Local disk [id] on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "This fault typically occurs because Cisco FPR Manager could not transfer the SEL file to the location specified in the SEL policy. This is an info-level fault and can be ignored if you do not want to clear the SEL at this time."
+  ],
+  0
+ ],
+ [
+  [
+   "fltAaaRoleRoleNotDeployed:Role [name] can\u2019t be deployed. Error: [configStatusMessage]",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported role."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-106017: Deny IP due to Land Attack fromIP_addresstoIP_address",
+   "TheSecure Firewall ASAreceived a packet with the IP source address equal to the IP destination, and the destination port equal to the source port. This message indicates a spoofed packet that is designed to attack systems. This attack is referred to as a Land Attack."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-337001:Terminated BFD session with local discriminator <id> on <real_interface> with neighbor <real_host_ip> due to <failure_reason>",
+   "The VPN failover subsystem cannot update IPsec-related runtime data because the corresponding IPsec tunnel has been deleted on the standby unit."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-338303: Addressipaddr(name)timed out, Removing rule",
+   "The old P1 SA is being deleted, but has no new SA to transition to because it was marked for deletion as well. This generally indicates that the two IKE peers are out-of-sync with each other and may be using different rekey times. The problem should correct itself, but there may be some small amount of data loss until a fresh P1 SA is reestablished."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-717039: Local CA Server internal error detected:error.",
+   "An internal processing error has occurred with the local CA server."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-341007: Storage device not available. Further recovery of module%swas stopped. This may take several minutes to complete.",
+   "All SSDs have failed or been removed with the system in recovery state. The system is stopping the recovery of the softwaremodule."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-317003: IP routing table creation failure -reason",
+   "The VPN failover subsystem cannot allocate a memory buffer, which indicates a system-wide resource problem. TheSecure Firewall ASAmay be under heavy load."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-319001: Acknowledge for arp update for IP addressdest_address not received (number).",
+   "This fault occurs when there is a thermal problem on an I/O module. Be aware of the following possible contributing factors:"
+  ],
+  0
+ ],
+ [
+  [
+   "fltStorageLocalDiskCopybackFailed:Local disk [id] on server [chassisId]/[slotId] operability: [operability]. Reason: [operQualifierReason]Local disk [id] on server [id] operability: [operability]. Reason: [operQualifierReason]",
+   "NOTE: This fault is not currently implemented by Firepower ManagerThis fault is present only as a placeholder, possibly for another release,such as stand-alone rack servers.---This fault occurs when a copyback operation has failed. This may cause a degradation in performance."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720015: (VPN-unit) Cannot found Phase 1 SA for Phase 2 connection entry (msg_id=message_number,my cookie=mine, his cookie=his).",
+   "TheSecure Firewall ASAfailed while attempting to add a route for the private address or networks of the peer. In this case, the peer is either a client or a L2L peer with an unknown address. Both of these cases use dynamic crypto maps to allow the tunnel. This might indicate duplicate routes, a full IPv6 routing table, or a failure of theSecure Firewall ASAto remove previously used routes."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-213003: PPP virtual interfaceinterface_numberisn't opened.",
+   "This message is generated when the device has successfully applied rules for user on interface."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-721012: (device) Enable APCF XML filefile_nameon the standby unit.",
+   "When an APCF XML file is installed on the active unit, an attempt is made to install the same file on the standby unit. An APCF XML file was installed successfully on the standby unit. Use thedircommand on the standby unit to show that the XML file exists in the flash file system."
+  ],
+  1
+ ],
+ [
+  [
+   "fltProcessorUnitThermalNonCritical:Processor [id] on server [chassisId]/[slotId] temperature: [thermal]Processor [id] on server [id] temperature: [thermal]",
+   "This fault typically occurs when FPR Manager receives an invalid configuration from FPR Central wherein Callhome is configured on FPR Central but there is no SNMP Syscontact defined locally."
+  ],
+  0
+ ],
+ [
+  [
+   "fltSmAppInstanceAppUpdateFailed:Failed to update App Instance [appName] on slot [slotId]. Error: [errorMsg]",
+   "The OCCAM pool has no block list."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-730001 Groupgroupname, Userusername, IPipaddr: VLAN MAPPING to VLANvlanid",
+   "CSD is not running on the client machine."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPowerGroupPowerGroupBudgetIncorrect:admin committed insufficient for power group [name], using previous value [operCommitted]",
+   "This fault typically occurs when the group cap is insufficient to meet the minimum hardware requirements. Under these circumstances, Cisco FPR Manager uses the previously entered group cap for provisioning."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-722022: Groupgroup-nameUseruser-nameIPaddr(TCP | UDP) connection established (with | without)compression",
+   "The Active unit has begun responding to Azure Load Balancer probes."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-718028: Send OOS indicator failure toIP_address",
+   "The VPN failover subsystem main timer processing thread is enabled when the failover key is defined and failover is enabled."
+  ],
+  0
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: VM profile configuration on external VM manager(FSM-STAGE:sam:dme:VnicProfileSetConfigVmm:SetLocal)",
+   "The FSM could not send the VM profile configuration to the subordinate fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentChassisIdentity-unestablishable:Chassis [id] has an invalid FRU",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported chassis. For example, the model, vendor, or revision is not recognized."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-719012: Email Proxy server listening on portportfor mail protocolprotocol.",
+   "A listening channel is opened for a specific protocol on a configured port and has added it to a TCP select group."
+  ],
+  1
+ ],
+ [
+  [
+   "fltVnicEtherIfVlanUnresolvable:The named vlan [name] for vNIC [name] cannot be resolved",
+   "This fault typically occurs when the chassis fails to meet the minimal power requirements defined in the power policy or when one or more power supplies have failed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-717057: Automatic import of trustpool certificate bundle has failed. < Maximum retry attempts reached. Failed to reachCA server> | <Cisco root bundle signature validation failed> | <Failed to update trustpool bundle in flash> | <Failed to installtrustpool bundle in memory>",
+   "This syslog is generated with one of these error messages. This syslog is meant to update the user with results of the auto import operation and steer them towards the right debug messages especially in cases of failure. Details of each error are present in the debug output."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-735007 IPMI: CPUvar1: Temp:var2var3, Critical",
+   "The CPU has reached a critical temperature."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-213002: PPTP tunnel hashtable insert failed, peer =IP_address.",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported adapter. For example, the model, vendor, or revision is not recognized."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-109100: Received CoA update fromcoa-source-ipfor userusername, with session ID:audit-session-id, changing authorization attributes",
+   "The umbrella device registration failed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-109005: Authentication succeeded for user user frominside_address/inside_port to outside_address/outside_port on interfaceinterface_name.",
+   "The specified authentication request succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-715001:Descriptive statement",
+   "TheSecure Firewall ASAopened a UDP media channel for the RTSP client that was receiving data from the server."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPoolElementDuplicatedAssigned:Duplicated ID is assigned for multiple blades",
+   "This fault typically occurs when an I/O module is auto upgrading. Auto-upgrade occurs when the firmware version on the IOM is incompatible with the firmware version on the fabric interconnect."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-105020: (Primary) Incomplete/slow config replication",
+   "When a failover occurs, the activeSecure Firewall ASAdetects a partial configuration in memory. Normally, this is caused by an interruption in the replication service. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-720033: (VPN-unit) Failed to queue add to message queue.",
+   "System resources may be running low. An error occurred when the VPN failover subsystem tried to queue an internal message. This may be a temporary condition indicating that theSecure Firewall ASAis under heavy load, and the VPN failover subsystem cannot allocate resource to handle incoming traffic."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-2-716512:internal error in:function: Fiber has joined fiber waited upon by someone else",
+   "The fiber has joined fiber that is waited upon by someone else."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-720060: (VPN-unit) VPN Stateful failover Sync Thread is disabled.",
+   "The VPN failover subsystem main bulk synchronization processing thread is disabled when failover is enabled, but the failover key is not defined."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-211001: Memory allocation Error",
+   "TheSecure Firewall ASAfailed to allocate RAM system memory."
+  ],
+  1
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: Enable virtual interface on local fabric interconnect(FSM-STAGE:sam:dme:MgmtIfEnableVip:Local)",
+   "The SSL handshake has completed successfully with the remote device."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-722038: Groupgroup-nameUseruser-nameIP IP_addressSVC terminating session:reason.",
+   "An SVC session was terminated for the given reason. This behavior may be normal, or you may be having trouble connecting."
+  ],
+  1
+ ],
+ [
+  [
+   "fltSysdebugLogExportStatusLogExportFailure:Log export to remote server failed from [switchId]:[exportFailureReason]",
+   "This fault occurs when Cisco Firepower Manager cannot transfer a log file to a remote server. This is typically the result of one of the following issues:"
+  ],
+  1
+ ],
+ [
+  [
+   "fltPowerGroupPowerGroupBudgetIncorrect:admin committed insufficient for power group [name], using previous value [operCommitted]",
+   "NACApp (Cisco NAC appliance) posture assessment takes longer than the timeout value configured."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-302013: Built {inbound|outbound} [Probe] TCPconnection_idforinterface:real-address/real-port(mapped-address/mapped-port) [(idfw_user)] tointerface:real-address/real-port(mapped-address/mapped-port) [(idfw_user)] [(user)]",
+   "A TCP connection slot between two hosts was created."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-326020: List error instring:string",
+   "An error occurred while processing a PIM interface list."
+  ],
+  1
+ ],
+ [
+  [
+   "fltComputePhysicalInoperable:Server [id] (service profile: [assignedToDn]) health: [operability]Server [chassisId]/[slotId] (service profile: [assignedToDn]) health: [operability]",
+   "This fault typically occurs when the server has encountered a diagnostic failure."
+  ],
+  1
+ ],
+ [
+  [
+   "fltFabricNetflowMonSessionFlowMonConfigFail:Configuration for traffic flow monitor [name] failed, reason: [configFailReason]",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported role."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-341006: Storage device not available. Failed to stop recovery of module%s.",
+   "All SSDs have failed or been removed with the system in recorvery state. The system attempted to stop the recover, but that attempt failed."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-719009: Email Proxy service is starting.",
+   "The e-mail proxy is enabled."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-314002: RTSP failed to allocate UDP media connection fromsrc_intf:src_IPtodst_intf:dst_IP/dst_port:reason_string.",
+   "A certificate was successfully received from the CA for this trustpoint."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-725010: Device supports the followingncipher(s).",
+   "This FPR Domain registered with FPR Central has been running in the grace period for more than 30 days. This fault typically occurs if this FPR domain is registered with FPR Central after all default (and procured) licenses are assigned to other FPR domains and the unlicensed FPR Domains have been running for more than 120 days."
+  ],
+  0
+ ],
+ [
+  [
+   "fltAaaUserRoleUserRoleNotDeployed:For user: [name] role [name] can\u2019t be assigned. Error: [configStatusMessage].For Ldap Group: [name] role [name] can\u2019t be assigned. Error: [configStatusMessage].",
+   "This fault typically occurs because Cisco FPR Manager has detected an unsupported user role for ldap groups or local users."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-802005: IPip_addressReceived MDM requestdetails",
+   "The cipher that was chosen by the server for the SSL session is identified."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-731003: nac-policy unused: name:policynameType:policytype.",
+   "This fault occurs when RSA keyring is created without modulus set."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-313001: Denied ICMP type=number, code=codefromIP_addresson interfaceinterface_name",
+   "This fault typically occurs when the server power sensors have detected a problem."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-735008 IPMI: Chassis Ambientvar1: Temp:var2 var3, Critical",
+   "The number of ciphers proposed by the remote SSL device are listed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-720025: (VPN-unit) HA status callback: Data channel isstatus.",
+   "An address translation slot was created. The slot translates the source address from the local side to the global side. In reverse, the slot translates the destination address from the global side to the local side."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-713214: Could not delete route for L2L peer that came in on a dynamic map. address:IP_address, mask:netmask",
+   "TheSecure Firewall ASAexperienced a failure while deleting a route for the private address or networks of the peer. In this case, the peer is either a client or a L2L peer with an unknown address. Both of these cases use dynamic crypto maps to allow the tunnel. The route may have already been deleted,or an internal software error has occurred."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-331001: Dynamic DNS Update for 'fqdn_name' =ip_addressfailed",
+   "This message is gnerated when an ICMP session was established in the fast-path. The following list describes the message values:"
+  ],
+  0
+ ],
+ [
+  [
+   "fltLsComputeBindingAssignmentRequirementsNotMet:Assignment of service profile [name] to server [pnDn] failed",
+   "The server could not be assigned to the selected service profile. This fault typically occurs as a result of one of the following issues:"
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-6-725001: Starting SSL handshake withpeer-typeinterface:src-ip/src-porttodst-ip/dst-portforprotocolsession.",
+   "There is not enough memory to perform the action."
+  ],
+  0
+ ],
+ [
+  [
+   "[FSM:STAGE:RETRY:]: QoS Classification Definition classification configuration on secondary(FSM-STAGE:sam:dme:QosclassDefinitionConfigGlobalQoS:SetPeer)",
+   "The FSM could not send the quality of the service configuration to the subordinate fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-735005 IPMI: Power Supply Unit Redundancy OK",
+   "Power supply unit redundancy has been restored."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-720001: (VPN-unit) Failed to initialize with Chunk Manager.",
+   "The WebVPN failover subsystem in the current failover unit, either primary or secondary, has been started successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-725011 Cipher[order]:cipher_name",
+   "Always following messages 725008, 725009, and 725010, this message indicates the cipher name and its order of preference."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-201011: Connection limit exceededcnt/limitfordirpacket fromsip/sporttodip/dporton interfaceif_name.",
+   "A new connection through theSecure Firewall ASAresulted in exceeding at least one of the configured maximum connection limits. This message applies both to connection limits configured using astaticcommand, or to those configured using Cisco Modular Policy Framework. The new connection will not be allowed through theSecure Firewall ASAuntil one of the existing connections is torn down, which brings the current connection count below the configured maximum."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-723009: Groupgroup-name, Useruser-name, IPIP_address: WebVPN Citrix received data on invalid connectionconnection.",
+   "A timer cannot be removed from the timer processing thread."
+  ],
+  0
+ ],
+ [
+  [
+   "fltEquipmentSwitchCardAct2LiteFail:Failed Identification Test in slot - [id] ([descr]). The module in this slot may not be a genuine product. warranties and support programs only apply to genuine products. If its determined that your insertion of non genuine modules into a product is the cause of a support issue, support under your warranty may be denied or under a support program such as SmartNet.",
+   "This fault occurs when the ACT2 chip fails."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-107001: RIP auth failed fromIP_address: version=number, type=string, mode=string, sequence=number on interface interface_name",
+   "The configuration of the chassis discovery policy conflicts with the physical IOM uplinks. Cisco FPR Manager raises this fault when the chassis discovery policy is configured for more links than are physically cabled between the IOM uplinks on the chassis and the fabric interconnect."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-716037: GroupnameUseruserFile Access: Useruserfailed to login into theserverserver.",
+   "A user attempted to log in to a server using the CIFS protocol, but was unsuccessful."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-109031: NT Domain Authentication Failed: rejecting guestlogin forusername.",
+   "When CGNAT \u201cblock-allocation\u201d is configured, this syslog will be generated on allocation of a new port block."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-716041: access-listacl_ID actionurlurlhit_cntcount",
+   "The current state of the failover peer is reported."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715059: Proposing/Selecting only UDP-Encapsulated-Tunnel and UDP-Encapsulated-Transport modes defined by NAT-Traversal",
+   "TheSecure Firewall ASAexperienced a failure when attempting to delete the SoftNP ACL rule used in securing the communication between load balancing peers."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-735002 IPMI: Cooling Fanvar1: Failure Detected",
+   "A cooling fan has failed."
+  ],
+  1
+ ],
+ [
+  [
+   "fltComputePhysicalUnassignedMissing:Server [id] (no profile) missingServer [chassisId]/[slotId] (no profile) missing",
+   "This fault typically occurs when the server, which is not associated with a service profile, was previously physically inserted in the slot, but cannot be detected by Cisco FPR Manager."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-717015: CRL received fromissueris too large to process (CRL size =crl_size, maximum CRL size =max_crl_size)",
+   "An IPsec connection caused a CRL that is larger than the maximum permitted CRL size to be downloaded. This error condition causes the connection to fail. This message is rate limited to one message every 10 seconds."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentPsuInputError:Power supply [id] on chassis [id] has disconnected cable or bad input voltagePower supply [id] on server [id] has disconnected cable or bad input voltage",
+   "The FSM could not send the end-host mode configuration on to the primary fabric interconnect during the initial cluster configuration or the setup."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-722028: GroupgroupUseruser-nameIPIP_addressStale SVC connection closed.",
+   "An error occurred during parsing the sequence number NNN in the attribute string ip:inacl#NNN= of a downloaded authorization. The reasons include: - missing = - contains nonnumeric, nonpace characters between # and = - NNN is greater than 999999999."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-109201: UAUTH Sessionsession, Userusername, Assigned IPIP Address, Succeeded adding entry.",
+   "There was an error processing the packet. The following are possible reasons:"
+  ],
+  0
+ ],
+ [
+  [
+   "fltVnicEtherConfig-failed:Eth vNIC [name], service profile [name] failed to apply configuration",
+   "This fault typically occurs when Cisco FPR Manager could not place the vNIC on the vCon."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-104500: (Primary|Secondary) Switching to ACTIVE (cause: reason)",
+   "The SNMP engine data is written to the file, flash:/snmp/context-name. For example: in single mode, the data is written to the file, flash:/snmp/single_vf. In the admin context in multi-mode, the file is written to the directory, flash:/snmp/admin. The error may be caused by a failure to create the flash:/snmp directory or the flash:/snmp/context-namefile. The error may also be caused by a failure to write to the file."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-717049: Local CA Server certificate is due to expire innumberdays and a replacement certificate is available forexport.",
+   "The administrator is alerted to an upcoming CA certificate expiration so that the administrator can take action to export the replacement certificate to all ASAs that will require the new certificate."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-713242: Remote user is authenticated using Hybrid Authentication. Not starting IKE rekey.",
+   "TheSecure Firewall ASAhas detected a request to start an IKE rekey for a tunnel configured to use Hybrid Xauth, but the rekey was not started. TheSecure Firewall ASAwill wait for the client to detect and initiate an IKE rekey."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-723011: Groupgroup-name, Useruser-name, IPIP_address: WebVPN Citrix receives bad SOCKSsocksmessage length msg-length. Expected length isexp-msg-length.",
+   "An internal logic error has occurred, which should not occur during normal operation."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-715054: MODE_CFG: Receivedattribute_namereply:value",
+   "TheSecureFirewall ASAreceived a mode configuration reply message from the remote peer."
+  ],
+  1
+ ],
+ [
+  [
+   "fltStorageFlexFlashDriveUnhealthy:FlexFlash Drive [id] on server [chassisId]/[slotId] is unhealthy. Reason: [operQualifierReason] Status: [operationState]FlexFlash Drive [id] on server [id] is unhealthy. Reason: [operQualifierReason] Status: [operationState]",
+   "An IPsec API (internal) error has occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-719006: Email Proxy sessionpointerhas timed out forsource_addressbecause of network congestion.",
+   "Network congestion is occurring, and data cannot be sent to either an e-mail client or an e-mail server. This condition starts the block timer. After the block timer is timed out, the session expires."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-325005: Invalid IPv6 Extension Header Content:string.detailregarding protocol, ingress and egress interface",
+   "This fault typically occurs because Cisco FPR Manager has detected an invalid ArpTargets Configuration."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-722029: GroupgroupUseruser-nameIPIP_addressSVC Session Termination: Conns:connections, DPD Conns:DPD_conns, Comp resets:compression_resets, Dcmp resets:decompression_resets",
+   "This fault occurs when the temperature of a PSU module has exceeded a non-critical threshold value, but is still below the critical threshold. Be aware of the following possible contributing factors:"
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-5-105542: (Primary|Secondary) Enabling load balancer probe responses",
+   "The Piggyback authentication is using an established WebVPN session to verify the username and IP address matching in the WebVPN session database. This is based on the assumption that the WebVPN session and e-mail proxy session are initiated by the same user, and a WebVPN session is already established. Because the authentication has failed, the session will be aborted. The user is not allowed to access the e-mail account."
+  ],
+  0
+ ],
+ [
+  [
+   "fltComputePhysicalAdapterMismatch:Server [id] (service profile: [assignedToDn]) has invalid adapter combinatonServer [chassisId]/[slotId] (service profile: [assignedToDn]) has invalid adapter combination",
+   "Errors occurred when an attempt was made to enable the local CA server."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-722048: GroupgroupUseruserIPipTunnel terminated: SVC not enabled for the user.",
+   "This fault occurs if there is an issue in Inband interface configuration."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-105548: (Primary|Secondary) Error storing encryption key for Azure secret key",
+   "An internal error occurred while attempting to store the encryption key used for encrypting the Azure secret key in the configuration."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-1-103001: (Primary) No response from other firewall (reason code = code).",
+   "The primary unit is unable to communicate with the secondary unit over the failover cable. Primary can also be listed as Secondary for the secondary unit. The following table lists the reason codes and the descriptions to determine why the failover occurred."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-717046: Local CA Server CRL error:error.",
+   "Errors that are encountered while trying to generate and reissue the local CA server CRL file are reported."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-7-720031: (VPN-unit) HA status callback: Invalid event received. event=event_ID.",
+   "This fault typically occurs when the server, which is associated with a service profile, was previously physically inserted in the slot, but cannot be detected by Cisco FPR Manager."
+  ],
+  0
+ ],
+ [
+  [
+   "fltPowerChassisMemberChassisFirmwareProblem:Chassis [id] cannot be capped as at least one of the CMC or CIMC or BIOS firmware version is less than 1.4. Please upgrade the firmware for cap to be applied.",
+   "A NAC Revalidate action was requested by the administrator."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-103005: (Primary) Other firewall reporting failure. Reason: SSM card failure",
+   "The secondary unit has reported an SSM card failure to the primary unit. Primary can also be listed as Secondary for the secondary unit."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-3-318122: IPsec sent asmessagesto OSPFv3 for interfaces. Recovery attemptd",
+   "An error occurred while the standby unit tried to update a WebVPN-specific access list. The access list cannot be located on the standby unit."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-720062: (VPN-unit) Active unit started bulk sync of state information to standby unit.",
+   "The specified ASN librar y that theSecure Firewall ASAuses for decoding the H.323 messages failed to initialize; theSecure Firewall ASAcannot decode or inspect the arriving H.323 packet. TheSecure Firewall ASAallows the H.323 packet to pass through without any modification. When the next H.323 message arrives, theSecure Firewall ASAtries to initialize the library again."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-338301: Intercepted DNS reply for domainnamefromin_interface:src_ip_addr/src_porttoout_interface:dest_ip_addr/dest_port, matchedlist",
+   "This fault occurs when the storage controller is inaccessible."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-3-212005: incoming SNMP request (numberbytes) on interfaceinterface_nameexceeds data buffer size, discarding this SNMP request.",
+   "The VPN failover subsystem fails to initialize with the memory buffer management subsystem. A system-wide problem has occurred, and the VPN failover subsystem cannot be started."
+  ],
+  0
+ ],
+ [
+  [
+   "fltAaaUserLocaleUserLocaleNotDeployed:For user: [name] locale [name] can\u2019t be assigned. Error: [configStatusMessage].For Ldap Group: [name] locale [name] can\u2019t be assigned. Error: [configStatusMessage].",
+   "The client type and the version of a client have matched one of the rules. The results of the match and the rule are displayed."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-2-106002:protocolConnection denied by outbound list acl_ID src inside_address dest outside_address",
+   "A host has been shunned by the threat detection engine. When thethreat-detection scanning-threat shuncommand is configured, the attacking hosts will be shunned by the threat detection engine."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-4-106027:acl_ID: Deny src [source address] dst [destination address] by access-group \u201caccess-list name\"",
+   "An non IP packet was denied by the ACL. This message is displayed even if you do not have the log option enabled for an extended ACL."
+  ],
+  1
+ ],
+ [
+  [
+   "fltEquipmentIOCardThermalThresholdNonRecoverable:[side] IOM [chassisId]/[id] ([switchId]) temperature: [thermal]",
+   "The old REST API image must be successfully uninstalled before a new one can be installed."
+  ],
+  0
+ ],
+ [
+  [
+   "ether port 1 on fabric interconnect B oper state: link-up, reason: FEX not configured",
+   "An error occurred when the VPN failover subsystem tried to receive a message on the standby unit. The error may be caused by a corrupted message or an inadequate amount of memory allocated for storing the incoming message."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-6-719003: Email Proxy sessionpointerresources have been freed forsource_address.",
+   "A packet was dropped because the host defined by IP SRC is a host in the shun database. A shunned host cannot pass traffic on the interface on which it is shunned. For example, an external host on the Internet can be shunned on the outside interface. A record of the activity of shunned hosts was provided. This message and message %ASA-4-401005 can be used to evaluate further risk concerning this host."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-1-107001: RIP auth failed fromIP_address: version=number, type=string, mode=string, sequence=number on interface interface_name",
+   "TheSecure Firewall ASAreceived a RIP reply message with bad authentication. This message might be caused by a misconfiguration on the router or theSecure Firewall ASAor by an unsuccessful attempt to attack the routing table of theSecure Firewall ASA."
+  ],
+  1
+ ],
+ [
+  [
+   "%ASA-4-733102:Threat-detection adds host%Ito shun list",
+   "A host has been shunned by the threat detection engine. When thethreat-detection scanning-threat shuncommand is configured, the attacking hosts will be shunned by the threat detection engine."
+  ],
+  1
+ ],
+ [
+  [
+   "fltExtpolClientGracePeriodWarning3:FPR Domain [name] registered with FPR Central is running in the grace period for more than 30 days",
+   "A router bug, a packet with non-RFC values inside, or a malformed entry may have caused this message to appear. This should not happen, and may be an attempt to exploit the routing table of the ASA."
+  ],
+  0
+ ],
+ [
+  [
+   "%ASA-7-718058: State machine return code:action_routine,return_code",
+   "An internal error occurred while receiving a response to an Azure access token request."
+  ],
+  0
+ ]
+]

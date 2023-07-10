@@ -1,0 +1,3382 @@
+[
+ [
+  " The bit-error-detection session number in all the IO boards has reached the limit, the new bit-error-detection session can not be created. (TotalBitErrorDetectionSessionLimit=[TotalBitErrorDetectSessionLimit]) In LS mode, this log is supported only by the service LSs.",
+  87
+ ],
+ [
+  " SSL certificate expired. (CertFileName = [CertFileName], CertType = [CertType], CertValidityPeriod = [CertValidityPeriod], CurrentSystemTime = [CurrentSystemTime])",
+  176
+ ],
+ [
+  "BGP exited fromthe GR status.",
+  58
+ ],
+ [
+  "OID [oid] The number of FTP usersexceeded the upper threshold. (Upper threshold = [ULONG])",
+  120
+ ],
+ [
+  " OID [oid] Channel with the HACA server is interrupted. (IPAddress=[IPADDR], PortNumber=[INTEGER])",
+  171
+ ],
+ [
+  " OPS operation information. (UserName=[UserName], SourceAddress=[SourceAddress], DestAddress=[DestAddress], VpnName=[VpnName], SessionId=[SessionId], Method=[Method], Accept=[Accept], ContentType=[ContentType], Url=[Url], FragIndex=[FragIndex], Body=[Body])",
+  116
+ ],
+ [
+  " NTP synchronization state changed. (State = [state], SynchronizationSourceAddress = [source])",
+  22
+ ],
+ [
+  " The communication with the RADIUS authentication server fails. (IpAddress=[IpAddress],Vpn-Instance=[Vpn-Instance])",
+  23
+ ],
+ [
+  " A virus was detected. (SyslogId=[syslog-id], VSys=\"[vsys-name]\", Policy=\"[policy-name]\", SrcIp=[source-ip-address], DstIp=[destination-ip-address], SrcPort=[source-port], DstPort=[destination-port], SrcZone=[source-zone], DstZone=[destination-zone], User=\"[user-name]\", Protocol=[protocol], Application=\"[application-name]\", Profile=\"[profile-name]\", EventNum=[event-number], SignatureId=[signature-id], VirusName=\"[virus-name]\", DetectionType=\"[detection-type]\", Direction=[direction], FileName=\"[file-name]\", FileType=\"[file-type]\", Action=[action], Hash=\"[hash]\")",
+  154
+ ],
+ [
+  " The VRRP status changed between backup and initialize. (ifIndex=[ifIndex], VrId=[VrId], MasterIpAddr=[MasterIpAddr], sysName=[sysName], ifName=[ifName], CurrentState=[CurrentState], ChangeReason=[ChangeReason])",
+  21
+ ],
+ [
+  " Deleting local certificate file ([FileName]) failed. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  136
+ ],
+ [
+  " PIM receives an Invalid Join/Prune message. (GroupMappingOrigin=[GroupMappingOrigin], GroupMappingAddrType=[GroupMappingAddrType], GrpAddr=[GrpAddr], GrpPfxLen=[GrpPfxLen], GroupMappingRPAddrType=[GroupMappingRPAddrType], RPAddr=[RPAddr], GroupMappingPimMode=[GroupMappingPimMode], InvJPAddrType=[InvJPAddrType], InvJPOriginAddr=[InvJPOriginAddr], InvJPGrpAddr=[InvJPGrpAddr], InvJPRpAddr=[InvJPRpAddr], NbrIfIndex=[NbrIfIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrUpTime=[NbrUpTime], NbrName=[NbrName], PimInstanceID=[PimInstanceID], PimInstanceName=[PimInstanceName]) In LS mode, this log is supported only by the service LSs.",
+  67
+ ],
+ [
+  " Session changes to DOWN. (Index=[Index], ConfigurationName=[ConfigurationName], PeerIp=[PeerIp], BindIfIndex=[BindIfIndex], BindIfName=[BindIfName], Diagnosis=[Diagnosis], BindVrfIndex=[BindVrfIndex], BindVpnName=[BindVpnName], SessionType=[SessionType], DefaultIp=[DefaultIp], BindType=[BindType], StaticLspName=[StaticLspName], PwSecondary=[PwSecondary], NextHop=[NextHop], VcId=[VcId], VsiName=[VsiName], VsiPeerAddress=[VsiPeerAddress], DiscrAuto=[DiscrAuto], PeerIpv6=[PeerIpv6], Ipv6NextHop=[Ipv6NextHop], EvplId=[EvplId])",
+  87
+ ],
+ [
+  " In the last 5 minutes, [NUM] IP addresses were unlocked. (IPList=[IPList])",
+  83
+ ],
+ [
+  "[STRING].",
+  207
+ ],
+ [
+  " OID [oid] Powerresume from invalid situation.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER],PhysicalName=\"[OCTET]\", EntityTrapFaultID=136966, EntityTrapReasonDescr=\"thepower module was properly installed and was powered on\")",
+  75
+ ],
+ [
+  " Importing CA certificate file ([file_name]) succeeded.",
+  9
+ ],
+ [
+  " The number of MAC routes on the device exceeded the maximum value. (CurrentMACRouteCount=[VstmCurMacNum], MaxMACRouteValue=[VstmMaxMacNum]) In LS mode, this log is supported only by the service LSs.",
+  1
+ ],
+ [
+  " The key-pair with label [label-name] does not exists.",
+  15
+ ],
+ [
+  " IS-IS routes advertised by another device were not deleted. (SysInstance=[isisSysInstance], HostName=[hwIsisHostName], HostIpAddress=[hwIsisHostIpAddress], SystemID=[isisPduLspId], SysLevel=[isisSysLevelIndex]) In LS mode, this log is supported only by the service LSs.",
+  20
+ ],
+ [
+  "LSPM started RSVP aging at time[time].",
+  12
+ ],
+ [
+  " The SSH user failed to login. (ServiceType=[ServiceType], FailedReason=[FailedReason], UserName=[UserName], Tei=[Tei], TransNo=[TransNo])",
+  50
+ ],
+ [
+  "Failed to allocate memorywhen creating new address mapping.",
+  19
+ ],
+ [
+  "IPC failed to send message to theslot [ULONG]. (MessageName=[STRING])",
+  155
+ ],
+ [
+  " The local device has detected a BGP routing loop. (BGP instance name=[InstanceName], Vpn-instance=[Vpn-instance], Afi=[AddrFamilyAfi], Safi=[AddrFamilySafi])",
+  58
+ ],
+ [
+  " The work mode of system clock source out trace. (hwClockAttributeChassisIndex=[hwClockAttributeChassisIndex], hwClockChassisId=[hwClockChassisId], hwClockAttributeSysClkLockMode=[hwClockAttributeSysClkLockMode]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  68
+ ],
+ [
+  " The length change value of the ring-network optical fiber is determined. (hwPtpPortName=[hwPtpPortName], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortRingFiberLengthChangeValue=[hwPtpPortRingFiberLengthChangeValue], hwPtpPortRingFiberLengthChangeValueFlag=[hwPtpPortRingFiberLengthChangeValueFlag]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  38
+ ],
+ [
+  "NATPT is already enabledon the interface.",
+  19
+ ],
+ [
+  " The patch package running on a board was damaged. (PhysicalName=[PhysicalName], PatchName=[PatchName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  77
+ ],
+ [
+  " Data synchronization is abnormal. (Reason=[ReasonId], ReasonDescription=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  25
+ ],
+ [
+  "In the [EtherStates] table, a row with index [row-id] was invalidated by [owner-id].",
+  72
+ ],
+ [
+  " The MAC Quiet Max User Alarm is cleared. (Spec of User Num=[SpecofUserNum], Current Threshold=[CurrentThreshold], Lower Threshold=[LowerThreshold], Upper Threshold=[UpperThreshold], Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+  143
+ ],
+ [
+  " The IP address lease is successfully renewed. (Client InterfaceName=[STRING], ServerId=[IPADDR], Acquired IpAddress=[IPADDR], Mask=[IPADDR], Gateway=[STRING], Static Route=[STRING], Lease Duration=[STRING], DNS Server=[STRING], DNS Domain=[STRING], Cloud management URL=[STRING], Option43=[STRING])",
+  34
+ ],
+ [
+  " The BFR-ID configuration conflicts are removed. (AddressFamily=[AddressFamily], SubdomainID=[SubdomainID], ConflictType=[ConflictType], ConflictBFRID=[ConflictBFRID], ConflictPrefix=[ConflictPrefix], ConflictState=[ConflictState], AdvertiserCurrent=[AdvertiserCurrent], AdvertiserNew=[AdvertiserNew], BierPrefixCurrent =[BierPrefixCurrent], BierPrefixNew=[BierPrefixNew], BFRIDCurrent=[BFRIDCurrent], BFRIDNew=[BFRIDNew]) In LS mode, this log is supported only by the service LSs.",
+  185
+ ],
+ [
+  " CRL ([issuer_name]) will be valid in [day] days.",
+  9
+ ],
+ [
+  " OID [oid] EPON ONU's optical module always send laser alarm recovery.",
+  45
+ ],
+ [
+  " The routes number of the specified type received from peers in a BGP address family reached the alarm threshold. (Address Family=[AddressFamily], RouteType=[RouteType], MaxRouteNumber=[RouteLimitNum], AlarmThreshold=[RouteLimitThreshold], BGP instance name=[InstanceName])",
+  58
+ ],
+ [
+  "The GR aging timer expired. (InterfaceName=[STRING], InterfaceAddress=[STRING], NeighborAddress=[STRING])",
+  6
+ ],
+ [
+  " The abnormal shell behavior has been detected. (eventCategory=[event-category], eventType=[event-type], level=[level], occurTime=[occur-time], result=[result], path=[shell-path], operationType=[operation-type], cmdline=[cmdline], type=[attribute-type], from=[old-attribute], to=[new-attribute], slot=[slot], card=[card], cpu=[cpu], barcode=[barcode])",
+  56
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\", a new neighbor was created on the interface. (NeighborIpAddress=[STRING], Interface=[STRING], FlCode=[STRING][ULONG])",
+  67
+ ],
+ [
+  " The MSTP process's port has been set to discarding state because of detecting loopback. (ProcessID=[ProcessID], InstanceID=[InstanceID], PortID=[PortID], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName])",
+  4
+ ],
+ [
+  " The number of DHCP used IP addresses reached the limitation. (Maximum number=[ULONG])",
+  82
+ ],
+ [
+  "The smart upgrade function is enabled.",
+  86
+ ],
+ [
+  " The number of routes in the VPN instance reached the alarm threshould. (CurrentRouteNum=[CurrentRouteNum], ThresholdValue=[ThresholdValue], RouteType=[RouteType], Vpn-instance=[Vpn-instance], Address Family=[AddressFamily]) In LS mode, this log is supported only by the service LSs.",
+  58
+ ],
+ [
+  " Evpn upgrade set [STRING] next startup file success.",
+  86
+ ],
+ [
+  " Link bandwidth lost partly. (TrunkIndex=[TrunkIndex], TrunkIfIndex=[TrunkIfIndex], TrunkId=[TrunkId], TrunkName=[TrunkName], Reason=[ReasonCode])",
+  98
+ ],
+ [
+  " The default route is added.(AddrFamily=[AfType], InstanceID=[InstanceID], ProcessID=[ProcID], ProtocolID=[ProtoID], SubProtocolID=[SubProtoID], ExitIf=[Ifname], Nexthop=[Nexthop], Neighbour=[Neighbour], Preference=[Pref], Metric=[Metric], IndirectID=[IndirectID])",
+  0
+ ],
+ [
+  "OID [oid] Station repititiveattack notify.(ApMac=[OPAQUE],ApMac=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],ApName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET],APID=[INTEGER])",
+  40
+ ],
+ [
+  "OID [OID] Exceed the speed limit value configured.(Ifnet index=[INTEGER], Configured value=[COUNTER], Sampling value=[COUNTER],Speed-limit type=[OCTET], Source Ip address=[IPADDR], DestinationIp address=[IPADDR], VPN-Instance name=[OCTET]).",
+  91
+ ],
+ [
+  " The number of mac quiet users reached the maximum. (Spec of User Num=[SpecofUserNum], Current Threshold=[CurrentThreshold], Lower Threshold=[LowerThreshold], Upper Threshold=[UpperThreshold], Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+  143
+ ],
+ [
+  " ISIS [ProcessId] Level-[level] LSDB was overflow.",
+  20
+ ],
+ [
+  "The SCP server sent the file [STRING] to a client. (UserName=[STRING], IpAddress=[STRING], VpnInstanceName=[STRING])",
+  50
+ ],
+ [
+  " PD on the interface is over load.(Interface name =[STRING])",
+  41
+ ],
+ [
+  " The binding SID allocation failure is resolved.(Endpoint=[hwSrPolicyEndpoint], Color=[hwSrPolicyColor], BSID=[hwSrPolicyBsid], Reason=[hwSrPolicyBsidFailReason], ConflictState=[hwSrPolicyConflictState]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  172
+ ],
+ [
+  " Exporting local certificate file ([string]) failed.",
+  9
+ ],
+ [
+  " The state of interface turned to DOWN because of FLOW DOWN. (Interface=[ifIndex], InterfaceIndex=[hwIFExtIndex], SysUpTime=[sysUpTime], FlowStatus=[hwIFExtFlowStatus],InterfaceName=[ifName]) In LS mode, this log is supported only by the service LSs.",
+  59
+ ],
+ [
+  " IS-IS routes advertised by another device were not deleted. (SysInstance=[isisSysInstance], HostName=[hwIsisHostName], HostIpAddress=[hwIsisHostIpAddress], SystemID=[isisPduLspId], SysLevel=[isisSysLevelIndex]) In LS mode, this log is supported only by the service LSs.",
+  20
+ ],
+ [
+  " The trace identifier mismatch in the higher order path alarm.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],HpID=[hwSDHHpPerfCurrentHpIndex],InterfaceName=[hwPhysicalPortName]) In LS mode, this log is supported only by the service LSs.",
+  60
+ ],
+ [
+  "OID [oid]  The helper status ofthe non-virtual neighbor changes. (NbrIpAddr=[ip-address], NbrAddressLessIndex=[interface-index],ProcessId=[process-id], RouterId=[router-id], NbrRtrId=[neighbor-router-id],NbrRestartHelperStatus=[gr-helper-state], NbrRestartHelperAge=[gr-helper-value],NbrRestartHelperExitReason=[quit-reason], InstanceName=[instance-name])",
+  8
+ ],
+ [
+  " MAC addresses were unsuppressed in the EVPN instance. (EVPNInstanceName=[EVPNInstanceName]) In LS mode, this log is supported only by the service LSs.",
+  27
+ ],
+ [
+  " The IP address assigned by a DHCP server conflicted with another host on the link. (Client InterfaceName=[interface-name], ServerId=[ip-address], Assigned IpAddress=[assigned-ip-address], Client Mac Address=[client-mac-address], Conflict Mac Address=[conflict-mac-address])",
+  34
+ ],
+ [
+  "OID [OID]Nonthreshold trap recovered.(IfIndex=[INTEGER], EventLogIndex=[GAUGE],EventLogTimestamp=[TIMETICK], TrapLogOUI=[OPAQUE], TrapLogType=[GAUGE],TrapLogLocation=[INTEGER])",
+  108
+ ],
+ [
+  "[STRING] invalid resume.",
+  53
+ ],
+ [
+  " The fan resumed from partial failure. (EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the admin LS.",
+  33
+ ],
+ [
+  " The user chose [string] when deciding whether to export key pair.",
+  9
+ ],
+ [
+  " [oid] The number of failuresin LDP session negotiation reached threshold. (LdpId=[OPAQUE], LdpEntityIndex=[GAUGE],Times=[INTEGER])",
+  17
+ ],
+ [
+  " Failed to load the signature database. (SyslogId=[syslog-id], Module=[module], Slot=[slot-id], CPU=[cpu-id], LoadVersion=[load-version], Duration(s)=[duration(s)], Reason=\"[reason]\")",
+  141
+ ],
+ [
+  " Restart the device for PNP failed.(TimeOut=[TimeOut]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  54
+ ],
+ [
+  " An IPSec policy is added. (SeqNum=[sequence-number], PolicyName=[policy-name], VsysName=[vsys-name])",
+  37
+ ],
+ [
+  " The work mode of interface [STRING1] changed from [STRING2] to [STRING3]. In LS mode, this log is supported only by the service LSs.",
+  66
+ ],
+ [
+  " OID [oid] The one-waydelay of one link in an IPFPM test instance lower the lower thresholdover five consecutive statistical periods. (TestInstanceId=[integer],AchId=[integer], IpfpmMcpSeqNoHigh=[integer], IpfpmMcpSeqNoLow=[integer],FlowType=[integer], SourceDCP=[IPADDR], SourceTLP=[integer], DestinationDCP=[IPADDR],DestinationTLP=[integer], OneDelay=[integer])",
+  90
+ ],
+ [
+  " Osnode [OSNODE] patch debug information  [PATINFO]",
+  61
+ ],
+ [
+  "[STRING] register success.",
+  97
+ ],
+ [
+  " The user failed to transfer data. (UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VpnInstanceName=[VpnInstanceName], Reason=[Reason])",
+  120
+ ],
+ [
+  " RDI alarm end. (MegId=[MegId], MegId=[Meg_Id], MeIndex=[MeIndex], MeType=[MeType], MeDirection=[MeDirection], IfName=[IfName], PeerIP=[PeerIP], VcId=[VcId], VcType=[VcType], RemoteIp=[RemoteIp], Ttl=[Ttl], MepId=[MepId], RemoteMepId=[RemoteMepId], LspName=[LspName], VsiName=[VsiName]) In LS mode, this log is supported only by the service LSs.",
+  117
+ ],
+ [
+  "Failed to obtain interface instance ID according to the alias.",
+  20
+ ],
+ [
+  " Agile controller offlinereason is [STRING].",
+  97
+ ],
+ [
+  " Realm [realm_name] succeeded in obtaining CRL through [protocol].",
+  9
+ ],
+ [
+  " Received wrong backup data. (PoolName=[STRING], BackUpData=[STRING], Reason=[STRING])",
+  82
+ ],
+ [
+  " The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=[PeerIpv4Addr], BgpPeerLastError=[PeerLastError], BgpPeerState=[PeerState],VpnInstance=[VpnInstance])",
+  58
+ ],
+ [
+  "The number of IPv4 routes reached the maximum value [max-route-value] defined in the License file.",
+  58
+ ],
+ [
+  " The link status of SPR instance changed. (DestSiteIndex=[DestSiteIndex],PolicyName=[PolicyName],LinkName=[LinkName],LinkStatus=[LinkStatus],LinkLoss=[LinkLoss],LinkDelay=[LinkDelay],LinkJitter=[LinkJitter],LinkCMI=[LinkCMI],LinkOutputRate=[LinkOutputRate],ChangedReason=[ChangedReason])",
+  78
+ ],
+ [
+  "OID [oid] The dynamic label count falls from the upper limit. (hwMplsDynamicLabelTotalCount=[INTEGER], hwMplsDynamicLabelCurrentCount=[INTEGER])",
+  12
+ ],
+ [
+  " OID [oid] Theadjacent-channel interference exceeds the alarm threshold.(APMAC=[OPAQUE],RadioID=[INTEGER],ApName=[OCTET], APChannel=[INTEGER], APID=[INTEGER],IntfBssId=[OPAQUE], IntfChnl=[INTEGER], RSSI threshold percent=[INTEGER]%)",
+  40
+ ],
+ [
+  " RM was notified thatprocess [USHORT] exited the NSR-WarmUp phase.",
+  8
+ ],
+ [
+  "OID [oid]  An OSPF packet that is receivedon a non-virtual interface cannot be parsed. (IfIpAddress=[ip-address],AddressLessIf=[interface-index], ProcessId=[process-id], RouterId=[router-id],PacketSrc=[source-ip-address], PacketType=[packet-type], InstanceName=[instance-name])",
+  8
+ ],
+ [
+  "The temperature of [STRING]is below the down-limit.",
+  53
+ ],
+ [
+  " The MSTP process's port has been set to discarding state. (ProcessID=[ProcessID], InstanceID=[InstanceID], PortID=[PortID], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName])",
+  4
+ ],
+ [
+  "OID [oid] Billpool full restore. shelf no=[INTEGER], slot no=[INTEGER]",
+  99
+ ],
+ [
+  " The board temperature exceeded the upper alarm threshold.(EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityThresholdType=[EntityThresholdType], EntityThresholdCritical=[EntityThresholdCritical], EntityThresholdCurrent=[EntityThresholdCurrent], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  33
+ ],
+ [
+  " The IPSec tunnel is deleted. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], OfflineReason=[offlinereason], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID])",
+  37
+ ],
+ [
+  " Received the notification that HA Smooth is complete.",
+  26
+ ],
+ [
+  "The user choose [STRING] when there is a selection about whether to change the LACP status of trunk members.",
+  46
+ ],
+ [
+  " MID allocation fails becausethe number of MIDs allocated to instances [current-number] has reachedthe upper limit  [max-number]. (Protocol=[STRING], Vpn=[STRING], FileLine=[STRING][STRING])",
+  39
+ ],
+ [
+  " GRESM create DuplicateToken table. (TableName=[STRING], TableId=[ULONG], BaseValue=[ULONG],TableSize=[ULONG])",
+  24
+ ],
+ [
+  " [BoardSlotID], i2c[i2c], address[address], channel[channel] voltage below major threshold, voltage is [CurValue]V. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  66
+ ],
+ [
+  " IPSec start batch-backup.(Slot=[slot-id], CpuID=[cpu-id])",
+  180
+ ],
+ [
+  "Failed to create the [STRING] timer.(ReturnValue=[ULONG])",
+  16
+ ],
+ [
+  "GRESM delete Token table.(TableId=[ULONG])",
+  24
+ ],
+ [
+  " The number of routes in the VPN instance reached the warning threshold. (CurrentRouteNum=[CurrentRouteNum], ThresholdValue=[ThresholdValue], RouteType=[RouteType], Vpn-instance=[Vpninstance], AddressFamily=[AddressFamily])",
+  58
+ ],
+ [
+  " unexpected phb alarm start. (MegId=[MegId], MegId=[Meg_Id], MeIndex=[MeIndex], MeType=[MeType], MeDirection=[MeDirection], IfName=[IfName], PeerIP=[PeerIP], VcId=[VcId], VcType=[VcType], RemoteIp=[RemoteIp], Ttl=[Ttl], MepId=[MepId], RemoteMepId=[RemoteMepId], LspName=[LspName], VsiName=[VsiName]) In LS mode, this log is supported only by the service LSs.",
+  117
+ ],
+ [
+  " The helper status of the virtual neighbor changes. (VirtNbrAreaId=[VirtNbrAreaId], VirtNbrRtrId=[VirtNbrRtrId], ProcessId=[ProcessId], RouterId=[RouterId], VirtNbrRestartHelperStatus=[VirtNbrRestartHelperStatus], VirtNbrRestartHelperAge=[VirtNbrRestartHelperAge], VirtNbrRestartHelperExitReason=[VirtNbrRestartHelperExitReason], InstanceName=[InstanceName])",
+  8
+ ],
+ [
+  "ISIS [process-id] received memory restoration notification from RM.",
+  20
+ ],
+ [
+  " Importing local certificate file ([FileName]) successfully. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  136
+ ],
+ [
+  " Output error alarm.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],InterfaceName=[hwPhysicalPortName]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "The file already exists on the device and does not need to be downloaded again.(File name=[STRING]).",
+  86
+ ],
+ [
+  "Keychain module upgrade is lossless.",
+  190
+ ],
+ [
+  "OID [OID] The RU on interface [STRING1] reports one alarm resumed(ESN=\"[STRING2]\", AlarmType=\"[STRING3]\", AlarmID=[INTEGER], AlarmDesc=\"[STRING4]\").",
+  46
+ ],
+ [
+  "Notify the change in NSSA translator role. (ProcessId=[USHORT], RouterId=[IPADDR], AreaId=[IPADDR], NssaTranslatorState=[ULONG])",
+  8
+ ],
+ [
+  "The device session resources were resumed.(Usage = [ULONG]%)",
+  73
+ ],
+ [
+  "OID [oid] Main LSP of Tunnelswitches to back up LSP in BBK.(SessionTunnelId=[integer], LocalLspId=[integer], IngressLsrId=[integer], EgressLsrId=[integer],MplsTunnelAdminStatus=[integer], MplsTunnelOperStatus=[integer])",
+  12
+ ],
+ [
+  "RM IM received the event of deleting an IP address. (IpAddress=[string], Mask=[string], Interface=[string])",
+  0
+ ],
+ [
+  " HRP link changes to up.",
+  104
+ ],
+ [
+  " User password login  Local account [account] entered the incorrect old password.UserIp=[userip].",
+  23
+ ],
+ [
+  " The Protection on Administration and Service level dropped packets is detected to slide into a warning state. (ChassisID=[ChassisID], SlotID=[SlotID], Protocol=[Protocol], CurrentRateLow=[CurrentRateLow], CurrentRateHigh=[CurrentRateHigh], NotifyEnabled=[NotifyEnabled], RateThreshold=[RateThreshold], RateInterval=[RateInterval]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  159
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\",the MTU of the interface [interface-name] was [mtu], which was toosmall to send pim Hello packet. (FlCode=[STRING][ULONG])",
+  67
+ ],
+ [
+  " The event happens at [StartTime], and lasts [Duration] seconds(InstanceTypeName=[InstanceTypeName], InstanceTypeId=[InstanceTypeId], InstanceName=[InstanceName], MeasureId=[MeasureId], MeasureName=[MeasureName]). In LS mode, this log is supported by both the admin LS and service LSs.",
+  81
+ ],
+ [
+  " The usage of the bandwidth in pool-[ulPoolNum] on TM [ulTmId] of slot [aucSlotStr] exceeded the threshold([ucValue]). In LS mode, this log is supported only by the service LSs.",
+  118
+ ],
+ [
+  "In ISIS [process-id],level-2 T1 timer expired on [interface-name] during ISIS GR. (Counter=[USHORT])",
+  20
+ ],
+ [
+  " Failed to stop the normal accounting. (User=[user-name], AcctSessionID=[acct-session-id]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  23
+ ],
+ [
+  " Get crl successfully with LDAP. (hwLdapIP=[hwLdapIP], hwLdapPort=[hwLdapPort], hwCrlAttribute=[hwCrlAttribute], hwCrlDN=[hwCrlDN], hwLdapVersion=[hwLdapVersion], hwLdapIPVrfName=[VrfIndex]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  37
+ ],
+ [
+  "GRESM create Token table. (TableName=[STRING], TableId=[ULONG], BaseValue=[ULONG], TableSize=[ULONG])",
+  24
+ ],
+ [
+  " The device detected an IPv6 address conflict. (PoolName=[STRING], ClientId=[STRING], Ipv6Address=[STRING], UserType=[STRING], UserMac=[STRING])",
+  82
+ ],
+ [
+  "OID [OID] Alarm table [alarm-table-index] monitors [sample-object-oid] with sample type [sample-type], has sampled alarm value [alarm-value] uprise [rising-value].",
+  72
+ ],
+ [
+  "OID [oid] SSID Wep keyconflict notify.(APMAC=[OPAQUE],WepIDConflictTrapAPMAC=[OPAQUE],WepIDConflictTrapAPName=[OCTET],WepIDConflictTrapRadioId=[INTEGER],WepIDConflictTrapPreSSID=[OCTET],WepIDConflictTrapCurrSSID=[OCTET],WepIDConflictTrapCipherIdx=[INTEGER],APID=[INTEGER])",
+  40
+ ],
+ [
+  "The user chose [STRING] when deciding whether to cancel the current configuration.",
+  135
+ ],
+ [
+  "A NEW SERVER IS FOUND.(SERVER INFO   IP Address = [IPADDR], MAC Address = [STRING1], Interface = [STRING2])",
+  34
+ ],
+ [
+  " The CPU is overloaded(CpuUsage=[ULONG]%, Threshold=[ULONG]%), and the tasks with top three CPU occupancy are  [STRING]",
+  127
+ ],
+ [
+  " The signal of interface [interface-name] become weak, RSSI=[RSSI] dBm.",
+  44
+ ],
+ [
+  " OSPF-INFO  The received error message was discarded. (ProcessId=[ProcessId], MsgType=[MsgType], ErrMsgCnt=[ErrMsgCnt], LocalComp=[LocalComp], PeerComp=[PeerComp])",
+  8
+ ],
+ [
+  " [content] (user=\"[userName]\", session=[sessionId])",
+  116
+ ],
+ [
+  " The system automatically saved the current configuration to the file. (FileName=[file-name])",
+  18
+ ],
+ [
+  " The number of the discarded ARP packets that did not match the binding table exceeded the threshold on the interface. (IfIndex=[IfIndex], VlanIndex=[VlanIndex], VsiIndex=[VsiIndex], Interface=[IfName], VlanID=[VlanID], DiscardedNumber=[DropNum]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  " Slot [BoardSlotID] voltage monitor resumed. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  66
+ ],
+ [
+  " The PIN is unlocked successfully. (Interface=[Interface],SIMID=[SIMID])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  " The root protection port of the instance of the MSTP process received a superior message. (ProcessID=[ProcessID], InstanceID=[InstanceID], PortID=[PortID], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName], SrcMac=[SrcMac], TAG=[VlanId])",
+  4
+ ],
+ [
+  " IP was locked. (IpAddress=[IpAddress], VpnName=[VpnName], Period=[Period] minutes)",
+  133
+ ],
+ [
+  "RSVP GR neighbour statechanged from normal to end on the restarting node. (NeighbourAddress=[IPADDR])",
+  6
+ ],
+ [
+  " Signal Degraded threshold2 near-end alarm end. (MegId=[MegId], MegId=[Meg_Id], MeIndex=[MeIndex], MeType=[MeType], MeDirection=[MeDirection], IfName=[IfName], PeerIP=[PeerIP], VcId=[VcId], VcType=[VcType], RemoteIp=[RemoteIp], Ttl=[Ttl], MepId=[MepId], RemoteMepId=[RemoteMepId], CurrentLoss=[CurrentLoss], Threshold=[Threshold], LspName=[LspName], VsiName=[VsiName]) In LS mode, this log is supported only by the service LSs.",
+  117
+ ],
+ [
+  "NTP  [string] of pstLocalAddr is using.",
+  22
+ ],
+ [
+  " The channelization bandwidth configured on the interface [interface-name] exceeds the port shaping value. In LS mode, this log is supported only by the service LSs.",
+  118
+ ],
+ [
+  " Multicast routing total entries can be created because the number of multicast routing (S, G) entries of all instances fell below the limit.(LimitType=[LimitType], AddressFamily=[AddressFamily], LimitCount=[LimitCount],ReasonType=[ReasonType]) In LS mode, this log is supported only by the service LSs.",
+  142
+ ],
+ [
+  " The IP address of request message was unlocked because timeout. (SourceIPType=[STRING], SourceIP=[STRING])",
+  135
+ ],
+ [
+  " The state of the RBS channel changed. (serviceName=[rbsName], channelState=[channelState]) In LS mode, this log is supported only by the service LSs.",
+  224
+ ],
+ [
+  " OSPF-INFO The communication components started transmitting data again from the first piece because of the incorrect sequence number. (CurSeq=[CurSeq], RecvSeq=[RecvSeq], LocalComp=[LocalComp], PeerComp=[PeerComp])",
+  8
+ ],
+ [
+  " DCN NE number overload end. (NeNumber=[NeNumber]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  54
+ ],
+ [
+  " The SMB failed to get the destination of backup information.  (SessionType=[USHORT], DataLen=[USHORT], Key1=[ULONG], Key2=[ULONG], Key3=[ULONG], Key4=[ULONG], Key5=[ULONG], ErrCode=[ULONG])",
+  8
+ ],
+ [
+  " Affect BGP services because the system memory usage exceeded the upper limit.(AddressFamily=[AddressFamily])",
+  58
+ ],
+ [
+  " The NTP packet processing rate reaches the upper threshold. (packet rate = [maxpktrate]pps)",
+  22
+ ],
+ [
+  "Keychain [keychain-name] key-id [key-id] became receive inactive.",
+  190
+ ],
+ [
+  " [BoardSlotID], i2c[i2c], address[address], channel[channel] voltage over fatal threshold, voltage is [CurValue]V. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  66
+ ],
+ [
+  "Gateway [STRING] failed to register with Gatekeeper [STRING], and start to register with Gatekeeper [STRING].",
+  99
+ ],
+ [
+  " OID [oid] Slot [INTEGER] max-poweris not enough to power on all the PD on this slot. Some low priorityPD may power off.",
+  41
+ ],
+ [
+  " The user succeeded in logging in to GRPC. (UserName=[userName], IpAddress=[ipaddress], Port=[port], VpnName=[vpnName], ChannelId=[channelId], LocalIpAddress=[localIpaddress], LocalPort=[localPort]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  228
+ ],
+ [
+  " Interface flow sudden change and forwarding chip packets loss is resumed. (InterfaceName=[hwInterfaceNames],ForwardingChipInfo=[hwForwardingChipInfo]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  119
+ ],
+ [
+  "OID[oid] A user login failed. (UserIndex=[INTEGER], UserName=[STRING],UserIP=[STRING], UserChannel=[STRING])",
+  135
+ ],
+ [
+  " Failed to alloc the table of data plane, the reason is that the memory is up to limit.(Table ID = [ULONG])",
+  73
+ ],
+ [
+  " The trunk group link status changes to Idle or Fault due to the association between trunk groups. (TrunkGroupName = [STRING1], LinkState = [STRING2]).",
+  99
+ ],
+ [
+  " The SSL certificate will expire. (CertificateName=[hwSSLCertificateName], CertificateType=[hwSSLCertificateType], BeginTime=[hwSSLCertificateBeginTime], EndTime=[hwSSLCertificateEndTime])",
+  176
+ ],
+ [
+  " The board(s) excluded retrieved during software upgrading.(PhysicalIndex=[PhysicalIndex],PhysicalName=[PhysicalName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  101
+ ],
+ [
+  " Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex], hwPhysicalPortName=[hwPhysicalPortName]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " OID [oid] Board is invalid for some reason.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapEntType= [INTEGER], EntityTrapFaultID=132625, EntityTrapReasonDescr=\"Laswitch ChipFailed\")",
+  75
+ ],
+ [
+  "Failed to leave the multicast group. (MulticastGroupAddress=[IPADDR], ReturnValue=[STRING], InterfaceNetworkIndex=[ULONG], PhysicalIndex=[ULONG], InterfaceName=[STRING])",
+  8
+ ],
+ [
+  " ND VLAN CAR became ineffective on an interface.(Protocol Type = [NdType], Logical Interface = [LogicalInterface], Physical Interface = [PhysicalInterface], Pe-Vlan = [PeVlan], Ce-Vlan = [CeVlan], Sample Rate = [SampleRate]) In LS mode, this log is supported only by the service LSs.",
+  85
+ ],
+ [
+  " CA certificate ([caCertName]) has been expired for [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+  9
+ ],
+ [
+  " Security Operation Center detected one attack.(EventNo=[hwSocAttackSeqNo],Probability=[hwSocAttackPossib],Reason=[hwSocAttackReason],Location=[hwSocAttackIfName],Interface= [hwSocAttackSubIfName],Vlan=[hwSocAttackVlanIndex],QinQ=[hwSocAttackUserQinQIndex],MAC=[hwSocAttackMacAddr],IP=[hwSocAttackIPAddr],IPv6=[hwSocAttackIPAddrV6],Vni=[hwSocAttackVniIndex]). In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  85
+ ],
+ [
+  "OID [oid] Report GPS Aerial is pluged out.",
+  75
+ ],
+ [
+  " The nat conflict rate of pool [hwNatTrapPoolName] in [hwNatTrapVsysName] system is [hwNatTrapThreshold], exceeded the upper threshold [hwNatTrapCfgThreshold], slot [hwNatTrapSlotID] cpu [hwNatTrapCpuID].",
+  51
+ ],
+ [
+  " The GR-capable peer received an Open message without the R flag, so the connection was reset. (VpnInstance=[VpnInstance], Peer=[peer-address], SourceInterface=[SourceInterface])",
+  58
+ ],
+ [
+  "Failed to allocate memory, please pay attention to the log of system!",
+  5
+ ],
+ [
+  " OSPF [ProcessId] enter helper successful",
+  8
+ ],
+ [
+  " Failed to process the module. (SyslogId=[syslog-id], Reason=[reason])",
+  237
+ ],
+ [
+  "The password has expired, so the local account [STRING] becomes invalid.",
+  23
+ ],
+ [
+  " Port Loopback Alarm! (InterfaceIndex=[InterfaceIndex], InterfaceName=[InterfaceName], LoopType=[LoopType]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " The URL filtering policy was matched.(SyslogId=[syslog-id], VSys=[vsys-name], Policy=[policy-name], SrcIp=[source-ip-address], DstIp=[destination-ip-address], SrcPort=[source-port], DstPort=[destination-port], SrcZone=[source-zone], DstZone=[destination-zone], User=[user-name], Protocol=[protocol], Application=[application-name], Profile=[profile-name], Type=[type], EventNum=[event-number], Category=[category], SubCategory=[sub-category], Page=[page], Host=[host], Referer=[refererhost], Item=[item], Action=[action])",
+  105
+ ],
+ [
+  " The status of the physical interface is Up.(EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], ReasonDescription=[hwPortDownReason]) In LS mode, this log is supported only by the service LSs.",
+  60
+ ],
+ [
+  " ISIS-INFO  Drop error packet. (PktType=[PktType], ProcessId=[ProcessId], ErrReason=[ErrReason], ErrCount=[ErrCount], InterfaceName=[InterfaceName], SubReason=[SubReason])",
+  20
+ ],
+ [
+  "OID [oid] The number of IPv6prefixes exceeded the maximum value. (PrefixCount=[Integer], MaxValue=[Integer])",
+  0
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\",when trying to send a (*, [group-address]) Join message, PIM cannotobtain the RP. (FlCode=[STRING][ULONG])",
+  67
+ ],
+ [
+  "OSPF [process-id] interface [interface-name] enters waiting state, waiting state count is [interface-in-waiting-state-number].",
+  8
+ ],
+ [
+  "OID [oid] Power change to usable status.(Index=[INTEGER1], EntityPhysicalIndex=[INTEGER2], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER3])",
+  75
+ ],
+ [
+  "The port [port-name] was blocked because it received the BPDU packets sent by itself.",
+  4
+ ],
+ [
+  " An IPv6 prefix was renewed. (PoolName=[STRING], ClientId=[STRING], Prefix=[STRING], LeaseTime=[ULONG], UserType=[STRING], UserMac=[STRING])",
+  82
+ ],
+ [
+  "OID[oid] Reset IKE SA.(VsysName=[vsys-name])",
+  37
+ ],
+ [
+  "The device begins to restore the RDB configuration.",
+  80
+ ],
+ [
+  " Configuration rollback finished, but some warnings occurred or there are still several differences.",
+  18
+ ],
+ [
+  "Current power of thePD on the interface is [ULONG].(Interface name =[STRING])",
+  41
+ ],
+ [
+  "OID [oid] When the port receivesa BPDU packet, the edged-port attribute will be disabled. (InstanceID=[INTEGER],PortID=[INTEGER], IfIndex=[INTEGER], EdgePortEnableState=[INTEGER],PortName=[STRING])",
+  4
+ ],
+ [
+  " The number of session initialization messages exceeds the mplsLdpEntityInitSessionThreshold. (PeerLdpId=[PeerLdpId],EntityIndex=[EntityIndex],Times=[InitSessionThreshold]) In LS mode, this log is supported only by the service LSs.",
+  17
+ ],
+ [
+  " The power module resumed from total failure.(EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=136987, Reason=The B plane power supply on the power module is normal.) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the admin LS.",
+  33
+ ],
+ [
+  "DestroyDSA host key successfully.",
+  49
+ ],
+ [
+  " Importing PEER certificate file ([file_name]) succeeded.",
+  9
+ ],
+ [
+  " OID=[oid] Attack occurred.(Interface=[STRING], SourceMAC=[STRING], CVLAN=[ULONG], PVLAN=[ULONG], EndTime=[STRING], TotalPackets=[ULONG])",
+  52
+ ],
+ [
+  "OID [oid] AP hot boot. (APMAC=[OPAQUE],APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET],APID=[INTEGER])",
+  40
+ ],
+ [
+  " The heartbeat status of the high availability system is abnormal. (HRP link changes to=[trap-link-state], Local device ID is=[trap-local-id], peer device ID is=[trap-peer-id])",
+  104
+ ],
+ [
+  "OID [oid] The board forwarding engine resources exceeded the threshold. (EntPhysicalindex=[INTEGER], EntPhysicalName=[OCTET], Reason=[INTEGER])",
+  25
+ ],
+ [
+  "The verbose information about the buffer of current TCP socket for receiving packers was displayed. (Full at  [ULONG] [ULONG] [ULONG] (Hour Minute Second), FullTimes=[ULONG], DroppedPackets=[ULONG])",
+  79
+ ],
+ [
+  "OID [oid] IGMPor MLD total (S, G) entries on the host side of all instances countfell below the lower threshold. (hwMgmdNotificationAddressType=[integer],hwMgmdHostSGCurrentCount=[integer], hwMgmdHostSGThreshold=[integer]%,hwMgmdHostSGTotalCount=[integer])",
+  3
+ ],
+ [
+  " A power module experienced a complete failure. (EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], EntityOperStatus=[EntityOperStatus], Reason=[ReasonDsp])",
+  163
+ ],
+ [
+  "Cannot allocate a token toFEC [ip-address]. (NextHop=[ULONG1], ErrorStatus=[ULONG2])",
+  17
+ ],
+ [
+  "The device session resources were overloaded.(Usage = [ULONG]%)",
+  73
+ ],
+ [
+  "  OID [oid] The status of BFDfor TE LSP changed to down.(SessionTunnelId=[integer], LocalLspId=[integer],IngressLsrId=[integer], EgressLsrId=[integer], TunnelName=[OCTET],LspRole=[integer])",
+  12
+ ],
+ [
+  " The HRP core state changed due to [reason]. (old_state=[old-state], new_state=[new-state], local_fault_indicator=[local-fault-indicator], peer_fault_indicator=[peer-fault-indicator], local_robustness_indicator=[local-robustness-indicator], peer_robustness_indicator=[peer-robustness-indicator])",
+  104
+ ],
+ [
+  "ISIS [process-id] failed to obtain TE link information. (InterfaceNumber=[STRING])",
+  20
+ ],
+ [
+  " ISIS [process-id]The number of level-[level] imported routes has been less than thelower threshold value. (sysMTIndex=[USHORT], sysMaxLimit=[ULONG],sysUpperThresholdValue=[ULONG], sysLowerThresholdValue=[ULONG], sysTotalRedist=[ULONG])",
+  20
+ ],
+ [
+  "OID [oid] IS-IS received a level-1Hello PDU whose area address is different from the local area address.(sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],sysInstanceofCircIfIndex=[integer], circIndex=[integer], ifIndex=[integer],circIfIndex=[integer], pduFragment=[opaque], ifName=[string])",
+  20
+ ],
+ [
+  " Send TCP KeyChain authentication failed. (tcpConnLocalAddress=[tcpConnLocalAddress], tcpConnLocalPort=[tcpConnLocalPort], tcpConnRemAddress=[tcpConnRemAddress], tcpConnRemPort=[tcpConnRemPort], hwTCPProtocol=[hwTCPProtocol], hwTCPVrfName=[hwTCPVrfName])",
+  69
+ ],
+ [
+  " The status of peerflapping suppress is changed.(ProcessId=[USHORT], AreaId=[IPADDR],ifName=[STRING], SuppressPreviousStatus=[STRING], SuppressCurrentStatus=[STRING])",
+  8
+ ],
+ [
+  " An IPv6 address was renewed. (PoolName=[STRING], ClientId=[STRING], Ipv6Address=[STRING], LeaseTime=[ULONG], UserType=[STRING], UserMac=[STRING])",
+  82
+ ],
+ [
+  " IP was unlocked. (IpAddress=[IpAddress], VpnName=[VpnName])",
+  120
+ ],
+ [
+  " Records user inputs  User entersY, the PPPoE server function is disabled on the interface [string].",
+  194
+ ],
+ [
+  " The router received a NOTIFICATION from the peer. (Peer=[peer-address], SourceInterface=[SourceInterface], ErrorCode=[error-code], SubErrorCode=[sub-error-code], NotifyInfo=[notify-info],VpnInstance=[VpnInstance], ErrorData=[error-data])",
+  58
+ ],
+ [
+  "OID[oid] An IPSec policy is deleted. (SeqNum=[sequence-number], PolicyName=[policy-name], VsysName=[vsys-name])",
+  37
+ ],
+ [
+  " The configured phy-number parameters did not match for the two connected FlexE physical interfaces.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex], hwPhysicalPortName=[hwPhysicalPortName], hwPhysicalPortLocalPhyNumber=[hwPhysicalPortLocalPhyNumber], hwPhysicalPortRemotePhyNumber=[hwPhysicalPortRemotePhyNumber]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "OID [OID] The LOOP-Protectionport did not receive BPDU packets in prescriptive time. (InstanceID=[INTEGER],PortInstanceID=[INTEGER], PortID=[INTEGER], IfIndex=[INTEGER], PortName=[STRING])",
+  4
+ ],
+ [
+  " Write event failed.",
+  63
+ ],
+ [
+  " The mismatch group IDs recovered for the two connected FlexE physical interfaces.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex], hwPhysicalPortName=[hwPhysicalPortName], hwPhysicalPortLocalGroupID=[hwPhysicalPortLocalGroupID], hwPhysicalPortRemoteGroupID=[hwPhysicalPortRemoteGroupID]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " The SIM PIN is enabled. (Interface=[Interface],SIMID=[SIMID])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  "Failed to allocate the file describer for the sub socket when accept was called to accept incoming connection request. (Time=[ULONG], TaskName=[STRING], TaskId=[ULONG], SocketId=[ULONG], ErrorCode=[LONG])",
+  79
+ ],
+ [
+  "OSPF [process-id] exited GR successfully.",
+  8
+ ],
+ [
+  " The CPU usage falls below the pre-set clear threshold.(TrapSeverity=[TrapSeverity], ProbableCause=[ProbableCause], EventType=[EventType], PhysicalIndex=[PhysicalIndex], PhysicalName=[PhysicalName], RelativeResource=[RelativeResource], UsageType=[UsageType], SubIndex=[SubIndex], CpuUsage=[CpuUsage], Unit=[Unit], CpuUsageThreshold=[CpuUsageThreshold]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  101
+ ],
+ [
+  " The sub-timeslot granula of the butted FlexE interfaces mismatch alarm resume.(hwPortIfIndex=[hwPortIfIndex], hwPortName=[hwPortName]) In LS mode, this log is supported only by the service LSs.",
+  66
+ ],
+ [
+  "OSPF backup receives switch event from RM. (SlaveHsbState=[ULONG])",
+  8
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\", the packet with an incorrect group address was ignored. (FlCode=[STRING][ULONG])",
+  67
+ ],
+ [
+  "The line protocol [line-protocol] on the interface [interface-name] has entered the [state] state.",
+  59
+ ],
+ [
+  " The FIPS mode is changed. (PreviousState=[Previous], CurrentState=[Current])",
+  101
+ ],
+ [
+  "Interface [interface-address] receivedevent [interface-event], interface state changed from [interface-previous-state]to [interface-current-state]. (ProcessId=[process-id])",
+  8
+ ],
+ [
+  " The number of the discarded DHCP packets in which the CHADDR field is inconsistent with the source MAC address exceeded the threshold on the bridge domain. (BridgeDomain=[BdIndex], DiscardedNumber=[DiscardPktAccount]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  " The LDP session was not established successfully.(LocalLsrId=[LocalLsrId], PeerLsrId=[PeerLsrId], CreateSessionTime=[CreateSessionTime], TcpUpTime=[TcpUpTime], RecvInitMsgTime=[RecvInitMsgTime], VrfName=[VrfName], SessionType=[SessionType], DiscoverySource=[DiscoverySourceIndex], TCPConnSocket=[TcpFD], TCPLsnSocket=[LsFD], Reason=[Reason]) In LS mode, this log is supported only by the service LSs.",
+  17
+ ],
+ [
+  "OID [oid] MD5 authentication failed.(SourceAddress=[IPADDR], SourcePort=[INTEGER], ForeignAddress=[IPADDR],ForeignPort=[INTEGER], Protocol=[OCTET], VrfName=[OCTET])",
+  79
+ ],
+ [
+  "OID [oid] IGMP or MLD total(*, G) entries on the host side cannot be created because the limitis reached. (hwMgmdNotificationAddressType=[integer], hwMgmdHostNotificationSrcAddr=[binary],hwMgmdHostNotificationGrpAddr=[binary], hwMgmdHostStarGCurrentCount=[integer],hwMgmdInstanceName=[string])",
+  3
+ ],
+ [
+  "In ISIS [process-id], T3 timer expired during ISIS GR.",
+  20
+ ],
+ [
+  "User attribute has been changed. (Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING], UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING])",
+  231
+ ],
+ [
+  " DCN processed QX command.(Ip=[Ip], Tei=[Tei], UserName=[UserName], Command=[Command], Result=[Result]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  54
+ ],
+ [
+  "Unlock Client. (IPAddr=[STRING], Port=[ULONG])",
+  182
+ ],
+ [
+  "OID [oid] PVL mismatch betweenentities. (PVLimitValue=[threshold])",
+  17
+ ],
+ [
+  " After the edge port receives a BPDU packet, the port is no longer an edge port. (ProcessID=[ProcessID], InstanceID=[InstanceID], PortID1=[PortID1], PortID2=[PortID2], PortID3=[PortID3], PortID4=[PortID4], PortIDFlag=[PortIDFlag], PortState=[PortState], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName])",
+  4
+ ],
+ [
+  "When determining whether to abort the ISSU upgrade through the issu abort command, the user chose [result].",
+  48
+ ],
+ [
+  " The hard pipe configured on the interface [interface-name] over port bandwidth or port shaping. In LS mode, this log is supported only by the service LSs.",
+  118
+ ],
+ [
+  "The SCP server failed to receive the file [STRING] from a client. (UserName=[string], IpAddress=[string], VpnInstanceName=[string], TransferLength=[ULONG])",
+  50
+ ],
+ [
+  " The DHCP server did not respond within the specified period. (Client InterfaceName=[STRING], Current state=[IPADDR], MAC address=[STRING], Expected address=[STRING])",
+  34
+ ],
+ [
+  "Failed to begin checkingcompatibility in the ISSU check phase.",
+  48
+ ],
+ [
+  "OID [oid] PIM (*, G)entries of all instances count reached the upper threshold. (hwPimNotificationAddressType=[integer],hwPimStarGCurrentCount=[integer], hwPimStarGThreshold=[integer]%,hwPimStarGTotalCount=[integer])",
+  67
+ ],
+ [
+  "The number of routes reached the lower threshold, and thus RIP process [process-id] recovered from the suspension state and resumed processing packets.",
+  26
+ ],
+ [
+  "OID [oid] Config change handshake.",
+  64
+ ],
+ [
+  " A malware domain was detected. (SyslogId=[syslog-id], VSys=\"[vsys-name]\", Policy=\"[policy-name]\", SrcIp=[source-ip-address], DstIp=[destination-ip-address], SrcPort=[source-port], DstPort=[destination-port], SrcZone=[source-zone], DstZone=[destination-zone], User=\"[user-name]\", Protocol=[protocol], Application=\"[application-name]\", Profile=\"[profile-name]\", DomainName=\"[domain-name]\", EventNum=[event-number], Action=[action])",
+  151
+ ],
+ [
+  "OID [oid]Unauthorized AP record clear.",
+  40
+ ],
+ [
+  "Inprocess [process-id] instance [instance-id], MSTP set port [port-name]state as learning.",
+  4
+ ],
+ [
+  " The actual bandwidth is equal to the configured bandwidth.(hwPortIfIndex=[hwPortIfIndex], hwPortName=[hwPortName], hwPortBW=[hwPortBW]) In LS mode, this log is supported only by the service LSs.",
+  66
+ ],
+ [
+  "OSPF [process-id] quits stub router state for overtime.",
+  8
+ ],
+ [
+  " The root protection port received a superior message. (InstanceID=[InstanceID], PortIndex=[PortIndex], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName])",
+  4
+ ],
+ [
+  " Succeed to activate the port license.(ItemIndex=[hwItemIndex], ItemName=[hwItemName], InterfaceIndex=[hwPhysicalIfIndex], InterfaceName=[hwPhysicalIfName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  70
+ ],
+ [
+  "The domain [STRING] is changed from active to blocked because the current time is within the blocking period.",
+  23
+ ],
+ [
+  " Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it at once.",
+  37
+ ],
+ [
+  " The number of ND entries exceeded the threshold of interface. (entPhysicalIndex=[entPhysicalIndex], Slotname=[slotname], InterfaceName=[InterfaceName], Threshold=[Threshold], Number of dynamic ND entries=[DynEntries], Number of static ND entries=[StatEntries], Number of remote ND entries=[RemoteEntries]).",
+  169
+ ],
+ [
+  " NETCONF operation switched information. (User-name=[user-name], Source-address=[source-address], Dest-address=[dest-address], VpnName=[vpn-name], Channel-id=[channel-id], Session-id=[session-id], Proxy-target=[proxy-target]) In LS mode, this log is supported only by the service LSs.",
+  121
+ ],
+ [
+  " Signal Degraded threshold1 far-end alarm end. (MegId=[MegId], MegId=[Meg_Id], MeIndex=[MeIndex], MeType=[MeType], MeDirection=[MeDirection], IfName=[IfName], PeerIP=[PeerIP], VcId=[VcId], VcType=[VcType], RemoteIp=[RemoteIp], Ttl=[Ttl], MepId=[MepId], RemoteMepId=[RemoteMepId], CurrentLoss=[CurrentLoss], Threshold=[Threshold], LspName=[LspName], VsiName=[VsiName]) In LS mode, this log is supported only by the service LSs.",
+  117
+ ],
+ [
+  "In ISIS [process-id], T3 timer re-initialized to [time] seconds on [interface-name] during ISIS GR when received Hello package.",
+  20
+ ],
+ [
+  " Shamlink interface of the [board-name] received event [event], and NSR state changed from [previous-state] to [current-state]. (DestIp=[STRING], SourceIp=[IPADDR], ProcessId=[USHORT], AreaId=[STRING])",
+  8
+ ],
+ [
+  " An IPSec policy is applied to an interface. (IfIndex=[interface-index], PolicyName=[policy-name], VsysName=[vsys-name], InterfaceName=[interface-name])",
+  37
+ ],
+ [
+  " DCN NE number overload start. (NeNumber=[NeNumber]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  54
+ ],
+ [
+  " The SFTP server received an operation request from a client. (UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName], Request=[Request], Result=[Result])",
+  50
+ ],
+ [
+  " Resource for WEB in slot [ULONG] is not enough.",
+  177
+ ],
+ [
+  " Failed to set system time in the process of step adjustment.",
+  22
+ ],
+ [
+  " Input error alarm resume.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],InterfaceName=[hwPhysicalPortName]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " The user chose [Y/N] when deciding whether to execute the command \"[command]\".",
+  91
+ ],
+ [
+  " PPP link state changed on the interface. (IfName=[IfName], LinkType=[LinkType], CurrentLinkState=[CurrentLinkState], Reason=[Reason]) In LS mode, this log is not supported.",
+  55
+ ],
+ [
+  " OSPF Router id conflict maybe occur on inter-area. (ProcessId=[USHORT], RouterId=[IPADDR])",
+  8
+ ],
+ [
+  " AP would be reset. (MAC=[OPAQUE],ApID=[ULONG], Sysname=[STRING], Reason=[STRING])",
+  40
+ ],
+ [
+  " [STRING]In V200R010C00, the severity of this log message is 5.",
+  232
+ ],
+ [
+  " Assigned TEI.(Ip=[Ip], Tei=[Tei]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  54
+ ],
+ [
+  " OID [oid] The ordinary LSP of thetunnel changes to Up. (SessionTunnelId=[INTEGER], TunnelInstIndex=[integer],IngressLsrId=[integer], EgressLsrId=[integer], mplsTunnelIfName=[octet])",
+  12
+ ],
+ [
+  "OID [oid] A user logout. (UserIndex=[INTEGER],UserName=[STRING], UserIP=[STRING], UserChannel=[STRING])",
+  135
+ ],
+ [
+  "[ULONG] invalid packets were receivedafter latest notification. The last invalid packet came from interface[STRING].",
+  112
+ ],
+ [
+  "OID [oid] Slave SwitchOver Success.",
+  195
+ ],
+ [
+  " The ptp standard time offset is abnormal. (hwPtpStandardTimeOffset=[hwPtpStandardTimeOffset], hwPtpAlarmThresholdStandardTimeOffset=[hwPtpAlarmThresholdStandardTimeOffset]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  38
+ ],
+ [
+  " The number of MACs in the EVPN instance fell below the lower threshold. (EVPNInstanceName=[EVPNInstanceName], EVPNInstanceMACCount=[EVPNInstanceMACCount], EVPNInstanceMaxMACValue=[EVPNInstanceMaxMACValue]) In LS mode, this log is supported only by the service LSs.",
+  27
+ ],
+ [
+  " The tftp server send file to client. (IpAddress=[STRING], FileName=[STRING], Result=[STRING])",
+  96
+ ],
+ [
+  "OID [oid] Main LSP of Tunnelswitches to back up LSP in OB.(SessionTunnelId=[integer], LocalLspId=[integer], IngressLsrId=[integer], EgressLsrId=[integer],MplsTunnelAdminStatus=[integer], MplsTunnelOperStatus=[integer])",
+  12
+ ],
+ [
+  "Failed to send IPC messages,please pay attention to the log of system!",
+  5
+ ],
+ [
+  " Recorded command information. (Task=[Task], Ip=[Ip], VpnName=[VpnName], User=[Username], Command=\"[Command]\", PromptInfo=\"[PromptInfo]\", UserInput=\"[UserInput]\", Result=[Result])",
+  216
+ ],
+ [
+  " The CPU usage exceeded the pre-set overload threshold. (TrapSeverity=[TrapSeverity],ProbableCause=[ProbableCause],EventType=[EventType],PhysicalIndex=[PhysicalIndex],PhysicalName=[PhysicalName],RelativeResource=[RelativeResource],UsageType=[UsageType],SubIndex=[SubIndex],CpuUsage=[CpuUsage],Unit=[Unit],CpuUsageThreshold=[CpuUsageThreshold])",
+  101
+ ],
+ [
+  "OID [oid] The number of connections has reached the maximum number. (MaximumNumber = [integer1], KeepaliveInterval = [integer2])",
+  89
+ ],
+ [
+  " The number of LSP has been less than the lower threshold value. (SysInstance=[IsisSysInstance], LsdbMaxLimit=[IsisLsdbMaxLimit], LsdbUpperThreshold=[IsisLsdbUpperThreshold], LsdbLowerThreshold=[IsisLsdbLowerThreshold], LsdbTotal=[IsisLsdbTotal])",
+  20
+ ],
+ [
+  " DNS query drop due to forward table full. (QueryType=[QueryType], Host=[Host], SourceIP=[SourceIP], VPNName=[VPNName])",
+  160
+ ],
+ [
+  " The status of peer flapping suppress is changed. (ProcessId=[ProcessId], AreaId=[AreaId], ifAreaId=[ifAreaId], ifIndex=[ifIndex], ifName=[ifName], SuppressStatus=[SuppressStatus], SuppressReason=[SuppressReason])",
+  8
+ ],
+ [
+  " The temperature of [STRING] back to normal.",
+  53
+ ],
+ [
+  "The device session resources were resumed.(Usage = [ULONG]%)",
+  73
+ ],
+ [
+  "OID [oid] The wholedevice forwarding engine resources exceeded the threshold. (EntPhysicalindex=[INTEGER],EntPhysicalName=[OCTET], Reason=[INTEGER])",
+  25
+ ],
+ [
+  " OID [oid] Slot [ULONG1]is overdrawing power. It is consuming [ULONG2] milliwatts while maximumconfigured power is [ULONG3] milliwatts.",
+  41
+ ],
+ [
+  "RSVP GR state changed from restarting to recovering on the restarting node.",
+  6
+ ],
+ [
+  "OID [oid]The number of public IPv6 prefixes falls below the threshold. (PrefixCount=[Integer],Threshold=[Integer])",
+  0
+ ],
+ [
+  " Failed to initialize the service awareness engine.(SyslogId=[syslog-id], From=[from], Reason=[reason])",
+  179
+ ],
+ [
+  "Virtual Router state [State]. (Interface=[STRING], VrId=[ULONG], InetType=[STRING])",
+  21
+ ],
+ [
+  " BFD session receives a message with the Required Min RX Interval of 0 for the first time. (LocalDiscriminitor=[LocalDiscriminitor], RemoteDiscriminitor=[RemoteDiscriminitor])",
+  87
+ ],
+ [
+  "The user chooses [STRING] when determining whether to clear LLDP neighbor.",
+  112
+ ],
+ [
+  " The number of the discarded IP packets that did not match the binding table exceeded the threshold on the bridge domain. (BridgeDomain=[BdIndex], DiscardedNumber=[DiscardPktAccount]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  "ISIS [process-id] failedto obtain Level-[level] IPv6 route entry [route] from URM. (RouteEntryTable=[ULONG],EntryId=[ULONG], MTID=[USHORT], ReturnValue=[STRING])",
+  20
+ ],
+ [
+  " B1 threshold crossing alarm is cleared.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot], CardID=[hwPhysicalPortInCard], PortID=[hwPhysicalPortInPort], InterfaceName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  60
+ ],
+ [
+  "OID [oid] All connections between sites have entered down state. (SrcSiteID=[integer1], DestSiteID=[integer2])",
+  89
+ ],
+ [
+  "The CONFD process may exit abnormally. (PID= [LONG1], VRP_PID=[LONG2]).",
+  80
+ ],
+ [
+  " Card [CardInfo] is failed, the FPGA on PIC is abnormal([Reason]). In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  66
+ ],
+ [
+  "The number of SSL policies configured on the device reaches the threshold. (Spec=[ULONG])",
+  175
+ ],
+ [
+  "OID [oid] AP memoryoverload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER],APID=[INTEGER])",
+  40
+ ],
+ [
+  " Failed to apply UDP port for VXLAN. In LS mode, this log is supported only by the service LSs.",
+  129
+ ],
+ [
+  " The port continuously received a large number of pause frames when it did not forwad packets. (IfIndex=[hwPhysicalPortIfIndex], IfName=[hwPhysicalPortName])",
+  33
+ ],
+ [
+  " Connect the loghost successfully over TLS. (PeerIP=[PeerIP], SocketHandle=[SocketHandle], VpnName=[VpnName])",
+  57
+ ],
+ [
+  " Loss of signal alarm resume.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],InterfaceName=[hwPhysicalPortName],AlarmName=[hwPhysicalPortAlarmName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " The number of used SR Policy resources exceeded the upper threshold. (hwSrPolicyResourceType=[SrPolicyResourceType], hwResourceCurrentCount=[ResourceCurrentCount], hwResourceThresholdUpperLimit=[ResourceThresholdUpperLimit], hwResourceThresholdLowerLimit=[ResourceThresholdLowerLimit], hwResourceTotalCount=[ResourceTotalCount])",
+  172
+ ],
+ [
+  " Realm [realm_name] failed to get CA certificate through [protocol].",
+  9
+ ],
+ [
+  " The ptp time offset sum is abnormal. (hwPtpTimeOffsetSumP2P=[hwPtpTimeOffsetSumP2P], hwPtpAlarmThresholdOffsetSum=[hwPtpAlarmThresholdOffsetSum]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  38
+ ],
+ [
+  " The number of IFIT dynamic midegress flow reaches the upper limit. (UpperLimit=[UpperLimit])",
+  103
+ ],
+ [
+  " The AC interfaces of the main interface have been unblocked due to MAC-Flapping association. (VsiName=[vsiname], ACInterfaceName=[ACName], MainInterfaceName=[MainIfName]) In LS mode, this log is supported only by the service LSs.",
+  137
+ ],
+ [
+  " The number of key drop cause count on the NP Chip increases abruptly and exceeds the preset threshold.(EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalName=[EntPhysicalName],LpuSlotId=[LpuSlotId], LpuFeId=[LpuFeId], DropCauseId=[DropCauseId], EntityTrapFaultID=[EntityTrapFaultID], Help Information is [HelpInfo]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  33
+ ],
+ [
+  " Importing [key_type] key pair [key_name] succeeded.",
+  9
+ ],
+ [
+  " System ID may conflict. (hwisisSysInstance=[hwisisSysInstance], hwisisSysLevelIndex=[hwisisSysLevelIndex], OwnSystemId=[OwnSystemId], sysProcIndexofDyname=[sysProcIndexofDyname], OwnDynamicName=[OwnDynamicName], AdjSystemId=[AdjSystemId], AdjDynamicName=[AdjDynamicName], LocalIP=[hwIsisLocalIP], AdjIP=[hwIsisAdjIP], RemoteIP=[hwIsisRemoteIP])",
+  20
+ ],
+ [
+  "OID [oid] TheLSP sequence number has been less than the upper threshold value.(sysInstance=[sysInstance], sysInstanceofLevel=[sysInstanceofLevel],sysLevel=[sysLevel], pduLspId=[pduLspId], ThresholdValue=[ThresholdValue])",
+  20
+ ],
+ [
+  "Received a recovery-pathmessage from neighbor [neighbor-address], but the neighbor was notenabled GR.",
+  6
+ ],
+ [
+  "OID [oid] The VM is running abnormally.(VMName=\"[octet]\")",
+  95
+ ],
+ [
+  " Allocate index [IDXName] to Component [CompName] unsuccessful. (Reason=[Reason],CompId=[CompId]) In LS mode, this log is supported only by the service LSs.",
+  12
+ ],
+ [
+  " SID resource usage fell below 95 percent of the upper limit.(SIDPoolID=[SIDPoolID],ResourceCurrentCount=[ResourceCurrentCount],ResourceTotalCount=[ResourceTotalCount]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  24
+ ],
+ [
+  " SSH server key renegotiation is failed. (SessionID=[SessionID], FailedReason=[FailedReason], RekeyReason=[RekeyReason], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName])",
+  50
+ ],
+ [
+  "When deciding whether to disable the file record function, the userchose YES. (TaskName=[STRING])",
+  81
+ ],
+ [
+  " The number of PD route for DHCPv6 relay reached the maximum.",
+  34
+ ],
+ [
+  " The PIM neighbor was lost. (NbrIntIndex=[NbrIntIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrUpTime=[NbrUpTime] seconds) In LS mode, this log is supported only by the service LSs.",
+  67
+ ],
+ [
+  " The minimum length of the ARG was changed, and split horizon function did not take effect temporarily.(lastArgLen = [lastArgLen], currentArgLen = [currentArgLen]) In LS mode, this log is supported only by the service LSs.",
+  27
+ ],
+ [
+  "The user hada request. (UserName=\"[string]\", IpAddress=[string], VpnInstanceName=\"[string]\",Request=[string])",
+  120
+ ],
+ [
+  " An unauthorized root user has been detected. (eventCategory=[event-category], occurTime=[occurTime], result=[result], unauthorizedUser=[unauthorizedUser], gid=[gid],  home=[home], shell=[shell], uid=[uid], slot=[slot], card=[card], cpu=[cpu], barcode=[barcode])",
+  56
+ ],
+ [
+  "When deciding whether to change the cycle of the statistics task,the user chose YES. (TaskName=[STRING])",
+  81
+ ],
+ [
+  "OID [oid] The device session resources were overloaded.",
+  219
+ ],
+ [
+  " Failed to test the speed of the query server. (Module=[module-name], Reason=[reason])",
+  215
+ ],
+ [
+  " SFTP operation failed. (UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName], Operation=[Operation], File/Dir Name=[FileDirName], Reason=[Reason])",
+  50
+ ],
+ [
+  "OID [oid] Ping entry probefailed. (Admin=[OCTET], Tag=[OCTET])",
+  94
+ ],
+ [
+  "The device sessionresources were resumed.(Usage = [ULONG]%)",
+  73
+ ],
+ [
+  " The local fault alarm of FlexE physical interface has resumed.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex], hwPhysicalPortName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " License is near deadline, remaining [hwGtlRemainTime] day (s). Apply for a new license file from Huawei before the grace period expires. Otherwise, relevant service functions may be unavailable or the configuration may become ineffective. (FeatureName=[hwGtlFeatureName], ChassisID=[hwGtlChassisID])",
+  70
+ ],
+ [
+  " PIN is locked, please use PUK to unlock PIN. (InterfaceName=[STRING1], UserName=[STRING2], IP=[STRING3]).",
+  46
+ ],
+ [
+  "The verbose information about the current asynchronous queue in listening state was displayed. (Read=[ULONG], Write=[ULONG], Connect=[ULONG], Close=[ULONG], PeerClose=[ULONG], Accept=[ULONG], KeepAliveDown=[ULONG], Crammed at  [ULONG] [ULONG] [ULONG](Hour Minute Seconds), LostMessage=[ULONG], MessageType=[ULONG])",
+  79
+ ],
+ [
+  " NEID conflict. (ConflictNEID=[ConflictNEID]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  54
+ ],
+ [
+  " Failed to switch the CKN(IfIndex=[if-index], Role=[role], Local Port=[local-port], Old CKN=[old-ckn],New CKN=[new-ckn], Switch Reason=[switch-reason], Failed Reason=[fail-reason]) In LS mode, this log is supported only by the service LSs.",
+  150
+ ],
+ [
+  "OID [oid] The whole deviceforwarding engine resources were overloaded. (EntPhysicalindex=[INTEGER],EntPhysicalName=[OCTET], Reason=[INTEGER])",
+  25
+ ],
+ [
+  "OID [oid]Slave SwitchOver Fail.",
+  195
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\",failed to set the MSDP global white list application policy. (FlCode=[STRING][ULONG])",
+  14
+ ],
+ [
+  " Sim card test detects [STRING]seconds continuously fail,reboot modem.",
+  44
+ ],
+ [
+  " Backing up RSA local key pair [key_name] to the standby MPU...",
+  9
+ ],
+ [
+  "OID [oid] NQA entry test completed.(OwnerIndex=[OCTET], TestName=[OCTET])",
+  94
+ ],
+ [
+  " The outbound RTP-LR of the channel drops below the threshold.(ChannelName=[hwEmdiChannelName], ChannelSourceAddress=[hwEmdiChannelSourceAddress], ChannelGroupAddress=[hwEmdiChannelGroupAddress], RtpLrThreshold=[hwEmdiRtpLrThreshold], RtpLr=[hwEmdiRtpLrValue], Slot=[hwEmdiChannelSlot], Interface=[hwEmdiChannelInterface]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  122
+ ],
+ [
+  " The board can receive pst broadcast packet from other boards.(EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName].) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  30
+ ],
+ [
+  "When deciding whether toset the LPU in slot [slot-id] to common-reboot mode, the user chose[result].",
+  48
+ ],
+ [
+  " The local device deleted IS-IS routes advertised by other devices. Reset or isolate the device from the network. (SysInstance=[isisSysInstance], HostName=[hwIsisHostName], HostIpAddress=[hwIsisHostIpAddress], SystemID=[isisPduLspId], SysLevel=[isisSysLevelIndex], PurgeLspNum=[hwIsisPurgeLspNum], AffectedNodeNum=[hwIsisAffectedNodeNum], TotalNodeNum=[hwIsisTotalNodeNum], Interval=[hwIsisInterval]) In LS mode, this log is supported only by the service LSs.",
+  20
+ ],
+ [
+  "OSPF performs lossy upgrade because of the inconsistent PAF [paf] file.",
+  8
+ ],
+ [
+  " The interface has packets dropped. (Interface=[hwXQoSPacketsDropInterfaceAlarmIfName], QueueId=[hwXQoSPacketsDropInterfaceAlarmQueueId], SlotId=[hwXQoSPacketsDropInterfaceAlarmSlotId], Discard Packets=[hwXQoSPacketsDropInterfaceAlarmPackets], Discard Bytes=[hwXQoSPacketsDropInterfaceAlarmBytes] Bytes)",
+  118
+ ],
+ [
+  " AIS alarm end. (MegId=[MegId], MegId=[Meg_Id], MeIndex=[MeIndex], MeType=[MeType], MeDirection=[MeDirection], IfName=[IfName], PeerIP=[PeerIP], VcId=[VcId], VcType=[VcType], RemoteIp=[RemoteIp], Ttl=[Ttl], MepId=[MepId], RemoteMepId=[RemoteMepId], LspName=[LspName], VsiName=[VsiName]) In LS mode, this log is supported only by the service LSs.",
+  117
+ ],
+ [
+  " The database used too much memory. (SyslogId=[syslog-id], DatabaseId=[database-index], Algorithm=[algorithm-type], DatabaseStatus=[database-status], MemorySize=[memory-size])",
+  210
+ ],
+ [
+  " User was aged. (UserName=[UserName]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  23
+ ],
+ [
+  " L2 loop detect alarmed, a loop occurs on an interface. (ChassisID=[ChassisID], SlotID=[SlotID], Interface Name=[IfName], VlanID=[VlanID], Loop Level=[LoopLevel].) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  71
+ ],
+ [
+  " OID [oid] A physical equipment error occurs at the OLT.",
+  45
+ ],
+ [
+  "Non-threshold-crossing eventoccurred. (InterfaceName=[STRING], EventLogIndex=[GAUGE], EventLogTimestamp=[TIMETICK],EventLogOui=[OPAQUE], EventLogType=[GAUGE], EventLogLocation=[INTEGER],EventLogRunningTotal=[COUNTER64])",
+  108
+ ],
+ [
+  "OID [oid]VAP has the max number of stations notify restore.(APMAC=[OPAQUE],APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER],CurruntNum=[INTEGER], APID=[INTEGER])",
+  40
+ ],
+ [
+  " User password login  Local account [account] cancelled modifying the password.UserIp=[userip].",
+  23
+ ],
+ [
+  " The storage device was removed. (EntPhysicalName=[EntPhysicalName], hwStorageDevName=[hwStorageDevName], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason])",
+  33
+ ],
+ [
+  " The alarm indicating NCP negotiation failure on the local interface was cleared. (IfName=[ifName], hwPppNcpName=[hwPppNcpName]) In LS mode, this log is supported only by the service LSs.",
+  55
+ ],
+ [
+  "The specification of the GRE module is compatible, and lossless upgrade is supported.",
+  42
+ ],
+ [
+  "Record command information. (Task=[STRING],Ip=[STRING], User=[STRING], command=\"[STRING]\")",
+  50
+ ],
+ [
+  "The IP address was added to blacklist. (IpAddress=[STRING], Reason=[STRING], Time=permanent)",
+  5
+ ],
+ [
+  " The system PAF file changed. (hwSysReloadScheduleIndex=[ScheduleIndex],hwSysPafFileIndex=[FileIndex],hwSysReloadEntity=[ReloadEntity],hwSysPafFileName=[FileName]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  13
+ ],
+ [
+  " Send RPC reply. (User-name=[user-name], Source-address=[source-address], Dest-address=[dest-address], Vpn-name=[vpn-name], Session-id=[session-id], Length=[length], FragIndex=[FragIndex], Rpc-reply=[rpc-reply])",
+  121
+ ],
+ [
+  " PCEP session state change. (PcepEntityIndex=[EntityIndex], PcepPeerAddrType=[AddrType], PcepPeerAddr=[PeerAddr], PcepSessInitiator=[SessionInitiator], PcepSessState=[SessionState], PcepSessStateLastChange=[StateChangeTime], Reason=[Reason]) In LS mode, this log is supported only by the service LSs.",
+  189
+ ],
+ [
+  " The number of routes in the VPN instance fell below the clear alarm threshold. (CurrentRouteNum=[CurrentRouteNum], ThresholdValue=[ThresholdValue], RouteType=[RouteType], Vpn-instance=[Vpn-instance], Address Family=[AddressFamily]) In LS mode, this log is supported only by the service LSs.",
+  58
+ ],
+ [
+  " The usage of the channels in pool-[ulPoolNum] on TM [ulTmId] of slot [aucSlotStr] exceeded the threshold([ucValue]). In LS mode, this log is supported only by the service LSs.",
+  118
+ ],
+ [
+  "The smooth-all-overfailed, and the system will roll back.",
+  48
+ ],
+ [
+  " The next startup image package is error. (imageIndex=[imageIndex], curImageName=[curImageName], nextImageName=[nextImageName], errReason=[errReason]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  101
+ ],
+ [
+  " The one-way delay of one link in an IPFPM test instance lower the lower threshold over five consecutive statistical periods. (TestInstanceId=[InstanceId], AchId=[AchId], IpfpmMcpSeqNoHigh=[SeqNoHigh], IpfpmMcpSeqNoLow=[SeqNoLow], FlowType=[FlowType], SourceDCP=[SrcDcpId], SourceTLP=[SrcTlpId], DestinationDCP=[DstDcpId], DestinationTLP=[DstTlpId], OneDelay=[DelayValue]) In LS mode, this log is supported only by the service LSs.",
+  90
+ ],
+ [
+  " Updating the [certificate-type] certificate (realm=[realm-name]) through controller failed (ReasonCode=[reason-code], Reason=[reason]).",
+  9
+ ],
+ [
+  " User was locked. (User=[User], Continue failed times=[FailedTimes], Continue failed period=[FailedPeriod], Locked duration=[LockedDuration], Access type=[accessType]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  23
+ ],
+ [
+  " The two-way loss ratio of the TWAMP test instance was under the lower threshold in the 1-minute statistics period. (Test SessionId=[sessionId], Value=[Value], UpperLimitThreshold=[UpperLimitThreshold], LowerLimitThreshold=[LowerLimitThreshold]) In LS mode, this log is supported only by the service LSs.",
+  152
+ ],
+ [
+  " The trace source of client changed. (hwPtpAdaptiveOldTraceSource=[hwPtpAdaptiveOldTraceSource], hwPtpAdaptiveTraceSource=[hwPtpAdaptiveTraceSource]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  38
+ ],
+ [
+  " the CA certificate is nearly expired. (CACertStartTime=[CACertStartTime], CACertFinishTime=[CACertFinishTime], CACertIssuer=[CACertIssuer], CACertSubject=[CACertSubject]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  37
+ ],
+ [
+  " A group member is online. (GroupName=[STRING], SrcIP=[STRING], DstIP=[STRING], GMCount=[ULONG])",
+  144
+ ],
+ [
+  "ISIS [process-id] failed toinitialize the decision module.",
+  20
+ ],
+ [
+  "RSVP GR ends.",
+  6
+ ],
+ [
+  " An intrusion was detected. (SyslogId=[syslog-id], VSys=\"[vsys-name]\", Policy=\"[policy-name]\", SrcIp=[source-ip], DstIp=[destination-ip], SrcPort=[source-port], DstPort=[destination-port], SrcZone=[source-zone], DstZone=[destination-zone], User=\"[user-name]\", Protocol=[protocol], Application=\"[application-name]\", Profile=\"[profile-name]\", SignName=\"[signature-name]\", SignId=[signature-id], EventNum=[event-number], Target=[target], Severity=[severity], Os=[operating-system], Category=[category], Reference=[reference-info], Action=[action])",
+  151
+ ],
+ [
+  "The system notified L2VPN and other features that LDP system-level GR processing startedafter LDP GR was enabled.",
+  17
+ ],
+ [
+  "IPV4 default Route is changed.(ChangeType=[STRING], InstanceId=[USHORT], Protocol=[STRING], ExitIf=[STRING],Nexthop=[STRING], Neighbour=[STRING], Preference=[ULONG], Label=[STRING],Metric=[ULONG])",
+  0
+ ],
+ [
+  "OID[OID] IKE phase1 sa established. (PeerAddress=[PeerAddress], PeerPort=[PeerPort], LocalAddress=[LocalAddress], AuthMethod=[AuthMethod], AuthID=[AuthID], IDType=[IDType], VsysName=[vsys-name], Role=[Role])",
+  37
+ ],
+ [
+  "OID [oid] AP has themax number of stations notify.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER],PermitNum=[INTEGER], APID=[INTEGER])",
+  40
+ ],
+ [
+  " PIN auto verify [STRING1]. (InterfaceName=[STRING2], UserName=[STRING3], IP=[STRING4]).",
+  46
+ ],
+ [
+  " OID [oid] Optical module resume from invalid situation.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER],PhysicalName=\"[OCTET]\", EntityTrapFaultID=136196, EntityTrapReasonDescr=\"Thelow input optical power increased to a normal range\")",
+  75
+ ],
+ [
+  " Requesting certificate through CMPv2 failed. (hwCMPUrl=[cmpurl], hwCMPName=[cmpname], CmpSessionName=[sessionname]).",
+  9
+ ],
+ [
+  " The SAID PING function detected that the packet modification rate reached or exceeded the threshold. (InterfaceIfIndex = [InterfaceIfIndex], InterfaceName = [InterfaceName], SendInterfaceName = [SendInterfaceName], RecvInterfaceName = [RecvInterfaceName])This log is supported only on AR8100 series.",
+  30
+ ],
+ [
+  " Current lock status of clock frequency synchronization resumed. (hwPtpFreqLockStatus=[hwPtpFreqLockStatus]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  38
+ ],
+ [
+  " [STRING]",
+  126
+ ],
+ [
+  "An error occurred when LSPMwas processing smoothing. (ErrorCode=[ULONG1], IngressLsrId=[IPADDR],SessionTunnelId=[ULONG2], LocalLspId=[ULONG3], LspIndex=[ULONG4])",
+  12
+ ],
+ [
+  "When deciding whether to overwrite the file [file-name], the user chose [Y/N].",
+  50
+ ],
+ [
+  "[STRING].",
+  46
+ ],
+ [
+  "ISIS [process-id] neighbor [neighbor] was Down on interface [interface-name] because a repeated neighbor was found. The Hello packet was received at [hello-time] last time; the maximum interval for sendingHello packets was [max-interval]; the local router sent [send-number] Hello packets and received [receive-number] packets; the type of the Hello packet was [packet-type].",
+  20
+ ],
+ [
+  " The modem is initializing, waiting please. (Interface = [interface-name])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  "The verbose information about the asynchronous queue of the current TCP socket was displayed. (Read=[ULONG], Write=[ULONG], Connect=[ULONG], Close=[ULONG], PeerClose=[ULONG], Accept=[ULONG], KeepAliveDown=[ULONG], Full at  [ULONG] [ULONG] [ULONG] (Hour Minute Second), LostMessage=[ULONG], MessageType=[ULONG])",
+  79
+ ],
+ [
+  "OID[oid] get certificate successfully with LDAP. (hwLdapIP=[ldapip], hwLdapPort=[ldapport], hwCertAttribute=[certattribute], hwCertDN=[certdn], hwLdapVersion=[ldapversion], hwCertSaveName=[certsavename])",
+  9
+ ],
+ [
+  "The number of SSL polices configured on the device reaches the threshold.(Spec=[ULONG], TaskName=[taskname], TaskId=[taskid])",
+  175
+ ],
+ [
+  " Realm [realm_name] failed to obtain CRL through LDAP. The reason for failure is [reason_for_failure].",
+  9
+ ],
+ [
+  " Failed to allocate an IPv6 prefix.(PoolName=[STRING1], ClientId=[STRING2], Reason=[STRING3], UserType=[STRING4])",
+  82
+ ],
+ [
+  "OID [OID] The number of DHCP users on the vlan exceeds alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+  34
+ ],
+ [
+  "ISIS [process-id] failed to create the area address TLV option in extended LSP set.",
+  20
+ ],
+ [
+  "ISIS [process-id] failed to match interface address. (InterfaceIndex=[STRING])",
+  20
+ ],
+ [
+  " Station went offline from the AP. (StaMAC=[OPAQUE], SSID=[STRING], ApMAC=[OPAQUE])",
+  40
+ ],
+ [
+  "OID [OID] Private alarm table [alram-line-index] monitors [description] with sample type [sample-type], has sampled alarm value [alarm-value] less than or equal to [alarm-upper-limit].",
+  72
+ ],
+ [
+  "The number of VPN-Instances routes reached the upper limit [paf-vpn-route-limit] in the system when the upper limit of routes in the routing tablein all instances was checked.",
+  0
+ ],
+ [
+  "Local account [STRING]has been unlocked.",
+  23
+ ],
+ [
+  " File operation failed. (UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName], Operation=[Operation], FileName=[FileName], Result=[Result], FailureReason=[FailureReason])",
+  50
+ ],
+ [
+  "The number of routes in IPv6[vpn-instance-name]was [current-number], which reached or exceeded the maximumvalue [max-value]. (InstanceId=[ULONG], AcceptOrRejectFlag=[STRING])",
+  0
+ ],
+ [
+  "OID [OID] The number of DHCP users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+  34
+ ],
+ [
+  "Notified LSPM of TE-Class change event. (Event=[STRING])",
+  12
+ ],
+ [
+  " OID [oid] PD with invalid IEEEclass and power denied.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+  41
+ ],
+ [
+  " The results of TE LSP was returned by controller. (SessionTunnelId=[SessionTunnelId], LocalLspId=[LocalLspId], IngressLsrId=[IngressLsrId], EgressLsrId=[EgressLsrId], TunnelName=[TunnelName], LspRole=[LspRole]) In LS mode, this log is supported only by the service LSs.",
+  189
+ ],
+ [
+  "The user performed the configurationthat will change the encapsulation protocol of the link and then selected[STRING].",
+  59
+ ],
+ [
+  "The sftp user had a request. (UserName=\"[string]\", IpAddress=[string], Request=[string])",
+  120
+ ],
+ [
+  " OID [OID] The quiet max user alarm is cleared.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+  23
+ ],
+ [
+  " Duplicate OPEN was received from the peer, and the GR capability for this peer was detected. (Peer=[peer-address], VpnInstance=[VpnInstance], SourceInterface=[SourceInterface])",
+  58
+ ],
+ [
+  "Neighbor state leaves full or changed to Down. (ProcessId=[USHORT], NeighborRouterId=[IPADDR], NeighborAreaId=[ULONG], NeighborInterface=[STRING],NeighborDownImmediate reason=[STRING], NeighborDownPrimeReason=[STRING], NeighborChangeTime=[STRING])",
+  8
+ ],
+ [
+  " In current link mode, the hardware, such as boards and optical modules, do not support PTP time synchronization. (hwPtpChassisId=[hwPtpChassisId], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  38
+ ],
+ [
+  " The MAC-FCS-SD of signal alarm has occurred. (IfIndex=[hwPhysicalPortThrIfIndex],IfName=[hwPhysicalPortThrName],CurrentValue=[hwPhysicalPortCrcPerCurrentValueString],AlarmThreshold=[hwPhysicalPortCrcPerAlarmThresholdString],ResumeThreshold=[hwPhysicalPortCrcPerResumeThresholdString]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "Failed to remove the indexfrom the list on IO board.",
+  19
+ ],
+ [
+  "Online failed. (Error code=[INTEGER], Reason=[STRING], Controller address=[STRING]).",
+  193
+ ],
+ [
+  " HA peer add. (protocol address=[STRING], Route Num=[GAUGE], IfIndex=[GAUGE])",
+  88
+ ],
+ [
+  " The next startup files on the master and slave main control boards became consistent. In LS mode, this log is supported by both the admin LS and service LSs.",
+  18
+ ],
+ [
+  " ISIS [ProcessId] received an own purged LSP. (Level=[Level], PduLspId=[PduLspId], Interface=[Interface], NbrSystem=[NbrSystem], SrcSystem=[SrcSystem], SrcDynName=[SrcDynName], SrcNbrSystem=[SrcNbrSystem])",
+  20
+ ],
+ [
+  "Script is [script-name], gets MIB node [object] as [oid].",
+  35
+ ],
+ [
+  "OID [oid] The dynamic label usage falls from the threshold. (hwMplsDynamicLabelTotalCount=[INTEGER], hwMplsDynamicLabelCurrentCount=[INTEGER], hwMplsDynamicLabelThresholdUpperLimit=[INTEGER], hwMplsDynamicLabelThresholdLowerLimit=[INTEGER])",
+  12
+ ],
+ [
+  "OID [oid] NQA entry probe failed. (OwnerIndex=[OCTET],TestName=[OCTET])",
+  94
+ ],
+ [
+  " The command([STRING])is authorized to the user(UserIP [STRING],UserMac [STRING],UserInterface [STRING]).",
+  126
+ ],
+ [
+  " The same network segment route is summarized for the ND users who go online from different member interfaces. (VlanifName=[VlanifName], IfName=[IfName], ConflictIfName=[ConflictIfName], AggrSegRoute=[AggrSegRoute], AggrPrefixLen=[AggrPrefixLen])",
+  229
+ ],
+ [
+  " The partial function of optical module failed. (EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], ReasonDescription=[ReasonDescription]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " OID [oid] Memory utilization resumed from exceeding the pre-alarm threshold.(Index=[INTEGER],HwEntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityThresholdType=[INTEGER], EntityThresholdWarning=[INTEGER], EntityThresholdCurrent=[INTEGER], EntityTrapFaultID=[INTEGER])",
+  75
+ ],
+ [
+  "Slot failed to delete session receival entry when adding session! (SlotNumber=[STRING], Discriminator=[ULONG])",
+  87
+ ],
+ [
+  " OID [OID] The NAC Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+  23
+ ],
+ [
+  "OID [oid] LDP virtual tunnelwent Down. (VirtualTunnelIndex=[gauge])",
+  12
+ ],
+ [
+  " OID [OID] The quiet max user alarm on port is cleared.(UserType=[INTEGER], IfName=[OCTET], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+  23
+ ],
+ [
+  " The number of routes on RIP process [PROCESSID] reached below the threshold limit, and thus the process has recovered from the suspension state and resumed processing the packets.",
+  26
+ ],
+ [
+  "OID [oid] AP begins to update. Do not power off the AP during the upgrade. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  40
+ ],
+ [
+  "Address mapping was not foundwhen decreasing the count of the mapping.",
+  19
+ ],
+ [
+  " The two-way delay of the TWAMP test instance exceeded the upper threshold in three consecutive test intervals. (Test SessionId=[sessionId], Value=[Value], UpperLimitThreshold=[UpperLimitThreshold], LowerLimitThreshold=[LowerLimitThreshold]) In LS mode, this log is supported only by the service LSs.",
+  152
+ ],
+ [
+  " Save thekey-pair to file with label [label-name] failed.",
+  15
+ ],
+ [
+  " OID [oid] Board is unconnected for some reason.(EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\")",
+  225
+ ],
+ [
+  " Radius packet record ([INFO])",
+  23
+ ],
+ [
+  " The card was inserted. (EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityType=[EntityType], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "OID [oid] The Down alarm about the primary LSP in the TE Auto tunnel was cleared. (SessionTunnelId=[INTEGER], TunnelInstIndex=[integer],IngressLsrId=[integer], EgressLsrId=[integer], mplsTunnelIfName=[octet])",
+  12
+ ],
+ [
+  " The number of measure hasreached the upper limit ([max-number]).",
+  81
+ ],
+ [
+  " The number of AS-external LSAs in the LSDB of an OSPF process reaches the configured maximum number.(hwOspfv2ProcessIdIndex=[hwOspfv2ProcessIdIndex], hwOspfv2MaxLimit=[hwOspfv2MaxLimit])",
+  8
+ ],
+ [
+  "OID [oid] The AP recovers orhas been deleted. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING],APID=[INTEGER])",
+  40
+ ],
+ [
+  "(Fail to execute 'free-rule acl acl-name [STRING1]' due to insufficientresources in slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL (Fail to execute 'free-rule acl [ULONG2]' due to insufficient resourcesin slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to execute 'free-ruleacl acl-name [STRING1]' in slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL (Fail to execute 'free-rule acl [ULONG2]' in slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to delete free rule,template name [STRING2] rule id [ULONG3] slot id [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to add free rule, templatename [STRING2] rule id [ULONG3].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL (Fail to delete free rule, template name [STRING2] rule id [ULONG3].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to add web serverip, slot [ULONG1] template name [STRING2].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL (Fail to delete web server ip, slot [ULONG1] template name [STRING2].)",
+  177
+ ],
+ [
+  " The MAC-FCS-EXC of signal alarm has resumed.(IfIndex=[hwPhysicalPortThrIfIndex],IfName=[hwPhysicalPortThrName],CurrentValue=[hwPhysicalPortCrcPerCurrentValueString],AlarmThreshold=[hwPhysicalPortCrcPerAlarmThresholdString],ResumeThreshold=[hwPhysicalPortCrcPerResumeThresholdString]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " The packet matched an exception IPS signature. (SyslogId=[syslog-id], VSys=\"[vsys-name]\", Policy=\"[policy-name]\", SrcIp=[source-ip], DstIp=[destination-ip], SrcPort=[source-port], DstPort=[destination-port], SrcZone=[source-zone], DstZone=[destination-zone], User=\"[user-name]\", Protocol=[protocol], Application=\"[application-name]\", Profile=\"[profile-name]\", SignName=\"[signature-name]\", SignId=[signature-id], EventNum=[event-number], Target=[target], Severity=[severity], Os=[operating-system], Category=[category], Reference=[reference-info], Action=[action])",
+  151
+ ],
+ [
+  "OID [oid] The system UTC clockchanged. (CurrentTime=[STRING])",
+  76
+ ],
+ [
+  " The user is added to quiet-table. (MAC Address [MAC])This log is supported only on AR6700 series, AR5700 series.",
+  143
+ ],
+ [
+  " Failed to compile the database. (SyslogId=[syslog-id], DatabaseId=[database-index], Algorithm=[algorithm-type], DatabaseStatus=[database-status])",
+  210
+ ],
+ [
+  " In current link mode, the hardware, such as boards and optical modules, do not support physical-layer clock synchronization. (hwClockChassisId=[hwClockChassisId], hwClockPortIfIndex=[hwClockPortIfIndex], hwClockCurSourceName=[hwClockCurSourceName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  68
+ ],
+ [
+  " The smart upgrade operation is complete. (OperateType=[OperateType], OperateResult=[OperateResult])",
+  166
+ ],
+ [
+  "The number of the discarded ARP packets that exceed the speed rate reaches [ULONG].",
+  52
+ ],
+ [
+  " OID [OID] The number of used addresses exceeds alarm threshold. (PoolName=[OCTET], UsedPercentage=[OCTET])",
+  82
+ ],
+ [
+  " Users failed to login ftp server too frequently.(failed times=[hwFtpUserLoginFailedTimes], statistic period=[hwFtpUserLoginStatisticPeriod] minutes)",
+  120
+ ],
+ [
+  " Failed to allocate an IP address.(PoolName=[STRING], ClientId=[STRING], Reason=[STRING], UserType=[STRING])",
+  82
+ ],
+ [
+  " The number of the discarded IP packets that did not match the binding table exceeded the threshold on the interface. (IfIndex=[IfIndex], VlanIndex=[VlanIndex], VsiIndex=[VsiIndex], Interface=[IfName], VlanID=[VlanID], DiscardedNumber=[DropNum]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  " IS-IS received a level-1 Hello PDU whose area address is different from the local area address. (isisSysInstance=[isisSysInstance], isisSysLevelIndex=[isisSysLevelIndex], isisCircIndex=[isisCircIndex], isisCircIfIndex=[isisCircIfIndex], isisPduFragment=[isisPduFragment], ifIndex=[ifIndex], IfName=[IfName])",
+  20
+ ],
+ [
+  " OID [oid] Global LLDP is enabled.",
+  112
+ ],
+ [
+  " OID [oid] The local device deletedIS-IS routes advertised by other devices. Reset or isolate the devicefrom the network. (SysInstance=[integer], HostName=[string], HostIpAddress=[string],SystemID=[opaque], SysLevel=[integer], PurgeLspNum=[integer], AffectedNodeNum=[integer],TotalNodeNum=[integer], Interval=[integer])",
+  20
+ ],
+ [
+  " The received prefix-sid is over the range of local SRGB.(PrefixSid=[PrefixSid]) In LS mode, this log is supported only by the service LSs.",
+  8
+ ],
+ [
+  "Sessions in the system session table are too much. (SystemConnectNumber=[ULONG])",
+  5
+ ],
+ [
+  " OSPF routes advertised by the local device were not deleted by another device. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId]) In LS mode, this log is supported only by the service LSs.",
+  8
+ ],
+ [
+  " The AC interfaces of the main interface have been unblocked due to MAC-Flapping association. (BD=[bdid], ACInterfaceName=[ACName], MainInterfaceName=[MainIfName]) In LS mode, this log is supported only by the service LSs.",
+  137
+ ],
+ [
+  " The number of MAC routes on the device fell below the maximum value. (CurrentMACRouteCount=[VstmCurMacNum], MaxMACRouteValue=[VstmMaxMacNum]) In LS mode, this log is supported only by the service LSs.",
+  1
+ ],
+ [
+  "OID [oid] Communication with the RADIUS authentication server is resumed. (IP=[ip-address], Vpn-Instance [vpn-instance-name])",
+  146
+ ],
+ [
+  " OID [oid] Failed to update database. (Module= [module-name], Pre-UpdateVersion= [pre-version], UpdateVersion= [version], ErrorCode= [err-code])",
+  141
+ ],
+ [
+  " OID [oid] The local device did not delete IS-IS routes advertised by other devices. (SysInstance=[integer], HostName=[string], HostIpAddress=[string], SystemID=[opaque], SysLevel=[integer])",
+  20
+ ],
+ [
+  " Succeeded in loading the signature database. (SyslogId=[syslog-id], Module=[module], Slot=[slot-id], CPU=[cpu-id], LoadVersion=[load-version], Duration (s)=[duration])",
+  141
+ ],
+ [
+  " Succeeded to copy file by hwFlhSyncTable with FlhSyncIndex [FlhSyncIndex], FlhSyncSrcFile [FlhSyncSrcFile], FlhSyncDstFile [FlhSyncDstFile]. In LS mode, this log is supported by both the admin LS and service LSs.",
+  138
+ ],
+ [
+  " The state of interface changed from unsuppress to suppress. (InterfaceName=[InterfaceName], SuppressState=[SuppressState]) In LS mode, this log is supported only by the service LSs.",
+  59
+ ],
+ [
+  "OID=[oid] The packet numberdropped by DAI reaches [INTEGER1], exceeds the alarm threshold[INTEGER2],Interface=[OCTET].",
+  52
+ ],
+ [
+  " The member of theLACP mode Eth-Trunk interface went down. (TrunkName=[STRING], PortName=[STRING],Reason=[STRING])",
+  98
+ ],
+ [
+  " LOCAL certificate ([subject_name]) will be valid in [day] days.",
+  9
+ ],
+ [
+  "OID [oid] LSP went Down.(BeginLspIndex=[octet].[octet].[octet], EndLspIndex=[octet].[octet].[octet])",
+  12
+ ],
+ [
+  "The operation of [STRING]  A userinput \"Yes\" to confirm the operation.",
+  0
+ ],
+ [
+  " Users failed to login telnet server too frequently.(failed times=[hwUserInfoLoginFailedTimes], statistic period=[hwUserInfoStatisticPeriod] minutes)",
+  191
+ ],
+ [
+  " The user chose[string] when deciding whether to import expired certificate.",
+  9
+ ],
+ [
+  " The GR restart timer for the peer expired. (Peer=[peer-address], SourceInterface=[SourceInterface], VpnInstance=[VpnInstance])",
+  58
+ ],
+ [
+  " MAC trap detected, [hwMacTrapMacInfo], MacAddress = [MacAddr], VlanId = [VlanId], VsiName = [VsiName], Ifindex = [Ifindex], IfName = [IfName].",
+  30
+ ],
+ [
+  " Failed to restore system configurations. (Result=[Result])",
+  18
+ ],
+ [
+  "OID [oid] The board forwardingengine resources were overloaded. (EntPhysicalindex=[INTEGER], EntPhysicalName=[OCTET],Reason=[INTEGER])",
+  25
+ ],
+ [
+  "RSVP GR neighbour statechanged from end to normal on the restarting node. (NeighbourAddress=[IPADDR])",
+  6
+ ],
+ [
+  " The number of the discarded DHCP reply packets on the untrusted interface of the bridge domain exceeded the threshold. (BridgeDomain=[BdIndex], DiscardedNumber=[DiscardPktAccount]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  "OID [oid] AP updatescompletely. (APMAC=[OPAQUE], APName=[STRING], UpdateResult=[INTEGER],UpdateTime=[OCTET], UpdateFileName=[OCTET], UpdateNextOper=[INTEGER],UpdateStatus=[STRING], APID=[INTEGER])",
+  40
+ ],
+ [
+  " An IPSec policy is deleted. (SeqNum=[sequence-number], PolicyName=[policy-name], VsysName=[vsys-name])",
+  37
+ ],
+ [
+  " OID [oid] Power has been inserted.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+  75
+ ],
+ [
+  " ISIS-INFO  The component configuration failed. (Comp=[Comp], MsgType=[MsgType], OperCode=[OperCode], ClassId=[ClassId], ErrCode=[ErrCode], Reason=[Reason])",
+  20
+ ],
+ [
+  " OID [oid] warmStart.",
+  83
+ ],
+ [
+  "OID [OID] Storage remove.(Index=[INT],PhysicalName=\"[OCTET]\",StorageName=\"[OCTET]\")",
+  75
+ ],
+ [
+  "OSPF restored data in batches before CFM.",
+  8
+ ],
+ [
+  " OPS  [STRING1] (user=\"[STRING2]\", session=[ULONG]).",
+  35
+ ],
+ [
+  "The ISSU is cancelled and the system will exit from ISSU.",
+  48
+ ],
+ [
+  "The SMB failed to run Command ([command]).",
+  8
+ ],
+ [
+  " The MaxAreaAddress field of received PDU is different from local configuration. (isisSysInstance=[isisSysInstance], isisSysLevelIndex=[isisSysLevelIndex], isisPduMaxAreaAddress=[isisPduMaxAreaAddress], isisCircIndex=[isisCircIndex], isisCircIfIndex=[isisCircIfIndex], isisPduFragment=[isisPduFragment], ifIndex=[ifIndex], IfName=[IfName])",
+  20
+ ],
+ [
+  "Failed to send RPC message to slot [ULONG].",
+  46
+ ],
+ [
+  " The optical module was not authorized by Huawei.(InterfaceIndex=[hwPhysicalPortThrIfIndex],InterfaceName=[hwPhysicalPortThrName]) In LS mode, this log is supported only by the service LSs.",
+  7
+ ],
+ [
+  "Failed to send the data to the[STRING1] device. (ErrorInfomation=[STRING2])",
+  155
+ ],
+ [
+  " Station went online on the AP. (StaMAC=[OPAQUE], SSID=[STRING], ApMAC=[OPAQUE])",
+  40
+ ],
+ [
+  " Device succeeded to registerto AC. (Host= [STRING], Port= [ULONG])Only AR511GW-LAV2M3, AR515CGW-L, AR511EGW-LcAV2, AR511GW-LM7, AR503GW-LM7,AR503GW-Lo, AR503HGW-L, AR503HGW-Lc, AR515GW-LM9-D, AR513W-V3M8, AR503GW-LcM7,AR503EDGW-Lc, AR503EDGW-Lo, AR503EDGW-Lc3 and AR503EDGW-Lo supportthis log.",
+  80
+ ],
+ [
+  " Exited the GR Helper abnormaly. (NeighbourIpAddress=[NbrIpAddr], Reason=[Reason]) In LS mode, this log is supported only by the service LSs.",
+  12
+ ],
+ [
+  " The IPv6 address assigned by a DHCPv6 server conflicts with another host on the link. (InterfaceName=[InterfaceName], Ipv6Address=[Ipv6Address], ServerDuid=[ServerDuid])",
+  34
+ ],
+ [
+  " OID [oid]The co-channel interference alarm is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER],ApName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE])",
+  40
+ ],
+ [
+  " Communication with the RADIUS Server template (name  [name]) is resumed.",
+  23
+ ],
+ [
+  " Power supply failed. (macAddress=[hwEntityTrapRelativeResource], Reason=[hwEntityTrapReasonDescr])",
+  66
+ ],
+ [
+  " The URL filtering policy was matched. (SyslogId=[syslog-id], VSys=\"[vsys-name]\", Policy=\"[policy-name]\", SrcIp=[source-ip-address], DstIp=[destination-ip-address], SrcPort=[source-port], DstPort=[destination-port], SrcZone=[source-zone], DstZone=[destination-zone], User=\"[user-name]\", Protocol=[protocol], Application=\"[application-name]\", Profile=\"[profile-name]\", Type=[type], EventNum=[event-number], Category=\"[category]\", SubCategory=\"[sub-category]\", Page=\"[page]\", Host=\"[host]\", Referer=\"[refererhost]\", Item=\"[item]\", Action=[action])",
+  105
+ ],
+ [
+  " ISIS-INFO  The statistics about LSP update, calculation, and flooding suppression times were recorded. (InstanceId =[InstanceId],  Level =[Level],  SuppressLSPstoGenerateCount=[generationLSPCount], SuppressLSPstoCalculateCount=[processLSPCount],  SuppressLSPstoFloodCount=[floodLSPCount], LogPeriod = [time] )",
+  20
+ ],
+ [
+  "MSTP received BPDU with TC,MSTP process [process-id] instance [instance-id], port name is [port-name].",
+  4
+ ],
+ [
+  " OID [oid] VRRP received protocolerror packet. (VrrpIfIndex=[INTEGER], VrId=[INTEGER], InetAddrType=[INTEGER],ProtoErrorType=[INTEGER])",
+  21
+ ],
+ [
+  " Register status changed from [prestatus] to [newstatus]. (ControllerIP=[ControllerIP])",
+  131
+ ],
+ [
+  " Initial password login  Local account [STRING1] entered the different new password twice. UserIp=[STRING2].",
+  135
+ ],
+ [
+  " The license item of slot [hwGtlChassisID] mismatched with the main board.",
+  70
+ ],
+ [
+  " The interface turned to trigger-down state, because of the loop detected on this interface. (Interface = [IfName], DomainType = [DomainType], DomainName = [DomainName],Trigger Source = [TrggerSourceifName]). In LS mode, this log is supported only by the service LSs.",
+  114
+ ],
+ [
+  " OID [oid] Secure risk warning.",
+  164
+ ],
+ [
+  " The number of MACs in the EVPN instance exceeded the maximum value. (EVPNInstanceName=[EVPNInstanceName], EVPNInstanceMACCount=[EVPNInstanceMACCount], EVPNInstanceMaxMACValue=[EVPNInstanceMaxMACValue]) In LS mode, this log is supported only by the service LSs.",
+  27
+ ],
+ [
+  " System mac-address changed. (CurMac=[curmac], PreMac=[premac])",
+  66
+ ],
+ [
+  " Scriptis [script-name], current event is [event-name], instance is [instance-id],fails to get MIB node [object].",
+  35
+ ],
+ [
+  " PD on the interface is over current.(Interface name =[STRING])",
+  41
+ ],
+ [
+  " The multicast business has been repaired by the self-healing operation.(CompName=[compname], Event=[event], GrpAddr=[grpaddr], SrcAddr=[srcaddr], Instance=[instance], Param=[param]). In LS mode, this log is supported only by the service LSs.",
+  142
+ ],
+ [
+  "Recover the cpu port rate by dynamic cpcar.(Port Rate=[ULONG])",
+  107
+ ],
+ [
+  "ISIS [process-id] neighbor [neighbor] was Down because interface [interface-name] was down. The Hello packet was received at [hello-time] last time; the maximum interval for sending Hello packets was [max-interval];the local router sent [send-number] Hello packets and received [receive-number] packets; the type of the Hello packet was [packet-type].",
+  20
+ ],
+ [
+  " The signature database update failed. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Slot=[slot-id], CPU=[cpu-id], Status=[status], Duration(s)=[duration], Reason=[reason], Suggestion=[suggestion])",
+  141
+ ],
+ [
+  " Configuration changed. (CurrentCfgChgSeqID=[CurrentCfgChgSeqID],CfgChgSeqIDReveralCount=[CfgChgSeqIDReveralCount],CfgChgTableMaxItem=[CfgChgTableMaxItem],CfgBaselineTime=[CfgBaselineTime],CfgFlowIdTime=[CfgChgTime],CfgFlowIdAgent=[TerminalType])",
+  18
+ ],
+ [
+  "",
+  63
+ ],
+ [
+  "ISIS [process-id] failedto add the Level-2 summary route. (MTID=[USHORT])",
+  20
+ ],
+ [
+  "A loop existed in path message (IngressLsrId=[IPADDR],TunnelId=[USHORT], EgressLsrId=[IPADDR]), the IP address [LoopAddress]conflicted with other router.",
+  6
+ ],
+ [
+  "OID=[oid] Gateway conflict.(SourceInterface=[OCTET], SourceIP=[OCTET], SourceMAC=[OCTET], PVLAN=[INTEGER], CVLAN=[INTEGER])",
+  52
+ ],
+ [
+  " Deleting [key_type] local key pair [key_name] failed.",
+  9
+ ],
+ [
+  " Failed to unlock the user-interface[user-interface]. (UserName=[UserName], IPAddress=[IPAddress], Reason=[Reason])",
+  135
+ ],
+ [
+  " Attack occurred. (Interface=[Interface], CVLAN=[CVLAN], PVLAN=[PVLAN], EndTime=[EndTime], TotalPackets=[TotalPackets])",
+  47
+ ],
+ [
+  "Slot failed to add session status machine table! (SlotNumber=[STRING], Discriminator=[ULONG])",
+  87
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\",a neighbor was deleted from the interface. The reason is [reason](NeighborIpAddress=[STRING], Interface=[STRING], FlCode=[STRING][ULONG])",
+  67
+ ],
+ [
+  " Authenticating the peer E-Trunk failed. (ETrunkId=[ETrunkId], AuthenticationMode=[AuthenticationMode]) In LS mode, this log is supported only by the service LSs.",
+  214
+ ],
+ [
+  " Loss of multiframe alignment in the higher order path alarm.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],HpID=[hwSDHHpPerfCurrentHpIndex],InterfaceName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " LDP session authentication failed. (PeeId=[PeerID], TcpConnSocket=(FD=[TcpFD],PipeID=[TcpPipedId]), RetCode=[RetCode]) In LS mode, this log is supported only by the service LSs.",
+  17
+ ],
+ [
+  "The number of BGPpeer sessions reached the maximum value [ULONG].",
+  58
+ ],
+ [
+  "OID[OID] Current counts of ike peer reach max limit.",
+  37
+ ],
+ [
+  "OID [oid] ISIS received a self-originatedLSP with the age being 0. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], sysInstanceofInterface=[integer], circuit=[integer],ifIndex=[integer], circuitIfIndex=[integer], pduLspId=[opaque], pduRemoteRouterID=[integer],ifName=[string])",
+  20
+ ],
+ [
+  " Delete dhcp bind-table because IP address conflict. (Bind-table info  InterfaceName=[STRING], Pvlan=[ULONG], Cvlan=[ULONG], IP Address=[IPADDR], MAC Address=[STRING])",
+  34
+ ],
+ [
+  " The MSTP process's port has been set to forwarding state. (ProcessID=[ProcessID], InstanceID=[InstanceID], PortID=[PortID], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName])",
+  4
+ ],
+ [
+  " The user's choice when there is a selection about whether to unlock the PIN. (UserChoice=[UserChoice])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  " Deleting local certificate file ([FileName]) successfully. In LS mode, this log is supported by both the admin LS and service LSs.",
+  9
+ ],
+ [
+  " User was deleted. (OperatorName=[OperatorName], IPAddress=[IPAddr], DeletedUserName=[DeletedUserName]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  23
+ ],
+ [
+  " The number of quiet 802.1x users is reaching the max. (Threshold=[Threshold]%, UserNum=[UserNum], Lower Threshold=[LowerThreshold]%, Upper Threshold=[UpperThreshold]%, Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+  143
+ ],
+ [
+  " ChassisID [chassisid], slotID [slotid], [description] password has been changed. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  66
+ ],
+ [
+  "ISIS [process-id] failed to obtain router ID from RM. (RouterId=[ULONG])",
+  20
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\",IGMP discarded the received report ([source-address], [group-address])because the number of IGMP group memberships reached the limit onthe interface [interface-name]. The current statistical number ofIGMP group memberships is [statistical-number]. (FlCode=[STRING][ULONG])",
+  100
+ ],
+ [
+  " Failed to update the route, because the number of routes reached the upper limit. (LimitValue=[limit-value], LimitType=[limit-type], VpnInstance=[VpnInstance], Address Family=[addrFamily])",
+  58
+ ],
+ [
+  " Link of service map [STRING1] has been changed, previousLink  [STRING2], currentLink  [STRING3], application   [STRING4]",
+  78
+ ],
+ [
+  "OSPF [process-id] creates TIMER of [interval-for-stub-state] seconds to measure stub router state.",
+  8
+ ],
+ [
+  "OID [oid]  The LSDB is approachingoverflow. (ProcessId=[process-id], RouterId=[router-id], ExtLsdbLimit=[lsa-limit],InstanceName=[instance-name])",
+  8
+ ],
+ [
+  " Recorded command information. (Task=[Task], RemoteIp=[RemoteIp], VpnName=[VpnName], User=[User], Command=\"[Command]\", PromptInfo=\"[PromptInfo]\", UserInput=\"[UserInput]\", LocalIp=[LocalIp].)",
+  10
+ ],
+ [
+  "The cleanup timer of RSBexpired. (IngressLsrId=[IPADDR], TunnelId=[USHORT], EgressLsrId=[IPADDR],LspId=[USHORT], LastRecRefreshTime [ULONG] [ULONG] [ULONG](Hour Minute Second),CleanupTime=[ULONG](Second))",
+  6
+ ],
+ [
+  " MAC flapping detected, VlanId = [VlanId], Original-Port = [IfNameA], Flapping port 1 = [IfNameB], port 2 = [IfNameC]. [AlarmReason].",
+  30
+ ],
+ [
+  "The upgrade mode of slot[slot-id] was set to fast reboot because [reason].",
+  48
+ ],
+ [
+  " Chassis [ChassisID] [TypeOfUnitInChassis] [StatusChanged]. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  66
+ ],
+ [
+  " A power module was inserted.(EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the admin LS.",
+  33
+ ],
+ [
+  "IFNET module informs tunnelthat slot [SlotId] has been inserted.",
+  125
+ ],
+ [
+  " The base checkpoint was not generated because the storage space was not enough.",
+  18
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\",ignored the Query received with the version of MLDv[version] on theMLDv2 interface [interface-name] ([interface-address]). (FlCode=[STRING][ULONG])",
+  43
+ ],
+ [
+  "Thelocal account [STRING] becomes valid because the current time is withinthe expiry date specified by user.",
+  23
+ ],
+ [
+  " IP was locked. (IpAddress=[IpAddress], VpnName=[VpnName], Period=[Period] minutes)",
+  120
+ ],
+ [
+  " PUBER_CONN_EXCEED (D)  (urlCli=[urlCli], connectionCount=[connectionCount], connectionCountMax=[connectionCountMax])",
+  20
+ ],
+ [
+  " Importing [key_type] key pair [key_name] succeeded.",
+  9
+ ],
+ [
+  "Failed to set tnl-policy oftype [type]. Policy name is [policy].",
+  84
+ ],
+ [
+  " Deleting BUILTINCA file ([string]) failed.",
+  9
+ ],
+ [
+  " With the development of cryptographic technologies and the improvement of computing capabilities, some cryptographic algorithms and protocols are deprecated. Please use more secure algorithms and protocols. (Type=[riskType])",
+  101
+ ],
+ [
+  " Component plug in or plug out information. (Information=[Information])",
+  163
+ ],
+ [
+  " Static binding IP address configuration conflicted with the current user. (StaticBndMACAddr=[mac-address], StaticBndIPAddr=[ip-address1], UserMACAddr=[mac-address2], UserIPAddr=[ip-address2], VpnName=[vpninfo], UsrLeaseEndTime=[lease]) In LS mode, this log is supported only by the service LSs.",
+  248
+ ],
+ [
+  "Keychain [keychain-name] key-id [key-id] info is changed, the send status is inactive, and the receive status is active.",
+  190
+ ],
+ [
+  " After the edge port receives a BPDU packet, the port is no longer an edge port. (InstanceID=[InstanceID], PortIndex=[PortIndex], EdgePortEnableState=[EdgePortEnableState], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName])",
+  4
+ ],
+ [
+  " The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=[PeerIpv4Ipv6Addr], BgpPeerLastError=[PeerLastError], BgpPeerState=[PeerState], LocalIfName=[LocalIfName], Reason=[Reason], Description=[Description])",
+  58
+ ],
+ [
+  "NTP  survivor  [string1] offset  [string2] cdist  [string3].",
+  22
+ ],
+ [
+  " [STRING]",
+  97
+ ],
+ [
+  "OID[oid] get crl successfully with HTTP. (CrlUrl=[crlurl])",
+  9
+ ],
+ [
+  "L3VPN notified IS-IS that FRR changed.(VrfId=[USHORT])",
+  20
+ ],
+ [
+  "Cannot obtainLSR ID from both RRO and CSPF. (IngressLsrId=[STRING], SessionId=[USHORT], IngressAddress=[STRING], LspId=[USHORT])",
+  6
+ ],
+ [
+  " The shamlink interface go on process, as slave's ack didn't come for [ULONG] seconds. (DestIp=[STRING], SourceIp=[IPADDR], ProcessId=[USHORT], AreaId=[STRING])",
+  8
+ ],
+ [
+  " The DHCP client successfully obtains an address. (InterfaceName=[ifName], AddressType=[protocolType]) In LS mode, this log is supported only by the service LSs.",
+  34
+ ],
+ [
+  " SSH client key renegotiation is failed. (SessionID=[SessionID], FailedReason=[FailedReason], RekeyReason=[RekeyReason], IPAddress=[IPAddress], VPNInstanceName=[VPNInstanceName])",
+  50
+ ],
+ [
+  " Device failed to registerto AC. (Host= [STRING], Port= [ULONG], LastFailReason= [STRING])Only AR511GW-LAV2M3,AR515CGW-L, AR511EGW-LcAV2, AR511GW-LM7, AR503GW-LM7, AR503GW-Lo,AR503HGW-L, AR503HGW-Lc, AR515GW-LM9-D, AR513W-V3M8, AR503GW-LcM7,AR503EDGW-Lc, AR503EDGW-Lo, AR503EDGW-Lc3 and AR503EDGW-Lo supportthis log.",
+  80
+ ],
+ [
+  " Traffic-suppress takes effect. (Domain Type=[DomainType], Domain Name=[DomainName], IfName=[IfName], CmdType=[CmdType]) In LS mode, this log is supported only by the service LSs.",
+  137
+ ],
+ [
+  " OID [oid] The OLT recovers from the physical equipment error.",
+  45
+ ],
+ [
+  " The SIM is present. (Slot-id=[slot-id])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  "OID [oid] The radio changes todown. (APID=[INTEGER],AP Mac=[OPAQUE],event=[INTEGER])",
+  40
+ ],
+ [
+  " The LSP sequence numberalmost reaches the maximum value. (isisSysInstance=[USHORT], isisSysLevelIndex=[USHORT],isisPduLspId=[STRING])",
+  20
+ ],
+ [
+  " Script [script-name]ends, event name is [event-name], instance is [instance-id], pid is[PID].",
+  35
+ ],
+ [
+  " OID [oid] The loss of frame occurs at the ONT.",
+  45
+ ],
+ [
+  " The memory is overloaded and certain messages are lost. As a result, information about memory usage of the process (ID=[ProcessID]) cannot be collected.",
+  61
+ ],
+ [
+  " The policy does not take effect, and traffic cannot be matched based on the configured rule.",
+  157
+ ],
+ [
+  "The number of multicastforwarding entries reached the upper threshold. The number of existingentries in the instance [current-instance-entry], the maximum numberof entries in the instance [current-instance-limit], the number ofexisting entries on a device [current-device-entry], the maximum numberof entries on a device [current-device-limit]. (Protocol=[STRING],Vpn=[STRING], FileLine=[STRING][STRING])",
+  39
+ ],
+ [
+  " Manually obtaining certificate [file_name] through [protocol] succeeded.",
+  9
+ ],
+ [
+  " LCP negotiation failed on the local interface. (IfName=[ifName], hwPppNegotiationFailReason=[hwPppNegotiationFailReason]) In LS mode, this log is supported only by the service LSs.",
+  55
+ ],
+ [
+  " OSPF routes advertised by another device were deleted. Reset or isolate the faulty device from the network. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId], FlushLsaNum=[hwOspfv2FlushLsaNum], AffectedNodeNum=[hwOspfv2AffectedNodeNum], TotalNodeNum=[hwOspfv2TotalNodeNum], Interval=[hwOspfv2PurgeStatPeriod]) In LS mode, this log is supported only by the service LSs.",
+  8
+ ],
+ [
+  "ISIS [process-id] stopped level-2 T2 timer because of restart disable.",
+  20
+ ],
+ [
+  "OID [oid] Entity MIB changes.",
+  201
+ ],
+ [
+  "Unknown mapping type whendeleting IPv4 dynamic address mapping.",
+  19
+ ],
+ [
+  " OID [OID] CBC mode encryption algorithm is used, and GCM mode encryption algorithm is recommended. (PeerAddress=[PeerAddress], InterfaceName=[InterfaceName]) \"",
+  37
+ ],
+ [
+  " Physical entity register succeeded. (EntityPhysicalIndex=[EntityPhysicalIndex], BaseTrapSeverity=[BaseTrapSeverity], BaseTrapProbableCause=[BaseTrapProbableCause], BaseTrapEventType=[BaseTrapEventType], EntPhysicalContainedIn=[EntPhysicalContainedIn], EntPhysicalName=[EntPhysicalName], RelativeResource=[RelativeResource], ReasonDescription=[ReasonDescription]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  33
+ ],
+ [
+  " When deciding whether to overwrite the file [FileName], the user chose [Option].",
+  74
+ ],
+ [
+  "The number of routes inthe routing table reached the maximum when a route was added to theURT smoothly. (DestinationAddress=[STRING])",
+  0
+ ],
+ [
+  " The VRRP link went up. (Interface=[interface-name], VrId=[virtual-router-ID], InetType=[vrrp-protocol-type]).",
+  104
+ ],
+ [
+  "OID [oid] The BGP FSM moves from ahigher numbered state to a lower numbered state. (InstanceId=[gauge],Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary],InterfaceIndex=[integer], PeerLastError=[octet], PeerState=[integer],PeerUnavaiReason=[gauge], InterfaceName=[octet])",
+  58
+ ],
+ [
+  " unexpected phb alarm end. (MegId=[MegId], MegId=[Meg_Id], MeIndex=[MeIndex], MeType=[MeType], MeDirection=[MeDirection], IfName=[IfName], PeerIP=[PeerIP], VcId=[VcId], VcType=[VcType], RemoteIp=[RemoteIp], Ttl=[Ttl], MepId=[MepId], RemoteMepId=[RemoteMepId], LspName=[LspName], VsiName=[VsiName]) In LS mode, this log is supported only by the service LSs.",
+  117
+ ],
+ [
+  " With the TC protection enabled, if TC BPDUs were received after the number of TC BPDUs received by an instance exceeded the threshold, these TC BPDUs were processed after the TC protection time expires. (ProcessID=[ProcessID], proTcGuard=[proTcGuard], InstanceID=[InstanceID], proInstBridgePriority=[proInstBridgePriority])",
+  4
+ ],
+ [
+  " The number of ND entries exceeded the threshold of slot. (entPhysicalIndex=[entPhysicalIndex], Slotname=[slotname], Threshold=[Threshold], Number of dynamic ND entries=[DynEntries], Number of static ND entries=[StatEntries], Number of remote ND entries=[RemoteEntries]).",
+  169
+ ],
+ [
+  "OID [OID]  This bridge is no longer the root bridge of the instance [instance-id].",
+  4
+ ],
+ [
+  " OSPF [ProcessId] cannot act as helper, Reason=[Reason].",
+  8
+ ],
+ [
+  " ARP VLAN CAR became effective on an interface, which was probably due to a loop on the interface.(Logical Interface = [LogicalInterface], Physical Interface = [PhysicalInterface], Pe-Vlan = [PeVlan], Ce-Vlan = [CeVlan], Sample Rate = [SampleRate]) In LS mode, this log is supported only by the service LSs.",
+  85
+ ],
+ [
+  " OID [oid] The APSdegraded alarm received by the tunnel protection group is cleared.(IfIndex=[INTEGER],SessionTunnelId=[integer], LocalLspId=[integer], IngressLsrId=[integer],EgressLsrId=[integer], WorkTunnel=[OCTET], SignalingProtocol=[integer])",
+  125
+ ],
+ [
+  "ISIS [process-id] failed to set link control. (InterfaceIndex=[STRING])",
+  20
+ ],
+ [
+  "IPv6 was not enabled globally. (ProcessId=[ULONG])",
+  2
+ ],
+ [
+  "In VPN instance \"[vpn-instance-name]\",the number of existed MLD group memberships exceeded the limit onthis interface. (FlCode=[STRING][ULONG])",
+  43
+ ],
+ [
+  " The number of the binding items exceeded the threshold of user-limit on the bridge domain. (BridgeDomain=[BdIndex], BindingitemNumber=[BindingItemNum], MaxUserNumber=[MaxUserNum]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  "OSPF [process-id] addsvirtual neighbor to pre-restart neighbor list. (RouterId=[IPADDR],TransitAreaId=[IPADDR], HelperVirtNbrCount=[ULONG], HelperShamLinkNbrCount=[ULONG],HelperNormalNbrCount=[ULONG])",
+  8
+ ],
+ [
+  " The license named [licenseName] was activated for the board in the slot [slotId]. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  30
+ ],
+ [
+  "The server had not beenauthenticated in the process of exchanging keys. When deciding whetherto continue, the user chose [STRING].",
+  50
+ ],
+ [
+  "The user undo active [STRING] function.",
+  197
+ ],
+ [
+  " The number of OSPFv2 peers in single process has reached the upper limit. (ProcessId=[USHORT], PeerCount=[UINT32])",
+  8
+ ],
+ [
+  " This bridge changed to be the root bridge.",
+  4
+ ],
+ [
+  " Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex], hwPhysicalPortName=[hwPhysicalPortName]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " OID [oid] The numberof used MPLS resources reached the maximum number. (hwMplsResourceType=[integer],hwMplsResourceTotalCount=[integer])",
+  12
+ ],
+ [
+  " OID [oid] Board resume from invalid situation.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapEntType= [INTEGER], EntityTrapFaultID=132625, EntityTrapReasonDescr=\"TheLanswitch chip on the board recovered\")",
+  75
+ ],
+ [
+  "OID [oid] Power change to unusable status.(Index=[INTEGER1], EntityPhysicalIndex=[INTEGER2], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER3])",
+  75
+ ],
+ [
+  "ISIS [process-id] failed to delete the TLV. (NeighborSystemId=[STRING], TlvType=[USHORT])",
+  20
+ ],
+ [
+  " Exceeding block error B2 counter in the multiplex section alarm resume.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],InterfaceName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "[STRING] is reset, The reason is [STRING].",
+  97
+ ],
+ [
+  " The SDH B2 error resume. (hwIfMonitorIndex=[hwIfMonitorIndex], hwIfMonitorSdhB2ErrorStatistics=[hwIfMonitorSdhB2ErrorStatistics], hwIfMonitorSdhB2ErrorThreshold=[hwIfMonitorSdhB2ErrorThreshold], hwIfMonitorSdhB2ErrorInterval=[hwIfMonitorSdhB2ErrorInterval], hwIfMonitorName=[hwIfMonitorName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  7
+ ],
+ [
+  " TFTP file transfer end.(IPAddress=[IPAddress], LocalFilename=[LocalFilename], RemoteFilename=[RemoteFilename], RetCode=[RetCode], FileSize=[FileSize]bytes, TransSize=[TransSize]bytes, TransTime=[TransTime]second(s))",
+  96
+ ],
+ [
+  "In the [event] table, a valid row with index [row-id] was newly added by [owner-id].",
+  72
+ ],
+ [
+  "OID[oid] NHRP peer is deleted.(Interface=[interface-name], protocol-address=[protocol-address], mask=[mask], next-hop=[next-hop-address], nbma-address=[nbma-address], type=[peer-type], reason=[delete-reason])",
+  88
+ ],
+ [
+  "SSL component fails to unload certificates.(Policy name=[policyname], Policy type=[policytype]), TaskName=[taskname], TaskId=[taskid])",
+  175
+ ],
+ [
+  "OID[oid] AP not support configured country code notify.(APMAC=[MacAddress],APName=[STRING], COUNTRY CODE=[OCTET], APID=[INTEGER])",
+  40
+ ],
+ [
+  "Interface [interface-name] has been triggered Up by monitor group [monitor-group-name].",
+  168
+ ],
+ [
+  "Received an IGMP packet from [STRING1] to [STRING2] with unsupported type. (Type=[LONG])",
+  110
+ ],
+ [
+  " The mismatch phy-number parameters recovered for the two connected FlexE physical interfaces.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex], hwPhysicalPortName=[hwPhysicalPortName], hwPhysicalPortLocalPhyNumber=[hwPhysicalPortLocalPhyNumber], hwPhysicalPortRemotePhyNumber=[hwPhysicalPortRemotePhyNumber]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " Scriptis [script-name], correlate [expression] success.",
+  35
+ ],
+ [
+  "Cannot power on [STRING] because the board is unrecognized.",
+  53
+ ],
+ [
+  "OSPF backup receives synchronization across event from RM. (SlaveHsbState=[ULONG])",
+  8
+ ],
+ [
+  " An intrusion was detected. (SyslogId=[syslog-id], VSys=\"[vsys-name]\", Policy=\"[policy-name]\", SrcIp=[source-ip], DstIp=[destination-ip], SrcPort=[source-port], DstPort=[destination-port], SrcZone=[source-zone], DstZone=[destination-zone], User=\"[user-name]\", Protocol=[protocol], Application=\"[application-name]\", Profile=\"[profile-name]\", SignName=\"[signature-name]\", SignId=[signature-id], EventNum=[event-number], Target=[target], Severity=[severity], Os=[operating-system], Category=[category], Reference=[reference-info], Action=[action])",
+  151
+ ],
+ [
+  "Power on [STRING] successfully.",
+  53
+ ],
+ [
+  "Cannot send TCP message. (PeerIP=[STRING],MessageLength=[ULONG], SocketId=[ULONG], ErrorSocketStatus=[LONG])",
+  17
+ ],
+ [
+  " OID [oid] Succeed in updating database. (Module= [module-name], Pre-UpdateVersion= [pre-version], UpdateVersion= [version])",
+  141
+ ],
+ [
+  "Aging failed in the ISSUswitch phase.",
+  48
+ ],
+ [
+  " When deciding whether to delete all the TOSs, the user chose [Y/N].",
+  217
+ ],
+ [
+  "ISSU will start in [mode] mode. When the system prompted whether to continue, the user chose [result].",
+  48
+ ],
+ [
+  " Log information about communication with HTTP. (process=[process])",
+  205
+ ],
+ [
+  "ISIS [process-id] receivedan incorrect backup self LSP on the slave board. (LspId=[STRING],Level=[STRING], Reason=[STRING], SeqNum=[STRING], TlvType=[USHORT],TlvLength=[USHORT])",
+  20
+ ],
+ [
+  " Anomaly message type is [PacketType],happened on port [Ifindex],traffic is [LogState], content is policy [PolicyId], classfier [ClassifierId], acl [ACLGroupId], direction [Direction], slot [SlotId],message type is [PacketType_String],ip address is [Ip-value]/[ip-mask]. In LS mode, this log is supported only by the service LSs.",
+  118
+ ],
+ [
+  " The number of the discarded DHCP request packets that did not match the binding table exceeded the threshold on the bridge domain. (BridgeDomain=[BdIndex], DiscardedNumber=[DiscardPktAccount]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  "OID [oid] Thenew Report message can be processed because the number of IGMP orMLD group memberships on the interface falls below the upper limit.(GroupAddressType=[integer],SrcAddr=[binary], GrpAddr=[binary], Interface=[integer],LimitCnt=[integer], InterfaceName=[string], InstanceName=[string])",
+  3
+ ],
+ [
+  " Remote OSPF router ID conflict may have occurred in intra-area. (ProcessId=[ProcessId], AreaId=[AreaId], RouterId=[RouterId])",
+  8
+ ],
+ [
+  "Speed of TCP or UDP session starting from  zone is too fast. (Domain=[STRING], Speed=[ULONG] Session per second)",
+  5
+ ],
+ [
+  " Interface [IfName] received LDP event [LdpEvent], LDP synchronization state [PrevState] change to [CurrentState](IsisSysInstance=[isisSysInstance]). In LS mode, this log is supported only by the service LSs.",
+  20
+ ],
+ [
+  "The upgrade was executed immediately.",
+  86
+ ],
+ [
+  "ISIS [process-id] failed to obtain the interface according to the interface index on the slave board. (InterfaceIndex=[STRING], MessageType=[STRING])",
+  20
+ ],
+ [
+  " Tokens resources conflictedwhen a specified token was applied for. (OldAppId=[ULONG], TokenHandle=[ULONG],NewAppId=[ULONG], TunnelID=[ULONG])",
+  24
+ ],
+ [
+  " The number of NSSA LSAs generated when an OSPF process imports external routes exceeds the configured alarm upper threshold.(hwOspfv2ProcessIdIndex=[hwOspfv2ProcessIdIndex], hwOspfv2AreaId=[hwOspfv2AreaId], hwOspfv2Threshold=[hwOspfv2Threshold])",
+  8
+ ],
+ [
+  " Package operation succeeded. (PackageOperationType=[PackageOperationType], PackageType=[PackageType], PackageName=[PackageName], PackageVersion=[PackageVersion])",
+  109
+ ],
+ [
+  " NQA entry probe failed. (OwnerIndex=[OwnerIndex], TestName=[TestName], TargetAddressType=[TargetAddressType], TargetAddress=[TargetAddress], OperStatus=[OperStatus], Index=[Index], RttSum=[RttSum], RTTSum2Low=[RTTSum2Low], RTTSum2High=[RTTSum2High], RTTMin=[RTTMin], RTTMax=[RTTMax], PacketOutOfSequences=[PacketOutOfSequences], Errors=[Errors], Busies=[Busies], Timeouts=[Timeouts], Drops=[Drops], ProbeResponses=[ProbeResponses], SentProbes=[SentProbes], MaxDelaySD=[MaxDelaySD], MaxDelayDS=[MaxDelayDS], JitterOut=[JitterOut], JitterIn=[JitterIn], OWSumSD=[OWSumSD], OWSumDS=[OWSumDS])",
+  94
+ ],
+ [
+  "OID [oid] The LSP sequence number has been less than the upper threshold value. (sysInstance=[sysInstance], sysInstanceofLevel=[sysInstanceofLevel], sysLevel=[sysLevel], pduLspId=[pduLspId], ThresholdValue=[ThresholdValue])",
+  20
+ ],
+ [
+  " Failed to set the user([STRING]) service. Please check whether ACL resources are sufficient.",
+  126
+ ],
+ [
+  "OID [oid] AP ping result.(APMAC=[OPAQUE], APType=[STRING], APName=[STRING], SuccessCount=[INTEGER],FailureCount=[INTEGER]. AverageResponseTime=[INTEGER]ms. MinimumResponseTime=[INTEGER]ms,MaximumResponseTime=[INTEGER]ms, APID=[INTEGER])",
+  40
+ ],
+ [
+  "Notify LSA aged out. (ProcessId=[USHORT],RouterId=[IPADDR], LsdbAreaId=[IPADDR], LsdbType=[ULONG], LsdbLsId=[IPADDR],LsdbRouterId=[IPADDR])",
+  8
+ ],
+ [
+  "Multicast packets are unblocked at interface [STRING].",
+  52
+ ],
+ [
+  " The host access interface frequently changed. (LocalIPAddress=[LocalIP], LocalBDID=[LocalBDId], LocalMAC=[LocalMAC], RemoteIPAddress=[ConflictIP], RemoteBDID=[RemoteBDId], RemoteMAC=[RemoteMAC], LocalInterface=[LocalInterface], RemoteInterface=[RemoteInterface], TunnelPeer=[TunnelPeer]) In LS mode, this log is supported only by the service LSs.",
+  91
+ ],
+ [
+  " Loss of frame alignment alarm.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],InterfaceName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " Scriptis [script-name], current event is [event-name], instance is [instance-id],exception reason is [reason].",
+  35
+ ],
+ [
+  " The user performed the configuration that will delete all the ATM configuration and then selected [Y/N].",
+  217
+ ],
+ [
+  " An IPv6 prefix was allocated. (PoolName=[STRING], ClientId=[STRING], Prefix=[STRING], LeaseTime=[ULONG], UserType=[STRING], UserMac=[STRING])",
+  82
+ ],
+ [
+  "NTP  syspeer  [string1] offset  [string2].",
+  22
+ ],
+ [
+  " FlexE group negotiation fail alarm resume. (GroupIndex=[hwFlexEGroupIndex],GroupName=[hwFlexEGroupName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  66
+ ],
+ [
+  " OID [oid] The trap of IPv4VPN LSP ping test.(hwLspIPv4VpnName=[STRING], hwLspIPv4VpnSrcAddr=[INTEGER],hwLspIPv4VpnDstAddr=[INTEGER], hwLspTTL=[INTEGER], hwLspHandle=[INTEGER])",
+  140
+ ],
+ [
+  " The checksum of LSP is wrong. (isisSysInstance=[isisSysInstance], isisSysLevelIndex=[isisSysLevelIndex], isisPduLspId=[isisPduLspId])",
+  20
+ ],
+ [
+  " The version of the startup configuration is different from the startup system software.",
+  18
+ ],
+ [
+  " The number of dynamic ND Proxy entries exceeded the threshold of the device. (Threshold=[Threshold], Number of dynamic ND proxy entries=[DynProxyEntries]). In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  169
+ ],
+ [
+  "OID [oid] The hot-standby LSPof the tunnel changes to Down. (SessionTunnelId=[INTEGER], TunnelInstIndex=[integer],IngressLsrId=[integer], EgressLsrId=[integer], mplsTunnelIfName=[octet], hwMplsTunnelDownReason=[integer], hwMplsTunnelDownLSRId=[binary],hwMplsTunnelDownIfAddrType=[integer], hwMplsTunnelDownIfAddr=[binary])",
+  12
+ ],
+ [
+  "OID [oid] PIM (S, G) entriesof all instances count reached the upper threshold. (hwPimNotificationAddressType=[integer],hwPimSGCurrentCount=[integer], hwPimSGThreshold=[integer]%,hwPimSGTotalCount=[integer])",
+  67
+ ],
+ [
+  "OID [oid] The status of the tunnelgroup changed to Down. (Destionation=[IPADDR], TunnelPolicy=[STRING])",
+  0
+ ],
+ [
+  "On the interface [interface-name], PPP link was closed because CHAP authentication failed.",
+  55
+ ],
+ [
+  " The number of IFIT measurement flow reaches the upper limit. (Node=[NodeType], FlowType=[FlowType], UpperLimit=[UpperLimit])",
+  103
+ ],
+ [
+  "The protocol on interface [interface-name]became DOWN because the negotiation of all the bundle links failed.",
+  187
+ ],
+ [
+  " The check of frequence abnormal notification. (hwClockSrcCfgChassisIndex=[hwClockSrcCfgChassisIndex], hwClockSrcCfgSourceTypeIndex=[hwClockSrcCfgSourceTypeIndex], hwClockSrcCfgSourceIndex=[hwClockSrcCfgSourceIndex], hwClockChassisId=[hwClockChassisId], hwClockSrcCfgFreqCheckResult=[hwClockSrcCfgFreqCheckResult], hwClockSrcCfgSourceDescr=[hwClockSrcCfgSourceDescr]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  68
+ ],
+ [
+  " The SR Policy's candidate path went down. (hwSrPolicyEndpoint=[SrPolicyEndpoint],hwSrPolicyColor=[SrPolicyColor],hwProtocolOrigin=[ProtocolOrigin],hwNodeAddress=[NodeAddress],hwASN=[ASN],hwDiscriminator=[Discriminator],hwPreference=[Preference],hwCandipathDownReason=[DownReason])",
+  172
+ ],
+ [
+  " Failed to connect the loghost over TLS.  (PeerIP=[PeerIP], FailReason=[FailReason], SocketHandle=[SocketHandle], VpnName=[VpnName])",
+  57
+ ],
+ [
+  "OID [oid] Interface is elected to beDR. (IfIndex=[integer], IfIPverion=[integer], IfAddrType=[integer],Addr=[binary], IfName=[string], InstanceID=[integer], InstanceName=[string])",
+  67
+ ],
+ [
+  " The two-way loss ratio of the TWAMP test instance reached the LOC threshold in three consecutive test intervals. (Test SessionId=[sessionId], Value=[Value]) In LS mode, this log is supported only by the service LSs.",
+  152
+ ],
+ [
+  "OID [oid] After a systemID conflict was detected within an IS-IS area, IS-IS changed the systemID automatically. (hwisisSysInstance=[integer], hwISISConflictSystemID=[opaque],hwISISAutoSysId=[opaque], hwISISLocalIP=[ipaddr], hwISISRemoteIP=[ipaddr])",
+  20
+ ],
+ [
+  " The HWTACACS accounting server (IP [STRING])  is forced up.",
+  123
+ ],
+ [
+  " The flow conflicts with another existing flow.(TestInstanceId=[InstanceId], FlowType=[FlowType], ConflictInstId=[ConflictInstanceId], ConflictFlowType=[ConflictFlowType]) In LS mode, this log is supported only by the service LSs.",
+  90
+ ],
+ [
+  " B3 threshold crossing alarm is cleared.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot], CardID=[hwPhysicalPortInCard], PortID=[hwPhysicalPortInPort], HpID=[hwSDHHpPerfCurrentHpIndex]. InterfaceName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  60
+ ],
+ [
+  " OID [oid] Error-down occured.(Ifindex=[INTEGER], Ifname=[STRING], Cause=[STRING])",
+  31
+ ],
+ [
+  " The board forwarding engine resources were overloaded. (EntityPhysicalIndex=[EntityPhysicalindex], EntPhysicalIndex=[EntPhysicalindex], EntPhysicalName=[EntPhysicalName], Slot=[SlotStr], Reason=[ReasonId], ReasonDescription=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  25
+ ],
+ [
+  " IS-IS routes advertised by the local device were not deleted by another device. (SysInstance=[isisSysInstance], HostName=[hwIsisHostName], HostIpAddress=[hwIsisHostIpAddress], SystemID=[isisPduLspId], SysLevel=[isisSysLevelIndex]) In LS mode, this log is supported only by the service LSs.",
+  20
+ ],
+ [
+  "The peer selected by the system is [source-address].",
+  22
+ ],
+ [
+  "Keychain [keychain-name] key-id [key-id] info is changed, the send status is active, and the receive status is active.",
+  190
+ ],
+ [
+  "Failed to get system time in the process of step adjustment.",
+  22
+ ],
+ [
+  " Deleting local certificate file ([FileName]) successfully. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  136
+ ],
+ [
+  " The port has been set to discarding state. (InstanceID=[InstanceID], PortIndex=[PortIndex], IfIndex=[IfIndex], PortName=[PortName], PwName=[PwName])",
+  4
+ ],
+ [
+  " Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it.",
+  37
+ ],
+ [
+  "Cannot obtain interface from RSVP message.(IncomingInterfaceIndex=[ULONG], InterfaceName=[STRING])",
+  6
+ ],
+ [
+  " The number of LSP has reached the upper threshold value. (SysInstance=[IsisSysInstance], LsdbMaxLimit=[IsisLsdbMaxLimit], LsdbUpperThreshold=[IsisLsdbUpperThreshold], LsdbLowerThreshold=[IsisLsdbLowerThreshold], LsdbTotal=[IsisLsdbTotal])",
+  20
+ ],
+ [
+  "The number of [table_name]prefixes in public instance reduced to [current_prefix_number], whichwas below the threshold value [threshold_number].",
+  0
+ ],
+ [
+  " Importing OCSP certificate file ([string]) failed.",
+  9
+ ],
+ [
+  "The data length was unidentifiable in the restoration process. (Type=[STRING], Length=[USHORT])",
+  8
+ ],
+ [
+  " Statistics about error MACsec data packets received by the current port. (Local Port=[LocalPort], Late Packets=[LatePkts],NotValid Packets=[NotValidPkts], BadTag Packets=[BadTagPkts],NoUsingSA Packets=[NoUsingSAPkts]) In LS mode, this log is supported only by the service LSs.",
+  150
+ ],
+ [
+  " Alarm of mismatch between the actually received and expected client calendars on the FlexE Group.(GroupIndex=[hwFlexEGroupIndex],GroupName=[hwFlexEGroupName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " OID [oid] OSPF routes advertised by another device were not deleted. (SysProcessId=[integer], HostName=[octet], HostIpAddress=[ipaddr], RouterID=[ipaddr], Area=[ipaddr])",
+  8
+ ],
+ [
+  " Session changes to UP. (Index=[Index], ConfigurationName=[ConfigurationName], BindIfIndex=[BindIfIndex], BindIfName=[BindIfName], Diagnosis=[Diagnosis], BindVrfIndex=[BindVrfIndex], BindVpnName=[BindVpnName], SessionType=[SessionType], BindType=[BindType], StaticLspName=[StaticLspName], PwSecondary=[PwSecondary], VcId=[VcId], VsiName=[VsiName], VsiPeerAddress=[VsiPeerAddress], DiscrAuto=[DiscrAuto], PeerIpv6=[PeerIpv6], Ipv6NextHop=[Ipv6NextHop],EvplId=[EvplId])",
+  87
+ ],
+ [
+  "Owing to the alarm message(s), [STRING]went Up. (AlarmType=[STRING])",
+  148
+ ],
+ [
+  " The LSP sequencenumber has exceeded the upper threshold value. (isisSysInstance=[USHORT],isisSysLevelIndex=[USHORT], isisPduLspId=[STRING], srcMac=[STRING],recvFromIf=[STRING], thresholdValue=[STRING], LocalSeqNum=[STRING],RemoteSeqNum=[STRING])",
+  20
+ ],
+ [
+  " Failed to modify the PIN. (Interface=[Interface],SIMID=[SIMID])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  " The status of [PortName] change up. ([PortStatus]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "ISIS [process-id] neighbor [neighbor] was Down on interface [interface-name] because the adjacency status changed into down. The Hello packet was received at [hello-time] last time; the maximum intervalfor sending Hello packets was [max-interval]; the local router sent [send-number] Hello packets and received [receive-number] packets; the type of the Hello packet was [packet-type].",
+  20
+ ],
+ [
+  " The number of dynamic ND Proxy entries was restored to the threshold of the device. (Threshold=[Threshold], Number of dynamic ND proxy entries=[DynProxyEntries]). In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  169
+ ],
+ [
+  "The user undo active [STRING] resource.",
+  197
+ ],
+ [
+  " GR Recovery timer expired. (PID=[hPid], CID=[hCid], GRRecoveryTimeExpire=[GRTimerExpire], GRRecoveryTimer=[GRRecoveryTimer], PeerID=[PeerID], VrfName=[VrfName]) In LS mode, this log is supported only by the service LSs.",
+  17
+ ],
+ [
+  " The board temperature exceeded the fatal alarm threshold. (EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityThresholdType=[EntityThresholdType], EntityThresholdCritical=[EntityThresholdCritical], EntityThresholdCurrent=[EntityThresholdCurrent], EntityTrapFaultID=[EntityTrapFaultID],Reason=[ReasonDsp])",
+  163
+ ],
+ [
+  " The signature database update failed. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Status=[status], Duration (s)=[duration], Reason=[reason], Suggestion=[suggestion])",
+  141
+ ],
+ [
+  "The data type was unidentifiable in the restoration process. (Type=[USHORT])",
+  8
+ ],
+ [
+  " All debug switches turned off for timeout.(TimerLength=[TimerLength])",
+  57
+ ],
+ [
+  " The device MDA resource changed. (ChangedResourceType=[ResourceType])",
+  121
+ ],
+ [
+  "OID [oid] VRRP failed to authentication.(IPAddress=[IPAddress], AuthErrorType=[AuthErrorType])",
+  21
+ ],
+ [
+  "The passwordof local account [STRING] cannot be changed.",
+  23
+ ],
+ [
+  "Failed to log in through SSH. (Ip=[STRING],UserName=[STRING], Times=[ULONG]).",
+  50
+ ],
+ [
+  "OSPF received memory restoration notification.",
+  8
+ ],
+ [
+  " The SnS of the cloud-based license sales item expires. Renew the license in time. (Chassis ID=[hwGtlChassisID]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  70
+ ],
+ [
+  " Failed to commit command.(Command=\"[Command]\", Result=[Result].)",
+  10
+ ],
+ [
+  "The received NTP packet is longer than or shorter than a valid packet. (RcvLen=[string])",
+  22
+ ],
+ [
+  " The BFD module received an invalid packet. (RecvPkt Source Address [PktSrcAddress], Dest Address [PktDstAddress], Vers [Vers], Diag [Diag], State [State], P [P], F [F], C [C], A [A], D [D], M [M], DetectMult [DetectMult], Length [Length], Packet Local Discriminator [PktLocalDiscriminator], Packet Remote Discriminator [PktRemoteDiscriminator], Packet Input Interface [PktInputIfIndex], UDP Port [PktUdpPort], TTL [PktTTL], Reason [reason])",
+  87
+ ],
+ [
+  " The user chooses [YES/NO] whendetermining whether to disable [IGMP/MLD] snooping.",
+  110
+ ],
+ [
+  " PIM neighbor loss. (NbrIntIndex=[NbrIntIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrUpTime=[NbrUpTime], NbrIntName=[NbrIntName], InstanceID=[InstanceID], InstanceName=[InstanceName], NeighborLossReason=[NeighborLossReason]) In LS mode, this log is supported only by the service LSs.",
+  67
+ ],
+ [
+  " The board state was logged. (Slot=[BoardSlotID], BarCode Information=[BarCode])",
+  66
+ ],
+ [
+  "A timer expired when ISISprocess was invalid. (TimerEvent=[ULONG], ProcessId=[ULONG])",
+  20
+ ],
+ [
+  " Importing PEER certificatefile ([string]) succeeded.",
+  9
+ ],
+ [
+  " The data channel of virtual cluster failure.(LocalChassisId=[LocalChassisId], NeighbourChassisId=[NeighbourChassisId], GroupId=[GroupId]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  206
+ ],
+ [
+  "No idle index was available for the new IPv6-prefix node when a prefix list filter was created.",
+  0
+ ],
+ [
+  " PCE server entering resource limit exceeded state. In LS mode, this log is supported only by the service LSs.",
+  189
+ ],
+ [
+  " loss of continuity alarm end. (MegId=[MegId], MegId=[Meg_Id], MeIndex=[MeIndex], MeType=[MeType], MeDirection=[MeDirection], IfName=[IfName], PeerIP=[PeerIP], VcId=[VcId], VcType=[VcType], RemoteIp=[RemoteIp], Ttl=[Ttl], MepId=[MepId], RemoteMepId=[RemoteMepId], LspName=[LspName], VsiName=[VsiName]) In LS mode, this log is supported only by the service LSs.",
+  117
+ ],
+ [
+  " The user chose [STRING] when deciding whether to revoke the License file.",
+  197
+ ],
+ [
+  " The number of routes in the VPN instance decreased below the recovery threshold.  (CurrentRouteNum=[CurrentRouteNum], ThresholdValue=[ThresholdValue], RouteType=[RouteType], Vpn-instance=[Vpninstance], AddressFamily=[AddressFamily])",
+  58
+ ],
+ [
+  "The user choose [STRING] when there is a selection about whether to change the port mode to [STRING].",
+  46
+ ],
+ [
+  "In the [Alarm] table, a valid row with index [row-id] was newly added by [owner-id].",
+  72
+ ],
+ [
+  "Binding interface [interface-name] has been removed from monitor group [monitor-group-name].",
+  168
+ ],
+ [
+  " The fan partially failed. (EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], EntityOperStatus=[EntityOperStatus], Reason=[ReasonDsp])",
+  163
+ ],
+ [
+  "OID [oid]  An LSA is aged. (LsdbAreaId=[area-id],LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id],ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+  8
+ ],
+ [
+  " The status of the NSSA translator changes. (RouterId=[RouterId], AreaId=[AreaId], NSSATranslatorState=[NSSATranslatorState], ProcessId=[ProcessId])",
+  8
+ ],
+ [
+  "OID [oid] System rollback.(Reason=\"[OCTET]\",Version =\"[OCTET]\",FileName=\"[OCTET]\")",
+  75
+ ],
+ [
+  " Indication signal in the higher order path alarm.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],HpID=[hwSDHHpPerfCurrentHpIndex],InterfaceName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " The received prefix-sid is over the range of local SRGB. (PrefixSid=[prefixSid]) In LS mode, this log is supported only by the service LSs.",
+  20
+ ],
+ [
+  " Execute the system login control command. (Command=\"[Command]\".)",
+  10
+ ],
+ [
+  " Deleting whitelist ([file-name]) failed.",
+  9
+ ],
+ [
+  "OSPF [process-id] exitsthe helper mode because flooding received changed LSA. (InterfaceName=[STRING],LsaType=[USHORT], AdvertisingRouter=[IPADDR], LinkId=[IPADDR]).",
+  8
+ ],
+ [
+  " The modem is inserted. (Interface = [interface-name])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  " Script is [STRING1],current event is [STRING2], instance is [ULONG].",
+  35
+ ],
+ [
+  " The ptsf alarm of the ptp port occurs.(hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName], hwPtpPortPtsfReason=[hwPtpPortPtsfReason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  38
+ ],
+ [
+  "Invalid IFNET structurewhen enabling NATPT on IO board.",
+  19
+ ],
+ [
+  " OID [oid] Jam of station isdetected notify.(APMAC=[OPAQUE], RadioID=[INTEGER], ApName=[OCTET],APID=[INTEGER])",
+  40
+ ],
+ [
+  " Administrator type users login failed too frequently.(failed times=[hwLoginFailedTimes], statistic period=[hwStatisticPeriod] minutes) In LS mode, this log is supported by both the admin LS and service LSs.",
+  23
+ ],
+ [
+  "The verbose information about the current UDP socket was displayed. (SocketPair  [STRING])",
+  79
+ ],
+ [
+  " Historical master key has been deleted. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  102
+ ],
+ [
+  "The SSH server pair key update finished.",
+  50
+ ],
+ [
+  "OID [OID] The numberof IPv6 prefixes in the VPN instance falls below the maximum value.(VpnInstanceName=[octet], PrefixCount=[Integer], MaxValue=[Integer])",
+  0
+ ],
+ [
+  "Online success.(Controller IP=[STRING]).",
+  193
+ ],
+ [
+  "The number of routes in [vpn-instance-name]was [current-number], which exceeded the alarm threshold [threshold-value].(InstanceId=[ULONG], MaximumRouteLimit=[ULONG])",
+  0
+ ],
+ [
+  " Hello state changed. (NeighbourIpAddress=[NbrIpAddr], NeighbourPreviousState=[NbrPreviousState], NeighbourCurrentState=[NbrCurrentState]) In LS mode, this log is supported only by the service LSs.",
+  12
+ ],
+ [
+  " The number of the binding items exceeded the threshold of user-limit on the interface. (IfIndex=[IfIndex], VlanIndex=[VlanIndex], VsiIndex=[VsiIndex], Interface=[IfName], VlanID=[VlanID], binding-item-number=[BindingItemNum], max-user-number=[MaxUserNum]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  " OID [oid] PSE power is not enoughto power on all the PD.Some low priority PD may power off.",
+  41
+ ],
+ [
+  " [content] (user=\"[userName]\", session=[sessionId])",
+  116
+ ],
+ [
+  "Received the first bad LSA within an interval of 15 minutes. (ErrorType=[STRING],ErrorInformation=[STRING], ProcessId=[USHORT], InterfaceName=[STRING],LsaType=[USHORT], AdvertisingRouter=[IPADDR], LinkStateId=[IPADDR],Count=[ULONG], LsaContent=[STRING])",
+  8
+ ],
+ [
+  " The fan module resumed from a complete failure.(EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the admin LS.",
+  33
+ ],
+ [
+  " Interface receives an IGMP or MLD Leave message or corresponding group timer on this interface expires. (Interface=[InterfaceName], InterfaceIndex=[InterfaceIndex], SrcStr=[SrcAddr], GrpStr=[GrpAddr], InstanceName=[InstanceName]) In LS mode, this log is supported only by the service LSs.",
+  100
+ ],
+ [
+  " The SIM PIN is disabled. (Interface=[Interface],SIMID=[SIMID])This log is supported only on AR6700 series, AR8100 series.",
+  44
+ ],
+ [
+  " Loss of signal alarm.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],InterfaceName=[hwPhysicalPortName],AlarmName=[hwPhysicalPortAlarmName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "The specified source IPaddress initiates an attack.(Slot=[STRING1], SourceAttackIP = [STRING2],AttackPackets=[ULONG] packets per second)",
+  52
+ ],
+ [
+  " The capability set that the NETCONF server supports changed. (Server=[Server], UserName=[UserName], SessionId=[SessionId], IpAddress=[IpAddress], AddedCapability=[AddedCapability], DeletedCapability=[DeletedCapability], ModifiedCapability=[ModifiedCapability])",
+  121
+ ],
+ [
+  " The periodic services of the network processor were found faulty.(EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalName=[EntPhysicalName],EntityTrapFaultID=[1],LpuSlotId=[LpuSlotId],LpuFeId=[LpuFeId],BgThreadType=[BgThreadType]). In LS mode, this log is supported by both the admin LS and service LSs.",
+  33
+ ],
+ [
+  " The number of routes on RIPNG process [PROCESSID] reached below the threshold limit, and thus the process has recovered from the suspension state and resumed processing the packets.",
+  2
+ ],
+ [
+  "Config upgrade maybe problem. (Command  [STRING])",
+  99
+ ],
+ [
+  "Failed to sent batch backup end event to HA.",
+  6
+ ],
+ [
+  "OID [oid] The length of the PDU tobe sent is greater than the MTU. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer],circIfIndex=[integer], lspSizeSupport=[integer], pduLspId=[opaque])",
+  20
+ ],
+ [
+  " The sr-te policy status has been changed. (hwSrPolicyEndpoint=[SrPolicyEndpoint], hwSrPolicyColor=[SrPolicyColor], hwSrPolicyStatus=[SrPolicyStatus], hwSrPolicyDownReason=[DownReason]) In LS mode, this log is supported only by the service LSs.",
+  172
+ ],
+ [
+  "OID [oid] Ping entry test completed.(Admin=[OCTET], Tag=[OCTET])",
+  94
+ ],
+ [
+  "Bandwidth limitation. (Info=[STRING])",
+  99
+ ],
+ [
+  "OID [oid]Succeeded in uploading the URL. (FileIndex=[integer], FileName=[octet],PrimaryUrl=[octet], SecondaryUrl=[octet])",
+  130
+ ],
+ [
+  " Discarded the received error message. (ErrorType=[ErrType], ErrorMessageCount=[ErrMsgCnt], PeerComponentCid=[PeerCompCID]) In LS mode, this log is supported only by the service LSs.",
+  12
+ ],
+ [
+  " The version of the AP is different from that of the master. (APID=[APID], APVersion=[APVersion], MasterVersion=[MasterVersion]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  54
+ ],
+ [
+  " Anomaly message type is [PacketType],happened on port [Ifindex],traffic is [LogState],content is policy [PolicyId],classfier [ClassifierId],acl [ACLGroupId],direction [Direction],chassisid [ChassisId],slot [SlotId],message type is [PacketType_String],ip address is [Ip-value]/[ip-mask]. In LS mode, this log is supported only by the service LSs.",
+  118
+ ],
+ [
+  " OID [oid] PD resumed from overcurrent status.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+  41
+ ],
+ [
+  " The number of existed routing entries fell below the vpn lower threshold.(LimitType=[LimitType], AddressFamily=[AddressFamily], VpnName=[VpnName], CurrentCount=[CurrentCount], LimitCount=[LimitCount], ThresholdCount=[ThresholdCount], ReasonType=[ReasonType]) In LS mode, this log is supported only by the service LSs.",
+  67
+ ],
+ [
+  "Script is [script-name], current event is [event-name], instance is[instance-id], fails to get next node value of MIB node [object].",
+  35
+ ],
+ [
+  " Optical Module has been removed. (EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason])",
+  33
+ ],
+ [
+  "The user chose [STRING] when deciding whether to send messages to the specified user.",
+  135
+ ],
+ [
+  " OID [oid] Board resume from unconnected status.(EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\")",
+  225
+ ],
+ [
+  " The alarm indication signal in the multiplex section.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],InterfaceName=[hwPhysicalPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  " Optical Module is invalid. (EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason])",
+  33
+ ],
+ [
+  "[packet-type] packet ratio [percent].",
+  5
+ ],
+ [
+  " The SSM of input below threshold notification. (hwClockAttributeChassisIndex=[hwClockAttributeChassisIndex], hwClockSrcCfgChassisIndex=[hwClockSrcCfgChassisIndex], hwClockSrcCfgSourceTypeIndex=[hwClockSrcCfgSourceTypeIndex], hwClockSrcCfgSourceIndex=[hwClockSrcCfgSourceIndex], hwClockChassisId=[hwClockChassisId], hwClockPllId=[hwClockPllId], hwClockAttributeInputThreshold=[hwClockAttributeInputThreshold], hwClockSrcCfgSourceSsm=[hwClockSrcCfgSourceSsm]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  68
+ ],
+ [
+  " Updating the local certificate through CMPv2 failed. (LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject]).",
+  9
+ ],
+ [
+  " Execute buildrun restore command. (Command=\"[Command]\", PromptInfo=\"[PromptInfo]\", UserInput=\"[UserInput]\", Result=[Result].)",
+  10
+ ],
+ [
+  "The user [STRING1] with IP address [STRING2] changed the password of [STRING3] through the web NMS.",
+  23
+ ],
+ [
+  "On the interface [interface-name], authentication failed and PPP link was closed because PAP was disabled on the peer.",
+  55
+ ],
+ [
+  "ISIS [process-id] failed to create the dynamic hostname TLV.",
+  20
+ ],
+ [
+  " The ipv6 route [REIndex] includes conflict rules (ReasonID is [ReasonID]). In LS mode, this log is supported only by the service LSs.",
+  58
+ ],
+ [
+  "In the [VlanStatsCtrl] table, a row with index [row-id] was invalidated by [owner-id].",
+  72
+ ],
+ [
+  " The number of the discarded ARP packets that did not match the binding table exceeded the threshold on the interface. (IfIndex=[IfIndex], VlanIndex=[VlanIndex], VsiIndex=[VsiIndex], Interface=[IfName], VlanID=[VlanID], DiscardedNumber=[DropNum]) In LS mode, this log is supported only by the service LSs.",
+  28
+ ],
+ [
+  " A fan module was inserted. (EntityPhysicalIndex=[EntityPhysicalIndex], EntPhysicalIndex=[EntPhysicalIndex], EntPhysicalName=[EntPhysicalName], EntityTrapFaultID=[EntityTrapFaultID], Reason=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the admin LS.",
+  33
+ ],
+ [
+  "Querier received an IGMP Leave packet. (Group/Port=[STRING])",
+  110
+ ],
+ [
+  "Received HA smooth notification for synchronizing internal module.",
+  26
+ ],
+ [
+  " The SnS of the cloud-based license sales item has expired. Please renew it in time. (Chassis ID = [hwGtlChassisID]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+  70
+ ],
+ [
+  " The host access interface did not frequently change any more. (LocalIPAddress=[LocalIP], LocalBDID=[LocalBDId], LocalMAC=[LocalMAC], RemoteIPAddress=[ConflictIP], RemoteBDID=[RemoteBDId], RemoteMAC=[RemoteMAC], LocalInterface=[LocalInterface], RemoteInterface=[RemoteInterface], TunnelPeer=[TunnelPeer]) In LS mode, this log is supported only by the service LSs.",
+  91
+ ],
+ [
+  " Interface starts loopback failed. (IfIndex=[IfIndex],IfName=[IfName]) In LS mode, this log is supported only by the service LSs.",
+  108
+ ],
+ [
+  " The timestamp state is abnormal. (State=[State]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+  186
+ ],
+ [
+  "RM IM processed the event of deleting an IP address successfully. (IpAddress=[string], Mask=[string], Interface=[string])",
+  0
+ ],
+ [
+  " The VLAN's ARP-Miss message speed exceeded the configured speed limit value. (SuppressValue=[SpeedLmtValue], Vlan=[VlanId])",
+  91
+ ],
+ [
+  " The links' number of spr instance have exceeded max. (DestSiteIndex = [DestSiteIndex], PolicyIndex = [PolicyIndex], LinkRole = [LinkRole], MaxNumber = [MaxNumber])",
+  78
+ ],
+ [
+  "Speed of TCP or UDP session starting from the IP address is normal. (IpAddress=[STRING], Speed=[ULONG] Session per second)",
+  5
+ ],
+ [
+  "Cdr client connect to bill server. (Connect id = [ULONG]; Cdr type = [STRING])",
+  99
+ ],
+ [
+  " On the interface [IntfIdx], PPP LCP state change [number] times in 1 minute. In LS mode, this log is not supported.",
+  55
+ ],
+ [
+  "Failed to set system time in the process of step adjustment.",
+  22
+ ],
+ [
+  " OSPF automatically changesthe router ID when detecting router ID conflict in the area. (ProcessId=[USHORT],NewRouterId=[IPADDR], OldRouterId=[IPADDR], ConflictRtrIdNum=[ULONG])",
+  8
+ ],
+ [
+  " LDP GR timer start. (PID=[hPid], CID=[hCid], VrfName=[VrfName], ReconnectTimer=[ReconnectTimer], PeerID=[PeerID], GRTimerType=[GRTimerType]) In LS mode, this log is supported only by the service LSs.",
+  17
+ ],
+ [
+  " Interface of the [STRING] received event [STRING], and NSR state changed from [STRING] to [STRING]. (IfName=[STRING], IpAddr=[IPADDR], ProcessId=[USHORT], AreaId=[STRING])",
+  8
+ ],
+ [
+  "OSPF [process-id] finished flooding of NSSA LSAs.",
+  8
+ ],
+ [
+  " Get certificate successfully with LDAP. (hwLdapIP=[hwLdapIP], hwLdapPort=[hwLdapPort], hwCertAttribute=[hwCertAttribute], hwCertDN=[hwCertDN], hwLdapVersion=[hwLdapVersion], hwCertSaveName=[hwCertSaveName], hwLdapIPVrfName=[VrfIndex]) In LS mode, this log is supported by both the admin LS and service LSs.",
+  37
+ ],
+ [
+  "OID [oid] Super change successful.",
+  76
+ ],
+ [
+  " OID [oid] Thenumber of used MPLS resources fell below the threshold. (hwMplsResourceType=[integer])",
+  12
+ ],
+ [
+  " RSA local key pair [key_name] will be deleted.",
+  9
+ ],
+ [
+  "Unknown mapping type whenconfiguring IPv6 dynamic address mapping.",
+  19
+ ],
+ [
+  " The RSVP-enabled device cannot function as a GR helper. (NeighbourIpAddress=[NbrIpAddr], NeighbourGrCapability=[GrCapability], Reason=[Reason]). In LS mode, this log is supported only by the service LSs.",
+  12
+ ],
+ [
+  "OID [oid] NQA entry over threshold.(OwnerIndex=[OCTET], TestName=[OCTET])",
+  94
+ ],
+ [
+  "OID[oid] Main LSP of Tunnel resumes from backup LSP in OB.(SessionTunnelId=[integer], LocalLspId=[integer], IngressLsrId=[integer],EgressLsrId=[integer], MplsTunnelAdminStatus=[integer], MplsTunnelOperStatus=[integer])",
+  12
+ ],
+ [
+  "Keychain [keychain-name] key-id [key-id] became receive active.",
+  190
+ ],
+ [
+  "Some packets are dropped bycpcar on the MPU. (Packet-type=[STRING], Drop-Count=[ULONG])",
+  107
+ ],
+ [
+  "OID[oid] NHRP hub is up. (Interface=[interface-name], protocol-address=[protocol-address],mask=[mask], next-hop=[next-hop-address], nbma-address=[nbma-address], type=[peer-type])",
+  88
+ ],
+ [
+  " User password login  Local account [account] entered the new passwords that do not meet the complexity check. UserIp=[userip].",
+  23
+ ],
+ [
+  "ISIS on the AMB failed torun commands.(FunctionID=[ULONG], DisableFlag=[ULONG])",
+  20
+ ],
+ [
+  " The trace identifier unstable in the higher order path alarm resume.(hwPhysicalPortIfIndex=[hwPhysicalPortIfIndex],BoardID=[hwPhysicalPortInSlot],CardID=[hwPhysicalPortInCard],PortID=[hwPhysicalPortInPort],HpID=[hwSDHHpPerfCurrentHpIndex],InterfaceName=[hwPhysicalPortName]) In LS mode, this log is supported only by the service LSs.",
+  33
+ ],
+ [
+  "Keychain [keychain-name]key-id [key-id] info is changed, the send status is active, and thereceive status is inactive.",
+  190
+ ]
+]

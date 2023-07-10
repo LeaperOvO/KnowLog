@@ -1,0 +1,2276 @@
+[
+ [
+  [
+   "ISIS/2/L1_REDIST_EXCEED_LIMIT:OID [oid] The number oflevel-1 imported routes has exceeded the maximum limit.(sysInstance=[integer],sysProtocol=[integer], sysMTIndex=[integer], sysMaxLimit=[integer],sysTotalRedist=[integer])",
+   "Some imported routes are not advertised."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_UNSUPPORT_COUNTRY_CODE:OID [oid] AP not support configured country code notify.(APMAC=[MacAddress], APName=[STRING], COUNTRY CODE=[OCTET], APID=[INTEGER])",
+   "The AP cannot go online."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/RADIO_REACH_MAX_USER_PHY_SPEC_CLEAR:OID [oid] RADIO reach the max number of stations notify clear.(APMAC=[OPAQUE], RADIOID=[INTEGER], APID=[INTEGER], APName=[STRING], StaNum=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_COCHANNEL_INTERFERENCE: OID [oid] The co-channel interference exceeds the alarm threshold.(APMAC=[OPAQUE],RadioID=[INTEGER],APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE], RSSI threshold percent=[INTEGER]%)",
+   "The packet loss rate increases, the data rate decreases, and even the services may be interrupted."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/2/DISKUSAGERISING: OID [oid] Storage utilization exceeded the pre-alarm threshold.(HwEntityPhysicalIndex=[INTEGER], PhysicalName=\\\"[OCTET]\\\", EntityThresholdType=[INTEGER], EntityThresholdWarning=[INTEGER], EntityThresholdCurrent=[INTEGER], EntityTrapFaultID=[INTEGER])",
+   "The configuration may fail to be saved."
+  ]
+ ],
+ [
+  [
+   "WLAN/2/IOT_CARD_DISCONNECT_SERVER:OID [oid] The IoT card is disconnected from the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], ApIotCardId=[INTEGER], APIotCardType=[STRING])",
+   "An IoT card cannot communicate with the server."
+  ]
+ ],
+ [
+  [
+   "L2IFPPI/4/ILLEGAL_MAC_TRAP: OID [OID] Receive illegalMAC [OCTET].",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WEB/4/PORTALSERVER_UP:OID [OID] The portal server isup.(IP:[IPADDR] Vpn-Instance:[OCTET])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_ADDRESS_REDIRCET_ATTACK:OID [oid] Address redirection attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   "STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "BGP/2/HWESTABLISHED:OID [oid] The BGP FSM enters the Established state. (InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], PeerLastError=[octet], PeerState=[integer])",
+   "The BGP neighbor relationship can be normally established."
+  ]
+ ],
+ [
+  [
+   "IFNET/1/CRCERRORRISING: OID [oid] The CRC error is rising. (hwIfMonitorIndex=[INTEGER], hwIfMonitorCrcErrorStatistics=[COUNTER64], hwIfMonitorCrcErrorThreshold=[INTEGER], hwIfMonitorCrcErrorInterval=[INTEGER], InterfaceName=[STRING])",
+   "Data of some services on the interface will be dropped."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_POWER_LIMITED_RESUME:OID [oid] The APresumes from the Limited mode.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET],ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_SOFTWARE_VERSION_MISMATCH:OID [oid] AP software version is not match with AC software version.(APMAC=[OPAQUE], APName=[STRING], APType=[OCTET], APSoftWareVersion=[OCTET], APID=[INTEGER])",
+   "The RU cannot provide WLAN services."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/VAP_REACH_MAX_USERS_RESTORE:OID [oid] VAP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+   "New STAs can connect to the VAP."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_FAN_INVALID_RESTORE:OID [oid] The fan module recovered from a complete function failure. (APMAC=[OPAQUE], APName=[STRING], ApFanIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "MID_WLAN/6/ROAM_STA_NUM_EXCEED_THRESHOLD_RESTORE:OID [oid] AP roam user number exceed threshold notify restore. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_POWER_LIMITED_RESUME:OID [oid] The AP resumes from the Limited mode.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "DHCP/4/DHCPPD_ROUTE_EXCEED: OID [OID] The number of PD route for DHCPv6 relay reached the maximum.",
+   "A client obtains the PD prefix, but service data fails to be forwarded."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/RADIO_POWER_CHANGE:OID[oid] Power of radio is changed.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], ACTUAL POWER=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "DHCP/4/DHCPPD_ROUTE_EXCEED_RESUME: OID [OID] The number of PD route for DHCPv6 relay descends to alarm threshold.",
+   "NA"
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/1/ENTITYBRDTEMP_FATALALARM:OID [OID] Temperaturerise over or fall below the critical alarm threshold.(Index=[INTEGER],EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityThresholdType=[INTEGER],EntityThresholdValue=[INTEGER],EntityThresholdCurrent=[INTEGER],EntityTrapFaultID=[INTEGER])",
+   "When temperature exceeds the threshold, boardsmay be faulty. Board failures will cause service interruption."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/IF_SUPPRESS_RESUME:OID [OID] The stateof interface changed from suppress to unsuppress. (InterfaceIndex=[INTEGER],InterfaceExtIndex=[INTEGER], InterfaceName=[STRING], SuppressState=[INTEGER])",
+   "Services were restored to normal."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/POWERREMOVE: OID [oid] Power has been removed.(Index=[INTEGER],EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\",EntityTrapFaultID=[INTEGER])",
+   "Boards cannot be powered on because power is insufficient."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_POE_PD_DISCONNECTED:OID [oid] A port detects disconnection of a PD. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   "The PD is unavailable and services are not affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/SNR_NORMAL:OID [oid] The current network cable quality is good. (APMAC=[OPAQUE], APName=[STRING], InterfaceIndex=[INTEGER], InterfaceName=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ISIS/4/L1_REDIST_THRESHOLD_REACH:OID [oid] The numberof level-1 imported routes has reached the upper threshold value.(sysInstance=[integer], sysProtocol=[integer], sysMTIndex=[integer],sysMaxLimit=[integer], sysUpperThresholdValue=[integer], sysLowerThresholdValue=[integer],sysTotalRedist=[integer])",
+   "Some of the imported routes cannot be advertised."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/INNER_BLE_BROKEN: OID [oid] The AP's internal BLE module fails. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "The AP's built-in Bluetooth module cannot work normally."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/2/SYSID_MISMATCH:OID [oid] The ID length ofreceived PDU is different from local configuration. (NotificationSysLevelIndex=[integer],PduFieldLen=[integer], CircIfIndex=[integer], PduFrag=[opaque])",
+   "1. If the trap is triggered by a hardware faulton the board, route flapping may occur.2. If the trap is triggeredby communication between devices, neighbor relationships cannot beestablished, and routes cannot be learned from each other."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/IF_SUPPRESS:OID [OID] The state of interfacechanged from unsuppress to suppress. (InterfaceIndex=[INTEGER], InterfaceExtIndex=[INTEGER],InterfaceName=[STRING], SuppressState=[INTEGER])",
+   "After an interface enters the non-suppression status,the IFNET module will not report Up/Down events to the routing protocolmodule until the interface restores the suppression status."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_POE_POWER_OVER_UTILIZATION_THRESHOLD_RESTORE:OID [oid] The power load of a PoE card falls below the upper limit. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoeCurConsumPower=[INTEGER], ApPoeConsumPowerThreshold=[INTEGER], APID=[INTEGER])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_TYPE_MISMATCH:OID [oid] The configured and reported AP types are different. (APMAC=[OPAQUE], APName=[STRING], APActualType=[STRING], APConfigType=[STRING], APID=[INTEGER])",
+   "The RU fails to go online."
+  ]
+ ],
+ [
+  [
+   "BFD/4/BFD_IFSESSLMT_TRAP:OID [oid] Try to build session,but the session number in the IO board with interface has reachedthe limit, the new session binding with interface can not be created.(ConfigurationName=[octet], InterfaceName=[octet], SessionLimitPerBoard=[integer])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "OSPF/2/IFAUTFAIL:OID [oid] A packet is received on a non-virtual interface from a router whose authentication key or authentication type conflicts with the local authentication key or authentication type. (IfIpAddress=[ip-address], AddressLessIf=[interface-index], ProcessId=[process-id], RouterId=[router-id], PacketSrc=[source-ip-address], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+   "This trap message is generated after an interface receives a packet indicating authentication parameters are incorrectly configured."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_STP_AUTO_SHUTDOWN_RESTORE:OID [oid] Interface [STRING] has turned into UP state. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   "When STP detects removal of a local loopback, it triggers the device to recover the shutdown interface. Users can access the network from the recovered interface."
+  ]
+ ],
+ [
+  [
+   "INFO/4/IC_LOGFILE_AGING: OID [OID] One log file is deleteddue to aging. (LogFileName=[octet])",
+   "System performance will not be affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_RECEIVED_INVALID_ARP_PACKET:OID [oid] AP received invalid arp packet notify.(APMAC=[OPAQUE], APName=[STRING], RadioID=[INTEGER], WlanID=[INTEGER],Drop Num=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/2/SEQNUM_SKIP:OID [oid] ISIS received a self-originatedLSP with a greater sequence number. (NotificationSysLevelIndex=[integer],CircIfIndex=[integer], PduLspId=[opaque])",
+   "1. If the trap is triggered by the restart of thewireless access controller, services will not be affected.2. If the trap is triggeredby incorrect configurations, route flapping will occur frequently."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/MPP_JOINED_ON_AIR:OID [oid] MPPcan't reach AC through the Ethernet port,so this MPP joins AC throughthe air,changes itself to MP,and forbid traffic on the Ethernet portin avoid of loopback. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_INTERFERENCE: OID [oid] Jam of station is detected notify.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], APID=[INTEGER])",
+   "If the number of interfering STAs exceeds the alarm threshold, the AP service performance is degraded."
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKICRLNEARLYEXPIRED:OID[oid] the crl is nearly expired. (CrlIssuer=[crlissuer], CrlStartTime=[crlstarttime],CrlFinishTime=[crlfinishtime])",
+   "The service becomes invalid."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/2/ADJ_CHANGE:OID [oid] The state of IS-IS adjacency changed. (NotificationSysLevelIndex=[integer], CircuitIfIndex=[integer], LspID=[opaque], AdjState=[integer])",
+   "IS-IS may recalculate routes, which causes route flapping and interrupts IS-IS services."
+  ]
+ ],
+ [
+  [
+   "DHCP/2/REQUESTNOTRUST: \"OID [OID] The number of the discarded DHCP request packets exceeds the threshold on the interface because the DHCP snooping trust port is not configured or the trust port is Down. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])\"",
+   "Users fail to obtain IP addresses through DHCP."
+  ]
+ ],
+ [
+  [
+   "AAA/4/NACMaxUserAlarm: OID [OID] The number of NAC users reached the maximum.(Slot:[OCTET] User-num:[INTEGER] Threshold:[INTEGER]%)",
+   "None"
+  ]
+ ],
+ [
+  [
+   "SECE/4/ARP_PACKET_CHECK:OID=[oid] Invalidpacket.(SourceInterface=[OCTET], SourceIP=[OCTET], SourceMAC=[OCTET], PVLAN=[INTEGER], CVLAN=[INTEGER])",
+   "If this alarm is generated, theAPmay be attacked. If the attack traffic volume is heavy,theAPis busy processing attack packets. As a result, servicesof authorized users are interrupted."
+  ]
+ ],
+ [
+  [
+   "MSTP/2/LGEXP:OID [OID] The LOOP-Protection port did not receive BPDU packets in prescriptive time. (InstanceID=[INTEGER], PortInstanceID=[INTEGER], PortID=[INTEGER], IfIndex=[INTEGER], PortName=[STRING])",
+   "The interface will not forward data."
+  ]
+ ],
+ [
+  [
+   "WLAN/2/WAPI_CERT_INVALID: OID [oid]  The WAPI certificate is invalid. (SecurityProfileName=[STRING], CertType=[STRING], CertFileName=[STRING], CertStartTime=[STRING], CertEndTime=[STRING])",
+   "Users using this certificate cannot access the network."
+  ]
+ ],
+ [
+  [
+   "RM/4/IPV4_PREFIX_THRESHOLD_EXCEED:OID [oid] The numberof IPv4 prefixes exceeded the threshold. (PrefixCount=[Integer], MaxValue=[Integer])",
+   "The number of IPv4 route prefixes exceeded thealarm threshold, and services may be affected if the number of IPv4route prefixes keeps increasing."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/SNR_DETECT_NOTSUPPORT:OID [OID] The port is Down, resulting in a failure to detect the network cable quality. (APMAC=[OPAQUE], APName=[STRING], InterfaceIndex=[INTEGER], InterfaceName=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_FMEA_FAULT_PHY_CMOS_RESTORE:OID [oid] AP PHY CMOS fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_POE_PD_PRIORITY_DIFFERENT:OID [oid] The port priority is different from the PD priority. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoePdPriority=[INTEGER], ApPoePortPriority=[INTEGER], APID=[INTEGER])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "IFNET/1/IF_CHANGE_RESUME:OID [oid] When a multi-chassis restore a single-chassis device, the interface information is changed.",
+   "An interface is no longer defined in four dimensions, but in three dimensions."
+  ]
+ ],
+ [
+  [
+   "IFNET/1/IF_LINKDOWN: OID [oid] Interface [interface-index] turned into DOWN state.(AdminStatus=[INTEGER],OperStatus=[INTEGER],InterfaceName=[OCTET])",
+   "The interface cannot forward packets normally."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/IF_FLOWDOWN:OID [OID] The state of interface turned to DOWN because of FLOW DOWN. (Interface=[INTEGER], InterfaceIndex=[INTEGER], SysUpTime=[TIMETICK], FlowStatus=[INTEGER], InterfaceName=[STRING])",
+   "Traffic will be interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/RADIO_ENV_RESUME:OID [oid] Radio signal environment resumes. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APID=[INTEGER] )",
+   "None."
+  ]
+ ],
+ [
+  [
+   "IFPDT/6/SNRNORMAL:OID [oid] The current network cable quality is good. (InterfaceIndex=[INTEGER], InterfaceName=[OCTET])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_WIRELESS_PORT_DOWN_RESTORE: OID [oid] AP radio down is recovered notify.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ISIS/3/CORRUPT_LSP:OID [oid] The checksum of LSP iswrong. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],pduLspId=[opaque])",
+   "RelevantIS-IS services may be interrupted."
+  ]
+ ],
+ [
+  [
+   "RM/2/IPV4_PREFIX_EXCEED_RESM:OID [oid] The number ofIPv4 prefixes falls below the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_STP_AUTO_SHUTDOWN:OID[oid] Interface [STRING] has turned into DOWN state. (APMAC=[OPAQUE],APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "When STP detects a local loopback, it determines that a network storm occurs and will trigger shutdown of the local interface to prevent the storm from affecting services on the entire network; however, services on the shutdown interface will be interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_MEMORY_OVERLOAD_NOTIFY: OID [oid] AP memoryoverload notify.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER],APID=[INTEGER])",
+   "The memory usage exceeds the alarm threshold.The default memory usage threshold of a cloud AP is 90%. If thisthreshold is exceeded, services may be affected, for example, theAP may suffer from packet loss or even go offline.The memoryusage threshold of a Fat AP can be adjusted. If the threshold is setto a medium value (such as 50 or 60), services are not affected whenthe threshold is exceeded. If the threshold is set high (such as 90),services may be affected when the threshold is exceeded, for example,the AP may suffer from packet loss."
+  ]
+ ],
+ [
+  [
+   "ENTMIB/4/TRAP:OID [oid] Entity MIB change.",
+   "The impact on the system dependson that of correlated alarms."
+  ]
+ ],
+ [
+  [
+   "GTL/4/RESOURCE_USEDUP:OID [OID] Resource item [hwGtlResourceItem] is nearly used up.",
+   "Under the control of the license, the usage percentage of service resources cannot exceed the threshold defined by the license. Therefore, if a larger license file cannot be applied for or activated, traffic loads may not cater forthe demand of the current operation scenario."
+  ]
+ ],
+ [
+  [
+   "POE/3/RPSALM:OID [oid] RPS power cannot provide POE power for this device.(DevID=[INTEGER])",
+   "PDs may fail to be powered on because of insufficient PoE power."
+  ]
+ ],
+ [
+  [
+   "PKI/5/PKIUPDATELOCALCERTSUCCESSCMP: OID [OID] Updating the local certificate through CMPv2 succeeded. (LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject], NewLocalCertStartTime=[NewLocalCertStartTime], NewLocalCertFinishTime=[NewLocalCertFinishTime])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "MSTP/1/NEWRT:OID [oid] This bridge has changed to bethe root bridge.",
+   "The topology changes, and traffic may be lost."
+  ]
+ ],
+ [
+  [
+   "PIM/1/INTELECTDR:OID [oid] Interface is elected to beDR. (IfIndex=[integer], IfIPverion=[integer], IfAddrType=[integer],Addr=[binary], IfName=[string], InstanceID=[integer], InstanceName=[string])",
+   "The change of the DR on the source side causesthe RP to receive an incorrect Register message; the change of theDR on the multicast member side causes the RP to receive an incorrectJoin message. This has impact on multicast services."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IPSECPOLICYDEL:OID[oid] An IPSec policy is deleted. (SeqNum=[sequence-number], PolicyName=[policy-name], VsysName=[vsys-name])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/3/LSPMTU_MISMATCH:OID [oid] The size of the local buffer for originating IS-IS LSPs is smaller than the size of the received LSP. (NotificationSysLevelIndex=[integer], CircIfIndex=[integer], PduLspId=[opaque], PduOriginatingBufferSize=[integer],PduBufferSize=[integer])",
+   "Routes cannot be learned, and traffic forwarding is affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/WIDS_DETECT_NON_WIFI:OID [oid] Detected non-Wi-Fidevices. (Device count=[INTEGER])",
+   "Non-Wi-Fi devices exist in the current air interface environment and may affect air interface performance."
+  ]
+ ],
+ [
+  [
+   "OSPF/4/OGNLSA:OID [oid] An LSA is generated. (LsdbAreaId=[area-id], LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id], ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+   "If the neighbor or interface status change trap is generated and no manual operations are performed within the period, services may be affected."
+  ]
+ ],
+ [
+  [
+   "AAA/4/NACUserClearAlarm: OID [OID] The NAC Max User Alarm is cleared.(Slot:[OCTET] User-num:[INTEGER] Threshold:[INTEGER]%)",
+   "This is the clear alarm for the alarm generated when the percentage of successfully authenticated NAC users reaches the upper alarm threshold."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_TEMPERATURE_NORMAL:OID [oid] The AP's temperature changes to normal. (APMAC=[OPAQUE], APName=[STRING], Temperature=[INTEGER]\u00b0C, APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_FAN_INVALID:OID [oid] All functions of the fan module failed. (APMAC=[OPAQUE], APName=[STRING], ApFanIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   "The temperature of boards becomes high."
+  ]
+ ],
+ [
+  [
+   "PKI/2/PKILOCALCERTINVALID:OID[oid] the local certificate is invalid. (LocalCertIssuer=[issuer], LocalCertSubject=[subject], LocalCertStartTime=[starttime], LocalCertFinishTime=[finishtime])",
+   "The service becomes invalid."
+  ]
+ ],
+ [
+  [
+   "MID_WLAN/2/UNAUTHORIZED_AP_RECORD_EXIST:OID [oid] Unauthorized AP record exists.(Record number=[INTEGER])",
+   "Rogue APs occupy links."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/:OID [oid] A iot card is inserted. (APMAC=[OPAQUE], APName=[STRING], APIotCardId=[INTEGER], APID=[INTEGER], APIotCardType=[STRING])",
+   "If a card from Enjoyor is inserted, the AP restarts. Inserting a card from Prime Electronics & Satellitics Inc. has no impact on the system."
+  ]
+ ],
+ [
+  [
+   "BGP/2/BACKWARD:OID [oid] The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=[ipaddr], InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], InterfaceIndex=[integer], BgpPeerLastError=[octet], BgpPeerState=[integer], BgpPeerUnavaiReason=[gauge], InterfaceName=[octet])",
+   "The BGP neighbor will be disconnected, and the BGP route received from the neighbor will be deleted. The packet forwarding based on the BGP route will fail."
+  ]
+ ],
+ [
+  [
+   "NAT/4/NAT_PACKET_DISCARD: OID [oid] Interface [OCTET] had discarded packets, due to lack of mapping space when NAT is out of addresses.",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_WIRELESS_PORT_DOWN_RESTORE: OID [oid] AP radio down is recovered notify.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "OSPFV3/2/NBRDAMP_SUPPRESS: OID [oid] The status of peer flapping suppress is changed.(ProcessId=[integer], RouterId=[integer], AreaId=[integer], ifName=[octet], SuppressStatus=[integer], SuppressReason=[integer])",
+   "Services may be interrupted if OSPFv3 neighbor relationship flapping suppression persists on the interface."
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKIGETCERTSUCCESSHTTP:OID[oid] get certificate successfully with HTTP. (CertUrl=[certurl], CertSaveName=[certsavename])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "OSPF/2/RTRID_CONFLCT:OID [oid] Router IDs conflict inan intra area. (ProcessId=[integer], AreaId=[ipaddr], SelfIfnetIndex=[integer],NbrIpAddr=[ipaddr], RouterId=[ipaddr], NbrRtrId=[ipaddr])",
+   "If the same router ID is configured for any tworouters, it will cause the router lSA to be refreshed frequently.As a result, route flapping will occur."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/IOT_CARD_CONNECT_SERVER:OID [oid] The IoT card is connected to the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "LINE/5/VTYUSERLOGIN:OID [oid] A user login. (UserIndex=[INTEGER], UserName=[STRING], UserIP=[STRING], UserChannel=[STRING])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IKESAPHASE1ESTABLISHED:OID[OID] IKE phase1 sa established. (PeerAddress=[PeerAddress], PeerPort=[PeerPort], LocalAddress=[LocalAddress], AuthMethod=[AuthMethod], AuthID=[AuthID], IDType=[IDType], VsysName=[vsys-name], Role=[Role])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/ROGUE_DEVICE_DETECT:OID [oid] Rogue device is detected notify.(APName=[OCTET], RadioID=[INTEGER], APMAC=[OPAQUE], RogueDeviceMAC=[OPAQUE],RogueDeviceSSID=[STRING], RogueDeviceType=[INTEGER], RogueDeviceRSSI=[INTEGER], RogueDeviceChannelID=[INTEGER], APID=[INTEGER])",
+   "Services of authorized users are affected."
+  ]
+ ],
+ [
+  [
+   "VRRP/2/VRRPNONMASTER:OID [oid] The state of VRRP changed between backup and Initialize state. (VrrpIfIndex=[VrrpIfIndex], VrId=[VrId], IfIndex=[IfIndex], IPAddress=[IPAddress], NodeName=[NodeName], IfName=[IfName], CurrentState=[CurrentState], ChangeReason=[ChangeReason])",
+   "If the VRRP backup group status changes from Backup to Initialize, services may be interrupted.If the VRRP backup group status changes from Initialize to Backup, services will not be affected."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/TCGUARD:OID [OID] The instance received TC messageexceeded the threshold will be deferred to deal with at the end ofTC protection time. (InstanceID=[INTEGER])",
+   "If the number of TC packets exceeds the threshold,MAC entries and ARP entries will not be deleted immediately, and networktopology will not be changed immediately, either."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IPSECTUNNELSTOP:OID[oid] The IPSec tunnel is deleted. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], OfflineReason=[offlinereason], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID])",
+   "An IPSec tunnel has been deleted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_VERSION_CONFLICT_RESTORE:OID [oid] AP-version-not-recommended alarm Restore.",
+   "None."
+  ]
+ ],
+ [
+  [
+   "GTL/4/DEFAULTVALUE:OID [OID] Current license value isdefault, the reason is [OCTET1], main board name is [OCTET2].",
+   "After the license file became invalid, the controlitems activated by the license will restore to the default systemconfigurations."
+  ]
+ ],
+ [
+  [
+   "SYSMIB/4/CLOCK_CHANGE:OID [oid] System clock changed",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/3/REJECT_ADJ:OID [oid] IS-IS failed to establishthe adjacency with its peer. (NotificationSysLevelIndex=[integer],CircIfIndex=[integer], PduFragment=[opaque])",
+   "The neighbor relationship cannot be establishedproperly."
+  ]
+ ],
+ [
+  [
+   "IFNET/1/IF_CHANGE:OID [oid] When a single-chassisdevice is upgraded to a multi-chassis device, the interface informationis changed.",
+   "An interface is no longer defined in three dimensions,but in four dimensions."
+  ]
+ ],
+ [
+  [
+   "L2IFPPI/4/MFLPIFBLOCK:OID [OID] Loop exist invlan [INTEGER], Interface [OCTET] blocked, block-timeis [GAUGE] for [OCTET], Mac Address is [OCTET].",
+   "Traffic cannot be received normally."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_DISK_OVERLOAD_RESTORE:OID [oid] The Disk usage of an AP restores to the allowed range.( APMAC=[OPAQUE], APName=[STRING],APDiskThresholdWarning=[INTEGER],APDiskThresholdCurrent=[INTEGER],APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "MGMD/3/hwmgmdgmptotallimitclear:OID[oid] The new report message can be processed because the total IGMPor MLD group memberships in all instances falls below the upper limit.(GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary], LimitCnt=[integer])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PROEDGEDISABLE:OID [oid] When the port receives a BPDU packet, the edged-port attribute will be disabled. (ProcessID=[INTEGER], InstanceID=[INTEGER], PortID1=[INTEGER], PortID2=[INTEGER], PortID3=[INTEGER], PortID4=[INTEGER], PortIDFlag=[INTEGER], IfIndex=[INTEGER], PortState=[INTEGER], PortName=[STRING])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/ADJ_CHANGE_CLEAR:OID [oid] The isisAdjacencyChange alarm was cleared. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer], sysInstanceofInterface=[integer], circuit=[integer], ifIndex=[integer], circuitIfIndex=[integer],lspID=[string], adjState=[integer], ifName=[string], hwIsisAdjChangeReason=[integer], hwIsisAdjChangeSubReason=[integer])",
+   "The system will not be affected."
+  ]
+ ],
+ [
+  [
+   "ARP/4/ARP_IPCONFLICT_TRAP:OID [OID] ARP detects IP conflict. (IP address=[IPADDR], Local interface=[OCTET], Local MAC=[OCTET], Local vlan=[INTEGER], Local CE vlan=[INTEGER], Receive interface=[OCTET], Receive MAC=[OCTET], Receive vlan=[INTEGER], Receive CE vlan=[INTEGER], IP conflict type=[OCTET]).",
+   "This alarm indicates that an IP address conflict occurred. If the IP address conflict is not eliminated timely, route flapping may occur and services may be interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_OPTICAL_TEMPERATURE_TOO_LOW_RESTORE:OID [oid] The temperature of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_CONFIG_INCONSIST_WITH_ACTUAL:OID [oid] The AP configuration is inconsistent with the actual attribute. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], Config=[OCTET], Reason=[OCTET])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "ISIS/2/ADJ_CHANGE:OID [oid] The state of IS-IS adjacencychanged. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],sysInstanceofInterface=[integer], circuit=[integer], ifIndex=[integer],circuitIfIndex=[integer], lspID=[opaque], adjState=[integer], ifName=[string],hwIsisAdjChangeReason=[integer], hwIsisAdjChangeSubReason=[integer])",
+   "IS-IS may re-calculate routes, which causes routeflapping and interrupts the IS-IS service."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_REACH_MAX: OID [oid] The number of stations reaches the maximum specifications.(MaxStaNum=[INTEGER],CurStaNum=[INTEGER])",
+   "New STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "AAA/4/QUIETPORTCLEARALARM: OID [OID] The quiet max user alarm on port is cleared.(UserType=[INTEGER], IfName=[OCTET], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   "None"
+  ]
+ ],
+ [
+  [
+   "VRRP/2/VRRPV3CHANGETOMASTER:OID [oid] The status ofVRRP changed to master. (VrrpIfIndex=[VrrpIfIndex], VrId=[VrId], InetAddrType=[InetAddrType],IPAddress=[IPAddress], ChangeReason=[ChangeReason])",
+   "If a master/backup switchover occurs in normal cases, servicesare not affected.If a master/backup switchover occurs in abnormal cases, servicesmay be interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_COCHANNEL_INTERFERENCE_RESTORE: OID [oid] The co-channel interference alarm is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], IntfBssId=[OPAQUE], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/BLE_DETACHED:OID [oid] The BLE site detached. (BLEMAC=[OPAQUE(hex)])",
+   "After a Bluetooth tag is detached from an asset, the asset cannot be accurately located using Bluetooth location signals."
+  ]
+ ],
+ [
+  [
+   "WLAN/2/AP_FAN_REMOVE: OID [oid] Fan has been removed. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APFanId=[INTEGER])",
+   "The AP is overtemperature."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PROLBDETECTGED:OID [OID] The MSTP Process's Porthas been set to discarding state because of detecting loopback. (ProcessID=[INTEGER],InstanceID=[INTEGER], PortID1=[INTEGER], PortID2=[INTEGER], PortID3=[INTEGER],PortID4=[INTEGER], PortIDFlag=[INTEGER], IfIndex=[INTEGER], PortState=[INTEGER],PortName=[STRING])",
+   "After detecting a port blocked by local loopback,the system considers that a network storm occurs and blocks the localport to prevent the network storm from affecting services of the entirenetwork. Services on the block port will be interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/ROAM_STA_NUM_EXCEED_THRESHOLD:OID[oid] AP roam user number exceed threshold notify. (APMAC=[OPAQUE],RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+   "New users cannot roam to the AP."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/2/LSP_ERROR:OID [oid] IS-IS received an LSPwith a parse error. (NotificationSysLevelIndex=[integer], LspID=[opaque],CircuitIfIndex=[integer], PduFragment=[opaque], ErrorOffset=[integer],ErrorTLVType=[integer])",
+   "The TLV cannot be parsed, and therefore informationmay be lost."
+  ]
+ ],
+ [
+  [
+   "EFM/3/DYINGGASP: OID [oid] Remote DyingGasp Event occurred. (IfIndex=[INTEGER], RemoteMacAddress=[OCTET], IfName=[OCTET])",
+   "Services on the remote device are unavailable."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/AP_POWER_LIMITED_RESUME:OID [oid] The APresumes from the Limited mode.(APWorkMode=[OCTET], ExpectWorkMode=[OCTET])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/2/AP_IOT_SERVER_START_FAIL:OID [oid] Failed to start the server used by the IoT card. (Cause: The UDP port is occupied.) (APMAC=[OPAQUE], APName=[STRING], ApIotCardId=[INTEGER], UdpPort=[INTEGER], APID=[INTEGER])",
+   "The server module on an AP for receiving data from the IoT card fails to start, and services are not available."
+  ]
+ ],
+ [
+  [
+   "POE/4/PDCONNECT: OID [oid] PD connected.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "BFD/3/BFD_FAULT_TRAP: \"OID [OID] The BFD session went Down. (Index=[integer], SessName=[octet], LocalDiscriminator=[integer], Diagnosis=[integer], BindIfName=[octet])\"",
+   "Service traffic bound to the BFD session is switched."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_RADIO_DOWN: OID [oid] AP radio is down notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   "The services on the STA are interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/IOT_CARD_CONNECT_SERVER:OID [oid] The IoT card is connected to the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_INVALID:OID [oid] The optical transceiver does not work normally. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER], hwWlanApOpticalFaultReason=[OCTET])",
+   "Services will be interrupted."
+  ]
+ ],
+ [
+  [
+   "RM/4/IPV4_PREFIX_THRESHOLD_EXCEED_RESM:OID [oid] Thenumber of IPv4 prefixes falls below the threshold. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "SECE/4/GATEWAY_CONFLICT:OID=[oid] Gateway conflict.(SourceInterface=[OCTET], SourceIP=[OCTET], SourceMAC=[OCTET], PVLAN=[INTEGER], CVLAN=[INTEGER])",
+   "If this alarm is generated, the user gateway information may be modified by an attacker. As a result, the user is attacked and user services are interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_ADJACENT_CHANNEL_INTERFERENCE_RESTORE: OID [oid] The adjacent-channel interference alarm is cleared.(APMAC=[OPAQUE],  RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE], IntfChnl=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_RADIO_UP: OID [oid] The radio changes to up. (APMAC=[OPAQUE], ApName=[OCTET], event=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "RMON/4/ALARMUP: OID [OID] Alarmtable [alarm-table-index] monitors [sample-object-oid] with sampletype [sample-type], has sampled alarm value [alarm-value] uprise [rising-value].",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/IOT_CARD_TYPE_MATCH:OID [oid] The IoT card matches the configured type. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_INVALID_CERT_ATTACK: OID [oid] User with an invalid certificate accesses the network.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   "STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "SHELL/4/IC_NOT_ENOUGH_FREE_SPACE:OID [OID] Failed tosave log file because of insufficient space.",
+   "Logs cannot be saved on the device."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_POE_POWER_OVER_UTILIZATION_THRESHOLD:OID [oid] The power load of a PoE card exceeds the upper limit. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoeCurConsumPower=[INTEGER], ApPoeConsumPowerThreshold=[INTEGER], APID=[INTEGER])",
+   "If the alarm persists, all the PDs may be powered off because of insufficient power supply."
+  ]
+ ],
+ [
+  [
+   "TRUNK/3/AMDN:OID [OID] The last member interface link status changes to down. (TrunkIfIndex=[INTEGER], TrunkName=[OCTET])",
+   "The interface cannot forward packets normally."
+  ]
+ ],
+ [
+  [
+   "IPV6//IF_IPV6CHANGE:OID [oid] The status of the IPv6 Interface changed. (IfIndex=[INTEGER], IfDescr=[OCTET], IfOperStatus=[INTEGER],IfAdminStatus=[INTEGER])",
+   "The influence depends on the ipv6IfOperStatus:1) Up: indicates that the IPv6 services on the interface are recovered.2) Down: indicates that the IPv6 services on the interface are interrupted."
+  ]
+ ],
+ [
+  [
+   "IFPDT/4/SNRABNORMAL:OID [oid] The current network cable quality is poor, causing packet loss risks. (InterfaceIndex=[INTEGER], InterfaceName=[OCTET])",
+   "The network cable quality is poor and packet loss may occur."
+  ]
+ ],
+ [
+  [
+   "HACA/4/HACACHANNELUP: OID [oid] Channel with the HACA server is resumed. (IPAddress=[IPADDR], PortNumber=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_DISK_OVERLOAD:OID [oid] The Disk usage of an AP exceeds the upper threshold.( APMAC=[OPAQUE], APName=[STRING],APDiskThresholdWarning=[INTEGER],APDiskThresholdCurrent=[INTEGER],APID=[INTEGER])",
+   "The configuration may fail to be saved."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PDISC:OID [oid] The port has been set to discarding state. (InstanceID=[INTEGER], PortInstanceID=[INTEGER], PortID=[INTEGER], IfIndex=[INTEGER], PortName=[STRING])",
+   "The network topology will be changed."
+  ]
+ ],
+ [
+  [
+   "GTL/4/EMERGENCYSTOP:OID [OID] License emergency is stoppedafter 7 days.",
+   "You must use the service specification configuredin the license file."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PROPFWD:OID [oid] The MSTP Process's Port hasbeen set to forwarding state. (ProcessID=[INTEGER], InstanceID=[INTEGER],PortID1=[INTEGER], PortID2=[INTEGER], PortID3=[INTEGER], PortID4=[INTEGER],PortIDFlag=[INTEGER], IfIndex=[INTEGER], PortState=[INTEGER], PortName=[STRING])",
+   "The network topology will change."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_FMEA_FAULT_IIC_CHANNEL_RESTORE:OID [oid] AP IIC channel fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_TEMPERATURE_TOO_HIGH_RESTORE:OID [oid] The temperature of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "L2IFPPI/4/MAC_LIMIT_ALARM:OID [oid] MAC address learning reached the limit.(L2IfIndex=[INTEGER],MacLimitVlanId=[INTEGER], [OCTET]L2IfPortIndex=[INTEGER], BaseTrapSeverity=[INTEGER], BaseTrapProbableCause=[INTEGER], BaseTrapEventType=[INTEGER],MacDynAddressLearnNum=[INTEGER], MacLimitMaxMac=[INTEGER], L2IfPortName=[OCTET])",
+   "No more MAC addresses can be learned."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/BLE_DETACHED_RESTORE:OID [oid] The BLE site detached restore. (BLEMAC=[OPAQUE(hex)])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IKEREACHMAXPEERATONCE:OID[OID] Current counts of ike peer reach max limit.",
+   "New IKE peers cannot be created after the number of dynamically created IKE peers reaches the threshold."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_INVALID_RESTORE:OID [oid] The optical transceiver has restored. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "SYSMIB/4/AP_UBOOT_NOT_MATCH_NOTIFY:OID [oid] AP ubootis not match AP version.",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_STP_AUTO_SHUTDOWN_RESTORE:OID [oid] Interface [STRING] has turned into UP state. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   "When STP detects removal of a local loopback, it triggers the device to recover the shutdown interface. Users can access the network from the recovered interface."
+  ]
+ ],
+ [
+  [
+   "DHCP/4/DHCPUSERBINDTRAPVLAN:OID [OID] The number of DHCP users on the vlan exceeds alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "HACA/4/HACACHANNELDOWN: OID [oid] Channel with the HACA server is interrupted. (IPAddress=[IPADDR], PortNumber=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "RDS/4/RDAUTHUP_WARNING:OID [oid] Communication with the RADIUS authentication server is resumed. (IP=[ip-address], Vpn-Instance:[vpn-instance-name])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKICACERTNEARLYEXPIRED:OID[oid] the CA certificate is nearly expired. (CACertIssuer=[issuer], CACertSubject=[subject], CACertStartTime=[starttime], CACertFinishTime=[finishtime])",
+   "The service will be invalid after the certificate expires."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_NORMAL:OID [oid] The AP recovers or has been deleted. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING], APID=[INTEGER])",
+   "The central AP can manage the RU properly, and the RU-related services can work properly."
+  ]
+ ],
+ [
+  [
+   "BFD/2/BFD_DOWN_TRAP:OID [oid] Session changes to DOWN. (Index=[integer], ConfigurationName=[octet], PeerIp=[ipaddr], BindIfIndex=[integer], BindIfName=[octet], Diagnosis=[integer], BindVrfIndex=[integer], BindVpnName=[octet], SessionType=[integer], DefaultIp=[integer], BindType=[integer], StaticLspName=[octet], PwSecondary=[integer], NextHop=[ipaddr], VcId=[integer], VsiName=[octet], VsiPeerAddress=[ipaddr], DiscrAuto=[integer], PeerIpv6=[ipv6addr], Ipv6NextHop=[ipv6addr])",
+   "If the alarm function is enabled and a large number of BFD sessions flap, more CPU resources are consumed. Except for this, no service will be affected."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/SYSTEMROLL:OID [oid] System rollback.(Reason=[INTEGER],Version =\"[OCTET]\",FileName=\"[OCTET]\")",
+   "The system software supports only the service features of the current version after the startup succeeds."
+  ]
+ ],
+ [
+  [
+   "OSPFV3/2/ROUTERID_CONFLICT_RECOVER: OID [oid] Router IDs confliction is recovered. (ProcessId=[integer], AreaId=[integer], OldRouterId=[gauge], NewRouterId=[gauge])",
+   "The alarm indicates that the router ID conflict has been resolved, and the system will not be affected."
+  ]
+ ],
+ [
+  [
+   "GTL/4/NOTCOMMERCIAL:OID [oid] Current license is not commercial.",
+   "A non-commercial license has a validity period. After the license expires, the functions or resources controlled by the license become invalid."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PRORGSUP:OID [oid] The MSTP process's instance'sROOT-Protection port received superior message. (ProcessID=[INTEGER],InstanceID=[INTEGER], PortID1=[INTEGER], PortID2=[INTEGER], PortID3=[INTEGER],PortID4=[INTEGER], PortIDFlag=[INTEGER], IfIndex=[INTEGER], PortState=[INTEGER],PortName=[STRING])",
+   "The actual network topology may not be the sameas the expected one."
+  ]
+ ],
+ [
+  [
+   "POE/4/POEPWABSENT:OID [oid] POE Power is absent.(FrameID = [INTEGER], SlotID = [INTEGER])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_PING_RESULT:OID [oid] AP ping result. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING], SuccessCount=[INTEGER], FailureCount=[INTEGER]. AverageResponseTime=[INTEGER]ms. MinimumResponseTime=[INTEGER]ms, MaximumResponseTime=[INTEGER]ms, APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "RM/2/RM_NHM_RESTRAIN:OID [oid] Cyclic iteration wassuppressed. (Type=[Integer], key=[Integer], VpnInstanceName=[octet],Nexthop=[octet])",
+   "The CPU usage will remain high if the cyclic iterationproblem is not resolved."
+  ]
+ ],
+ [
+  [
+   "RMON/4/ALARMFALL: OID [OID] Alarmtable [alarm-table-index] monitors [sample-object-oid] with sampletype [sample-type], has sampled alarm value [alarm-value] less thanor equal to [falling-value].",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/RADIO_UPLOAD_REMOTE_CAPTURE_FILE_RESULT:OID [oid] Upload remote capture file notify. (APMAC=[OPAQUE], APName=[STRING], RadioID=[INTEGER], Info = [OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "RM/2/RM_NHM_RESTRAIN_CLEAR:OID [oid] Cyclic iterationsuppression was removed. (Type=[Integer], key=[Integer])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "AAA/4/ChangePasswordAlarm: OID [OID] Local account password has been modified.(TYPE:[OCTET] User-name:[OCTET])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/TRAPID_ENTITY_POWER_FAIL_RESUME:OID [oid] Power resume from failure.(EntityPhysicalIndex=[INTEGER], PhysicalName=\\\"[OCTET]\\\", EntityTrapFaultID=[INTEGER], EntityOperStatus=[INTEGER],EntityTrapReasonDescr=\\\"[OCTET]\\\")",
+   "None."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IKEREACHMAXPEER:OID[OID] Current counts of ike peer will reach max limit.",
+   "New IKE peers cannot be created after the number of dynamically created IKE peers reaches the threshold."
+  ]
+ ],
+ [
+  [
+   "OSPF/4/VIFBADRX:OID [oid] An OSPF packet that is received on a virtual interface cannot be parsed. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], PacketType=[packet-type], InstanceName=[instance-name])",
+   "This trap message is generated when a virtual-link interface receives a packet that cannot be parsed and then discards this packet. This may cause the neighbor to be Down."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_COLD_BOOT_RESTORE:OID [oid] The AP cold boot restore. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+   "After the RU is disconnected from the central AP, services are interrupted and the RU becomes faulty. The alarm is generated when the RU becomes normal, goes online, and operates properly.This alarm was triggered simultaneously with the alarm WLAN_1.3.6.1.4.1.2011.6.139.13.1.1.30 hwApColdBootTrap (the AP was cold started)."
+  ]
+ ],
+ [
+  [
+   "LACP/2/PLR:OID [oid] Link bandwidthlost partly is resumed. (TrunkIndex=[INTEGER], TrunkIfIndex=[INTEGER],TrunkId=[INTEGER], TrunkName=[OCTET])",
+   "Part of services were resumed."
+  ]
+ ],
+ [
+  [
+   "LLDP/4/ENABLETRAP: OID [oid] Global LLDP is enabled.",
+   "This alarm is a notification of the change of thenetwork topology for the NMS, and does not affect services."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/3/OLOAD:OID [oid] The overload state of IS-ISLSDB changed. (sysLevel=[integer], NotificationSysLevelIndex=[integer],OverLoadState=[integer])",
+   "1. If the trap is generated because the IS-IS LSDBentered or exited from the overload state, route selection on theIS-IS neighbor will be affected.2. If the trap is generatedbecause the memory usage exceeds the upper threshold, the IS-IS LSDBis unreliable."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_TEMPERATURE_NORMAL:OID [oid] The AP's temperature changes to normal. (APMAC=[OPAQUE], APName=[STRING], Temperature=[INTEGER]\u00b0C, APID=[INTEGER], TemperaturType=[STRING])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "PKI/2/PKICRLINVALID:OID[oid] the crl is invalid. (CrlIssuer=[crlissuer], CrlStartTime=[crlstarttime], CrlFinishTime=[crlfinishtime])",
+   "The service becomes invalid."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/AP_POWER_LIMITED:OID [OID] The AP works in Limited  mode due to insufficient power supply.(APWorkMode=[OCTET], ExpectWorkMode=[OCTET])",
+   "When an AP works with low power consumption, some component functions such as the USB and PoE out functions are disabled. In addition, radio power is reduced, or radios are disabled. For details, useInfo-Finderto query AP hardware specifications inHardware Center."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/MCBC_EXCEED_RESTORE:OID [oid] The number of multicast and broadcast packets received on the AP does not exceed the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "MID_WLAN/6/CHANNEL_UTIL_EXCEED_THRESHOLD_RESTORE:OID [oid] AP's channel utilization falls below the threshold. (APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET],ChannelUtil=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/SHARE_LICENSE_AGE:OID [oid] Shared licenses are aging, and this license will age after 29 days. (ACMAC=[OPAQU E], Number of shared licenses=[INTEGER])",
+   "After a license is aged out, shared licenses become invalid automatically. The number of available licenses in the license pool is therefore reduced. APs that exceed the available license specifications are disconnected."
+  ]
+ ],
+ [
+  [
+   "VRRP/2/VRRPV3PROTOERROR: OID [oid] VRRP received protocolerror packet. (VrrpIfIndex=[INTEGER], VrId=[INTEGER], InetAddrType=[INTEGER],ProtoErrorType=[INTEGER])",
+   "The device's processing performance is affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/2/AP_REACH_MAX:OID [oid] The number of online APs reaches the maximum specifications.",
+   "The AP cannot go online."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_FMEA_FAULT_RESTORE:OID [oid] AP FMEA fault clear. (APMAC=[OPAQUE], APName=[STRING], FaultID=[INTEGER], Index=[INTEGER], FaultInfo=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/MCBC_EXCEED:OID [oid] The number of multicast and broadcast packets received on the AP exceeds the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "If an AP reported too many multicast and broadcast packets, AP services are affected."
+  ]
+ ],
+ [
+  [
+   "MGMD/3/IFLIMITCLR:OID [oid] Thenew Report message can be processed because the number of IGMP orMLD group memberships on the interface falls below the upper limit.(GroupAddressType=[integer],SrcAddr=[binary], GrpAddr=[binary], Interface=[integer],LimitCnt=[integer], InterfaceName=[string], InstanceName=[string])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_EXIST_NEED_RECONNECT: OID [oid] There are APs that require reconnections.",
+   "One or more APs need to be reconnected to the AC."
+  ]
+ ],
+ [
+  [
+   "SECE/4/ICMP_GLOBAL_SPEEDLIMIT_ALARM:OID=[oid]. Global icmp packet speed exceeds the speed-limit value[INTEGER].",
+   "If the alarm is generated, it indicates that theuser traffic volume exceeds the threshold. The excess traffic is discardedby theAP. As a result, user traffic may be interrupted intermittently."
+  ]
+ ],
+ [
+  [
+   "BFD/3/BFD_RESUME_TRAP: \"OID [OID] The BFD session Down alarm was cleared.(Index=[integer], SessName=[octet], LocalDiscriminator=[integer], Diagnosis=[integer], BindIfName=[octet])\"",
+   "Service traffic bound to the BFD session is restored."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_FMEA_FAULT_PHY_CMOS_RESTORE:OID [oid] AP PHY CMOS fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/BLE_OFFLINE_RESTORE: OID [oid] The BLE site recovers. (BLEMAC=[OPAQUE])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "PM/6/hwPMStatisticsTaskThresholdClearAlarm: OID [OID] The threshold alarm is cleared. (StatisticsTaskName=[OCTET], StatisticsTaskName=[O CTET], StatisticsObjectType=[GAUGE], StatisticsObjectName=[OCTET], StatisticsTaskName=[OCTET], StatisticsObjectType=[GAUGE], StatisticsIndicatorID=[GAUGE], StatisticsTaskName=[OCTET], StatisticsObjectType=[GAUGE], StatisticsIndicatorID=[GAUGE], TriggerType=[integer], StatisticsCycle=[integer], ResumeHighValue=[GAUGE], ResumeLowValue=[GAUGE], CurrentHighValue=[GAUGE], CurrentLowValue=[GAUGE])",
+   "The alarm indicates that services are recovered."
+  ]
+ ],
+ [
+  [
+   "MSTP/1/PROROOT:OID [oid] MSTP process [process-id] isno longer the root bridge of the instance [instance-id].",
+   "The actual network topology may not be the sameas the expected one."
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKIGETCRLSUCCESSHTTP:OID[oid] get crl successfully with HTTP. (CrlUrl=[crlurl])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "MID_WLAN/4/ROAM_CHANNEL_UTIL_EXCEED_THRESHOLD:OID[oid] AP roam channelutilization exceed threshold notify. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],ChannelUtil=[INTEGER], APID=[INTEGER])",
+   "New users cannot roam to the AP."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/IF_SLOT_CFMOVER: OID [oid] The configuration of the interface board is restored. (BoardName=[STRING])",
+   "After the configuration of the interface board is restored, the interface board is usable."
+  ]
+ ],
+ [
+  [
+   "OSPF/3/VIFCFGERR:OID [oid] A packet is received on the virtual interface from a router whose configuration conflicts with the local configuration. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+   "This trap message is generated after the virtual interface receives a packet indicating parameters are incorrectly configured."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/2/PROTO_MISMATCH:OID [oid] The protocol of received Protocol TLV is mismatched with local configuration. (NotificationSysLevelIndex=[integer], CircIfIndex=[integer], PduProtocolsSupported=[opaque], PduLspId=[opaque], PduFragment=[opaque])",
+   "LSPs cannot be learned and routes cannot be generated."
+  ]
+ ],
+ [
+  [
+   "BFD/2/BFD_UP_TRAP:OID [oid] Session changes to UP. (Index=[integer], ConfigurationName=[octet], PeerIp=[ipaddr], BindIfIndex=[integer], BindIfName=[octet], Diagnosis=[integer], BindVrfIndex=[integer], BindVpnName=[octet], SessionType=[integer], DefaultIp=[integer], BindType=[integer], StaticLspName=[octet], PwSecondary=[integer], NextHop=[ipaddr], VcId=[integer], VsiName=[octet], VsiPeerAddress=[ipaddr], DiscrAuto=[integer], PeerIpv6=[ipv6addr], Ipv6NextHop=[ipv6addr])",
+   "After the trap function is enabled, if a large number of BFD sessions flap, high CPU will be utilized. Except for this, no service will be affected."
+  ]
+ ],
+ [
+  [
+   "RM/2/IPV4_PREFIX_EXCEED:OID [oid] The number of IPv4prefixes exceeded the maximum value. (PrefixCount=[Integer], MaxValue=[Integer])",
+   "New IPv4 route prefixes cannot be added to therouting table. Services will be affected if the number of IPv4 routeprefixes keeps increasing."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_POWER_INSERT: OID [oid] Power has been inserted. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "EFM/4/LOOPBACKFAIL:OID [OID] Interface starts loopback failed. (IfIndex=[INTEGER],IfName=[STRING])",
+   "EFM OAM loopback cannot be initiated."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/CPUUSAGERESUME: OID [oid] CPU utilization resumed from exceeding the pre-alarm threshold.(Index=[INTEGER], HwEntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityThresholdType=[INTEGER], EntityThresholdWarning=[INTEGER], EntityThresholdCurrent=[INTEGER], EntityTrapFaultID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "PKI/5/PKIGETCRLSUCCESSSCEP: OID [OID] get crl successfully with SCEP. (CrlUrl=[CrlUrl])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_ADJACENT_CHANNEL_INTERFERENCE_RESTORE: OID [oid] The adjacent-channel interference alarm is cleared.(APMAC=[OPAQUE],  RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE], IntfChnl=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "LACP/2/PDUC: OID [oid] The LACP member interface's status changed from selected to unselected due to the PDU change. (TrunkIndex=[INTEGER], PortIfIndex=[INTEGER], TrunkId=[INTEGER], TrunkName=[OCTET], PortName=[OCTET], OldPduInfo=[OCTET], NewPduInfo=[OCTET], ReasonCode=[OCTET])",
+   "The member link cannot carry services."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_OPTICAL_INVALID_RESTORE:OID [oid] The optical transceiver has restored. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/IOT_CARD_TYPE_MATCH:OID [oid] The IoT card matches the configured type. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "LLDP/4/DISABLETRAP: OID [oid] Global LLDP is disabled.",
+   "This alarm is a notification of the change of the network topology for the NMS, and does not affect services."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/FANINSERT: OID [oid] Fan has been inserted.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "POE/6/POEPWABSENTRESUME: OID [OID] POE Power is present.(FrameID = [INTEGER], SlotID = [INTEGER])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "SECE/4/ARP_SIP_SPEEDLIMIT_ALARM:OID=[oid] The arp packet speed with source ip [OCTET] exceeds the speed-limit value [INTEGER].",
+   "If the alarm is generated, it indicates that the user traffic volume exceeds the threshold. The excess traffic is discarded by theAP. As a result,user traffic may be interrupted intermittently."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/MAXAREA_MISMATCH:OID [oid] The MaxAreaAddressfield of received PDU is different from local configuration. (sysInstance=[integer],sysInstanceofLevel=[integer], sysLevel=[integer], pduMaxAreaAddress=[integer],sysInstanceofPduMaxAreaAddress=[integer], circIndex=[integer], ifIndex=[integer],circIfIndex=[integer], pduFrag=[opaque], ifName=[string])",
+   "1. If the trap is triggered by a hardware faultof the board, route flapping may occur and the CPU usage will increase.2. If the trap is triggered because of the intercommunicationfailure betweenwireless access controllerdevices, neighbors cannot be established, and routes cannot be learntfrom each other."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PFWD:OID [oid] The port has been set to forwarding state. (InstanceID=[INTEGER], PortInstanceID=[INTEGER], PortID=[INTEGER], IfIndex=[INTEGER], PortName=[STRING])",
+   "The network topology will change."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/PWR_INSUFF_RESUME:OID [OID] AP power supplyinsufficient resume.(PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/SEQNUM_SKIP:OID [oid] ISIS received a self-originatedLSP with a greater sequence number. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer],ifIndex=[integer], circIfIndex=[integer], pduLspId=[opaque], ifName=[string])",
+   "1. You can ignore the trap caused by the restartof the localwireless access controller, and services will not be affected.2. If the trap is triggeredby the incorrect configuration, routes will flap frequently."
+  ]
+ ],
+ [
+  [
+   "TRUNK/2/EXT_LINKDOWN:OID [oid] The link status of the trunk member interface turned to DOWN.(ifIndex=[INTEGER], ifAdminStatus=[INTEGER], ifOperStatus=[INTEGER], ifDescr=[STRING], hwIFExtPhyStatus=[INTEGER], hwIFExtMemberOf=[STRING])",
+   "The interface cannot forward packets normally."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_INSERT:OID [oid] AP optical insert. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER],ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKIGETCERTFAILHTTP:OID[oid] get certificate unsuccessfully with HTTP. (CertUrl=[certurl], CertSaveName=[certsavename])",
+   "The service becomes invalid after the certificate expires."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/VAP_CREATE_FAIL_RESTORE: OID [oid] VAP create fail restore.(Reason=[STRING])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_HOT_BOOT_RESTORE:OID [oid] AP hot boot restore. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET], APID=[INTEGER])",
+   "The AP cannot work and its services are interrupted after a manual restart. The AP operates normally when the alarm is triggered."
+  ]
+ ],
+ [
+  [
+   "POE/4/PDINVALIDCLASS: OID [oid] PD with invliad IEEEclass and power denied.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/L1_REDIST_RESTORE_TO_LIMIT:OID [oid] The numberof level-1 imported routes is restored to less than or equal to themaximum limit.(sysInstance=[integer], sysProtocol=[integer],sysMTIndex=[integer], sysMaxLimit=[integer], sysTotalRedist=[integer])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/IF_DELETE :OID [OID] Interface [interface-index]was deleted. (InterfaceName=[STRING])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_REACH_MAX_USERS:OID [oid] AP has the max number of stations notify.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], PermitNum=[INTEGER], APID=[INTEGER])",
+   "The newly added STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_POE_PD_CLASS_OVER_CURRENT:OID [oid] A port detects a PD whose current exceeds the threshold of the corresponding class. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/L2_REDIST_EXCEED_LIMIT:OID [oid] The number oflevel-2 imported routes has exceeded the maximum limit.(sysInstance=[integer],sysProtocol=[integer], sysMTIndex=[integer], sysMaxLimit=[integer],sysTotalRedist=[integer])",
+   "Some imported routes are not advertised."
+  ]
+ ],
+ [
+  [
+   "POE/6/RPSALMRESUME: OID [oid] RPS power can provide POE power for this device.(DevID=[INTEGER])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_MEM_OVERLOAD_RESTORE_NOTIFY:OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "VRRP/1/VRRPAUTHFAILED:OID [oid] VRRP failed to authentication.(IPAddress=[IPAddress], AuthErrorType=[AuthErrorType])",
+   "The failure of the negotiation between the VRRPbackup group may cause the services to be interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_OPTICAL_RX_POWER_TOO_HIGH_RESTORE:OID [oid] The receive power of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical RxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ERRDOWN/4/ErrordownOccur: OID [oid] Error-down occurred. (Ifindex=[INTEGER], Ifname=[STRING], Cause=[STRING])",
+   "After the errordown event occurs, traffic cannot be forwarded on relevant interfaces and services are interrupted."
+  ]
+ ],
+ [
+  [
+   "VRRP/2/VRRPVIRTUALIPCONFLICT: OID [oid] VRRP detects a virtual IP address conflict. (VrrpIfIndex=[INTEGER], VrId=[INTEGER], InetAddrType=[INTEGER], IPAddress=[OCTET], IfName=[STRING])",
+   "VRRP negotiation fails, which may cause a traffic interruption."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_REACH_MAX_USERS_RESTORE:OID [oid] AP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+   "New STAs can go online properly."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/DISKUSAGERESUME: OID [oid] Storage utilization resumed from exceeding the pre-alarm threshold.(HwEntityPhysicalIndex=[INTEGER], PhysicalName=\\\"[OCTET]\\\", EntityThresholdType=[INTEGER], EntityThresholdWarning=[INTEGER], EntityThresholdCurrent=[INTEGER], EntityTrapFaultID=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "ISIS/4/L1_REDIST_THRESHOLD_REACH_CLEAR:OID [oid] Thenumber of level-1 imported routes has been less than the lower thresholdvalue.(sysInstance=[integer], sysProtocol=[integer],sysMTIndex=[integer], sysMaxLimit=[integer], sysUpperThresholdValue=[integer],sysLowerThresholdValue=[integer], sysTotalRedist=[integer])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/BOARDFAILRESUME: OID [oid] Board resume from failure.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapEntType= [INTEGER], EntityTrapFaultID=[INTEGER])",
+   "Services are restored, and the alarm has no impact on the system."
+  ]
+ ],
+ [
+  [
+   "RMON/3/RISING:OID [OID] Private alarm table [alram-line-index] monitors [description] with sample type [sample-type], has sampled alarm value [alarm-value] uprise [alarm-upper-limit].",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_NAME_CONFLICT:OID [oid]Report ap name conflict. (APMAC=[OPAQUE], APReportName=[OCTET], APOccurTime=[OCTET],APID=[INTEGER])",
+   "Two different RUs use the same name, causing a failure in RU information query based on the RU name."
+  ]
+ ],
+ [
+  [
+   "PKI/3/PKIGETCERTFAILSCEP:OID[oid] Requesting certificate through SCEP failed. (hwSCEPUrl=[scepurl], PkiRealmName=[realmname])",
+   "The service related the certificate cannot be used."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/POOL_LICENSE_AGE: OID [oid] The license resource pool is aging. After the pool is aged, only the local AC license is valid. (Total number of licenses=[INTEGER], Number of local shared licenses=[INTEGER])",
+   "After the license pool is aged out, the number of available licenses on the local AC is reduced. APs that exceed the license specifications are disconnected."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/STA_REACH_MAX_RESTORE: OID [oid] The number of stations is less than the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/UNKNOW_DEVICE_INTERFERENCE_RESTORE: OID [oid] Jam of Other devices is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "MID_ENTITY_TRAP/2/TRAPID_ENTITY_DISK_UTILIZATION_RISING:OID [oid] Storage utilization exceeded the pre-alarm threshold.(HwEntityPhysicalIndex=[INTEGER], PhysicalName=\\\"[OCTET]\\\", EntityThresholdType=[INTEGER], EntityThresholdWarning=[INTEGER], EntityThresholdCurrent=[INTEGER], EntityTrapFaultID=[INTEGER])",
+   "The configuration may fail to be saved."
+  ]
+ ],
+ [
+  [
+   "WLAN/2/AP_FAULT:OID [oid] APchanges to fault. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING],APFAULTTIME=[INTEGER], APID=[INTEGER])",
+   "The central AP cannot manage the RU, and the RU-related services cannot work properly."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AE_VIA_AC_RECOVER: OID [oid] Recovered from the exception in the AeroScout location function (via AC). (Reason=[OCTET])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_FMEA_FAULT_RESTORE:OID [oid] AP FMEA fault clear. (APMAC=[OPAQUE], APName=[STRING], FaultID=[INTEGER], Index=[INTEGER], FaultInfo=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "AAA/4/QUIETMAXUSERALARM: OID [OID] The number of quiet users is reaching the max.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   "None"
+  ]
+ ],
+ [
+  [
+   "L2IFPPI/4/PORTACTIONTRAP:OID [oid] Interface ([INTEGER1]/[INTEGER2]) [OCTET] receive insecure mac-address, and the port status is : [INTEGER]. (1:restrict;2:protect;3:shutdown)",
+   "Traffic transmission on an interface is affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_AUTH_FAIL: OID [oid] Station author is error notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET],StaAuthenticationMode=[INTEGER],StaFailCodeType=[OCTET],StaAuthenticationFailCause=[INTEGER],StaAuthenticationFailCauseStr=[OCTET], APID=[INTEGER])",
+   "STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "DHCP/1/RATETRAP:OID [OID] The rate of DHCP packets exceeds the speed limit. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER]).",
+   "The DHCP packets of which the rate exceeds the upper limit are discarded."
+  ]
+ ],
+ [
+  [
+   "SSH/4/SFTPUSER:OID [oid] The current number [INTEGER]of SFTP online users has reached the maximum [INTEGER], and otherusers' requests will be rejected.",
+   "The number of VTY connections to the SFTP serverreached the maximum value and new connection requests were denied."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_REACH_WARNING_RESUME:OID [oid] The number of online APs is less than 80% of the maximum specifications.(APMaxNum=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/IF_FLOWUP:OID [oid] The state of interfaceturned to UP because of FLOW UP. (Interface=[INTEGER], InterfaceIndex=[INTEGER],SysUpTime=[TIMETICK], FlowStatus=[INTEGER], InterfaceName=[STRING])",
+   "Traffic will be recovered."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_NUM_REACH_LICENSE_UPLIMIT:OID [oid] AP License Notify. (Info = [OCTET])",
+   "New RUs cannot go online."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/RADIO_REACH_MAX_USER_PHY_SPECS:OID [oid] RADIO reach the max number of stations notify.(APMAC=[OPAQUE], RADIOID=[INTEGER], APID=[INTEGER], APName=[STRING], StaNum=[INTEGER], MaxStaNum=[INTEGER])",
+   "New STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/RADIO_ENV_RESUME:OID [oid] Radio signal environment resumes. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APID=[INTEGER] )",
+   "None."
+  ]
+ ],
+ [
+  [
+   "BGP/2/ROUTETHRESHOLDCLEAR:OID [oid] The number of routes received from the BGP peer decreased below the alarm threshold. (InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], MaxRouteNum=[gauge], AlarmThreshold=[gauge])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKIUPDATELOCALCERTFAILSCEP: OID [OID] Updating the local certificate through SCEP failed. (LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject])",
+   "The certificate may be unavailable."
+  ]
+ ],
+ [
+  [
+   "LLDP/4/NBRCHGTRAP: OID [oid] Neighbor information is changed. (LldpStatsRemTablesInserts=[INTEGER], LldpStatsRemTablesDeletes=[INTEGER], LldpStatsRemTablesDrops=[INTEGER], LldpStatsRemTablesAgeouts=[INTEGER]).",
+   "This alarm is a notification of changes in the network topology for the NMS, and no action is required."
+  ]
+ ],
+ [
+  [
+   "EFM/3/THRESHOLDTRAP:OID [oid] Threshold event occurred. (IfIndex=[INTEGER], EventLogIndex=[GAUGE], EventLogTimestamp=[TIMETICK], EventLogOui=[OPAQUE], EventLogType=[GAUGE], EventLogLocation=[INTEGER], EventLogWindowHi=[GAUGE], EventLogWindowLo=[GAUGE], EventLogThresholdHi=[GAUGE], EventLogThresholdLo=[GAUGE], EventLogValue=[COUNTER64], EventLogRunningTotal=[COUNTER64], EventLogEventTotal=[GAUGE])",
+   "Services cannot be forwarded."
+  ]
+ ],
+ [
+  [
+   "WLAN/2/AP_POWER_INVALID: OID [oid] Power is invalid for some reason. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   "The AP may not be powered on due to lack of power, and cannot work. The fault should be rectified quickly."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_WIRELESS_PORT_DOWN: OID [oid] AP radio is down notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   "The services on the STA are interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/INNER_BLE_BROKEN_RESTORE: OID [oid] The AP's internal BLE module recovers. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/OUTBWRATEEXCEED: OID [oid] Interface output flow bandwidth usage exceeded the trap threshold. (Interface=[INTEGER], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER], InterfaceName=[STRING])",
+   "When the rate of traffic is close to 100% of the total bandwidth, delay or packet loss will occur."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/VAP_REACH_MAX_USERS_RESTORE:OID [oid] VAP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER],CurrentNum=[INTEGER], APID=[INTEGER])",
+   "New STAs can connect to the VAP."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/BACKUP_LICENSE_AGE:OID [oid] Backup license is aging. (ACMAC=[OPAQUE], Backup license number=[INTEGER], Origin=[STRING], Last backup time=[STRING])",
+   "After a license is aged out, backup licenses become invalid automatically. The number of available licenses on the local AC is therefore reduced. APs that exceed the license specifications are disconnected."
+  ]
+ ],
+ [
+  [
+   "CMD/4/UTCCLOCKCHANGE:OID [oid] The system UTC clockchanged. (CurrentTime=[STRING])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "DHCP/4/NDUSERBINDTRAPIFRESUME:OID [OID] The number of ND users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "OSPF/3/VIFRETX:OID [oid] An OSPF packet is retransmitted on a virtual interface. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], LsdbAreaId=[lsdb-area-id], LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id], ProcessId=[process-id], RouterId=[router-id], PacketType=[packet-type], InstanceName=[instance-name])",
+   "This trap message is generated when an OSPF packet is retransmitted on a virtual link interface. The cause may be that the network is busy, and thus LSDB update and route calculation convergence are slow."
+  ]
+ ],
+ [
+  [
+   "SECE/4/DAI_DROP_ALARM:OID=[oid] The packet number dropped by DAI reaches [INTEGER1], exceeds thealarm threshold [INTEGER2],Interface=[OCTET].",
+   "If this alarm is generated, theAPmay be attacked. If the attack traffic volume is heavy,theAPis busy processing attack packets. As a result, servicesof authorized users are interrupted."
+  ]
+ ],
+ [
+  [
+   "OSPF/2/IFCFGERR:OID [oid] A packet is received on the non-virtual interface from a router whose configuration conflicts with the local configuration. (IfIpAddress=[ip-address], AddressLessIf=[interface-index], ProcessId=[process-id], RouterId=[router-id], PacketSrc=[source-ip-address], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+   "This trap message is generated after an interface receives a packet indicating parameters are incorrectly configured."
+  ]
+ ],
+ [
+  [
+   "BGP/2/ROUTETHRESHOLDEXCEED:OID [oid] The number of routes received from the BGP peer exceeded the alarm threshold. (InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], MaxRouteNum=[gauge], AlarmThreshold=[gauge])",
+   "If the peer is configured with thepeer route-limitcommand in which the alarm threshold is set to 100% and the keywordalert-onlyis not specified, the peer session will be interrupted, and all the received routes will be deleted.If the peer is configured with other parameters, no services will be affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/5/STA_REACH_WARNING: OID [oid] The number of stations reaches 80% of the maximum specifications.(MaxStaNum=[INTEGER],CurStaNum=[INTEGER])",
+   "Access experience of STAs may deteriorate."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/OPTICALREMOVE:OID [oid] Optical Module has been removed.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/2/PWR_INSUFF:OID [OID] AP power supply isinsufficient.(PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET])",
+   "The APrestarts due to insufficient power supply."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/WAPI_CERT_INVALID_RESTORE: OID [oid]  The alarm of the WAPI certificate out of the invalidity period is cleared.(SecurityProfileName=[STRING], CertType=[STRING])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_ADJACENT_CHANNEL_INTERFERENCE: OID [oid] The adjacent-channel interference exceeds the alarm threshold.(APMAC=[OPAQUE],RadioID=[INTEGER],APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE],IntfChnl=[INTEGER], RSSI threshold percent=[INTEGER]%)",
+   "The packet loss rate increases, the data rate decreases, and even the services may be interrupted."
+  ]
+ ],
+ [
+  [
+   "BFD/4/BFD_SESSLMT_TRAP:OID [oid] The session numberin all the IO boards has reached the limit, the new session can notbe created. (TotalSessionLimit=[integer])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_ASSOCIATION_FAIL: OID [oid] Station association is failed notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET],StaFailCodeType=[OCTET],StaAuthenticationFailCause=[INTEGER],StaAssociationFailCauseStr=[OCTET], APID=[INTEGER])",
+   "STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_POWER_FAIL_RESUME: OID [oid] Power resume from failure. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER], FaultID=[INTEGER], FaultReasonDesc=[STRING])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ISIS/3/OLOAD:OID [oid] The overload state of IS-IS LSDBchanged. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],overLoadState=[integer])",
+   "1. If the trap is triggered by the change of theLSDB Overload state, route selection of the neighbor will be affected.2. If the trap is triggered by memory failure, it indicates thatthe IS-IS database is unauthentic."
+  ]
+ ],
+ [
+  [
+   "VRRP/2/VRRPCHANGETOMASTER:OID [oid] The status of VRRPchanged to master. (VrrpIfIndex=[VrrpIfIndex], VrId=[VrId], IfIndex=[IfIndex],IPAddress=[IPAddress], NodeName=[NodeName], IfName=[IfName], ChangeReason=[ChangeReason])",
+   "If master/backup switchover occurs in normal cases, servicesare not affected.If master/backup switchover occurs in abnormal cases, servicesmay be interrupted."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/OPTICALINSERT:OID [oid] Optical Module has been inserted.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_TEMPERATURE_TOO_LOW:OID [oid] AP optical module temperature is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "PIM/3/RPCHG:OID [oid] RP changed. (GroupMappingOrigin=[integer],GroupMappingAddressType=[integer], szGrpAddr=[binary], GrpPfxLen=[gauge],GroupMappingRPAddressType=[integer], RPAddr=[binary], GroupMappingPimMode=[integer],Precedence=[gauge], InstanceID=[integer], InstanceName=[string])",
+   "The change of the RP causes the source and multicastmembers to fail to communicate. This has impact on multicast services."
+  ]
+ ],
+ [
+  [
+   "MGMD/2/JOINGRP:OID [oid] Interface receives an IGMP or MLD Join message. (Interface=[string], InterfaceIndex=[integer], Version=[gauge], SrcStr=[string], GrpStr=[string], HostAddr=[string], InstanceName=[string])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "VRRP/2/VRRPMASTERDOWN:OID [oid] The state of VRRP changed from master to other state. (VrrpIfIndex=[VrrpIfIndex], VrId=[VrId], IfIndex=[IfIndex], IPAddress=[IPAddress], NodeName=[NodeName], IfName=[IfName], CurrentState=[CurrentState], ChangeReason=[ChangeReason])",
+   "If master/backup switchover occurs normally, services are not affected.If master/backup switchover occurs abnormally, services may be interrupted."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/OPTICALFAILRESUME: OID [OID] Optical Module resumes from failure. (Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_STORAGE_CARD_REMOVE:OID [oid] A storage card is removed. (APMAC=[OPAQUE], APName=[STRING], ApStorageIndex=[INTEGER], ApStorageName=[OCTET], APID=[INTEGER])",
+   "If the alarm is displayed when the storage device is in position, the configuration file and log file may be lost."
+  ]
+ ],
+ [
+  [
+   "PIM/1/hwpimmrtlimitclear:OID[oid] PIM entries can be created because the number of PIM entriesfalls below the upper limit. (GrpAddrType=[integer], SrcAddr=[binary],GrpAddr=[binary], InstanceID=[integer], InstanceName=[string])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "POE/6/PWRUTITHRESHRESUME: OID [oid] PSE is not overdrawing power. (SlotID=[INTEGER], ConsumingPower=[INTEGER], PowerThreshold=[INTEGER])",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_REMOVE:OID [oid] AP optical remove. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER],ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "The AP cannot provide optical module functions."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/OPTICALINVALIDRESUME:OID [oid] Optical Module resume from invalid situation.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=136201)",
+   "None"
+  ]
+ ],
+ [
+  [
+   "SECE/4/STRACKUSER: OID=[oid] Attack occurred.(Interface=[STRING], SourceMAC=[STRING], CVLAN=[ULONG], PVLAN=[ULONG], EndTime=[STRING], TotalPackets=[ULONG])",
+   "The CPU is busy processing attack packets. As a result, normal service packets cannot be processed in time or even discarded."
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKIGETCERTSUCCESSCMP:OID[oid] Requesting certificate through CMPv2 succeeded. (hwCMPUrl=[cmpurl], hwCMPName=[cmpname], CmpSessionName=[sessionname])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "RDS/4/RDACCTUP_WARNING:OID [oid] Communication with the RADIUS accounting server is resumed. (IP=[ip-address], Vpn-Instance:[vpn-instance-name])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "MID_WLAN/4/STA_NUM_EXCEED_THRESHOLD:OID[oid] AP access user number exceed threshold notify. (APMAC=[OPAQUE],RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+   "When the number of users on a radio reaches the CAC threshold, the AP reports an alarm and denies access from new users. Since the system has other radios to provide services, user services will not be affected unless the number of users has exceeded the system capacity."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/OWNLSP_PURGE:OID [oid] ISIS received a self-originatedLSP with the age being 0. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], sysInstanceofInterface=[integer], circuit=[integer],ifIndex=[integer], circuitIfIndex=[integer], pduLspId=[opaque], pduRemoteRouterID=[integer],ifName=[string])",
+   "1. If the trap triggered by the restart of thelocalwireless access controller, services will not be affected.2. If the trap is generatedfrequently, IS-IS routes are affected and packets may not be forwarded."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_REACH_MAX:OID [oid] The number of online APs reaches the maximum specifications.",
+   "The AP cannot go online."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/3/AREA_MISMATCH:OID [oid] IS-IS received a level-1 Hello PDU whose area address is different from the local area address. (CircIfIndex=[integer], PduFragment=[opaque])",
+   "1. If the trap is triggered by a hardware fault on a board, route flapping may occur, and the CPU usage will increase.2. If the trap is triggered by incorrect configurations, IS-IS neighbor relationships cannot be established,and routes cannot be learned from each other."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/SNR_ABNORMAL:OID [oid] The current network cable quality is poor, causing packet loss risks.(APMAC=[OPAQUE], APName=[STRING], InterfaceIndex=[INTEGER], InterfaceName=[OCTET], APID=[INTEGER])",
+   "The network cable quality is poor and packet loss may occur."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IPSECTUNNELSTART:OID[oid] The IPSec tunnel is established. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], LifeSize=[LifeSize], LifeTime=[LifeTime], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID], Role=[Role])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "SW_SNPG/4/GLBCNTEXCEED:OID [OID] Exceed the bandwidthlimit on multicast groups.(ConfiguredValue=[INTEGER], CurrentMulticastGroup=[IPADDR])",
+   "New multicast data cannot be forwarded, and thussome users may fail to join the channel."
+  ]
+ ],
+ [
+  [
+   "OSPF/4/AGELSA:OID [oid] An LSA is aged. (LsdbAreaId=[area-id], LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id], ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+   "In the case of Type 1 and Type 2 LSAs, services may be affected, and thus you need to check the interface or neighbor status. In the case of Type 3, Type 5, and Type 7 LSAs, only the routes associated with lsdb-ls-id will be affected."
+  ]
+ ],
+ [
+  [
+   "POE/4/PWRUTITHRESH: OID [oid] PSE is overdrawing power.(SlotID=[I NTEGER], ConsumingPower=[INTEGER], PowerThreshold=[INTEGER])",
+   "If the alarm persists, all the PDs may be powered off because of insufficient power supply."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/POWER_INSUFF_RESUME:OID [oid] AP power supply insufficient resume. (APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "BGP/2/HWBACKWARD:OID [oid] The BGP FSM moves from a higher numbered state to a lower numbered state. (InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], InterfaceIndex=[integer], PeerLastError=[octet], PeerState=[integer], PeerUnavaiReason=[gauge], InterfaceName=[octet])",
+   "The BGP neighbor will be disconnected, and the BGP route received from the neighbor will be deleted. The packet forwarding based on the BGP route will fail."
+  ]
+ ],
+ [
+  [
+   "BGP/3/GRSTATUSCHANGE:OID [oid] The graceful restart status of the BGP peer changed. (InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], GrStatus=[integer])",
+   "If an alarm of the type peerNotBeingHelped(1) is generated, it indicates that the local end fails to function as the GR Helper during the restart of the BGP peer. As a result, services will be interrupted until the peer session is reestablished and all routes are converged.If an alarm of the type peerRestarting(2) is generated, it indicates that the local end detects that the BGP peer is performing graceful restarting. When the routing protocol on which BGP route iteration depends has the GR capability, services will not be affected. Otherwise, services will be interrupted.If an alarm of the type peerFinishRestart(3) is generated, it indicates that the BGP peer session becomes normal. In this case, no services will be affected.If an alarm of the type peerHelping(4) is generated, it indicates that the BGP peer is helping the local end to perform GR. When the routing protocol on which BGP route iteration depends has the GR capability, services will not be affected. Otherwise, services will be interrupted."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/IF_CARD_CFMOVER: OID [oid] The configuration of the interface card is restored. (CardName=[STRING])",
+   "After the configuration of the interface card is restored, the interface card is usable."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_CPU_OVERLOAD_RESTORE: OID [oid] AP CPU overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApCpuRate=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/VAP_IGMP_SNOOPING_USER_EXCEEDED: OID [oid] The IGMP snooping user of VAP has reached the maximum. (APMAC=[OPAQUE], RADIOID=[INTEGER], WLANID=[INTEGER], APName=[STRING], MaxUserNum=[INTEGER], APID=[INTEGER])",
+   "New users cannot join multicast groups."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/VERSION_SKEW:OID [oid] IS-IS received a PDU with incorrect ProtocolVersion. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer], ifIndex=[integer], circIfIndex=[integer], pduProtocolVersion=[integer], pduFragment=[opaque], ifName=[string])",
+   "1. If the board modifies the packet, route flapping may occur, and the CPU usage will increase.2. If the trap is generated because of intercommunication betweenwireless access controllerdevices, neighbors cannot be established, and routes cannot be learnt from each other."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_POWER_INVALID_RESUME: OID [oid] Power resume from invalid situation. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "IFNET/1/IF_LINKUP: OID [oid] Interface [interface-index] turned into UP state. (AdminStatus=[INTEGER],OperStatus=[INTEGER],InterfaceName=[OCTET])",
+   "Traffic will be recovered."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/POWERINVALIDRESUME(t): OID [oid] Power resume from invalid situation.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=136966)",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/MANAREA_DROP:OID [oid] Some area addresses werediscarded because the number of area addresses exceeded three. (sysInstance=[process-id],sysInstanceofLevel=[process-id], sysLevel=[level], sysInstanceofManAreaAddrExistState=[process-id],manAreaAddr=[area-address], manAreaAddrExistState=[area-address-state])",
+   "The Level-2 area addresses of the local IS-IS systemmay be lost."
+  ]
+ ],
+ [
+  [
+   "AAA/4/PPPUserClearAlarm: OID [OID] The PPP Max User Alarm is cleared.(Slot:[OCTET] User-num:[INTEGER] Threshold:[INTEGER]%)",
+   "None"
+  ]
+ ],
+ [
+  [
+   "SECE/4/ARPMISS_SIP_SPEEDLIMIT_ALARM:OID=[oid] The arp-miss packet speed with source ip [OCTET] exceeds the speed-limit value [INTEGER].",
+   "If the alarm is generated, it indicates that the user traffic volume exceeds the threshold. The excess traffic is discarded by theAP. As a result,user traffic may be interrupted intermittently."
+  ]
+ ],
+ [
+  [
+   "IFNET/4/INBWRATERESUME:OID [oid] Interface input flow bandwidth usage was restored to thetrap threshold. (Interface=[INTEGER], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER], InterfaceName=[STRING])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "LACP/2/TLR:OID [oid] Link bandwidthlost totally is resumed. (TrunkIndex=[INTEGER], TrunkIfIndex=[INTEGER],TrunkId=[INTEGER], TrunkName=[OCTET])",
+   "Services are resumed."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AC_CONFIG_MISMATCH_RESTORE:OID [oid] The local AC configuration is restored to the same as that on the remote AC. (RemoteAC=[IPADDR])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/VAP_CREATE_FAIL: OID [oid] VAP create fail.(Reason=[STRING])",
+   "The VAP cannot be created."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IPSECPOLICYATTACH:OID[oid] An IPSec policy is applied to an interface. (IfIndex=[interface-index], PolicyName=[policy-name], VsysName=[vsys-name], InterfaceName=[interface-name])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_TEMPERATURE_TOO_LOW_RESTORE:OID [oid] The temperature of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "FMS/4/TARGETHOST_DEL:OID [oid] Target host [octet] wasdeleted.",
+   "The system will not be affected."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IPSECRESETIKESA:OID[oid] Reset IKE SA.(VsysName=[vsys-name])",
+   "The IPSec user is disconnected, and services are affected."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/2/OWNLSP_PURGE:OID [oid] ISIS received a self-originatedLSP with the age being 0. (NotificationSysLevelIndex=[integer], CircuitIfIndex=[integer],PduLspId=[opaque])",
+   "1. If the trap is triggered by the restart of thewireless access controller, services will not be affected.2. If the trap is generatedfrequently, IS-IS routes will be affected and traffic forwarding mayfail."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/MCBC_EXCEED_RESTORE:OID [oid] The number of multicast and broadcast packets received on the AP does not exceed the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "OSPF/2/NSSATRANCHG:OID [oid] The status of the NSSA translator changes. (AreaId=[area-id], ProcessId=[process-id], RouterId=[router-id], NSSATranslatorState=[translator-state], InstanceName=[instance-name])",
+   "ASE routes may flap for a short period in the following situations. The role of the NSSA ABR changes; the Type 5 LSAs translated from Type 7 LSAs need to be flushed; or a new translator is translating Type 7 LSAs to Type 5 LSAs. Moreover, the translator role changes without manual configuration mostly because the topology in the backbone area or the NSSA changes."
+  ]
+ ],
+ [
+  [
+   "ISIS/3/MAXSEQ_EXCEED:OID [oid] The LSP sequence numberalmost reaches the maximum value. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], pduLspId=[opaque])",
+   "After the sequence number reaches the maximum value0xFFFFFFFF, the IS-IS process will be suspended for a period of time,namely, the sum of the maximum lifetime and zero aging time of anLSP. As a result, IS-IS services will be interrupted."
+  ]
+ ],
+ [
+  [
+   "DHCP/1/DHCPV6REQUESTTRAP:OID [OID] The number of the discarded DHCPv6 request packets that do not match the binding table exceeds the threshold on the interface. (Interface=[OCTET], VlanID=[INTEGER], LastDroppedSourceMac=[OCTET], DiscardedNumber=[INTEGER])",
+   "Invalid DHCPv6 Request messages are discarded."
+  ]
+ ],
+ [
+  [
+   "PKI/4/PKIGETCRLFAILSCEP: OID [OID] get crl unsuccessfully with SCEP. (CrlUrl=[CrlUrl])",
+   "The local certificate may be unavailable."
+  ]
+ ],
+ [
+  [
+   "RM/2/PUBLIC_IPV4_PREFIX_EXCEED_RESM:OID [oid] The numberof public IPv4 prefixes falls below the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "ISIS/4/LARGE_LSP:OID [oid] The length of the PDU to be sent is greater than the MTU. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer], circIfIndex=[integer], lspSizeSupport=[integer], pduLspId=[opaque])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "DHCP/4/DHCPUSERBINDTRAPGLOBALRESUME:OID [OID] The number of DHCP global users descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "MGMD/2/LEAVEGRP:OID [oid] Interface receives an IGMP or MLD Leave message or corresponding group timer on this interface expires. (Interface=[string], InterfaceIndex=[integer], SrcStr=[string], GrpStr=[string], InstanceName=[string])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "LACP/2/MNCR:OID [oid] Link negotiationfailure is resumed. (TrunkIndex=[INTEGER], PortIfIndex=[INTEGER],TrunkId=[INTEGER], TrunkName=[OCTET], PortName=[OCTET])",
+   "The link can transmit services."
+  ]
+ ],
+ [
+  [
+   "IPSEC/4/IPSECREACHMAXTUNNEL: OID [OID] Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it.",
+   "New tunnels cannot be set up after the number of IPSec tunnels reaches the threshold."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/FANINVALID:OID [OID] Fan is invalid.(Index=[INTEGER],EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+   "The temperature of boards becomes high."
+  ]
+ ],
+ [
+  [
+   "PIM/2/NEWNBR:OID [oid] PIM neighboradd. (NbrIntIndex=[integer], NbrAddrType=[integer], NbrAddr=[binary],NbrExpiryTime=[timetick], InstanceID=[integer], InstanceName=[string])",
+   "Services will not be affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/SHARE_LICENSE_AGE_RESTORE: OID [oid] Shared licenses stop aging. (ACMAC=[OPAQUE], Number of Shared licenses=[INTEGER])",
+   "None"
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/6/FANINVALIDRESUME:OID [OID] Fan resume from invalid situation.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "PKI/3/PKIGETCERTFAILCMP:OID[oid] Requesting certificate through CMPv2 failed. (hwCMPUrl=[cmpurl], hwCMPName=[cmpname], CmpSessionName=[sessionname])",
+   "The service of certificate cannot be used."
+  ]
+ ],
+ [
+  [
+   "POE/4/PDCLASSOVERCURRENT: OID [oid] has detected a classficationovercurrent PD and power denied.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   "Services are not affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/6/AP_HOT_BOOT_RESTORE:OID [oid] AP hot boot restore. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET], APID=[INTEGER])",
+   "The AP cannot work and its services are interrupted after a manual restart. The AP operates normally when the alarm is triggered."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PROIVBPDU:OID [oid] The MSTP process's edged-port that enabled BPDU-Protection will be shutdown, because it received BPDU packet. (ProcessID=[INTEGER], InstanceID=[INTEGER], PortID1=[INTEGER], PortID2=[INTEGER], PortID3=[INTEGER], PortID4=[INTEGER], PortIDFlag=[INTEGER], IfIndex=[INTEGER], PortState=[INTEGER], PortName=[STRING])",
+   "The user network connected to this port will bebroken down."
+  ]
+ ],
+ [
+  [
+   "GTL/4/NEARDEADLINE:OID [OID] License feature [OCTET1] is near deadline, remain time is [INTEGER] days, main board name is [OCTET2].",
+   "If the new license file is not applied for and activated before the trial period of the existing license file expires, the function items subject to the license will become unavailable."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AC_SYSTEM_SWITCH: OID [oid] AC has system switched notify.(APMAC=[OPAQUE], APName=[STRING], APSN=[OCTET], SwitchType=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_SECURITY_CLASS_LOW_ATTACK: OID [oid] Low safelevel attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   "STAs cannot go online."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_FMEA_FAULT_IIC_CHANNEL_RESTORE:OID [oid] AP IIC channel fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/VAP_IGMP_SNOOPING_BANDWIDTH_EXCEEDED: OID [oid] The IGMP snooping bandwidth of VAP has reached the maximum. (APMAC=[OPAQUE], RADIOID=[INTEGER], WLANID=[INTEGER], APName=[STRING], MaxBandWidth=[INTEGER], APID=[INTEGER])",
+   "New users cannot join multicast groups."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_UBOOT_MISMATCH:OID[oid] AP uboot is not match AP version.(APMAC=[OPAQUE], APName=[STRING],APID=[INTEGER])",
+   "The AP cannot work properly because of upgrade failures."
+  ]
+ ],
+ [
+  [
+   "MGMD/3/hwmgmdgmpgloballimitclear:OID[oid] The new report message can be processed because the number ofIGMP or MLD group memberships in this instance falls below the upperlimit. (GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary],LimitCnt=[integer], InstanceName=[string])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "ISIS-STD/3/MAXSEQ_EXCEED:OID [oid] The LSP sequence number almost reaches the maximum value. (NotificationSysLevelIndex=[integer], PduLspId=[opaque])",
+   "After the LSP sequence number of an LSP reaches 0xFFFFFFFF, the IS-IS process will stop running for a period of time (the period equal the sum of the maximum lifetime of an LSP and the aging time of an LSP), causing IS-IS services to be interrupted."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_IOT_CARD_REMOVE:OID [oid] A iot card is removed. (APMAC=[OPAQUE], APName=[STRING], APIotCardId=[INTEGER], APID=[INTEGER], APIotCardType=[STRING])",
+   "If a card from Enjoyor is removed, the AP restarts. Removing a card from Prime Electronics & Satellitics Inc. has no impact on the system."
+  ]
+ ],
+ [
+  [
+   "RM/2/PUBLIC_IPV4_PREFIX_EXCEED:OID [oid] The numberof public IPv4 prefixes exceeded the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "New IPv4 public route prefixes cannot be addedto the routing table. Services will be affected if the number of IPv4route prefixes keeps increasing."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STA_NUM_EXCEED_THRESHOLD:OID[oid] AP access user number exceed threshold notify. (APMAC=[OPAQUE],RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+   "When the number of users on a radio reaches theCAC threshold, the AP reports an alarm and denies access from newusers. Since the system has other radios to provide services, userservices will not be affected unless the number of users has exceededthe system capacity."
+  ]
+ ],
+ [
+  [
+   "DHCP/1/REPLYTRAP:OID [OID] The number of the discarded DHCP reply packets on the untrusted interface exceeds the threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   "Invalid DHCP packets are discarded."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/4/HEARTBEAT: OID [oid] Heart beat notification.",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/BLE_LOW_POWER: OID [oid] The battery is low at the BLE site. (BLEMAC=[OPAQUE])",
+   "If the battery is exhausted, a BLE device cannot work properly."
+  ]
+ ],
+ [
+  [
+   "AAA/4/MACQUIETMaxUserAlarm: OID [OID] The number of mac quiet users reached the maximum.(Spec of User Num:[INTEGER1] Current Threshold:[INTEGER2] Lower Threshold:[INTEGER3]% Upper Threshold:[INTEGER4]%)",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_RX_POWER_TOO_HIGH:OID [oid] AP optical module received power is too high notify. (APMAC=[OPAQUE], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical RxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "Services on the optical module are adversely affected, which probably leads to error codes, error packets, or even service interruption.This alarm applies to Huawei certified optical modules only. For non-Huawei-certified optical modules, incorrect alarms may be generated."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/VAP_REACH_MAX_USERS:OID [oid] VAP has the max number of stations notify.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER], PermitNum=[INTEGER], APID=[INTEGER])",
+   "New STAs cannot connect to the VAP."
+  ]
+ ],
+ [
+  [
+   "ARP/4/ARP_SUPP_TRAP:OID [OID] Exceed the speed limit value configured. (Ifnet index=[INTEGER], Configured value=[COUNTER], Sampling value=[COUNTER], Speed-limit type=[OCTET],Source Ip address=[IPADDR], Destination Ip address=[IPADDR]).",
+   "View the type of packets configured with timestamp suppression in trap messages.If ARP packets are configured with timestamp suppression, it indicates that some normal ARP packets are discarded. As a result, traffic cannot be forwarded normally.If ARP Miss messages are configured with timestamp suppression, it indicates that some ARP Miss messages are discarded. As a result, ARP Request messages cannot be triggered and thus traffic cannot be forwarded normally.If this trap is cleared shortly, services will not be affected and the system will resume the normal operation.If this trap is not cleared for a long time, the service processing capability of the system will be affected."
+  ]
+ ],
+ [
+  [
+   "L2IFPPI/4/AP_SESSION_EXCEEDS_THRESHOLD: OID [oid] The AP session usage exceeds the threshold.(ApSessionNum=[INTEGER], ApSessionNumThreshold=[INTEGER], ApSessionNumSpec=[INTEGER].)",
+   "If session resources are insufficient, the communication between the AP andSDN controlleris affected, degrading users' Internet access services.If session resources are exhausted, user services and AP services are affected."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_RX_POWER_TOO_LOW:OID [oid] AP optical module received power is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical RxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "Services on the optical module are adversely affected, which probably leads to error codes, error packets, or even service interruption.This alarm applies to Huawei certified optical modules only. For non-Huawei-certified optical modules, incorrect alarms may be generated."
+  ]
+ ],
+ [
+  [
+   "VRRP/2/VRRPVIRTUALIPCONFLICTRESUME: OID [oid] The VRRPvirtual IP address conflict is rectified. (VrrpIfIndex=[INTEGER],VrId=[INTEGER], InetAddrType=[INTEGER], IPAddress=[OCTET], IfName=[STRING])",
+   "The conflict of the primary and secondary IP addressesof a VRRP group is rectified. Services are not affected."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/3/TRAPID_ENTITY_POWER_FAIL:OID [oid] Power become failure.(EntityPhysicalIndex=[INTEGER], PhysicalName=\\\"[OCTET]\\\",EntityTrapFaultID=[INTEGER], EntityOperStatus=[INTEGER],EntityTrapReasonDescr=\\\"[OCTET]\\\")",
+   "The device may fail to run properly."
+  ]
+ ],
+ [
+  [
+   "ISIS/2/PROTO_MISMATCH:OID [oid] The protocol of receivedProtocol TLV is mismatched with local configuration. (sysInstance=[integer],sysInstanceofLevel=[integer], sysLevel=[integer], sysInstanceofCircIfIndex=[integer],circIndex=[integer], ifIndex=[integer], circIfIndex=[integer], pduProtocolsSupported=[opaque],pduLspId=[opaque], pduFragment=[opaque], ifName=[string])",
+   "LSPs cannot be learnt, and routes cannot be generated."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_FMEA_FAULT_IIC_CHANNEL:OID [oid] AP IIC channel fault. (APMAC=[OPAQUE], APName=[STRING],APID=[INTEGER])",
+   "The AP cannot properly work."
+  ]
+ ],
+ [
+  [
+   "ENTITYTRAP/2/OPTICALFAIL: OID [oid] Optical Module become failure.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+   "The interface that has the optical module installed may fail to go Up."
+  ]
+ ],
+ [
+  [
+   "AM/4/IPPOOLUSEDOUTRESUME: OID [OID] The number of used addresses descends to alarm threshold. (PoolName=[OCTET], Threshold=[OCTET])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/STATION_SIGNAL_STRENGTH_LOW_THAN_THRESHOLD_NOTIFY:OID[oid] Signal strength of the Station is lower than threshold. (ApMac=[OPAQUE],StaMac=[OPAQUE],StaRadioId=[INTEGER],ApName=[OCTET],StaAccessChannel=[INTEGER],StaRssi=[INTEGER],SignalStrengthThreshold=[INTEGER],APID=[INTEGER])",
+   "Users fail to go online."
+  ]
+ ],
+ [
+  [
+   "DHCP/1/REQUESTTRAP:OID [OID] The number of the discarded DHCP request packets that do not match the binding table exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   "Invalid DHCP packets are discarded."
+  ]
+ ],
+ [
+  [
+   "SOCKET/4/TCP_MD5_FAIL:OID [oid] MD5 authentication failed. (SourceAddress=[IPADDR], SourcePort=[INTEGER], ForeignAddress=[IPADDR], ForeignPort=[INTEGER], Protocol=[OCTET], VrfName=[OCTET])",
+   "The TCP connection cannot be set up normally and upper layer protocols such asLDP andBGP cannot set up sessions."
+  ]
+ ],
+ [
+  [
+   "OSPF/2/IFCHG:OID [oid] The status of the non-virtual interface changes. (IfIpAddress=[ipaddr], AddressLessIf=[integer], ProcessId=[integer], AreaId=[ipaddr], IfnetIndex=[integer], ProcessId=[integer], RouterId=[ipaddr], IfState=[integer], IfName=[octet], InstanceName=[octet], IfChgReason=[integer])",
+   "If the interface status becomes Down, services may be affected. If the interface status becomes DR, BDR, DRother, or P2P, services will not be affected."
+  ]
+ ],
+ [
+  [
+   "DHCP/4/NDUSERBINDTRAPGLOBALRESUME:OID [OID] The number of ND global users descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "L2IFPPI/6/AP_SESSION_EXCEEDS_THRESHOLD_RESUME: OID [oid] The AP session usage falls below the threshold.(ApSessionNum=[INTEGER], ApSessionNumThreshold=[INTEGER], ApSessionNumSpec=[INTEGER].)",
+   "None"
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_MEM_OVERLOAD_RESTORE_NOTIFY:OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   "None."
+  ]
+ ],
+ [
+  [
+   "SECE/4/STRACKPORT: OID=[oid] Attack occurred.(Interface=[STRING], CVLAN=[ULONG], PVLAN=[ULONG], EndTime=[STRING], TotalPackets=[ULONG])",
+   "The CPU is busy processing attack packets. As aresult, normal service packets cannot be processed in time or evendiscarded."
+  ]
+ ],
+ [
+  [
+   "MSTP/4/PRORTCHANGED:OID [oid] The root bridge of MSTPprocess has changed. (ProcessID=[INTEGER], InstanceID=[INTEGER], PortID=[INTEGER],PreviousRootBridgeID=[STRING], NewRootBridgeID=[STRING])",
+   "If the root bridge is not a core node, it willaffect the performance of the entire network."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/RADIO_CHANNEL_CHANGE:OID [oid] Channel of radio is changed. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], Channel1=[INTEGER],Channel2=[INTEGER],CauseId=[INTEGER], CauseStr=[OCTET], PreChannel1=[INTEGER],PreChannel2=[INTEGER],APID=[INTEGER], NewChannelHasRadarChannel=[OCTET])",
+   "The working channel of the AP was changed, which may affect the other APs."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/RADIO_CHANNEL_CHANGE_NOTIFY:OID [oid] Channel of radio is changed. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],  Channel1=[INTEGER], Channel2=[INTEGER], CauseId=[INTEGER], CauseStr=[OCTET], PreChannel1=[INTEGER], PreChannel2=[INTEGER], APID=[INTEGER])",
+   "The working channel of the AP was changed, which may affect the other APs."
+  ]
+ ],
+ [
+  [
+   "WLAN/4/AP_OPTICAL_TX_POWER_TOO_LOW_RESTORE:OID [oid] The transfer power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "None."
+  ]
+ ]
+]

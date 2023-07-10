@@ -1,0 +1,9686 @@
+[
+ [
+  "System call for command [dec] slot[dec]/[dec]   [chars] Cause  [chars]",
+  388
+ ],
+ [
+  "IPSec SA receives HMAC error DP Handle [dec]  src_addr %Ci dest_addr %Ci SPI 0x[hec]",
+  211
+ ],
+ [
+  "PROBLEM - %lu - Insufficient storage to initiate session activation requested by [MC_]ALLOCATE or CMALLC [chars]",
+  8
+ ],
+ [
+  "Overwrote internal buffer space [chars]",
+  64
+ ],
+ [
+  "EXCEPTION - %lu - Link activation race detected - local node responsible for disconnect [chars]",
+  8
+ ],
+ [
+  "Failed to send a sync message for sync type [dec]",
+  22
+ ],
+ [
+  "Invalid Address Family for PIM pending mrib update check",
+  22
+ ],
+ [
+  "Can't create process with start address = [hec]",
+  2
+ ],
+ [
+  "Current MTU setting of [dec] on [chars] is being overwritten by setting  of [dec] defined by [chars].",
+  444
+ ],
+ [
+  "Group [chars] encountered error in setting EOT object ID [dec] to state [chars].",
+  114
+ ],
+ [
+  "Monitor type  [dec]",
+  55
+ ],
+ [
+  "Could not return memory Neutrino via munmap at %lx size [dec] errno [dec]",
+  2
+ ],
+ [
+  "Applying non-existent  template [chars] will result in its creation programatically. This  functionality will soon be deprecated.\n                                 Please make sure template is  created on device before it is applied by session.",
+  712
+ ],
+ [
+  "-",
+  211
+ ],
+ [
+  "A misdirected interrupt occurred with int_mask  0x[hec]",
+  250
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  530
+ ],
+ [
+  "NULL SONET MIB config pointer if_index=[dec]",
+  32
+ ],
+ [
+  "Can not allocate entity[dec] under client [chars][dec]",
+  18
+ ],
+ [
+  "Incompatible SR interval from [inet] on [chars] [dec] != [dec]",
+  155
+ ],
+ [
+  "HTTP send failed  [chars]",
+  197
+ ],
+ [
+  "Link node message received for unknown alternate node '[dec]'",
+  112
+ ],
+ [
+  "ISSU xmit transform failed for bulk send complete message.",
+  22
+ ],
+ [
+  "Trunk laser degrade  [chars]",
+  164
+ ],
+ [
+  "Critical Warning  System Fan has failed.  Please replace the fan to prevent system overheating.",
+  200
+ ],
+ [
+  "Bad refcount in [chars] ptr=[hec] count=[hec]",
+  2
+ ],
+ [
+  "Clear [chars] checkpoint state [chars] by [chars]",
+  233
+ ],
+ [
+  "Missing detail information",
+  243
+ ],
+ [
+  "PnP Provision state notified [chars]",
+  60
+ ],
+ [
+  "[chars]  [chars]",
+  370
+ ],
+ [
+  "Update to memory leak detector on free of 0x[hec] failed  CLI output is unreliable\\n",
+  2
+ ],
+ [
+  "Dispatch vector Null cmd=[dec] dintf=[dec]",
+  172
+ ],
+ [
+  "Insufficient chunk pools for [chars] requested size [dec]",
+  85
+ ],
+ [
+  "Group [chars] transitioned to Unicast Rekey.",
+  114
+ ],
+ [
+  "idomain [dec] orig adr [hec] port [hec] trans adr [hec] port [hec] vrf [hec] prot [hec] rg [dec]",
+  31
+ ],
+ [
+  "Bad getbuffer bytes= [dec]",
+  2
+ ],
+ [
+  "[chars]",
+  456
+ ],
+ [
+  "Failed to open file \\[chars]\\ for reading software keystore. [chars]",
+  90
+ ],
+ [
+  "Process semaphore creation for preemptive processes failed.",
+  2
+ ],
+ [
+  "Failed to register [chars] XDR client due to [chars]",
+  325
+ ],
+ [
+  "[chars]",
+  26
+ ],
+ [
+  "Rekey received in group [chars] is too old and fail PST check   my_pst is [dec] sec peer_pst is [dec] sec allowable_skew\n                              is [dec] sec",
+  114
+ ],
+ [
+  "TX FIFO underflow on mac [dec] count  %lld",
+  250
+ ],
+ [
+  "Attempt made to overwrite a set stub function in [chars].",
+  446
+ ],
+ [
+  "unexpected arguments  [chars] [chars]",
+  491
+ ],
+ [
+  "System Flash Simms unequal. Simm1  [dec]M Simm2  [dec]M",
+  259
+ ],
+ [
+  "[chars]",
+  33
+ ],
+ [
+  "PKI functions can not be initialized until an authoritative time source  like NTP can be obtained.",
+  47
+ ],
+ [
+  "IID [dec] No usable ITR RLOC unable to send map-request.",
+  130
+ ],
+ [
+  "System clock has been updated from [chars] to [chars]  configured from [chars] by [chars].",
+  2
+ ],
+ [
+  "[chars] is being shutdown temporarily due to authentication failure for [dec] secs.",
+  35
+ ],
+ [
+  "\\ Exceeded maximum number of local zones [dec] allowed.",
+  131
+ ],
+ [
+  "Invalid VLAN [chars] in response",
+  615
+ ],
+ [
+  "Unexpected null RDBSHR [hec]",
+  175
+ ],
+ [
+  "Maximum Redirection limit of [dec]  exceeded trying to retrieve URL [chars]",
+  47
+ ],
+ [
+  "[hex]  [hex] [hex] [hex] [hex]",
+  2
+ ],
+ [
+  "No DNS server is configured.  \\nDNS-based SSM mapping should be disabled if no DNS  server is configured.",
+  398
+ ],
+ [
+  "PROBLEM - %lu - Session control request received with invalid LFSID [chars]",
+  8
+ ],
+ [
+  "Invalid message length for bulk sync got [dec] expected [dec]",
+  364
+ ],
+ [
+  "[chars] [chars][chars] cannot authorize for [chars] [chars] [chars][chars][chars]",
+  21
+ ],
+ [
+  "IP SLA Responder  udp  [chars] - [dec] Port already in use.",
+  141
+ ],
+ [
+  "VP Enable failed for VPI= [dec] on [chars] interface of ACR interface [chars].",
+  29
+ ],
+ [
+  "Slot [dec] Subcard [dec] port [dec]  line transceiver inserted",
+  219
+ ],
+ [
+  "Undefined Port Adaptor type [dec] in bay [dec]",
+  109
+ ],
+ [
+  "Applying AutoSecure config to running-conf failed with error [dec]",
+  627
+ ],
+ [
+  "[chars] entry 0x[hec] existing 0x[hec]",
+  34
+ ],
+ [
+  "Assertion failed  \\[chars]\\",
+  2
+ ],
+ [
+  "PROBLEM - %lu - Insufficient storage to activate LU6.2 session [chars]",
+  8
+ ],
+ [
+  "[chars]  [chars]{ID=[dec]} is not supported",
+  153
+ ],
+ [
+  "Invalid memory action [chars] at interrupt level",
+  2
+ ],
+ [
+  "Unable to link top-level keyword '[chars]' into parse tree",
+  112
+ ],
+ [
+  "APPC security failed client [inet] using userid '[chars]' for server [chars]",
+  366
+ ],
+ [
+  "Invalid KMI error  kmi_client  [dec] in processing [chars]",
+  44
+ ],
+ [
+  "[chars] error detected on [chars] putting [chars] in err-disable state",
+  72
+ ],
+ [
+  "[chars]\\n",
+  294
+ ],
+ [
+  "Registration  Unauthorized [inet] tried to join the group [chars].",
+  114
+ ],
+ [
+  "Could not find the sibling to allocate memory from.   Chunk [chars] total free [dec] inuse [dec].",
+  2
+ ],
+ [
+  "Unhandled event  current state [chars] event [chars]",
+  263
+ ],
+ [
+  "[chars]   [dec] MKA Session was stopped by [chars] and not secured for RxSCI [chars]",
+  122
+ ],
+ [
+  "Bad reference count at [hec] refcount [hec]",
+  2
+ ],
+ [
+  "Unknown socket protocol [dec]",
+  2
+ ],
+ [
+  "Error initializing Flow feature queue",
+  65
+ ],
+ [
+  "Endpoint is registered already.",
+  18
+ ],
+ [
+  "Nonvolatile storage configured from [chars]",
+  2
+ ],
+ [
+  "[chars] added as COOP Key Server in group [chars].",
+  114
+ ],
+ [
+  "fmt \\extern C local_errmsg_t msg_ ## fac ## _ ## name",
+  54
+ ],
+ [
+  "[chars] session count of VRF id [dec] has dipped below the aggressive aging  low watermark [dec] [chars]",
+  220
+ ],
+ [
+  "Control buffer pool could not be created",
+  227
+ ],
+ [
+  "[chars]  Next Hop [chars]   Tunnel  [chars] NBMA  [chars] for Tunnel  [chars] NBMA  [chars] is [chars] Reason  [chars]NHRP \n                              [chars]",
+  181
+ ],
+ [
+  "Policer configuration has exceeded hardware limitation for policymap [chars]",
+  476
+ ],
+ [
+  "Command has been added to the configuration using  a type [dec] password. However type [dec] passwords will  soon be deprecated.\n                              Migrate to a supported password type [dec]",
+  286
+ ],
+ [
+  "[chars] has been no shut",
+  396
+ ],
+ [
+  "Crashinfo subsys initialization did not add registry \\n\\ crashinfo_get_default_file_name.\\n",
+  2
+ ],
+ [
+  "fmt",
+  54
+ ],
+ [
+  "Illegal log event source  [dec]",
+  34
+ ],
+ [
+  "different dsid [dec] assign to dsg da2dsid entry [dec]",
+  98
+ ],
+ [
+  "[chars] encountered an error",
+  534
+ ],
+ [
+  "CONN  opening peer [chars] [dec]",
+  177
+ ],
+ [
+  "Data conversion error [chars] 0x%X",
+  106
+ ],
+ [
+  "NULL queue pointer",
+  197
+ ],
+ [
+  "IDPROM mismatch read failed [[chars]]",
+  164
+ ],
+ [
+  "Logging disabled - [chars] \\n",
+  2
+ ],
+ [
+  "Interface [chars] no buffer available to [chars]",
+  177
+ ],
+ [
+  "[chars].",
+  2
+ ],
+ [
+  "Buffer in list ptr= [hec] caller= [hec]",
+  2
+ ],
+ [
+  "No decode function exists for sync data type [dec]",
+  22
+ ],
+ [
+  "MSPI-bad configuration [chars]",
+  488
+ ],
+ [
+  "[enet] - Different partner - originally [enet] - now [enet]",
+  439
+ ],
+ [
+  "LLC2  [chars] UNEXPECTED EVENT",
+  639
+ ],
+ [
+  "Bridging software not present",
+  2
+ ],
+ [
+  "Invalid dial peer tag [dec]",
+  156
+ ],
+ [
+  "Out of tcam resources to execute command",
+  559
+ ],
+ [
+  "[chars] session count of VRF id [dec] has exceeded the aggressive aging  high watermark [dec] [chars]",
+  220
+ ],
+ [
+  "process cannot initialize",
+  148
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  37
+ ],
+ [
+  "[chars]  [inet] downstream  [inet] upstream  [inet]",
+  391
+ ],
+ [
+  "Received an INVALID service type [dec][chars].",
+  93
+ ],
+ [
+  "RFS nego [dec] [dec] to [[chars] 0x[hec]] failed  [[chars]]",
+  39
+ ],
+ [
+  "Fails to program HW policer",
+  27
+ ],
+ [
+  "Non config data present at the end of nvram is corrupted",
+  2
+ ],
+ [
+  "[chars][dec] is in use under endpoint",
+  18
+ ],
+ [
+  "Auto Upgrade Manager is unable to download new image from [chars]",
+  197
+ ],
+ [
+  "Unknown timer type [dec] expiration",
+  4
+ ],
+ [
+  "Msg version[dec][dec] is out of order for msg[dec] under client",
+  18
+ ],
+ [
+  "Connection [chars]<[inet][inet]> [chars]",
+  33
+ ],
+ [
+  "Failed to get packet buffer",
+  193
+ ],
+ [
+  "[chars] [chars]",
+  541
+ ],
+ [
+  "Multiple outstanding service requests  [dec] [dec]",
+  134
+ ],
+ [
+  "CEF to SCCP devices may be disabled! See message below.",
+  378
+ ],
+ [
+  "Exceeded maximum delay [dec] ms requested  [dec]",
+  163
+ ],
+ [
+  "The protecting state in RFSW is wrong expect [dec] get [dec].",
+  733
+ ],
+ [
+  "Interface [chars]  PD requested shutdown for [dec] sec via LLDP MDI TLV",
+  74
+ ],
+ [
+  "Attempt to [chars] uninitialized watched [chars] address [hec].",
+  187
+ ],
+ [
+  "[chars] if_name [chars] local_label  %lu",
+  391
+ ],
+ [
+  "Exceeding max acl limit[dec] configurable failed to create ACL",
+  325
+ ],
+ [
+  "Client id [dec] type = [dec]  xmit failed error [dec]",
+  161
+ ],
+ [
+  "Serviced full queue of PGM packets.",
+  296
+ ],
+ [
+  "A chunk is created or destroyed from pseudo-preemption context.  Chunk name   [chars]",
+  2
+ ],
+ [
+  "SPE [chars] is BAD.",
+  160
+ ],
+ [
+  "HCCP [chars] Grp [dec] inconsistant state !!",
+  117
+ ],
+ [
+  "Invalid topology. More than two edge ports  configured for segment [dec]",
+  575
+ ],
+ [
+  "[chars] POS [chars] [chars][chars]. src=0x[hec] det1=0x[hec] det2=0x[hec]",
+  300
+ ],
+ [
+  "Logging persistent unconfigured as space is full. device-name  [chars]  threshold-cap  %lld free  %lld",
+  2
+ ],
+ [
+  "DMTDSL[dec]/[dec] Hardware failed self test",
+  678
+ ],
+ [
+  "Bad Magic pattern in [chars] 0x[hec] magic 0x[hec]!",
+  84
+ ],
+ [
+  "Binding [chars]<[chars] [chars]> from peer [inet] change to new sgt [chars] from peer [inet]",
+  33
+ ],
+ [
+  "Interface [chars] [chars] [chars] = [hex]",
+  554
+ ],
+ [
+  "Failed to allocate an internal ACL resource needed for Policy Gateway",
+  490
+ ],
+ [
+  "Improper source route. Length [dec] Ptr [dec]",
+  119
+ ],
+ [
+  "[chars] Error Initializing/Updating Linecard Tunnel Configuration",
+  11
+ ],
+ [
+  "Invalid [chars] address family PIM redundancy control block.",
+  22
+ ],
+ [
+  "TCMSP call disconnect failed. channel id [chars] ret [dec]",
+  248
+ ],
+ [
+  "Pending unexpected interrupt [addr [hex] = [hex]]",
+  164
+ ],
+ [
+  "[chars] [chars][chars] has turned on softshut and rejected [chars] [chars] [chars][chars][chars]",
+  21
+ ],
+ [
+  "Trying to set unknown special character [dec] to [dec]",
+  2
+ ],
+ [
+  "Error writing temperature sensor [dec]",
+  126
+ ],
+ [
+  "[chars]",
+  80
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  634
+ ],
+ [
+  "Inconsistent RSVP reliable message timer",
+  393
+ ],
+ [
+  "EXCEPTION - %lu - Unable to correlate received UNBIND request [chars]",
+  8
+ ],
+ [
+  "Certificate server [chars] CA certificate invalid. Regenerate CA certificate manaully.",
+  47
+ ],
+ [
+  "Out of range variable index [dec] [chars]",
+  236
+ ],
+ [
+  "Memory allocation of [dec] bytes failed from [hex] alignment [dec] \\n  Pool  [chars] Free  [dec] Cause  [chars] \\nAlternate\n                              Pool  [chars] Free  [dec]   Cause  [chars] \\n",
+  2
+ ],
+ [
+  "Invalid capture point.",
+  420
+ ],
+ [
+  "Bad LTL index 0x[hec] for vlan [dec] local_vc_label [dec]",
+  725
+ ],
+ [
+  "Interface [chars] N1 too large",
+  421
+ ],
+ [
+  "Policy Installation state machine initializing in [chars] state for int[chars] peer[chars]",
+  33
+ ],
+ [
+  "Bad unit number [dec]",
+  129
+ ],
+ [
+  "Apply persisted config cmds on reload switched off",
+  182
+ ],
+ [
+  "Threshold  [chars] CPU UtilizationTotal/Intr  [dec]%%/[dec]%%",
+  2
+ ],
+ [
+  "Failed to allocate memory [chars]",
+  69
+ ],
+ [
+  "CPP[dec]  0x[hec] Failed to release memory lock [chars]",
+  176
+ ],
+ [
+  "Invalid reply to RAM Access [chars] request 0x%08x from satellite [dec]",
+  124
+ ],
+ [
+  "Sig [dec] HTTP protocol violation detected - [chars] [chars] from [inet] [dec] to [inet] [dec]",
+  61
+ ],
+ [
+  "[chars] error [dec]",
+  161
+ ],
+ [
+  "Process [chars] just finished executing",
+  2
+ ],
+ [
+  "Cannot allocate label for route-map [chars]",
+  591
+ ],
+ [
+  "[chars] is empty [chars] under client [chars][dec] and entity[dec].",
+  18
+ ],
+ [
+  "[chars] measured at [chars]",
+  126
+ ],
+ [
+  "Invalid BM name",
+  2
+ ],
+ [
+  "Can't create packet  [chars]",
+  1
+ ],
+ [
+  "*G or SG being deleted for group [inet] does not exist in the",
+  163
+ ],
+ [
+  "Clock moving to FREERUN from HOLDOVER",
+  261
+ ],
+ [
+  "MVRF lookup for tableid [dec] failed.",
+  22
+ ],
+ [
+  "[chars]",
+  698
+ ],
+ [
+  "Could not open [chars].",
+  58
+ ],
+ [
+  "Number of PW's exceeded supported limit [dec]",
+  79
+ ],
+ [
+  "No space in checkpoint buffer",
+  66
+ ],
+ [
+  "Invalid parameter/mangled pointer\\n routine  [chars] file  [chars] line  [dec]",
+  196
+ ],
+ [
+  "Trunk Laser wavelength deviation  [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  180
+ ],
+ [
+  "Controller [dec] Error %-04x Buffersize = [dec] Bufferpool = [dec] number [dec]",
+  20
+ ],
+ [
+  "Internal error occurred in setup for GBIC interface [chars]",
+  309
+ ],
+ [
+  "Bad [chars] pointer [hec] at [hec] [chars] = [hec]",
+  2
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  51
+ ],
+ [
+  "Unit [dec] HP100VG cable error. Training failed",
+  127
+ ],
+ [
+  "AAA authentication startup failed",
+  320
+ ],
+ [
+  "invalid parameter was used when accessing AAA function",
+  49
+ ],
+ [
+  "Error during close of the file [chars]. [chars]",
+  87
+ ],
+ [
+  "[chars]  wrong magic mine [hec] theirs [hec] [dec]",
+  177
+ ],
+ [
+  "No sync request specified in sync request deletion attempt.",
+  22
+ ],
+ [
+  "xos_dm_xdispatch API cannot be called that does not own the XDM xdm pid  [dec] current pid  [dec]",
+  404
+ ],
+ [
+  "Attempt to use pool pointer with corrupt header pool= [hec]",
+  2
+ ],
+ [
+  "Firmware download failure for slot [dec] module [dec]",
+  166
+ ],
+ [
+  "PROBLEM - %lu - XID exchange count exceeds activation limit [chars]",
+  8
+ ],
+ [
+  "MMA global ID [dec] Netflow field [dec] is not supported by MMA",
+  55
+ ],
+ [
+  "Consent Token Update [chars].",
+  16
+ ],
+ [
+  "[chars] [hec]",
+  399
+ ],
+ [
+  "Failed to release the package list lock  [chars]",
+  112
+ ],
+ [
+  "[chars]. Reason  [chars]",
+  435
+ ],
+ [
+  "Box secured no option on internal packet",
+  133
+ ],
+ [
+  "[chars] added as member-[dec] to [chars]channel[dec]",
+  7
+ ],
+ [
+  "Label advertisement mode DU/DoD mismatch with peer [chars] resolved to [chars].",
+  233
+ ],
+ [
+  "[chars] [chars] The credential is about to expiry",
+  463
+ ],
+ [
+  "[chars]",
+  300
+ ],
+ [
+  "Configuration file [chars] accepted aborting setup",
+  2
+ ],
+ [
+  "Error -- Unable to allocate memory to startup modem board in slot [dec]",
+  166
+ ],
+ [
+  "[chars]",
+  558
+ ],
+ [
+  "[chars]  DM logging will be stopped in [dec] [chars] autostop trigger event [chars] set",
+  35
+ ],
+ [
+  "Failed to open listen socket for ip_addr=[chars] port=[dec] vrf=[chars] transport=[chars] tenant=[dec]",
+  286
+ ],
+ [
+  "Error0x[hec] block0x[hec] linked size [dec]",
+  467
+ ],
+ [
+  "Environmental monitoring is not enabled for [chars]",
+  6
+ ],
+ [
+  "Route lookup failed  reached maximum recursive depth [dec]",
+  292
+ ],
+ [
+  "SPE [chars] crashed",
+  160
+ ],
+ [
+  "[dec] messages lost because of queue overflow",
+  2
+ ],
+ [
+  "[chars]  [chars] Clock status is  [chars] for clock_id [dec] on circuit  [dec]/[dec]/[dec]/[dec] [chars]",
+  107
+ ],
+ [
+  "Unknown Accounting type [dec]  flag [dec].",
+  272
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  37
+ ],
+ [
+  "Egress SONET SEF Prealarm [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "Attribute length [dec] is longer than buffer size [dec]",
+  149
+ ],
+ [
+  "Failed to disable DC.",
+  26
+ ],
+ [
+  "[chars] [chars][chars] unable to terminate user [chars][chars][chars]",
+  21
+ ],
+ [
+  "Best UDI [[chars]] identified via [chars]",
+  60
+ ],
+ [
+  "Unable to apply event 0x%08X",
+  174
+ ],
+ [
+  "UDLR [chars] - [chars]",
+  195
+ ],
+ [
+  "Unable to enqueue event [chars] [dec] to a process watched queue. Current size  [dec] max size  [dec]",
+  286
+ ],
+ [
+  "Invalid connection handle [dec] referenced during command execution.",
+  62
+ ],
+ [
+  "Tty[t-line] Attempt to re-use slot array empty = [dec] fill = [dec]",
+  408
+ ],
+ [
+  "Failed to create an MDT send group entry during MDT data   send group sync for group [inet] source [inet] MVRF [chars]",
+  22
+ ],
+ [
+  "PROBLEM - %lu - A BIND request received by an LU type 012 or 3 was rejected by SNA Switch because the application connection\n                              was not open [chars]",
+  8
+ ],
+ [
+  "Invalid [chars] under endpoint",
+  18
+ ],
+ [
+  "ISIS[chars] bulk sync failed to complete",
+  67
+ ],
+ [
+  "Interface [chars] failed to reset properly in [chars] code [hex]",
+  20
+ ],
+ [
+  "Out of tcam resources to execute command",
+  559
+ ],
+ [
+  "Platform TLV rejected for receieved [chars] packet",
+  1
+ ],
+ [
+  "Warning  VLAN [dec]'s main interface is not the channel   group of secondary=[chars]\\nPer-VLAN manual load-balancing will\n                              not take effect until channel-group is configured under the\\n  secondary interface.",
+  433
+ ],
+ [
+  "Abrupt termination of tty session for [chars] [t-line]",
+  2
+ ],
+ [
+  "SPE [chars] busiedoutmaintenance will be allowed",
+  160
+ ],
+ [
+  "LC log msg longer than msg buffer LC=[dec]/[dec]len=[dec]max=[dec]",
+  590
+ ],
+ [
+  "Interface [chars] excessive input error rate",
+  20
+ ],
+ [
+  "Client id [dec] MTU failed error [dec]",
+  161
+ ],
+ [
+  "ISIS MFI API error  [chars] [chars]",
+  67
+ ],
+ [
+  "Interface [chars] Frame error  CF [hex] VS [dec] [chars] VR [dec] Reason [hex]",
+  304
+ ],
+ [
+  "PCMCIA flash card [chars] [chars]",
+  215
+ ],
+ [
+  "Inspection  Dropped packet from vrf [chars] [chars] [inet] [dec] => [inet] [dec] proto [chars]   due to [dec] [chars] ident\n                              [dec] [chars]",
+  75
+ ],
+ [
+  "Line card crash server in bad state LC=[dec]/[dec]state=[dec]",
+  484
+ ],
+ [
+  "NULL IDB pointer in Bidir RP DF sync attempt for RP   address [inet].",
+  22
+ ],
+ [
+  "Input idb not set",
+  283
+ ],
+ [
+  "unable to show [dec] entries from bucket [dec]",
+  31
+ ],
+ [
+  "Topology [chars] address-family [chars] has no VRF entry",
+  57
+ ],
+ [
+  "Internal Error in resource allocation",
+  27
+ ],
+ [
+  "Restarting with [dec] recent soft power shutdowns\\n\\t\\tor system just powered-on",
+  120
+ ],
+ [
+  "Failed to start AAA process. AAA requests  may not be processed.",
+  64
+ ],
+ [
+  "[chars] [dec] [dec]",
+  670
+ ],
+ [
+  "NTI ISSU got an unknown message type  [dec]",
+  63
+ ],
+ [
+  "Resource group creation failed\\nCause  [chars]",
+  2
+ ],
+ [
+  "[chars]",
+  388
+ ],
+ [
+  "[chars]  Could not retrive statistics from the probe.  Return code [dec] \\n",
+  345
+ ],
+ [
+  "Learned ARP entries have reached to threshold level %lu",
+  386
+ ],
+ [
+  "Bandwidth oversubscribed in the interface",
+  27
+ ],
+ [
+  "SAP negotiation error for int[chars] - Received message 2 with higher",
+  33
+ ],
+ [
+  "EXCEPTION - %lu - Locate search timed out [chars]",
+  8
+ ],
+ [
+  "Boolean NULL in IPC message  [hec].",
+  99
+ ],
+ [
+  "Received Register from router [inet] for group [inet] [inet] not willing to be RP",
+  155
+ ],
+ [
+  "[chars] temperature too high on sensor [dec] [dec]C. SPA has been shut down.",
+  6
+ ],
+ [
+  "Alarm  [chars] [chars] [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "The configuration could  not be locked",
+  2
+ ],
+ [
+  "A [chars] event resulted in an unassigned index for [chars] [chars]",
+  116
+ ],
+ [
+  "[dec] peers exist on IIDB [chars]",
+  4
+ ],
+ [
+  "Interface [chars] service audit trigger condition [dec] on channel [dec]",
+  73
+ ],
+ [
+  "[chars] acknowledge failure cmd %02x addr %02x data %02x",
+  120
+ ],
+ [
+  "Process aborted on watchdog timeout process = [chars].[chars]",
+  2
+ ],
+ [
+  "Stack for [chars] [chars] running low [dec]/[dec]",
+  2
+ ],
+ [
+  "[chars][dec]/[dec] could not find image \\[chars]\\ for chip \\[chars]\\",
+  171
+ ],
+ [
+  "stats for interface index [dec] could not be created with status [dec]",
+  540
+ ],
+ [
+  "[chars] Location  [chars] State  [chars] Reading  [dec] [chars]",
+  473
+ ],
+ [
+  "Invalid pid [dec] in block  [hec]",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - Insufficient storage to deliver MDS_MU to a registered application [chars]",
+  8
+ ],
+ [
+  "[chars]",
+  497
+ ],
+ [
+  "in_orig adr [hec] port [hec] out_trans adr [hec] port [hec] vrf [hec] prot [hec] cook [hec] [hec]",
+  31
+ ],
+ [
+  "Fast-hello PDU received from different domain. Peer_slot  [dec]Peer_port  [dec]",
+  648
+ ],
+ [
+  "PROBLEM - %lu - Insufficient storage to reassemble received BIND response [chars]",
+  8
+ ],
+ [
+  "Echo-request timed out. No response received. Mailbox offline.",
+  494
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  482
+ ],
+ [
+  "[chars]",
+  217
+ ],
+ [
+  "Invalid checkpoint message type  [dec]",
+  66
+ ],
+ [
+  "Internal Error in resource allocation",
+  27
+ ],
+ [
+  "GM received delete-msg from KS in group [chars]. TEKs lifetime  are reduced and re-registration will start before SA expiry",
+  114
+ ],
+ [
+  "Either address [hex] or size [dec] reserved for CLUE storage area is invalid",
+  199
+ ],
+ [
+  "Ingress Serdes Locking Error [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "Unit [dec] No CAM exists for this interface.",
+  554
+ ],
+ [
+  "[chars] server ceritifcate expired. Cannot enable [chars] server",
+  47
+ ],
+ [
+  "Ring [dec]  The device is now the [chars] redundant gateway",
+  285
+ ],
+ [
+  "Bad parameter for [chars] passed to tree library function.",
+  2
+ ],
+ [
+  "Encountered a NULL SSS Mgr context in [chars]",
+  93
+ ],
+ [
+  "Threshold exceeded for peer unreachable peer drops for peer [inet] [chars].",
+  209
+ ],
+ [
+  "LMP rcvd msg from unknown src ip 0x[inet] link %",
+  229
+ ],
+ [
+  "The policy-map [chars] is detached due to the event [chars].",
+  27
+ ],
+ [
+  "[chars]  SPACP opcode 0x%04x unknown.",
+  465
+ ],
+ [
+  "CLUE storage has not enough space to allocate record id [dec] and data size [dec]",
+  199
+ ],
+ [
+  "CRL fetch for trustpoint [chars] failed \\n Reason   [chars]",
+  47
+ ],
+ [
+  "Initialization of vdev [dec]/[dec]/[dec] failed",
+  307
+ ],
+ [
+  "[chars]",
+  413
+ ],
+ [
+  "EXCEPTION - %lu - UNBIND request received in response to a BIND request [chars]",
+  8
+ ],
+ [
+  "ILMI[chars]  Restarting ATM signalling and ILMI. Keepalive failure detected.",
+  203
+ ],
+ [
+  "[chars]",
+  365
+ ],
+ [
+  "Configuration was modified. Issue \\write memory\\ to save new IOS  PKI configuration",
+  47
+ ],
+ [
+  "[chars] SRR version missmatch detected.",
+  231
+ ],
+ [
+  "IP route counter negative - [chars] [inet] Attempt  [dec]",
+  175
+ ],
+ [
+  "Mismatch in backplane IDPROM [chars]  Active-side=[dec] Sby-side=[dec]",
+  170
+ ],
+ [
+  "Message dropped [chars]",
+  194
+ ],
+ [
+  "\\ Failed to sync re-assign tag [dec] for [dec] to standby CME\\n",
+  299
+ ],
+ [
+  "Egress Loss of Light Prealarm [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "invalid cursor index [dec] max [dec] service [chars] protocol [chars]",
+  49
+ ],
+ [
+  "Circuit [chars] changed state to closed rsn = [chars].",
+  209
+ ],
+ [
+  "Invalid blocking operation in interrupt context or   process blocking is disabled  [chars] [hec]",
+  99
+ ],
+ [
+  "Unauthorized proxy request - dropping packet",
+  407
+ ],
+ [
+  "multiple lisp router instances are configured on  startup Linux MSMR only supports single lisp router instance",
+  45
+ ],
+ [
+  "%%ERROR  Not able to process Signature in [chars].",
+  521
+ ],
+ [
+  "Priority [dec] is reaching critical limit.  Maximum interface power is used for this calculation.",
+  74
+ ],
+ [
+  "Can not allocate [chars] under client [chars][dec] and entity[dec]",
+  18
+ ],
+ [
+  "Packet server restart failed. Reason   [chars]",
+  271
+ ],
+ [
+  "PROBLEM - %lu - EXPD RU received while previous expedited data remains to be processed [chars]",
+  8
+ ],
+ [
+  "Error in [chars]   [chars]",
+  243
+ ],
+ [
+  "Bad first TLV [dec] in received packet on port [dec]/[dec]",
+  1
+ ],
+ [
+  "Unable to register [chars] submode translation callback mode = 0x%X",
+  175
+ ],
+ [
+  "Corrupt block at [hec] magic %08x",
+  2
+ ],
+ [
+  "Radio[dec]/0 Lost link. Check remote transmitter.",
+  171
+ ],
+ [
+  "Invalid negotiation status for [chars] client message",
+  22
+ ],
+ [
+  "Trustpool Download failed",
+  47
+ ],
+ [
+  "Script requires version [dec].[dec] image supports [dec].[dec]\\n",
+  294
+ ],
+ [
+  "[dec] [chars] packet[chars] [chars]   from [chars] [inet][chars] [dec] => [inet][chars] [dec] target class-[chars] [chars]\n                              [chars] [chars]",
+  220
+ ],
+ [
+  "Clock moving to NORMAL from HOLDOVER selected clock is on slot [dec] port [dec] line [dec]",
+  261
+ ],
+ [
+  "Service [chars][chars][chars] invalid access-list entry seq [dec] reason [chars]",
+  92
+ ],
+ [
+  "Exceeding the maximum qualified queue-limit commands per class",
+  27
+ ],
+ [
+  "Killing process [chars] pid [dec] again",
+  2
+ ],
+ [
+  "Unable to add route for [chars] to radix trie",
+  85
+ ],
+ [
+  "Instance id=[dec] [chars] bearer bearer_id=[dec] QCI=[dec] configuration in [chars] is",
+  35
+ ],
+ [
+  "CWS-IPC Open Reply failed request [chars]",
+  237
+ ],
+ [
+  "[chars]",
+  152
+ ],
+ [
+  "Message from tty[t-line]user id  [chars]  [chars]",
+  2
+ ],
+ [
+  "Sig 1101 Unknown IP Protocol - from [inet] to [inet]",
+  238
+ ],
+ [
+  "\\ GSN  [inet] TEID  [hec] APN  [chars] Reason  [dec] [chars]",
+  323
+ ],
+ [
+  "The SSP group could not be  created.",
+  342
+ ],
+ [
+  "Error queueing TDL message '[chars]' to send to the Shell Manager",
+  62
+ ],
+ [
+  "Allocation of [chars] memory failed for ERSPAN",
+  646
+ ],
+ [
+  "Cannot create [chars] process",
+  425
+ ],
+ [
+  "mLDP failed to start tracking a prefix in the unicast RIB",
+  78
+ ],
+ [
+  "Periodic Clock update with ROMMON failed because size left in  ROMMON %lu size needed %lu error code %ld",
+  2
+ ],
+ [
+  "Invalid eio slot instance.",
+  14
+ ],
+ [
+  "Message from tty[t-line]user id  [chars]  [chars]",
+  2
+ ],
+ [
+  "SMRP Debug  [chars]",
+  578
+ ],
+ [
+  "TTY[t-line]  Managed Timers [chars] still running",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - IPDLC failed to create a UDP stub [chars]",
+  8
+ ],
+ [
+  "Error encountered on release TLS signaling tunnels.",
+  387
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  37
+ ],
+ [
+  "Sig [dec] HTTP Peer-to-Peer detected - [chars] [chars] from [inet] [dec] to [inet] [dec]",
+  61
+ ],
+ [
+  "Register tunnel MDB client flag allocation failed.",
+  155
+ ],
+ [
+  "Error '[dec]' building TDL message '[chars]' to send to the Shell Manager",
+  112
+ ],
+ [
+  "Message from tty[t-line]user id  [chars]  [chars]",
+  2
+ ],
+ [
+  "[chars]",
+  522
+ ],
+ [
+  "Warning  Server [inet] [dec][dec] is not part  of server group [chars].",
+  64
+ ],
+ [
+  "-",
+  2
+ ],
+ [
+  "Memory allocation of [dec] bytes failed from [hex] alignment [dec] \\n  Pool  [chars] Free  [dec] Cause  [chars] \\nAlternate\n                              Pool  [chars] Free  [dec]   Cause  [chars] \\n",
+  2
+ ],
+ [
+  "Pak spent too much time in the IKE input queues",
+  44
+ ],
+ [
+  "Interface [chars] [chars] [chars] = [hex] [chars] = [hex]",
+  554
+ ],
+ [
+  "CLSI bad return code  [dec] header= [chars]",
+  8
+ ],
+ [
+  "[chars] IPv4 MTU [dec] is lesser than the minimum IP MTU [dec] fragmentation may occur",
+  195
+ ],
+ [
+  "Database memory leak detected in [chars] database [chars]/[chars]/[chars] size   %llu byte",
+  363
+ ],
+ [
+  "ACL information is not valid.",
+  33
+ ],
+ [
+  "Diagnostic trace record too large for configured buffer. Buffer ID [hec]",
+  8
+ ],
+ [
+  "Failed to register [chars] with Modem Service Manager",
+  160
+ ],
+ [
+  "Free Memory has dropped below low  watermark\\nPool  [chars] Free  %lu Threshold  %lu\\n",
+  2
+ ],
+ [
+  "Invalid EC mode PAgP not enabled",
+  15
+ ],
+ [
+  "multicast route-limit warning curr [dec] threshold [dec]",
+  163
+ ],
+ [
+  "RFS Client [dec] on session [dec] to seat [0x[hec]] failed receive",
+  39
+ ],
+ [
+  "Bad remote LU '[chars]' configured for server [chars]",
+  25
+ ],
+ [
+  "On Chassis [dec] priority [dec] reached critical limit.  Load shedding can lead to chassis reload.  Please avoid configuring\n                              any more ports at this priority level.  Maximum interface power is used for this calculation.",
+  74
+ ],
+ [
+  "Map request received for EID but map server does not  have reachablity to any RLOCs.",
+  19
+ ],
+ [
+  "EXCEPTION - %lu - Insufficient storage to create new buffer pool [chars]",
+  8
+ ],
+ [
+  "Attempt to shut down management process [dec] [chars].",
+  2
+ ],
+ [
+  "Inconsistent LISP routing locator configuration detected in the  local EID database",
+  19
+ ],
+ [
+  "Tried to append NULL string to buffer",
+  103
+ ],
+ [
+  "Empty capability group for [chars] ISSU client capability TLV setup.",
+  22
+ ],
+ [
+  "Attempt to learn a new MAC on [chars] caused configured bridge-domain   limit [dec] to be exceeded.",
+  508
+ ],
+ [
+  "PROBLEM - %lu - Resource registration failed because network node server detected a protocol error in the Register request\n                              [chars]",
+  8
+ ],
+ [
+  "Chassis Alarm Trap  tmpAlarm[chars] minorAlarm[chars] and/or majorAlarm[chars]",
+  58
+ ],
+ [
+  "ISIS[chars]  Interface [chars] cannot be encoded for nsf cisco",
+  67
+ ],
+ [
+  "Unexpected null pointer in [chars]",
+  444
+ ],
+ [
+  "EXCEPTION - %lu - LU type 012 or 3 session ended abnormally because of insufficient storage [chars]",
+  8
+ ],
+ [
+  "Crypto tunnel is [chars]. Peer [chars] [dec] [chars] [chars] [chars] [chars] [chars] [chars] [chars] [chars]",
+  44
+ ],
+ [
+  "System reloading unable to complete startup configuration update",
+  2
+ ],
+ [
+  "card_oir_loading called should never happen recovering.",
+  298
+ ],
+ [
+  "CPP[dec].[dec]  An access error has been reported. Error count [dec].",
+  176
+ ],
+ [
+  "NTI ISSU failed to get an platform transport nego message",
+  63
+ ],
+ [
+  "Interface [chars] Decompression size error",
+  313
+ ],
+ [
+  "mmap failed for size [dec] bytes Caller PC 0x[hec] errno [dec]",
+  2
+ ],
+ [
+  "Port ranger is already allocated to ACL on this interface.\\n  QoS policy configruation failed. Remove QoS command from interface[chars]",
+  27
+ ],
+ [
+  "[chars]  crashdump retrieval complete",
+  370
+ ],
+ [
+  "[chars]",
+  57
+ ],
+ [
+  "[chars]",
+  253
+ ],
+ [
+  "Threshold  [chars] CPU UtilizationTotal/Intr  [dec]%%/[dec]%%",
+  2
+ ],
+ [
+  "Key ID [dec] in key chain [chars] does not have a cryptographic algorithm",
+  67
+ ],
+ [
+  "internal inconsistency [dec] [hec]",
+  339
+ ],
+ [
+  "Filesystem changed. Hash  [chars]",
+  302
+ ],
+ [
+  "All WLM routes on server [chars] have become unavailable. Recovery is in progress.",
+  366
+ ],
+ [
+  "Initialized the geometry of nvram",
+  2
+ ],
+ [
+  "Number of PW's exceeded supported limit [dec]",
+  79
+ ],
+ [
+  "Global Memory has exceeded the  [chars] threshold configure by resource user [chars]\\n Pool  [chars] Used  %lu Threshold \n                              %lu\\n",
+  2
+ ],
+ [
+  "Failed to resolve HOSTNAME/IPADDRESS   [chars]",
+  47
+ ],
+ [
+  "CLSI unexpected DeactivateSapCnf header= [chars]",
+  30
+ ],
+ [
+  "[chars]",
+  26
+ ],
+ [
+  "[chars]",
+  2
+ ],
+ [
+  "-",
+  211
+ ],
+ [
+  "AppleTalk debug  [chars]",
+  346
+ ],
+ [
+  "[chars]",
+  241
+ ],
+ [
+  "Package '[chars]' failed to remove  [chars] [chars]",
+  112
+ ],
+ [
+  "random-detect command not supported in non-leaf classes",
+  27
+ ],
+ [
+  "Slot [dec] BRIC lost heartbeat for [dec] seconds",
+  372
+ ],
+ [
+  "Policy Installation retry install for int[chars] peer[chars] flag[hec]",
+  33
+ ],
+ [
+  "raw-socket tcp client [chars]/[dec] disconnected on tty [chars]",
+  577
+ ],
+ [
+  "method list '[chars]'",
+  49
+ ],
+ [
+  "Unit [dec] excessive modem control changes",
+  537
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  436
+ ],
+ [
+  "Clear extended [chars] counters on [chars] by [chars]",
+  334
+ ],
+ [
+  "Unit [dec] daughter [dec] not responding 0x%04x - disabled",
+  20
+ ],
+ [
+  "Interface [dec] Error %-04x idb %08x [dec] [chars] - cbus_init",
+  20
+ ],
+ [
+  "Failed to initialize  [chars]",
+  176
+ ],
+ [
+  "session = [dec]  ignored event  [dec]",
+  202
+ ],
+ [
+  "An attempt to retrieve the CRL from [chars] using LDAP has failed",
+  47
+ ],
+ [
+  "Sensor manger failed to allocate memory   [chars]",
+  216
+ ],
+ [
+  "Start PFS triggered re-registration to KS [chars] for group [chars] using  address [chars] fvrf [chars] ivrf [chars]",
+  114
+ ],
+ [
+  "High Availability Registration failed",
+  504
+ ],
+ [
+  "Neighbor [chars] reset [chars]",
+  85
+ ],
+ [
+  "Failed to log errors for package '[chars]'",
+  112
+ ],
+ [
+  "Setting tree to Invalid State @ - [dec]",
+  498
+ ],
+ [
+  "PNP Image install aborted due to Manual boot needs Auto boot",
+  60
+ ],
+ [
+  "OSPF-[dec] Area [chars]  Router [inet] originating invalid type [dec] LSA  ID [inet] Metric [dec] on Link ID [inet] Link\n                              Type [dec]",
+  66
+ ],
+ [
+  "[chars]",
+  407
+ ],
+ [
+  "[chars]",
+  161
+ ],
+ [
+  "[chars] image checksum mismatch.",
+  240
+ ],
+ [
+  "PROBLEM - %lu - Protocol error in received ISR BIND request [chars]",
+  8
+ ],
+ [
+  "IP counter block is full setting protocol [dec]",
+  119
+ ],
+ [
+  "Cannot write the TCAM",
+  701
+ ],
+ [
+  "Slot=[dec] Port=[dec]  Transceiver has been inserted",
+  253
+ ],
+ [
+  "Invalid communication port identifier [dec] specified for ISSU   port up/down handling",
+  22
+ ],
+ [
+  "Invalid memory action [chars] at interrupt level",
+  2
+ ],
+ [
+  "policy-map applied on [chars] is in error condition",
+  27
+ ],
+ [
+  "Can't open slave core socket for slot [dec]/[dec]",
+  162
+ ],
+ [
+  "Received invalid config pointer from application. Unable to process.",
+  287
+ ],
+ [
+  "SCVIF pair db allocation failed",
+  71
+ ],
+ [
+  "TCP session has flow-control state change",
+  165
+ ],
+ [
+  "Attempt to join [chars] to [chars] failed because client [chars] returned an error",
+  239
+ ],
+ [
+  "[chars].",
+  26
+ ],
+ [
+  "subslot= [dec] max subslot = [dec]",
+  106
+ ],
+ [
+  "Cannot create message buffer",
+  245
+ ],
+ [
+  "NULL",
+  159
+ ],
+ [
+  "Unsupported card type 0x[hec] in slot [dec]/[dec].",
+  298
+ ],
+ [
+  "Invalid input if_index 0x[hec] for HWIDB [chars]",
+  91
+ ],
+ [
+  "PROBLEM - %lu - Format error in received UNBIND request [chars]",
+  8
+ ],
+ [
+  "RIB Marked Delete Pending in wrong state  [hec] [dec]",
+  175
+ ],
+ [
+  "[chars]  sent [chars] to [[dec]][inet]",
+  177
+ ],
+ [
+  "Failed receiving [chars] \\ from slot [dec] rc = [dec]",
+  13
+ ],
+ [
+  "Removed non default configuration for interfaces in [chars]",
+  228
+ ],
+ [
+  "Policy Acquisition for peer[chars] sgt[chars] is waiting for the",
+  33
+ ],
+ [
+  "BM bit allocation limit exceeded",
+  2
+ ],
+ [
+  "PROBLEM - %lu - Incoming call rejected because port link-activation limits exceeded [chars]",
+  8
+ ],
+ [
+  "PVST+ peer detected on port [chars]",
+  132
+ ],
+ [
+  "SPE SM out of response buffers",
+  160
+ ],
+ [
+  "[chars]  Peruser Could not sort the [chars] attributes",
+  49
+ ],
+ [
+  "Unable to read ucode file [chars] from flash",
+  451
+ ],
+ [
+  "A test probe is already running.",
+  345
+ ],
+ [
+  "Illegal reference to non-existent slot [dec]\\n",
+  579
+ ],
+ [
+  "LMP [chars] msg id [dec] not 1+[dec]",
+  229
+ ],
+ [
+  "Cipher initialization failed",
+  103
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  37
+ ],
+ [
+  "Maximum penalty [dec] is more than allowed maximum [dec].",
+  85
+ ],
+ [
+  "Multiple Signals are sent to a process [dec]",
+  2
+ ],
+ [
+  "[chars] message from [inet] discarded  no security association for [inet] -  no RSVP security key configured or no memory\n                              left.",
+  393
+ ],
+ [
+  "[chars]  [inet] Nexthop  [inet] Retcode  [dec]  Reason  [chars]",
+  391
+ ],
+ [
+  "[chars] major [dec] minor [dec]",
+  162
+ ],
+ [
+  "Sig 2150 Fragmented ICMP Traffic - from [inet] to [inet]",
+  238
+ ],
+ [
+  "list [chars] [chars] [inet] %llu packet[chars] [chars]",
+  133
+ ],
+ [
+  "Bad [chars] magic number %04x.",
+  44
+ ],
+ [
+  "No PM subblock found for [chars]",
+  72
+ ],
+ [
+  "Manual enrollment for trustpoint [chars]",
+  47
+ ],
+ [
+  "[chars]",
+  497
+ ],
+ [
+  "MD5 protection is required for peer [chars] no password configured",
+  233
+ ],
+ [
+  "Request with global session id [dec] was dropped because",
+  202
+ ],
+ [
+  "Register to Generic Packet Replication failed for EPC",
+  381
+ ],
+ [
+  "Failed to [chars] snmp node [chars] snmp radix tree for multicast   group * [inet].",
+  163
+ ],
+ [
+  "[chars]",
+  161
+ ],
+ [
+  "[chars] called with request to suspend when it cannot suspend",
+  2
+ ],
+ [
+  "[chars]",
+  57
+ ],
+ [
+  "Invalid XDR Client  [chars]",
+  34
+ ],
+ [
+  "[[chars]]  SIM presence detection starts !!",
+  35
+ ],
+ [
+  "Peer image [chars] version [chars] on peer uid [dec] is incompatible",
+  18
+ ],
+ [
+  "IP [chars]| MAC [enet]| AuditSessionID [chars]| EVENT [chars]",
+  12
+ ],
+ [
+  "Keepalive timeout on [chars]",
+  17
+ ],
+ [
+  "Illegal state [dec]",
+  359
+ ],
+ [
+  "[chars] ACL merge error [dec] [chars] on [chars] label [dec]",
+  223
+ ],
+ [
+  "Low-memory debug exception limit=[dec] free=[dec]",
+  2
+ ],
+ [
+  "GR_INFRA failed to assign a valie client ID to IS-IS",
+  67
+ ],
+ [
+  "Configuration file [chars] is ignored  [chars]",
+  214
+ ],
+ [
+  "TTY[t-line]  Modem auto-configuration failed",
+  425
+ ],
+ [
+  "Cannot allocate local label",
+  148
+ ],
+ [
+  "Cleared duplicate IP address [chars] EVI [dec] [chars] [dec]",
+  275
+ ],
+ [
+  "Unknown VMR access group action 0x[hec]",
+  128
+ ],
+ [
+  "MQ message with [chars]",
+  17
+ ],
+ [
+  "COOP Ann msg seq check failed for group [chars] ann seq# [dec] sess seq# [dec]",
+  114
+ ],
+ [
+  "Cannot alloc [chars]",
+  148
+ ],
+ [
+  "EXCEPTION - %lu - Insufficient resources to unregister adjacent LEN [chars]",
+  8
+ ],
+ [
+  "[chars]",
+  83
+ ],
+ [
+  "Transparent Interface Creation Failed for slot [[dec]]",
+  164
+ ],
+ [
+  "Interface [chars]  shutting down [chars] pairset due to [chars] fault",
+  74
+ ],
+ [
+  "EXCEPTION - %lu - Unable to activate dynamic link station because port total link-activation limit reached [chars]",
+  8
+ ],
+ [
+  "[chars] [dec]  Neighbor [chars] [chars] is [chars]  [chars]",
+  4
+ ],
+ [
+  "EXCEPTION - %lu - Protocol error detected in PIU on intermediate session [chars]",
+  8
+ ],
+ [
+  "[chars]  [chars]  [chars]   zone_pair id  [dec] [chars] policy  [dec] [chars] class  [chars]",
+  151
+ ],
+ [
+  "Image version stamp missing",
+  298
+ ],
+ [
+  "Internal Error   [chars]",
+  263
+ ],
+ [
+  "PVST Simulation inconsistency cleared on port [chars].",
+  132
+ ],
+ [
+  "Invalid ref count [dec] in chunk [hex]",
+  237
+ ],
+ [
+  "Pktcbl failure op. [dec] type  [[dec]] gate id  [[dec]] sub_id  [[chars]]",
+  46
+ ],
+ [
+  "EMP_RELAY  Starting process for event monitoring",
+  291
+ ],
+ [
+  "Buffer in list ptr= [hec] caller= [hec]",
+  2
+ ],
+ [
+  "Block [hec] size [dec] on wrong free list [dec] [dec]",
+  2
+ ],
+ [
+  "fmt { \\ size_t len = strlen",
+  54
+ ],
+ [
+  "[[chars]]  SIM rejected by the network [chars]",
+  35
+ ],
+ [
+  "Checkpoint [chars] initialization failed in RF state [chars]",
+  53
+ ],
+ [
+  "[chars] [chars]",
+  144
+ ],
+ [
+  "Internal Error in resource allocation",
+  27
+ ],
+ [
+  "QoS CAC  failed to get the CAC packet info for interface [chars] srcIP=%Ci dstIP=%Ci srcPort=[dec] dstPort=[dec]  L3Prot=[dec]\n                              L4Prot=[dec]",
+  116
+ ],
+ [
+  "First drop error cause [dec] update stat cause [dec] trace  [hec] [hec]",
+  551
+ ],
+ [
+  "Device Classifier disabled. [chars] initialization failed",
+  26
+ ],
+ [
+  "Bad parameter [dec] when calling to the allocator utility",
+  2
+ ],
+ [
+  "Parser Error  [dec]",
+  117
+ ],
+ [
+  "Self test info  [chars]",
+  44
+ ],
+ [
+  "voice port [chars]  Ground Start trunking not supported",
+  280
+ ],
+ [
+  "Auditing disabled",
+  302
+ ],
+ [
+  "EXCEPTION - %lu - IPDLC failed to grow a link hash table [chars]",
+  8
+ ],
+ [
+  "License mismatch for feature [chars] [chars]  Active has [chars] and standby has [chars]",
+  161
+ ],
+ [
+  "Trunk Laser wavelength deviation  [chars]",
+  164
+ ],
+ [
+  "Radio[dec]/0 bad RF PIC version [dec] on ODU [dec]",
+  171
+ ],
+ [
+  "Not enough processor memory left over for DMA",
+  352
+ ],
+ [
+  "Reached maximum filter rules. Could not add new rule in filter [chars]",
+  33
+ ],
+ [
+  "Certificate reenrollment has failed after [dec] attempts",
+  47
+ ],
+ [
+  "Session Request Response Mismatch for transaction ID [dec]  session [chars][chars] CM [enet]",
+  46
+ ],
+ [
+  "EMP_RELAY  Stopping and killing the monitoring process  [chars]",
+  291
+ ],
+ [
+  "PROBLEM - %lu - Branch Network Node received BIND request with badly formed RSCV [chars]",
+  8
+ ],
+ [
+  "Packet send failed",
+  103
+ ],
+ [
+  "Tent List Overflow in [chars]",
+  269
+ ],
+ [
+  "Wrong plist_type expected [dec] for [dec]/[dec] update was [dec]",
+  34
+ ],
+ [
+  "Encountered a NULL context for the ID [dec]",
+  258
+ ],
+ [
+  "No message buffer specified for standby sync of database   type [dec] or unsupported address type.",
+  22
+ ],
+ [
+  "CTS SXP key-chain changed.",
+  33
+ ],
+ [
+  "Event Logger Capture Error [dec] [dec]",
+  475
+ ],
+ [
+  "Ring [dec]  The MRP ring is now in NORMAL state [chars] is Blocked",
+  500
+ ],
+ [
+  "GM received policy replace now rekey from KS in group [chars].",
+  114
+ ],
+ [
+  "Failed to open file \\[chars]\\ for writing software keystore. [chars]",
+  90
+ ],
+ [
+  "POLICY [chars]| EVENT [chars]",
+  12
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  430
+ ],
+ [
+  "Standby RP in slot [dec] is operational in [chars] mode\\n",
+  83
+ ],
+ [
+  "Autonomic disabled due to  User intervention on console. configure  'autonomic' to enable it.",
+  105
+ ],
+ [
+  "Message from tty[t-line]user id  [chars]  [chars]",
+  2
+ ],
+ [
+  "[chars]",
+  439
+ ],
+ [
+  "unexpected from [chars]",
+  99
+ ],
+ [
+  "[chars]",
+  64
+ ],
+ [
+  "elem[[dec]] event  [chars] [chars]  set  %llums unset  %llums hog check  [dec]  caller  %p app-info  [chars]",
+  115
+ ],
+ [
+  "On int [dec]/[dec] unexpected state [dec] event [dec]",
+  542
+ ],
+ [
+  "Controller [chars] [chars]",
+  107
+ ],
+ [
+  "IP=[chars]| MPPE_RECV_KEY_LENGTH=[dec]",
+  539
+ ],
+ [
+  "[serial number  [chars]] [vUDI  [chars]] [chars]",
+  415
+ ],
+ [
+  "PROBLEM - %lu - Detected consistency errors in received BIND request [chars]",
+  8
+ ],
+ [
+  "GM [chars] deleted from group [chars].",
+  114
+ ],
+ [
+  "Cannot allocation memory for [chars]\\n",
+  162
+ ],
+ [
+  "Logical level queuing resource exhausted [chars]",
+  27
+ ],
+ [
+  "[[chars]]  SIM presence detection has completed !!",
+  35
+ ],
+ [
+  "Crypto engine error  [chars] [dec]",
+  370
+ ],
+ [
+  "msgtxt_initfail",
+  337
+ ],
+ [
+  "Communication to active peer went down. Triggering switchover...",
+  1
+ ],
+ [
+  "[chars].",
+  39
+ ],
+ [
+  "Failed to detach [chars] [chars] service policy",
+  116
+ ],
+ [
+  "SIGBUS received for IM in slot  [dec]",
+  106
+ ],
+ [
+  "An entry is already present for the registering interface with ifIndex [dec]",
+  525
+ ],
+ [
+  "[chars]  Internal error.",
+  345
+ ],
+ [
+  "Bad process ID [dec] when [chars] process table",
+  2
+ ],
+ [
+  "Controller interface error [chars]  [chars]",
+  74
+ ],
+ [
+  "Interface [chars] Spid[dec] was rejected",
+  73
+ ],
+ [
+  "Traffic Class Controlled. Details  [chars]\\n",
+  152
+ ],
+ [
+  "[chars] security information in CASA packet.",
+  536
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  593
+ ],
+ [
+  "The Dynamic Command set has been loaded from the Shell Manager",
+  112
+ ],
+ [
+  "process not created",
+  148
+ ],
+ [
+  "Attempt to use [chars] buffer as [chars] ptr= [hec] pool= [hec]",
+  2
+ ],
+ [
+  "Illegal stack size [dec] specified for process [chars].",
+  187
+ ],
+ [
+  "Reserve memory is being created",
+  2
+ ],
+ [
+  "SNMP netConfigSet request. Loading configuration from [inet].",
+  2
+ ],
+ [
+  "\\ No memory for free event queue. Gatekeeper bringup failed.",
+  131
+ ],
+ [
+  "Unexpected Signature Key detected  freeing it",
+  114
+ ],
+ [
+  "[chars]",
+  64
+ ],
+ [
+  "DRIP conflict with CRF [dec].",
+  687
+ ],
+ [
+  "target class-[chars] [chars] [chars] count [dec]/[dec] current rate  [dec] [chars]",
+  220
+ ],
+ [
+  "Control Plane classification config error  TCAM device not specified  [chars] [chars] IPv6 src [ipv6_addr] dst [ipv6_addr]",
+  59
+ ],
+ [
+  "Error during close of the file [chars]. [chars]",
+  642
+ ],
+ [
+  "Layer 2 for Interface [chars] TEI [dec] changed to up",
+  73
+ ],
+ [
+  "Size should be > 0 but it is [dec].",
+  58
+ ],
+ [
+  "attempt to write [dec] bytes of path data for id [dec]",
+  496
+ ],
+ [
+  "Corrupt free block at [hec] magic %08x",
+  2
+ ],
+ [
+  "Switching to the external clock on DSC",
+  113
+ ],
+ [
+  "Error retrieving the authorization entry handle",
+  33
+ ],
+ [
+  "Lisp session state to peer changed.",
+  165
+ ],
+ [
+  "IID [dec] Map-server is converging unable to send negative   map-reply.",
+  130
+ ],
+ [
+  "MSG_TRACEBACK|MSG_PROCESS",
+  0
+ ],
+ [
+  "Buffer usage has gone above  buffer [chars] threshold configured by resource user[chars] [chars]\\n  configured [dec] Current\n                              usage  [dec]\\n",
+  2
+ ],
+ [
+  "NULL list registered for PIM sync helper functions.",
+  22
+ ],
+ [
+  "Slot [dec] WCS Controller Parity Error",
+  190
+ ],
+ [
+  "[chars]  [hec]",
+  475
+ ],
+ [
+  "No memory available for configuring ISRHOG",
+  735
+ ],
+ [
+  "Bad disposal code [hec] in [chars]",
+  2
+ ],
+ [
+  "Slot [dec] Internal Error due to VIP crash",
+  190
+ ],
+ [
+  "[chars]  %llums Traceback=[chars]",
+  115
+ ],
+ [
+  "Invalid Queue address for interface [chars] qaddr [hec]",
+  116
+ ],
+ [
+  "Get argument failed",
+  153
+ ],
+ [
+  "Could not create a process to receive keystore redundancy messages.",
+  90
+ ],
+ [
+  "nvgen_token called but csb->nvgen not set",
+  182
+ ],
+ [
+  "Invalid [chars] [dec]",
+  286
+ ],
+ [
+  "Cannot write to Audit file.",
+  302
+ ],
+ [
+  "ARP system internal error. Returns NULL arp entry on node %p\\n",
+  386
+ ],
+ [
+  "answer type [chars] host [chars] cli [inet] id# [dec] none",
+  279
+ ],
+ [
+  "[chars] ignoring received ICMP6 Type 2 Code 0  due to pmtud min-mtu setting",
+  195
+ ],
+ [
+  "Out of tcam resources to execute command",
+  27
+ ],
+ [
+  "Time taken to reboot after reload = %-4d seconds",
+  2
+ ],
+ [
+  "msgtxt_nomemory",
+  203
+ ],
+ [
+  "[dec]---[dec]",
+  466
+ ],
+ [
+  "total profiles [dec] exceeds the max supported [dec]",
+  26
+ ],
+ [
+  "Policy Installation in [chars] state for int[chars] peer[chars]",
+  33
+ ],
+ [
+  "Message read failed [chars]",
+  291
+ ],
+ [
+  "\\ Failed to malloc\\n",
+  299
+ ],
+ [
+  "QoS Feature in [chars] is now activated",
+  35
+ ],
+ [
+  "Invalid magic number%#10x",
+  191
+ ],
+ [
+  "Creation of hwidb subblock for [chars] i/f [chars] failed.",
+  108
+ ],
+ [
+  "[chars]  [chars]  [chars] op [hec] len [dec]",
+  283
+ ],
+ [
+  "Invalid request to allocate chunk of size [dec]",
+  325
+ ],
+ [
+  "Error deleting routing topology scope [dec] information from   routing database",
+  178
+ ],
+ [
+  "[serial number  [chars]] [vUDI  [chars]] [chars]",
+  415
+ ],
+ [
+  "PM ST failed to create [chars].",
+  160
+ ],
+ [
+  "Synchronization source [chars] is removed from [chars] selection process.",
+  159
+ ],
+ [
+  "DTI Error",
+  565
+ ],
+ [
+  "Not enough pci memory left over for DMA",
+  352
+ ],
+ [
+  "TTY [dec]  VS queued error",
+  289
+ ],
+ [
+  "[chars] pin removed\\n",
+  253
+ ],
+ [
+  "dataplane policer error for input interface [chars] [hec] [hec] [hec] [hec] [hec]",
+  116
+ ],
+ [
+  "DSP timeout on channel [chars] event 0x[hec]  DSP ID=0x[hec]  [chars] call mode=[dec]",
+  201
+ ],
+ [
+  "Warning  Server [inet] [dec][dec] is not part  of server group [chars].",
+  64
+ ],
+ [
+  "Internal consistency check  [chars]",
+  257
+ ],
+ [
+  "[chars] [chars].",
+  86
+ ],
+ [
+  "Radio[dec]/0 self-test successful",
+  171
+ ],
+ [
+  "Releasing feature object with reference count [dec]",
+  116
+ ],
+ [
+  "Warning  [chars] Temperature [dec]C Exceeds [dec]C.  Please resolve system heating to prevent system damage.",
+  200
+ ],
+ [
+  "Process has no associated tty in [chars].",
+  2
+ ],
+ [
+  "Cannot define duplicate route on the\\n\\ same group",
+  283
+ ],
+ [
+  "The list [dec] for [chars] is NULL. This should never be.",
+  64
+ ],
+ [
+  "Interface [chars]  invalid power police [dec] milliwatts current [dec] mA voltage [dec] mV",
+  74
+ ],
+ [
+  "Script [chars] started [dec]/[dec] via [chars] by [chars]",
+  60
+ ],
+ [
+  "Configured from [chars]",
+  2
+ ],
+ [
+  "Channel Bank [chars] state is [chars]",
+  523
+ ],
+ [
+  "Cannot read TCAM",
+  701
+ ],
+ [
+  "Invalid queue element - [chars]",
+  28
+ ],
+ [
+  "[[chars]]  SRC_IP [inet] SRC_PORT %lu DST_IP [inet] DST_PORT %lu [chars][chars] [chars] [chars]",
+  477
+ ],
+ [
+  "BGP Router timed out waiting on dependant events",
+  85
+ ],
+ [
+  "Nonvolatile storage configured from [chars] by [chars]",
+  2
+ ],
+ [
+  "Invalid field '[chars]' value '[chars]' in TDL message '[chars]' received  for Dynamic Commands",
+  112
+ ],
+ [
+  "interface_action  multiple ifs present when unit_only set",
+  182
+ ],
+ [
+  "No Backup Route memory available for [chars]",
+  175
+ ],
+ [
+  "EXCEPTION - %lu - LDLC link reported inoperative by underlying media [chars]",
+  8
+ ],
+ [
+  "QFP [dec] [chars] resource low - [dec] depleted",
+  431
+ ],
+ [
+  "[chars]  Host with Tunnel  [chars] NBMA  [chars] [chars] Tunnel  [chars] NBMA  [chars]",
+  181
+ ],
+ [
+  "Cannot destroy VSLP instance [dec]",
+  1
+ ],
+ [
+  "Threshold  [chars] CPU UtilizationTotal/Intr [dec]%%/[dec]%%.",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - SIGNAL RU received on full-duplex conversation [chars]",
+  8
+ ],
+ [
+  "Block [hec] on free list [dec] with refcount [dec]",
+  2
+ ],
+ [
+  "[chars]",
+  550
+ ],
+ [
+  "-",
+  31
+ ],
+ [
+  "Can't create lcon addr proc",
+  148
+ ],
+ [
+  "[chars] [chars]",
+  195
+ ],
+ [
+  "Empty link bundling function vectors",
+  7
+ ],
+ [
+  "Policy ref log max entries [dec] reached",
+  168
+ ],
+ [
+  "chunk mgr  [chars] 0x[hec]",
+  34
+ ],
+ [
+  "Server [chars] is not configured",
+  104
+ ],
+ [
+  "EXCEPTION - %lu - Memory shortage preventing data log [chars]",
+  8
+ ],
+ [
+  "[chars] detected error ptr [hec] size [dec].",
+  332
+ ],
+ [
+  "[chars]",
+  210
+ ],
+ [
+  "Detected a local pool and a DHCP pool with the same name  [chars]",
+  119
+ ],
+ [
+  "Unrecognized subcommand [dec] in [chars] command '[chars]'",
+  182
+ ],
+ [
+  "PnP Monitor event [chars] watch [chars] enabled [dec]/[dec] by [chars]",
+  60
+ ],
+ [
+  "Installed Policy-map has filters which are not supported.Detach re-configure and attach the policy",
+  27
+ ],
+ [
+  "PROBLEM - %lu - DLC failure during creation [chars]",
+  8
+ ],
+ [
+  "QFP [dec].[dec] QoS Queue limit [dec] exceeded at [dec].",
+  331
+ ],
+ [
+  "Unable to remove blocked dynamic peer [chars]",
+  85
+ ],
+ [
+  "No memory available for [chars]",
+  394
+ ],
+ [
+  "action object is not valid - [chars]",
+  23
+ ],
+ [
+  "Failed to [chars] list [chars]",
+  23
+ ],
+ [
+  "Failed to create [chars] process",
+  571
+ ],
+ [
+  "Crashinfo subsys initialization did not add registry \\n\\ crashinfo_get_default_file_name.\\n",
+  2
+ ],
+ [
+  "[chars]",
+  64
+ ],
+ [
+  "ARP packet with NULL if_Input",
+  386
+ ],
+ [
+  "Bandwidth command not acceptable at interface level",
+  27
+ ],
+ [
+  "Static Service  [chars]",
+  258
+ ],
+ [
+  "Attempt to set bad [chars] value [hec] on process [dec]",
+  187
+ ],
+ [
+  "[chars] UDI=[chars]",
+  161
+ ],
+ [
+  "Dataplane FHS miss action error for interface [chars]",
+  406
+ ],
+ [
+  "EXCEPTION - %lu - A Route Setup Reply has been received with the backout sense code HPR will not be used for this session\n                              [chars]",
+  8
+ ],
+ [
+  "Constellation BUS Stall cleared",
+  353
+ ],
+ [
+  "Failed to register with RF rc = [dec]",
+  666
+ ],
+ [
+  "IPSEC SETUP FAILED for local [chars] local_id [chars] remote [chars] remote_id [chars]  IKE profile [chars] fvrf [chars]\n                              fail_reason [chars] fail_class_cnt %ld",
+  44
+ ],
+ [
+  "\\t[inet]\\tState  [chars]\\tBid  %03d Retry  [dec]",
+  17
+ ],
+ [
+  "AAA ID [dec]",
+  49
+ ],
+ [
+  "Memory requested from Null Chunk",
+  2
+ ],
+ [
+  "Error queueing interface [chars] to CEF pending event list.",
+  11
+ ],
+ [
+  "Sig 1002 IP options-TimeStamp - from [inet] to [inet]",
+  238
+ ],
+ [
+  "\\ The connection to server [chars] appears to be hung  and will be closed.",
+  306
+ ],
+ [
+  "Recursive loop while getting the daughtercard info for PA type [dec]",
+  109
+ ],
+ [
+  "Process getting killed since queue is not created",
+  33
+ ],
+ [
+  "Nonvolatile storage configured from [chars] by [chars]",
+  2
+ ],
+ [
+  "Spurious memory access made at [chars] reading 0x[hec]",
+  333
+ ],
+ [
+  "Interface [chars] is now connected to [chars] [chars]",
+  73
+ ],
+ [
+  "New shape/speed value is less than the total bandwidth configured  in the interface",
+  27
+ ],
+ [
+  "Interface  [chars]",
+  222
+ ],
+ [
+  "Buffer usage has gone below  global buffer [chars] threshold\\nconfigured [dec] Current usage  [dec]\\n",
+  2
+ ],
+ [
+  "[chars] [chars]",
+  33
+ ],
+ [
+  "Unlock done on already unlocked element 0x[hec]",
+  99
+ ],
+ [
+  "[[chars]]  SRC_IP [inet] SRC_PORT %lu DST_IP [inet] DST_PORT %lu [chars][chars] [chars] [chars]",
+  477
+ ],
+ [
+  "Exception occurred  [chars]. Error retrieving image info from cisco.com.",
+  197
+ ],
+ [
+  "Accounting record dropped send to server failed  [chars]-[chars] [chars] [chars]",
+  64
+ ],
+ [
+  "Unable to create watched queue \\[chars]\\",
+  648
+ ],
+ [
+  "cfr [dec] cannot be enabled  because there already has been a non-DSG static join for  S [inet] or * [inet] in interface\n                              [chars]",
+  98
+ ],
+ [
+  "User [chars] has activated the show [chars] command.",
+  2
+ ],
+ [
+  "QFP EC Proxy [chars] SID Update Complete w/o Preceeding Lock",
+  380
+ ],
+ [
+  "Peer [chars] wrong state [dec] [dec]",
+  283
+ ],
+ [
+  "Bad magic number in chunk header   chunk [hec] data [hec] chunkmagic [hec] chunk_freemagic [hec]",
+  2
+ ],
+ [
+  "Configured limit [dec] is less than current EID prefix count",
+  130
+ ],
+ [
+  "\\ An error occurred trying to initialize the Gatekeeper Update Protocol  GUP.",
+  131
+ ],
+ [
+  "Failed to create Link Bundle Subinterface ClientQ",
+  7
+ ],
+ [
+  "Session for [chars] Refused status = [hec]",
+  21
+ ],
+ [
+  "Memory fragmentation check debug exception fragment size [dec]",
+  2
+ ],
+ [
+  "Free Memory has recovered above low  watermark\\nPool  [chars] Free  %lu Threshold  %lu\\n",
+  2
+ ],
+ [
+  "Deprecated PIM Hello Option TLV [dec] [chars] from [inet] [chars]",
+  155
+ ],
+ [
+  "[chars] [chars] credential lifetime has expired",
+  463
+ ],
+ [
+  "Registering of the interface with ifIndex [dec] to local data structure failed",
+  525
+ ],
+ [
+  "Bandwidth in one of the children class  is greater than input shape value",
+  27
+ ],
+ [
+  "[chars]",
+  42
+ ],
+ [
+  "Bad getbuffer bytes= [dec] for interface= [chars]",
+  2
+ ],
+ [
+  "Fail to start global listening socket after TCP process restart.",
+  33
+ ],
+ [
+  "Logging of buginf debugs was [chars]",
+  2
+ ],
+ [
+  "DHCP has detected a deadlock condition excessive read failures.",
+  169
+ ],
+ [
+  "%%WARNING  Digital signature is not found in file [chars]\\n",
+  326
+ ],
+ [
+  "NULL",
+  570
+ ],
+ [
+  "Starting VQP client",
+  615
+ ],
+ [
+  "[chars] temperature too low on sensor [dec] [dec]C.",
+  6
+ ],
+ [
+  "An invalid output vector detected on interface [chars]",
+  260
+ ],
+ [
+  "SSH RSA Key Size compliance violation detected. Kindly note that the  usage of keys smaller than [dec] bits will be deprecated\n                              in the upcoming  releases. Please revise your key configuration accordingly to avoid  service impact.",
+  103
+ ],
+ [
+  "Failed to open [chars] maximum open files [dec]",
+  602
+ ],
+ [
+  "Checkpointing message transmission failure [chars]",
+  53
+ ],
+ [
+  "Root chunk need to be specified for [hec]",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - Unable to route intra-node session data [chars]",
+  8
+ ],
+ [
+  "event type = [chars] client = [chars] reason = [chars]",
+  141
+ ],
+ [
+  "  [chars]",
+  200
+ ],
+ [
+  "[chars] [chars]  [chars]",
+  64
+ ],
+ [
+  "A New Autonomic Registrar has been configured in domain  [chars] and it has been assigned IP Addr [chars]",
+  105
+ ],
+ [
+  "\\ Received socket read event while read interest  is disabled callID[dec] fd[dec] - closing socket.",
+  306
+ ],
+ [
+  "Can't alloc work item for [chars]",
+  148
+ ],
+ [
+  "Binding [chars]<[chars] [chars]>-<[inet] [dec]> added to SXP database.",
+  33
+ ],
+ [
+  "Memory fragmentation check debug exception fragment size [dec]",
+  2
+ ],
+ [
+  "[chars]",
+  44
+ ],
+ [
+  "SAP Rekey Timer Expired for interface[chars] after [dec]",
+  33
+ ],
+ [
+  "NTI ISSU failed to transform received message from 0x[hec]",
+  63
+ ],
+ [
+  "Firmware for VPA in bay [dec] crashed with exception [hex]\\n",
+  282
+ ],
+ [
+  "[chars] message from [inet] discarded - authentication seq #%llu is a duplicate",
+  393
+ ],
+ [
+  "Can't create RAC work queue",
+  442
+ ],
+ [
+  "Failed to set WCCP platform parameter [dec] to [dec] [chars]",
+  92
+ ],
+ [
+  "Attempt to return buffer with sharecount [dec] ptr= [hec] caller= [hec]",
+  2
+ ],
+ [
+  "PnP HTTP timed out [dec]/[dec] on connection to PnP server [chars]",
+  60
+ ],
+ [
+  "[chars] failed to get SR attributes from SR_APP with error [dec]",
+  66
+ ],
+ [
+  "Attempt to delete sync request for invalid sync type [dec]",
+  22
+ ],
+ [
+  "Central policy setting failed  [chars]",
+  77
+ ],
+ [
+  "An initialization failed rc[chars]",
+  191
+ ],
+ [
+  "accounting for null user",
+  64
+ ],
+ [
+  "[chars]blk [hec] words [dec] alloc [hec] [chars] dealloc [hec] rfcnt [hec]",
+  2
+ ],
+ [
+  "[chars] [dec]  [chars] prefix limit reached[dec].",
+  4
+ ],
+ [
+  "[chars]  Monitoring interval is 0. Cannot enable monitoring for Test #[dec]",
+  153
+ ],
+ [
+  "[dec]",
+  419
+ ],
+ [
+  "Value not specified for vidb forcible free time by platform.",
+  548
+ ],
+ [
+  "[chars]Blocking new TCP connections to host [inet] for [dec] minute[chars] half-open count [dec] exceeded.",
+  220
+ ],
+ [
+  "[chars].",
+  26
+ ],
+ [
+  "[chars]  bad len or unknown op op [dec] len [dec]",
+  177
+ ],
+ [
+  "[chars]",
+  222
+ ],
+ [
+  "Privilege level set to [dec] by[chars][chars]",
+  2
+ ],
+ [
+  "[chars]  [inet] downstream  [inet] upstream  [inet]",
+  391
+ ],
+ [
+  "[chars]Sendmail Decode Alias - from [inet] to [inet]",
+  220
+ ],
+ [
+  "Memory fragmentation check debug exception fragment size [dec]",
+  2
+ ],
+ [
+  "Sig [dec] Content type  [chars] does not match the Accept-Type from  [inet] [dec] to [inet] [dec]",
+  61
+ ],
+ [
+  "[chars] [[dec]] [[dec]]",
+  301
+ ],
+ [
+  "Error while parsing authentication token  from MASA server for device udi-[chars]",
+  105
+ ],
+ [
+  "IPSLAs EventPublisher  Unknown reaction filter type for client [chars]",
+  141
+ ],
+ [
+  "Port Not Found. [hec] --> [hec] Index [hec] Seq  [dec] flags  [hec] size  [dec]",
+  99
+ ],
+ [
+  "Allocation of [chars] memory failed for LI",
+  3
+ ],
+ [
+  "Failed to allocate memory for the DSC clocks",
+  261
+ ],
+ [
+  "Non-zero outcount but no transmit  particle on tty [chars]",
+  278
+ ],
+ [
+  "Unable to preanalyze driver plugin in slot [dec]/[dec].",
+  298
+ ],
+ [
+  "Attempt to [chars] snmpidb with if_index of 0",
+  2
+ ],
+ [
+  "TCP AO Key expired for connection from [chars][dec] to [chars][dec] tableid - [dec]",
+  165
+ ],
+ [
+  "Couldn't destroy resource group [hec]\\nCause  [chars]",
+  2
+ ],
+ [
+  "PROBLEM - %lu - Link to host not configured correctly host is not a DSPU [chars]",
+  8
+ ],
+ [
+  "Attempted to destroy a sibling chunk [hec] [chars].",
+  2
+ ],
+ [
+  "Couldn't delete process process pid [dec] from resource group\\n \\nCause  [chars]",
+  2
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  472
+ ],
+ [
+  "PoE Power Supply [chars]  [chars]",
+  74
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  766
+ ],
+ [
+  "Voice PA is not supported in this platform.",
+  282
+ ],
+ [
+  "Rx'd VLAN [dec] opcode 0x[hec] from the NMP which is not configured.",
+  520
+ ],
+ [
+  "Configured from [chars] by [chars]",
+  2
+ ],
+ [
+  "Processing [chars] of [chars]",
+  58
+ ],
+ [
+  "Circuit [chars] changed state to open.",
+  209
+ ],
+ [
+  "Another parity error0x[hec] found in bolck0x[hec]. Not scrubed",
+  467
+ ],
+ [
+  "Controller [chars] changed state to [chars]",
+  107
+ ],
+ [
+  "Blocking [chars] port [chars]  Inconsitent [chars] PVST BPDU received on VLAN [dec]  claiming root [dec] [enet]",
+  132
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  37
+ ],
+ [
+  "Cryptographic Token [chars] ADMIN Login FAILED",
+  44
+ ],
+ [
+  "Invalid FSM Input on channel [chars]  state=[chars] event=[dec]",
+  248
+ ],
+ [
+  "Accounting record dropped due to a full aaa accounting  queue  [chars]-[chars] [chars] [chars]",
+  64
+ ],
+ [
+  "*  Could not allocate chunks for [chars]. No memory",
+  2
+ ],
+ [
+  "fmt \\extern const struct message_ msg_ ## fac ## _ ## name",
+  54
+ ],
+ [
+  "Fatal error calling crashdump error  [dec] [chars]",
+  351
+ ],
+ [
+  "[chars]",
+  161
+ ],
+ [
+  "No memory available for [chars]",
+  416
+ ],
+ [
+  "[chars] if_name [chars] local_label  %lu",
+  391
+ ],
+ [
+  "Invalid Q count value",
+  91
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  37
+ ],
+ [
+  "[chars] failed to open cache file[chars] for write",
+  33
+ ],
+ [
+  "Updated [chars] MID table size to [dec]",
+  21
+ ],
+ [
+  "PROBLEM - %lu - XID protocol error during non-activation exchange [chars]",
+  8
+ ],
+ [
+  "Peer [inet] HDR no vrp",
+  469
+ ],
+ [
+  "IPC test  [chars]",
+  99
+ ],
+ [
+  "System call for command [dec] slot[dec]/[dec]   [chars] Cause  [chars]",
+  36
+ ],
+ [
+  "OCSP fetch failed. \\n Reason   [chars]",
+  47
+ ],
+ [
+  "PROBLEM - %lu - Adjacent node sent a TG number that was already in use by another LS [chars]",
+  8
+ ],
+ [
+  "DSPU could not free buffer - buffer corrupted",
+  30
+ ],
+ [
+  "Couldn't load [chars]...\\n",
+  298
+ ],
+ [
+  "DBLIB connection from [chars] to [chars] dropped",
+  516
+ ],
+ [
+  "Redundant Line Card [chars] idx=[dec] state progression failure. Line",
+  108
+ ],
+ [
+  "Invalid Host access entry type [dec] is received",
+  72
+ ],
+ [
+  "QoS CAC  failed to retreive the CAC flow object for interface [chars] srcIP=%Ci dstIP=%Ci srcPort=[dec] dstPort=[dec]  L3Prot=[dec]\n                              L4Prot=[dec]",
+  116
+ ],
+ [
+  "Filename for coredump file is too long for slot [dec]/[dec]",
+  162
+ ],
+ [
+  "[chars]",
+  365
+ ],
+ [
+  "Error encountered while trying to bring the SIP component into service",
+  286
+ ],
+ [
+  "Interface [chars]  spare pair detect timeout",
+  74
+ ],
+ [
+  "Cannot find hwidb for interface[dec]/[dec]",
+  388
+ ],
+ [
+  "fmt \\static message_stats_ptr fac ## _ ## name ## _stat_redir_ptr __crb_sysrgn",
+  54
+ ],
+ [
+  "Removed OSPFv3 routing  globally pid [dec]",
+  105
+ ],
+ [
+  "Configuration generated from file [chars] was applied and saved to NVRAM.  See [chars] for more details.",
+  214
+ ],
+ [
+  "SNASW failed to process DLC message header= [chars]",
+  8
+ ],
+ [
+  "Attempted to free unassigned memory at %lx alloc %lx dealloc %lx",
+  2
+ ],
+ [
+  "An invalid permissions value [chars] was found in a udev file",
+  351
+ ],
+ [
+  "Authentication to Privilage level [dec]  failed by[chars][chars]",
+  2
+ ],
+ [
+  "[dec] DF unreachables rate-limited within [dec] milliseconds on [chars].  [dec] DF log messages suppressed since last log\n                              message displayed on [chars]",
+  119
+ ],
+ [
+  "[chars] ACL merge error [dec] [chars] on [chars] label [dec]",
+  128
+ ],
+ [
+  "Multiple entry for packet [hec]",
+  165
+ ],
+ [
+  "Device UDI [chars] signature verification of Autonomic registrar",
+  105
+ ],
+ [
+  "[chars]",
+  119
+ ],
+ [
+  "[chars] Power-On-System-Test failure in Trial No.[dec]\\n",
+  137
+ ],
+ [
+  "[chars] packet [hec] has a zero reference count freeing pid = [hec] \\n\\ freeing pc = [hec] [chars].",
+  2
+ ],
+ [
+  "[chars]",
+  287
+ ],
+ [
+  "Alignment correction made at 0x[hec] [chars]ing 0x[hec]",
+  333
+ ],
+ [
+  "[chars]",
+  94
+ ],
+ [
+  "CPP[dec]  0x[hec] Platform failure accessing [chars]",
+  176
+ ],
+ [
+  "Not able to open [chars]",
+  26
+ ],
+ [
+  "POSLC lcpos_link_report process  Could not get argument",
+  300
+ ],
+ [
+  "Failed to create periodic accounting timer for user [chars]. This user may  not generate periodic accounting records.",
+  64
+ ],
+ [
+  "[chars]",
+  80
+ ],
+ [
+  "Topology ID 0x[hec] is invalid can't get the base topology ID.",
+  119
+ ],
+ [
+  "DSP to IOS Nack message with severity [chars] [chars] [chars]",
+  10
+ ],
+ [
+  "EXCEPTION - %lu - Insufficient storage to report RTM status to application [chars]",
+  8
+ ],
+ [
+  "CPP [dec] CDM not running.",
+  186
+ ],
+ [
+  "SNMP system message request [dec] denied because of pending job",
+  2
+ ],
+ [
+  "This message is a warning that the eid-prefix [chars] being used by  default-etr is imported into LISP by another configuration.",
+  130
+ ],
+ [
+  "GM is connecting to next key server from the list",
+  44
+ ],
+ [
+  "BFD-SYSLOG  BFD session [chars] is going Down Reason  [chars]",
+  321
+ ],
+ [
+  "DOT1X reported peer NO RESPONSE message on int[chars]",
+  33
+ ],
+ [
+  "[chars] [hec]",
+  134
+ ],
+ [
+  "SXP default source IP is changed [inet] --> [inet].",
+  33
+ ],
+ [
+  "CWS-IPC [chars] [chars] send failed [dec]",
+  237
+ ],
+ [
+  "[chars] encountered invalid [chars]",
+  33
+ ],
+ [
+  "Mismatch is seen between Inserted card type0x%X [dec] and",
+  108
+ ],
+ [
+  "event_block failure",
+  271
+ ],
+ [
+  "IOMD IPC error  [chars] Slot [dec] Subslot [dec]",
+  106
+ ],
+ [
+  "Failed to allocate MAC address for interface [chars]",
+  253
+ ],
+ [
+  "Interface [chars] joined port-channel [chars]",
+  15
+ ],
+ [
+  "Attempted to destroy chunk with siblings   chunk [hec].",
+  2
+ ],
+ [
+  "System reloading unable to complete startup configuration update",
+  2
+ ],
+ [
+  "UDI of this instance changed from OLD  [chars] [chars] to New  [chars] [chars]",
+  161
+ ],
+ [
+  "IF manager attempted to use interface [dec] outside vector range.",
+  82
+ ],
+ [
+  "Can not allocate [chars] for msg session[dec] registration under",
+  18
+ ],
+ [
+  "bind to exmem failed to complete",
+  186
+ ],
+ [
+  "Buffer in list ptr= [hec]",
+  2
+ ],
+ [
+  "cannot open file for reading '[chars]'",
+  2
+ ],
+ [
+  "ESM shutdown",
+  2
+ ],
+ [
+  "Failed to select a BCE response 0x%04x - cbus_bce_update_ifa",
+  20
+ ],
+ [
+  "[chars] Failed to send [chars] sync msg[chars] to Standby",
+  33
+ ],
+ [
+  "Warning VCMS connection attempt from client with minor version  [dec] but expected [dec]",
+  118
+ ],
+ [
+  "[chars]  wrong magic mine [hec] theirs [hec] [dec]",
+  283
+ ],
+ [
+  "-",
+  561
+ ],
+ [
+  "The EM failed to allocate memory resources for the specified\\nEM \\function [chars].",
+  206
+ ],
+ [
+  "Interface [chars] traffic will not comply with ACLs in [chars] directions",
+  694
+ ],
+ [
+  "Retrieving IP-Pools via user [chars]",
+  84
+ ],
+ [
+  "Unknown event [dec] for slot [dec]",
+  450
+ ],
+ [
+  "EXCEPTION - %lu - Unable to route inter-node session data [chars]",
+  8
+ ],
+ [
+  "One or more invalid arguments have been passed to the function [chars]",
+  290
+ ],
+ [
+  "EXCEPTION - %lu - HPR Route Setup RU received with format errors [chars]",
+  8
+ ],
+ [
+  "Reconciliation [chars] for slot [dec] finished ",
+  46
+ ],
+ [
+  "Cannot process [chars] method [chars]",
+  49
+ ],
+ [
+  "EXCEPTION - %lu - PORT_BANDWIDTH_UPDATE status = QUIESCING received [chars]",
+  8
+ ],
+ [
+  "INFO - %lu - Adjacent CP contacted [chars]",
+  8
+ ],
+ [
+  "Unable to create IPC port on [chars]",
+  53
+ ],
+ [
+  "Unexpected end of file while reading software keystore \\[chars]\\.",
+  90
+ ],
+ [
+  "Too many trunk DFC cards do not power up invalid card in slot [dec]\\n",
+  147
+ ],
+ [
+  "aaa attribute list CLI is not valid when configuring in sub-mode.",
+  64
+ ],
+ [
+  "Unknown message received from peer on the standby for client [dec].",
+  53
+ ],
+ [
+  "Invalid map [dec] for address [enet]",
+  124
+ ],
+ [
+  "Could not return memory Neutrino via munmap at %lx size [dec] errno [dec]",
+  2
+ ],
+ [
+  "Standby link-state database validation failed expected/found  count  [dec]/[dec] chksum  0x%llx/0x%llx",
+  66
+ ],
+ [
+  "child dataplane classification error for output interface [chars]",
+  116
+ ],
+ [
+  "[chars]",
+  473
+ ],
+ [
+  "Free Memory has recovered above low  watermark\\nPool  [chars] Free  %lu Threshold  %lu\\n",
+  2
+ ],
+ [
+  "Failed to read backup nvram - [chars].",
+  253
+ ],
+ [
+  "PnP profile [chars] created [dec]/[dec] by [chars]",
+  60
+ ],
+ [
+  "subSlot [dec] spatype 0x[hec]. Device error  [chars]",
+  172
+ ],
+ [
+  "Mode change successful device will reload now",
+  60
+ ],
+ [
+  "No handler to [chars] external memory.",
+  2
+ ],
+ [
+  "Critical Warning  More than two fans are running at low RPM.  Rotation speed is now high for all other fans.  [chars] hard\n                              disk drive may become unusable  if continuously operated at this temperature.  Please replace fan tray to prevent system from\n                              overheating.",
+  200
+ ],
+ [
+  "Bad [chars] [hec] count [dec]",
+  2
+ ],
+ [
+  "Port [chars] instance [dec] moving from [chars] to [chars]",
+  132
+ ],
+ [
+  "Bandwidth in one of the children class  is greater than input bandwidth",
+  27
+ ],
+ [
+  "PnP Backoff termination requested [dec]/[dec] by [chars]",
+  60
+ ],
+ [
+  "Sig 2006 ICMP Parameter Problem on Datagram - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Insufficient memory for slot  [dec] in shelf  [dec]",
+  438
+ ],
+ [
+  "CICS server [chars] is now available.",
+  25
+ ],
+ [
+  "Crashinfo subsys initialization did not add registry \\n\\ crashinfo_get_default_file_name.\\n",
+  2
+ ],
+ [
+  "Invalid event_id 0x%X",
+  174
+ ],
+ [
+  "Cannot create memory block for VLAN [dec]",
+  128
+ ],
+ [
+  "Task hung with blocking disabled value = 0x[hec].",
+  2
+ ],
+ [
+  "[chars] [chars][chars] disconnected [chars] [chars] [chars][chars][chars]",
+  21
+ ],
+ [
+  "[chars]",
+  403
+ ],
+ [
+  "[chars]",
+  570
+ ],
+ [
+  "[chars]\\n",
+  294
+ ],
+ [
+  "[[chars]]  SRC_IP [inet] SRC_PORT %lu DST_IP [inet] DST_PORT %lu [chars][chars] [chars] [chars]",
+  477
+ ],
+ [
+  "Failed to allocate an adjacency interest list subblock",
+  69
+ ],
+ [
+  "Internal LISP error",
+  19
+ ],
+ [
+  "Slot [dec] error loading WCS status 0x[hec] cmd/data 0x[hec] pos [dec]",
+  190
+ ],
+ [
+  "Reconfirming VMPS responses",
+  615
+ ],
+ [
+  "fmt",
+  54
+ ],
+ [
+  "Dereferencing NULL pointer [chars]",
+  260
+ ],
+ [
+  "UEA OCE backwalk aborted - too many dependents",
+  734
+ ],
+ [
+  "[chars] 0x[hec] 0x[hec]",
+  407
+ ],
+ [
+  "[chars] voltage outside of operating range. Nominal [dec]mV value[dec]mV.",
+  6
+ ],
+ [
+  "NULL client context for ISSU capability TLV processing.",
+  22
+ ],
+ [
+  "Bad [chars] method-list name \\[chars]\\ this is only a warning",
+  64
+ ],
+ [
+  "Hardware Calendar RTC Error.",
+  675
+ ],
+ [
+  "This port has exceeded the port-stuck/\\n  conn-empty limit of [dec] as configured by the epc\\n  portstuck-reload-count command.\n                              This port will remain\\n  in init state until a OIR or user initiated download\\n  is done.\\n",
+  222
+ ],
+ [
+  "GTP PDP activation/update failed GSN  [inet] TID  [hec][hec] Reason  [chars]",
+  492
+ ],
+ [
+  "Trying to set unknown special character [dec] to [dec]",
+  2
+ ],
+ [
+  "License [chars] IPC port [chars] failed  [chars]",
+  161
+ ],
+ [
+  "PQUICC[dec]/[dec] Unexpected HDX state [dec] event [dec]",
+  247
+ ],
+ [
+  "Failed to select a BCE response 0x%04x - cbus_bce_permissions_update",
+  20
+ ],
+ [
+  "Command [chars]",
+  182
+ ],
+ [
+  "Tunnel WCCP Groups  [chars]  [chars]",
+  195
+ ],
+ [
+  "Failed to remove sync request type [dec] from pending ACK queue",
+  22
+ ],
+ [
+  "Crash record [dec]=[chars] truncated expected=[dec]actual=[dec]",
+  484
+ ],
+ [
+  "GDOI group [chars] policy has changed.  Use 'crypto gdoi ks rekey' to send a rekey  or the changes will be send in the next\n                              scheduled rekey",
+  114
+ ],
+ [
+  "RPC malloc failed",
+  249
+ ],
+ [
+  "INFO - %lu - An LU-SSCP session has been deactivated for LU type 012 or 3 [chars]",
+  8
+ ],
+ [
+  "Invalid request to allocate chunk of size [dec]",
+  637
+ ],
+ [
+  "Internal error  undefined next state [dec]  previous state = [chars]",
+  44
+ ],
+ [
+  "DRQ stalled. Dumping DRQ.",
+  352
+ ],
+ [
+  "[chars] [chars] [chars]",
+  86
+ ],
+ [
+  "No memory available for [chars] [dec]",
+  2
+ ],
+ [
+  "Traffic Class Learned. Details  [chars]\\n",
+  152
+ ],
+ [
+  "Duplicate free of server group 0x[hec]",
+  64
+ ],
+ [
+  "SSE memory failure address [hex]\\n   expected [hex] got [hex]",
+  394
+ ],
+ [
+  "Invalid IPC request [dec] received from [hec]",
+  242
+ ],
+ [
+  "Update received on a linecard for a deleted tunnel[chars] -",
+  11
+ ],
+ [
+  "Controller port error Interface [chars]  [chars]",
+  74
+ ],
+ [
+  "MSG_TRACEBACK | MSG_PROCESS",
+  308
+ ],
+ [
+  "Access to [chars] failed",
+  126
+ ],
+ [
+  "Attempted to free memory at [hec] not part of buffer pool",
+  2
+ ],
+ [
+  "ISIS  [chars] in [hex] lsp_next [hex] lsp_prev [hex] index [dec] ver [dec]   [chars] [hex]",
+  67
+ ],
+ [
+  "\\ No memory for IPC message control block. Gatekeeper bringup failed.",
+  131
+ ],
+ [
+  "No protocol descriptor block for MVPN protocol type [dec]",
+  243
+ ],
+ [
+  "interface [chars]   Not enough bandwidth to configure service-policy\\n",
+  116
+ ],
+ [
+  "\\n[chars]  failed rc=[chars]",
+  203
+ ],
+ [
+  "Failed to request license feature [chars] units [dec] rc [dec] [chars]",
+  396
+ ],
+ [
+  "Exhausted free mail elements for modem_num [dec]. Current use  [dec]",
+  0
+ ],
+ [
+  "Sum of bandwidths is greater than parent class's shapePIR",
+  27
+ ],
+ [
+  "Error finding capture point.",
+  420
+ ],
+ [
+  "Received TED reply that did not correspond to a TED probe",
+  44
+ ],
+ [
+  "Group [chars]  Mode Mismatch - [chars]",
+  343
+ ],
+ [
+  "[chars]  [hec] [hec] [dec] [dec] [dec] [dec] [hec]",
+  43
+ ],
+ [
+  "[chars]",
+  2
+ ],
+ [
+  "Sig 2003 ICMP Redirect - from [inet] to [inet]",
+  238
+ ],
+ [
+  "CAC is already functioning and a configuration modification  will restart CAC invalidating current status  for all flows.",
+  626
+ ],
+ [
+  "Radius ipv4 send failed due to FIB error. Error code  [dec].",
+  84
+ ],
+ [
+  "IPC test  [chars]",
+  99
+ ],
+ [
+  "[chars][dec] Interrupt   [chars]",
+  176
+ ],
+ [
+  "Bad ifcom message type=[dec]",
+  571
+ ],
+ [
+  "Attribute with unknown format [dec]",
+  49
+ ],
+ [
+  "[chars]",
+  36
+ ],
+ [
+  "Linecard already connected to fwd agent",
+  118
+ ],
+ [
+  "CCA Detected Logic Error code = [dec]",
+  2
+ ],
+ [
+  "Timer callback ran long PC = [hec].",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - Unable to activate IPDLC link [chars]",
+  8
+ ],
+ [
+  "IP [chars]| MAC [enet]| AuditSessionID [chars]| EVENT [chars]",
+  12
+ ],
+ [
+  "Key revocation not allowed while running warm upgraded software\\n",
+  326
+ ],
+ [
+  "[chars]",
+  64
+ ],
+ [
+  "Problem adding LIIN interface to vrf table",
+  379
+ ],
+ [
+  "an invalid vlan id [dec] was detected",
+  72
+ ],
+ [
+  "In function [chars] the requested memory space collides with the memory space of other windows",
+  290
+ ],
+ [
+  "License Slave device registration failed   [chars]",
+  161
+ ],
+ [
+  "Modem[dec]/[dec] Unexpected Event  [chars] in [chars]",
+  0
+ ],
+ [
+  "[chars] [dec]  Neighbor [chars] [chars] is [chars]  [chars]",
+  4
+ ],
+ [
+  "Can't create any more subinterfaces",
+  182
+ ],
+ [
+  "Error reading temperature sensor [dec]",
+  126
+ ],
+ [
+  "Neighbor address type not specified as ADDR_IP[dec] [dec]",
+  28
+ ],
+ [
+  "Scheduler test [hex] for [chars] just executed",
+  2
+ ],
+ [
+  "[chars]  SVB logging will be stopped in [dec] minutes autostop trigger event [chars] set",
+  35
+ ],
+ [
+  "[chars] rc [dec] event [chars]",
+  83
+ ],
+ [
+  "Send message to peer for [chars] failed. Reason  [chars]",
+  99
+ ],
+ [
+  "PROBLEM - %lu - Network search not started because it would exceed the maximum number of concurrent locates supported by\n                              this node [chars]",
+  8
+ ],
+ [
+  "Variable [chars] not set properly in the routine [chars].",
+  2
+ ],
+ [
+  "A critical error [chars]occurred during initialization",
+  195
+ ],
+ [
+  "DNS lookup failed - [chars]",
+  242
+ ],
+ [
+  "NULL",
+  6
+ ],
+ [
+  "IGMP packet without input interface received from [inet] for [inet]",
+  398
+ ],
+ [
+  "Collector [chars] already exists\\n",
+  52
+ ],
+ [
+  "[chars]",
+  23
+ ],
+ [
+  "Function [chars]  value [hex] passed in parameter [chars]",
+  2
+ ],
+ [
+  "Low-memory debug exception limit=[dec] free=[dec]",
+  2
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  700
+ ],
+ [
+  "Dropped SDLC packet from SDLC hold queue",
+  304
+ ],
+ [
+  "NBAR resources exhausted",
+  42
+ ],
+ [
+  "Warning   read accees failed at [chars] still continuing \\n",
+  333
+ ],
+ [
+  "Nexthop [inet] may not be reachable from neigbor [chars] - not /32 mask",
+  85
+ ],
+ [
+  "[chars] ustatus  [chars] %04x %04x %04x %04x %04x",
+  20
+ ],
+ [
+  "[chars] is [chars] ucode not [chars] microcode/hardware mismatch",
+  451
+ ],
+ [
+  "SA 0x[hec]0x[hec]",
+  211
+ ],
+ [
+  "EXCEPTION - %lu - Received a Locate reply with an invalid RSCV [chars]",
+  8
+ ],
+ [
+  "Scheduled reload cancelled at [chars]",
+  2
+ ],
+ [
+  "Request [dec] initial config download from main CPU.",
+  383
+ ],
+ [
+  "ISSU client [chars] [dec] entity [dec] failed ISSU registration  [chars]",
+  239
+ ],
+ [
+  "TDL set value failed [chars]",
+  291
+ ],
+ [
+  "Port ranger is already allocated to ACL on this interface.\\n  QoS policy configruation failed. Remove QoS command from interface[chars]",
+  27
+ ],
+ [
+  "Malformed packet  [chars]",
+  296
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  594
+ ],
+ [
+  "[chars] software signed using special key version [chars]\\n",
+  326
+ ],
+ [
+  "classifier <[chars]> is put into conflict state because of errors",
+  98
+ ],
+ [
+  "CCO server [chars] resolved to ip [chars] by [chars]",
+  60
+ ],
+ [
+  "Registration  BadNo hash in message sent by the KS [inet]",
+  114
+ ],
+ [
+  "\\ GW/PROXY may not be registered. Add cost failed.",
+  131
+ ],
+ [
+  "Progression completion notification to chassis management failed [chars]",
+  253
+ ],
+ [
+  "Route topology scope [dec] has reached its maximum route   capacity of [dec]",
+  178
+ ],
+ [
+  "The next-gen switch module [chars] in slot [dec] bay [dec] needs  a system reload to take effect because current system is\n                              in  legacy switching mode",
+  106
+ ],
+ [
+  "Bad parameter for [chars] passed to tree library function.",
+  2
+ ],
+ [
+  "[chars] tag[chars] - failed to locate server list handle.",
+  33
+ ],
+ [
+  "[chars]  local address   [chars] remote address   [chars] socket is [chars]",
+  181
+ ],
+ [
+  "Failed to create Link Bundle Feature ListQ",
+  7
+ ],
+ [
+  "Update to memory leak detector on free of 0x[hec] failed  CLI output is unreliable\\n",
+  2
+ ],
+ [
+  "The command package '[chars]' has been succesfully uninstalled",
+  112
+ ],
+ [
+  "Failed to initialize and start the authorization state machine",
+  33
+ ],
+ [
+  "[chars]",
+  99
+ ],
+ [
+  "Environment data installation success",
+  33
+ ],
+ [
+  "Logging of buginf debugs was [chars]",
+  2
+ ],
+ [
+  "[chars]",
+  80
+ ],
+ [
+  "Attempt to shut down management process [dec] [chars].",
+  2
+ ],
+ [
+  "Failed attempt to find MDT group [chars] in pool for mvrf [chars]",
+  243
+ ],
+ [
+  "failed to obtain the DSG semaphore",
+  98
+ ],
+ [
+  "No particles available to set up for  output on tty [chars]",
+  278
+ ],
+ [
+  "Lost raw stats update for if_index=[dec]",
+  32
+ ],
+ [
+  "Lookup or allocation of MFIB wire failed",
+  449
+ ],
+ [
+  "Buffer [hec] linked to itself in free pool [chars]",
+  2
+ ],
+ [
+  "Failed to set VRF   [chars]. VRF not configured",
+  47
+ ],
+ [
+  "[chars]  %08x %08x %08x %08x %08x",
+  538
+ ],
+ [
+  "MSG_PROCESS | MSG_TRACEBACK",
+  173
+ ],
+ [
+  "Qlimit command not supported in non-leaf classes",
+  27
+ ],
+ [
+  "Site id [chars] from neighbor [chars] does not match local site id",
+  67
+ ],
+ [
+  "%% AAA  Unsupported option wait-start mapped to start-stop.",
+  64
+ ],
+ [
+  "Sig 1005 IP options-SATNET ID - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Unexpected null RDB",
+  175
+ ],
+ [
+  "Interface [chars] failed init diags 0x%04x [chars]",
+  129
+ ],
+ [
+  "Error trying to turn on Distributed CEF without CEF on",
+  11
+ ],
+ [
+  "Scheduled reload cancelled at [chars]",
+  2
+ ],
+ [
+  "Error initializing the MVRF select radix tree",
+  268
+ ],
+ [
+  "No valid license is available to use IOS SSLVPN service",
+  149
+ ],
+ [
+  "[chars]",
+  1
+ ],
+ [
+  "output on [chars]",
+  9
+ ],
+ [
+  "Local switch protocol version  [dec] Peer switch protocol version   [dec]",
+  648
+ ],
+ [
+  "Process creation of [chars] failed at level [dec].",
+  2
+ ],
+ [
+  "UDLD internal error interface [chars]  [chars]",
+  422
+ ],
+ [
+  "LC  Request to add a second virtual interface to group [dec].",
+  108
+ ],
+ [
+  "Dropping [chars] pkt [inet] [dec] => [inet] [dec]",
+  220
+ ],
+ [
+  "[chars] failed with error code [dec] for seat [hec]",
+  99
+ ],
+ [
+  "Feature [chars] [chars] license count changed from [dec] to [dec].",
+  161
+ ],
+ [
+  "[hec] corrupt  %08x %08x %08x %08x",
+  288
+ ],
+ [
+  "Area [chars] router-LSA of length [dec] bytes plus update overhead  bytes is too large to flood.",
+  66
+ ],
+ [
+  "Unit [dec] excessive collisions. TDR=[dec]",
+  373
+ ],
+ [
+  "Binding [chars]<[chars] [chars]> [chars]. Update binding manager.",
+  33
+ ],
+ [
+  "Inconsistant counters for chunk   [chars]  total free [dec]/[dec] total sibs [dec]/[dec] total alloc [dec]/[dec]",
+  2
+ ],
+ [
+  "[chars] encountered invalid [chars]",
+  33
+ ],
+ [
+  "SNMP netConfigSet request. Loading configuration from [inet].",
+  2
+ ],
+ [
+  "TTY [dec]  arap expected message timeout",
+  289
+ ],
+ [
+  "Platform specified information for label region [chars] is invalid.",
+  148
+ ],
+ [
+  "\\n [chars]",
+  755
+ ],
+ [
+  "DH key generation failed. Status [dec]",
+  103
+ ],
+ [
+  "Error initializing [chars] subblock data structure. [chars]",
+  65
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  37
+ ],
+ [
+  "\\ HTTP Process Init failed.",
+  254
+ ],
+ [
+  "Radio[dec]/0 INIT pin on FPGA \\[chars]\\ not asserted when PROG pin asserted",
+  171
+ ],
+ [
+  "The Ignition Voltage Sense is [chars]",
+  143
+ ],
+ [
+  "Resource group creation failed\\nCause  [chars]",
+  2
+ ],
+ [
+  "\\nACR ISSU  send message failed rc = [dec]\\n",
+  29
+ ],
+ [
+  "Slot number[[dec]] is not valid",
+  328
+ ],
+ [
+  "CSG ACCOUNTING [chars] reload on module [dec] successful",
+  507
+ ],
+ [
+  "Bad SNA data received from PU [chars] data= [chars]",
+  30
+ ],
+ [
+  "Invalid address [hec] detected",
+  116
+ ],
+ [
+  "[chars] AUTHOR/[chars]  Internal state is invalid  astruct 0x[hec] ustruct 0x[hec]",
+  64
+ ],
+ [
+  "No control link for preferred PG [dec]",
+  1
+ ],
+ [
+  "Task is running for [dec]msecs more than [dec]msecs [dec]/[dec]",
+  2
+ ],
+ [
+  "Received 802.1Q BPDU on non trunk [chars] [chars].",
+  132
+ ],
+ [
+  "PROBLEM - %lu - LU-LU verification protocol mismatch. [chars]",
+  8
+ ],
+ [
+  "Initialization of \\[chars]\\ functionality failed",
+  293
+ ],
+ [
+  "The IP fast path received an IPC message with an invalid  sizesize/type - [dec]/[dec]",
+  135
+ ],
+ [
+  "Instance [dec] Peer [dec]  Peer [chars]",
+  1
+ ],
+ [
+  "Attempt to learn denied address [enet] on [chars]. Service instance   will be shutdown.",
+  137
+ ],
+ [
+  "Failed to create map cache entry for EID prefix [chars]   under Lisp instance-id [dec] Cause  [chars]",
+  130
+ ],
+ [
+  "Unexpected condition  [chars]",
+  457
+ ],
+ [
+  "Redundancy mode  [chars] rc [dec]",
+  253
+ ],
+ [
+  "Failed deleting node for LSP [chars] [chars] to wavl tree thread [dec] [chars]",
+  28
+ ],
+ [
+  "EXCEPTION - %lu - IPDLC failed to request a posting [chars]",
+  8
+ ],
+ [
+  "Saving of unique accounting ident aborted. Configuration has been modified.",
+  84
+ ],
+ [
+  "Finished Generation of Data for timeslots [dec] to [dec] on interface [dec] using profile [dec]",
+  458
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  503
+ ],
+ [
+  "EXCEPTION - %lu - Unable to activate Route Setup RTP connection [chars]",
+  8
+ ],
+ [
+  "[chars] unable to remove index %08X",
+  232
+ ],
+ [
+  "bad peer op in peer_to_core [dec]",
+  241
+ ],
+ [
+  "[chars] cannot run the signed TCL script.",
+  2
+ ],
+ [
+  "ISIS[chars]  Bad if number pdb [hex] idb [hex] if [hex]",
+  67
+ ],
+ [
+  "Syntax error in route statement  [chars]",
+  49
+ ],
+ [
+  "A NULL attribute has been assigned to a path",
+  85
+ ],
+ [
+  "Bad server-group name [chars] type [chars].",
+  64
+ ],
+ [
+  "System config parse from [chars] failed",
+  2
+ ],
+ [
+  "Detected for transceiver module in [chars] module disabled",
+  150
+ ],
+ [
+  "Unit [dec] interface failure  [hex] [hex] [hex] idb state [dec]",
+  129
+ ],
+ [
+  "EXCEPTION - %lu - Unable to generate session route - RSCV truncated [chars]",
+  8
+ ],
+ [
+  "[chars] can not create ip alias",
+  279
+ ],
+ [
+  "Unable to add public key for [chars] %15i to key ring",
+  44
+ ],
+ [
+  "Exceeded maximum dialer interfaces to watch. Ignoring [chars]",
+  511
+ ],
+ [
+  "T1 Port [dec] on slot [dec] is now in drop-insert mode.",
+  438
+ ],
+ [
+  "RP switchover [chars]",
+  351
+ ],
+ [
+  "Unexpected TEK Protocol   [dec]",
+  114
+ ],
+ [
+  "The context information 0x%8x is not valid.",
+  271
+ ],
+ [
+  "Linecard already connected to fwd agent",
+  118
+ ],
+ [
+  "Attempt to use buffer with corrupt pool pointer ptr= [hec] pool= [hec]",
+  2
+ ],
+ [
+  "no link_point[dec] in the [chars] [chars] command chain",
+  182
+ ],
+ [
+  "[chars]  Resource not available at [chars] [dec]",
+  73
+ ],
+ [
+  "[chars]",
+  64
+ ],
+ [
+  "An internal mutex error has occured in the function [chars]",
+  290
+ ],
+ [
+  "Logging to host [chars][chars][chars][chars]",
+  2
+ ],
+ [
+  "Can't send XDR client ISSU nego msg  reason [chars] slot [chars] XDR client [chars]",
+  239
+ ],
+ [
+  "Warning  [chars]",
+  84
+ ],
+ [
+  "Detected for transceiver module in [chars] module disabled",
+  150
+ ],
+ [
+  "FRR not enabled on [chars]. Unsupported EFP and trunk EFP count [dec].  Supported 1",
+  79
+ ],
+ [
+  "SSH2 Session from [chars] tty = [dec] for user '[chars]'",
+  103
+ ],
+ [
+  "Firmware switchover initiated for modem in slot [dec]/[dec]",
+  35
+ ],
+ [
+  "Could not malloc line card crash info buffer on PRE bufnum=[dec]size=[dec]",
+  484
+ ],
+ [
+  "DHCP could not start its [chars] process.",
+  169
+ ],
+ [
+  "FSTin  [chars]  version mismatch mine [dec] theirs [dec]",
+  469
+ ],
+ [
+  "[chars]",
+  19
+ ],
+ [
+  "Line [dec]  [chars]",
+  18
+ ],
+ [
+  "ATMSIG[chars]",
+  189
+ ],
+ [
+  "No message on queue",
+  162
+ ],
+ [
+  "Unit [dec] no memory for [chars]",
+  469
+ ],
+ [
+  "CONN  opening peer [chars] [dec]",
+  283
+ ],
+ [
+  "Unable to set Active/Standby Tx/Rx selection for  Line Card [chars] idx=[dec].",
+  108
+ ],
+ [
+  "Unable to open socket for AS [dec]",
+  4
+ ],
+ [
+  "Enable config-sync when it is not disabled",
+  117
+ ],
+ [
+  "Bad getbuffer bytes= [dec]",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - Following alert failed to be sent to focal point [chars]",
+  8
+ ],
+ [
+  "Unexpected [chars] [dec] [chars] in state [dec] [chars] substate [dec] [chars]",
+  286
+ ],
+ [
+  "[chars] attempted to lock a semaphore already locked by itself",
+  187
+ ],
+ [
+  "Process aborted on watchdog timeout process = [chars].[chars]",
+  2
+ ],
+ [
+  "Grp [dec] Mbr [dec] status [chars]  Received LC to RP sync in standby state.  Message rejected.",
+  117
+ ],
+ [
+  "Unlock done on already unlocked element 0x[hec]",
+  99
+ ],
+ [
+  "Data structure failed magic number sanity check",
+  49
+ ],
+ [
+  "Incorrect length trange ipc xdr of len=[dec] received",
+  637
+ ],
+ [
+  "Label Local Address Table revision number wrapped",
+  148
+ ],
+ [
+  "TTY [dec]  T401 [dec] baud rate [dec]",
+  289
+ ],
+ [
+  "LC logger in bad state LC=[dec]/[dec]state=[chars]msg=[chars]",
+  590
+ ],
+ [
+  "Failed to build CLUE internal record index due to [chars]",
+  199
+ ],
+ [
+  "Config  map-cache site-registration should not be configured on lisp  extranet instance [dec]",
+  130
+ ],
+ [
+  "Invalid IPC Seat 0x[hec].",
+  99
+ ],
+ [
+  "NAT packet drop",
+  75
+ ],
+ [
+  "Internal error  [chars]",
+  275
+ ],
+ [
+  "Radio[dec]/0 [chars] [chars] threshold crossed ODU [dec]",
+  171
+ ],
+ [
+  "XDR ISSU negotiation message for client [chars] dropped",
+  239
+ ],
+ [
+  "Nonvolatile storage configured from [chars] by [chars]",
+  2
+ ],
+ [
+  "Exceeding the global max ace limit configurable[dec]",
+  325
+ ],
+ [
+  "sanity check in re-login [chars] to [chars]",
+  64
+ ],
+ [
+  "Device with UDI [chars] and Addr [chars]  has been boot strapped by autonomic registrar in autonomic domain [chars]",
+  105
+ ],
+ [
+  "Radio[dec]/0 link synchronization acquired.",
+  171
+ ],
+ [
+  "Failed to xmit_transform message - to slot [chars] XDR client [chars] context [dec]",
+  239
+ ],
+ [
+  "[chars]",
+  80
+ ],
+ [
+  "Time to refresh environment data",
+  33
+ ],
+ [
+  "EXCEPTION - %lu - HPR Route Setup RU received with existing FQPCID [chars]",
+  8
+ ],
+ [
+  "No bstun group defined on interface [chars]",
+  177
+ ],
+ [
+  "Sig 4050 UDP Bomb - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Scheduler test [hex] for [chars] just executed",
+  2
+ ],
+ [
+  "DNS lookup failed - query to DNS server [chars] timed out",
+  242
+ ],
+ [
+  "UTD-Invalid request [chars] [dec] while feature is down",
+  75
+ ],
+ [
+  "-",
+  212
+ ],
+ [
+  "Giant received on [chars] [dec] exceeds [dec]\\n DA [enet] SA [enet] [0x%08x]",
+  599
+ ],
+ [
+  "Power supply [dec] [dec]V is at or near rated output",
+  120
+ ],
+ [
+  "Dispatch vector Null cmd=[dec] dintf=[dec]",
+  571
+ ],
+ [
+  "[chars] is already open by [chars]",
+  9
+ ],
+ [
+  "Error [chars] failed to allocate L4 per filter stats tables to data plane   zone pair id  [dec] [chars] policy id [dec] [chars]\n                                   [chars]",
+  151
+ ],
+ [
+  "[chars][chars]  [chars]",
+  67
+ ],
+ [
+  "Doubly linked list linkage is NULL",
+  66
+ ],
+ [
+  "A routing database client id [dec] failed to   complete route repopulation  Layer [dec] sub address family [dec]   and routing\n                              client instances [dec]",
+  178
+ ],
+ [
+  "bad or no response slot [dec]",
+  190
+ ],
+ [
+  "System startup configuration is ignored based on the configuration  register setting.",
+  2
+ ],
+ [
+  "[chars] attempt to add index %08X [chars]",
+  116
+ ],
+ [
+  "Slot [dec] Looking for [hec] but reading [hec]",
+  0
+ ],
+ [
+  "tcmsp_call_block allocate failed",
+  248
+ ],
+ [
+  "NULL RP pointer specified for PIM register tunnel creation.",
+  155
+ ],
+ [
+  "Tty[t-line] tcp_putbyte write disabled",
+  165
+ ],
+ [
+  "Invalid Input=[chars] to SNASW [chars] [hec] with OldState=[chars]",
+  8
+ ],
+ [
+  "Recommended port adapter configuration exceeded",
+  109
+ ],
+ [
+  "Invalid current state 0x%X",
+  321
+ ],
+ [
+  "CLSI bad primitive command header= [chars]",
+  30
+ ],
+ [
+  "Received NULL TDL message",
+  112
+ ],
+ [
+  "[chars]",
+  549
+ ],
+ [
+  "Certificate has a missing or invalid subject name.",
+  47
+ ],
+ [
+  "Interface [chars] Error %-04x [chars] - hssi_reset",
+  20
+ ],
+ [
+  "[chars][dec] is not registered under client [chars][dec] and entity[dec]",
+  18
+ ],
+ [
+  "Tlv-list [chars] [chars] globally on all interfaces.",
+  376
+ ],
+ [
+  "CGM shared memory allocation failed  [chars]",
+  561
+ ],
+ [
+  "WARNING  With IP multicast enabled  interfaces which transmit traffic from larger to smaller MTU  interfaces may not be hardware\n                              switched due to fragmentation.  A degradation in performance may occur.",
+  163
+ ],
+ [
+  "Controller [dec] cmd [dec] 0x%-08x failed 0x%-04x count [dec]",
+  20
+ ],
+ [
+  "[chars] [dec]  Neighbor [chars] [chars] is [chars]  [chars]",
+  4
+ ],
+ [
+  "Client id [[dec]] already exists",
+  576
+ ],
+ [
+  "BGP SR policy failed [chars] -   Restarting BGP may be required",
+  85
+ ],
+ [
+  "'[chars]' at level [dec] [chars]",
+  2
+ ],
+ [
+  "Bad magic for RDB structure [hec]/[hec]",
+  175
+ ],
+ [
+  "EXCEPTION - %lu - LU type 012 or 3 format error [chars]",
+  8
+ ],
+ [
+  "Failed to find IDB for mCAC [chars] reservation DB delete. AF = [dec]   Reason  [chars]",
+  22
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  618
+ ],
+ [
+  "msgtxt_initfail",
+  94
+ ],
+ [
+  "Decay time from maximum penalty to suppress penalty is [dec] secs.    Maximum penalty  [dec] suppress penalty  [dec]",
+  85
+ ],
+ [
+  "Service [chars][chars][chars] acquired on WCCP client [chars]",
+  92
+ ],
+ [
+  "accounting record dropped output record queue full  [chars]-[chars] [chars] [chars]\\n\\",
+  64
+ ],
+ [
+  "[chars] \\n Issuer-name   [chars] \\n Subject-name   [chars] \\n Serial-number  [chars] \\n End-date   [chars]",
+  47
+ ],
+ [
+  "IP routing table creation failure - [chars]",
+  175
+ ],
+ [
+  "The list [dec] for [chars] is NULL. This should never be.",
+  64
+ ],
+ [
+  "[chars]  crashdump retrieval error  [chars] [chars]",
+  370
+ ],
+ [
+  "Attempt to allocate show entry for invalid show type [dec]",
+  243
+ ],
+ [
+  "[chars] attempt to add index %08X [chars]",
+  232
+ ],
+ [
+  "Process [chars] just finished executing",
+  2
+ ],
+ [
+  "Configured site-registration limit [dec] has been reached or",
+  130
+ ],
+ [
+  "[chars] [hec]",
+  205
+ ],
+ [
+  "Zero length while [chars] linecard. Datalen [dec]\\n",
+  170
+ ],
+ [
+  "mpls ldp advertise-labels has no effect for lc-atm",
+  233
+ ],
+ [
+  "Warning  DNIS group [chars] is not defined.",
+  64
+ ],
+ [
+  "dump of accounting data ",
+  64
+ ],
+ [
+  "Coop KS [chars] in group [chars] session Reassembly failed in TransID [dec]",
+  114
+ ],
+ [
+  "Ring [dec]  [chars]",
+  285
+ ],
+ [
+  "Invalid [chars] [dec] encountered",
+  223
+ ],
+ [
+  "[chars] [dec]",
+  205
+ ],
+ [
+  "V6 nexthop not supported for afi/safi [dec]/[dec]",
+  85
+ ],
+ [
+  "One of children class's shape config is higher",
+  27
+ ],
+ [
+  "Generated new [dec] bit key pair",
+  44
+ ],
+ [
+  "Alignment correction made at [chars] [chars]ing 0x[hec]",
+  333
+ ],
+ [
+  "RP switchover [chars] count [dec]",
+  253
+ ],
+ [
+  "Unable to open qllc session current state is [chars]",
+  439
+ ],
+ [
+  "[chars] \\n Trustpoint   [chars] \\n Issuer-name   [chars] \\n Subject-name   [chars] \\n Serial-number  [chars] \\n End-date\n                                [chars]",
+  47
+ ],
+ [
+  "BFD is supported   for single hop neighbors. [chars] is not single hop   neighbor",
+  85
+ ],
+ [
+  "No TCP AO Current key configured",
+  165
+ ],
+ [
+  "INFO - %lu - CP-CP sessions established [chars]",
+  8
+ ],
+ [
+  "[chars] [chars] number of allowed dauthentication failure exceeded",
+  463
+ ],
+ [
+  "Using Default Queue for interface [chars] qid [dec]",
+  116
+ ],
+ [
+  "Skipping sending of bulk sync completion message to peer    Incompatible message type.",
+  22
+ ],
+ [
+  "[chars]",
+  200
+ ],
+ [
+  "Management interrupts are [chars] for pcmcia device in socket [dec]. [chars]",
+  259
+ ],
+ [
+  "Failed to create the auto upgrade startup process.",
+  197
+ ],
+ [
+  "Protection-Group [dec] [chars] [chars]",
+  217
+ ],
+ [
+  "GR reload unsafe configured session restart time[dec]",
+  85
+ ],
+ [
+  "Register license permanent storage [chars] failed rc [dec] [chars]",
+  396
+ ],
+ [
+  "Authentication to Privilage level [dec]  failed by[chars][chars]",
+  2
+ ],
+ [
+  "PnP Discovery abort on vdaemon input",
+  60
+ ],
+ [
+  "Attempted to destroy partially full chunk   chunk 0x[hec] chunk name  \\[chars]\\.",
+  2
+ ],
+ [
+  "The policy-map [chars] is detached due to the event [chars].",
+  27
+ ],
+ [
+  "SNMP WriteNet request. Writing current configuration to [inet]",
+  2
+ ],
+ [
+  "MAC address [enet] moved from Interface [chars] to Interface [chars]",
+  316
+ ],
+ [
+  "No memory available for [chars] [dec]",
+  2
+ ],
+ [
+  "Sig 2002 ICMP Source Quench - from [inet] to [inet]",
+  238
+ ],
+ [
+  "[chars] called with [chars] parameter set to [chars]",
+  274
+ ],
+ [
+  "[chars]  OIR Detected. DM logging stopped",
+  35
+ ],
+ [
+  "CPP[dec]  CPU lacks feature [chars] required in a future release.",
+  176
+ ],
+ [
+  "Peer incompatibility set for image [chars] version [chars] on peer",
+  18
+ ],
+ [
+  "EXCEPTION - %lu - RTP Connection is path-switching to a much longer path [chars]",
+  8
+ ],
+ [
+  "Warning  Hardware idb is NULL. No Modem. MoH attribute can not be  applied and it is Skipped for authorization.",
+  49
+ ],
+ [
+  "[chars]blk [hec] words [dec] alloc [hec] [chars] dealloc [hec] rfcnt [hec]",
+  2
+ ],
+ [
+  "Privilege level set to [dec] by[chars][chars]",
+  2
+ ],
+ [
+  "Invalid issuer_name in CS [chars] configuration",
+  47
+ ],
+ [
+  "[chars] Side [chars] [chars]",
+  231
+ ],
+ [
+  "Unexpected event [chars] for state [chars]",
+  34
+ ],
+ [
+  "PnP Discovery abort on CLI input",
+  60
+ ],
+ [
+  "Re-initialization of group [chars] completed.",
+  114
+ ],
+ [
+  "[chars]  peer [chars] wrong magic mine [hec] theirs [hec]",
+  283
+ ],
+ [
+  "Re-entrancy detected  [chars]",
+  34
+ ],
+ [
+  "Failed to dispatch a refresh adjacency summary event",
+  69
+ ],
+ [
+  "Input path failed Top-dir[chars] test.",
+  569
+ ],
+ [
+  "Authorization succeeded for client [enet] on Interface [chars]",
+  316
+ ],
+ [
+  "-",
+  141
+ ],
+ [
+  "Shape value is greater than parent class's shape or interface's speed",
+  27
+ ],
+ [
+  "VLAN [dec] assigned to Interface [chars]  AuditSessionID [chars]",
+  316
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  501
+ ],
+ [
+  "[chars]",
+  286
+ ],
+ [
+  "Internal error  state [chars] has unrecognized transition [dec]",
+  44
+ ],
+ [
+  "CLSI bad primitive type header= [chars]",
+  30
+ ],
+ [
+  "Configured from [chars] by [chars]",
+  2
+ ],
+ [
+  "ESM shutdown",
+  2
+ ],
+ [
+  "Failed to cache [chars] packet - [chars][dec]",
+  292
+ ],
+ [
+  "Encap rate mismatched  [chars]",
+  164
+ ],
+ [
+  "IGMP group [inet] to delete from interface [chars] not found",
+  163
+ ],
+ [
+  "Interface [chars]  unknown encapsulated msg[dec] len[dec]",
+  242
+ ],
+ [
+  "VP entry not found while [chars].",
+  122
+ ],
+ [
+  "Route Tracking   failed on memory. Neighbor tracking for route-fall-over   will stop",
+  85
+ ],
+ [
+  "Sig 2000 ICMP Echo Reply - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Bad poolsize returned by the system   [dec]",
+  2
+ ],
+ [
+  "Failed to disable DC.",
+  26
+ ],
+ [
+  "Buffer in list ptr= [hec]",
+  2
+ ],
+ [
+  "Attempted to free nonchunk memory   chunk [hec] data [hec].",
+  2
+ ],
+ [
+  "Threshold exceeded for lifetime timer expiration drops for circuit [chars]",
+  209
+ ],
+ [
+  "Bad tx mail message opcode = 0x[hec]",
+  0
+ ],
+ [
+  "Detected for transceiver module in [chars] module disabled",
+  150
+ ],
+ [
+  "Invalid RIB State for update 0x[hec] [inet]%m [chars]",
+  175
+ ],
+ [
+  "queueing policy at session/tunnel can co-exist only with  \\ class-default shaping policy at sub-interface/pvc\\n",
+  116
+ ],
+ [
+  "[[chars]]  SRC_IP [inet] SRC_PORT %lu DST_IP [inet] DST_PORT %lu [chars][chars] [chars] [chars]",
+  477
+ ],
+ [
+  "UTD-No space for the IPC reply size [dec] request [dec]",
+  75
+ ],
+ [
+  "Generated configuration not  backward compatible",
+  2
+ ],
+ [
+  "PROBLEM - %lu - Insufficient storage to enable intra-node sessions [chars]",
+  8
+ ],
+ [
+  "Interface [chars] still-down notified [dec]/[dec] by [chars]",
+  60
+ ],
+ [
+  "Abrupt termination of tty session for [chars] [t-line]",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - Critical buffer congestion detected while attempting to relieve congestion [chars]",
+  8
+ ],
+ [
+  "Queue-Flush not successful",
+  27
+ ],
+ [
+  "[chars]Invalid IMAP command from initiator [inet] [dec]  [chars]",
+  220
+ ],
+ [
+  "Max Number of iREC agent Server sockets exceeded",
+  367
+ ],
+ [
+  "Domain certificate of Neighbor  with Addr [chars] connected on interface [chars] has expired",
+  105
+ ],
+ [
+  "[chars][chars] timer = [hec].",
+  2
+ ],
+ [
+  "SFP Driver i2c error  [chars] sfp [dec] addr 0x[hec] errcode [dec]",
+  295
+ ],
+ [
+  "NULL table specified for [chars] DDE replay.",
+  22
+ ],
+ [
+  "Null cursor",
+  49
+ ],
+ [
+  "Encountered an invalid RP state [dec] in [chars]",
+  409
+ ],
+ [
+  "Memory was not available to perform the protocol filtering action",
+  645
+ ],
+ [
+  "label range [dec]-[dec] exhausted",
+  134
+ ],
+ [
+  "-",
+  212
+ ],
+ [
+  "[chars]  modem_info is NULL",
+  307
+ ],
+ [
+  "\\ [chars]  initializing h245 socket failed through ASN.1 library  error=[dec]\\n",
+  312
+ ],
+ [
+  "SSH Session from [chars] tty = [dec] for user '[chars]'",
+  103
+ ],
+ [
+  "Connect in from host [chars] with remote address [chars] failed.",
+  30
+ ],
+ [
+  "class  [chars] is not present in db.",
+  139
+ ],
+ [
+  "Flow-control threshold on module [dec] has exceeded the default value.  Threshold will be set to lower value",
+  2
+ ],
+ [
+  "Consent Token Request Processing  facility failed [chars].",
+  16
+ ],
+ [
+  "bad ssp hdr in proc ssp - [chars] = 0x[hec]",
+  241
+ ],
+ [
+  "EM exceed open events limit [dec].",
+  206
+ ],
+ [
+  "Bridge Assurance blocking port [chars][chars].",
+  132
+ ],
+ [
+  "[chars] encountered [chars] not unsupported",
+  33
+ ],
+ [
+  "Error enqueing sid element Attempting to enqueue sid[[dec]] onto sid_reuse_queue that already exists",
+  46
+ ],
+ [
+  "Invalid Client Id usage [dec].",
+  398
+ ],
+ [
+  "SSP version %-2d.%3d was requested   but is not supported in this image.",
+  342
+ ],
+ [
+  "APS[dec] [chars]",
+  300
+ ],
+ [
+  "Slot [dec] BRIC changed state to [chars]",
+  372
+ ],
+ [
+  "[chars]  [inet] downstream  [inet] upstream  [inet]",
+  391
+ ],
+ [
+  "Radio[dec]/0 radio phy eeprom \\[chars]\\ checksum stored 0x%02x calculated 0x%02x",
+  171
+ ],
+ [
+  "Client '[chars]' with ID [dec] has '[chars]' in session [dec].",
+  18
+ ],
+ [
+  "Unexpected roles. Local role = [chars] Peer role = [chars]",
+  1
+ ],
+ [
+  "The [chars] link [chars] does not exist. Sub-interface  [chars] VLAN-Id  [dec]",
+  433
+ ],
+ [
+  "[chars]",
+  486
+ ],
+ [
+  "[chars] table [chars] damaged  [chars].",
+  2
+ ],
+ [
+  "Configuration logger persistency  Applying config command '[chars]'   failed. result '[dec]'.",
+  182
+ ],
+ [
+  "Duplicate address [chars] on [chars] sourced by [enet]",
+  213
+ ],
+ [
+  "%llu packets where forcefully unwedged %llu packets were  forcefully deallocated",
+  2
+ ],
+ [
+  "No server-group passed through parser.",
+  64
+ ],
+ [
+  "Failed to obtain random number from CTR-DRBG block for SAP key-counter.  Number of consecutive failures[dec]",
+  33
+ ],
+ [
+  "Failed to install KEK SA",
+  114
+ ],
+ [
+  "Error -- status state machine received unexpected event=[dec] for modem[chars]",
+  166
+ ],
+ [
+  "[chars]",
+  497
+ ],
+ [
+  "Requested memory thresholding operation on resource group failed\\n Resource Group handle  [hec] Cause  [chars]",
+  2
+ ],
+ [
+  "QoS Event Status = [dec] for default bearer in [chars] in [chars].",
+  35
+ ],
+ [
+  "Failed to fork process for [chars].",
+  49
+ ],
+ [
+  "out of memory.",
+  14
+ ],
+ [
+  "[chars]",
+  57
+ ],
+ [
+  "[chars] is not compatible with [chars] and  will be suspended [chars]",
+  15
+ ],
+ [
+  "no free event structure available from [chars] for DSP message",
+  413
+ ],
+ [
+  "System dropped [dec] console debug messages.\\n",
+  2
+ ],
+ [
+  "An internal error occurred during a SPAN operation.",
+  125
+ ],
+ [
+  "TCP AO Keychain [chars] key [dec] accept lifetime expired",
+  165
+ ],
+ [
+  "Unable to open socket",
+  207
+ ],
+ [
+  "Policy Acquisition failed to transmit RADIUS request for peer[chars] sgt[chars]",
+  33
+ ],
+ [
+  "BGP failed to register with the redundancy facility.",
+  85
+ ],
+ [
+  "no answer for host [chars] cli [inet] type [chars] id# [dec] [chars]",
+  279
+ ],
+ [
+  "Remote shell from [chars] at [chars] denied",
+  246
+ ],
+ [
+  "No forking codecs configured for dial-peer [dec] the forked m-lines  will be rejected. Forking codecs are [chars]",
+  286
+ ],
+ [
+  "Process creation of [chars] failed at level [dec].",
+  2
+ ],
+ [
+  "Internal error mma db pointer invalid",
+  23
+ ],
+ [
+  "no memory for [chars]",
+  73
+ ],
+ [
+  "PnP tech summary [chars] saved with alarm [dec]/[dec] elapsed time  [dec] seconds.",
+  60
+ ],
+ [
+  "OUT of Memory  [chars]",
+  495
+ ],
+ [
+  "In function [chars] The process was unable to unlock the shared memory",
+  290
+ ],
+ [
+  "%%ERROR  No keys found for verifying the digital signature in file [chars]",
+  326
+ ],
+ [
+  "[chars]",
+  233
+ ],
+ [
+  "Standby incompatible for SSO.",
+  90
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  482
+ ],
+ [
+  "no free event structure available from [chars] for DSMP message",
+  263
+ ],
+ [
+  "Failed to set qos parameters for CM [chars] sfid [dec] rc [dec]",
+  95
+ ],
+ [
+  "CPP [dec] microcode crashdump creation completed.",
+  186
+ ],
+ [
+  "-",
+  54
+ ],
+ [
+  "RPC can't call getsockname",
+  249
+ ],
+ [
+  "[chars] [chars]  [chars]",
+  64
+ ],
+ [
+  "[chars]",
+  286
+ ],
+ [
+  "Egress [chars] packet delivered via legacy inject path",
+  493
+ ],
+ [
+  "[chars] 0x[hec]",
+  134
+ ],
+ [
+  "SSP OP = [dec][chars] [chars] to [chars] [chars]",
+  241
+ ],
+ [
+  "Certificate chain validation has failed. Unauthorized",
+  47
+ ],
+ [
+  "Not able to open [chars]",
+  26
+ ],
+ [
+  "Number of prefixes received from [chars][chars][chars] afi [dec]  [dec] exceeds limit [dec]",
+  85
+ ],
+ [
+  "Invalid pid [dec] in block  [hec]",
+  2
+ ],
+ [
+  "Attempt to learn [enet] on [chars] caused system   limit [dec] to be exceeded.",
+  137
+ ],
+ [
+  "Slot [[dec]/[dec]] down on last [dec] checks. HW RESET # [dec] ...",
+  484
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  728
+ ],
+ [
+  "Redundancy client [chars] [chars] manual  switchover",
+  435
+ ],
+ [
+  "Bay [dec] - Invalid anyphy number [dec] for vc [dec]",
+  172
+ ],
+ [
+  "[chars] Root  [inet] Modify [chars] branch [chars] [chars]",
+  78
+ ],
+ [
+  "Unable to process received BIPC messages for Dynamic Commands  error  [chars]",
+  112
+ ],
+ [
+  "GBIC EEPROM data check sum failed for GBIC interface [chars]",
+  309
+ ],
+ [
+  "Unable to create memory chunk.",
+  14
+ ],
+ [
+  "Mismatch in backplane IDPROM [chars]  Active-side=[chars] Sby-side=[chars]",
+  170
+ ],
+ [
+  "LinkUp Interface [chars] changed state to up",
+  58
+ ],
+ [
+  "[chars]",
+  224
+ ],
+ [
+  "PA queue overflow cmd [hex]",
+  109
+ ],
+ [
+  "Requested memory thresholding operation on resource group failed\\n Resource Group handle  [hec] Cause  [chars]",
+  2
+ ],
+ [
+  "Failed to send SAP success to the core for int[chars]",
+  33
+ ],
+ [
+  "EXCEPTION - %lu - Unable to correlate BIND response received during ISR session activation [chars]",
+  8
+ ],
+ [
+  "Error Registering [chars] RIB handlers with RIB Access Infra",
+  175
+ ],
+ [
+  "No bulk sync function defined for sync type [dec]",
+  22
+ ],
+ [
+  "[chars] Grp [dec] Fwd [dec] state [chars] -> [chars]",
+  213
+ ],
+ [
+  "ACL NAME '[chars]' | ACE SEQUENCE %ld | RESULT FAILURE | REASON '[chars]'",
+  12
+ ],
+ [
+  "Same tty[t-line] in linewatch_timers type [dec]",
+  2
+ ],
+ [
+  "Unable to acquire a BIPC buffer for sending messages.",
+  424
+ ],
+ [
+  "[chars]   [dec] Unable to derive ICK for RxSCI [chars] AuditSessionID [chars]",
+  122
+ ],
+ [
+  "Ring [dec]  Supported beacon parameters received",
+  285
+ ],
+ [
+  "Illegal reference to non-existent subunit [dec] in slot [dec]\\n",
+  579
+ ],
+ [
+  "[chars] [chars]",
+  87
+ ],
+ [
+  "Rec'd packet not an IPSEC packet.  ip vrf/dest_addr= [chars]/[inet] src_addr= [inet] prot= [dec]",
+  44
+ ],
+ [
+  "secure UDI - [chars]",
+  105
+ ],
+ [
+  "Redundant Power System Input Voltage condition is now normal",
+  264
+ ],
+ [
+  "Retry count exceeded for [chars]   [chars]",
+  97
+ ],
+ [
+  "Slot [dec]  [[chars] [dec]] subcards deactivated",
+  219
+ ],
+ [
+  "Call can't be hairpinned. cdb 0x[hec] dst_cdb 0x[hec] dst_call_id [dec]",
+  201
+ ],
+ [
+  "Cannot fork process [chars]",
+  49
+ ],
+ [
+  "[chars]channel  failed to create chunk",
+  7
+ ],
+ [
+  "IPC Open Reply failed request [dec]",
+  140
+ ],
+ [
+  "mmap failed for size [dec] bytes Caller PC 0x[hec] errno [dec]",
+  2
+ ],
+ [
+  "IP [chars]| MAC [enet]| AuditSessionID [chars]| EVENT [chars]",
+  12
+ ],
+ [
+  "Incoming call  QLLC map entry not found",
+  439
+ ],
+ [
+  "Stat Queuing error for interface [chars] qid [dec]",
+  116
+ ],
+ [
+  "No static template found for slot [dec] port [dec] with parameters provided",
+  236
+ ],
+ [
+  "Bandwidth in one of the children class  is greater than input bandwidth",
+  27
+ ],
+ [
+  "Slot [dec] too many DBUS messages",
+  190
+ ],
+ [
+  "Cryptographic Token [chars] Administrator PIN Locked due to too many unsuccessful login attempts",
+  44
+ ],
+ [
+  "[chars][chars]  LSPix entry [dec] should be null is [hex]",
+  67
+ ],
+ [
+  "Messages above this line are from the boot loader.\\n",
+  2
+ ],
+ [
+  "INFO - %lu - Port stopped [chars]",
+  8
+ ],
+ [
+  "Internal error  state [chars] has pending actions",
+  44
+ ],
+ [
+  "Detected for transceiver module in [chars] module disabled",
+  150
+ ],
+ [
+  "Ingress Exp and qos-group marking profiles have exceeded the maxinum number [dec]",
+  27
+ ],
+ [
+  "\\ [chars]  initializing h225 socket failed through ASN.1 library  error=[dec]\\n",
+  312
+ ],
+ [
+  "Error in creating the shared buffer mem  [chars]",
+  271
+ ],
+ [
+  "Null pointer to the [chars] structure",
+  179
+ ],
+ [
+  "Unknown IPC type [dec] received from RP",
+  91
+ ],
+ [
+  "EXCEPTION - %lu - Abnormal UNBIND request received [chars]",
+  8
+ ],
+ [
+  "Internal Error   [chars]",
+  595
+ ],
+ [
+  "config change is detected after lisp is  reconnected to confd",
+  45
+ ],
+ [
+  "[chars] encountered [chars] not unsupported",
+  33
+ ],
+ [
+  "Cryptographic token [chars] inserted in [chars]",
+  44
+ ],
+ [
+  "server group '[chars]'  [chars]",
+  49
+ ],
+ [
+  "No free scheduler profiles available in hardware",
+  27
+ ],
+ [
+  "Killing process [chars] pid [dec] again",
+  2
+ ],
+ [
+  "IPv6 is not running on interface [chars]. Cannot send NTP message.",
+  123
+ ],
+ [
+  "EXCEPTION - %lu - Local node is the destination of a HPR Route Setup RU but does not support RTP so is replying with the\n                              backout sense code [chars]",
+  8
+ ],
+ [
+  "[chars] POS [chars]. [chars]=0x[hec][chars]. src=0x[hec] det1=0x[hec] det2=0x[hec]",
+  300
+ ],
+ [
+  "Out of order sequence number in received sync message for   sync data type [dec] received epoch/seq [dec]/[dec] expected\n                              [dec]/[dec]",
+  22
+ ],
+ [
+  "[chars] failed to read from cache file[chars]",
+  33
+ ],
+ [
+  "[chars]  VC queue configuration failed due to un-initialized queue table global identifier [dec]",
+  447
+ ],
+ [
+  "[chars] failed to write Multicast SGT Table to cache file[chars]",
+  33
+ ],
+ [
+  "Read/write failed [[chars]]",
+  567
+ ],
+ [
+  "Timer wheel event [hec] slot [dec] func [hec] unequal to exec slot  [dec]",
+  163
+ ],
+ [
+  "invalid action found for [enet] on [chars] - %08x",
+  599
+ ],
+ [
+  "RFS Client [dec] get msg mtu failed. Error = [dec]",
+  39
+ ],
+ [
+  "Sig 6155 RPC mountd Portmap Request - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Bad chunk reference count   chunk [hec] data [hec] refcount [hec] alloc pc [hec].",
+  2
+ ],
+ [
+  "Version low[dec] and high[dec] value for msg[dec] does not",
+  18
+ ],
+ [
+  "RFS Cap Group [dec] for Entity [dec] Registration failed",
+  39
+ ],
+ [
+  "stats for interface index [dec] could not be deleted with status [dec]",
+  540
+ ],
+ [
+  "Neighbor with Addr [chars] connected via interface [chars]  to device Addr [chars] is brought inside my domain [chars]",
+  105
+ ],
+ [
+  "Client [chars][[dec]] not present",
+  504
+ ],
+ [
+  "Slot [dec] has an unsucessfully configured PA in bay [dec]",
+  190
+ ],
+ [
+  "Memory fragmentation check debug exception fragment size [dec]",
+  2
+ ],
+ [
+  "Pdb delete error [chars] [hec] [hec] [hec] [hec] [hec]",
+  175
+ ],
+ [
+  "[chars]Invalid POP3 command from initiator [inet] [dec]  [chars]",
+  220
+ ],
+ [
+  "Config download on the Device Addr [chars] has FAILED",
+  105
+ ],
+ [
+  "Bad disposal code [hec] in [chars]",
+  2
+ ],
+ [
+  "Interface [chars] Info field not permitted",
+  304
+ ],
+ [
+  "All or part of adjacency message for [chars] not sent to incompatible   CEF instance for [chars]",
+  69
+ ],
+ [
+  "Slot [dec] [chars] [dec]  subcard [dec] deactivated",
+  219
+ ],
+ [
+  "No packet buffer available for [chars] interface to send this packet to higher layer",
+  170
+ ],
+ [
+  "GKTMP Server  [chars][chars] is disconnected with Gatekeeper  [chars]",
+  131
+ ],
+ [
+  "CTS SXP filter rules exceed [[dec]%%] threshold.  Reached count of [dec] out of [dec] in filter [chars].",
+  33
+ ],
+ [
+  "tty [dec]",
+  401
+ ],
+ [
+  "[chars] Ran out of buffer elements for enqueue",
+  2
+ ],
+ [
+  "[chars] added as passive member to [chars]channel[dec]",
+  7
+ ],
+ [
+  "Bandwidth configured is greater than shapePIR of the class",
+  27
+ ],
+ [
+  "[chars][chars]  [chars] [chars][chars] from [chars] [chars]",
+  67
+ ],
+ [
+  "Update to memory leak detector on free of 0x[hec] failed  CLI output is unreliable\\n",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - Insufficient storage to send RTM statistics to host [chars]",
+  8
+ ],
+ [
+  "Removed ACP [chars] from Device Addr [chars] to",
+  105
+ ],
+ [
+  "[chars]   [dec] Validation of a MKPDU failed for RxSCI [chars]",
+  122
+ ],
+ [
+  "OIR Client failed to register with RF",
+  219
+ ],
+ [
+  "CLUE record size [dec] is invalid to allocate CLUE record [dec]",
+  199
+ ],
+ [
+  "NAT WLAN session structure for session [chars] from platform is nul",
+  77
+ ],
+ [
+  "Falling trap is generated because the value of [chars] has fallen below\\n\\the falling-threshold hc value %llu",
+  455
+ ],
+ [
+  "Out of TCAM/LPM resources to execute command",
+  27
+ ],
+ [
+  "SPAN hardware resource not available [chars]",
+  125
+ ],
+ [
+  "[chars] [chars] credential has failed the complexty check",
+  463
+ ],
+ [
+  "[chars]  [chars] [chars] Error indication for [chars] - [chars][dec] Src Tunnel  [chars] NBMA  [chars] Dest Tunnel  [chars]\n                              NBMA  [chars]",
+  181
+ ],
+ [
+  "The specified EM Function failed [chars].",
+  206
+ ],
+ [
+  "[chars]",
+  82
+ ],
+ [
+  "SPARC process is not responding [chars]",
+  390
+ ],
+ [
+  "Abrupt termination of tty session for [chars] [t-line]",
+  2
+ ],
+ [
+  "Operation  [chars] Action  [chars] Reason  [chars]",
+  195
+ ],
+ [
+  "Internal Error in reading statistics",
+  27
+ ],
+ [
+  "Initialization failed",
+  478
+ ],
+ [
+  "Client [chars][dec] or entity[dec] is not registered [chars].",
+  18
+ ],
+ [
+  "Client [chars] has registered on slot [chars] before RP.",
+  239
+ ],
+ [
+  "Reference to non-existent object-group '[chars]'",
+  344
+ ],
+ [
+  "Transceiver module in [chars] not fully inserted remove the transceiver  and re-insert with proper seating lock.",
+  150
+ ],
+ [
+  "Client connection received for a Linecard [dec]-[dec] already connected",
+  118
+ ],
+ [
+  "System cannot release chunk memory.\\n",
+  2
+ ],
+ [
+  "Communication with shelf [dec] located at address [inet]",
+  196
+ ],
+ [
+  "%08x %08x %08x %08x %08x %08x %08x %08x",
+  393
+ ],
+ [
+  "Unit [dec] open failed  [chars] [chars]",
+  129
+ ],
+ [
+  "CONN  peer [chars] open failed [chars] [[dec]]",
+  283
+ ],
+ [
+  "no route for destination [inet]",
+  652
+ ],
+ [
+  "VASI pair db allocation failed",
+  89
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  546
+ ],
+ [
+  "SPA environmental monitoring initialization error",
+  6
+ ],
+ [
+  "[chars] Command Failed at [chars] - line [dec] arg [dec]",
+  282
+ ],
+ [
+  "Alarm  [chars] [chars] [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "[chars] [hec] [hec]",
+  134
+ ],
+ [
+  "[chars] The wrap/unwrap state-change process is locked",
+  231
+ ],
+ [
+  "Checkpoint message send failed  [chars]",
+  66
+ ],
+ [
+  "No handler to [chars] external memory.",
+  2
+ ],
+ [
+  "For context ID [dec] [chars]",
+  18
+ ],
+ [
+  "No memory available for [chars]",
+  99
+ ],
+ [
+  "Failed to initialise adjacency interest list facility",
+  69
+ ],
+ [
+  "Invalid msg from routing/pnni   [chars]",
+  189
+ ],
+ [
+  "Free a non allocated ptr [hec] size [dec].",
+  2
+ ],
+ [
+  "SRC detected keep alive timeout on APS intferace for slot [dec]",
+  356
+ ],
+ [
+  "Feature [chars] [chars] count violation - count = [dec] usage count = [dec].",
+  161
+ ],
+ [
+  "Error  empty request received",
+  303
+ ],
+ [
+  "Faild to find the entry from the DSG Info DB for  [chars] [chars] [chars]",
+  98
+ ],
+ [
+  "mmap failed for size [dec] bytes Caller PC 0x[hec] errno [dec]",
+  2
+ ],
+ [
+  "SNMP hostConfigSet request. Loading configuration from [inet]",
+  2
+ ],
+ [
+  "[chars]  [inet] Ups  [inet] Downs  [inet] Retcode  [dec]  Reason  [chars]",
+  391
+ ],
+ [
+  "ISDN FATAL ERROR  file [chars] function [chars] message  [chars]",
+  73
+ ],
+ [
+  "Failed to receive RA/CA certificates.",
+  47
+ ],
+ [
+  "Invalid or incompatible address copy type [dec] and length [dec]",
+  243
+ ],
+ [
+  "Configuration logger persistency is enabled but is operationally down",
+  182
+ ],
+ [
+  "Accounting record dropped send to server failed  [chars]",
+  49
+ ],
+ [
+  "Mode change in progress",
+  60
+ ],
+ [
+  "Dataplane classification error for interface [chars]",
+  591
+ ],
+ [
+  "Can't allocate MAC address for interface [dec]/[dec]",
+  288
+ ],
+ [
+  "[chars]",
+  99
+ ],
+ [
+  "Saving config with new acct ident in nvram.",
+  84
+ ],
+ [
+  "PnP Discovery started",
+  60
+ ],
+ [
+  "VPA bay [dec] Voice tx ring is full  dma_done=[dec] last_dma_done=[dec]",
+  282
+ ],
+ [
+  "Bad reference count at [hec] refcount [hec]",
+  2
+ ],
+ [
+  "EMP active switch [dec] elected  [chars]",
+  291
+ ],
+ [
+  "[chars] Error 0x[hec] [chars]",
+  447
+ ],
+ [
+  "Logging of buginf debugs was [chars]",
+  2
+ ],
+ [
+  "CPP [dec] [chars] memory low - [dec] percent depleted",
+  284
+ ],
+ [
+  "Killing process [chars] pid [dec] again",
+  2
+ ],
+ [
+  "Memory fragmentation check debug exception fragment size [dec]",
+  2
+ ],
+ [
+  "boot system [chars] command is skipped\\n",
+  2
+ ],
+ [
+  "GR reload unsafe configured nsf stalepath time[dec]",
+  85
+ ],
+ [
+  "\\ No memory for lrq array. Gatekeeper bringup failed.",
+  131
+ ],
+ [
+  "Bad route_compress call sdb= [hec]",
+  175
+ ],
+ [
+  "EXCEPTION - %lu - A DLUS-defined downstream DLUR-served link failed to activate [chars]",
+  8
+ ],
+ [
+  "Error [chars] the profile file  [chars]",
+  26
+ ],
+ [
+  "msgtxt_nomemory",
+  667
+ ],
+ [
+  "[[chars]]  Firmware upgrade started in cellular slot [dec]/[dec].  Modem will reset and come up with new firmware.",
+  35
+ ],
+ [
+  "Slot [dec]  [[chars] [dec]] subcards discovery",
+  219
+ ],
+ [
+  "LC received swidb update for if_number [hec] [chars] tableid [hec].",
+  91
+ ],
+ [
+  "msgtxt_nomemory",
+  185
+ ],
+ [
+  "peer [chars] closed [previous state [chars]]",
+  283
+ ],
+ [
+  "Purge config log failed.",
+  182
+ ],
+ [
+  "CAC is already functioning and configuration modification  results in CAC inconsistency. Remove and  reapply CAC action in\n                              the class.",
+  626
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  265
+ ],
+ [
+  "[chars] [chars]",
+  510
+ ],
+ [
+  "Attempted to free nonchunk memory   chunk [hec] data [hec].",
+  2
+ ],
+ [
+  "target class-[chars] [chars] New TCP connections to host [inet][chars] no longer blocked [chars]",
+  220
+ ],
+ [
+  "Interface [chars] going down and [dec] links exist",
+  4
+ ],
+ [
+  "[chars]  MacIP inoperable IP interface [inet]",
+  346
+ ],
+ [
+  "Radian slot/unit [dec]/[dec] XLPORT INTR  [chars]",
+  56
+ ],
+ [
+  "[chars][chars]  All [chars]adjacencies cleared",
+  67
+ ],
+ [
+  "TTY [dec]  ARAP connection failed  [chars]",
+  289
+ ],
+ [
+  "Skipping upgrade for for Smart SFP in bay [dec] port [dec]  Smart SFP already running same version",
+  267
+ ],
+ [
+  "Low-memory debug exception limit=[dec] free=[dec]",
+  2
+ ],
+ [
+  "[chars] [chars]  Can not apply configuration to ISDN channel \\n \\[chars]\\",
+  49
+ ],
+ [
+  "Primary role Usurped by KS [chars] in group [chars].",
+  114
+ ],
+ [
+  "NAT mapping statistics structure from platform is nul",
+  77
+ ],
+ [
+  "Invalid BM index boolean used as argument [dec]",
+  2
+ ],
+ [
+  "Interface [chars] failed to respond debug info follows",
+  20
+ ],
+ [
+  "[chars]blk [hec] words [dec] alloc [hec] [chars] dealloc [hec] rfcnt [hec]",
+  2
+ ],
+ [
+  "Trustpoint and key deleted.",
+  47
+ ],
+ [
+  "Local redundancy mode change is not allowed for Ethernet Segment  [chars] because it has two or more forwarders.",
+  275
+ ],
+ [
+  "Number of siblings in a chunk has gone above the threshold.  Threshold [dec] Sibling-Count [dec] Chunk 0x[hec] Name [chars]",
+  2
+ ],
+ [
+  "Invalid operation type [dec] specified for an MDT data receive   decap message.",
+  22
+ ],
+ [
+  "[chars]",
+  382
+ ],
+ [
+  "Number of VRF instances already exceeded allowed limit [dec]",
+  76
+ ],
+ [
+  "High availability internal error for unique id 0x%8x  [chars]",
+  49
+ ],
+ [
+  "IOS Configuration recovery  is in progess.",
+  253
+ ],
+ [
+  "-",
+  552
+ ],
+ [
+  "Dereferencing NULL pointer [chars] in [chars]",
+  231
+ ],
+ [
+  "Transceiver RPC init failure",
+  150
+ ],
+ [
+  "Radian [dec] SCHAN [chars] fail for [chars] rc = [dec]",
+  56
+ ],
+ [
+  "[chars]  Request for creating invalid stack relationship [dec] [dec]",
+  82
+ ],
+ [
+  "The watchdog timer on slot [dec]/0 has stopped.",
+  298
+ ],
+ [
+  "cannot open file for reading '[chars]'",
+  2
+ ],
+ [
+  "Multicast hardware switching config mis-match between RP and NMP. It is likely to be disabled on the NMP",
+  402
+ ],
+ [
+  "Cannot send incremental SAP update to peer on [chars].\\n \\tIncreasing output-sap-delay may help",
+  4
+ ],
+ [
+  "NULL",
+  65
+ ],
+ [
+  "Un-installing static  route [inet]%m from [chars] routing table with outgoing interface [chars]",
+  175
+ ],
+ [
+  "Reason=[chars]",
+  152
+ ],
+ [
+  "BGP update error    [chars] Missing mandatory attribute treat-as-withdraw by   error handling",
+  85
+ ],
+ [
+  "Unit [dec] excessive collisions. TDR=[dec]",
+  337
+ ],
+ [
+  "Error Initializing novell path structure",
+  538
+ ],
+ [
+  "SEAT FC is turned on for Seat [hec] Port ID [hec] Port Index [dec]  Portinfo [hec] Last sent [dec] Last Heard [dec] Last\n                              xmitted [dec] Last  Ack [dec] Ack Pending [dec] Last Ack xmitted [dec]",
+  99
+ ],
+ [
+  "PROBLEM - %lu - Detected consistency errors in received BIND response [chars]",
+  8
+ ],
+ [
+  "\\ HTTP Client out of memory.",
+  306
+ ],
+ [
+  "Illegal event in redundant Line Card [chars] idx=[dec] state progression.",
+  108
+ ],
+ [
+  "AAA/ACCT/TIMER  Periodic update but no timer.",
+  64
+ ],
+ [
+  "Fan [dec] Functional now",
+  200
+ ],
+ [
+  "Switching to the clock on slot [dec] port [dec] line [dec]",
+  261
+ ],
+ [
+  "[chars] received on [chars] - invalid media for transparent bridging",
+  599
+ ],
+ [
+  "%%ERROR  Aborting [chars].",
+  521
+ ],
+ [
+  "Cannot verify [chars] as it is signed with special key\\n",
+  326
+ ],
+ [
+  "PM failed to create [chars].",
+  160
+ ],
+ [
+  "SNMP hostConfigSet request. Loading configuration from [inet]",
+  2
+ ],
+ [
+  "[chars] and try again.",
+  555
+ ],
+ [
+  "No binding for [chars]",
+  194
+ ],
+ [
+  "%08x %08x %08x %08x %08x %08x %08x %08x   %08x %08x %08x %08x %08x %08x %08x %08x",
+  552
+ ],
+ [
+  "INFO - %lu - Deactivating a persistent pipe because it is not required [chars]",
+  8
+ ],
+ [
+  "[dec] [dec] len [dec] flags 0x[hec] source [dec]",
+  144
+ ],
+ [
+  "Card [dec] failed to respond to heartbeat",
+  257
+ ],
+ [
+  "[chars]  connection configuration failed for VP [dec] [chars]",
+  338
+ ],
+ [
+  "No such process [dec]",
+  2
+ ],
+ [
+  "RP HA Keepalive failure [chars]",
+  253
+ ],
+ [
+  "Clock hardware returned bad residual [dec].",
+  2
+ ],
+ [
+  "CoA registration error in command processing - type '[chars]'",
+  40
+ ],
+ [
+  "Startup Configuration changed. Hash  [chars]",
+  302
+ ],
+ [
+  "Error processing TDL message. [dec]",
+  473
+ ],
+ [
+  "PROBLEM - %lu - Fatal error detected in ISR session [chars]",
+  8
+ ],
+ [
+  "Fatal PCI Error [chars] seen on PCI Bus [dec]",
+  353
+ ],
+ [
+  "intf db  [chars] [hec]",
+  34
+ ],
+ [
+  "DSP timeout on DSP [chars]  event 0x[hec] [chars]",
+  263
+ ],
+ [
+  "method list '[chars]'  [chars]",
+  49
+ ],
+ [
+  "BFD-SYSLOG  ABORT  BFD session for VRRPv3 client on interface  [chars]  NOT supported in software  handle [dec] adjacency \n                              [chars] node  [chars]",
+  28
+ ],
+ [
+  "[chars]",
+  285
+ ],
+ [
+  "[chars]  [inet] downstream  [inet] upstream  [inet]",
+  391
+ ],
+ [
+  "Error inserting node into MLDP HA radix tree",
+  78
+ ],
+ [
+  "Invalid request to create periodic accounting timer for user [chars].  Timer already exists.",
+  64
+ ],
+ [
+  "[chars] has released [chars]",
+  9
+ ],
+ [
+  "Attempt to use pool pointer with corrupt header pool= [hec]",
+  2
+ ],
+ [
+  "Maximum Egress QosContexts consumed in the Bridge-Domain",
+  27
+ ],
+ [
+  "msecs since last timeout %llu missing packets [dec]",
+  527
+ ],
+ [
+  "\\ To shutdown Gatekeeper use the \\shutdown\\ command in the  Gatekeeper mode.",
+  131
+ ],
+ [
+  "Failed to create [chars] watched queue during multicast redundancy   initialization",
+  22
+ ],
+ [
+  "Unsupported I/O Controller type [dec] in I/O Bay.",
+  109
+ ],
+ [
+  "[chars] attempted to unlock semaphore owned by [chars] PID  [dec].",
+  187
+ ],
+ [
+  "Unit [dec] babble error csr0 = 0x[hec]",
+  337
+ ],
+ [
+  "Malloc failed while initializing idb table",
+  136
+ ],
+ [
+  "Auto Upgrade Manager cannot download new image in the filesystem  where current image is running",
+  197
+ ],
+ [
+  "OSPF-[dec] Invalid reference count for [inet]",
+  66
+ ],
+ [
+  "Checkpointing receive message header transformaton failed [chars]",
+  53
+ ],
+ [
+  "Enum for [chars] [chars] component is not ISSU-compliant  [chars]",
+  239
+ ],
+ [
+  "Unable to [chars] [chars] <[chars]>",
+  435
+ ],
+ [
+  "Fails to program HW scheduler",
+  27
+ ],
+ [
+  "Process received unknown event maj [hec] min [hec].",
+  187
+ ],
+ [
+  "Unrecognizable GBIC found in [chars] module mask 0x%02x",
+  309
+ ],
+ [
+  "[chars]   [dec] MKA Session successfully completed a SAK Rekey",
+  122
+ ],
+ [
+  "Can not find lease information for interface [chars]",
+  442
+ ],
+ [
+  "ION RIB error  [chars] [dec]/[hec]",
+  175
+ ],
+ [
+  "[chars] [dec] [dec] [dec]",
+  144
+ ],
+ [
+  "[chars] error [dec]",
+  161
+ ],
+ [
+  "IPSLAs EP API  [chars] api failed  client = [chars] reason = [chars]",
+  141
+ ],
+ [
+  "Spurious unicast convergence notification received   on standby RP for table [chars].",
+  22
+ ],
+ [
+  "Master/slave watchdog timed out",
+  288
+ ],
+ [
+  "The LISP [chars] configured Local EID limit [dec] has been reached.",
+  130
+ ],
+ [
+  "Native VLAN mismatch discovered on [chars] [dec] with [chars] [chars] [dec].",
+  376
+ ],
+ [
+  "Failed to create [chars] message for [chars].",
+  106
+ ],
+ [
+  "Warning  Fan [dec] is running at low RPM.  Rotation speed is now high for all other fans.  Fan Tray replacement is recommended.",
+  200
+ ],
+ [
+  "Resuming Learn ARP entries to install in ARP table.",
+  386
+ ],
+ [
+  "Port-channel [chars] is down  bundled ports [dec] doesn't meet min-links",
+  15
+ ],
+ [
+  "DMTDSL Could not find ATM interface.",
+  678
+ ],
+ [
+  "NBAR resource manager   too many buckets [dec]",
+  42
+ ],
+ [
+  "xos_dm_wait API cannot be called by a process that does not own the XDM xdm pid  [dec] current pid  [dec]",
+  404
+ ],
+ [
+  "GM has enabled ACL on GDOI crypto map in group [chars].",
+  114
+ ],
+ [
+  "Insufficient memory for DECnet accounting entry",
+  717
+ ],
+ [
+  "Invalid checkpoint client ID [dec].",
+  53
+ ],
+ [
+  "[chars] POS [chars]. BMA_DATA[3 0]=0x[hec]. src=0x[hec] det1=0x[hec] det2=0x[hec]",
+  300
+ ],
+ [
+  "PnP Location Tag Changed [chars]",
+  60
+ ],
+ [
+  "Bandwidth in one of the children class  is greater than input bandwidth",
+  27
+ ],
+ [
+  "Maximum Tx Bandwidth limit of [dec] Kbps reached for Crypto functionality  \\ with securityk9 technology package license.",
+  48
+ ],
+ [
+  "EXCEPTION - %lu - Application sent invalid Data message [chars]",
+  8
+ ],
+ [
+  "Created map cache entry for EID prefix [chars]   under Lisp instance-id [dec] Cause  [chars]",
+  130
+ ],
+ [
+  "[chars] failed to write [chars] DM packets to configured file system",
+  35
+ ],
+ [
+  "Policy Installation in [chars] state for int[chars] peer[chars]",
+  33
+ ],
+ [
+  "\\nModem returned following error to Download End Request [chars]",
+  35
+ ],
+ [
+  "PROBLEM - %lu - CP-CP session deactivated because of excessive delay [chars]",
+  8
+ ],
+ [
+  "Could not malloc line card crash structures on PRE size=[dec]",
+  484
+ ],
+ [
+  "No route to local EID database prefix [chars].",
+  130
+ ],
+ [
+  "Received AUTHC FAIL for role[chars] int[chars]",
+  33
+ ],
+ [
+  "Unexpected event woke up LC POS link process.",
+  300
+ ],
+ [
+  "[chars] [chars][chars] [chars]authorization failure for [chars] [chars] [chars][chars][chars]",
+  21
+ ],
+ [
+  "RPC recvfrom failed",
+  249
+ ],
+ [
+  "EXCEPTION - %lu - Insufficient information to create a DLUS-defined link to a DLUR DSPU [chars]",
+  8
+ ],
+ [
+  "PROBLEM - %lu - XID exchange count exceeds nonactivation limit [chars]",
+  8
+ ],
+ [
+  "rudp [dec]  [chars][chars].",
+  318
+ ],
+ [
+  "TTY[t-line]  Managed Timers [chars] still running",
+  2
+ ],
+ [
+  "Interface [chars]  invalid power police [dec] milliwatts current [dec] mA voltage [dec] mV",
+  74
+ ],
+ [
+  "ERRMSG_FLAG_TRACEBACK",
+  482
+ ],
+ [
+  "Not enough memory available for [chars]",
+  708
+ ],
+ [
+  "Bad IP address and mask [inet]%m in class_resolve",
+  119
+ ],
+ [
+  "NAT mapping type [dec] for mapping statistics from platform is \\n\\ invalid",
+  77
+ ],
+ [
+  "[chars] still destroying old sub-interface",
+  308
+ ],
+ [
+  "Memory was not available to perform the trunk negotiation action",
+  349
+ ],
+ [
+  "Timer expired on int[chars]",
+  33
+ ],
+ [
+  "[chars] - error in [chars]",
+  231
+ ],
+ [
+  "Mac table has reached the maximum limit.Features dependent on  Mac table may have an impact.",
+  253
+ ],
+ [
+  "System was paused for %TE to ensure console debugging output.\\n",
+  2
+ ],
+ [
+  "IPC message handler registration failure rc [dec]",
+  23
+ ],
+ [
+  "Encountered an unexpected message  [chars]",
+  93
+ ],
+ [
+  "Device UDI [chars] Autonomic VRF",
+  105
+ ],
+ [
+  "Can't write [chars] to slave core socket for slot [dec]/[dec]",
+  162
+ ],
+ [
+  "Management interrupts are [chars] for pcmcia device in socket [dec]. [chars]",
+  215
+ ],
+ [
+  "EXCEPTION - %lu - A request to activate a connection network TG was rejected because a defined link was already active between\n                              the local and destination address and multiple links are not supported [chars]",
+  8
+ ],
+ [
+  "Attempt to remove a next hop from the wrong table. Attempted  [chars]   should be  [chars] prefix  [inet]",
+  175
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  501
+ ],
+ [
+  "vfc[dec] vfc dspm daughter card has an unknown id of [hec]",
+  266
+ ],
+ [
+  "Unknown SFP inserted [chars]",
+  727
+ ],
+ [
+  "Error occurred while querying the status of ATA device.  Return  [dec] stat_reg  0x[hec]",
+  255
+ ],
+ [
+  "Failed to initialise adjacency RP broker facility",
+  69
+ ],
+ [
+  "area [chars] lsid [inet] mask [inet] type [dec]",
+  66
+ ],
+ [
+  "Invalid DSPID [dec]",
+  310
+ ],
+ [
+  "[chars] failed to read cached data",
+  33
+ ],
+ [
+  "Policy Acquisition failed to transmit RADIUS request for peer[chars] sgt[chars]",
+  33
+ ],
+ [
+  "Failed to acquire package list lock for [chars]  [chars]",
+  112
+ ],
+ [
+  "Corrupt free block at [hec] magic %08x",
+  2
+ ],
+ [
+  "Removal of other DSC detected - immediate clock takeover",
+  50
+ ],
+ [
+  "Reached unknown state in neighbor state machine",
+  66
+ ],
+ [
+  "TLV parsed len [dec] > original message length [dec]",
+  105
+ ],
+ [
+  "Threshold  [chars] CPU UtilizationTotal/Intr [dec]%%/[dec]%%.",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - Insufficient resources to register adjacent LEN LU [chars]",
+  8
+ ],
+ [
+  "No [chars] operation defined for [chars] parameter [chars].",
+  470
+ ],
+ [
+  "Port [chars] has become non-trunk",
+  349
+ ],
+ [
+  "PROBLEM - %lu - Insufficient storage to register resources owned by a served end node [chars]",
+  8
+ ],
+ [
+  "DSP [dec] in subslot [chars] changed state to [chars]",
+  305
+ ],
+ [
+  "System temperature is now normal.",
+  264
+ ],
+ [
+  "QFP  [dec] [chars] memory allocation of [dec] bytes by [chars] failed",
+  284
+ ],
+ [
+  "PnP profile [chars] deleted [dec]/[dec] by [chars]",
+  60
+ ],
+ [
+  "[chars]Archaic Sendmail Attacks - from [inet] to [inet]",
+  220
+ ],
+ [
+  "Port-channel [chars] is down  bundled ports [dec] doesn't meet min-links",
+  480
+ ],
+ [
+  "Controller [dec] cmd [dec] failed 0x%-04x",
+  20
+ ],
+ [
+  "Error in statistics query and encoding in DSMIB.",
+  232
+ ],
+ [
+  "No matching [chars] found  client [chars] server [chars]",
+  103
+ ],
+ [
+  "UTD WebFilter Domain Whitelist [**] [Domain  [chars]]  [Matched Pattern  [chars]]  {[chars]} [inet] [dec] -> [inet] [dec]",
+  75
+ ],
+ [
+  "Insufficient DRAM to adequately run this IOS version. [dec]M is recommended.",
+  288
+ ],
+ [
+  "[chars]  [chars] Clock status is [chars] for clock_id [dec] on circuit  [dec]/[dec]/[dec]/[dec] [chars]",
+  107
+ ],
+ [
+  "Failed initializing wavl tree.",
+  28
+ ],
+ [
+  "Policy Installation in [chars] state for int[chars] peer[chars]",
+  33
+ ],
+ [
+  "Allocation of [chars] memory failed for SBC",
+  462
+ ],
+ [
+  "[chars] caused early termination of show output[chars]",
+  44
+ ],
+ [
+  "Bandwidth configured is greater than shapePIR of the class",
+  27
+ ],
+ [
+  "[chars] [chars]=0x[hec] [chars]=0x[hec]",
+  99
+ ],
+ [
+  "Protocol filtering disabled on interface [chars] because it is a trunk",
+  645
+ ],
+ [
+  "Bad vendor id from PLX 9060SD -- value was 0x[hec]",
+  0
+ ],
+ [
+  "Failing over from '[chars]' for client [chars] on Interface [chars]",
+  316
+ ],
+ [
+  "Logging to host [chars][chars][chars][chars]",
+  2
+ ],
+ [
+  "Peer [chars] [chars] is [chars]",
+  275
+ ],
+ [
+  "Out of marking profiles to execute command",
+  27
+ ],
+ [
+  "channel [chars] DSP ID 0x[hec] invalid hpi mode [dec] for loading codec [dec]",
+  10
+ ],
+ [
+  "Registration  incomplete config for group [chars]",
+  114
+ ],
+ [
+  "System Memory  %luK total %luK used %luK free",
+  2
+ ],
+ [
+  "Reserve memory is being created",
+  2
+ ],
+ [
+  "Cannot start timer [hex] with negative offset [dec].",
+  2
+ ],
+ [
+  "DTLS anti-replay error ipv6 src_addr  [ipv6_addr] src_port  [dec]  ipv6 dest_addr  [ipv6_addr] dst_port  [dec]",
+  357
+ ],
+ [
+  "QoS CAC  failed to allocate a cft flow object for interface [chars] srcIP=%Ci dstIP=%Ci srcPort=[dec] dstPort=[dec]  L4Prot=[dec]\n                              num flows=[dec]",
+  116
+ ],
+ [
+  "redirection url write failed '[chars]'",
+  2
+ ],
+ [
+  "Rekey failed for Session [%p] to TLSGW [[chars]]",
+  184
+ ],
+ [
+  "Extended SysId [chars] for type [chars]",
+  132
+ ],
+ [
+  "pthread_mutex_lock failed for [chars]",
+  2
+ ],
+ [
+  "fmt \\extern const struct message_ msg_ ## fac ## _ ## name",
+  54
+ ],
+ [
+  "RF progression delay timer  expired. Standby initialization will now continue",
+  253
+ ],
+ [
+  "[chars]",
+  505
+ ],
+ [
+  "[chars]   [dec] CKN was invalid while [chars] for RxSCI [chars]",
+  122
+ ],
+ [
+  "ISSU client [chars] [dec] entity [dec] message [dec] [chars]",
+  239
+ ],
+ [
+  "Ingress SONET BIP error [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "Interface [chars]  spare pair short detected",
+  74
+ ],
+ [
+  "[chars]   [dec] Unable to derive CKN for RxSCI [chars] AuditSessionID [chars]",
+  122
+ ],
+ [
+  "Unit [dec] PI %-08x %-08x %-08x %-08x %-08x %-08x",
+  129
+ ],
+ [
+  "System pausing to ensure console debugging output.\\n",
+  2
+ ],
+ [
+  "Connection id [dec] not recognized [chars]",
+  69
+ ],
+ [
+  "TCP error status [dec]",
+  9
+ ],
+ [
+  "encountered invalid parameter",
+  496
+ ],
+ [
+  "ATM SPA doesn't support true non-aggregate WRED. All non-specified  dscp/prec values will be aggregated in default WRED profile",
+  116
+ ],
+ [
+  "INFO - %lu - Link station to DSPU started [chars]",
+  8
+ ],
+ [
+  "Received AUTHC Success for peer[chars] role[chars] int[chars]",
+  33
+ ],
+ [
+  "Egress marking profiles have exceeded the maxinum number [dec]",
+  27
+ ],
+ [
+  "Error deleting upstream sid clusters CM[[enet]] docsis_prim_sid[[dec]] matches csc_sid[[dec]]",
+  46
+ ],
+ [
+  "Bad getbuffer bytes= [dec]",
+  2
+ ],
+ [
+  "ACL NAME '[chars]' | ACE SEQUENCE %ld | RESULT FAILURE | REASON '[chars]'",
+  12
+ ],
+ [
+  "Schooner SNMP SET[dec]/[dec] [chars] failed",
+  673
+ ],
+ [
+  "Interface [chars] is overdrawing power. it is consuming [dec] milliwatts where as maximum configured power is [dec] milliwatts.",
+  74
+ ],
+ [
+  "*  Interface [chars]  I knew without asking she was into the blues",
+  234
+ ],
+ [
+  "CPP[dec]  0x[hec] Failed to acquire memory lock [chars]",
+  176
+ ],
+ [
+  "Invalid current state 0x%X",
+  174
+ ],
+ [
+  "Corrupted L2SS handle [[hec]].",
+  545
+ ],
+ [
+  "Internal software error during ARP table operation for ARP entry\\n",
+  386
+ ],
+ [
+  "[chars] cached data expired",
+  33
+ ],
+ [
+  "[chars].",
+  26
+ ],
+ [
+  "[chars] [chars].\\n",
+  2
+ ],
+ [
+  "Address allocation failed for [inet] pool [chars] might be exhausted",
+  77
+ ],
+ [
+  "Exception [chars] from transaction [chars] to [chars] from client [inet]",
+  25
+ ],
+ [
+  "The peer CPU has been detected",
+  435
+ ],
+ [
+  "Attempted to free memory at [hec] not part of buffer pool",
+  2
+ ],
+ [
+  "'[chars]' failed with an error - rc = [dec] - '[chars]'",
+  161
+ ],
+ [
+  "Unknown timer type [dec] expiration",
+  4
+ ],
+ [
+  "EDSP0's LES switching vector set to [chars]",
+  378
+ ],
+ [
+  "Failed to get process Job ID from SysMgr",
+  53
+ ],
+ [
+  "Memory requested from Null Chunk",
+  2
+ ],
+ [
+  "Running invalid image for platform!",
+  2
+ ],
+ [
+  "Card removed from slot [dec] interfaces disabled",
+  219
+ ],
+ [
+  "Client id [dec] type = [dec] receive  failed error [dec]",
+  161
+ ],
+ [
+  "File copied to [chars] done [dec]/[dec] bps=[dec] [dec] bytes in [dec] ms by [chars]",
+  60
+ ],
+ [
+  "[chars] mismatch count [dec]",
+  116
+ ],
+ [
+  "Invalid count [dec] specified for PIM sync helper registration.",
+  22
+ ],
+ [
+  "[chars]",
+  44
+ ],
+ [
+  "No site configuration to accept  registration for EID prefix.",
+  19
+ ],
+ [
+  "Regular expression access check with bad list [dec]",
+  2
+ ],
+ [
+  "[chars]",
+  300
+ ],
+ [
+  "Interface serial [dec] Unexpected situation in receive ISR",
+  100
+ ],
+ [
+  "[[chars]]  SRC_IP [inet] SRC_PORT %lu DST_IP [inet] DST_PORT %lu [chars][chars] [chars] [chars]",
+  477
+ ],
+ [
+  "Stack for [chars] [chars] running low [dec]/[dec]",
+  2
+ ],
+ [
+  "Could not install the CTS trusted-root certificate.",
+  33
+ ],
+ [
+  "[chars] prefixes imported to [chars] vrf reached the limit [dec]",
+  85
+ ],
+ [
+  "Firmware download failed for slot [dec] module_mask [hec]",
+  166
+ ],
+ [
+  "Ring number mismatch on [chars] shutting down the interface",
+  218
+ ],
+ [
+  "CLSI unexpected IdStnInd header= [chars]",
+  30
+ ],
+ [
+  "System experiencing high average cpu utilization. Processing for callID[dec] is rejected.\\n",
+  528
+ ],
+ [
+  "[chars]  [chars] [chars]",
+  13
+ ],
+ [
+  "[chars][chars] timer = [hec].",
+  2
+ ],
+ [
+  "Timer callback ran long PC = [hec].",
+  2
+ ],
+ [
+  "DSIP Hello from shelf [dec] slot [dec] failed due to DSIP version mismatch",
+  506
+ ],
+ [
+  "[chars]Connection to the URL filter server [inet] is down",
+  235
+ ],
+ [
+  "SPA environmental monitoring initialization error",
+  6
+ ],
+ [
+  "EXCEPTION - %lu - Received a frame with a badly formed transmission header or a frame that is too small to be a valid SNA\n                              frame [chars]",
+  8
+ ],
+ [
+  "Maximum number of non self-generated LSA has been exceeded  \\ospf [dec]\\ - [dec] LSAs",
+  66
+ ],
+ [
+  "Number of siblings in a chunk has gone above the threshold.  Threshold [dec] Sibling-Count [dec] Chunk 0x[hec] Name [chars]",
+  2
+ ],
+ [
+  "Callback failed to accept connection from [chars][dec] to [chars][dec] --",
+  165
+ ],
+ [
+  "SXP filter rules dropped below [[dec]%%] threshold.  Reached count of [dec] out of [dec] in filter [chars].",
+  33
+ ],
+ [
+  "Config Replace is [chars]",
+  2
+ ],
+ [
+  "An inappropriate transceiver has been inserted in interface [chars].",
+  374
+ ],
+ [
+  "shutting down peer [chars] on [chars]",
+  177
+ ],
+ [
+  "SNMP netConfigSet request. Loading configuration from [inet].",
+  2
+ ],
+ [
+  "MDT entry [chars] [inet][inet] received an update for RD [chars]",
+  243
+ ],
+ [
+  "PnP Discovery trying to connect to PnP server [chars] port [dec]",
+  60
+ ],
+ [
+  "\\ CCAPI new interface is not created in [chars]\\n",
+  312
+ ],
+ [
+  "KS downloaded Policy Cleared and Fail Close policy installed  for reg_gm [chars] in group [chars]",
+  114
+ ],
+ [
+  "Logging to host [chars] port [dec] failed \\n",
+  2
+ ],
+ [
+  "No space for the IPC reply size [dec]",
+  462
+ ],
+ [
+  "PnP SDWAN ready [dec] notified by [chars]",
+  60
+ ],
+ [
+  "Process aborted on invalid signal signum = [dec].",
+  2
+ ],
+ [
+  "Receiver RLOC ATTR should be present for PIM J/P with LISP transport",
+  155
+ ],
+ [
+  "Unable to initialize the geometry of nvram",
+  2
+ ],
+ [
+  "Unknown encapsulation on  interface [chars]",
+  278
+ ],
+ [
+  "Redistribution prefix threshold has been reached \\[chars]\\ -   [dec] prefixes",
+  175
+ ],
+ [
+  "[chars]",
+  183
+ ],
+ [
+  "ISIS  [chars] [dec] index [dec]",
+  67
+ ],
+ [
+  "Sig 3102 Sendmail Invalid Sender - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Proto Client entity unreg for [chars] has failed",
+  18
+ ],
+ [
+  "Bad getbuffer bytes= [dec] for interface= [chars]",
+  2
+ ],
+ [
+  "[dec] messages",
+  371
+ ],
+ [
+  "Peer [inet] [chars] has exited a congested state.",
+  209
+ ],
+ [
+  "No message buffer specified for generic sync message info",
+  22
+ ],
+ [
+  "System Crashed Writing Core....",
+  2
+ ],
+ [
+  "Address space limit [dec] KB reached  mapping block [chars] size [dec] dynamically  over limit space  [dec] KB",
+  176
+ ],
+ [
+  "Internal Flash [chars] [chars]",
+  215
+ ],
+ [
+  "Type [dec] is invalid for collision [chars]",
+  116
+ ],
+ [
+  "EXCEPTION - %lu - SNA Switch cryptography call failed possibly due to missing password [chars]",
+  8
+ ],
+ [
+  "Invalid ACL field  [chars] is [dec]",
+  325
+ ],
+ [
+  "Failed to malloc chunk memory for [chars]",
+  23
+ ],
+ [
+  "SRC detected keep alive timeout on CMI intferace for slot [dec]",
+  356
+ ],
+ [
+  "Error deleting ruleset %S [chars].",
+  470
+ ],
+ [
+  "Multicast hardware switching mismatch recovered from earlier  config mis-match",
+  402
+ ],
+ [
+  "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n",
+  110
+ ],
+ [
+  "[chars] didn't find [hec] in queue [hec]",
+  2
+ ],
+ [
+  "cmd [dec] to [chars] slot [dec] took [dec] usecs done [hec]",
+  288
+ ],
+ [
+  "Sig 6101 RPC Port Unregistration - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Policy map [chars] has been removed.\\n  Leak debugging on interface [chars] disabled.",
+  2
+ ],
+ [
+  "[chars] Invalid confirm [chars] [chars]",
+  515
+ ],
+ [
+  "[chars]",
+  42
+ ],
+ [
+  "[chars]",
+  362
+ ],
+ [
+  "[chars]  [chars]",
+  217
+ ],
+ [
+  "Abrupt termination of tty session for [chars] [t-line]",
+  2
+ ],
+ [
+  "Failed for message size [dec]",
+  99
+ ],
+ [
+  "[[chars]]  SIM slot [dec] is Active !!",
+  35
+ ],
+ [
+  "PnP Discovery stopped [chars]",
+  60
+ ],
+ [
+  "Failed to open IPC port to peer for keystore redundancy  [chars]",
+  90
+ ],
+ [
+  "Cannot fork process [chars]",
+  49
+ ],
+ [
+  "Failed deleting node for LSP [chars] [dec] to wavl tree thread [dec] [chars]",
+  28
+ ],
+ [
+  "Bad block pointer [hec]",
+  2
+ ],
+ [
+  "Failed to exchange capability with peer",
+  116
+ ],
+ [
+  "Peer [inet] is reachable",
+  123
+ ],
+ [
+  "xos_dm_dispatch API cannot be called that does not own the XDM xdm pid  [dec] current pid  [dec]",
+  404
+ ],
+ [
+  "Unable to apply event 0x%08X",
+  174
+ ],
+ [
+  "obj  [0x%08X] event_id  [0x%08X] er_p  [0x%08X]    arg  [0x%08X] session state [chars] -> [chars]",
+  174
+ ],
+ [
+  "Layer 2 for Interface [chars] TEI [dec] changed to down",
+  73
+ ],
+ [
+  "XOS timer expired earlier than expected expiration time tree %p time [dec].[dec]",
+  404
+ ],
+ [
+  "\\ GSN  [inet] TID  %08x%08x APN  [chars] Reason  [dec] [chars]",
+  323
+ ],
+ [
+  "Process aborted on watchdog timeout process = [chars].[chars]",
+  2
+ ],
+ [
+  "\\  [chars]",
+  323
+ ],
+ [
+  "VPA-TDM access failed at [chars] - line [dec] arg1=0x%08xarg2=0x%08x",
+  282
+ ],
+ [
+  "Attempted to destroy partially full chunk   chunk 0x[hec] chunk name  \\[chars]\\.",
+  2
+ ],
+ [
+  "Unable to allocate checkpoint buffer  [chars]",
+  66
+ ],
+ [
+  "Illegal copy of [chars] access group [chars] from [chars] label [dec] to [dec]",
+  128
+ ],
+ [
+  "Low-memory debug exception limit=[dec] free=[dec]",
+  2
+ ],
+ [
+  "The aaa cache process is not created. Please configure aaa cache profile first",
+  64
+ ],
+ [
+  "PROBLEM - %lu - Adjacent node sent a TG number that was pre-assigned to another LS [chars]",
+  8
+ ],
+ [
+  "BGP failed to send update message because the IPC to support   NSR is having size less than the requested size.",
+  85
+ ],
+ [
+  "Router is currently an ASBR while having only one area which is a  stub area",
+  66
+ ],
+ [
+  "Receive only ACL received from KS [inet] in group [chars].",
+  114
+ ],
+ [
+  "[chars] from outside IOS task context",
+  2
+ ],
+ [
+  "[chars] attempted to unlock an unlocked semaphore",
+  187
+ ],
+ [
+  "Configuration session lock acquired by application '[chars]' /  process '[dec]' is being used for long time.",
+  182
+ ],
+ [
+  "session = [dec]  reason = [chars]",
+  202
+ ],
+ [
+  "Interface [chars] address-family [chars] topology context is NULL  or the function [chars] is not set",
+  57
+ ],
+ [
+  "DP REL FAIL retry count [dec] exceeded max",
+  31
+ ],
+ [
+  "Unit [dec] [chars] error",
+  129
+ ],
+ [
+  "Free a non allocated ptr [hec] size [dec].",
+  2
+ ],
+ [
+  "ISAKMP policy rsa-encr not supported by crypto HW accelerator [chars]",
+  44
+ ],
+ [
+  "Internal Error in resource allocation",
+  27
+ ],
+ [
+  "Requested memory thresholding operation on resource group failed\\n Resource Group handle  [hec] Cause  [chars]",
+  2
+ ],
+ [
+  "Router certificate expired cannot re-enroll/retry for enrollment/re-enroll",
+  47
+ ],
+ [
+  "Invalid IPC request [dec] received from [hec]",
+  451
+ ],
+ [
+  "RIB Rwatch tracked sequence number [dec] not found for   client   [chars] topoid   [hec] prefix   [chars] prefix_len   [dec]",
+  175
+ ],
+ [
+  "boot system [chars] command is skipped\\n",
+  2
+ ],
+ [
+  "Waiting for CEF initialization to complete first ... [dec]",
+  378
+ ],
+ [
+  "all-vrf maximum limit of [dec] reached for [dec].",
+  31
+ ],
+ [
+  "Port Not Found. [hec] --> [hec] Index [hec] Seq  [dec] flags  [hec] size  [dec]",
+  99
+ ],
+ [
+  "Interface [chars] is being restarted by DHCP\\n",
+  110
+ ],
+ [
+  "QFP [dec] schedule [chars] queue move operation is not progressing as  expected - seq [dec]",
+  331
+ ],
+ [
+  "SDVT-IPC message handler registration failure rc [dec]",
+  230
+ ],
+ [
+  "Warning  [chars] Temperature [dec]C Exceeds [dec]C.  Please resolve system cooling to prevent system damage.",
+  200
+ ],
+ [
+  "IP routing table limit warning - [chars]",
+  175
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  319
+ ],
+ [
+  "RSVP Message had a bad version  [dec]",
+  393
+ ],
+ [
+  "[[chars]]  SRC_IP [inet] SRC_PORT %lu DST_IP [inet] DST_PORT %lu [chars][chars] [chars] [chars]",
+  477
+ ],
+ [
+  "CI type [dec] differs from NVRAM type [dec]",
+  120
+ ],
+ [
+  "Notification timer Expired for RF Client  [chars][dec]",
+  435
+ ],
+ [
+  "Attempt to enable unsupported AFI 0x%X",
+  57
+ ],
+ [
+  "Failed to send IPC message [chars]",
+  353
+ ],
+ [
+  "AAA password restriction failed.- [chars]\\n",
+  49
+ ],
+ [
+  "[chars]",
+  516
+ ],
+ [
+  "Error initializing MVPN PE chunk",
+  243
+ ],
+ [
+  "Cannot start timer [hex] with negative offset [dec].",
+  2
+ ],
+ [
+  "Command [chars]=[chars]",
+  33
+ ],
+ [
+  "[chars] within scheduler",
+  2
+ ],
+ [
+  "Inconsistent [chars] slot %02x",
+  120
+ ],
+ [
+  "Bridging software not present",
+  2
+ ],
+ [
+  "Could not find the sibling to allocate memory from.   Chunk [chars] total free [dec] inuse [dec].",
+  2
+ ],
+ [
+  "Cache read of file [chars] failed due to file header error.",
+  33
+ ],
+ [
+  "Process masked interrupts for more than [dec] microsecs\\nProcess-Block-Time [dec] microsecs",
+  735
+ ],
+ [
+  "CM sync received [enet]msgp [enet] sid [dec] [dec] mac state [dec] hwidb [chars]",
+  244
+ ],
+ [
+  "INFO - %lu - Session limits changed [chars]",
+  8
+ ],
+ [
+  "Illegal configonisl--ondot1q on [chars]",
+  349
+ ],
+ [
+  "save_rrp_tlv_data->peer_sup_pslot [dec] my_sup_pslot [dec]",
+  1
+ ],
+ [
+  "Policy Installation success for int[chars] peer[chars]",
+  33
+ ],
+ [
+  "Interface Delete Failed [[chars]]",
+  164
+ ],
+ [
+  "Encapsulation failed for [v-name] via [v-name] on [chars]",
+  274
+ ],
+ [
+  "License bulk sync operation [chars] for feature [chars] [chars] failed on standby rc=[chars]",
+  161
+ ],
+ [
+  "FRTS  attempt to configure zero CIR",
+  260
+ ],
+ [
+  "IOS API [chars] failed",
+  258
+ ],
+ [
+  "failed to obtain the DSG semaphore",
+  98
+ ],
+ [
+  "[chars]  Running [chars]{ID=[dec]} ...",
+  153
+ ],
+ [
+  "Fails to program the ASIC for policymap [chars]",
+  27
+ ],
+ [
+  "[dec] at [chars]",
+  449
+ ],
+ [
+  "Invalid chunk header type [dec] for chunk [hec] data [hec]",
+  2
+ ],
+ [
+  "im-msn [inet] [dec] attempting to establish connection with msn  server [inet] [dec] using an unsupported version of the\n                              client",
+  61
+ ],
+ [
+  "Exhausted [chars] DMA entries for module [dec]",
+  0
+ ],
+ [
+  "Messages above this line are from the boot loader.\\n",
+  2
+ ],
+ [
+  "-",
+  141
+ ],
+ [
+  "CSMPI platform initialization failed.",
+  167
+ ],
+ [
+  "[chars] rc = [dec]",
+  106
+ ],
+ [
+  "Security violation on [chars] from [chars] [chars] - errcode [chars] [dec]",
+  154
+ ],
+ [
+  "SPA Sonet clock has recovered status = 0x%08x",
+  172
+ ],
+ [
+  "plug-in returned orphan status",
+  279
+ ],
+ [
+  "bfd_pak_coalesce - [chars] failed",
+  28
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  392
+ ],
+ [
+  "Service node %Ci changed state from [chars] => [chars] [dec] for channel [chars]",
+  230
+ ],
+ [
+  "'install commit' is success.",
+  351
+ ],
+ [
+  "Could not program hardware for propagate SGT Port SGT[dec]",
+  33
+ ],
+ [
+  "cannot [chars] sync data  [chars] [dec] [dec]",
+  695
+ ],
+ [
+  "Failed to create periodic accounting timer for user [chars]. This user may  not generate periodic accounting records.",
+  64
+ ],
+ [
+  "EXCEPTION - %lu - Failed to contact a DLUS for PU. Retry count exceeded. [chars]",
+  8
+ ],
+ [
+  "[chars]  Stop Failed at [chars]",
+  273
+ ],
+ [
+  "Accounting-Session-ID [dec] exceeded max value allowed",
+  49
+ ],
+ [
+  "Coop KS [chars] in group [chars] received Checkpoint Mismatch message.",
+  114
+ ],
+ [
+  "[chars] [dec]  Internal Error",
+  4
+ ],
+ [
+  "No space for the IPC reply size [dec]",
+  464
+ ],
+ [
+  "Router-ID [inet] is in use by ospf process [dec]",
+  66
+ ],
+ [
+  "PROCESSING FAILED",
+  183
+ ],
+ [
+  "Cannot process [chars] method [chars]",
+  49
+ ],
+ [
+  "Circuit [chars] has exited a congested state.",
+  209
+ ],
+ [
+  "[chars].",
+  2
+ ],
+ [
+  "The switchcard in RFSW for slot [dec] group [dec] is in error  with the reason [chars].",
+  733
+ ],
+ [
+  "Monitor  0x[hec]",
+  55
+ ],
+ [
+  "failure",
+  371
+ ],
+ [
+  "Interface [chars] going down and [dec] links exist",
+  4
+ ],
+ [
+  "Trustpoint [chars] installed from [chars] by [chars]",
+  60
+ ],
+ [
+  "[chars][chars] is no longer monitoring [chars] cpu at [chars] level  for the configured [chars] limit.",
+  2
+ ],
+ [
+  "ISAKMP message from [chars] larger %ld than the UDP packet length %ld",
+  44
+ ],
+ [
+  "MMLS  Communication channel between RP and SP recovered from failure",
+  402
+ ],
+ [
+  "Failed to reset csb vars",
+  52
+ ],
+ [
+  "No space remaining to save private config",
+  2
+ ],
+ [
+  "[chars] feature failed at interface [chars] due to invalid L3 MTU %lu",
+  121
+ ],
+ [
+  "Received too large TCP message type [dec] lenth [dec] > [dec]   resetting the session",
+  130
+ ],
+ [
+  "Data structure failed magic number sanity check",
+  49
+ ],
+ [
+  "Transceiver module in [chars] not fully inserted remove the transceiver  and re-insert with proper seating lock.",
+  150
+ ],
+ [
+  "ERROR PCIE-[dec]  Fatal error. ERR_DR=0x[hec] ERR_CAPT=0x[hec]  ERR_CAPT_R0=0x[hec] ERR_CAPT_R1=0x[hec]  ERR_CAPT_R2=0x[hec]\n                              ERR_CAPT_R3=0x[hec]",
+  253
+ ],
+ [
+  "The LISP [chars] EID platform limit reached. Remote EID eviction   triggered to make space for Local EIDs. The eviction\n                              will continue   till the Local EID Reserved [dec] percentage is reached.",
+  130
+ ],
+ [
+  "Trying to set unknown special character [dec] to [dec]",
+  2
+ ],
+ [
+  "Clock hardware returned bad residual [dec].",
+  2
+ ],
+ [
+  "Communication with the peer CPU  has been [chars]",
+  435
+ ],
+ [
+  "PROBLEM - %lu - BIND received with the next hop in the RSCV set to the local node again [chars]",
+  8
+ ],
+ [
+  "[chars]  NETID   [dec] [chars] Tunnel  [chars] NBMA  [chars]",
+  181
+ ],
+ [
+  "NBAR protocol-discovery is enabled on maximum number of  interfaces [dec] supported by this platform",
+  42
+ ],
+ [
+  "Invalid [chars] address [inet] in [chars]",
+  296
+ ],
+ [
+  "Unsupported Cellular NIM inserted in slot [dec]/[dec]",
+  35
+ ],
+ [
+  "Key chain [chars] [chars] for [inet] because ACL \\[chars]\\ [chars]",
+  393
+ ],
+ [
+  "The transformset [chars] for data-protection in Group [chars] is",
+  114
+ ],
+ [
+  "RP for [inet]/[dec] is now [inet]",
+  41
+ ],
+ [
+  "FR PVC status event queue error  failed to create queue",
+  260
+ ],
+ [
+  "ERRMSG_LIMIT_SLOW*15",
+  736
+ ],
+ [
+  "Questionable reset of process [dec] on tty[t-line]\\n",
+  2
+ ],
+ [
+  "Logical level queuing resource exhausted [chars]",
+  27
+ ],
+ [
+  "Invalid bandwidth configuration  cir_pct [dec]  cir_sum [dec] eir_sum [dec]",
+  46
+ ],
+ [
+  "\\n[chars]  failed rc=[chars]",
+  29
+ ],
+ [
+  "Can't initialize Secure Skinny server",
+  387
+ ],
+ [
+  "transceiver module inserted in [chars]",
+  150
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  641
+ ],
+ [
+  "[chars]  Can't set address to a multicast [enet]",
+  129
+ ],
+ [
+  "Regular expression access check with bad list [dec]",
+  2
+ ],
+ [
+  "Bad [chars] pointer [hec] at [hec] [chars] = [hec]",
+  2
+ ],
+ [
+  "IPC message handler registration failure rc [dec]",
+  158
+ ],
+ [
+  "Internal error - [chars]",
+  67
+ ],
+ [
+  "[[chars]]  SRC_IP [inet] SRC_PORT %lu DST_IP [inet] DST_PORT %lu [chars][chars] [chars] [chars]",
+  477
+ ],
+ [
+  "NMP encountered internal communication failure for [inet][inet][dec]",
+  402
+ ],
+ [
+  "Port [chars] is etherchannel member port and not supported on SPAN session  as destination port. Removal and Reconfiguration\n                                 of SPAN session needed",
+  72
+ ],
+ [
+  "PNP Discovery is not running",
+  60
+ ],
+ [
+  "\\ Extension assignment successful for phone SEP[chars]. New pool[dec]. \\",
+  299
+ ],
+ [
+  "[chars] cached data expired",
+  33
+ ],
+ [
+  "Reload requested[chars]",
+  2
+ ],
+ [
+  "Key ID [dec] in key chain [chars] does not have a key",
+  67
+ ],
+ [
+  "[chars] [chars] [chars] [chars]",
+  173
+ ],
+ [
+  "Interface [chars] - DLCI [dec] - PVC use count [dec]",
+  260
+ ],
+ [
+  "Grp [dec] Mbr [dec] [chars]  During PRE bulk syncing ignore LC failover.",
+  117
+ ],
+ [
+  "Message from tty[t-line]user id  [chars]  [chars]",
+  2
+ ],
+ [
+  "sa [enet] da [enet] ss [hec] ds [hec] [%02x%02x%02x%02x]",
+  304
+ ],
+ [
+  "INFO - %lu - SNA Switch link stopped [chars]",
+  8
+ ],
+ [
+  "Policy reference decrease on freed policy",
+  168
+ ],
+ [
+  "Package integration failed to open file  [chars] [chars]",
+  112
+ ],
+ [
+  "Lex ncp  no free Lex interface found with MAC address [enet]",
+  414
+ ],
+ [
+  "Radio[dec]/0 Link synchronization acquired.",
+  171
+ ],
+ [
+  "Invalid object VLAN [dec] IDB [hec] used in Feature Manager operation",
+  128
+ ],
+ [
+  "Detected in the transceiver module in [chars] module disabled",
+  150
+ ],
+ [
+  "-",
+  54
+ ],
+ [
+  "Queuing error for interface [chars] qid [dec] wred [hec]",
+  116
+ ],
+ [
+  "Chunk allocation failed [dec]",
+  186
+ ],
+ [
+  "Failed to set the alloc/free handler for SPA [dec]/[dec] handle",
+  106
+ ],
+ [
+  "[chars] manager init failure",
+  57
+ ],
+ [
+  "EXCEPTION - %lu - BIND race with single-session partner LU - partner LU has lost race [chars]",
+  8
+ ],
+ [
+  "[chars].",
+  26
+ ],
+ [
+  "No B channel associated with call",
+  307
+ ],
+ [
+  "Bad free magic number in chunk header  chunk [hec] data [hec] chunk_freemagic [hec]",
+  2
+ ],
+ [
+  "[chars] [chars][chars] is unreachable",
+  21
+ ],
+ [
+  "Unable to allocate [dec] byte status block",
+  278
+ ],
+ [
+  "[chars]",
+  292
+ ],
+ [
+  "[chars]",
+  300
+ ],
+ [
+  "Received Hello from [inet] on [chars] indicating a potential \\n\\  network type mismatch",
+  66
+ ],
+ [
+  "PROBLEM - %lu - Link to back-level LEN node not configured [chars]",
+  8
+ ],
+ [
+  "Freedm [chars]  Allocation of HDLC controller [dec] for channel [dec] failed",
+  324
+ ],
+ [
+  "[chars] [%08X=[chars]] [chars] [dec]",
+  203
+ ],
+ [
+  "[chars].",
+  26
+ ],
+ [
+  "[chars]",
+  23
+ ],
+ [
+  "External memory allocation of [dec] bytes failed from EXMEM [dec]",
+  2
+ ],
+ [
+  "peer [chars] closed [previous state [chars]]",
+  177
+ ],
+ [
+  "[chars]",
+  233
+ ],
+ [
+  "Failed to install P2P rekey SA with peer [chars] in group [chars]",
+  114
+ ],
+ [
+  "Time since last reboot not available",
+  2
+ ],
+ [
+  "Flow-control threshold on module [dec] has exceeded the default value.  Threshold will be set to lower value",
+  2
+ ],
+ [
+  "EXCEPTION - %lu - MS unable to allocate space for link control block [chars]",
+  8
+ ],
+ [
+  "Illegal registry call.",
+  64
+ ],
+ [
+  "[chars] failed with error code [dec]",
+  99
+ ],
+ [
+  "Sig 3153 FTP Improper Address Specified - from [inet] to [inet]",
+  238
+ ],
+ [
+  "Ring [dec]  [chars]",
+  285
+ ],
+ [
+  "CTS HA ISSU client failed to get buffer for message.  Error  [dec] [chars]",
+  33
+ ],
+ [
+  "\\ [chars]",
+  154
+ ],
+ [
+  "Invalid IDB  Slot [dec] Channel [dec]",
+  670
+ ],
+ [
+  "CPP [dec] [chars] memory recovered - [dec] percent depleted",
+  284
+ ],
+ [
+  "Critical Warning  PSU[dec] Input Voltage [dec]V is below low threshold [dec]V.  The system may not continue operation. Immediate\n                              operator action is required.",
+  200
+ ],
+ [
+  "[chars]",
+  711
+ ],
+ [
+  "Privilege level set to [dec] by[chars][chars]",
+  2
+ ],
+ [
+  "A tiff buffer is NULL",
+  156
+ ],
+ [
+  "index add for [chars] failed  [chars]",
+  524
+ ],
+ [
+  "Installing [chars] LIIN interface tableid failed",
+  379
+ ],
+ [
+  "[chars]  [dec]",
+  475
+ ],
+ [
+  "[chars]  [inet] Retcode  [dec]  Reason  [chars]",
+  391
+ ],
+ [
+  "Freedm [chars]  HDLC controller [dec] already in use on channel [dec]",
+  324
+ ],
+ [
+  "SA KEK was updated 0x%08X%08X%08X%08X",
+  114
+ ],
+ [
+  "Group [chars]  Far End Prot Failure - [chars]",
+  343
+ ],
+ [
+  "Accounting record dropped send to server failed  [chars]",
+  49
+ ],
+ [
+  "EXCEPTION - %lu - PORT_BANDWIDTH_UPDATE status = OK received [chars]",
+  8
+ ],
+ [
+  "An error [chars] occurred while reading from the software",
+  90
+ ],
+ [
+  "Non-PATable translation for [chars]  on pool [dec] orig_ip %Ci trans_ip %Ci  alg_type [dec][chars] input intf [chars] mapping\n                              id [dec] created by pkt ",
+  31
+ ],
+ [
+  "Egress Fiber Channel/ESCON Line Err [chars] [chars] [chars]",
+  164
+ ],
+ [
+  "timer heap at 0x[hec] needed to expand but hasn't",
+  2
+ ],
+ [
+  "No [chars] callback specified for client [chars][dec] msg [dec] from version [dec] to version [dec] in session [dec] .",
+  18
+ ],
+ [
+  "Generated RSA key failed self test",
+  44
+ ],
+ [
+  "DTLS anti-replay error src_addr  %Ci src_port  [dec]  dest_addr  %Ci dst_port  [dec]",
+  357
+ ],
+ [
+  "%%WARNING  Signature not found in file [chars].",
+  521
+ ],
+ [
+  "[chars] has just archived all incoming SMS to FTP server successfully.",
+  35
+ ],
+ [
+  "NULL/Invalid [chars] ifindex 0x[hec] downloaded for interface  group number [dec].",
+  108
+ ],
+ [
+  "ROM monitor variable restoration of \\[chars]\\ failed.",
+  358
+ ],
+ [
+  "Fails to program HW scheduler",
+  27
+ ],
+ [
+  "Label [[dec]/[dec]] [chars] [chars] [chars]",
+  34
+ ],
+ [
+  "IPV6 Multicast Packet received with ttl <= 1",
+  449
+ ],
+ [
+  "Not enough memory available for [chars]",
+  72
+ ],
+ [
+  "Transceiver OIR State Machine creation failed for [chars] module disabled.",
+  150
+ ],
+ [
+  "Inline Power Feature is disabled on this switch because\\n\\ Power On Self Test POST failed on this switch.\\n\\msgdef_explanation\n                              An error reported or caused by the Power over Ethernet",
+  74
+ ],
+ [
+  "Bad pointer value [chars] = [hec] in function [chars]",
+  2
+ ],
+ [
+  "Failed to initialise adjacency subblock facility",
+  69
+ ],
+ [
+  "[chars]  Get all for Path registration Failed",
+  67
+ ],
+ [
+  "heap timer at 0x[hec] has not been initialized",
+  2
+ ],
+ [
+  "Process still watching [chars] timer [hec]",
+  187
+ ],
+ [
+  "Task is running for [dec]msecs more than [dec]msecs [dec]/[dec]",
+  2
+ ],
+ [
+  "Failed attempt to enqueue sync request type [dec] in hash table",
+  22
+ ],
+ [
+  "Radius I/O buffer has overflowed",
+  49
+ ],
+ [
+  "Registration  [chars] config mismatch between KS and  the GM [inet] in the group [chars].",
+  114
+ ],
+ [
+  "Reload reason [chars]-[chars] stopped by [chars]",
+  60
+ ],
+ [
+  "Failed to parse boot command [chars] Error [dec]",
+  2
+ ],
+ [
+  "[chars]  Diagnostics is bypassed",
+  153
+ ],
+ [
+  "Malloc failed for new interface=[dec]",
+  32
+ ],
+ [
+  "No memory available  [chars]",
+  218
+ ],
+ [
+  "Package integration failed to open directory  [chars] [chars]",
+  112
+ ],
+ [
+  "SPA environmental monitoring initialization error",
+  6
+ ],
+ [
+  "Failed to create IPC port [chars] for keystore redundancy. [chars].",
+  90
+ ],
+ [
+  "BGP failed to send update message because the message buffer   size is calculated to be zero",
+  85
+ ],
+ [
+  "An invalid permissions value [chars] was found in a udev file",
+  598
+ ],
+ [
+  "[chars]",
+  452
+ ],
+ [
+  "Overflow in [chars] chars [dec] buffer size [dec]",
+  2
+ ],
+ [
+  "Transport ATTR should be present for PIM J/P with LISP transport",
+  155
+ ],
+ [
+  "[chars] [dec]",
+  222
+ ],
+ [
+  "Reload requested for card in shelf [dec] slot [dec].",
+  450
+ ],
+ [
+  "Authentication failure for SNMP request from host %P",
+  58
+ ],
+ [
+  "Disabling [chars] CEF will impact configured LISP functionality.",
+  130
+ ],
+ [
+  "IP SLA Monitor Probe [dec]  [chars]",
+  141
+ ],
+ [
+  "PROBLEM - %lu - Received BIND IPM on link where adaptive BIND pacing not supported [chars]",
+  8
+ ],
+ [
+  "condition [chars] entry number = [dec]",
+  141
+ ],
+ [
+  "Duplicate local query #[dec] for [chars] count [dec] ourbid [dec]",
+  17
+ ],
+ [
+  "EXCEPTION - %lu - Unable to create a new LDLC_CTRL instance [chars]",
+  8
+ ],
+ [
+  "Bad getbuffer bytes= [dec]",
+  2
+ ],
+ [
+  "QFP [dec].[dec] HW [chars] [chars] [chars] schedule resources depleted - [dec]%% available",
+  331
+ ],
+ [
+  "Cannot accept Quick Mode exchange from [chars] if SA is not authenticated!",
+  44
+ ],
+ [
+  "Maximum implementation message size exceeded actual [dec] maximum [dec]",
+  233
+ ],
+ [
+  "NRU OIR EPF Fifo drain failed for mac [dec] on slot [dec]",
+  106
+ ],
+ [
+  "Logging of buginf debugs was [chars]",
+  2
+ ],
+ [
+  "neighbor [inet] [chars] on interface [chars] [chars]",
+  155
+ ],
+ [
+  "Cannot create particle pool",
+  245
+ ],
+ [
+  "Wrong set of keys in [chars] message",
+  545
+ ],
+ [
+  "BGP subsystem initialization failed  [chars]",
+  85
+ ],
+ [
+  "[dec] [dec] [dec]",
+  144
+ ],
+ [
+  "CCB handover timed out CCB 0x[hec] slot [dec]",
+  20
+ ],
+ [
+  "FTP Server - new connection made.",
+  569
+ ],
+ [
+  "Attempt to shut down management process [dec] [chars].",
+  2
+ ],
+ [
+  "SNASW is not started -- unable to connect to remote database.",
+  426
+ ],
+ [
+  "[chars] to 0x[hec] 0x[hec] on list",
+  688
+ ],
+ [
+  "in_orig adr [hec] port [hec] out_trans adr [hec] port [hec] vrf [hec] prot [hec] cook %llu   rg [dec]",
+  31
+ ],
+ [
+  "rc 0x[hec] event 0x[hec] sa 0x%llx",
+  211
+ ],
+ [
+  "PROBLEM - %lu - Attach rejected because requested TP is permanently disabled [chars]",
+  8
+ ],
+ [
+  "transceiver module inserted in [chars]",
+  150
+ ],
+ [
+  "Configuration session lock is cleared by process '[dec]' user '[chars]' from  terminal '[dec]'",
+  182
+ ],
+ [
+  "GM did not receive rekey from KS [inet] in group [chars].",
+  114
+ ],
+ [
+  "Authorization State  IDB could not be retrieved  state[chars] peer[chars]",
+  33
+ ],
+ [
+  "Access interface removed  [chars] [chars] being set to outofservice.",
+  317
+ ],
+ [
+  "server [inet] on port [dec] has gone [chars]",
+  279
+ ],
+ [
+  "User [chars] failed to enter view '[chars]'.",
+  49
+ ],
+ [
+  "PROBLEM - %lu - Unable to activate RTP connection [chars]",
+  8
+ ],
+ [
+  "Attaching a service policy to a  PPP/PPPoE virtual-access interface  is not allowed when  another policy is already attached\n                              to  the subinterface to which the PPP/PPPoE  virtual-access interface is bound.\\n",
+  116
+ ],
+ [
+  "slot[dec] bay[dec] port[dec] vt[dec] sts[dec] type[dec] msg[chars] errcode[dec]",
+  514
+ ],
+ [
+  "QFP [dec].[dec] Min Rate Profile limit [dec] exceeded at [dec].",
+  331
+ ],
+ [
+  "[chars]  [chars] failed",
+  46
+ ],
+ [
+  "Bridging software not present",
+  2
+ ],
+ [
+  "half duplex operation discovered on [chars] with [chars] [chars]",
+  253
+ ],
+ [
+  "Failed deleting node for neighbor [inet] to wavl tree thread [dec] [chars]",
+  28
+ ],
+ [
+  "[chars]",
+  587
+ ],
+ [
+  "Call rejected due to CAC based on Memory usage sent response [dec]",
+  286
+ ],
+ [
+  "SSP could not initialize.",
+  342
+ ],
+ [
+  "Policy update received for old SGT [chars] new SGT[chars]",
+  33
+ ],
+ [
+  "[chars]",
+  527
+ ],
+ [
+  "Failed to get [chars].",
+  26
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  581
+ ],
+ [
+  "[chars]",
+  37
+ ],
+ [
+  "Dataplane IPV6 compression classification error for interface [chars]",
+  59
+ ],
+ [
+  "[chars]",
+  64
+ ],
+ [
+  "Initialization error",
+  6
+ ],
+ [
+  "Sig 3152 FTP CWD",
+  238
+ ],
+ [
+  "Unable to initialize LS LIB. [chars]",
+  698
+ ],
+ [
+  "Alloc fail for acl-config buffer. Disabling distributed mode on lc",
+  325
+ ],
+ [
+  "[chars]  Failed to create server list.",
+  33
+ ],
+ [
+  "Failed to allocate memory for the base fucntion table",
+  506
+ ],
+ [
+  "Only two-level hierarchy is supported on TDM/OC3/OC12 interfaces",
+  27
+ ],
+ [
+  "[chars] measured at [chars]",
+  120
+ ],
+ [
+  "Failed to duplicate active topology on standby rc=[dec] id [hec] [chars]",
+  57
+ ],
+ [
+  "Lookup failed for the flow of source_ip  [dec] dest_ip  [dec]  source_port  [dec] dest_port  [dec] l4_protocol  [dec]  class_id \n                              [dec] vrf_table_id  [dec]",
+  395
+ ],
+ [
+  "FAXMAIL- Accounting\\n\\for tty[dec] failed",
+  401
+ ],
+ [
+  "Expiring TSI [chars] has retransmit state",
+  296
+ ],
+ [
+  "Detected in the transceiver module in [chars] module disabled",
+  150
+ ],
+ [
+  "WARNING  Group [chars] [chars] configuration between Primary KS and Secondary KS  are mismatched",
+  114
+ ],
+ [
+  "[chars] return [chars].",
+  26
+ ],
+ [
+  "Sent from [chars] with invalid [chars] of [dec] bytes with source vlan [dec]  and packetsize [dec]",
+  487
+ ],
+ [
+  "Failed to encrypt type 6 password after master key change.  Password [chars] will become unusable",
+  286
+ ],
+ [
+  "Interface [chars] service audit trigger condition [dec] on channel [dec]",
+  73
+ ],
+ [
+  "Failed to read nvram - [chars].",
+  253
+ ],
+ [
+  "Slave replication messages are creating a backlog in IPC.  Some SLB objects may not be synchronized.",
+  317
+ ],
+ [
+  "module type [dec] subtype [dec]",
+  428
+ ],
+ [
+  "Peer query #[dec] for [chars] count [dec] peerbid [dec] ourbid [dec]",
+  17
+ ],
+ [
+  "'[chars]' at level [dec]",
+  2
+ ],
+ [
+  "Event [chars]Local/Remote id [dec]/[dec]Remote_host [chars] Remote_ip [chars] Group_name [chars]",
+  21
+ ],
+ [
+  "Negative padding for [chars] slots [chars] msg [dec] padded  [dec] unpadded  [dec]",
+  239
+ ],
+ [
+  "Invalid return queue bcast_id=[dec]\\n bufhdr [hec]  %08x %08x %08x %08x",
+  288
+ ],
+ [
+  "Internal error  Couldn't find neighbor while [chars]",
+  229
+ ],
+ [
+  "Error in scanning subcards in slot [dec]",
+  219
+ ],
+ [
+  "Interface [chars]  spare pair power error  TSTART",
+  74
+ ],
+ [
+  "RSA keypairs for token [chars] and associated IPSEC sessions will be deactivated in [dec] seconds",
+  44
+ ],
+ [
+  "Out of memory for IP multicast MFIB. Used  %lu Free  %lu",
+  449
+ ],
+ [
+  "[chars][chars] is seeing [chars] cpu util [dec]%% at [chars] level more than the  configured [chars] limit [dec] %%",
+  2
+ ],
+ [
+  "Wavl error",
+  272
+ ],
+ [
+  "Nonblocking IPC command queue full [dec] commands",
+  388
+ ],
+ [
+  "DOI value [dec] from SA offer from [chars] is invalid",
+  44
+ ],
+ [
+  "User [chars] locked out on authentication failure",
+  49
+ ],
+ [
+  "Bridge Assurance unblocking port [chars][chars].",
+  132
+ ],
+ [
+  "Data MDT [chars] is reused",
+  243
+ ],
+ [
+  "EXCEPTION - %lu - Dependent LU session deactivated because LU deleted [chars]",
+  8
+ ],
+ [
+  "Maximum number of traps exceeded the maximum allowed in the current  sync-message to STANDBY",
+  58
+ ],
+ [
+  "Bad block pointer [hec]",
+  2
+ ],
+ [
+  "[chars] [chars]",
+  149
+ ],
+ [
+  "[chars]",
+  152
+ ],
+ [
+  "Privilege level set to [dec] by[chars][chars]",
+  2
+ ],
+ [
+  "[[chars]]  wcdma-all band not supported",
+  35
+ ],
+ [
+  "Buffer [hec] linked to itself in free pool [chars]",
+  2
+ ],
+ [
+  "Process [chars] top-level routine exited",
+  2
+ ],
+ [
+  "Attempt to move [enet] from [[chars]] to [[chars]] shutting down the latter",
+  137
+ ],
+ [
+  "Variable [chars] not set properly in the routine [chars].",
+  2
+ ],
+ [
+  "ERRMSG_NOFLAGS",
+  699
+ ],
+ [
+  "Relay failed for RFSW.",
+  733
+ ],
+ [
+  "UTD-Invalid request [chars] [dec] while context is down",
+  75
+ ],
+ [
+  "[chars]",
+  80
+ ],
+ [
+  "The server-group \\[chars]\\ is not defined. Please define it.",
+  64
+ ],
+ [
+  "Alignment log is full - no new entries will be recorded",
+  333
+ ],
+ [
+  "Failed to create [chars] watched boolean during multicast redundancy   initialization",
+  22
+ ],
+ [
+  "[chars] unable to remove index %08X",
+  232
+ ],
+ [
+  "Half-duplex loopback detected collision threshold exceeded on [chars].",
+  124
+ ],
+ [
+  "Unable to launch TE NSR FSM Process.",
+  174
+ ],
+ [
+  "[chars]",
+  301
+ ],
+ [
+  "Software crypto POST FAIL SCP message send failed",
+  33
+ ],
+ [
+  "Telnet access allowed due to romvar  SR_INIT_SHELL",
+  379
+ ],
+ [
+  "DSIP Hello from shelf [dec] slot [dec] Succeeded",
+  506
+ ],
+ [
+  "Cmd failed  [chars] response %#04x [chars]",
+  20
+ ],
+ [
+  "The argument is not valid - [chars]",
+  23
+ ],
+ [
+  "EXCEPTION - %lu - Failed to adjust a buffer pool [chars]",
+  8
+ ],
+ [
+  "Create node message received for duplicate node '[dec]'",
+  112
+ ],
+ [
+  "Authentication failure for SNMP req from host [inet]",
+  58
+ ],
+ [
+  "CPP [dec].[dec] unresolved fault detected initiating crash dump.",
+  186
+ ],
+ [
+  "Excessive FCS data or idle word errors found on interface [chars]",
+  374
+ ],
+ [
+  "Fixing [chars] by setting to default [chars]",
+  288
+ ],
+ [
+  "Couldn't start tempeature enviroment monitoring process",
+  555
+ ],
+ [
+  "Error initializing MVPN BGP Leaf AD Update chunk",
+  243
+ ],
+ [
+  "DSP timeout on event 0x[hec]  DSP ID=0x[hec]  [chars] call mode=[dec]",
+  248
+ ],
+ [
+  "Duplicate [chars]MAC address [enet] EVI [dec] [chars] [dec] detected on [chars] and [chars]",
+  275
+ ],
+ [
+  "Slot [dec] Module numbers [chars] are running default IOS image file [chars] not found in flash",
+  0
+ ],
+ [
+  "%08x  %08x %08x %08x %08x %08x %08x",
+  2
+ ],
+ [
+  "Invalid register tunnel mode [dec].",
+  155
+ ],
+ [
+  "No lnx entry for macaddr [enet]",
+  439
+ ],
+ [
+  "[chars]",
+  134
+ ],
+ [
+  "Invalid pid [dec] in block  [hec]",
+  2
+ ],
+ [
+  "Internal warning [chars]",
+  198
+ ],
+ [
+  "UTD-Invalid IPC length [dec] [dec] len [dec] flags 0x[hec] source [dec]",
+  75
+ ],
+ [
+  "Username  [chars] Privilege level  [dec]  Command  [chars]",
+  64
+ ],
+ [
+  "[chars]  [chars]",
+  217
+ ],
+ [
+  "Instance [dec] Peer [dec] Up [dec] Valid [dec] Switch [dec] Role [chars]  PeerRole [chars]  [chars]",
+  1
+ ],
+ [
+  "ACL labels are out-of-sync on interface [chars]  label [dec] is not available on asic [dec]",
+  223
+ ],
+ [
+  "SAP negotiation for int[chars] - Received message 2 with lower version[dec]",
+  33
+ ],
+ [
+  "AppleTalk error  [chars]",
+  346
+ ],
+ [
+  "[chars]",
+  271
+ ],
+ [
+  "Data does not match expected internal representation",
+  602
+ ],
+ [
+  "-Traceback= [chars]",
+  333
+ ],
+ [
+  "Shape value is greater than parent class's shape or interface's speed",
+  27
+ ],
+ [
+  "Can't create process with start address = [hec]",
+  2
+ ],
+ [
+  "Key ID [dec] in key chain [chars] is invalid",
+  66
+ ],
+ [
+  "Warning  [chars] Temperature [dec]C Exceeds [dec]C.  Please resolve system cooling.",
+  200
+ ],
+ [
+  "[chars]\\n \\tconnection id=[dec] sequence number=%lu\\n",
+  44
+ ],
+ [
+  "Nonvolatile storage configured from [chars]",
+  2
+ ],
+ [
+  "Buffer in list ptr= [hec] caller= [hec]",
+  2
+ ],
+ [
+  "Policy Acquisition success for peer[chars] sgt[chars]",
+  33
+ ],
+ [
+  "Duplicate Address [chars] advertised by peer [chars] is already bound to [chars]",
+  148
+ ],
+ [
+  "In function [chars] The maximum number of users for a shared window has been exceeded",
+  290
+ ],
+ [
+  "[chars]  [chars] [chars] [chars] [chars] [chars]",
+  181
+ ],
+ [
+  "Warning  Server [chars] is not defined.",
+  64
+ ],
+ [
+  "No response to challenge issued to [inet] for key ID %*s",
+  393
+ ],
+ [
+  "[chars] port [dec] link changed state to down",
+  101
+ ],
+ [
+  "[chars][chars]  [chars]",
+  311
+ ],
+ [
+  "CXSC-IPC [chars] [dec] send failed [dec]",
+  547
+ ],
+ [
+  "PnP config archive not supported [dec]/[dec] on this platform yet [chars]",
+  60
+ ],
+ [
+  "Maximum penalty [dec] is less than suppress penalty [dec]",
+  85
+ ],
+ [
+  "[chars]%08X  Acct db for Id %08X absent",
+  49
+ ],
+ [
+  "Interface [chars] no buffer available to [chars]",
+  421
+ ],
+ [
+  "Memory allocation of [dec] bytes failed from [hex] alignment [dec] \\n  Pool  [chars] Free  [dec] Cause  [chars] \\nAlternate\n                              Pool  [chars] Free  [dec]   Cause  [chars] \\n",
+  2
+ ],
+ [
+  "Reconciliation for slot [dec] timeout",
+  46
+ ],
+ [
+  "Alignment fixup @ PC=%p #hits=[dec] fault addr  %p.",
+  176
+ ],
+ [
+  "Slot [dec] after [dec] Failures",
+  102
+ ],
+ [
+  "Failed initializing [chars] wavl tree.",
+  243
+ ],
+ [
+  "[chars]  Received truncated HAPI message  tlen=[dec] actual=[dec]",
+  370
+ ],
+ [
+  "Supplied [chars] space control block is NULL. [chars]",
+  697
+ ],
+ [
+  "No Active Port In Group [chars]",
+  343
+ ],
+ [
+  "Block [hec] on free list [dec] in use",
+  2
+ ],
+ [
+  "Could not allocate valid session handle",
+  54
+ ],
+ [
+  "NTI ISSU received an invalid message for transformation from endpoint  0x[hec]",
+  63
+ ],
+ [
+  "Message dropped [chars]",
+  194
+ ],
+ [
+  "[chars] appears uninitialized",
+  33
+ ],
+ [
+  "QoS CAC  failed to get a flow lock for interface [chars] srcIP=%Ci dstIP=%Ci srcPort=[dec] dstPort=[dec]  L3Prot=[dec] L4Prot=[dec]",
+  116
+ ],
+ [
+  "Card crashed in slot [dec]/[dec].",
+  298
+ ],
+ [
+  "Bay [dec]  [chars]",
+  172
+ ],
+ [
+  "Error on member switch [dec] error_code = [dec]",
+  26
+ ],
+ [
+  "Could not open the file provided in URL  <[chars]>",
+  704
+ ],
+ [
+  "Unexpected connection-id parameter   Expecting [chars] when encoding [chars]",
+  69
+ ],
+ [
+  "Function [chars]  value [hex] passed in parameter [chars]",
+  2
+ ],
+ [
+  "MACsec is not supported on supervisor HW version [dec] in slot [dec]",
+  137
+ ],
+ [
+  "Unknown socket protocol [dec]",
+  2
+ ],
+ [
+  "Process aborted on watchdog timeout process = [chars].[chars]",
+  2
+ ],
+ [
+  "[chars]",
+  475
+ ],
+ [
+  "[chars] Could not locate class group [chars] zone_pair id [dec] [chars]  cg id  [dec]",
+  151
+ ],
+ [
+  "Root Changed for [chars] [dec]   New Root Port is [chars]. New Root Mac Address is [enet]",
+  132
+ ],
+ [
+  "Key in the certificate and stored key does not match for Trustpoint-[chars].",
+  47
+ ],
+ [
+  "NDB state change  [inet]%m [hec]->[hec] [dec]->[dec] [hec] refcnt [dec] tid [dec] cnt [dec]",
+  175
+ ],
+ [
+  "Domain certificate of device Addr [chars] has been renewed",
+  105
+ ],
+ [
+  "[chars] Invalid ret code 0x[hec] [chars] [chars]",
+  241
+ ],
+ [
+  "[chars]  sent [chars] to [[dec]][inet]",
+  283
+ ],
+ [
+  "ISIS  [chars] in [hex] ndb_next [hex] ndb_prev [hex] lsp_next [hex]   lsp_prev [hex] metric [hex] route type [chars] index\n                              [dec] [chars] [hex]",
+  67
+ ],
+ [
+  "SCVIF pair db entry delete for interface [chars] failed",
+  71
+ ],
+ [
+  "Received * [inet] Join from [inet] for invalid RP [inet]",
+  155
+ ],
+ [
+  "AAA/ACCT/TIMER  Periodic update but no timer.",
+  64
+ ],
+ [
+  "NULL Bearer Timer [chars] Current NULL Bearer count [dec] Total NULL Bearer count [dec] Profile id [dec] PDN ID [dec]",
+  35
+ ],
+ [
+  "Access VRF removed  [chars] [chars] being set to outofservice. Access VRF \\n\\ configuration has been removed.",
+  317
+ ],
+ [
+  "[chars]  RG-info conversion  failed [dec].",
+  272
+ ],
+ [
+  "AAA password restriction failed.- [chars]\\n",
+  49
+ ],
+ [
+  "Attempt to delete an IPC message 0x[hec] a second time",
+  99
+ ],
+ [
+  "Failed to set socket option. Option   [chars]",
+  47
+ ],
+ [
+  "Loveletter length exceeds max [dec] bytes",
+  571
+ ],
+ [
+  "[chars] suspended  PAgP not enabled on the  remote port.",
+  15
+ ],
+ [
+  "Invalid BM index boolean used as argument [dec]",
+  2
+ ],
+ [
+  "\\nHDLC ISSU  send message failed rc = [dec]\\n",
+  185
+ ],
+ [
+  "Send type [dec] to [inet] timed out",
+  104
+ ],
+ [
+  "classifier <[chars]> is put into conflict state because of errors",
+  98
+ ],
+ [
+  "Recursive erase [dec] [hec]/[hec] [hec]",
+  175
+ ]
+]

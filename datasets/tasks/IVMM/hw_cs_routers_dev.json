@@ -1,0 +1,4951 @@
+[
+ [
+  [
+   " The number of quiet 802.1x users is reaching the max. (Threshold=[Threshold]%, UserNum=[UserNum], Lower Threshold=[LowerThreshold]%, Upper Threshold=[UpperThreshold]%, Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting the CA certificate file ([FileName]) failed. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Router IDs conflictionis recovered. (ProcessId=[integer], AreaId=[ipaddr], OldRouterId=[ipaddr],NewRouterId=[ipaddr])",
+   "eid id address type is invalid"
+  ],
+  0
+ ],
+ [
+  [
+   "RSVP GR neighbour statechanged from end to normal on the restarting node. (NeighbourAddress=[IPADDR])",
+   "%08x %08x %08x %08x %08x %08x %08x %08x"
+  ],
+  1
+ ],
+ [
+  [
+   " BGP received an invalid message, and the invalid content ranged from [MIN] to [MAX] bytes. (VpnInstance=[VpnInstance], Peer=[peer-address], PacketType=[pkt-type], PacketContent=[pkt-content], SourceInterface=[SourceInterface])",
+   "[chars] Inconsistent [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "The password has expired, so the local account [STRING] becomes invalid.",
+   "User [chars] unlocked by [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The HWTACACS accounting server (IP [STRING])  is forced up.",
+   "Warning  Server [chars] [dec] is still  referenced by server group."
+  ],
+  1
+ ],
+ [
+  [
+   " The oldperformance file [STRING] was deleted because the number of filesreached the upper limit.",
+   "\\ HTTP out of memory."
+  ],
+  0
+ ],
+ [
+  [
+   "On the interface [interface-name], PPP link was closed because CHAP authentication failed.",
+   "Multilink fastsend reentered bundle [chars] [chars] packet discarded"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number ofIPv6 prefixes in the VPN instance exceeded the maximum value. (VpnInstanceName=[octet],PrefixCount=[Integer], MaxValue=[Integer])",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   " The event starts at [StartTime], stops at [EndTime], and event state is [EventState](InstanceTypeName=[InstanceTypeName], InstanceTypeId=[InstanceTypeId], InstanceName=[InstanceName], MeasureId=[MeasureId], MeasureName=[MeasureName]). In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Failed to set VLAN [dec] to a [chars] VLAN"
+  ],
+  1
+ ],
+ [
+  [
+   " Configuration file was changed. (LogIndex=[LogIndex], SrcCmd=[SrcCmd], SrcData=[SrcData], DestData=[DestData], TerUser=\"[TerUser]\", SrcAddr=[SrcAddr], ConfigChangeId=[ConfigChangeId], LogTime=[LogTime], CfgBaselineTime=\"[CfgBaselineTime]\")",
+   "invalid site name size is configured"
+  ],
+  1
+ ],
+ [
+  [
+   " Realm [realm_name] failed to obtain CRL through LDAP. The reason for failure is [reason_for_failure].",
+   "GDOI group [chars] policy has changed.  Use 'crypto gdoi ks rekey' to send a rekey  or the changes will be send in the next\n                              scheduled rekey"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The security level of pkcs1 is low.",
+   "tacacs-server host CLI will be deprecated soon. Please move to  tacacs server <name> CLI"
+  ],
+  0
+ ],
+ [
+  [
+   " HA peer delete. (protocol address=[STRING], IfIndex=[GAUGE])",
+   "Active IOS version differs from standby IOS version"
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting CA certificate file ([file_name]) succeeded.",
+   "No register tunnel IDB found for RP [inet]. Can't execute  pending delete"
+  ],
+  0
+ ],
+ [
+  [
+   " Realm [realm_name] failed to get local certificate through [protocol].",
+   "PKCS #12 import failed for trustpoint  [chars]. Reason  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to powerthe board in slot [ULONG1] because the remaining power is insufficient.The requested-power is [ULONG2]W, while the available rated poweris [ULONG3]W and the available overcurrent protection power is [ULONG4]W.",
+   "  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "The cleanup timer of RSBexpired. (IngressLsrId=[IPADDR], TunnelId=[USHORT], EgressLsrId=[IPADDR],LspId=[USHORT], LastRecRefreshTime [ULONG] [ULONG] [ULONG](Hour Minute Second),CleanupTime=[ULONG](Second))",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   " Succeeded in getting CRL ([CRLName]) in domain ([DomainName]) using [Service] automatically. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "CEF has been disabled due to a low memory condition.  It can be re-enabled by configuring \\ip cef [distributed]\\"
+  ],
+  0
+ ],
+ [
+  [
+   " OSPF [ProcessId] enter helper successful",
+   "Interface [chars] does not have an SNMP MIB ifIndex and has been disabled"
+  ],
+  1
+ ],
+ [
+  [
+   " One log file was deleted due to aging. (LogFileName=[LogFileName])",
+   "Update received on a linecard for a deleted tunnel[chars] -"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of existed routing entries exceeded the global upper threshold.(LimitType=[LimitType], AddressFamily=[AddressFamily], CurrentCount=[CurrentCount], LimitCount=[LimitCount], ThresholdCount=[ThresholdCount], ReasonType=[ReasonType]) In LS mode, this log is supported only by the service LSs.",
+   "PIM Dense Mode is not recommended and needs to be replaced with PIM    Sparse Mode"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Private alarm table [alram-line-index]monitors [description] with the sample type being [sample-type], andthe sampled alarm value [alarm-value] is less than or equal to [alarm-upper-limit].",
+   "Memory boundary violation"
+  ],
+  0
+ ],
+ [
+  [
+   "The protocol on interface [interface-name]became DOWN because the negotiation of all the bundle links failed.",
+   "SSH [chars] Incorrect process waiting for event. Process name  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Importing CA certificate file ([file_name]) succeeded.",
+   "Unknown API type [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to login. (Ip=[IpAddress],UserName=[UserName],Times=[Times],AccessType=[AccessType],VpnName=[VpnName])",
+   "Cannot allocate [chars] label for VLAN [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The gateway assigned by a DHCP server changed. (Client InterfaceName=[ClientInterfaceName], ServerId=[ServerId], Old Gateway=[OldGateway], New Gateway=[NewGateway])",
+   "timer services failed to start"
+  ],
+  0
+ ],
+ [
+  [
+   "The recovery timer ofneighbor [neighbor-address] was started.",
+   "[chars]  [chars] [chars] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The crl is invalid. (CrlIssuer=[issuer], CrlStartTime=[start-time], CrlFinishTime=[finish-time])",
+   "OCSP response status failed \\n Reason   [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "Physical interface type changed. (InterfaceName=[STRING], InterfaceIndex=[STRING], PreviousPhysicalInterfaceType=[ULONG], CurrentPhysicalInterfaceType=[ULONG])",
+   "Can not allocate memory for area structure"
+  ],
+  1
+ ],
+ [
+  [
+   " PTP attribute mismatching at both ends. (ClockChassisId=[ClockChassisId], PtpPortIfIndex=[PtpPortIfIndex], PtpPortName=[PtpPortName], AlarmReason=[AlarmReason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] master address new [chars] old [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The state of VRRP changedfrom master to other state. (VrrpIfIndex=[VrrpIfIndex], VrId=[VrId],IfIndex=[IfIndex], IPAddress=[IPAddress], NodeName=[NodeName], IfName=[IfName],CurrentState=[CurrentState], ChangeReason=[ChangeReason])",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " LOCAL certificate ([subject_name]) will expire in [day] days.",
+   "\\ HTTP Client Cache Init out of memory."
+  ],
+  0
+ ],
+ [
+  [
+   "The system is comparingcompatibility ID.",
+   "val 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] The number of routes received from the BGP peer decreased belowthe alarm threshold. (InstanceId=[gauge], Afi=[integer], Safi=[integer],PeerType=[integer], PeerRemoteAddr=[binary], MaxRouteNum=[gauge],AlarmThreshold=[gauge])",
+   "Neighbor record not committed - malloc failure"
+  ],
+  0
+ ],
+ [
+  [
+   " Ipsec OPR route inject failed, please check the confication (peer address=[peeraddress], mask=[mask], nexthope=[nexthopeaddress], ifindex=[ifindex], vsysname=[vsysname],priority=[priority]).",
+   "an invalid vlan cookie was detected"
+  ],
+  0
+ ],
+ [
+  [
+   " LSAs change frequentlynow. (ProcessId=[USHORT], AdvertiseRouterId=[IPADDR], TotalCount=[ULONG],BeginTime=[STRING], EndTime=[STRING], Type-1LsaCount=[ULONG], Type-2LsaCount=[ULONG],Type-3LsaCount=[ULONG], Type-4LsaCount=[ULONG], Type-5LsaCount=[ULONG],Type-7LsaCount=[ULONG], Type-9LsaCount=[ULONG], Type-10LsaCount=[ULONG],Type-11LsaCount=[ULONG])",
+   "Standby synchronization error  could not add lsa type [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   "When deciding whether to save the server's public key [key-name], the user chose [Y/N].",
+   "Bad packet length [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " PIM receives an Invalid Join/Prune message. (GroupMappingOrigin=[GroupMappingOrigin], GroupMappingAddrType=[GroupMappingAddrType], GrpAddr=[GrpAddr], GrpPfxLen=[GrpPfxLen], GroupMappingRPAddrType=[GroupMappingRPAddrType], RPAddr=[RPAddr], GroupMappingPimMode=[GroupMappingPimMode], InvJPAddrType=[InvJPAddrType], InvJPOriginAddr=[InvJPOriginAddr], InvJPGrpAddr=[InvJPGrpAddr], InvJPRpAddr=[InvJPRpAddr], NbrIfIndex=[NbrIfIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrUpTime=[NbrUpTime], NbrName=[NbrName], PimInstanceID=[PimInstanceID], PimInstanceName=[PimInstanceName]) In LS mode, this log is supported only by the service LSs.",
+   "Failed to find the mvrf associated with IDB [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "User timeout. (UserName=[STRING], IPAddr=[STRING])",
+   "Local Reset happened due to line termination/disconnection"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Session changes to UP. (Index=[integer],ConfigurationName=[octet], PeerIp=[ipaddr], BindIfIndex=[integer],BindIfName=[octet], Diagnosis=[integer], BindVrfIndex=[integer], BindVpnName=[octet],SessionType=[integer], DefaultIp=[integer], BindType=[integer], StaticLspName=[octet],PwSecondary=[integer], NextHop=[ipaddr], VcId=[integer], VsiName=[octet],VsiPeerAddress=[ipaddr], DiscrAuto=[integer], PeerIpv6=[ipv6addr],Ipv6NextHop=[ipv6addr])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The VRRP status changed from master to another state. (ifIndex=[ifIndex], VrId=[VrId], MasterIpAddr=[MasterIpAddr], sysName=[sysName], ifName=[ifName], CurrentState=[CurrentState], ChangeReason=[ChangeReason]) In LS mode, this log is supported only by the service LSs.",
+   "Internal error [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF backup receives switch event from RM. (SlaveHsbState=[ULONG])",
+   "GVRP can't be enabled because [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Manually obtaining CRL [file_name] through [protocol]...",
+   "The OCSP Server [chars]  responder certificate validation failed"
+  ],
+  1
+ ],
+ [
+  [
+   "Received the first bad LSA within an interval of 15 minutes. (ErrorType=[STRING],ErrorInformation=[STRING], ProcessId=[USHORT], InterfaceName=[STRING],LsaType=[USHORT], AdvertisingRouter=[IPADDR], LinkStateId=[IPADDR],Count=[ULONG], LsaContent=[STRING])",
+   "Received CEF Adjacency updation request on different interfaces   [inet] on [chars]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " Duplicate OPEN was received from the peer, and the GR capability for this peer was detected. (Peer=[peer-address], VpnInstance=[VpnInstance], SourceInterface=[SourceInterface])",
+   "expected seq_num 0x[hec] rcvd seq_num 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]The board forwarding engine resources fell from the threshold. (EntPhysicalindex=[INTEGER],EntPhysicalName=[OCTET], Reason=[INTEGER])",
+   "Send type [dec] to [inet] timed out"
+  ],
+  0
+ ],
+ [
+  [
+   " CES Traditional Components Config Restore Status Changed. (AppName=[AppName],CurrentStatus=[CurrentStatus])",
+   "Invalid Host access entry event [dec] is received"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to check in ISSUswitch phase.",
+   "Insufficient memory for slot  [dec] in shelf  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "The OSPF backup module received the ISSU_SMOOTH_OVER event from the ISSU management module.",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of thediscarded DHCPv6 request packets that do not match the binding tableexceeds the threshold on the interface. (Interface=[OCTET], VlanID=[INTEGER],LastDroppedSourceMac=[OCTET], DiscardedNumber=[INTEGER])",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of statisticalindexes has reached the upper limit.",
+   "Port [chars] consistency has been restored IDB state  [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   " The alarm indicating NCP negotiation failure on the local interface was cleared. (IfName=[ifName], hwPppNcpName=[hwPppNcpName]) In LS mode, this log is supported only by the service LSs.",
+   "Falling trap is generated because the value of [chars] has fallen below\\n\\the falling-threshold hc value %llu"
+  ],
+  0
+ ],
+ [
+  [
+   " The SFTP server received an operation request from a client. (UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName], Request=[Request], Result=[Result])",
+   "Attempt to learn [enet] on [chars] caused system   limit [dec] to be exceeded."
+  ],
+  0
+ ],
+ [
+  [
+   "The status of the NSSA translator is set to [STRING]. (ProcessId=[USHORT], AreaId=[IPADDR])",
+   "Dropped a packet for QoS CAC when exporting flow records via HSL  to the control plane"
+  ],
+  0
+ ],
+ [
+  [
+   "On the interface [interface-name], IPCP negotiation failed because the peer IP address was the same as the IP address of a local interface.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " The interface of OSPF [ProcessId] BFD sync-state changed.(IfName=[IfName], Sync-state=[SyncState], changeReason=[ChangeReason]) In LS mode, this log is supported only by the service LSs.",
+   "Reply for non-existent request [dec] on queue"
+  ],
+  0
+ ],
+ [
+  [
+   "The STELNET server is not started.Use the command' stelnet server enable' to start it.",
+   "Bad packet length [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The numberof public IPv4 prefixes falls below the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Bad authentication from [inet] group [dec] type [dec] expected [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The numberof public IPv6 prefixes falls below the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Number of prefixes received from [chars][chars][chars] afi [dec] reaches [dec] max [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]  The status of the non-virtualneighbor changes. (NbrIpAddress=[neighbor-ip-address], NbrAddressLessIndex=[neighbor-interface-index],ProcessId=[process-id], AreaId=[area-id], IfnetIndex=[interface-ifnet-index],LocalIfIpAddress=[local-ip-address], ProcessId=[process-id], RouterId=[router-id],NbrRtrId=[neighbor-router-id], NbrState=[neighbor-state], IfName=[interface-name],InstanceName=[instance-name], NbrChgReason=[NbrStateChangeReason])",
+   "[chars] LSA [dec]/[inet]/[inet] freed while linked to srms entry [inet]/[dec] range [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " LDP session authentication failed. (PeeId=[PeerID], TcpConnSocket=(FD=[TcpFD],PipeID=[TcpPipedId]), RetCode=[RetCode]) In LS mode, this log is supported only by the service LSs.",
+   "Reset of established LDP session required to propagate [chars]\\n change to peers that don't support Dynamic Announcement"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of mac quiet users reached the maximum. (Spec of User Num=[SpecofUserNum], Current Threshold=[CurrentThreshold], Lower Threshold=[LowerThreshold], Upper Threshold=[UpperThreshold], Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+   "[chars]  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the interface exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "Function [chars] in DHCP client failed to initialize  [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " The prefix-sid conflict is resolved.(SrProtocol=[hwSrProtocol], SrProcessId=[hwSrProcessId], SrPrefixSid=[hwSrPrefixSid], SrPrefixAddress=[hwSrPrefixAddress], SrPrefixAddressMask=[hwSrPrefixAddressMask], SrConflictType=[hwSrConflictType], SrConflictState=[hwSrConflictState]) In LS mode, this log is supported only by the service LSs.",
+   "Doubly linked list prev linkage is NULL [hec]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] An IP addresshas been changed. (OldIpAddress=[IPADDR], NewIpAddress=[IPADDR], IfIndex=[INTEGER],OldIpMask=[IPADDR], NewIpMask=[IPADDR], InterfaceName=[STRING])",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The session went down. (PeerID=[PeerID], HelloSendCount=[HelloSendCount], HelloRecvCount=[HelloRecvCount], LastHelloSendTime=[LastHelloSendTime], LastHelloRecvTime=[LastHelloRecvTime]) In LS mode, this log is supported only by the service LSs.",
+   "DTLS anti-replay error ipv6 src_addr  [ipv6_addr] src_port  [dec]  ipv6 dest_addr  [ipv6_addr] dst_port  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting the CRL file ([FileName]) successfully. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "mismatched IPX network numbers. Ours = [hec] theirs = [hec]"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",PIM left the GR status. The reason code was [reason-code]. (FlCode=[STRING][ULONG])",
+   "Managed timer wakeup received by the PIM register tunnel  creation process with no expired timers."
+  ],
+  1
+ ],
+ [
+  [
+   "On the interface [interface-name], IPCP negotiation failed because the peer IP address is invalid.",
+   "Lex ncp  no free Lex interface found with MAC address [enet]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of IPv6 prefixes in the VPN instance exceeded the threshold. (VpnInstanceName=[octet], PrefixCount=[Integer], Threshold=[Integer])",
+   "Unexpected Call on [chars]. Current  state is [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " The rate of DHCPV6 packetsexceeds the speed limit. [INTEGER] packets have been discarded.",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " NMSHeartbeat was sent successfully.",
+   "SNMP MIB Sync Failure  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Statistics about incorrect messages received by the session. (MyPid=[MyPid], PeerLsrId=[PeerLsrId], LocalLsrId=[LocalLsrId], RcvAbnormMsgType=[RcvAbnormMsgType], RcvAbnormMsgNum=[RcvAbnormMsgNum]) In LS mode, this log is supported only by the service LSs.",
+   "\\n[chars]  failed rc=[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance [vpn-instance-name],the invalid source address [source-address] was ignored, the packetreceived from the interface [interface]. (FlCode=[STRING][ULONG])",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  0
+ ],
+ [
+  [
+   " The client list was refreshed. (hwPtpAdaptiveClientIpList=[hwPtpAdaptiveClientIpList], hwPtpAdaptiveClientIpChangeFlag=[hwPtpAdaptiveClientIpChangeFlag], hwPtpAdaptiveClientIndex=[hwPtpAdaptiveClientIndex], hwPtpAdaptiveClientId=[hwPtpAdaptiveClientId]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "Cannot create subblock for interface [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]  The LSDB overflows. (ProcessId=[process-id],RouterId=[router-id], ExtLsdbLimit=[lsa-limit], InstanceName=[instance-name])",
+   "Size should be > 0 but it is [dec]."
+  ],
+  0
+ ],
+ [
+  [
+   "The number of routes in IPv6[vpn-instance-name]was [current-number], which exceeded the alarm threshold [threshold-value].(InstanceId=[ULONG], MaximumRouteLimit=[ULONG])",
+   "Out of buffers in RM event buffer queue"
+  ],
+  1
+ ],
+ [
+  [
+   " The user chose [Y/N] when deciding whether to execute the command \"[command]\".",
+   "Learned ARP entries have reached to threshold level %lu"
+  ],
+  1
+ ],
+ [
+  [
+   "InVPN instance [vpn-instance-name], because the address was the sameas the link-local address of the PIM IPv6 neighbor or the primaryaddress of the PIM IPv4 neighbor, the hello message received fromthe interface [interface] was ignored. (FlCode=[STRING][ULONG])",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   "The recovery timer ofneighbor [neighbor-address] was started.",
+   "Bad authentication from [inet] group [dec] type [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The LPU does not support this rule. (ChassisId=[ChassisId],SlotId=[SlotId], Direction=[Direction], Rule=[Rule]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " Realm [realm_name] succeeded in obtaining CRL through [protocol].",
+   "Authentication protocol md5 support will be deprecated in future"
+  ],
+  0
+ ],
+ [
+  [
+   " The local device has detected a BGP routing loop. (BGP instance name=[InstanceName], Vpn-instance=[Vpn-instance], Afi=[AddrFamilyAfi], Safi=[AddrFamilySafi])",
+   "IPSec SA received fragmented ESP packet DP Handle [dec]  src_addr %Ci dest_addr %Ci SPI 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " SNMP was switched to a new process.",
+   "Attempt to generate an invalid object identifier"
+  ],
+  1
+ ],
+ [
+  [
+   " IP was unlocked. (IpAddress=[IpAddress], VpnName=[VpnName])",
+   "\\n[chars]  failed rc=[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of routes received from peer [neighbor-address] reached route threshold value [threshold-value]. (BgpAddressFamily=[STRING], CurrentRouteNumber=[ULONG], MaxRouteNumber=[ULONG])",
+   "BGP update error    [chars] Wrong length [dec] for [chars] dropped by error handling"
+  ],
+  1
+ ],
+ [
+  [
+   " A NETCONF server session ended. (UserName=[UserName], SessionId=[SessionId], IpAddress=[IpAddress], KilledBy=[KilledBy], TerminalReason=[TerminalReason], VpnName=[VpnName])",
+   "Can not find message session[dec] [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   "An SNMP command was receivedto suspend the peer session for [peer-address]. (InstanceName [STRING])",
+   "Unable to remove blocked dynamic peer [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] the CA certificate is nearly expired. (CACertIssuer=[issuer], CACertSubject=[subject], CACertStartTime=[starttime], CACertFinishTime=[finishtime])",
+   "IP counter block is full setting protocol [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " User [UserOrIP] = [IPAddr_UserName] blocked.",
+   "[chars] function cannot be called from interrupt handler"
+  ],
+  1
+ ],
+ [
+  [
+   " The MKA protocol status of the local interface becomes Down because the response message cannot be received during the timeout period.(IfIndex=[if-index], Role=[role], Local Port=[local-port]) In LS mode, this log is supported only by the service LSs.",
+   "[chars] RX SCI %llx   TX SCI %llx   vport [dec]   secy vport [dec]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The BGP FSM moves from ahigher numbered state to a lower numbered state. (InstanceId=[gauge],Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary],InterfaceIndex=[integer], PeerLastError=[octet], PeerState=[integer],PeerUnavaiReason=[gauge], InterfaceName=[octet])",
+   "[chars] AS path [chars] received from [chars]  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The numberof IPv6 prefixes exceeded the threshold. (PrefixCount=[Integer], MaxValue=[Integer])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Connect the loghost successfully over TLS. (PeerIP=[PeerIP], SocketHandle=[SocketHandle], VpnName=[VpnName])",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] PIM neighbor loss.(NbrIntIndex=[integer], NbrAddrType=[integer], NbrAddr=[binary], NbrUpTime=[timetick],NbrIntName=[string], InstanceID=[integer], InstanceName=[string],NeighborLossReason=[integer])",
+   "NTP process starts"
+  ],
+  0
+ ],
+ [
+  [
+   " OSPF routes advertised by the local device were deleted by another device. Log in to the possibly faulty device. If the device is deleting routes, reset or isolate it from the network. Otherwise, check other devices. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId], TotalNodeNum=[hwOspfv2TotalNodeNum], Log in to the following devices to locate the faulty device (1) HostName=[hwOspfv2PurgeHostName1], HostIpAddress=[hwOspfv2PurgeIpAddress1], RouterID=[hwOspfv2PurgeRouterId1] (2) HostName=[hwOspfv2PurgeHostName2], HostIpAddress=[hwOspfv2PurgeIpAddress2], RouterID=[hwOspfv2PurgeRouterId2] (3) HostName=[hwOspfv2PurgeHostName3], HostIpAddress=[hwOspfv2PurgeIpAddress3], RouterID=[hwOspfv2PurgeRouterId3]) In LS mode, this log is supported only by the service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Router IDs conflictionis recovered. (ProcessId=[integer], AreaId=[ipaddr], OldRouterId=[ipaddr],NewRouterId=[ipaddr])",
+   "Unable to allocate checkpoint queue entry"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The number of NAT ALG servermap tables reaches the upper limit.",
+   "all-vrf maximum limit of [dec] reached for [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " The VLAN's ARP packet speed exceeded the configured speed limit value. (SuppressValue=[SpeedLmtValue], Vlan=[VlanId])",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The NAC Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   "BGP update error    [chars] Wrong flag 0x[hec] received for [chars] attribute fixed by error  handling"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of entries falls below the limit. (Protocol=[STRING], Vpn=[STRING], FileLine=[STRING][STRING])",
+   "Error initializing CEF xdr chunks"
+  ],
+  0
+ ],
+ [
+  [
+   "Slot failed to add session receival table! (SlotNumber=[STRING], Discriminator=[ULONG])",
+   "Output interface for packet has been changed for [dec] times  and dropped - \\nsrc=[inet] dst=[inet] hl=[dec] tl=[dec] prot=[dec]\n                              \\nin=[chars] nexthop=[inet] out=[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Importing local certificate file ([file_name]) succeeded.",
+   "Certificate reenrollment has failed and retry will happen for [dec] attempts"
+  ],
+  1
+ ],
+ [
+  [
+   " The interface go on process, as slave's ack didn't come for [ULONG] seconds.(IfName=[STRING1], IpAddr=[IPADDR], ProcessId=[USHORT], AreaId=[STRING2])",
+   "Bad LSA mask  Type [dec] LSID [inet] Mask [inet] from [inet] \\n NOTE  This route will not be installed in the routing table."
+  ],
+  1
+ ],
+ [
+  [
+   " Certificate file ([file-name]) identity authentication failed.",
+   "[chars] Rollover certificate has been activated for [chars] replacing the previous [Sub/RA]CA certificate \\n Issuer-name\n                                [chars] \\n Subject-name   [chars] \\n Serial-number  [chars] \\n End-date   [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of AS-external LSAs in the LSDB of an OSPF process reaches the configured maximum number.(hwOspfv2ProcessIdIndex=[hwOspfv2ProcessIdIndex], hwOspfv2MaxLimit=[hwOspfv2MaxLimit])",
+   "OSPF-[dec] Area [chars]  Router [inet] originating invalid type [dec] LSA  ID [inet] Metric [dec] on Link ID [inet] Link\n                              Type [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " One log file was deleted due to aging. (LogFileName=[LogFileName])",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   " PIM receives an Invalid Join/Prune message. (GroupMappingOrigin=[GroupMappingOrigin], GroupMappingAddrType=[GroupMappingAddrType], GrpAddr=[GrpAddr], GrpPfxLen=[GrpPfxLen], GroupMappingRPAddrType=[GroupMappingRPAddrType], RPAddr=[RPAddr], GroupMappingPimMode=[GroupMappingPimMode], InvJPAddrType=[InvJPAddrType], InvJPOriginAddr=[InvJPOriginAddr], InvJPGrpAddr=[InvJPGrpAddr], InvJPRpAddr=[InvJPRpAddr], NbrIfIndex=[NbrIfIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrUpTime=[NbrUpTime], NbrName=[NbrName], PimInstanceID=[PimInstanceID], PimInstanceName=[PimInstanceName]) In LS mode, this log is supported only by the service LSs.",
+   "[domain [dec]] Clock status changed to [chars]   [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   "The system notified other features that LDP system-level GR ended when LDP GR was not enabled.",
+   "Clear LDP neighbors [chars] by [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " TFTP file transfer end.(IPAddress=[IPAddress], LocalFilename=[LocalFilename], RemoteFilename=[RemoteFilename], RetCode=[RetCode], FileSize=[FileSize]bytes, TransSize=[TransSize]bytes, TransTime=[TransTime]second(s))",
+   "BGP AS specified  in router nhrp import config is not running or not configured yet.  Configuring router bgp with AS number\n                              [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The last member interface link status changes to down. (TrunkIfIndex=[ifIndex], TrunkName=[ifName])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting OCSP certificate file([string]) succeeded.",
+   "Failed to open socket."
+  ],
+  1
+ ],
+ [
+  [
+   " The global-acl configuration can not work on the slot [slot-id] in the [direction] direction. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "A service policy cannot be attached to a PPP  virtual-access interface when  ppp multilink is enabled.  A service policy\n                              can be attached to a  ppp multilink bundle interface only.\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " One log file was deleted due to aging. (LogFileName=[LogFileName])",
+   "Unexpected oce return code"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",PIM was forced to enter the GR Synchronous state. (FlCode=[STRING][ULONG])",
+   "Null parameter specified for Bidir RP route update."
+  ],
+  1
+ ],
+ [
+  [
+   " the local certificate has been updated. (LocalCertStartTime=[LocalCertStartTime], LocalCertFinishTime=[LocalCertFinishTime], LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "IPSec SA received fragmented ESP packet DP Handle [dec]  src_addr %Ci dest_addr %Ci SPI 0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The trap of LSP pingtest.(hwLspTunnelID=[INTEGER], hwLspSenderAddress=[INTEGER], hwLspEndPointAddress=[INTEGER],hwLspTTL=[INTEGER], hwLspHandle=[INTEGER])",
+   "ILMI[chars]  Auto-configuration is disabled current"
+  ],
+  0
+ ],
+ [
+  [
+   "Clear L2TP local tunnel ID [tunnel-id].",
+   "IGMP packet without input interface received from [inet] for [inet]"
+  ],
+  0
+ ],
+ [
+  [
+   " PIM receives an invalid register message. (GroupMappingOrigin=[GroupMappingOrigin], GroupMappingAddressType=[GroupMappingAddressType], GrpAddr=[GrpAddr], GrpPfxLen=[GrpPfxLen], GroupMappingRPAddressType=[GroupMappingRPAddressType], RPAddr=[RPAddr], GroupMappingPimMode=[GroupMappingPimMode], InvRegAddressType=[InvRegAddressType], InvRegOriginAddr=[InvRegOriginAddr], InvRegGrpAddr=[InvRegGrpAddr], InvRegRpAddr=[InvRegRpAddr], PimInstanceID=[PimInstanceID], PimInstanceName=[PimInstanceName]) In LS mode, this log is supported only by the service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " MAC [MAC]. sessionId = [sessionId]. USER [USER].",
+   "Interface [chars] cannot be encoded for NSR"
+  ],
+  0
+ ],
+ [
+  [
+   "The smoothing failed, andthe system will roll back.",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of existed routing entries exceeded the global upper threshold.(LimitType=[LimitType], AddressFamily=[AddressFamily], CurrentCount=[CurrentCount], LimitCount=[LimitCount], ThresholdCount=[ThresholdCount], ReasonType=[ReasonType]) In LS mode, this log is supported only by the service LSs.",
+   "invalid tenant name size is configured"
+  ],
+  0
+ ],
+ [
+  [
+   "The system is in the real-timebackup phase.",
+   "[chars] is empty under client [chars][dec] entity[dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " OSPF Router id conflictis detected on interface. (ProcessId=[USHORT], RouterId=[IPADDR],AreaId=[IPADDR], InterfaceName=[STRING],  IpAddr=[IPADDR], PacketSrcIp=[IPADDR])",
+   "Reached unknown state in neighbor state machine"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of AS-external LSAs in the LSDB of an OSPF process is approaching the configured maximum number.(hwOspfv2ProcessIdIndex=[hwOspfv2ProcessIdIndex], hwOspfv2Threshold=[hwOspfv2Threshold])",
+   "Init failed for interface [chars] [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   "The passwordof local account [STRING] cannot be changed.",
+   "Malformed ARP HA checkpointing message size = [dec]  entry count = [dec]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " The trace source of client changed. (hwPtpAdaptiveOldTraceSource=[hwPtpAdaptiveOldTraceSource], hwPtpAdaptiveTraceSource=[hwPtpAdaptiveTraceSource]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "[domain [dec]] Clock status changed to [chars]   [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to updatethe route in the [flag] instance because the number of routes reachedthe maximum.(InstanceId=[USHORT], AFI=[USHORT], SAFI=[USHORT])",
+   "Unexpected oce return code"
+  ],
+  0
+ ],
+ [
+  [
+   " The status of the non-virtual interface changes. (RouterId=[RouterId], IfIpAddress=[IfIpAddress], AddressLessIf=[AddressLessIf], IfState=[IfState], ProcessId=[ProcessId], AreaId=[AreaId], IfnetIndex=[IfnetIndex], LocalIfIpAddress=[LocalIfIpAddress], IfName=[IfName], InstanceName=[InstanceName], IfChgReason=[IfChgReason])",
+   "Reply for non-existent request [dec] on queue"
+  ],
+  0
+ ],
+ [
+  [
+   "RSVP GR ends.",
+   "Key chains [chars] and [chars] contain duplicate key ID [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   "The number of IPv6 prefixesreached the maximum prefix limit [max-prefix-limit].",
+   "Memory boundary violation"
+  ],
+  1
+ ],
+ [
+  [
+   " The CA certificate is invalid. (CACertIssuer=[issuer], CACertSubject=[subject], CACertStartTime=[start-time], CACertFinishTime=[finish-time])",
+   "Not in truth table  ACL [dec] in map action [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF backed up data in batches before CFM.",
+   "Standby synchronization error  no LSA buffer"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] coldStart.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The status of VRRPchanged to master. (VrrpIfIndex=[VrrpIfIndex], VrId=[VrId], IfIndex=[IfIndex],IPAddress=[IPAddress], NodeName=[NodeName], IfName=[IfName], ChangeReason=[ChangeReason])",
+   "Internal warning [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " SSL failed to connect with peer. (FailReason = [FailReason], ErrorCode = [ErrorCode], AppCid = [AppCid], VerifyMode = [VerifyMode], TlsId = [TlsId], SockFd = [SockFd])",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] get crl unsuccessfully with HTTP. (CrlUrl=[crlurl])",
+   "Trustpoint  [chars] deleted succesfully"
+  ],
+  1
+ ],
+ [
+  [
+   " Ldap packet record ([INFO])",
+   "[chars]  Peruser Could not sort the [chars] attributes"
+  ],
+  1
+ ],
+ [
+  [
+   " TLS1.3 key update success. (Key update reason = [KeyupdateReason], Key update time = [CurrentSystemTime], AppCid = [AppCid], VerifyMode = [VerifyMode], TlsId = [TlsId], SockFd = [SockFd])",
+   "\\ Number of connections per minute has exceeded the maximum limit[dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of links in an OSPF Router-LSA reaches the upper limit. (ProcessId=[ProcessId],AreaId=[AreaId],LsId=[LsId])",
+   "OSPF-[dec] NSF started"
+  ],
+  1
+ ],
+ [
+  [
+   " the crl is valid. (CrlStartTime=[CrlStartTime], CrlFinishTime=[CrlFinishTime], CrlIssuer=[CrlIssuer]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Warning  Server [chars] [dec] is still  referenced by server group."
+  ],
+  0
+ ],
+ [
+  [
+   " The VLAN's ARP-Miss message speed exceeded the configured speed limit value. (SuppressValue=[SpeedLmtValue], Vlan=[VlanId])",
+   "Advertised Capability [chars] not supported by peer [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Port State changed. (hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName], hwPtpPortState=[hwPtpPortState], hwPtpOldPortState=[hwPtpOldPortState]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "CS Rollover failed. \\n Reason   [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to replace certificate. (Type=[type],Realm=[realm],OldName=[old_name],NewName=[new_name],Reason=[reason])",
+   "[chars] server's Trustpoint not available. Check for the trustpoint config."
+  ],
+  1
+ ],
+ [
+  [
+   " The board forwarding engine resources fell from the threshold.(EntityPhysicalIndex=[EntiyPhysicalindex], EntPhysicalIndex=[EntPhysicalindex], EntPhysicalName=[EntPhysicalName], Slot=[SlotStr], ReasonId=[ReasonId], ReasonDescription=[Reason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+   "Fatal error slot [chars]  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " In the VPN instance, the received IGMP Query packet is ignored because the IGMP version of the packet is different from that configured on the interface. (VPNName=[VPNName], IfName=[IfName], IfAddr=[IfAddr], SrcAddr=[SrcAddr], RcvVersion=[RcvVersion], IfVersion=[IfVersion]) In LS mode, this log is supported only by the service LSs.",
+   "Function [chars] in DHCP client failed to initialize  [chars]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "Notify LSA aged out. (ProcessId=[USHORT],RouterId=[IPADDR], LsdbAreaId=[IPADDR], LsdbType=[ULONG], LsdbLsId=[IPADDR],LsdbRouterId=[IPADDR])",
+   "Received Hello from [inet] on [chars] indicating a potential \\n\\  network type mismatch"
+  ],
+  1
+ ],
+ [
+  [
+   " The control plane failed to query NHRP entries from the forwarding plane. (Protocol Address=[protocol-address], Mask=[mask], NBMA Address=[nbma-address], Nexthop=[nexthop], Interface Name=[interface-name])",
+   "Received [chars] from [chars] code  [chars][dec] trigger src  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Successfully replaced certificate. (Type=[type],Realm=[realm],OldName=[old_name],NewName=[new_name])",
+   "OCSP response from [chars] has been successfully processed for \\n certificate   [chars] \\n Serial-number  [chars] \\n Result\n                                [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Local access account [account] password has been modified. (OperatorName=[operateUserName], UserIp=[OperatorIPAddress])This log is supported only on AR6700 series, AR5700 series.",
+   "High availability initialization failure  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " GR Recovery timer expired. (PID=[hPid], CID=[hCid], GRRecoveryTimeExpire=[GRTimerExpire], GRRecoveryTimer=[GRRecoveryTimer], PeerID=[PeerID], VrfName=[VrfName]) In LS mode, this log is supported only by the service LSs.",
+   "Neighbor record not committed - malloc failure"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to change user attribute.Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING],UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING].",
+   "User [chars] failed attempts reset by [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " CMP PKI Status. (Session=[STRING], Status=[STRING]).",
+   "Certificate reenrollment has failed and retry will happen for [dec] attempts"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Because the memoryusage of the interface board exceeds the upper threshold, the FEScannot add new entries. As a result, the entries of the interfaceboard is inconsistent with those of the main board. (EntityPhysicalIndex=[INTEGER],HwBaseTrapSeverity=[INTEGER], HwBaseTrapEventType=[INTEGER], EntPhysicalName=[STRING])",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " OSPF routes advertised by the local device were deleted by another device, and the possibly faulty device did not support OSPF flush LSA source trace. Log in to the possibly faulty device. If the device is deleting routes, reset or isolate it from the network. Otherwise, check other devices. Neither of the devices displayed in the display ospf flush-source-trace analysis-info command output is the faulty device. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId], FlushLsaNum=[hwOspfv2FlushLsaNum], AffectedNodeNum=[hwOspfv2AffectedNodeNum], TotalNodeNum=[hwOspfv2TotalNodeNum], RuledOutDeviceNum=[hwOspfv2RuledOutDeviceNum], Interval=[hwOspfv2PurgeStatPeriod]) In LS mode, this log is supported only by the service LSs.",
+   "Interface [chars] is being restarted by DHCP\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "On the interface [interface-name], PPP link was closed because loopback was detected after PPP link had been established.",
+   "Lex ncp  no free Lex interface found with MAC address [enet]"
+  ],
+  1
+ ],
+ [
+  [
+   " The ptsf alarm of the ptp port is resumed.(hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName], hwPtpPortPtsfReason=[hwPtpPortPtsfReason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "[chars] Invalid reference count for [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " When deciding whether to disable the data statistics function, the user chose YES.",
+   "[chars] [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "[STRING] is present.",
+   "Warning  Fan [dec] is running at low RPM.  Rotation speed is now high for all other fans.  [chars] hard disk drive may become\n                              unusable  if continuously operated at this temperature.  Fan Tray replacement is recommended."
+  ],
+  1
+ ],
+ [
+  [
+   "Reached the maximum of PSBs. (MaxNumber=[ULONG])",
+   "%08x %08x %08x %08x %08x %08x %08x %08x"
+  ],
+  1
+ ],
+ [
+  [
+   " The NTP packet processing rate reaches the upper threshold. (packet rate = [maxpktrate]pps)",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  0
+ ],
+ [
+  [
+   " Get crl unsuccessfully with LDAP. (hwLdapIP=[hwLdapIP], hwLdapPort=[hwLdapPort], hwCrlAttribute=[hwCrlAttribute], hwCrlDN=[hwCrlDN], hwLdapVersion=[hwLdapVersion], hwLdapIPVrfName=[VrfIndex]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "rc 0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   " User logout success. (UserName=[USERNAME],IPAddr=[IPADDR])",
+   "\\ HTTP out of memory."
+  ],
+  1
+ ],
+ [
+  [
+   "The number ofIPv6 routes reached the maximum value [max-route-value] defined inthe License file.",
+   "\\ Server setup failed"
+  ],
+  0
+ ],
+ [
+  [
+   "When deciding whether to restart slave board, the user chooses [Y/N].",
+   "Falling trap is generated because the value of [chars] has fallen below\\n\\the falling-threshold hc value %llu"
+  ],
+  0
+ ],
+ [
+  [
+   "In the [HistoryControl] table, a row with index [row-id] was invalidated by [owner-id].",
+   "Active HA version [dec].[dec] differs from standby HA version [dec].[dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " In an EVPN E-Tree dual-homing scenario, the leaf attributes of the AC interfaces bound to the EVPN instance were different, causing a traffic loop. (EVPNInstanceName = [EVPNInstanceName], IfName = [IfName]) In LS mode, this log is supported only by the service LSs.",
+   "Detected a static route already installed for VRF ID destination IP  [%lu [chars]] with full prefix length. EVPN will install\n                                 a static route  which may be overridden in RIB by the other static route."
+  ],
+  1
+ ],
+ [
+  [
+   "\"DHCP relay receive a dhcp packet with wrong packet type. (InterfaceName=[STRING]).\"",
+   "[chars]  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "Notify topochange to VPLS. (SegmentID=[ULONG])",
+   "[chars]  accesslist 0x[hec] out of range for \\[chars]\\"
+  ],
+  0
+ ],
+ [
+  [
+   "The process of ISSU upgrade [process].",
+   "Neighbor record not committed - malloc failure"
+  ],
+  0
+ ],
+ [
+  [
+   " The configuration file was transferred through [transport-type]. (UserName=[user-name], OperateType=[operate-type], SrcFile=flash /[src-file], DstFile=[dst-file], DstHost=[dst-host], VPN=[vpn-name], ErrCode=[err-code])",
+   "Failed to cache [chars] packet - [chars][dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " A trial run event occurred. (User name =[username], Session ID =[ssnId], Command source address =[srcAddress], Timeout seconds =[timeoutSec], Event =[event]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Slave clock status changed to [chars]   [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] PIM (*, G)entries of all instances count reached the upper threshold. (hwPimNotificationAddressType=[integer],hwPimStarGCurrentCount=[integer], hwPimStarGThreshold=[integer]%,hwPimStarGTotalCount=[integer])",
+   "Transport ATTR should be present for PIM J/P with LISP transport"
+  ],
+  1
+ ],
+ [
+  [
+   " The NETCONF server created a session. (UserName=[UserName], SessionId=[SessionId], IpAddress=[IpAddress], VpnName=[VpnName])",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " TCP MD5 authentication failed. (tcpConnLocalAddress=[tcpConnLocalAddress], tcpConnLocalPort=[tcpConnLocalPort], tcpConnRemAddress=[tcpConnRemAddress], tcpConnRemPort=[tcpConnRemPort], hwTCPProtocol=[hwTCPProtocol], hwTCPVrfName=[hwTCPVrfName])",
+   "Insufficient space for AO option"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", PIM entered the GR status. The minimum holding time was [gr-period] seconds. (FlCode=[STRING][ULONG])",
+   "NULL RP pointer specified for PIM register tunnel creation."
+  ],
+  1
+ ],
+ [
+  [
+   "On the interface [interface-name], PPP link was closed because PAP protocol was rejected.",
+   "Max-send quota of [dec]pkts/[dec]Sec. exceeded on [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",ignored the received IGMP query of version [version] on IGMPv3 interface[interface-name] ([ip-address]). (FlCode=[STRING][ULONG])",
+   "IGMP limit exceeded for group * [inet] on [chars] by host [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to copy configuration files. The system will roll back immediately.",
+   "The intended session [dec] specified in received [chars] for client [chars][dec] is not found."
+  ],
+  1
+ ],
+ [
+  [
+   "RSVP GR neighbour statechanged from normal to restarting on the supporting node. (NeighbourAddress=[IPADDR])",
+   "[chars] message from [inet] discarded  no security association for [inet] -  no RSVP security key configured or no memory\n                              left."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] NHRP peer is added.(Interface=[interface-name], protocol-address=[protocol-address], mask=[mask], next-hop=[next-hop-address], nbma-address=[nbma-address], type=[peer-type])",
+   "Nexthop address [chars] for [chars]/%lu  is not routable"
+  ],
+  1
+ ],
+ [
+  [
+   " The ptsf alarm of the ptp port occurs.(hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName], hwPtpPortPtsfReason=[hwPtpPortPtsfReason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] invalid master address [chars] is selected.  Action is ignored because of the invalid master clock\n                              source."
+  ],
+  1
+ ],
+ [
+  [
+   " The tftp server get file from client. (IpAddress=[STRING], FileName=[STRING], Result=[STRING])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The rate of DHCP packets exceeds the speed limit. [INTEGER] packets have been discarded.",
+   "Function [chars] in DHCP client failed to initialize  [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " The user chose [string] when deciding whether to overwrite the old SM2 key pair.",
+   "Channel mismatch between [chars] and [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "Local account [STRING] has been deleted.",
+   "Warning  [chars] Temperature [dec]C Exceeds [dec]C.  [chars] hard disk drive may become unusable  if continuously operated\n                              at this temperature.  Please resolve system cooling."
+  ],
+  0
+ ],
+ [
+  [
+   " SSH client key renegotiation is failed. (SessionID=[SessionID], FailedReason=[FailedReason], RekeyReason=[RekeyReason], IPAddress=[IPAddress], VPNInstanceName=[VPNInstanceName])",
+   "SSH RSA Key Size compliance violation detected. Kindly note that the  usage of keys smaller than [dec] bits will be deprecated\n                              in the upcoming  releases. Please revise your key configuration accordingly to avoid  service impact."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] get crl unsuccessfully with SCEP. (CrlUrl=[CrlUrl])",
+   "[Sub/RA]CS Rollover certificate has been generated for [chars] and it will be activated at [chars] \\n Issuer-name   [chars]\n                              \\n Subject-name   [chars] \\n Serial-number  [chars] \\n End-date   [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] VRRP received protocolerror packet. (VrrpIfIndex=[INTEGER], VrId=[INTEGER], InetAddrType=[INTEGER],ProtoErrorType=[INTEGER])",
+   "Unexpected oce return code"
+  ],
+  0
+ ],
+ [
+  [
+   " The logfile surplus storage spaces is less than 20 percent.(LogFileType=[LogFileType])",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   " Running configurations on the master and slave main control boards became consistent. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "config change is detected after lisp is  reconnected to confd"
+  ],
+  1
+ ],
+ [
+  [
+   " CA certificate ([subject_name]) will expire in [day] days.",
+   "Certificate chain validation has failed. The certificate SN  [chars] is revoked"
+  ],
+  1
+ ],
+ [
+  [
+   "Received HA smooth notification for synchronizing external modules.",
+   "Unable to open socket"
+  ],
+  1
+ ],
+ [
+  [
+   " RSA local key pair [key_name] will be replaced by a new one.",
+   "Downloaded Trustpool certificates present prior to image upgrade should be re-downloaded. Issue 'crypto pki trustpool import\n                              url <url>' to re-download the certificates."
+  ],
+  1
+ ],
+ [
+  [
+   "Deleted the port from the SEP segment. (port name=[STRING], segment ID=[ULONG])",
+   "Memory boundary violation"
+  ],
+  0
+ ],
+ [
+  [
+   "The length of the LDP important message list reached the alarm threshold [threshold].",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "A loop existed in path message (IngressLsrId=[IPADDR],TunnelId=[USHORT], EgressLsrId=[IPADDR]), the IP address [LoopAddress]conflicted with other router.",
+   "Bad authentication from [inet] group [dec] type [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "The user chooses [STRING] when determining whether to disable GVRP.",
+   "Unable to start OSPF  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of sessions on the slot had reached upper limit, new session bound on this interface board could not be created! (SlotNumber=[STRING])",
+   "Failed to get kadis timer tick to start kadis timer."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The numberof RSVP neighbors reached the maximum number. (hwRsvpTeIfName=[octet],hwRsvpTeNbrTotalCount=[integer])",
+   "Announcement message dropped due to packet size [dec] bytes."
+  ],
+  0
+ ],
+ [
+  [
+   " The tftp server get file from client. (IpAddress=[STRING], FileName=[STRING], Result=[STRING])",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  1
+ ],
+ [
+  [
+   " The IPSec tunnel is established. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], LifeSize=[LifeSize], LifeTime=[LifeTime], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID], Role=[Role])",
+   "DTLS anti-replay error src_addr  %Ci src_port  [dec]  dest_addr  %Ci dst_port  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The current configuration is automatically unlocked for timeout. (Information of former user locked the configuration  UserName=[UserName], IpAddr=[IpAddr], VpnName=[VpnName])",
+   "Cannot connect to ConfD. Configuration changes will be  processed when the connection is established."
+  ],
+  1
+ ],
+ [
+  [
+   " Session changes to DOWN. (Index=[Index], ConfigurationName=[ConfigurationName], PeerIp=[PeerIp], BindIfIndex=[BindIfIndex], BindIfName=[BindIfName], Diagnosis=[Diagnosis], BindVrfIndex=[BindVrfIndex], BindVpnName=[BindVpnName], SessionType=[SessionType], DefaultIp=[DefaultIp], BindType=[BindType], StaticLspName=[StaticLspName], PwSecondary=[PwSecondary], NextHop=[NextHop], VcId=[VcId], VsiName=[VsiName], VsiPeerAddress=[VsiPeerAddress], DiscrAuto=[DiscrAuto], PeerIpv6=[PeerIpv6], Ipv6NextHop=[Ipv6NextHop], EvplId=[EvplId])",
+   "Failed inserting node for LSP [chars] [dec] to wavl tree thread [dec] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " An OSPF packet is retransmitted on a virtual interface. (VirtIfAreaId=[VirtIfAreaId], VirtIfNeighbor=[VirtIfNeighbor], LsdbAreaId=[LsdbAreaId], LsdbType=[LsdbType], LsdbLsid=[LsdbLsid], LsdbRouterId=[LsdbRouterId],  ProcessId=[ProcessId], RouterId=[RouterId], PacketType=[PacketType], InstanceName=[InstanceName])",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   "LDP System-level GR processing was complete.",
+   "DTLS anti-replay error src_addr  %Ci src_port  [dec]  dest_addr  %Ci dst_port  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The memoryusage of the interface board reduces to the lower threshold, and theFES can add entries. The entries of the interface board is consistentwith those of the main board. (EntityPhysicalIndex=[INTEGER], HwBaseTrapSeverity=[INTEGER], HwBaseTrapEventType=[INTEGER],EntPhysicalName=[STRING])",
+   "Missing cef table for tableid [dec] during [chars] event"
+  ],
+  1
+ ],
+ [
+  [
+   "The operation of [STRING]  A userinput \"No\" to cancel the operation.",
+   "cnt [dec] sp 0x[hec] cp sp 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The memory was insufficient, and the update would be performed in one hour. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Pre-UpdateVersion=[pre-update-version], UpdateVersion=[update-version], Status=[status], Duration (s)=[duration])",
+   "OSPF-[dec]  Bad build request for LSA type [dec] LSID [inet] mask [inet]"
+  ],
+  0
+ ],
+ [
+  [
+   " The user chose [string] when deciding whether to overwrite the old SM2 key pair.",
+   "Auto-trustpool update in progress from [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[OID] IPSec tunnel negotiationfails. (Ifindex=[Ifindex], SeqNum=[SeqNum], Reason=[Reason], ReasonCode=[ReasonCode], PeerAddress=[PeerAddress], PeerPort=[PeerPort], VsysName=[vsys-name], InterfaceName=[InterfaceName])",
+   "invalid ipsec prot 0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] Private alarm table [alarm-line-index]monitors [description] with the sample type being [sample-type], andthe sampled alarm value [alarm-value] is greater than or equal to[alarm-upper-limit].",
+   "Falling threshold has been crossed because the value of [chars] has  fallen below the falling-threshold value [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The global-acl configuration can not work on the slot [slot-id] in the [direction] direction. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Failed inserting node for LSP [chars] [dec] to wavl tree thread [dec] [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Time source changed. (hwPtpOldMasterClockId=[hwPtpOldMasterClockId], hwPtpCurrentMasterClockId=[hwPtpCurrentMasterClockId], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortOldSourcePortNum=[hwPtpPortOldSourcePortNum], hwPtpPortSourcePortNum=[hwPtpPortSourcePortNum], hwPtpOldPortName=[hwPtpOldPortName], hwPtpPortName=[hwPtpPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] master address new [chars] old [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " On interface [interface-name],[queue] in queue [discard-type] is [discard-value],it is Less than alarm-threshold. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+   "Authentication result overridden for client [chars] on Interface [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] CBC mode encryption algorithm is used, and GCM mode encryption algorithm is recommended. (PeerAddress=[PeerAddress], InterfaceName=[InterfaceName]) \"",
+   "out sa 0x[hec]0x[hec] out sp 0x[hec]0x[hec] in sa 0x[hec]0x[hec] in sp 0x[hec]0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   "The user [STRING1] with IP address [STRING2] changed the password of [STRING3] through the web NMS.",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of AS-PATHsexceeded the limit([limit-value]). (Operation=[STRING])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "Cannot obtainLSR ID from both RRO and CSPF. (IngressLsrId=[STRING], SessionId=[USHORT], IngressAddress=[STRING], LspId=[USHORT])",
+   "[chars]  [chars] [chars] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Router IDs confliction is recovered. (ProcessId=[ProcessId], AreaId=[AreaId], OldRouterId=[OldRouterId], NewRouterId=[NewRouterId])",
+   "Auto Certificate reenrollment failed. Cannot retry"
+  ],
+  0
+ ],
+ [
+  [
+   "Interface [interface-name] received [ldp-synchronization-message] from RM, LDP synchronization state [previous-state] change to [current-state].",
+   "Unrecognized timer [dec] in OSPF [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The numberof BGP peer sessions exceeded the threshold. (CurrentNumber=[INTEGER],Threshold=[INTEGER], MaximumNumber=[INTEGER])",
+   "%llu"
+  ],
+  0
+ ],
+ [
+  [
+   "The peer LSR [peer-id] was restarting.",
+   "DTLS anti-replay error ipv6 src_addr  [ipv6_addr] src_port  [dec]  ipv6 dest_addr  [ipv6_addr] dst_port  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The negotiation status is changed. (ServerId=[ServerId], NegoState=[NegoState], ErrorReason=[ErrorReason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] master address new [chars] old [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " In the VPN instance '[vpn-instance-name]', the rpf route to source ([source-address]) process was suppressed [Suppress-time] due to frequent change, and CpuUsage = [CpuUsage]. In LS mode, this log is supported only by the service LSs.",
+   "Null parameter specified for Bidir RP route update."
+  ],
+  1
+ ],
+ [
+  [
+   " The number of PIM FRR routes for all instances reached the maximum. (VPNName=[VPNName], Maxnum=[Maxnum], SourceAddress=[source-address], GroupAddress=[group-address]) In LS mode, this log is supported only by the service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Importing the CRL file ([FileName]) successfully. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Manual enrollment for trustpoint [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Saving the dynamic binding table to a remote server failed. Ensure that the remote server address is reachable and the user name and password and the file path are correct.",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The interface board changes from the overload forwardingstate to the normal state. (EntityPhysicalIndex=[INTEGER], HwBaseTrapSeverity=[INTEGER],HwBaseTrapProbableCause=[INTEGER], HwBaseTrapEventType=[INTEGER],HwFibOverloadModule=[INTEGER], entPhysicalName=[STRING])",
+   "Invalid event. Type [chars] event [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",failed to set the IGMP global application policy. (FlCode=[STRING][ULONG])",
+   "\\ Server setup failed"
+  ],
+  0
+ ],
+ [
+  [
+   "Backing up RSA local key pairs in batches to the standby device...",
+   "Big num error  Cannot handle big num of size [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "RSVP GR state changed from restarting to normal on the restarting node.",
+   "Warning  [chars] Temperature [dec]C Exceeds [dec]C.  Please resolve system heating to prevent system damage."
+  ],
+  0
+ ],
+ [
+  [
+   "Cannot obtain interface from RSVP message.(IncomingInterfaceIndex=[ULONG], InterfaceName=[STRING])",
+   "[chars] message from [inet] discarded - seq #%llu outside authentication window"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of peers exceeded the upper limit 128. (CurrentPeerNumber = [count])",
+   "Failed to create environmental monitor process"
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting local certificate file([file_name]) succeeded.",
+   "Slave clock status changed to [chars]   [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting local certificate file ([file_name]) failed.",
+   "Failed to bind the socket due to source interface ip   [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Exporting local certificate file ([string]) failed.",
+   "Certificate server now disabled. \\n Reason   [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The MKA protocol status is restored or the MACSEC configuration is deleted.(IfIndex=[if-index],Role=[role], Local Port=[local-port]) In LS mode, this log is supported only by the service LSs.",
+   "RX SCI %llx   TX SCI %llx   vport [dec]   secy vport [dec]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of quiet 802.1x users is reaching the max. (Threshold=[Threshold]%, UserNum=[UserNum], Lower Threshold=[LowerThreshold]%, Upper Threshold=[UpperThreshold]%, Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The session number in all the IO boards has reached the limit, the new session can not be created. (TotalSessionLimit=[TotalSessionLimit])",
+   "NSR can not recover checkpointed data for process [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The session wentDown. (LdpId=[OPAQUE], LdpEntityIndex=[GAUGE], PeerLdpId=[OPAQUE],PeerLdpId=[OPAQUE], IfIndex=[INTEGER], SessionState=[INTEGER], DiscontinuityTime=[TIMETICK],UnknownMesTypeErrors=[COUNTER], UnknownTlvErrors=[COUNTER], DownReason=[INTEGER],IfName=[STRING])",
+   "Cannot fork process [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " User [UserOrIP] = [IPAddr_UserName] unblocked.",
+   "[chars] has [dec] non-positive ifIndices."
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", when the BSR holdtime and sending interval were configured, the BSR holdtime [holdtime] was less than the sending interval [interval]. (FlCode=[STRING][ULONG])",
+   "Unexpected oce return code"
+  ],
+  0
+ ],
+ [
+  [
+   " The signature database is at the latest version. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Status=[status], Duration (s)=[duration])",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   "The data length was unidentifiable in the restoration process. (Type=[STRING], Length=[USHORT])",
+   "Unrecognized timer [dec] in OSPF [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " MKA Authentication Results(LocalPort=[LocalPort], CKN=[CKN], ProtocolStatus=[Status], Reason=MKA protocol status changes to [ReasonStatus] from [OldStatus]) In LS mode, this log is supported only by the service LSs.",
+   "All the keys in chain [chars] have expired - please update the key chain now"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]The number of public IPv6 prefixes falls below the threshold. (PrefixCount=[Integer],Threshold=[Integer])",
+   "Bad state rg \\[chars]\\  [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " OSPF routes advertised by another device were not deleted. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId]) In LS mode, this log is supported only by the service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Thenumber of RSVP neighbors fell below the threshold. (hwRsvpTeIfName=[octet])",
+   "RSVP Message had a bad version  [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The signature database update failed. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Status=[status], Duration (s)=[duration], Reason=[reason], Suggestion=[suggestion])",
+   "Router certificate expired cannot re-enroll/retry for enrollment/re-enroll"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Thenumber of public IPv6 prefixes exceeded the threshold. (PrefixCount=[Integer],Threshold=[Integer])",
+   "Channel mismatch between [chars] and [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", the packet with an incorrect group address was ignored. (FlCode=[STRING][ULONG])",
+   "Invalid Receiver RLOC address family"
+  ],
+  1
+ ],
+ [
+  [
+   "The number of label blockshas reached the upper limit [ULONG].",
+   "BGP failed to send update message because the message buffer   size is calculated to be zero"
+  ],
+  1
+ ],
+ [
+  [
+   " [STRING].",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "On the interface [interface-name], PPP link was closed because the keepalive timer expired.",
+   "mismatched IPX network numbers. Ours = [hec] theirs = [hec]"
+  ],
+  1
+ ],
+ [
+  [
+   "The cleanup timer of PSBexpired. (IngressLsrId=[IPADDR], TunnelId=[USHORT], EgressLsrId=[IPADDR],LspId=[USHORT], LastRecRefreshTime [ULONG] [ULONG] [ULONG](Hour Minute Second),CleanupTime=[ULONG](Second))",
+   "Clear RSVP message counters by [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "The system finished the plane switchover of ISSU.",
+   "Proto Client entity unreg for [chars] has failed"
+  ],
+  1
+ ],
+ [
+  [
+   " Manually obtaining CRL [file_name] through [protocol]...",
+   "LinkDown Interface [chars] changed state to down"
+  ],
+  0
+ ],
+ [
+  [
+   " Updating the local certificate ([certificate-name]) through CMPv2 succeeded.",
+   "All the keys in chain [chars] have expired - please update the key chain now"
+  ],
+  0
+ ],
+ [
+  [
+   "Flush stale area LSAs. (ProcessId=[USHORT])",
+   "Slave clock status changed to [chars]   [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   " SFTP operation failed. (UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName], Operation=[Operation], File/Dir Name=[FileDirName], Reason=[Reason])",
+   "IPSec SA received fragmented ESP packet DP Handle [dec]  src_addr %Ci dest_addr %Ci SPI 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",(S,G) entry whose RP was [rp-address] was ([source-address], [group-address]),it exceeded the peer ([peer-address])'s SA-cache maximum [maximum-number].(FlCode=[STRING][ULONG])",
+   "Message size violation on [dec]-byte packet from [inet] discarded"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",IGMP discarded the received report ([source-address], [group-address])because the number of IGMP group memberships reached the limit onthe interface [interface-name]. The current statistical number ofIGMP group memberships is [statistical-number]. (FlCode=[STRING][ULONG])",
+   "Received a non-matching query interval [dec] from querier address [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " Importing local certificate file ([FileName]) successfully. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "[Sub/RA]CS Rollover certificate has been generated for [chars] and it will be activated at [chars] \\n Issuer-name   [chars]\n                              \\n Subject-name   [chars] \\n Serial-number  [chars] \\n End-date   [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " RIP finished PAF comparison. Theupgrade type is  [STRING].",
+   "Unable to open socket"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",all neighbors were deleted from the interface because the interfacewas down or PIM was disabled on the interface. (Interface=[STRING],FlCode=[STRING][ULONG])",
+   "Corrupted PIM register [chars] tunnel queue links. Can't add RP [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The trap of LSP tracetest.(hwLspTunnelID=[INTEGER], hwLspSenderAddress=[INTEGER], hwLspEndPointAddress=[INTEGER],hwLspTTL=[INTEGER], hwLspHandle=[INTEGER])",
+   "MPLS-TP Echo request unsupported"
+  ],
+  1
+ ],
+ [
+  [
+   " In current link mode, the hardware, such as boards and optical modules, do not support PTP time synchronization. (hwPtpChassisId=[hwPtpChassisId], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] invalid master address [chars] is selected.  Action is ignored because of the invalid master clock\n                              source."
+  ],
+  1
+ ],
+ [
+  [
+   " The usage of the bandwidth in pool-[ulPoolNum] on TM [ulTmId] of slot [aucSlotStr] exceeded the threshold([ucValue]). In LS mode, this log is supported only by the service LSs.",
+   "Service policy installation failed on [chars].  [chars].  policy [chars] dir [chars] ptype [chars] ctype [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP global users descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "Key definition ignored."
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", a session with the peer [peer-address] was closed because a Notification TLV was received from this peer. (FlCode=[STRING][ULONG])",
+   "IP=[inet]| HOST=[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "On the interface [interface-name], authentication failed and PPP link was closed because CHAP was disabled on the peer.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of VPN-Instances routes reached the upper limit [paf-vpn-route-limit] in the system when the upper limit of routes in the routing tablein all instances was checked.",
+   "Bad state rg \\[chars]\\  [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " Log [FeatureName]/[LogName] is suppressed [SuppNumber] in last [SuppPeriod] seconds.",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   " The GR-capable peer received an Open message without the R flag, so the connection was reset. (VpnInstance=[VpnInstance], Peer=[peer-address], SourceInterface=[SourceInterface])",
+   "Malformed attribute attr-set   received from [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", the BSR packet received from [bsr-address] and with wrong group [group-address]'s scope was ignored. (FlCode=[STRING][ULONG])",
+   "Invalid Client Id usage [dec]."
+  ],
+  0
+ ],
+ [
+  [
+   " MPLS LDP session went down. (PID=[hPid], CID=[hCid], SessionUpTime=[SessionUpTime], SessionDownTime=[SessionDownTime], GRSessionFlag=[FTFlag], PeerID=[PeerID], DiscoverySource=[DiscoverySourceIndex], LocalAddr=[LocalAddress], PeerAddr=[PeerAddress], SessionRole=[SessionRole], SessionType=[SessionType], KASendCount=[KaSendCount], KARecvCount=[KaRecvCount], VrfName=[VrfName], TCPConnSocket=([TcpFD]FD,[TcpPipeId]PipeID), TCPLsnSocket=([LsFD]FD,[LsPipeId]PipeID), FlowCount=[FlowCount], FlowRelCount=[FlowRelCount], DetailReason=[SubReason], Reason=[Reason], GR-helperFlag=[GRHelperFlag], LastKaSendTime=[LastKaSendTime], LastKaRecvTime=[LastKaRecvTime]) In LS mode, this log is supported only by the service LSs.",
+   "Session to peer [inet] going [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Interface is elected to beDR. (IfIndex=[integer], IfIPverion=[integer], IfAddrType=[integer],Addr=[binary], IfName=[string], InstanceID=[integer], InstanceName=[string])",
+   "Receiver RLOC ATTR should be present for PIM J/P with LISP transport"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] CBC mode encryption algorithm is used, and GCM mode encryption algorithm is recommended. (PeerAddress=[PeerAddress], InterfaceName=[InterfaceName]) \"",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF [process-id] cannot enter helper mode, neighbor-ID mismatch with restarting neighbor [interface-name].",
+   "Base topology enabled on interface [chars] attached to MTR compatible mode  area [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The MKA protocol status is restored or the MACSEC configuration is deleted.(IfIndex=[if-index],Role=[role], Local Port=[local-port]) In LS mode, this log is supported only by the service LSs.",
+   "%llu"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of quiet users is reaching the max on port.(UserType=[INTEGER], IfName=[OCTET], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   "Server config failure  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " OSPF Router id conflict maybe occur on inter-area. (ProcessId=[USHORT], RouterId=[IPADDR])",
+   "Key ID [dec] in key chain [chars] does not have a key"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of rule to be send has reached the maximum value. (GroupName=[STRING])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " MPLS LDP session went down. (PID=[hPid], CID=[hCid], SessionUpTime=[SessionUpTime], SessionDownTime=[SessionDownTime], GRSessionFlag=[FTFlag], PeerID=[PeerID], DiscoverySource=[DiscoverySourceIndex], LocalAddr=[LocalAddress], PeerAddr=[PeerAddress], SessionRole=[SessionRole], SessionType=[SessionType], KASendCount=[KaSendCount], KARecvCount=[KaRecvCount], VrfName=[VrfName], TCPConnSocket=([TcpFD]FD,[TcpPipeId]PipeID), TCPLsnSocket=([LsFD]FD,[LsPipeId]PipeID), FlowCount=[FlowCount], FlowRelCount=[FlowRelCount], DetailReason=[SubReason], Reason=[Reason], GR-helperFlag=[GRHelperFlag], LastKaSendTime=[LastKaSendTime], LastKaRecvTime=[LastKaRecvTime]) In LS mode, this log is supported only by the service LSs.",
+   "Interface [chars] is in an unexpected autoconfig state 0x[hec] [chars] request."
+  ],
+  1
+ ],
+ [
+  [
+   "[STRING].",
+   "[domain [dec]] Clock status changed to [chars]   [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   " The outgoing traffic on the interface exceeds the alarm threshold for the CIR of the interface. (Interface=[hwXQoSIfLrCfgIfName], CIR=[hwXQoSIfLrCir] kbit/s, alarm threshold=[hwXQoSTrapThreshold] of the percentage, outbound interface rate=[hwXQoSPassPacketRate] kbit/s)",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   "SNTP delete unicast server info, ip address is [string].",
+   "[chars] TX SCI %llx   vport [dec]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]Target host [octet] was deleted.",
+   "Invalid object VLAN [dec] IDB [hec] used in Feature Manager operation"
+  ],
+  1
+ ],
+ [
+  [
+   "The IP address of request message was locked because authentication failed. (SourceIPType=[ULON G], SourceIP=[STRING])",
+   "Authentication failure for SNMP req from host [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " Because of unsuccessful validation, routes not added to database. (Destination=[DestinationIP], Interface=[Interface], ProcessId=[ProcessID]).",
+   "[chars] has [dec] non-positive ifIndices."
+  ],
+  0
+ ],
+ [
+  [
+   " Successfully replaced certificate. (Type=[type],Realm=[realm],OldName=[old_name],NewName=[new_name])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " PIM neighbor add. (NbrIntIndex=[NbrIntIndex], NbrAddrType=[NbrAddrType], NbrAddr=[NbrAddr], NbrExpiryTime=[NbrExpiryTime], InstanceID=[InstanceID], InstanceName=[InstanceName]) In LS mode, this log is supported only by the service LSs.",
+   "PIM Dense Mode is not recommended and needs to be replaced with PIM    Sparse Mode"
+  ],
+  1
+ ],
+ [
+  [
+   "On the interface [interface-name], PPP link was closed because loopback was detected after PPP link had been established.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "Cannot power on [STRING] because the board is unrecognized.",
+   "[chars] temperature normal"
+  ],
+  1
+ ],
+ [
+  [
+   "User loginsuccess.(UserName=[STRING], IPAddress=[STRING], VpnName=[STRING])",
+   "Unexpected TEK Protocol   [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " A packet is received on the non-virtual interface from a router whose configuration conflicts with the local configuration. (RouterId=[RouterId], IfIpAddress=[IfIpAddress], AddressLessIf=[AddressLessIf], PacketSrc=[PacketSrc], ConfigErrorType=[ConfigErrorType], PacketType=[PacketType], ProcessId=[ProcessId], AreaId=[AreaId])",
+   "No valid authentication [chars]key is available on interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Statistics about error MACsec data packets received by the current port. (Local Port=[LocalPort], Late Packets=[LatePkts],NotValid Packets=[NotValidPkts], BadTag Packets=[BadTagPkts],NoUsingSA Packets=[NoUsingSAPkts]) In LS mode, this log is supported only by the service LSs.",
+   "Attempt to move [enet] from [[chars]] to [[chars]]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] Exceed the speed limit value configured.(Ifnet index=[INTEGER], Configured value=[COUNTER], Sampling value=[COUNTER],Speed-limit type=[OCTET], Source Ip address=[IPADDR], DestinationIp address=[IPADDR], VPN-Instance name=[OCTET]).",
+   "[chars] [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " When deciding whetherto disable the threshold alarm function, the user chose YES. (TaskName=[STRING])",
+   "Failed to allocate internal VLAN in Port Manager"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]  The helper status ofthe non-virtual neighbor changes. (NbrIpAddr=[ip-address], NbrAddressLessIndex=[interface-index],ProcessId=[process-id], RouterId=[router-id], NbrRtrId=[neighbor-router-id],NbrRestartHelperStatus=[gr-helper-state], NbrRestartHelperAge=[gr-helper-value],NbrRestartHelperExitReason=[quit-reason], InstanceName=[instance-name])",
+   "Can not use configured neighbor [inet] on [chars]. Neighbor command  only allowed on NBMA and P2MP networks"
+  ],
+  1
+ ],
+ [
+  [
+   " All member interfaces of trunk's link status change to up. (TrunkName=[TrunkName])",
+   "Attempt to learn denied address [enet] on [chars]. Service instance   will be shutdown."
+  ],
+  0
+ ],
+ [
+  [
+   "LDP GR was complete.",
+   "[chars]  accesslist 0x[hec] out of range for \\[chars]\\"
+  ],
+  0
+ ],
+ [
+  [
+   "RM received the status [ldp-session] of the LDP session on the [interface-name].",
+   "Out of buffers in RM event buffer queue"
+  ],
+  1
+ ],
+ [
+  [
+   " The next startup files on the master and slave main control boards became consistent. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Maximum number of peers [dec] exceeded for Ethernet Segment [chars] in"
+  ],
+  0
+ ],
+ [
+  [
+   " Vsys [vsys-name]  The device failed to decrypt the received IPSec-encrypted packet (Source address=[source-address], Destination address=[destination-address], SPI=[spi], Protocol=[protocol]) because no inbound SA was found.",
+   "spi 0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   "When determining whether to abort the ISSU upgrade through the issu abort command, the user chose [result].",
+   "[chars][dec] is not registered under endpoint."
+  ],
+  1
+ ],
+ [
+  [
+   "When deciding whether toset the LPU in slot [slot-id] to common-reboot mode, the user chose[result].",
+   "The config was NOT accepted"
+  ],
+  0
+ ],
+ [
+  [
+   " MKA Authentication Results(LocalPort=[LocalPort], CKN=[CKN], ProtocolStatus=[Status], Reason=MKA protocol status changes to [ReasonStatus] from [OldStatus]) In LS mode, this log is supported only by the service LSs.",
+   "[chars] TX SCI %llx   vport [dec]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]  The status of the non-virtualneighbor changes. (NbrIpAddress=[neighbor-ip-address], NbrAddressLessIndex=[neighbor-interface-index],ProcessId=[process-id], AreaId=[area-id], IfnetIndex=[interface-ifnet-index],LocalIfIpAddress=[local-ip-address], ProcessId=[process-id], RouterId=[router-id],NbrRtrId=[neighbor-router-id], NbrState=[neighbor-state], IfName=[interface-name],InstanceName=[instance-name], NbrChgReason=[NbrStateChangeReason])",
+   "%llu"
+  ],
+  0
+ ],
+ [
+  [
+   " FSM received an unexpected event. (FSM=[fsm-name], PreState=[prev-state], CurrState=[curr-state], InputEvent=[input])",
+   "BFD is supported   for single hop neighbors. [chars] is not single hop   neighbor"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance [vpn-instance-name], the PIM packet received from [source-address] was discarded because the checksum of this packet was incorrect, the message type was [message-type] received from the interface [interface] .(FlCode=[STRING][ULONG])",
+   "ARP system internal error. Returns NULL arp entry on node %p\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " The BGP peer entered the batch advertisement queue. (PeerAddress=[PeerAddress], VPNInstance=[VPNInstance], AddressFamily=[AddressFamily], UptPeerGrpID=[UptPeerGrpID], SourceInterface=[SourceInterface])",
+   "Illegal copy of attribute to non empty [chars] vlan label [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The ACL rule in the policy is not completely delivered.(SlotId=[SlotId],Reason=[Reason]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Dropped a packet for QoS CAC when exporting flow records via HSL  to the control plane"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] quits stub router state for overtime.",
+   "Attempt to generate an invalid object identifier"
+  ],
+  0
+ ],
+ [
+  [
+   " On the interface [IntfIdx], PPP LCP state change [number] times in 1 minute. In LS mode, this log is not supported.",
+   "BGP neighbor [chars] does not support sending labels"
+  ],
+  0
+ ],
+ [
+  [
+   "RM rejected the settingof routing table limit for instance (ID) [instance-id] because thelimit number [limit-route-number] was greater than the maximum routelimit defined in PAF [paf-route-limit].",
+   "Maximum session creation limit [dec] for [chars] sessions reached."
+  ],
+  0
+ ],
+ [
+  [
+   " The AMB notified the SMBthat  process [USHORT]'s data is acceptable now. (InstanceId=[USHORT])",
+   "[chars] failed to get SR attributes from SR_APP with error [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " 1588 ACR/ATR PDV state is changed. (State=[State]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "Slave clock status changed to [chars]   [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   " Current lock status of clock frequency synchronization resumed. (hwPtpFreqLockStatus=[hwPtpFreqLockStatus]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] invalid master address [chars] is selected.  Action is ignored because of the invalid master clock\n                              source."
+  ],
+  1
+ ],
+ [
+  [
+   " The SMB received the notification from the AMB that global data backup is complete.",
+   "Received invalid packet  [chars] from [inet] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "The domain [STRING] is changed from blocked to active because the current time is not within the blocking period.",
+   "QFP SSL record header buffer overflow"
+  ],
+  0
+ ],
+ [
+  [
+   "sessionId = [STRING].",
+   "Attribute with unknown format [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   "Routes received from peer [neighbor-address] including the number of prefix [receive-prefix-number] exceeded the max number of prefix [max-prefix-number]. (BgpAddressFamily=[STRING])",
+   "BGP update error    [chars] Duplicate [chars] attribute dropped by error handling"
+  ],
+  1
+ ],
+ [
+  [
+   " CA certificate ([caCertName]) will be valid in [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Interface loopback is detected. (InterfaceIndex=[InterfaceIndex], InterfaceName=[InterfaceName]) In LS mode, this log is supported only by the service LSs.",
+   "\\n[chars]  failed rc=[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] Exceed the speed limit value configured.(Ifnet index=[INTEGER], Configured value=[COUNTER], Sampling value=[COUNTER],Speed-limit type=[OCTET], Source Ip address=[IPADDR], DestinationIp address=[IPADDR], VPN-Instance name=[OCTET]).",
+   "Attempt to overwrite Sticky ARP entry  [inet] hw  [enet] by hw  [enet]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " Manually obtaining certificate [file_name] through [protocol] succeeded.",
+   "CRL Request for trustpoint  \\[chars]\\ returned [dec] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " TLS1.3 key update failed. (Key update reason = [KeyupdateReason], Key update time = [CurrentSystemTime], FailReason = [FailReason], ErrorCode = [ErrorCode], AppCid = [AppCid], VerifyMode = [VerifyMode], TlsId = [TlsId], SockFd = [SockFd])",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to change user attribute.Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING],UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING].",
+   "Attempt to overwrite Sticky ARP entry  [inet] hw  [enet] by hw  [enet]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " The source IP was locked because of the failure of login through SNMP.(SourceIP=[SourceIP], VPN=[VPN])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " VRRP authentication failed. (vrrpTrapPacketSrc=[vrrpTrapPacketSrc], vrrpTrapAuthErrorType=[vrrpTrapAuthErrorType])",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The numberof RSVP neighbors reached the maximum number. (hwRsvpTeIfName=[octet],hwRsvpTeNbrTotalCount=[integer])",
+   "RSVP Message had a bad type  [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The quiet max user alarm is cleared. (Threshold=[Threshold]%, UserNum=[UserNum], Lower Threshold=[LowerThreshold]%, Upper Threshold=[UpperThreshold]%, Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+   "IP=[chars]| MPPE_RECV_KEY_LENGTH=[dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " Last message repeated [repeat_num] [repeat_times].",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   "[string] of pstLocalAddr is ok.",
+   "neighbor [inet] [chars] on interface [chars] [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " CRL ([crlName]) has been updated and will be expired in [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Running configuration saved to NVRAM"
+  ],
+  1
+ ],
+ [
+  [
+   " The ptp standard time offset is abnormal. (hwPtpStandardTimeOffset=[hwPtpStandardTimeOffset], hwPtpAlarmThresholdStandardTimeOffset=[hwPtpAlarmThresholdStandardTimeOffset]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "[domain [dec]] Clock status changed to [chars]   [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   " the crl is invalid. (CrlStartTime=[CrlStartTime], CrlFinishTime=[CrlFinishTime], CrlIssuer=[CrlIssuer]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "MLPoFR not configured properly on Link [chars] Bundle [chars]  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "The R versions of the new version and the old are different. The system supports the lossy ISSU upgrade only.",
+   "[chars][dec] is in use under endpoint"
+  ],
+  1
+ ],
+ [
+  [
+   " On the interface [InterfaceName], LCP negotiation failed because the result cannot be accepted. In LS mode, this log is not supported.",
+   "mismatched IPX network numbers. Ours = [hec] theirs = [hec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The MAC address conflict is removed. (ConflictInterface=[LocalInterface], ConflictMac=[ConflictMac], SourceIpAddress=[RemoteIp], PeVlan=[PeVlan], CeVlan=[CeVlan], InboundInterface=[InboundInterface]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Received a non-matching query interval [dec] from querier address [inet]"
+  ],
+  0
+ ],
+ [
+  [
+   " The bmc info of port [hwPtpPortIfIndex] changed. (hwPtpPortName=[hwPtpPortName], hwPtpPortSourcePortClockId=[hwPtpPortSourcePortClockId], hwPtpPortSourcePortNum=[hwPtpPortSourcePortNum], hwPtpPortSourceStepsRemoved=[hwPtpPortSourceStepsRemoved], hwPtpCurrentMasterClockId=[hwPtpCurrentMasterClockId]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] master address new [chars] old [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " User was unlocked. (User=[User], Activate mode=[UnlockMode]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Accounting-Session-ID [dec] exceeded max value allowed"
+  ],
+  1
+ ],
+ [
+  [
+   "The number of multicastforwarding entries reached the upper threshold. The number of existingentries in the instance [current-instance-entry], the maximum numberof entries in the instance [current-instance-limit], the number ofexisting entries on a device [current-device-entry], the maximum numberof entries on a device [current-device-limit]. (Protocol=[STRING],Vpn=[STRING], FileLine=[STRING][STRING])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The length change value of the ring-network optical fiber is determined. (hwPtpPortName=[hwPtpPortName], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortRingFiberLengthChangeValue=[hwPtpPortRingFiberLengthChangeValue], hwPtpPortRingFiberLengthChangeValueFlag=[hwPtpPortRingFiberLengthChangeValueFlag]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "DH shared secret computation failed status [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " RIP finished PAF comparison. Theupgrade type is  [STRING].",
+   "\\ Number of connections per minute has exceeded the maximum limit[dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The session number in all the IO boards has reached the limit, the new session can not be created. (TotalSessionLimit=[TotalSessionLimit])",
+   "BFD-SYSLOG  bfd_session_destroyed [chars] neigh proc [chars]  handle [dec] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] neighbor[neighbor-information] exits helper successfully on interface [interface-ip-address].",
+   "NULL MAC address from [inet] on [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Configuration file was changed. (LogIndex=[LogIndex], SrcCmd=[SrcCmd], SrcData=[SrcData], DestData=[DestData], TerUser=\"[TerUser]\", SrcAddr=[SrcAddr], ConfigChangeId=[ConfigChangeId], LogTime=[LogTime], CfgBaselineTime=\"[CfgBaselineTime]\")",
+   "Interface [chars] Bad VPI/VCI range. Can't start a LDP session"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of IPv4 routes forthe public network reaches the upper limit [paf-pub-limit], when thenumber of IPv4 routes in the routing table is checked.",
+   "Uninitialized value being used"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]  An LSA is generated. (LsdbAreaId=[area-id],LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id],ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+   "Standby synchronization error  interface not attached to add  neighbor [chars] [inet] [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " OSPF-INFO The communication components started transmitting data again from the first piece because of the incorrect sequence number. (CurSeq=[CurSeq], RecvSeq=[RecvSeq], LocalComp=[LocalComp], PeerComp=[PeerComp])",
+   "Threshold for maximum number of non self-generated LSA has been  reached \\ospf [dec]\\ - [dec] LSAs"
+  ],
+  1
+ ],
+ [
+  [
+   " The user chose [Y/N] when deciding whether to overwrite current configurationfile.",
+   "Unable to open socket"
+  ],
+  0
+ ],
+ [
+  [
+   " Importing [key_type] key pair [key_name] succeeded.",
+   "eid id address type is invalid"
+  ],
+  0
+ ],
+ [
+  [
+   " The SSH user failed to login. (ServiceType=[ServiceType], FailedReason=[FailedReason], UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName])",
+   "Buffer Length exceeded"
+  ],
+  1
+ ],
+ [
+  [
+   "The number of routes in [vpn-instance-name] was [current-number], which reached or exceeded the maximum value [max-value]. (InstanceId=[ULONG], AcceptOrRejectFlag=[STRING])",
+   "Wavl error"
+  ],
+  1
+ ],
+ [
+  [
+   " the local certificate is nearly expired. (LocalCertStartTime=[LocalCertStartTime], LocalCertFinishTime=[LocalCertFinishTime], LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Failed to delete static groups for interface [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   " The received prefix-sid is over the range of NextHop SRGB. (PrefixSid=[PrefixSid], NexthopRange=[NexthopRange]) In LS mode, this log is supported only by the service LSs.",
+   "Reset of established LDP session required to propagate [chars]\\n change to peers that don't support Dynamic Announcement"
+  ],
+  0
+ ],
+ [
+  [
+   " SR Nexthop is not generated because the SR nexthop outgoing interface does not support Segment routing.(IfIndex=[IfIndex], MSD=[MSD]) In LS mode, this log is supported only by the service LSs.",
+   "Key ID [dec] in key chain [chars] is invalid"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] addsvirtual neighbor to pre-restart neighbor list. (RouterId=[IPADDR],TransitAreaId=[IPADDR], HelperVirtNbrCount=[ULONG], HelperShamLinkNbrCount=[ULONG],HelperNormalNbrCount=[ULONG])",
+   "Duplicate [chars]MAC address [enet] EVI [dec] [chars] [dec] detected on [chars] and [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The number of IPv6prefixes exceeded the maximum value. (PrefixCount=[Integer], MaxValue=[Integer])",
+   "Invalid alignment in packet for IP. [chars]=[hex]"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The quiet max user alarm on port is cleared.(UserType=[INTEGER], IfName=[OCTET], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   "invalid hdl AAA ID [dec] hdl [hec] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "The passwordof local account [STRING] can be changed.",
+   "AAA ACCT process suspended   low I/O memory"
+  ],
+  1
+ ],
+ [
+  [
+   "The user chooses [STRING] when determining whether to disable GVRP.",
+   "GVRP High Availability subsystem fails to be initialized  and hence GVRP won't support HA stateful switchover."
+  ],
+  1
+ ],
+ [
+  [
+   " The user chooses[Y/N] when deciding whether to disable the sending of ARP broadcastpackets.",
+   "NULL MAC address from [inet] on [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] neighbor[neighbor-information] exits helper successfully on interface [interface-ip-address].",
+   "interface [chars] has zero bandwidth"
+  ],
+  1
+ ],
+ [
+  [
+   " LOCAL certificate ([localCertName]) will be valid in [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "All enrollment requests will be automatically rejected."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to check specificationin the ISSU check phase.",
+   "An invalid output vector detected on interface [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The clock-class of input time source is above or equal to threshold. In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] invalid master address [chars] is selected.  Action is ignored because of the invalid master clock\n                              source."
+  ],
+  1
+ ],
+ [
+  [
+   "The operation of [STRING] A user did not input any word in [ULONG]s, and the system automaticallyexited from the operation.",
+   "[chars]  RG-info conversion  failed [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " PPP link state changed on the interface. (IfName=[IfName], LinkType=[LinkType], CurrentLinkState=[CurrentLinkState], Reason=[Reason]) In LS mode, this log is not supported.",
+   "Multilink fastsend reentered bundle [chars] [chars] packet discarded"
+  ],
+  1
+ ],
+ [
+  [
+   " Time source changed. (hwPtpOldMasterClockId=[hwPtpOldMasterClockId], hwPtpCurrentMasterClockId=[hwPtpCurrentMasterClockId], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortOldSourcePortNum=[hwPtpPortOldSourcePortNum], hwPtpPortSourcePortNum=[hwPtpPortSourcePortNum], hwPtpOldPortName=[hwPtpOldPortName], hwPtpPortName=[hwPtpPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "Failed to reset source flags for [inet]."
+  ],
+  0
+ ],
+ [
+  [
+   " DHCP client received an ARP packet with a conflict IP address. (IPAddress=[ipAddr], MACAddress=[mac-address], Interface=[ifName]) In LS mode, this log is supported only by the service LSs.",
+   "Can not find [chars][dec] under [chars] session[dec]."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to execute the info-centerfilter-id command. (Task=[STRING], Ip=[STRING], VpnName=[STRING],User=[STRING], Parameter=\"[STRING]\")",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   " The routing item changed. (detectorId=[DetectorId], vrfId=[VrfId], network=[Network], mask=[Mask], type=[Type], protocol=[Protocol], nexthop=[Nexthop], interface=[Interface], perference=[Perf], cost=[Cost])",
+   "SSH2 Session from [chars] tty = [dec] for user '[chars]'"
+  ],
+  0
+ ],
+ [
+  [
+   " The default route is added.(AddrFamily=[AfType], InstanceID=[InstanceID], ProcessID=[ProcID], ProtocolID=[ProtoID], SubProtocolID=[SubProtoID], ExitIf=[Ifname], Nexthop=[Nexthop], Neighbour=[Neighbour], Preference=[Pref], Metric=[Metric], IndirectID=[IndirectID])",
+   "PSU[dec] input voltage is normal"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance [vpn-instance-name],a PIM packet received on an unknown interface was discarded, the interfaceindex was [index]. (FlCode=[STRING][ULONG])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The nat conflict rate of pool [hwNatTrapPoolName] in [hwNatTrapVsysName] system is [hwNatTrapThreshold], exceeded the upper threshold [hwNatTrapCfgThreshold], slot [hwNatTrapSlotID] cpu [hwNatTrapCpuID].",
+   "IGMP limit exceeded for group * [inet] on [chars] by host [inet]"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of multicastforwarding entries reached the upper threshold. The number of existingentries in the instance [current-instance-entry], the maximum numberof entries in the instance [current-instance-limit], the number ofexisting entries on a device [current-device-entry], the maximum numberof entries on a device [current-device-limit]. (Protocol=[STRING],Vpn=[STRING], FileLine=[STRING][STRING])",
+   "Packet too short from [chars] datagram size [dec] tl [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   "When deciding whether to update the key [key-name] which already existed, the user chose [Y/N].",
+   "DH key generation failed. Status [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " the local certificate has been updated. (LocalCertStartTime=[LocalCertStartTime], LocalCertFinishTime=[LocalCertFinishTime], LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "[chars] attempt to add index %08X [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",IGMP discarded the received report ([source-address], [group-address])because the number of IGMP group memberships in all VPN instancesreached the limit. The current statistical number of IGMP group membershipsis [statistical-number]. (FlCode=[STRING][ULONG])",
+   "Peering with self [inet]"
+  ],
+  0
+ ],
+ [
+  [
+   "The local account [STRING] becomes valid because the current time is within the access permission period.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]  A packet is received ona non-virtual interface from a router whose authentication key orauthentication type conflicts with the local authentication key orauthentication type. (IfIpAddress=[ip-address], AddressLessIf=[interface-index],ProcessId=[process-id], RouterId=[router-id], PacketSrc=[source-ip-address],ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+   "Received PATH [inet]_[dec]->[inet]_[dec] -"
+  ],
+  0
+ ],
+ [
+  [
+   " Leaving RIP multicast groupis unsuccessful. Total [number] occurrences since [date] [time]. (ProcessId=[ULONG],ErrorCode=[LONG])",
+   "Lookup or allocation of MFIB wire failed"
+  ],
+  0
+ ],
+ [
+  [
+   " The static route assigned by a DHCP server changed. (Client InterfaceName=[InterfaceName], ServerId=[ServerId], Old StaticRoute=[OldStaticRoute], New StaticRoute=[NewStaticRoute])",
+   "\\natm-issu-compat  returned FALSE"
+  ],
+  0
+ ],
+ [
+  [
+   " CMP PKI Status. (Session=[STRING], Status=[STRING]).",
+   "Warning  This command has been deprecated in favor of the  line-command \\timeout login response\\"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The whole deviceforwarding engine resources were overloaded. (EntPhysicalindex=[INTEGER],EntPhysicalName=[OCTET], Reason=[INTEGER])",
+   "Invalid XDR slot. Type/len/slot [dec]/[dec]/[chars]. XDR at 0x%08x"
+  ],
+  1
+ ],
+ [
+  [
+   " The errors of post-fec is rising. (hwIfMonitorIndex =[hwIfMonitorIndex], hwIfMonitorName =[hwIfMonitorName],hwIfMonitorPostFECErrorStatistics =[hwIfMonitorPostFECErrorStatistics] ) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+   "[chars] [chars] [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " Receive TCP KeyChain authentication failed. (tcpConnLocalAddress=[tcpConnLocalAddress], tcpConnLocalPort=[tcpConnLocalPort], tcpConnRemAddress=[tcpConnRemAddress], tcpConnRemPort=[tcpConnRemPort], hwTCPProtocol=[hwTCPProtocol], hwTCPVrfName=[hwTCPVrfName])",
+   "Multiple entry for packet [hec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The ACL rule in the policy is not completely delivered.(SlotId=[SlotId],Reason=[Reason]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Interface [chars] is being restarted by DHCP\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " MIB node set. (UserName=[Username], SourceIP=[SourceIP], DestIP=[DestIP], Version=[Version], RequestId=[RequestId], [OIDName], VPN=[VPN])",
+   "Selected IP address [inet]"
+  ],
+  0
+ ],
+ [
+  [
+   " PIM received an error packet and dropped it. Records the interface name, source address, and invalidity type of the last packet. (VrfName=[VrfName], PktType=[PktType], ErrPktCnt=[ErrPktCnt], LastPktIfName=[LastPktIfName], LastPktSrcAddr=[LastPktSrcAddr], LastPktInvType=[LastPktInvType]) In LS mode, this log is supported only by the service LSs.",
+   "DR change from neighbor [inet] to [inet] on interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of IPv6 prefixes in the VPN instance exceeded the maximum value. (VpnInstanceName=[VpnInstanceName], PrefixCount=[PrefixCount], MaxValue=[MaxValue])",
+   "Bad connection requested  slot [dec] stream [dec] channel [dec] to slot [dec] stream [dec] channel [dec]."
+  ],
+  0
+ ],
+ [
+  [
+   "InVPN instance [vpn-instance-name], the packet with an unknown secondaryaddress family [address-family] was ignored, and the packet receivedfrom the interface [interface]. (FlCode=[STRING][ULONG])",
+   "eid id is invalid. Expected eid id format is  [virtual network id]prefix/mask length"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of routes in the VPN instance decreased below the recovery threshold.  (CurrentRouteNum=[CurrentRouteNum], ThresholdValue=[ThresholdValue], RouteType=[RouteType], Vpn-instance=[Vpninstance], AddressFamily=[AddressFamily])",
+   "Unable to open socket"
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting OCSP certificate file([string]) succeeded.",
+   "Re-initialization of group [chars] completed."
+  ],
+  0
+ ],
+ [
+  [
+   " BGP discard received routes. (InstanceName=[InstName], Afi=[AddrFamilyAfi], Safi=[AddrFamilySafi], DiscardReason=[DiscardReason])",
+   "Detected a static route already installed for VRF ID destination IP  [%lu [chars]] with full prefix length. EVPN will install\n                                 a static route  which may be overridden in RIB by the other static route."
+  ],
+  0
+ ],
+ [
+  [
+   " The AMB notified the SMBthat  process [USHORT]'s data is acceptable now. (InstanceId=[USHORT])",
+   "Failed to set VLAN [dec] to a [chars] VLAN"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The number ofIPv4 prefixes falls below the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Unexpected Call on [chars]. Current  state is [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " LOCAL certificate ([localCertName]) has been expired for [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "ILMI[chars]  Auto configuration already disabled."
+  ],
+  0
+ ],
+ [
+  [
+   "RSVP TE was enabled successfullyon interface [InterfaceName].",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF [process-id] DR electionfailed. Exit GR unsuccessfully as DR election failed.",
+   "Failed to initialize ISSU proto."
+  ],
+  0
+ ],
+ [
+  [
+   "Aging failed in the ISSUswitch phase.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " In VPN instance \"[vpn-instance-name]\", in the PIM-SSM module, the upstream neighbor could not be found though the upstream ([source-address], [group-address]) was in Joined state. In LS mode, this log is supported only by the service LSs.",
+   "For multicast route [inet] [inet] no register tunnel IDB found"
+  ],
+  1
+ ],
+ [
+  [
+   " SSL certificate expired. (CertFileName = [CertFileName], CertType = [CertType], CertValidityPeriod = [CertValidityPeriod], CurrentSystemTime = [CurrentSystemTime])",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed\u00a0in\u00a0allocating\u00a0memory\u00a0for\u00a0behavior\u00a0hash\u00a0table.",
+   "SA 0x[hec]0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " OSPF exit helper mode because grace period timer for neighbor expired. (ProcessId=[ProcessId], InterfaceName=[InterfaceName], NbrIpAddr=[NbrIpAddr], AreaId=[AreaId])",
+   "[chars] iterface [chars] interface state [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " LOCAL certificate ([subject_name]) has expired for [day] days.",
+   "Certificate enrollment failed."
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCP client acquired IP address successfully. (Client InterfaceName=[STRING], ServerId=[IPADDR], Acquired IpAddress=[IPADDR], Mask=[IPADDR], Gateway=[STRING], Static Route=[STRING], Lease Duration=[STRING], DNS Server=[STRING], DNS Domain=[STRING], Cloud management URL=[STRING], Option43=[STRING])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Manually obtaining CRL [file_name] through HTTP failed (Reason=[reason]).",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Group members are deleted manually or deleted by changing group config. (GroupName=[STRING])",
+   "The ACL has too many entries.\\n  GDOI will honor only the first 100 ACL entries specified."
+  ],
+  1
+ ],
+ [
+  [
+   "The status of the peer [peer-address]changed from [previous-state] to [current-state]. (InstanceName=[STRING],StateChangeReason=[STRING])",
+   "While adding or deleting multicast state some state  may not correctly have local interest flag set or cleared."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] ARP detects IP conflict.(IP address=[IPADDR], Local interface=[OCTET], Local MAC=[OCTET],Local vlan=[INTEGER], Local CE vlan=[INTEGER], Receive interface=[OCTET],Receive MAC=[OCTET], Receive vlan=[INTEGER], Receive CE vlan=[INTEGER],IP conflict type=[OCTET]).",
+   "ARP table accessed at interrupt level [dec]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " Exiting Graceful Restartmode. (Mode=[STRING], ProcessId=[ULONG])",
+   "Radius ipv4 send failed due to FIB error. Error code  [dec]."
+  ],
+  0
+ ],
+ [
+  [
+   " NMSHeartbeat was sent successfully.",
+   "TCP session has flow-control state change"
+  ],
+  0
+ ],
+ [
+  [
+   "The user chooses [STRING] when determining whether to clear LLDP neighbor.",
+   "Neighbor record not committed - malloc failure"
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to download the new version. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Status=[status], Duration(s)=[duration], Reason=[reason], Suggestion=[suggestion])",
+   "Multilink fastsend reentered bundle [chars] [chars] packet discarded"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] get crl successfully with LDAP. (hwLdapIP=[hwldapip], hwLdapPort=[hwldapport], hwCrlAttribute=[hwcrlattribute], hwCrlDN=[hwcrldn], hwLdapVersion=[hwldapversion])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " OSPF receive LSA with greater Lsa-Age. (ProcessId=[ProcessId], AreaId=[AreaId], IfIndex=[IfIndex], NbrIPaddress=[NbrIpAddress], IfName=[IfName], NbrRtrId=[NbrRtrId], LsaId=[LsaId], LsaAge=[LsaAge])",
+   "[chars] failed to register with SR_APP with error [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   "Received a recovery-pathmessage from neighbor [neighbor-address], but the neighbor was notenabled GR.",
+   "RSVP calculated Recovery Time is longer than TE Rewrite Hold-Time  registered with LSD. Some LSPs may not be be recovered."
+  ],
+  1
+ ],
+ [
+  [
+   "RM IM processed the event of deleting an IP address successfully. (IpAddress=[string], Mask=[string], Interface=[string])",
+   "Received PATH [inet]_[dec]->[inet]_[dec] -"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of measure hasreached the upper limit ([max-number]).",
+   "Port [chars] consistency has been restored IDB state  [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   " SSH client login failed. (ServiceType=[ServiceType], FailedReason=[FailedReason], UserName=[UserName], IPAddress=[IPAddress], VPNInstanceName=[VPNInstanceName])",
+   "Memory allocation failed."
+  ],
+  1
+ ],
+ [
+  [
+   "Shamlink interface [shamlink-interface-address] received event [interface-event], interface state changed from [interface-previous-state] to [interface-current-state]. (ProcessId=[USHORT])",
+   "-"
+  ],
+  0
+ ],
+ [
+  [
+   "Rebooted the slave board, because the messages in the queue were too much. (Slot=[STRING])",
+   "CEF has been disabled due to a low memory condition.  It can be re-enabled by configuring \\ip cef [distributed]\\"
+  ],
+  0
+ ],
+ [
+  [
+   " The trace source of client changed. (hwPtpAdaptiveOldTraceSource=[hwPtpAdaptiveOldTraceSource], hwPtpAdaptiveTraceSource=[hwPtpAdaptiveTraceSource]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "\\ Number of connections per minute has exceeded the maximum limit[dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "Physical interface type changed. (InterfaceName=[STRING], InterfaceIndex=[STRING], PreviousPhysicalInterfaceType=[ULONG], CurrentPhysicalInterfaceType=[ULONG])",
+   "Missing [chars] subblock [chars] function for [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of routes on RIP process [PROCESSID] reached the maximum limit, and thus the process is suspended.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Communication with the HWTACACS authorization server (IP [STRING])  is interrupted!",
+   "Critical Warning  More than two fans are running at low RPM.  Rotation speed is now high for all other fans.  Please replace\n                              fan tray to prevent system from overheating."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to notify thesmoothing over of the module, and the system will roll back.",
+   "Can not allocate [chars] under client [chars][dec] and entity[dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Global LLDP is enabled.",
+   "Neighbor record not committed - malloc failure"
+  ],
+  1
+ ],
+ [
+  [
+   " The SSH user succeeded in logging in. (ServiceType=[ServiceType], UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName])",
+   "Buffer Length exceeded"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The interface board changes from the overload suspensionstate to the normal state. (EntityPhysicalIndex=[INTEGER], HwBaseTrapSeverity=[INTEGER],HwBaseTrapProbableCause=[INTEGER], HwBaseTrapEventType=[INTEGER],HwFibOverloadModule=[INTEGER], entPhysicalName=[STRING])",
+   "Peer [inet] is reachable"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP packets in which the CHADDR field is inconsistent with the source MAC address exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET],VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   "Cannot process [chars] method [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The negotiation status is changed. (ServerId=[ServerId], NegoState=[NegoState], ErrorReason=[ErrorReason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "ATM failed to create VCVCD=[dec] VPI=[dec] VCI=[dec] on Interface [chars] Cause of the failure  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Recorded undo info-center enable command information. (Task=[Task], Ip=[Ip], User=[User], Command=\"undo info-center enable \" )",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   "In the [EtherStates] table, a valid row with index [row-id] was newly added by [owner-id].",
+   "Rising trap is generated because the value of [chars] exceeded the\\n\\rising-threshold hc value %llu"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]  An LSA is aged. (LsdbAreaId=[area-id],LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id],ProcessId=[process-id], RouterId=[router-id], InstanceName=[instance-name])",
+   "No valid authentication [chars]key is available on interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " A group member negotiation fails. (GroupName=[STRING], SrcIP=[STRING], DstIP=[STRING], Reason=[STRING])",
+   "Coop KS [chars] in group [chars] received Checkpoint Mismatch message."
+  ],
+  1
+ ],
+ [
+  [
+   " Realm [realm-name] failed to obtain the CA certificate chain through [protocol].",
+   "Cleared duplicate IP address [chars] EVI [dec] [chars] [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " Anomaly message type is [PacketType],happened on port [Ifindex],traffic is [LogState],content is policy [PolicyId],classfier [ClassifierId],acl [ACLGroupId],direction [Direction],chassisid [ChassisId],slot [SlotId],message type is [PacketType_String],ip address is [Ip-value]/[ip-mask]. In LS mode, this log is supported only by the service LSs.",
+   "Invalid Client Id usage [dec]."
+  ],
+  0
+ ],
+ [
+  [
+   "The number of downstream interfaces in the entry ([source-address], [group-address])'s downstream list falls below the set limit. The limit on the number of downstream interfaces is [OIF_LIMIT]. (Protocol=[STRING],Vpn=[STRING], FileLine=[STRING][STRING])",
+   "ATM[chars]  VCVCD=[dec] VPI=[dec] VCI=[dec] Auto Detected Encap Type is [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   "The user [user-name] does not exist.",
+   "Server [chars] is not configured"
+  ],
+  0
+ ],
+ [
+  [
+   "User loginsuccess.(UserName=[STRING], IPAddress=[STRING], VpnName=[STRING])",
+   "\\ Number of connections per minute has exceeded the maximum limit[dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " MSDP peer enter the established state. (RemoteAddr=[RemoteAddr], FsmEstablishedTransitons=[EstablishedTransitons], InstanceName=[InstanceName]) In LS mode, this log is supported only by the service LSs.",
+   "Message size violation on [dec]-byte packet from [inet] discarded"
+  ],
+  1
+ ],
+ [
+  [
+   "Virtual interface receivedbad packet. (ProcessId=[USHORT], RouterId=[IPADDR], Area=[IPADDR],Neighbor=[IPADDR], PacketType=[ULONG])",
+   "[chars]  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Interface [IfName] state changed from [OldState] to [NewState]. (Event=[IfEvent], ProcessId=[ProcessId], AreaId=[AreaId])",
+   "No IP address for interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Received the notification that HA Smooth is complete.",
+   "Unable to open socket"
+  ],
+  1
+ ],
+ [
+  [
+   "The number of routesin MIGP routing table reached the upper limit [migp-route-limit].",
+   "Unexpected Call on [chars]. Current  state is [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " the local certificate is invalid. (LocalCertStartTime=[LocalCertStartTime], LocalCertFinishTime=[LocalCertFinishTime], LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "rc 0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The user chose [string] when deciding whether to import unsafe certificate.",
+   "PKI functions can not be initialized until an authoritative time source  like NTP can be obtained."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of BGProutes exceeded the maximum number. (RouteTypeIndex=[integer], MaximumNumber=[integer])",
+   "Failed to allocate internal VLAN in Port Manager"
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to get CRL ([CRLName]) in domain ([DomainName]) using [Service] automatically. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Slot [dec] TDM init failure \\nstream [dec] channel [dec] channel register 0x[hec] control register 0x[hec]."
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Misorder packet alarm of PWE3 was detected.(IfIndex [integer], VcId=[INTEGER], VcType=[INTEGER], PeerAddress=[IPADDR], InterfaceName=[STRING]",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " In current link mode, the hardware, such as boards and optical modules, do not support PTP time synchronization. (hwPtpChassisId=[hwPtpChassisId], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "\\ Unable to create HTTP process."
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Neighbor information ischanged. (LldpStatsRemTablesInserts=[INTEGER], LldpStatsRemTablesDeletes=[INTEGER],LldpStatsRemTablesDrops=[INTEGER], LldpStatsRemTablesAgeouts=[INTEGER])",
+   "Neighbor record not committed - malloc failure"
+  ],
+  1
+ ],
+ [
+  [
+   " An IPSec policy is added. (SeqNum=[sequence-number], PolicyName=[policy-name], VsysName=[vsys-name])",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   " Get certificate successfully with LDAP. (hwLdapIP=[ldapip], hwLdapPort=[ldapport], hwCertAttribute=[certattribute], hwCertDN=[certdn], hwLdapVersion=[ldapversion], hwCertSaveName=[certsavename]).",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The routing item changed. (detectorId=[DetectorId], network=[Network], mask=[Mask], type=[Type], protocol=[Protocol], nexthop=[Nexthop], interface=[Interface], preference=[Perf], cost=[Cost])",
+   "Unexpected Call on [chars]. Current  state is [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   "There is a loop in resv message (IngressLsrId=[IPADDR], TunnelId=[USHORT], EgressLsrId=[IPADDR]), the IP address [LoopAddress] conflicted with other router.",
+   "No valid keys left for [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   "No enough resources to save neighbors",
+   "[chars] session count has dipped below the aggressive aging  low watermark [dec] [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "On the interface [interface-name],PPP link was closed because loopback was detected when LCP was negotiating.",
+   "MLP Bundle [chars] not appointed"
+  ],
+  1
+ ],
+ [
+  [
+   " Deleting whitelist ([file-name]) failed.",
+   "GVRP can't be enabled because [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "sessionId= [STRING].",
+   "Critical Warning  PSU[dec] Input Voltage [dec]V exceeds high threshold [dec]V.  The system may not continue operation. Immediate\n                              operator action is required."
+  ],
+  0
+ ],
+ [
+  [
+   " BFD session changed from Down to Up in WTR. (SlotNumber=[SlotNumber], Discriminator=[Discriminator], Applications=[Applications], BindInterfaceName=[BindInterfaceName], ProcessPST=[ProcessPST])",
+   "timer services failed to start"
+  ],
+  0
+ ],
+ [
+  [
+   " The status of the EVPL instance changed to down. (EvplId=[EvplInstanceId], Status=[EvplStatus]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+   "Internal error  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "The password has expired, so the local account [STRING] becomes invalid.",
+   "EVPN[[dec] [dec]/[dec]]  VC state [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of usershas reached the max number.(PortIndex=[INTEGER], PortName=[OCTET])",
+   "cnt [dec] sp 0x[hec] cp sp 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " Importing PEER certificatefile ([string]) succeeded.",
+   "DTLS anti-replay error src_addr  %Ci src_port  [dec]  dest_addr  %Ci dst_port  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The hard pipe configured on the interface [interface-name] over port bandwidth or port shaping has cleared. In LS mode, this log is supported only by the service LSs.",
+   "QoS CAC  failed to retreive the CAC flow object for interface [chars] srcIP=%Ci dstIP=%Ci srcPort=[dec] dstPort=[dec]  L3Prot=[dec]\n                              L4Prot=[dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The NTP peer selected by the system is changed. (hwNtpOldSource=[OldSource], hwNtpOldSourceVpnName=[OldVpnName], hwNtpSource=[NewSource], hwNtpSourceVpnName=[NewVpnName])",
+   "GTP-AIC configuration has been detected which is totally  different with peer. Delete all GTP-AIC related config to  proceed\n                              with ISSU/ISSD. After ISSU/ISSD done config GTP-AIC again.\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] PIM entries can be created because the number of PIM entriesfalls below the upper limit. (GrpAddrType=[integer], SrcAddr=[binary],GrpAddr=[binary], InstanceID=[integer], InstanceName=[string])",
+   "Deny proxy for [inet] [inet] from neighbor [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   "On the interface [interface-name], IPCP negotiation failed because the peer IP address was the same as the IP address of a local interface.",
+   "Multilink fastsend reentered bundle [chars] [chars] packet discarded"
+  ],
+  1
+ ],
+ [
+  [
+   " SSL failed to accept with peer. (FailReason = [FailReason], ErrorCode = [ErrorCode], AppCid = [AppCid], VerifyMode = [VerifyMode])",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "Remote account [STRING] has been locked.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of NAT ALG servermap tables has been reduced to less than 85% of the upper limit.",
+   "-"
+  ],
+  1
+ ],
+ [
+  [
+   "Aging failed in the ISSUswitch phase.",
+   "Endpoint is not registered yet."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF restored data in batches after CFM.",
+   "Cannot connect to ConfD. Configuration changes will be  processed when the connection is established."
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to send global backupend event to HA.",
+   "Session to peer [inet] going [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] The IPSec tunnel is deleted. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], OfflineReason=[offlinereason], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID])",
+   "Reply for non-existent request [dec] on queue"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of PPP users reached the maximum.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   "Duplicate address [inet] on [chars] sourced by [enet]"
+  ],
+  0
+ ],
+ [
+  [
+   "The OSPF backup module received the ISSU_SMOOTH_ACROSS event from the ISSU management module.",
+   "Internal error  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The redirect nexthop address matches the network segment of the outbound interface or the redirect configuration has been cleared.(Behavior=[behavior-name], RdrType=[redirect], Interface Name=[interface-name]) In LS mode, this log is supported only by the service LSs.",
+   "GTP-AIC configuration has been detected which is totally  different with peer. Delete all GTP-AIC related config to  proceed\n                              with ISSU/ISSD. After ISSU/ISSD done config GTP-AIC again.\\n"
+  ],
+  1
+ ],
+ [
+  [
+   " Administrator type users login failed too frequently.(failed times=[hwLoginFailedTimes], statistic period=[hwStatisticPeriod] minutes) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Lookup or allocation of MFIB wire failed"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to execute the info-centerfilter-id command. (Task=[STRING], Ip=[STRING], VpnName=[STRING],User=[STRING], Parameter=\"[STRING]\")",
+   "New access filter setting will be applied  to registration of new addresses on [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   " IPSecstart SA smooth. (Slot=[slot-id], CpuID=[cpu-id], Notification remote=[notification-remote])",
+   "expected seq_num 0x[hec] rcvd seq_num 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF [process-id] cannot enter the helper mode because neighbor status of the restarting neighbor [neighbor-ip-address] is not FULL.",
+   "The last key has expired for interface [chars] packets sent  using last valid key."
+  ],
+  1
+ ],
+ [
+  [
+   "The number of IPv6 routes forthe public network reaches the upper limit [paf-pub-limit], when thenumber of IPv6 routes in the routing table is checked.",
+   "NULL MAC address from [inet] on [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "RSVP GR neighbour statechanged from normal to maybe-restarting on the supporting node. (NeighbourAddress=[IPADDR])",
+   "[chars] message from [inet] discarded - authentication seq #%llu is a duplicate"
+  ],
+  1
+ ],
+ [
+  [
+   "The number of routes on RIP process [process-id] reached the upper threshold, and thus the RIP process was suspended.",
+   "Internal info [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The SSH user failed to login. (ServiceType=[ServiceType], FailedReason=[FailedReason], UserName=[UserName], Tei=[Tei], TransNo=[TransNo])",
+   "Local Reset happened due to line termination/disconnection"
+  ],
+  1
+ ],
+ [
+  [
+   " RSA local key pair [key_name] will be deleted.",
+   "Trustpool Download failed"
+  ],
+  1
+ ],
+ [
+  [
+   " The signature database update succeeded. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Pre-UpdateVersion=[pre-update-version], UpdateVersion=[update-version], Status=[status], Duration (s)=[duration])",
+   "Failed to allocate internal VLAN in Port Manager"
+  ],
+  0
+ ],
+ [
+  [
+   " MIB node set failure. (UserName=[UserName], SourceIP=[SourceIP], DestIP=[DestIP], Version=[Version], RequestId=[RequestId], ErrorStatus=[ErrorStatus], ErrorIndex=[ErrorIndex], [OIDName], VPN=[VPN])",
+   "Maximum number of index supported is 20"
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] NHRP peer is added.(Interface=[interface-name], protocol-address=[protocol-address], mask=[mask], next-hop=[next-hop-address], nbma-address=[nbma-address], type=[peer-type])",
+   "Server [chars] is not configured"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] the crl is nearly expired. (CrlIssuer=[crlissuer], CrlStartTime=[crlstarttime],CrlFinishTime=[crlfinishtime])",
+   "Clear [chars] checkpoint state [chars] by [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " OSPF process exit helper mode. (ProcessId=[ProcessId], NbrInformation=[NbrInformation], IfIpAddress=[IfIpAddress])",
+   "interface [chars] has zero bandwidth"
+  ],
+  1
+ ],
+ [
+  [
+   " The memory was insufficient, and the update would be performed in one hour. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Pre-UpdateVersion=[pre-update-version], UpdateVersion=[update-version], Status=[status], Duration(s)=[duration])",
+   "[chars][dec] is not registered under endpoint."
+  ],
+  0
+ ],
+ [
+  [
+   " The capability set that the NETCONF server supports changed. (Server=[Server], UserName=[UserName], SessionId=[SessionId], IpAddress=[IpAddress], AddedCapability=[AddedCapability], DeletedCapability=[DeletedCapability], ModifiedCapability=[ModifiedCapability])",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The message forwarding congestion is resolved. (SlotName=[SlotName], FeNodeId=[FeNodeId], ReasonId=[ReasonId], ReasonDesc=[ReasonDesc]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Error initializing CEF Linecard queue"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] finds pre-restart neighbor [prerestart-neighbor-id], on sham-link source=[sham-link-ip-address] destination=[destination-ip-address]. Route to destination is found.",
+   "No valid authentication [chars]key is available on interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "System stratum changes from[string] to [string] after clock update.",
+   "Peer [inet] is reachable"
+  ],
+  1
+ ],
+ [
+  [
+   "Interface [STRING] failed to create tdm PWE3  ,Create reason is [ULONG].",
+   "Bad connection requested  slot [dec] stream [dec] channel [dec] to slot [dec] stream [dec] channel [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " An OSPF packet that is received on a virtual interface cannot be parsed. (VirtIfAreaId=[VirtIfAreaId], VirtIfNeighbor=[VirtIfNeighbor],  ProcessId=[ProcessId], RouterId=[RouterId],  PacketType=[PacketType], InstanceName=[InstanceName])",
+   "Base topology enabled on interface [chars] attached to MTR compatible mode  area [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Importing OCSP certificatefile ([string]) succeeded.",
+   "Certificate server now enabled."
+  ],
+  1
+ ],
+ [
+  [
+   " The ACL rule in the policy is not completely delivered.(ChassisId=[ChassisId],SlotId=[SlotId],Reason=[Reason]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "-"
+  ],
+  0
+ ],
+ [
+  [
+   " IKE phase1 sa established. (PeerAddress=[PeerAddress], PeerPort=[PeerPort], LocalAddress=[LocalAddress], AuthMethod=[AuthMethod], AuthID=[AuthID], IDType=[IDType], VsysName=[vsys-name], Role=[Role])",
+   "[dec] [dec] len [dec] flags 0x[hec] source [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " Succeeded in downloading the new version. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Pre-UpdateVersion=[pre-update-version], DownloadVersion=[download-version], Status=[status], Duration(s)=[duration])",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The remote ARP entrybackup fail. (Mainif name=[OCTET]).",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   "RSVP GR state changed from restarting to normal on the restarting node.",
+   "Inconsistent RSVP reliable message timer"
+  ],
+  1
+ ],
+ [
+  [
+   " Executed RENAME operation. (UserName=[UserName], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName], Old filename=[OldFilename], New filename=[NewFilename], Result=[Result], Detail=[Detail])",
+   "Certificate server now enabled."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to initialize the timerwhen creating the timer.",
+   "NTP process starts"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]  The status of the virtual interfacechanges. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id],ProcessId=[process-id], RouterId=[router-id], VirtIfState=[neighbor-state],InstanceName=[instance-name])",
+   "[chars]  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] PIM (*, G) entriesof all instances cannot be created because the limit is reached. (hwPimNotificationAddressType=[integer],hwPimNotificationSrcAddr=[binary], hwPimNotificationGrpAddr=[binary],hwPimStarGTotalCount=[integer], hwPimInstanceName=[string])",
+   "Deprecated PIM Hello Option TLV [dec] [chars] from [inet] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of routes received from the BGP peer exceeded the alarm number. (InstanceId=[InstanceId], Afi=[AddrFamilyAfi], Safi=[AddrFamilySafi], PeerRemoteAddrType=[PeerIPAddrType], PeerRemoteAddr=[PeerIPAddr], MaxRouteNum=[RouteLimitNum], AlarmThreshold=[RouteLimitThreshold])",
+   "BGP SR policy failed [chars] -   Restarting BGP may be required"
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCP client released address successfully. (Client InterfaceName=[STRING], Lease IpAddress=[IPADDR], Client MacAddress=[STRING], Online Duration=[INTEGER], Lease Duration=[STRING], Reason=[STRING])",
+   "[domain [dec]] Clock status changed to [chars]   [chars]."
+  ],
+  0
+ ],
+ [
+  [
+   " The SMB notified the AMB to activate or free process [process-id]. (InstanceId=[USHORT])",
+   "Doubly linked list linkage is NULL"
+  ],
+  1
+ ],
+ [
+  [
+   " Succeeded in loading the signature database. (SyslogId=[syslog-id], Module=[module], Slot=[slot-id], CPU=[cpu-id], LoadVersion=[load-version], Duration (s)=[duration])",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The wholedevice forwarding engine resources overload is recovered. (EntPhysicalindex=[INTEGER],EntPhysicalName=[OCTET], Reason=[INTEGER])",
+   "BGP could not pick a router-id. Please configure manually."
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", the Join/Prune packet with an incorrect source address was ignored when being processed. (FlCode=[STRING][ULONG])",
+   "No register tunnel IDB found for RP [inet]. Can't execute  pending delete"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance [vpn-instance-name],PIM failed to set socket option that multicast joined the PIM group.The error code was [error-code], the interface was [interface]. (FlCode=[STRING][ULONG])",
+   "slave clock port [chars] master address new [chars] old [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "When deciding whether to overwrite the file [file-name], the user chose [Y/N].",
+   "ARP table accessed at interrupt level [dec]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " The usage of the channels in pool-[ulPoolNum] on TM [ulTmId] of slot [aucSlotStr] exceeded the threshold([ucValue]). In LS mode, this log is supported only by the service LSs.",
+   "%llu"
+  ],
+  0
+ ],
+ [
+  [
+   "Power on [STRING] successfully.",
+   "Overlength CEF XDR message - len [dec] > [dec] from [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The signature database update failed. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Slot=[slot-id], CPU=[cpu-id], Status=[status], Duration(s)=[duration], Reason=[reason], Suggestion=[suggestion])",
+   "[chars] RX SCI %llx   vport [dec]   an [dec]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "RSVP GR neighbour statechanged from normal to supporting on the restarting node. (NeighbourAddress=[IPADDR])",
+   "%08x %08x %08x %08x %08x %08x %08x %08x"
+  ],
+  1
+ ],
+ [
+  [
+   "Interface state has changed. (ProcessId=[USHORT], RouterId=[IPADDR], IpAddress=[IPADDR], InterfaceIndex=[ULONG], InterfaceState=[ULONG])",
+   "Standby synchronization error  no LSA buffer"
+  ],
+  1
+ ],
+ [
+  [
+   "The entry ([source-address],[group-address])'s OIF num([current-oif-number])  exceeds downstreamlimit([limit-oif-number]).(Protocol=[STRING], Vpn=[STRING], FileLine=[STRING][STRING])",
+   "id [dec] not found"
+  ],
+  0
+ ],
+ [
+  [
+   "The SSH server pair key update finished.",
+   "[chars] RX SCI %llx   TX SCI %llx   vport [dec]   secy vport [dec]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "Unlock Client. (IPAddr=[STRING], Port=[ULONG])",
+   "[chars] server ceritifcate expired. Cannot enable [chars] server"
+  ],
+  0
+ ],
+ [
+  [
+   " MAC addresses were suppressed in an EVPN instance due to frequent MAC duplication. (EVPNInstanceName=[EVPNInstanceName]) In LS mode, this log is supported only by the service LSs.",
+   "EVPN[[dec] [dec]/[dec]]  VC state [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Current counts of ike peer reach max limit.",
+   "Auto Certificate reenrollment failed. Cannot retry"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to create reference clock because the IP address [ip-address] is wrong.",
+   "NTP synced to peer [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " OSPF routes advertised by the local device were not deleted by another device. (SysProcessId=[hwOspfv2ProcessIdIndex], HostName=[hwOspfv2PurgeHostName], HostIpAddress=[hwOspfv2PurgeIpAddress], RouterID=[hwOspfv2PurgeRouterId], Area=[hwOspfv2AreaId]) In LS mode, this log is supported only by the service LSs.",
+   "[chars] TX SCI %llx   vport [dec]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "On the interface [interface-name], authentication failed and PPP link was closed because PAP was disabled on the peer.",
+   "Multilink fastsend reentered bundle [chars] [chars] packet discarded"
+  ],
+  1
+ ],
+ [
+  [
+   " The status of the non-virtual neighbor has changed. (RouterId=[RouterId], NbrIpAddress=[NbrIpAddress], NbrAddressLessIndex=[NbrAddressLessIndex], NbrRtrId=[NbrRtrId], NbrState=[NbrState], ProcessId=[ProcessId], AreaId=[AreaId], IfnetIndex=[IfnetIndex], LocalIfIpAddress=[LocalIfIpAddress], IfName=[IfName], VpnName=[VpnName], Reason=[NbrStateChangeReason], SubReason=[SubReason])",
+   "SA 0x[hec]0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The VRRP status changed from master to another state. (ifIndex=[ifIndex], VrId=[VrId], MasterIpAddr=[MasterIpAddr], sysName=[sysName], ifName=[ifName], CurrentState=[CurrentState], ChangeReason=[ChangeReason])",
+   "Internal info [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "Local account [STRING1] create success.(UserIp=[STRING], OperatorName=[STRING])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the vlan descends to alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "\\ HTTP out of memory."
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting PEER certificate file([string]) succeeded.",
+   "Trustpool Download is successful"
+  ],
+  1
+ ],
+ [
+  [
+   " [oid] The number of failuresin LDP session negotiation reached threshold. (LdpId=[OPAQUE], LdpEntityIndex=[GAUGE],Times=[INTEGER])",
+   "Clear [chars] checkpoint state [chars] by [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "Virtual Router state [State]. (Interface=[STRING], VrId=[ULONG], InetType=[STRING])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "An IPSec tunnel is established. (PolicyName=[policy-name], IfIndex=[if-index], SeqNum=[seq-num], RuleNum=[rule-name], SrcIP=[src-ip], DstIP=[dst-ip], CpuID=[cpu-id], State=[state])",
+   "Channel mismatch between [chars] and [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The BGP FSM moves from a highernumbered state to a lower numbered state. (BgpPeerRemoteAddr=[ipaddr],InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer],PeerRemoteAddr=[binary], InterfaceIndex=[integer], BgpPeerLastError=[octet],BgpPeerState=[integer], BgpPeerUnavaiReason=[gauge], InterfaceName=[octet])",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "Neighbor changes event  neighbor status changed. (ProcessId=[process-id], NeighborAddress=[neighbor-address], NeighborEvent=[neighbor-event], NeighborPreviousState=[neighbor-previous-state], NeighborCurrentState=[neighbor-current-state])",
+   "T1 Port [dec] on slot [dec] is now in drop-insert mode."
+  ],
+  0
+ ],
+ [
+  [
+   "The number of VPN6-Instancesroutes reached the upper limit [paf-vpn-route-limit] in the systemwhen the upper limit of routes in the IPv6 routing table in all instanceswas checked.",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  0
+ ],
+ [
+  [
+   " The file is written to the cfcard unsuccessfully. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "Channel mismatch between [chars] and [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Neighbor event  neighbor state changed to Down. (ProcessId=[USHORT], NeighborAddress=[IPADDR], NeighborEvent=[STRING], NeighborPreviousState=[STRING], NeighborCurrentState=[STRING])",
+   "Bad authentication from [inet] group [dec] type [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The SMB notified the AMB to activate or free area [ULONG]. (InstanceId=[USHORT], ProcId=[USHORT])",
+   "Checksum Failure in database in area [chars]\\n Link State Id [inet] Old Checksum [hex] New Checksum [hex]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", interface [interface-name] ([interface-address]) is changedto Non-DR. New DR is [dr-address]. (FlCode=[STRING][ULONG])",
+   "NULL RP pointer specified for PIM register tunnel creation."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Local management addressis changed.(LocManIPAddr=[OCTET])",
+   "Slot [dec] TDM init failure \\nstream [dec] channel [dec] channel register 0x[hec] control register 0x[hec]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] PIM (S,G) entries of all instances count fell below the lower threshold.(hwPimNotificationAddressType=[integer], hwPimSGCurrentCount=[integer],hwPimSGThreshold=[integer]%, hwPimSGTotalCount=[integer])",
+   "Falling trap is generated because the value of [chars] has fallen below\\n\\the falling-threshold hc value %llu"
+  ],
+  0
+ ],
+ [
+  [
+   " The IPv6 address lease is successfully renewed. (InterfaceName=[STRING], ServerIP=[STRING], Acquired IpAddress=[STRING], ServerDuid=[STRING], DNS Server=[STRING], DNS Domain=[STRING], CapwapAc=[STRING])",
+   "NTP process stops"
+  ],
+  0
+ ],
+ [
+  [
+   "The system memory wasinsufficient when the IP message was written to the message queue.",
+   "[chars]  RG-info conversion  failed [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   "The message that the peer closed was received from TCP Socket ID [socket-id].",
+   "Interface [chars] is in an unexpected autoconfig state 0x[hec] [chars] request."
+  ],
+  1
+ ],
+ [
+  [
+   " The memory was insufficient, and the update would be performed in one hour. (SyslogId=[syslog-id], User=[username], IP=[ip-address], Module=[module], Pre-UpdateVersion=[pre-update-version], UpdateVersion=[update-version], Status=[status], Duration(s)=[duration])",
+   "ERRMSG_NOFLAGS"
+  ],
+  1
+ ],
+ [
+  [
+   " Deleting RSA local key pair [key_name] on the standby MPU.",
+   "SSH Encryption Algorithm compliance violation detected. Kindly  note that the usage of Algorithm type '[chars]' will be deprecated\n                              in the  upcoming releases.Please configure alternate encryption algorithms  to avoid service impact."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The numberof IPv6 prefixes in the VPN instance falls below the maximum value.(VpnInstanceName=[octet], PrefixCount=[Integer], MaxValue=[Integer])",
+   "Bad state rg \\[chars]\\  [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " The flapping of the assert winner is clear. (AddressFamily=[AddressFamily], SrcAddr=[SrcAddr], GrpAddr=[GrpAddr], InterfaceName=[InterfaceName], CurrentAssertWinnerAddr=[CurrentAssertWinnerAddr], InstanceName=[InstanceName], ReasonType=[ReasonType]) In LS mode, this log is supported only by the service LSs.",
+   "Failed to set PIM [chars] register tunnel IDB source for RP [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " The MAC Quiet Max User Alarm is cleared. (Spec of User Num=[SpecofUserNum], Current Threshold=[CurrentThreshold], Lower Threshold=[LowerThreshold], Upper Threshold=[UpperThreshold], Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Interface [interface-index] DLCI[dlci] turns into [state] state (invalid(1), active(2), inactive(3)).",
+   "Dot1x unable to start."
+  ],
+  0
+ ],
+ [
+  [
+   " The local device has detected an OSPF routing loop. (LoopType=[LoopType], DetectProtocolAttr=[DetectProtocolAttr], RedistributeID1=[RedistributeID1], RedistributeID2=[RedistributeID2])",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF [process-id] deletesneighbor from pre-restart neighbor list. (RouterId=[IPADDR], IpAddress=[IPADDR],HelperVirtNbrCount=[ULONG], HelperShamLinkNbrCount=[ULONG], HelperNormalNbrCount=[ULONG])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to reboot slaveboard in the ISSU check phase.",
+   "Can not use configured neighbor [inet] on [chars]. Neighbor command  only allowed on NBMA and P2MP networks"
+  ],
+  0
+ ],
+ [
+  [
+   "The OSPF backup module received the ISSU_SMOOTH_OVER event from the ISSU management module.",
+   "Area [chars] router-LSA of length [dec] bytes plus update overhead  bytes is too large to flood."
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\",a neighbor was deleted from the interface. The reason is [reason](NeighborIpAddress=[STRING], Interface=[STRING], FlCode=[STRING][ULONG])",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to login through SNMP. (Version=[Version], UserName=[UserName], Ip=[Ip], VpnName=[VpnName], RequestID=[RequestID], PduType=[PduType], Reason=[Reason])",
+   "Size should be > 0 but it is [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " The PKI database is unavailable. (Reason=[hwPKIDBFailDesp])",
+   "IPSec SA received fragmented ESP packet DP Handle [dec]  src_addr %Ci dest_addr %Ci SPI 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The optical fiber length of the ring-network is changed. (hwPtpPortName=[hwPtpPortName], hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortRingFiberLengthChangeValue=[hwPtpPortRingFiberLengthChangeValue], hwPtpPortRingFiberLengthChangeValueFlag=[hwPtpPortRingFiberLengthChangeValueFlag]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] invalid master address [chars] is selected.  Action is ignored because of the invalid master clock\n                              source."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number ofIPv6 prefixes falls below the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Unexpected Call on [chars]. Current  state is [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " TLS1.3 key update success. (Key update reason = [KeyupdateReason], Key update time = [CurrentSystemTime], AppCid = [AppCid], VerifyMode = [VerifyMode], TlsId = [TlsId], SockFd = [SockFd])",
+   "QFP SSL record header buffer overflow"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of IPv6 prefixes exceeded the maximum value. (PrefixCount=[PrefixCount], MaxValue=[MaxValue])",
+   "Cannot create [chars] process"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The RSVP Hello neighboris lost. (IpAddress=[ipaddr])",
+   "All the keys in chain [chars] have expired - please update the key chain now"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF Router id conflictis detected on intra-area. (ProcessId=[USHORT], RouterId=[IPADDR],AreaId=[IPADDR], NbrInterfaceIp1=[IPADDR], NbrInterfaceIp2=[IPADDR])",
+   "[chars] failed to register with SR_APP with error [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " SSH server key renegotiation with client. (SessionID=[SessionID], RekeyReason=[RekeyReason], Status=[Status], UserAddress=[UserAddress], LocalAddress=[LocalAddress], VPNInstanceName=[VPNInstanceName])",
+   "Cannot load hostkey"
+  ],
+  1
+ ],
+ [
+  [
+   " The user chose [string] when deciding whether to destroy the RSA key pair.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Cyclic iterationsuppression was removed. (Type=[Integer], key=[Integer])",
+   "No response-code from local RM"
+  ],
+  1
+ ],
+ [
+  [
+   " A group member is online. (GroupName=[STRING], SrcIP=[STRING], DstIP=[STRING], GMCount=[ULONG])",
+   "COOP_KS ANN received from KS [chars] in group [chars] has PST bigger  than myself \\n my_pst is %llu sec peer_pst is %llu\n                              sec"
+  ],
+  1
+ ],
+ [
+  [
+   " The certificate already expired. (CertificateName=[hwSSLCertificateName], CertificateType=[hwSSLCertificateType], BeginTime=[hwSSLCertificateBeginTime], EndTime=[hwSSLCertificateEndTime])",
+   "[chars]Sendmail Decode Alias - from [inet] to [inet]"
+  ],
+  0
+ ],
+ [
+  [
+   " Realm [realm_name] failed to obtain CRL through LDAP. The reason for failure is [reason_for_failure].",
+   "mpls ldp advertise-labels has no effect for lc-atm"
+  ],
+  0
+ ],
+ [
+  [
+   "BGP exited fromthe GR status.",
+   "Internal info [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]The number of public IPv4 prefixes falls below the threshold. (PrefixCount=[Integer],Threshold=[Integer])",
+   "Unknown Accounting type [dec]  flag [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] exits GR mode as 1-way hello is received from neighbor [neighbor-ip-address], on interface [interface-name].",
+   "Can not use configured neighbor [inet] on [chars] for topology [chars]. Neighbor  needs to be configured under base topology"
+  ],
+  1
+ ],
+ [
+  [
+   "An SNMP command was receivedto suspend the peer session for [peer-address]. (InstanceName [STRING])",
+   "\\ HTTP Process Init failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Virtual interface hasretransmitted. (ProcessId=[USHORT], RouterId=[IPADDR], Area=[IPADDR],Neighbor=[IPADDR], PacketType=[ULONG], LsdbAreaId=[IPADDR], LsdbType=[ULONG],LsdbLsId=[IPADDR], LsdbRouterId=[IPADDR])",
+   "Protocol timers for fast convergence are [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   "The BFD session has been created successfully.(Discriminator=[ULONG], ConfigurationName=[STRING], Applications=[STRING],PeerIp=[STRING], SessionType=[STRING], BindIFName=[STRING], BindVpnName=[STRING],SourceIp=[STRING])",
+   "Cannot create [chars] process"
+  ],
+  0
+ ],
+ [
+  [
+   " SNMP lock queue has been full.",
+   "IP=[chars]| MPPE_RECV_KEY_LENGTH=[dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of routes received from peers in a BGP address family reached the maximum value. (Address Family=[AddressFamily], MaxRouteNumber=[RouteLimitNum], BGP instance name=[InstanceName])",
+   "Insufficient memory for [chars] entry"
+  ],
+  1
+ ],
+ [
+  [
+   " Current counts of ike peer reach max limit.",
+   "-"
+  ],
+  1
+ ],
+ [
+  [
+   "Interface [interface-name]'sStatus Enquiry packet timed out, and thus DCE LMI negotiation failed.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   "The BGP instance [vpn-instance] exited from GR and notified the RM.",
+   "BGP update error    [chars] Duplicate [chars] attribute dropped by error handling"
+  ],
+  1
+ ],
+ [
+  [
+   " Current lock status of clock frequency synchronization failed. (hwPtpFreqLockStatus=[hwPtpFreqLockStatus]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "Invalid register tunnel mode [dec]."
+  ],
+  0
+ ],
+ [
+  [
+   " The AS number received from the peer is different from expected AS number. (VpnInstance=[VpnInstance], Peer=[peer-address],  SourceInterface=[SourceInterface],  Expected-as=[remote-as], Received-as=[local-as])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " Queue buffer alarm on slot [slot-id] chip [chip-id] cleared. In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+   "Maximum number of collision entries [dec] reached"
+  ],
+  1
+ ],
+ [
+  [
+   " RIP could not run on interface [Interface] with the MTU as [MTU].",
+   "Unable to open socket"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF Router id conflictis detected on intra-area. (ProcessId=[USHORT], RouterId=[IPADDR],AreaId=[IPADDR], NbrInterfaceIp1=[IPADDR], NbrInterfaceIp2=[IPADDR])",
+   "fr_br_proc  hdr-[hec] size-[dec] dlci-%4x %8x %8x"
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", the BSR packet whose group address [group-address]/[mask] was the local multicast address was ignored. (FlCode=[STRING][ULONG])",
+   "Unsupported LISP transport"
+  ],
+  1
+ ],
+ [
+  [
+   "User [STRING1] execute command [STRING2] from [IPADDR].",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] quits stub router state by undoing stub.",
+   "While adding or deleting multicast state some state  may not correctly have local interest flag set or cleared."
+  ],
+  0
+ ],
+ [
+  [
+   " Radius packet record ([INFO])",
+   "mismatched IPX network numbers. Ours = [hec] theirs = [hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of users has reached the max number. (ifIndex=[ifIndex], PortName=[PortName], Process Name=[ProcessName])This log is supported only on AR6700 series, AR5700 series.",
+   "IP=[chars]| MPPE_RECV_KEY_LENGTH=[dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " An IPSec policy is cancelled on an interface. (IfIndex=[interface-index], PolicyName=[policy-name], VsysName=[vsys-name], InterfaceName=[interface-name])",
+   "Warning  Hardware idb is NULL. No Modem. MoH attribute can not be  applied and it is Skipped for authorization."
+  ],
+  0
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", a PIM JOIN from [source-address] on [interface-name] for ([multicast-source-address], [multicast-group-address]) was received when assert state is loser. (FlCode=[file-code][line-number])",
+   "Received * [inet] Join from [inet] for invalid RP [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   "The domain [STRING] is changed from active to blocked because the current time is within the blocking period.",
+   "AAA unable to handle accounting requests due to insufficient  processor memory and could be trashing the queued accounting\n                              records"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]The board forwarding engine resources fell from the threshold. (EntPhysicalindex=[INTEGER],EntPhysicalName=[OCTET], Reason=[INTEGER])",
+   "Error initializing [chars] subblock data structure. [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] Requesting certificate through CMPv2 failed. (hwCMPUrl=[cmpurl], hwCMPName=[cmpname], CmpSessionName=[sessionname])",
+   "[chars] count [dec]/[dec] 1 min [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " NTP synchronization state changed. (hwNtpState=[state], hwNtpSource=[source], hwNtpSourceVpnName=[VpnName])",
+   "IPv6 is not running on interface [chars]. Cannot send NTP message."
+  ],
+  1
+ ],
+ [
+  [
+   " Packet speed exceeded the configured speed limit. (IfIndex=[IfIndex], SuppressValue=[SupValue], CurrentValue=[CurValue], SuppressType=[SupType], SourceIP=[SrcIp], DestinationIP=[DstIp], VpnInstance name=[VpnName], InterfaceName=[InterfaceName])",
+   "Invalid framer firmware code file."
+  ],
+  0
+ ],
+ [
+  [
+   " Interface reverse config canceled.(IfName=[IfName], AlarmName=[AlarmName]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of routes received from peers in a BGP address family reached the alarm threshold. (Address Family=[AddressFamily], MaxRouteNumber=[RouteLimitNum], AlarmThreshold=[RouteLimitThreshold], BGP instance name=[InstanceName])",
+   "Malformed attribute in [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Deleting PEER certificate file ([string]) failed.",
+   "Attempt to overwrite Sticky ARP entry  [inet] hw  [enet] by hw  [enet]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " The version of the startup configuration is different from the startup system software.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " The configuration changed. (Internal change =[isInner], User name =[username], Session ID =[ssnId], Command source address =[srcAddress], Storage type =[datastoreType], Terminal type =[termninalType])",
+   "[chars] Power-On-System-Test success in Trial No.[dec]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of routes received from the BGP peer exceeded the alarm threshold. (InstanceId=[InstanceId], Afi=[AddrFamilyAfi], Safi=[AddrFamilySafi], PeerRemoteAddrType=[PeerIPAddrType], PeerRemoteAddr=[PeerIPAddr], MaxRouteNumber=[RouteLimitNum], AlarmThreshold=[RouteLimitThreshold])",
+   "Unable to open socket"
+  ],
+  0
+ ],
+ [
+  [
+   "[ULONG] invalid packets were receivedafter latest notification. The last invalid packet came from interface[STRING].",
+   "Maximum number of traps exceeded the maximum allowed in the current  sync-message to STANDBY"
+  ],
+  0
+ ],
+ [
+  [
+   " The shamlink interface go on process, as slave's ack didn't come for [ULONG] seconds. (DestIp=[STRING], SourceIp=[IPADDR], ProcessId=[USHORT], AreaId=[STRING])",
+   "No space in checkpoint buffer"
+  ],
+  1
+ ],
+ [
+  [
+   " The IP address assigned by a DHCP server conflicted with another interface. (Client InterfaceName=[interface-name], ServerId=[ip-address], Assigned IpAddress=[assigned-ip-address])",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "Router originating LSA. (ProcessId=[USHORT],RouterId=[IPADDR], LsdbAreaId=[IPADDR], LsdbType=[ULONG], LsdbLsId=[IPADDR],LsdbRouterId=[IPADDR])",
+   "Standby link-state database validation failed expected/found  count  [dec]/[dec] chksum  0x%llx/0x%llx"
+  ],
+  1
+ ],
+ [
+  [
+   "Virtual link peer event  neighbor state changed to Down. (ProcessId=[USHORT], NeighborAddress=[IPADDR], NeighborEvent=[STRING], NeighborPreviousState=[STRING], NeighborCurrentState=[STRING])",
+   "MLPoFR not configured properly on Link [chars] Bundle [chars]  [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF(AMB) backup process receive [RM-backup-event] event from RM. (SlaveHsbState=[ULONG])",
+   "OSPF process [dec] removed from interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "BGP entered the GR status.",
+   "Invalid next hop [inet] received from [chars]  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [USHORT] reset scheduletable. (ScheduleType=[STRING])",
+   "Received [chars] from unknown neighbor [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to verify rekey ack message of a group member. (GroupName=[STRING], SrcIP=[STRING], DstIP=[STRING])",
+   "GETVPN group-member does not support coexistance of IPD3P and  Cisco-metadata features"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of IPv6prefixes exceeded the maximum value. (PrefixCount=[Integer], MaxValue=[Integer])",
+   "No response-code from local RM"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "Maximum implementation message size exceeded actual [dec] maximum [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "LSP did not exist. (EgressAddress=[STRING], SessionId=[USHORT], IngressAddress=[STRING], LspId=[USHORT])",
+   "All the keys in chain [chars] have expired - please update the key chain now"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] Thenumber of ARP entries was restored to the threshold. (entPhysicalIndex=[INTEGER], Slot name=[OCTET],Threshold=[COUNTER], Number of dynamic ARP entries=[COUNTER], Numberof static ARP entries=[COUNTER]).",
+   "Attempt to overwrite Sticky ARP entry  [inet] hw  [enet] by hw  [enet]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "BFD session changed to Up. (SlotNumber=[STRING], Discriminator=[ULONG], FormerStatus=[STRING], Applications=[STRING], BindInterfaceName=[STRING], ProcessPST=[STRING])",
+   "Failed deleting node for LSP [chars] [dec] to wavl tree thread [dec] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The performance statistics file was transferred through [FTP/SFTP]. (UserName=[STRING], OperateType=[STRING], SrcFile=[STRING], DstFile=[STRING], DstHost=[STRING], VPN=[STRING], ErrCode=[LONG])",
+   "QFP SSL [chars] feature executes stub entry in [chars] direction"
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to set system time adjustment in the process of gradual adjustment.",
+   "Peer [inet] is reachable"
+  ],
+  1
+ ],
+ [
+  [
+   " The file was deleted when the virtual system directory was created. (FileName=[FileName], VSName=[VSName]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "config deletion is detected after lisp is  reconnected to confd"
+  ],
+  1
+ ],
+ [
+  [
+   " The VRRP status changed to master. (ifIndex=[ifIndex], VrId=[VrId], MasterIPAddress=[MasterIPAddress], sysName=[sysName], ifName=[ifName], ChangeReason=[ChangeReason])",
+   "[chars] Grp [dec] state [chars] -> [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "User attribute has been changed. Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING], UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING].",
+   "Enable view requires to be authenticated by non-none methods Please use the appropriate method with the login authentication"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The numberof BGP routes decreased below the threshold. (RouteTypeIndex=[integer])",
+   "expected seq_num 0x[hec] rcvd seq_num 0x[hec]"
+  ],
+  0
+ ],
+ [
+  [
+   " the CA certificate is valid. (CACertStartTime=[CACertStartTime], CACertFinishTime=[CACertFinishTime], CACertIssuer=[CACertIssuer], CACertSubject=[CACertSubject]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "val 0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   " OSPF [ProcessId] cannot exit the helper mode on interface [IfName] as no restarting neighbor is found on this interface. (AreaId=[AreaId])",
+   "Neighbor record not committed - malloc failure"
+  ],
+  0
+ ],
+ [
+  [
+   " The file is written to the cfcard unsuccessfully. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "-"
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF [process-id] cannot enter the helper mode because neighbor status of the restarting neighbor [neighbor-ip-address] is not FULL.",
+   "Interface [chars] assigned DHCP address [inet] mask [inet] hostname [chars]\\n"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to start the ISSUcheck phase.",
+   "Failed to initialize ISSU proto."
+  ],
+  1
+ ],
+ [
+  [
+   " Backing up RSA local key pairs in batches to the standbydevice failed.",
+   "Managed timer wakeup received by the PIM register tunnel  creation process with no expired timers."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid]  An OSPF packet that is receivedon a virtual interface cannot be parsed. (VirtIfAreaId=[area-id],VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id],PacketType=[packet-type], InstanceName=[instance-name])",
+   "\\ Number of connections per minute has exceeded the maximum limit[dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " Updating the local certificate ([certificate-name]) through CMPv2 failed.",
+   "Not in truth table  VLMAP [dec] RACL [dec] Rtprot [dec] Redir [dec]  Mcb [dec] Feat [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "The user cannot be authenticatedtemporarily,because the number of entries in the quiet table exceedsthe upper limit.(MAC Address=[STRING])",
+   "Authentication result overridden for client [chars] on Interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The wholedevice forwarding engine resources exceeded the threshold. (EntPhysicalindex=[INTEGER],EntPhysicalName=[OCTET], Reason=[INTEGER])",
+   "[chars]  [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   "System leap changes from [leap1]to [leap2] after clock update.",
+   "NTP process stops"
+  ],
+  1
+ ],
+ [
+  [
+   "The client is detected to bean attack source,and locked by Server. (IPAddr=[STRING],Port=[ULONG])",
+   "\\ Server setup failed"
+  ],
+  1
+ ],
+ [
+  [
+   " The peer selected by the system is [source-address].",
+   "Peer [inet] is unreachable"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of existed routing entries falls below the global upper limit.(LimitType=[LimitType], AddressFamily=[AddressFamily], CurrentCount=[CurrentCount], LimitCount=[LimitCount],SrcAddr=[SrcAddr], GrpAddr=[GrpAddr], InstanceName=[InstanceName], ReasonType=[ReasonType]) In LS mode, this log is supported only by the service LSs.",
+   "Unable to create PIM timer wheel"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Misorder packet alarm of PWE3 was resumed. (IfIndex [integer], VcId=[INTEGER], VcType=[INTEGER], PeerAddress=[IPADDR], InterfaceName=[STRING]",
+   "Slot [dec] bad board ID 0x[hec] detected."
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to transfer the configuration file to (index=[hwCfgBackupIndex]) server [hwCfgBackupServerIp] through [hwCfgBackupProtocol] when automatically backing up the configuration.",
+   "tacacs-server host CLI will be deprecated soon. Please move to  tacacs server <name> CLI"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of existed routing entries falls below the global upper limit.(LimitType=[LimitType], AddressFamily=[AddressFamily], CurrentCount=[CurrentCount], LimitCount=[LimitCount],SrcAddr=[SrcAddr], GrpAddr=[GrpAddr], InstanceName=[InstanceName], ReasonType=[ReasonType]) In LS mode, this log is supported only by the service LSs.",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " ASELSA changes frequently now. (ProcessId=[ProcessId], AdvertiseRouterId=[AdvertiseRouterId], ASELsaCount=[ASELsaCount], BeginTime=[BeginTime], EndTime=[EndTime])",
+   "Doubly linked list linkage is NULL"
+  ],
+  1
+ ],
+ [
+  [
+   "Nhrp Hub Down. (protocol address=[protocol-address],nbma_address=[nbma-address],IfIndex=[ifindex])",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The link status of the trunk member interface turned to UP. (ifIndex=[ifIndex], ifAdminStatus=[ifAdminStatus], ifOperStatus=[ifOperStatus], ifDescr=[ifDescr], hwIFExtPhyStatus=[hwIFExtPhyStatus], hwIFExtMemberOf=[hwIFExtMemberOf])",
+   "Timed out waiting for framer CPU to respond."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid]Backing up RSA key pair backup to the standby devicefailed. (KeyName=[keyname], KeyBit=[keybit])",
+   "Nexthop address [chars] for [chars]/%lu  is not routable"
+  ],
+  0
+ ],
+ [
+  [
+   " The received prefix-sid is over the range of NextHop SRGB. (PrefixSid=[PrefixSid], NexthopRange=[NexthopRange]) In LS mode, this log is supported only by the service LSs.",
+   "Checksum Failure in database in area [chars]\\n Link State Id [inet] Old Checksum [hex] New Checksum [hex]\\n"
+  ],
+  1
+ ],
+ [
+  [
+   "No idle index was available for the new IPv6-prefix node when a prefix list filter was created.",
+   "Out of buffers in RM event buffer queue"
+  ],
+  1
+ ],
+ [
+  [
+   " On the interface [InterfaceName], IPCP negotiation failed because the peer IP address was the same as local address. In LS mode, this log is not supported.",
+   "Multilink fastsend reentered bundle [chars] [chars] packet discarded"
+  ],
+  1
+ ],
+ [
+  [
+   "The UPDATE message received from peer [peer-address] contained unknown address family [address-family-attribute] in path attribute of multi-protocol unreachable network layer reachable information.",
+   "Maximum penalty [dec] is more than allowed maximum [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " Interface loopback is cleared. (InterfaceIndex=[InterfaceIndex], InterfaceName=[InterfaceName]) In LS mode, this log is supported only by the service LSs.",
+   "msgtxt_nomemory"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The status of the tunnelgroup changed to Down. (Destionation=[IPADDR], TunnelPolicy=[STRING])",
+   "\\ The connection to server [inet] appears to be hung  and will be closed."
+  ],
+  0
+ ],
+ [
+  [
+   "IPV4 default Route is changed.(ChangeType=[STRING], InstanceId=[USHORT], Protocol=[STRING], ExitIf=[STRING],Nexthop=[STRING], Neighbour=[STRING], Preference=[ULONG], Label=[STRING],Metric=[ULONG])",
+   "No response-code from local RM"
+  ],
+  1
+ ],
+ [
+  [
+   " The routes number of the specified type received from peers in a BGP address family reached the maximum value. (Address Family=[AddressFamily], RouteType=[RouteType], MaxRouteNumber=[RouteLimitNum], BGP instance name=[InstanceName])",
+   "ERRMSG_NOFLAGS"
+  ],
+  0
+ ],
+ [
+  [
+   " The bit-error-detection session number in all the IO boards has reached the limit, the new bit-error-detection session can not be created. (TotalBitErrorDetectionSessionLimit=[TotalBitErrorDetectSessionLimit]) In LS mode, this log is supported only by the service LSs.",
+   "Invalid version type"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance [vpn-instance-name], because the group address [group-address]/[group-mask-length] is not a multicast address, the [message-type] message received from the interface [interface-name] was ignored.(FlCode=[STRING][ULONG])",
+   "Invalid parameter passed while walking the autorp cache to   find a group-to-rp mapping for Sparse RP [inet]. parameter \n                              0x[hec]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The remoteARP entry backup succeed. (Mainif name=[OCTET]).",
+   "Neighbor record not committed - malloc failure"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] Updating the local certificate through SCEP failed. (LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject])",
+   "Too many [dec] levels of recursion while merging [chars] code [dec]."
+  ],
+  0
+ ],
+ [
+  [
+   " The next startup files on the master and slave main control boards were inconsistent. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "multiple tenant config request  Linux MSMR only supports single tenancy"
+  ],
+  1
+ ],
+ [
+  [
+   " TFS download failed (File = [FileName]) at Slave-PKI. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF [process-id] GR period expired. Exit GR successfully as pre-restart neighbor list being empty.",
+   "Failed deleting node for neighbor [inet] to wavl tree thread [dec] [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of authentication keys exceeded the upper limit 1024. (CurrentKeyNumber=[string])",
+   "NTP process stops"
+  ],
+  1
+ ],
+ [
+  [
+   " The channelization bandwidth configured on the interface [interface-name] exceeds the port shaping value. In LS mode, this log is supported only by the service LSs.",
+   "GVRP High Availability subsystem fails to be initialized  and hence GVRP won't support HA stateful switchover."
+  ],
+  0
+ ],
+ [
+  [
+   "Notify LSDB overflow. (ProcessId=[USHORT], RouterId=[IPADDR], ExtLsdbLimit=[ULONG])",
+   "Invalid checkpoint message  [chars] [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " The tftp client had a request. (IpAddress=[STRING], Request=[STRING], FileName=[STRING])",
+   "ARP gleaning from TFTP has been disabled."
+  ],
+  1
+ ],
+ [
+  [
+   " Configuration was copied. (OperationType=[hwCfgOperateType], OptTime=[hwCfgOperateTime], OptState=[hwCfgOperateState], OptEndTime=[hwCfgOperateEndTime])",
+   "Cannot connect to ConfD. Configuration changes will be  processed when the connection is established."
+  ],
+  1
+ ],
+ [
+  [
+   " The checkpoint was not generated because the storage space was not enough.",
+   "DTLS anti-replay error src_addr  %Ci src_port  [dec]  dest_addr  %Ci dst_port  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The prefix-sid is not eligible. (PrefixSid=[PrefixSid], PrefixAddr=[PrefixAddr], MaskLen=[MaskLen], RouterId=[RouterId]) In LS mode, this log is supported only by the service LSs.",
+   "OSPF process [dec] is changing router-id. Reconfigure virtual link  neighbors with our new router-id"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Thenumber of BGP dynamic peer sessions decreased below the maximum number.(MaximumNumber=[integer], CurrentNumber=[integer])",
+   "BGP SRTE failed [chars] -   Restarting BGP may be required"
+  ],
+  1
+ ],
+ [
+  [
+   " OSPF-INFO Smooth event happen between components. (LocalComp=[LocalComp], PeerComp=[PeerComp], ProducerName=[ProducerName], SmoothLevel=[SmoothLevel], ProcessId=[ProcessId], AreaTableId=[AreaTableId], SmoothEvent=[SmoothEvent])",
+   "[chars] Configured neighbor [inet] - Ignore incompatible configured options  use default. Allowed options on P2MP interfaces\n                              are cost and  database-filter"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The number of ARPentries was restored to the specs. (entPhysicalIndex=[INTEGER], Slotname=[OCTET], Specs=[COUNTER], Number of dynamic ARP entries=[COUNTER],Number of static ARP entries=[COUNTER]).",
+   "Learned ARP entries have reached to threshold level %lu"
+  ],
+  1
+ ],
+ [
+  [
+   "In VPN instance \"[vpn-instance-name]\", a session with the peer [peer-address] was closed because a Notification TLV was received from this peer. (FlCode=[STRING][ULONG])",
+   "SA from peer [inet] RP [inet] for [inet] [inet] exceeded sa-limit of [dec]"
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to load the signature database. (SyslogId=[syslog-id], Module=[module], Slot=[slot-id], CPU=[cpu-id], LoadVersion=[load-version], Duration (s)=[duration], Reason=[reason])",
+   "Neighbor record not committed - malloc failure"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to sent batch backup end event to HA.",
+   "No longer receiving heartbeats from framer CPU."
+  ],
+  0
+ ],
+ [
+  [
+   "The UPDATE message received from peer [peer-address] contained unknown address family [address-family-attribute] in path attribute of multi-protocol unreachable network layer reachable information.",
+   "Message size violation on [dec]-byte packet from [inet] discarded"
+  ],
+  0
+ ],
+ [
+  [
+   "The number of [table_name]prefixes in public instance reduced to [current_prefix_number], whichwas below the maximum value [maximum_prefix_number].",
+   "[chars]  RG-info conversion  failed [dec]."
+  ],
+  1
+ ],
+ [
+  [
+   " Realm [realm_name] succeeded in getting local certificate through [protocol].",
+   "NTP process stops"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] get certificate successfully with HTTP. (CertUrl=[certurl], CertSaveName=[certsavename])",
+   "GVRP High Availability subsystem fails to be initialized  and hence GVRP won't support HA stateful switchover."
+  ],
+  0
+ ],
+ [
+  [
+   " The session was deleted. (PeerID=[PeerID], CPU Usage=[Usage]%, RouteStatus=[STATUS]) In LS mode, this log is supported only by the service LSs.",
+   "[chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " A MAC address conflict occurs. (ConflictInterface=[LocalInterface], ConflictMac=[ConflictMac], SourceIpAddress=[RemoteIp], PeVlan=[PeVlan], CeVlan=[CeVlan], InboundInterface=[InboundInterface]) In LS mode, this log is supported by both the admin LS and service LSs.",
+   "GVRP can't be enabled because [chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The ptsf alarm of the ptp port is resumed.(hwPtpPortIfIndex=[hwPtpPortIfIndex], hwPtpPortName=[hwPtpPortName], hwPtpPortPtsfReason=[hwPtpPortPtsfReason]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is not supported.",
+   "slave clock port [chars] invalid master address [chars] is selected.  Action is ignored because of the invalid master clock\n                              source."
+  ],
+  1
+ ],
+ [
+  [
+   "System restarted -- Start logging.",
+   "Route lookup failed  reached maximum recursive depth [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " The VRRP status changed to master. (ifIndex=[ifIndex], VrId=[VrId], MasterIPAddress=[MasterIPAddress], sysName=[sysName], ifName=[ifName], ChangeReason=[ChangeReason])",
+   "[chars] LSA [dec]/[inet]/[inet] freed while linked to srms entry [inet]/[dec] range [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   "Power in slot [slot-id] works abnormal, please have a check.",
+   "Unsupported LISP transport"
+  ],
+  0
+ ],
+ [
+  [
+   "The domain [STRING] is changed from blocked to active because the current time is not within the blocking period.",
+   "Failed to fork process for [chars]."
+  ],
+  1
+ ],
+ [
+  [
+   "The number of BGP [route-type] routes reached the maximum value [max-route-value].",
+   "BMP Memory Utilization  currently at %lu exceeds threshold %lu"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]There are excessive traps, which form a trap storm.",
+   "Cannot create subblock for interface [chars]"
+  ],
+  1
+ ],
+ [
+  [
+   " Updating the [certificate-type] certificate (realm=[realm-name]) through controller succeeded.",
+   "Attempting to override SLA Trustpoint.  \\n The current running SLA trustpoint config will be retained  \\n Config-Replace\n                              errors corresponding to SLA TrustPoint may be  \\n ingored."
+  ],
+  1
+ ],
+ [
+  [
+   " The NTP packet processing rate reaches the upper threshold. (packet rate = [maxpktrate]pps)",
+   "NTP synced to peer [inet]"
+  ],
+  1
+ ],
+ [
+  [
+   " The status of the EVPL instance changed to up. (EvplId=[EvplInstanceId], Status=[EvplStatus]) In VS mode, this log is supported only by the admin VS. In LS mode, this log is supported only by the service LSs.",
+   "[chars]"
+  ],
+  0
+ ],
+ [
+  [
+   " The number of MACs in the EVPN instance fell below the lower threshold. (EVPNInstanceName=[EVPNInstanceName], EVPNInstanceMACCount=[EVPNInstanceMACCount], EVPNInstanceMaxMACValue=[EVPNInstanceMaxMACValue]) In LS mode, this log is supported only by the service LSs.",
+   "Bad state rg \\[chars]\\  [dec]"
+  ],
+  0
+ ],
+ [
+  [
+   " CA certificate ([caCertName]) has been updated and will be expired in [numOfDays] days. In LS mode, this log is supported by both the admin LS and service LSs.",
+   "TTY[t-line]  Modem auto-configuration failed"
+  ],
+  0
+ ],
+ [
+  [
+   "The event that GR of the route management (RM) module was complete was received.",
+   "[chars] Neighbor [chars] is [chars][chars]"
+  ],
+  1
+ ]
+]

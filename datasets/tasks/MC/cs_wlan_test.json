@@ -1,0 +1,4058 @@
+[
+ [
+  " \"Crypto API return error for client %02x %02x %02x %02x %02x %02x",
+  1
+ ],
+ [
+  " Invalid relaysrc interface %s configured for linkselection option. Using the client subnet selection address as relaysrc\\n\"",
+  2
+ ],
+ [
+  " The system is unable to find AP %02x %02x %02x %02x %02x %02x entry in the database",
+  0
+ ],
+ [
+  "power up cryptographic self-test did not run to completion  %s\\n.",
+  140
+ ],
+ [
+  " \"AP %02x %02x %02x %02x %02x %02x is disabled - default country code is %s\"",
+  16
+ ],
+ [
+  " \" server IP  %s.\"",
+  78
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"Failed to create optimized join image.\"",
+  7
+ ],
+ [
+  " \".\"",
+  78
+ ],
+ [
+  " \"Duplicate entry %02x %02x %02x %02x %02x %02x found on rfid tree.\"",
+  56
+ ],
+ [
+  " \"Local port %u is not assocated with any established DTLS connection\\n\"",
+  48
+ ],
+ [
+  " \"File read with invalid CRC",
+  66
+ ],
+ [
+  " \"Certificate file %s is missing\"",
+  11
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  41
+ ],
+ [
+  " \"Drop mobility ping reply from %u.%u.%u.%u. Expected reply from %u.%u.%u.%u. %s.\"",
+  52
+ ],
+ [
+  " \"Failed to send webauth response on local socket.\"",
+  9
+ ],
+ [
+  "Error resolving standby FRU  %s",
+  87
+ ],
+ [
+  " \"Failed to disable WLAN %u\"",
+  7
+ ],
+ [
+  "\"process is in steady state.\"",
+  27
+ ],
+ [
+  " \"Failed to destroy the timer for %s.\"",
+  14
+ ],
+ [
+  " \"Cannot add peer %s to tunnel\"",
+  11
+ ],
+ [
+  " \"All ports have been already configured\"",
+  15
+ ],
+ [
+  " \"%s\"",
+  7
+ ],
+ [
+  " \"Port %d Admin Mode is Disable!\"",
+  15
+ ],
+ [
+  " MSG_TRACEBACK",
+  66
+ ],
+ [
+  " \"%s\"",
+  23
+ ],
+ [
+  " \"A-ID",
+  18
+ ],
+ [
+  "\"Failed to connect to network element.\"",
+  27
+ ],
+ [
+  " \"Failed to add admitted or deny stream record.\"",
+  14
+ ],
+ [
+  " \"Failed to create %s semaphore.\"",
+  59
+ ],
+ [
+  " \"The system detects an invalid WLAN identifier",
+  16
+ ],
+ [
+  "\"Failed to load file '%s' via DMI MAAPI %s (%d)  %s.\"",
+  27
+ ],
+ [
+  " \"Connection %s<%d",
+  40
+ ],
+ [
+  " The system is unable to free public key for AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  7
+ ],
+ [
+  " \"Unknown Entry Type %d.\"",
+  39
+ ],
+ [
+  " \"Received WEP-Key-delete from %u.%u.%u.%u with no Station Address TLV\"",
+  52
+ ],
+ [
+  " \"Universal AP %02x %02x %02x %02x %02x %02x is disabled - Country %s for this APis not configured\"",
+  16
+ ],
+ [
+  " \"The system has failed to free %s timer",
+  16
+ ],
+ [
+  " \"Entry %p not in the list -",
+  16
+ ],
+ [
+  " \"SFTPDATA rule already configured\"",
+  11
+ ],
+ [
+  " \"Failed to generate a RBCP platform response.Return code=%d.\"",
+  19
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"%s\"",
+  46
+ ],
+ [
+  " \"%s  unable to save SA context\"",
+  11
+ ],
+ [
+  " \"Error! Cannot get memory monitor config.\"",
+  35
+ ],
+ [
+  " \"Unable to delete the route",
+  24
+ ],
+ [
+  " \"Linktest Instance %d ",
+  16
+ ],
+ [
+  "The combination of Power Supply and Fan Tray is incompatible",
+  31
+ ],
+ [
+  " \"Failed to allocate mobility tunnel id for peer IP  %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x\"",
+  52
+ ],
+ [
+  " \"The system detects an invalid regulatory domain %s for AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Cannot update PEM state for L2TP session %s",
+  11
+ ],
+ [
+  " \"Error on call to sysapiRegistryGet routine with keyPORT_DATA_STRUCT.\"",
+  92
+ ],
+ [
+  " \"802.11g not permitted in configured country - disabling.\"",
+  1
+ ],
+ [
+  " \"Port %d Admin Mode is Enable!\"",
+  15
+ ],
+ [
+  " \"WGB Wired client %02x %02x %02x %02x %02x %02x allocated with AID %d\"",
+  1
+ ],
+ [
+  "FPGA version on linecard in switch %d slot %d is 0x%x",
+  26
+ ],
+ [
+  " \"Dropping discovery request from AP %02x %02x %02x %02x %02x %02x - limit for maximum APs supported %d reached\"",
+  16
+ ],
+ [
+  "\"Attempt to overwrite a set sequence function (%s)\"",
+  121
+ ],
+ [
+  " Failed to apply acl to datapath\"",
+  92
+ ],
+ [
+  " MSG_TRACEBACK",
+  41
+ ],
+ [
+  " \"The system has received an invalid %s",
+  16
+ ],
+ [
+  " \"Failed to update pnp image download status file.\"",
+  160
+ ],
+ [
+  " Disconnecting AP %s since a higher priority AP with priority %d joined Max number of APs allowed %d\"",
+  16
+ ],
+ [
+  " \"Failed to obtain the status of the file %s.The fstat system call failed.Error  %s.\"",
+  8
+ ],
+ [
+  " \"Binding %s<%s",
+  40
+ ],
+ [
+  " MSG_SECURITY | MSG_NOTIFY_WIDGET",
+  1
+ ],
+ [
+  " \"Allocating %ld bytes into %ld byte pool.\"",
+  35
+ ],
+ [
+  " \"Task initialization failure. Waiting on handle %s failed\"",
+  15
+ ],
+ [
+  " %02x %02x %02x %02x %02x %02x  Entry deleted for AP  %s",
+  16
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  "The online request for SPA in subslot %d/%u was terminated because %s",
+  26
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  " \"Could not parse Bsn Packet. Reason %s.\"",
+  1
+ ],
+ [
+  " \"Failed to store Acl Config to Flash %s.\"",
+  73
+ ],
+ [
+  " Unable to store config file in NVRAM %s.\"",
+  2
+ ],
+ [
+  " \"Failed to stop DTLS handshake timer for %s %d. handshake_done %c timer running %c ssl %p con %p\"",
+  48
+ ],
+ [
+  " \"Unable to pull value from the registry for the key %s\"",
+  15
+ ],
+ [
+  " Checkpoint State",
+  59
+ ],
+ [
+  "\"Could not start DMI MAAPI user session %s (%d)  %s.\"",
+  27
+ ],
+ [
+  " \"For the AP-Group  %s NTP server for AP %02x %02x %02x %02x %02x %02x has failed  %s\"",
+  16
+ ],
+ [
+  " \"The system has failed to complete DTLS handshake with peer %u.%u.%u.%u\\n\"",
+  48
+ ],
+ [
+  " \"Local Auth EAP session aborted for client %02x %02x %02x %02x %02x %02x.\"",
+  18
+ ],
+ [
+  " \"Security processing of Mesh Linkrate Response failed from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " MSG_TRACEBACK | MSG_SECURITY",
+  1
+ ],
+ [
+  " \"Unable to to create lock for crashinfo entry for AP %02x %02x %02x %02x %02x %02x.\"",
+  16
+ ],
+ [
+  "\"process internal state reset.\"",
+  27
+ ],
+ [
+  "\"Failed to initialize the syncfd daemon\"",
+  27
+ ],
+ [
+  " \"Unable to Rename file %s to %s  %s.\"",
+  41
+ ],
+ [
+  " Post decode processing failed for %s from AP %02x %02x %02x %02x %02x %02x\"",
+  0
+ ],
+ [
+  " \"Session timeout for wlan- '%d' was out of range so set as 1800.\"",
+  1
+ ],
+ [
+  "Found reload log file, moved to %s",
+  76
+ ],
+ [
+  " \"Local port %u is not assocated with any established DTLS connection\\n\"",
+  48
+ ],
+ [
+  " \"Could not create RADIUS message. %s. numAVPs %d.\"",
+  18
+ ],
+ [
+  "%s redundant FP in slot %s is not supported in inter-chassis redundancy mode",
+  31
+ ],
+ [
+  " MSG_TRACEBACK",
+  52
+ ],
+ [
+  " \"Checksum Error on config file %s.\"",
+  15
+ ],
+ [
+  " \" Transmisstion of IGMP report packet failed\"",
+  5
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][AP%s mac=%02x %02x %02x %02x %02x %02x radio=%x][WLAN%s bssid=%02x %02x %02x %02x %02x %02x ssid=%s security=%x][REASON%s code=WL%d desc=%s] Station re-association failed. \"",
+  36
+ ],
+ [
+  " \"%s  ethoipRecvPkt returned error\"",
+  21
+ ],
+ [
+  "\"process has initialized.\"",
+  27
+ ],
+ [
+  "IOX is ready.",
+  6
+ ],
+ [
+  "Crypto Hardware Module is %s",
+  127
+ ],
+ [
+  " \"Probing interface %d not present.\"",
+  15
+ ],
+ [
+  "Empty executable used for process %s",
+  44
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"http request is not GET\"",
+  9
+ ],
+ [
+  " \"PKI initialization error   %s \\n\"",
+  48
+ ],
+ [
+  " Unable to find quarantine vlan %u in the interface db.\"",
+  7
+ ],
+ [
+  " \"Unknown Radio Type %d.\"",
+  1
+ ],
+ [
+  " \"%02x %02x %02x %02x %02x %02x  Failed to create DTLS connection for AP %s",
+  0
+ ],
+ [
+  "Failed to destroy chassis filesystem proprty %s/%s because %s",
+  31
+ ],
+ [
+  "%s %d has finished stack discovery.\\n",
+  62
+ ],
+ [
+  " \"Error retrieving file %s.\"",
+  56
+ ],
+ [
+  " \"SSL library crypto POSTs passed\"",
+  11
+ ],
+ [
+  " \"Error in IPC receive task  %s.\"",
+  1
+ ],
+ [
+  " MSG_SECURITY",
+  38
+ ],
+ [
+  " \"Security Module not found.\"",
+  75
+ ],
+ [
+  " \"Unable to load CCX RM configuration\"",
+  10
+ ],
+ [
+  "Failed to relay a message because %s",
+  53
+ ],
+ [
+  " Unable to get MTD device info on %s\"",
+  24
+ ],
+ [
+  " \" %s %s \"",
+  11
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  "R%d hypertransport configured for F%d active",
+  31
+ ],
+ [
+  " \"Linux system",
+  59
+ ],
+ [
+  " \"%s  received invalid message id %u\"",
+  10
+ ],
+ [
+  " \"Could not create semaphore for %s\"",
+  40
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  "The process %s restart count (%d) has exceeded the configured limit (%d)",
+  44
+ ],
+ [
+  " \"LAG in transition. switch reboot DUE..!!! \"",
+  7
+ ],
+ [
+  " \"Link up trap send timer create failed.\"",
+  15
+ ],
+ [
+  " \"Failed to read MAC address from eth%d.The ioctl call failed for %s.\"",
+  75
+ ],
+ [
+  "Output of PEM %d is %d V",
+  31
+ ],
+ [
+  " For AP %02x %02x %02x %02x %02x %02x",
+  16
+ ],
+ [
+  " \"Controller not configured to accept self-signed AP certificate\"",
+  11
+ ],
+ [
+  " \"Error on call to osapiFsWrite routine on config file %s.\"",
+  25
+ ],
+ [
+  " \"Packet from mesh AP was dropped as packet size was found to be invalid  msgLen %d\"",
+  16
+ ],
+ [
+  "Hardware programmable PSOCs on %s in slot %s are upgrading, please don't reload or power-cycle this card. It will take about 10 mins to finish.",
+  31
+ ],
+ [
+  " \"Entry deleted %s\"",
+  45
+ ],
+ [
+  "guestshell ipv6 address(%s) of Mgmt-Intf is ignored.",
+  115
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][FROM%s ip=%s bssid=%02x %02x %02x %02x %02x %02x][TO%s ip=%s bssid=%02x %02x %02x %02x %02x %02x][REASON%s code=WL%d desc=%s] Station roaming failed. \"",
+  36
+ ],
+ [
+  " AP",
+  16
+ ],
+ [
+  " \"Running %s...\"",
+  18
+ ],
+ [
+  " \"Update IP sem creation failed Unable to create the sem LOCK\"",
+  150
+ ],
+ [
+  " \"Native IPv6 disable failed.\"",
+  74
+ ],
+ [
+  " Could not send RFC-3576 response. %s. \"",
+  18
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  7
+ ],
+ [
+  " MSG_SECURITY",
+  38
+ ],
+ [
+  " \"Cannot find table index for certificate %s\"",
+  11
+ ],
+ [
+  " \"Unable to load e2e configuration\"",
+  10
+ ],
+ [
+  " \"The system is unable to allocate buffer for AP Public Safety message to AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Invalid destination address provided.\"",
+  114
+ ],
+ [
+  " \"%s %d.\"",
+  52
+ ],
+ [
+  " \"CCX RM Configuration file is corrupted... clearing.\"",
+  10
+ ],
+ [
+  "\"EAP critical error %s\"",
+  54
+ ],
+ [
+  "Found mismatch between the Line card FPGA versions bundled in Software and programmed in Hardware in slot %d. FPGA version bundled in SW  %x, present in HW  %x. To upgrade the FPGA to version bundled in SW, perform physical OIR of the line card or run the CLI  hw-module subslot <slot>/<SPA no.> oir power-cycle",
+  26
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"Failed to add block to HTTP redirect config\"",
+  11
+ ],
+ [
+  "IOX SERVICE %s LOG  %s",
+  6
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][AP%s mac=%02x %02x %02x %02x %02x %02x radio=%x][WLAN%s bssid=%02x %02x %02x %02x %02x %02x ssid=%s security=%x] Station re-association success. \"",
+  36
+ ],
+ [
+  "%s in slot %s has been held in reset as its FPGA firmware version is incompatible with %s",
+  31
+ ],
+ [
+  "Stubbed %s is referenced",
+  133
+ ],
+ [
+  " \"Unable to lock MTD device %s\"",
+  24
+ ],
+ [
+  "No format",
+  26
+ ],
+ [
+  "\"%s subsystem %s has cross class sequence for %s\"",
+  146
+ ],
+ [
+  " MSG_TRACEBACK",
+  1
+ ],
+ [
+  " usmDbAclSwapRuleIndex  ACL %s or rule %d does not exist.\"",
+  92
+ ],
+ [
+  " \"Unable to send heartbeat list client add message to mobility task\"",
+  52
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"System Info   %s\"",
+  66
+ ],
+ [
+  " \"Error opening filename <%s>  %s.\"",
+  116
+ ],
+ [
+  "Failed to initialize a watch on the active rp because %s",
+  127
+ ],
+ [
+  " \"usmDbSubnetCompare  Invalid Config netmask1 %u.%u.%u.%u of ipaddr1 %u.%u.%u.%u overlaps with netmask2 %u.%u.%u.%u of ipaddr2 %u.%u.%u.%u.\"",
+  92
+ ],
+ [
+  " \"LAG enabled but Primary Port disabled\"",
+  7
+ ],
+ [
+  " \"%s. AID %d AP  %02x %02x %02x %02x %02x %02x slot %d client  %02x %02x %02x %02x %02x %02x wlan %d\"",
+  16
+ ],
+ [
+  " MSG_TRACEBACK",
+  73
+ ],
+ [
+  " \"Invalid registrar ID %d. \"",
+  66
+ ],
+ [
+  " \" server  %s.\"",
+  78
+ ],
+ [
+  "\"User '%s' authenticated successfully from %s %s for %s over %s.  External groups  %s\"",
+  27
+ ],
+ [
+  "An upgrade or installation has produced an invalid messaging configuration file %s, %s",
+  34
+ ],
+ [
+  " MSG_TRACEBACK",
+  1
+ ],
+ [
+  " \"NMSP Init. %s \"",
+  43
+ ],
+ [
+  " \"Private key decryption failed in key update response from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Failed to delete wlan to apgroup mapping\"",
+  7
+ ],
+ [
+  " \"CCO ASD logging has been successfully completed on AP %s %02x %02x %02x %02x %02x %02x.\"",
+  0
+ ],
+ [
+  " \"Failed to disable rate limiter in the NPU\"",
+  41
+ ],
+ [
+  " \"Exception occurred on the socket.\"",
+  2
+ ],
+ [
+  " Failed to send a ping %s packet to %s\"",
+  52
+ ],
+ [
+  "The SIP HyperTransport has failed initialization because %s",
+  26
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"Could not set the VPN Encryption Mode. %s.Mode  %d.WLAN %.*s.\"",
+  1
+ ],
+ [
+  " \"%s path to mobility member %s is DOWN.\"",
+  52
+ ],
+ [
+  " \"LWAPP Join Request Bridge Authentication failed for AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Failed to send data echo response to %u.%u.%u.%u %u\"",
+  42
+ ],
+ [
+  " Unable to send msg to simTask queue.\"",
+  7
+ ],
+ [
+  " \"Could not validate the WAPI Security IE",
+  1
+ ],
+ [
+  " \"Failed to create EMT Hello Timer\"",
+  65
+ ],
+ [
+  " \"Secure tunnel msg send to WLC FIFO failed",
+  70
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " \"Failed to set certificate 'validity not after' string to '%s'\"",
+  11
+ ],
+ [
+  " \"Failed to Create WCP Task.\"",
+  12
+ ],
+ [
+  "Reloading %s due critical event %#x in block %s/%d of serial bridge %d",
+  120
+ ],
+ [
+  " Web context information missing",
+  3
+ ],
+ [
+  " \"Not Advancing STA %02x %02x %02x %02x %02x %02x past 8021X_REQD on WLAN supporting both static and dynamic WEP as mac auth failed. Status code  %d\"",
+  23
+ ],
+ [
+  "Staggered AP Upgrade reboot process started",
+  118
+ ],
+ [
+  " \"Received bad AVP  %p",
+  18
+ ],
+ [
+  " The system could not save LWAPP configuration in file %s\"",
+  16
+ ],
+ [
+  " \"The system has received Mesh Adj response from unknown AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"ipStatsCreate  Could not create %s counters for interface %d.\"",
+  186
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][AP%s mac=%02x %02x %02x %02x %02x %02x radio=%x][WLAN%s bssid=%02x %02x %02x %02x %02x %02x ssid=%s security=%x][REASON%s code=WL%d desc=%s] Station goes offline. \"",
+  36
+ ],
+ [
+  "CRFT reload request capture finished with one or more failures. Check tracelogs for further details.",
+  34
+ ],
+ [
+  " MSG_TRACEBACK",
+  73
+ ],
+ [
+  " \"Mgid queue is empty!.\"",
+  5
+ ],
+ [
+  " \"Adding user '%s' to AAA database.\"",
+  18
+ ],
+ [
+  " \"The system is unable to find name for signature %d in list %d for report from AP %02x %02x %02x %02x %02x %02x.\"",
+  16
+ ],
+ [
+  " \"%s\"",
+  46
+ ],
+ [
+  " \"Deleting the implicit deny rule %d of ACL %s is not allowed.\"",
+  73
+ ],
+ [
+  " \"Started delete interface. InterfaceName %s\"",
+  7
+ ],
+ [
+  "Cannot construct an IPC message for library. The message name is %s and the reason is  %s",
+  34
+ ],
+ [
+  " NMSP Cloud Server DNS Lookup failed. hostname  %s",
+  43
+ ],
+ [
+  " \"Error HTTP file Transfer [%s]",
+  0
+ ],
+ [
+  " \"Failed to write configuration file into flash. File Name  %s.\"",
+  66
+ ],
+ [
+  " \"Unable to find mscb for %02x %02x %02x %02x %02x %02x.\"",
+  2
+ ],
+ [
+  " \"Receiving the BOOTP packet on a socket failed\"",
+  78
+ ],
+ [
+  " \"Port %d Admin Mode is Enabled",
+  15
+ ],
+ [
+  "\"Failed to reinitialize the DMI syncfd daemon.\"",
+  27
+ ],
+ [
+  " \"Failed to do initial configuration  %s\"",
+  86
+ ],
+ [
+  " \"Received Reload Notify payload from peer",
+  125
+ ],
+ [
+  " \"Warning! Task %d",
+  24
+ ],
+ [
+  " \"unknown char encountered while parsing Host header\"",
+  9
+ ],
+ [
+  " \"Invalid arguments passed",
+  13
+ ],
+ [
+  " Failed to update Cisco License Directory on flash.\"",
+  24
+ ],
+ [
+  " %s ping request to %u.%u.%u.%u failed rc=%d\"",
+  52
+ ],
+ [
+  "System shutdown will occur in %d minutes.",
+  31
+ ],
+ [
+  " \"Received lwapp ctl packet to arp task at wrong place.\"",
+  20
+ ],
+ [
+  " \"Binding %s<%s",
+  40
+ ],
+ [
+  " \"Attempt to obtain results from free linktest ID",
+  16
+ ],
+ [
+  " MSG_SECURITY",
+  20
+ ],
+ [
+  " \"Username & password must be supplied. User   %p",
+  18
+ ],
+ [
+  " \"The system is unable to encrypt payload to AP %02x %02x %02x %02x %02x %02x with public key\"",
+  16
+ ],
+ [
+  " \"%5s[AP%s mac=%s sta=%d]\"",
+  109
+ ],
+ [
+  " MSG_TRACEBACK",
+  1
+ ],
+ [
+  " \"The system is unable to retrieve time information to send AP timesync config packet\"",
+  16
+ ],
+ [
+  " \"Failed to create a heart beat timer.\"",
+  7
+ ],
+ [
+  " \"NPU Operational verification failed.\"",
+  4
+ ],
+ [
+  " \"%s\"",
+  1
+ ],
+ [
+  " \"%s. AP  %02x %02x %02x %02x %02x %02x slot %d client  %02x %02x %02x %02x %02x %02x wlan %d\"",
+  16
+ ],
+ [
+  " \"Acl config is corrupted. Resetting Acl config to default.\"",
+  77
+ ],
+ [
+  " \"Memory threshold reached. Not allocating memory.\"",
+  35
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  7
+ ],
+ [
+  " Could not create %s timer.\"",
+  59
+ ],
+ [
+  " \"WLAN %.*s was NOT enabled.\"",
+  1
+ ],
+ [
+  "SMU file %s active temporary... SMU commit is pending",
+  17
+ ],
+ [
+  "Reloading %s because it has failed to come online",
+  31
+ ],
+ [
+  " \"%s %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " MSG_SECURITY",
+  3
+ ],
+ [
+  " Transfer cannot happen in CCO Mode  Suggested version not available\"",
+  7
+ ],
+ [
+  " MSG_SECURITY",
+  18
+ ],
+ [
+  "Failed to initialize general application services because %s",
+  26
+ ],
+ [
+  " \"Failed to verify HMAC. Internal system error.\"",
+  66
+ ],
+ [
+  " \"Unable to register for Cisco tag data - error %d \"",
+  56
+ ],
+ [
+  " The system has failed to free %s timer",
+  0
+ ],
+ [
+  " \"MobilityHa task message could not be initialized --exiting\"",
+  52
+ ],
+ [
+  " \" NUM of multicast groups the client has joined has exceeded max allowed number\"",
+  5
+ ],
+ [
+  " \"Print Task Not Ready. Unable to print data.\"",
+  66
+ ],
+ [
+  "%s does not support Minimal Disruptive Restart",
+  67
+ ],
+ [
+  " \"Certificate verification failed. Peer IP  %i\"",
+  48
+ ],
+ [
+  " \"Invalid Registration Function passed as an argument for  PDU notifications.\"",
+  39
+ ],
+ [
+  " \"Policy manager security association context table cannot be created\"",
+  11
+ ],
+ [
+  " \"Incorrect MTU retrieved   %s",
+  86
+ ],
+ [
+  " \" Received tunneled packet type %u is not a arp packet.\"",
+  20
+ ],
+ [
+  "\"The dmi infra is operating in degraded mode. Most synchronizations from IOS to NETCONF datastore will not be performed\"",
+  27
+ ],
+ [
+  " \"Unable to create the %s interface\"",
+  7
+ ],
+ [
+  " \"Attempt to assigned quarantine VLAN %u to interface %s failed. VLAN %u already exists as interface %s.\"",
+  7
+ ],
+ [
+  " \"Error adding RADIUS server info\"",
+  11
+ ],
+ [
+  " \"%s. AID %d AP  %02x %02x %02x %02x %02x %02x slot %d client  %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  24
+ ],
+ [
+  " \"Error creating tunnel for %s\"",
+  11
+ ],
+ [
+  " \"Check Table Initialization failed while reading %s\"",
+  61
+ ],
+ [
+  "Failed Identification Test in %s. The module %s may not be a genuine Cisco product. Cisco warranties and support programs only apply to genuine Cisco products.  If Cisco determines that your insertion of non-Cisco memory, WIC cards, AIM cards, Network Modules, SPA cards, GBICs or other modules into a Cisco product is the cause of a support issue, Cisco may deny support under your warranty or under a Cisco support program.",
+  31
+ ],
+ [
+  " \"The system has received invalid UDP port",
+  16
+ ],
+ [
+  "\"Failed to start VTY server utility instance.\"",
+  27
+ ],
+ [
+  "The peer process was unable to process an incoming message for 'debug all' from the shell-manager",
+  138
+ ],
+ [
+  " \"System is rebooting",
+  125
+ ],
+ [
+  " \"Registrar ID %d grater than the last component id\"",
+  15
+ ],
+ [
+  " \"SSH is not allowed on this port or interface.\"",
+  9
+ ],
+ [
+  " \"select system call failed.\"",
+  2
+ ],
+ [
+  "\"Policy Application Failed for Client [%s] MAC [%s] AuditSessionID [%s] for POLICY_TYPE %s POLICY_NAME %s  REASON %s\"",
+  47
+ ],
+ [
+  " \"FTPDATA rule already configured\"",
+  11
+ ],
+ [
+  " The system has failed to add NPU entry for AP %02x %02x %02x %02x %02x %02x",
+  16
+ ],
+ [
+  " Received broadcast lwapp control packet.\"",
+  5
+ ],
+ [
+  "An I2C write has failed because %s",
+  31
+ ],
+ [
+  " \"Linktest to AP failed.\"",
+  16
+ ],
+ [
+  " \"Failed to remove client %02x.%02x.%02x.%02x.%02x.%02x from watchlist \"",
+  13
+ ],
+ [
+  "The SPA in bay %u could not be soft stopped because %s",
+  26
+ ],
+ [
+  " \" %s   msg recv failed \\r\\n \"",
+  52
+ ],
+ [
+  " \"The system has failed to start %s timer for AP %s %u\"",
+  0
+ ],
+ [
+  "%s process exits and failures are being ignored due to debug settings. Normal router functionality will be affected. Critical router functions like RP switchover, router reload, FRU resets, etc. may not function properly.",
+  44
+ ],
+ [
+  " \"Smart Licensing load config success\"",
+  74
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  "%s '%s' %s %s",
+  6
+ ],
+ [
+  " \"Cannot find an empty row in ID certificate table - table may be corrupted\"",
+  11
+ ],
+ [
+  " \"The system is unable to disable signature processing on AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Rejecting %sdiscovery request from AP %02x %02x %02x %02x %02x %02x - maximum AP joins",
+  0
+ ],
+ [
+  " MSG_SECURITY",
+  18
+ ],
+ [
+  " \"Memory re-allocation for certificate table failed while adding %s\"",
+  11
+ ],
+ [
+  "An C2W read has failed because %s",
+  26
+ ],
+ [
+  "\"Confd subscription socket sync failed %s (%d)  %s.\"",
+  27
+ ],
+ [
+  " \"Reaching 80%% of max adr allowed per %s\"",
+  45
+ ],
+ [
+  "%s %s %s %s",
+  6
+ ],
+ [
+  " ERROR  Could not create inbound TRACE ROUTE rule",
+  11
+ ],
+ [
+  " Error  %s Encryption Fails.\"",
+  11
+ ],
+ [
+  " \"%s\"",
+  23
+ ],
+ [
+  " \"Binding %s<%s",
+  40
+ ],
+ [
+  " \"Failed to receive a message through the tftp socket. Retrying to receive data..\"",
+  96
+ ],
+ [
+  " MSG_TRACEBACK",
+  18
+ ],
+ [
+  " \"Deleted ping receiver entry",
+  52
+ ],
+ [
+  " \"Assertion Failure",
+  130
+ ],
+ [
+  " \"DTLS connection hash table error - %s.\\n\"",
+  48
+ ],
+ [
+  "\"The DMI application failed to set the correct virtual routing and forwarding network.\"",
+  27
+ ],
+ [
+  " \" Need a bigger osapi_kthread_tbl to store kthread %s pid=%d.\"",
+  24
+ ],
+ [
+  " \"Failed to start L2Roam settle timer.\"",
+  10
+ ],
+ [
+  " \"Client internal database is corrupted. %d index is invalid\"",
+  1
+ ],
+ [
+  " \"Could not Register IP Add on MSCB. %s. mobility state",
+  1
+ ],
+ [
+  " \"Error setting up a Redundancy policy in %s\"",
+  11
+ ],
+ [
+  " \"Cannot export IKE SA for peer %s",
+  11
+ ],
+ [
+  "HA remote sychronize thread has failed and exited.",
+  6
+ ],
+ [
+  " \"Unable to re-open IAPP socket\"",
+  42
+ ],
+ [
+  " MSG_TRACEBACK",
+  73
+ ],
+ [
+  " \"Configuring message queue for %s failed.\"",
+  107
+ ],
+ [
+  " \"event 0x%x",
+  172
+ ],
+ [
+  " \" Task %s requesting %d second timer. Minimum is 20.Setting to 20.\"",
+  24
+ ],
+ [
+  " \"%s  can't export IPsec SA for mobile station %u.%u.%u.%u\"",
+  11
+ ],
+ [
+  " \"Mbuf freed twice",
+  66
+ ],
+ [
+  " \" Secure tunnel feature  %s \"",
+  70
+ ],
+ [
+  " \"Started vlan set. intf name=%s",
+  7
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"Message is NULL",
+  59
+ ],
+ [
+  " \"Reset due to maximum number of nodes in DX Local cache\"",
+  29
+ ],
+ [
+  " \"Failed to start L2Roam List Update timer.\"",
+  10
+ ],
+ [
+  " \"Invalid %s while creating FTIE for client %02x %02x %02x %02x %02x %02x\"",
+  1
+ ],
+ [
+  "DATACORRUPTION-DATAINCONSISTENCY  %s",
+  173
+ ],
+ [
+  " \"PMIPv6 is not supported as DHCP Proxy is disabled for WLAN with PMIPv6 ENABLED.%s Wlan %.*s.\"",
+  1
+ ],
+ [
+  " \"Unable to create msg queue for configsynctoApTask.\"",
+  51
+ ],
+ [
+  " controller is at %d%% cpu utilization \\n \"",
+  24
+ ],
+ [
+  "UADP fabric interface synchronisation %s",
+  127
+ ],
+ [
+  " \"DOT11 Payload Error to AP %02x %02x %02x %02x %02x %02x Slot %d Payload %s len %d\"",
+  16
+ ],
+ [
+  "Error reading host info (%s)  %s",
+  34
+ ],
+ [
+  "\"The running configuration has been synchronized to the NETCONF running data store.\"",
+  27
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  " \"Dot1P Tags %s for all APs connected to this switch\"",
+  1
+ ],
+ [
+  " \"Unable to add mDNS AP VLAN to Internal AP",
+  86
+ ],
+ [
+  " \"Could not update dynamic Foreign AP client toMAC AVL.Mac address is %02x %02x %02x %02x %02x %02x\"",
+  84
+ ],
+ [
+  " \"Unable to read from the raw partition  %s. Error  %s\"",
+  25
+ ],
+ [
+  " \"PHY interface Create error  Ran out of Physical Interface internalnumbers.\"",
+  15
+ ],
+ [
+  " \"Failed to delete interface '%s'\"",
+  7
+ ],
+ [
+  "Persistent event '%s' did not leave the current state '%s'  %s %s",
+  152
+ ],
+ [
+  " \"Add Client %02x %02x %02x %02x %02x %02x to SCB failed\"",
+  23
+ ],
+ [
+  " \"Failed to allocate the message buffer for Hotspot message.\"",
+  112
+ ],
+ [
+  "Double (%1$s) with value (%2$lf) is out-of-range (-%3$ld to %3$ld, exclusive) for a Decimal64 with fraction-digits = %4$d.",
+  117
+ ],
+ [
+  " \"",
+  24
+ ],
+ [
+  " \"Mbuf start corruption! data %p low %p high %p datasize %ld",
+  66
+ ],
+ [
+  "Failed to initialize signals because %s",
+  53
+ ],
+ [
+  " \"Could not get IP to clrcfg sync %s \"",
+  51
+ ],
+ [
+  " \" secs  %d.\"",
+  78
+ ],
+ [
+  "Boot Partition corrupted.",
+  17
+ ],
+ [
+  " \"Unable to load L2Roam configuration.\"",
+  10
+ ],
+ [
+  " \"%s  x509 cert encoding failed\"",
+  11
+ ],
+ [
+  " API %s has returned failure",
+  59
+ ],
+ [
+  "\"Failed to complete callback registration %s (%d)  %s.\"",
+  27
+ ],
+ [
+  "Could not perform Minimal Disruptive Restart on %s in %s due to a SPA type mismatch",
+  67
+ ],
+ [
+  " \"Unable to get socket name. socket  %d Error  %s.\"",
+  9
+ ],
+ [
+  " \"Failed registration for DTL_EVENT_PORT_BSR_TRAP_ENTRY.\"",
+  167
+ ],
+ [
+  " \"CLI output has been truncated. Line no  %d.\"",
+  9
+ ],
+ [
+  " \"Unable to start the Osapi Reaper Watcher. %s.\"",
+  24
+ ],
+ [
+  " \"Linktest request not sent since previous request is still pending ltid %d\"",
+  16
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  " \"Mbuf Guard corrupted! low=%p high=%p buf = %p",
+  66
+ ],
+ [
+  " \"Processing of mesh neighs update failed from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"The system is unable to allocate buffer for Mesh Stats Request message to AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  "upgrade of hardware programmables on %s is not supported while in slot %s. Card will now be powered down.",
+  31
+ ],
+ [
+  " \"We failed to create a struct for /proc/%s/status\"",
+  24
+ ],
+ [
+  " Invalid size of webauth response received on local socket\"",
+  9
+ ],
+ [
+  " \"Login Banner has non printable ASCII characters\"",
+  50
+ ],
+ [
+  " \"[USER%s name=%s][CMD%s cmd=%s]\"",
+  109
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  " \"The system has received invalid RADIUS port number for AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Could not find interface %s.\"",
+  7
+ ],
+ [
+  " \"Tunnel Status changed for Gateway %s Tunnel type %s IPV6   IPv6   %02hhx%02hhx %02hhx%02hhx %02hhx%02hhx %02hhx%02hhx %02hhx%02hhx %02hhx%02hhx %02hhx%02hhx %02hhx%02hhx State   %s \"",
+  107
+ ],
+ [
+  " MSG_TRACEBACK",
+  1
+ ],
+ [
+  " Unable to set %s profile for %s qos priority level\"",
+  7
+ ],
+ [
+  " \"Unable to write rfid configuration file.\"",
+  56
+ ],
+ [
+  " \"AP Global configuration required for Mobility Express Master Failover\"",
+  74
+ ],
+ [
+  " \"The SKC key is neither temporary nor production key.It is rejected.\"",
+  8
+ ],
+ [
+  " \"The system has failed to disconnect DTLS connection for AP %s",
+  0
+ ],
+ [
+  " \"Lease for %d.%d.%d.%d does not belong to%02x %02x %02x %02x %02x %02x.\"",
+  2
+ ],
+ [
+  " \"Couldn't release exclusive access on the Fabric database. %s.\"",
+  1
+ ],
+ [
+  " MSG_SECURITY",
+  101
+ ],
+ [
+  " \"Footer offset",
+  116
+ ],
+ [
+  " \"%s  Cannot locate SaContextPtr\"",
+  11
+ ],
+ [
+  " \"Error deleting Mobility member from heartbeat list",
+  52
+ ],
+ [
+  " Error retrieving the configuration file %s.\"",
+  98
+ ],
+ [
+  " \"Socket creation failed for BOOTP.\"",
+  78
+ ],
+ [
+  " \"Cannot take the client troubleshooting semaphore [troubleShootSemaphorePtr]\"",
+  13
+ ],
+ [
+  "\"AP with same name %s exist. Using default name %s for this AP. radId %d dupRadId %d APMac  %02x %02x %02x %02x %02x %02x dupApMac  %02x %02x %02x %02x %02x %02x.\"",
+  0
+ ],
+ [
+  " \"Max retransmit count for %i is reached.\"",
+  48
+ ],
+ [
+  "ISSU rollback timer expired  initiating rollback",
+  76
+ ],
+ [
+  " \"Deletion of multicast group data failed\"",
+  5
+ ],
+ [
+  " \"Unable to add IP address learning SCB to NPU for mobile %02x %02x %02x %02x %02x %02x\"",
+  23
+ ],
+ [
+  " \"Failed to create PMK/CCKM cache entry for station %02x %02x %02x %02x %02x %02x with update from controller %s\"",
+  52
+ ],
+ [
+  " \"%dth AVP is corrupted. RADIUS msgtype=%d. Prev AVP=%dlen=%d offset=%d numAVPs=%d..\"",
+  18
+ ],
+ [
+  " \"Could not toggle mirror mode for the MAC address %02x %02x %02x %02x %02x %02x to %s state\"",
+  84
+ ],
+ [
+  " \"%5s[%5s sta_num=%d]\"",
+  109
+ ],
+ [
+  " \"Failed to Create DNS Task..\"",
+  102
+ ],
+ [
+  "Dual IOS boot indicated in ROMMON (%s), unavailable on %s RP",
+  17
+ ],
+ [
+  " \"Unable to add an MAC entry. %s.\"",
+  20
+ ],
+ [
+  "A read operation has failed for device  %s error  %s",
+  110
+ ],
+ [
+  " \"read from dtl Mobility Data Ping socket failed.\"",
+  79
+ ],
+ [
+  " \"Failed to open IPC port to peer for keystore redundancy  %s\"",
+  55
+ ],
+ [
+  " \" Failure to post Troubleshoot info for msg type %d for  MAC Address  %02x.%02x.%02x.%02x.%02x.%02x \"",
+  13
+ ],
+ [
+  "\"Authentication failed for client (%s) on Interface %s AuditSessionID %s\"",
+  103
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][AP%s mac=%02x %02x %02x %02x %02x %02x radio=%x][WLAN%s bssid=%02x %02x %02x %02x %02x %02x ssid=%s security=%x] Station authentication success. \"",
+  36
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"Unable to send a message to spam %s\"",
+  73
+ ],
+ [
+  " MSG_TRACEBACK,",
+  59
+ ],
+ [
+  "Staggered AP Upgrade completed succesfully",
+  118
+ ],
+ [
+  "Failed to read valid Minimal Disruptive Restart compatibility information for %s",
+  67
+ ],
+ [
+  " \"External Web Auth type cannot be set. %s.\"",
+  50
+ ],
+ [
+  " \"Software Version Error on config file %s.\"",
+  15
+ ],
+ [
+  " \"Unable to start the Osapi Reaper. %s.\"",
+  24
+ ],
+ [
+  " \"Received an unsupported 802.11 management messagesubType%d from AP %02x %02x %02x %02x %02x %02x\"",
+  1
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " \"WPS",
+  1
+ ],
+ [
+  "WebUI standalone login initialization failed.",
+  68
+ ],
+ [
+  " \"No IKE server found for local IP %s\"",
+  11
+ ],
+ [
+  " \"%s  Interference profile violation on %s AP%02x %02x %02x %02x %02x %02x  %d\"",
+  37
+ ],
+ [
+  " \"Failed to write to a configuration file. File Name  %s\"",
+  66
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  "Staggered AP Upgrade in progress, failed to delete upgrade record with report name   <%s> from upgrade report table",
+  118
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  " \"Cannot allocate memory for %s SSL certificate\"",
+  11
+ ],
+ [
+  "\"Failed to reinitializie VTY server utility instance.\"",
+  27
+ ],
+ [
+  "Critical boot tasks failed  %s",
+  17
+ ],
+ [
+  "%s, vrf (%s) - ret (%d)",
+  153
+ ],
+ [
+  " \"[USR%s name=%s ip=%d.%d.%d.%d vlan=%d mac=%02x %02x %02x %02x %02x %02x][RDS%s type=%d nas_id=%s nas_port_id=%s]\"",
+  161
+ ],
+ [
+  " \"accept error on server socket\"",
+  9
+ ],
+ [
+  "A write operation has failed for device  %s error  %s",
+  110
+ ],
+ [
+  " \"Form Submission Failed. The user does not have the right privileges.\"",
+  3
+ ],
+ [
+  " \"%s  The value 0x%x and 0x%x are not consistent\"",
+  125
+ ],
+ [
+  " \"Error reading file %s\"",
+  11
+ ],
+ [
+  " MSG_SECURITY",
+  9
+ ],
+ [
+  "Supervisor in Switch %d Slot %d is booted with a quad-sup incompatible image. Continuing in this state could lead to undesirable behaviour. To recover from this state, boot the supervisor in Quad-SUP compatible image by following the migration Procedure.(Attempt   %d of 5)",
+  31
+ ],
+ [
+  "Purpose  %s, URI  %s, errcode  %d",
+  22
+ ],
+ [
+  " \"Error - DP Memory Leak Detected   DP%d PktLevel %d MemLeakCount %d\"",
+  60
+ ],
+ [
+  " \"External Web Auth cannot be enabled. %s.\"",
+  50
+ ],
+ [
+  " \"Failed to select interface from interface group - %s\"",
+  52
+ ],
+ [
+  " \"Buffer Pool id %d ptr %p",
+  174
+ ],
+ [
+  " \" ID certificate decode failed",
+  11
+ ],
+ [
+  " \"Native IPv6 enable failed.\"",
+  74
+ ],
+ [
+  " \"CTS credentials are missing or inconsistent in the redundant keystore.\\nPlease re-configure cts credentials or execute cts change-password.\"",
+  46
+ ],
+ [
+  " \"Error importing private key. PKCS1 decode error\"",
+  11
+ ],
+ [
+  " \"NB not yet resolved. Failed to add mobility tunnel to fast path for peer IP  %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x\"",
+  52
+ ],
+ [
+  " \"TACACS+ server switchover failed as there is no other server active. Current server is %s",
+  18
+ ],
+ [
+  "Hotspot temperature has exceeded GREEN threshold\\n",
+  71
+ ],
+ [
+  " \"The system has added client %02x %02x %02x %02x %02x %02x to exclusion list due to IP Address conflict with AP '%s'\"",
+  16
+ ],
+ [
+  " \"The system has failed to Parse packet for AP %u %u %u %u",
+  0
+ ],
+ [
+  " \"%s.NTP packet rejected on socket %d.\"",
+  28
+ ],
+ [
+  " \"Cannot read key file %s\"",
+  11
+ ],
+ [
+  " \"Failed to process an association request from %02x %02x %02x %02x %02x %02x. WLAN %d",
+  1
+ ],
+ [
+  " \"The system is unable to allocate buffer for AP Bridge State message to AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Error! Invalid signature type  0x%08x.\"",
+  116
+ ],
+ [
+  " Not creating SSID %.*s on AP %02x %02x %02x %02x %02x %02x because diagnostics channel is enabled\"",
+  16
+ ],
+ [
+  "\"Memory was not available to perform the DMI action.\"",
+  27
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " MSG_TRACEBACK",
+  101
+ ],
+ [
+  " \"Failed to retrieve Web management allowability information\"",
+  11
+ ],
+ [
+  " \"%s  Unable to queue enchanced coverage data from AP %s on %s\"",
+  37
+ ],
+ [
+  " \" %s %s \"",
+  11
+ ],
+ [
+  " \"Failed to add http-redir application gateway rule\"",
+  11
+ ],
+ [
+  " \"Could not process proxy request. %s. RADIUSLength=%d",
+  18
+ ],
+ [
+  " \"Unable to create client Trouble Shooting semaphore.\"",
+  13
+ ],
+ [
+  "%s %d is ready.\\n",
+  62
+ ],
+ [
+  "  All Export-Anchors are down on Guest LAN %d \"",
+  52
+ ],
+ [
+  " \"Waiting for the BOOTP Reply\"",
+  78
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][AP%s mac=%02x %02x %02x %02x %02x %02x radio=%x][WLAN%s bssid=%02x %02x %02x %02x %02x %02x ssid=%s security=%x] Station start re-association. \"",
+  36
+ ],
+ [
+  " \"Failed to %s the Java Socket.\"",
+  50
+ ],
+ [
+  " MSG_SECURITY",
+  38
+ ],
+ [
+  "Internal unrecoverable error condition was detected. System is being reset.",
+  31
+ ],
+ [
+  " Unable to send ARP Request for %u.%u.%u.%u\"",
+  79
+ ],
+ [
+  " \" %s\"",
+  40
+ ],
+ [
+  " \"No transceivers detected.\"",
+  75
+ ],
+ [
+  "\"Task %s stack overflow\"",
+  145
+ ],
+ [
+  " \"global proxy mode changed on the pmipv6 wlan",
+  7
+ ],
+ [
+  "The platform family type %s is invalid.",
+  53
+ ],
+ [
+  " MSG_SECURITY",
+  18
+ ],
+ [
+  " MSG_TRACEBACK",
+  1
+ ],
+ [
+  "\"Failed to connect to Confd via %s socket %s (%d)  %s.\"",
+  27
+ ],
+ [
+  " \"%s %s %s %u.%u.%u.%u.\"",
+  52
+ ],
+ [
+  "Power-Supply Module MCUs in slot %s were successfully programmed.",
+  31
+ ],
+ [
+  "IPC to %s has returned to normal after previous stuck",
+  122
+ ],
+ [
+  "Virtualization Service%s",
+  6
+ ],
+ [
+  " \"Unknown Temporal Logic Verifier",
+  41
+ ],
+ [
+  " \"%d addresses are detected in address TLV of received CDP packetCopying the first %d addresses.\"",
+  33
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  "Failed to launch boot task %s ( %s )",
+  17
+ ],
+ [
+  " \"Unable to add sniffer AP fast path rule for AP %02x %02x %02x %02x %02x %02x\"",
+  23
+ ],
+ [
+  " \"Unable to create IPsec rule for mobile %02x %02x %02x %02x %02x %02x.\"",
+  23
+ ],
+ [
+  " MSG_TRACEBACK",
+  3
+ ],
+ [
+  " \"%s\"",
+  144
+ ],
+ [
+  " \"Error adding MA peer to run-time database",
+  52
+ ],
+ [
+  " \"Error setting tunnel IPSec Device cert for RADIUS server %s\"",
+  11
+ ],
+ [
+  "Peroidic Heartbeat message from RP timed out.",
+  127
+ ],
+ [
+  " \"Error! Can not delete entry %02x %02x %02x %02x %02x %02x from rfid Tree \"",
+  56
+ ],
+ [
+  "\"Authentication successful for client (%s) on Interface %s AuditSessionID %s\"",
+  103
+ ],
+ [
+  " \"Recv Ethernet over IP ping pkt from %u.%u.%u.%u  ethtype=0x%x",
+  21
+ ],
+ [
+  "| \"IP %s|| MAC %s|| AuditSessionID %s|| EVENT %s\"|",
+  47
+ ],
+ [
+  "Failed to process virtualization service deactivate message",
+  6
+ ],
+ [
+  " Upgraded ER image required to show version. For information regarding Emergency image Version",
+  75
+ ],
+ [
+  " \" cdp queue is full.\"",
+  33
+ ],
+ [
+  " \"Recv capwap ping from %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x %02x%02x",
+  79
+ ],
+ [
+  " \"The system is unable to allocate buffer for Mesh Neigh Request message to AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  "\"Failed to read notification %s (%d)  %s.\"",
+  27
+ ],
+ [
+  "\"Policy Application succeded for Client [%s] MAC [%s] AuditSession ID [%s] for POLICY_TYPE [%s] POLICY_NAME [%s]\"",
+  47
+ ],
+ [
+  " \"cannot start L2ROAM List Update timer.\"",
+  10
+ ],
+ [
+  " \"Error while writing %d bytes to file. Tftp error.\"",
+  96
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][AP%s mac=%02x %02x %02x %02x %02x %02x radio=%x][WLAN%s bssid=%02x %02x %02x %02x %02x %02x ssid=%s security=%x] Station association success. \"",
+  36
+ ],
+ [
+  " \"Invalid cache map id %d",
+  29
+ ],
+ [
+  " \"Controller initiated reset of AP %02x %02x %02x %02x %02x %02x that has currently joined the controller - Uptime  %s.",
+  16
+ ],
+ [
+  " \"Flow control is not getting turned off automatically. %s Remote IP %d.%d.%d.%d %d\"",
+  9
+ ],
+ [
+  " \"Unable to delete policy rule for mobile%02x %02x %02x %02x %02x %02x \"",
+  23
+ ],
+ [
+  " The system detects an invalid public key type in certificate for AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Failed to plumb tunnel for %u.%u.%u.%u as system init is not complete.\"",
+  20
+ ],
+ [
+  "Throughput license request timed out. Throughput level set to default",
+  31
+ ],
+ [
+  " \"enabling WLANs failed for AP %s\"",
+  1
+ ],
+ [
+  " \"Error on call to osapiFsWrite routine on config file %s.\"",
+  25
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  "%s Max (%us)",
+  6
+ ],
+ [
+  " \"Invalid poolinfo. Last entry in the poolinfo must be zero..\"",
+  35
+ ],
+ [
+  " \"ILLEGAL call to CF API on",
+  59
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  "Operation not permitted for pid %d tid %d",
+  171
+ ],
+ [
+  " \"Unable to add foreign access point%02x %02x %02x %02x %02x %02x\"",
+  1
+ ],
+ [
+  " The system has received an invalid %s",
+  0
+ ],
+ [
+  " \"Unable to register checkpoint as client of RF.\"",
+  59
+ ],
+ [
+  " \"Timer %u/%u",
+  24
+ ],
+ [
+  " \"spamDecodeLinktestResponse LINKTEST_RESULTS_PAYLOAD",
+  16
+ ],
+ [
+  " \"Unable to delete the IPv6 route",
+  24
+ ],
+ [
+  "Failed to create chassis filesystem object %s because %s",
+  26
+ ],
+ [
+  " \"Error while initializing mobility manager  %s.\"",
+  52
+ ],
+ [
+  " \"Failed to create CCX RM Task\"",
+  10
+ ],
+ [
+  " \"The system has failed to restart heart beat timer for AP %02x %02x %02x %02x %02x %02x \"",
+  0
+ ],
+ [
+  "\"Method %s in eap profile %s is not allowed in FIPS mode\"",
+  54
+ ],
+ [
+  "\"Confd control socket closed %s (%d)  %s.\"",
+  27
+ ],
+ [
+  " \"LAG MAC address error Invalid arguments. Got null pointer.\"",
+  15
+ ],
+ [
+  " \"ping request to %u.%u.%u.%u failed",
+  79
+ ],
+ [
+  " Unable to set VLAN Interface Address. Ip Addr %u.%u.%u.%u. Gateway %u.%u.%u.%u\"",
+  7
+ ],
+ [
+  "\"BIPC msg size too big to allocate\"",
+  108
+ ],
+ [
+  " \"USB is %s\"",
+  7
+ ],
+ [
+  " \"Failed to allocate memory for public key hash\"",
+  11
+ ],
+ [
+  " \"[STA%s mac=%02x %02x %02x %02x %02x %02x][AP%s mac=%02x %02x %02x %02x %02x %02x radio=%x][WLAN%s bssid=%02x %02x %02x %02x %02x %02x ssid=%s security=%x][REASON%s code=WL%d desc=%s] Station association failed. \"",
+  36
+ ],
+ [
+  " \"Unable to retrieve the mask for an ip address\"",
+  2
+ ],
+ [
+  " \" Received IPV6 MLDv2 source specific QUERY packet\"",
+  5
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  "A CPLD driver I/O control has failed because %s",
+  26
+ ],
+ [
+  " \"Guest user logged in with user account",
+  23
+ ],
+ [
+  " \"User authenticated. Username  %.*s.\"",
+  18
+ ],
+ [
+  "Power-Supply Module MCU %s in slot %s program failed",
+  31
+ ],
+ [
+  "EHSA initialization has failed because %s",
+  31
+ ],
+ [
+  " MSG_TRACEBACK",
+  125
+ ],
+ [
+  " \"Unable to insert an ARP entry for %u.%u.%u.%u to the ARP table. \"",
+  20
+ ],
+ [
+  " \"Untagging of Management VLAN is not supported with HA. Please configure Management VLAN.\"",
+  7
+ ],
+ [
+  " \"Setting Network processor register failed. This could be temporary problem\"",
+  4
+ ],
+ [
+  "Failed to get chassis hardware status because %s",
+  31
+ ],
+ [
+  " \"Unable to add the route",
+  24
+ ],
+ [
+  " \"Resetting site override config.\"",
+  1
+ ],
+ [
+  " \"SPECTRUM LOG  %s\"",
+  64
+ ],
+ [
+  "  %s \"",
+  16
+ ],
+ [
+  " \"%s  %s\"",
+  0
+ ],
+ [
+  " \"Internal Error  %s\"",
+  86
+ ],
+ [
+  " \"Transmission of LWAPP message failed for AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  "***** CMCC did not received PSM READY event %d sec for slot %d.",
+  26
+ ],
+ [
+  " \"Configurations is blocked when save config is in progress\"",
+  18
+ ],
+ [
+  "If using the guest shell, please use 'guestshell sync' if you want to preserve state on standby in case of supervisor switchover",
+  22
+ ],
+ [
+  " \"Failed to apply RADIUS over-ride policy for station %02x %02x %02x %02x %02x %02x\"",
+  23
+ ],
+ [
+  " \"Delete Client %02x %02x %02x %02x %02x %02x from SCB failed\"",
+  23
+ ],
+ [
+  " \"OPSSL_PARSER  Received a zero len cert from peer for session 0x%x\"",
+  63
+ ],
+ [
+  " Ignoring discovery request from AP %02x %02x %02x %02x %02x %02x - maximum number of downloads",
+  16
+ ],
+ [
+  "Block %s/%d of PLIM device had I/O event %#x",
+  163
+ ],
+ [
+  " \"Address changed to dtl successfully. %u.%u.%u.%u ==> %u.%u.%u.%u",
+  7
+ ],
+ [
+  " \"Secure tunnel msg send to TLS Client failed",
+  70
+ ],
+ [
+  " \"Checksum %s failed for the profile file  %s\"",
+  61
+ ],
+ [
+  " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\"",
+  156
+ ],
+ [
+  " \"License HA_SKU completed %d days usage.\\n\"",
+  74
+ ],
+ [
+  " \"L2TP Error. Unable to update a foreign L2TP session\"",
+  11
+ ],
+ [
+  " \"mobile %02x %02x %02x %02x %02x %02x is not doing CKIPMMH-MIC",
+  1
+ ],
+ [
+  " \"spamMeshSecbhStatsPayloadDecode  len received %d expected=%zd numQueues=%d\\n\"",
+  16
+ ],
+ [
+  "Source URI  %s, Destination URI  %s, errcode  %d",
+  6
+ ],
+ [
+  " KeyStore ISSU client %s\"",
+  55
+ ],
+ [
+  "The software which monitors ownership of the console port cannot %s a filesystem configuration value.",
+  129
+ ],
+ [
+  " \"Unrecognized Encapsulation type %d.\"",
+  39
+ ],
+ [
+  " \"Extra System reboot shortly  Missed too many heartbeats",
+  60
+ ],
+ [
+  " \"Unable to delete an ARP entry for %u.%u.%u.%u from the operating system. %s\"",
+  20
+ ],
+ [
+  " \"Failed to take mobility config db lock.\"",
+  52
+ ],
+ [
+  " \"Error encountered while saving certificate configuration\"",
+  11
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  "Cannot construct an IPC message for library. The message name is %s and the reason is  %s",
+  138
+ ],
+ [
+  " RADIUS server %s %u failed to respond to request",
+  18
+ ],
+ [
+  " \"%s  The switch case 0x%x not handled\"",
+  125
+ ],
+ [
+  " \"PEMRECV  Received unsupported message type %d.\"",
+  23
+ ],
+ [
+  " \"Oversized DHCP packet \"",
+  2
+ ],
+ [
+  "\"Login Un-Successful from host %s\"",
+  142
+ ],
+ [
+  "Warning  %s",
+  134
+ ],
+ [
+  " \"Footer offset",
+  41
+ ],
+ [
+  " \"Message queue creation error.BCAST sub-system not initialized\"",
+  5
+ ],
+ [
+  " \"Failed to create the timer for %s.\"",
+  14
+ ],
+ [
+  " \"Association WPA/RSN IE length %d is different from Reassociation IE length %d\"",
+  1
+ ],
+ [
+  " \"%s  msg queue does not exist. Exiting...\"",
+  10
+ ],
+ [
+  " \"%s  Attempted to delete a non wgb client as wgb client.\"",
+  1
+ ],
+ [
+  " The system has received a duplicate fragment from%02x %02x %02x %02x %02x %02x.\"",
+  0
+ ],
+ [
+  "\"IP=%s MPPE_RECV_KEY_LENGTH=%d\"",
+  54
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " \"L2TP Error. Stale session information found\"",
+  11
+ ],
+ [
+  " \" hw_addr  \"",
+  78
+ ],
+ [
+  " \"Failed to write the file %s into NV Memory.\"",
+  28
+ ],
+ [
+  " %s  Null pointer passed in.\"",
+  92
+ ],
+ [
+  " \"Invalid next allocate interface %s in interface group %s\"",
+  7
+ ],
+ [
+  "\"Failed to unlock the NETCONF running data store via MAAPI %s (%d)  %s.\"",
+  27
+ ],
+ [
+  " \"Unable to initialize. Reason  %s.\"",
+  50
+ ],
+ [
+  " \"The system detects an invalid message type %d from %02x %02x %02x %02x %02x %02x\"",
+  0
+ ],
+ [
+  " \"Bypassing internal AP %02x %02x %02x %02x %02x %02x reset to avoid system reboot. Please use reset system command to complete configuration change on internal AP.\"",
+  0
+ ],
+ [
+  " \"Updating Mobility member IP in heartbeat list",
+  52
+ ],
+ [
+  " Wlan Rate Limit task creation failed Cannot calculate dynamic WLAN rate limits\"",
+  16
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  " \"Unable to allocate semaphore.\"",
+  65
+ ],
+ [
+  " \"Failed to allocate from policy manager %s free list. List has been depleted\"",
+  11
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  "Hardware programmable ADM1266 Configurations on %s in slot %s were successfully programmed.",
+  26
+ ],
+ [
+  " \"RSA encrypt/decrypt KAT failed\"",
+  11
+ ],
+ [
+  " \"ADD or DEL of service to MSAL-DB  %s\"",
+  86
+ ],
+ [
+  "Problem with sync of ISSU boot state - %s",
+  76
+ ],
+ [
+  " \"Node create received for non key node %d %d\"",
+  29
+ ],
+ [
+  " \"Mobility ping to %u.%u.%u.%u rejected",
+  21
+ ],
+ [
+  " \"Standby incompatible for SSO.\"",
+  55
+ ],
+ [
+  " MSG_SECURITY|MSG_TRACEBACK",
+  38
+ ],
+ [
+  " \"Unable to create SPAM Mobile State.\"",
+  23
+ ],
+ [
+  " MSG_TRACEBACK",
+  101
+ ],
+ [
+  " \"Failed to map LAG interfaces to LAG ports. Error Code %u\"",
+  7
+ ],
+ [
+  " \"Web context mismatch between request and response",
+  9
+ ],
+ [
+  " \"Unable to send DHCP packet to%02x %02x %02x %02x %02x %02x.\"",
+  2
+ ],
+ [
+  "The process %s has shutdown",
+  44
+ ],
+ [
+  " \"Vlan Port Update Start. oldPort %d newPort %d oldVlan %d newVlan %d vlanName %s\"",
+  7
+ ],
+ [
+  " \"Error  Ip Address %d.%d.%d.%d is not in pool",
+  2
+ ],
+ [
+  " \"failed to create the sleeping client timer\"",
+  9
+ ],
+ [
+  " \"simMsPortChange Error in queuing pem message\"",
+  23
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  "app-hosting  %s",
+  6
+ ],
+ [
+  " \"%s\"",
+  23
+ ],
+ [
+  " \"Cfgsync sem creation failed Unable to create the sem LOCK\"",
+  51
+ ],
+ [
+  "\"Policy Application succeded for Client [%s] MAC [%s] AuditSession ID [%s] for POLICY_TYPE [%s] POLICY_NAME [%s]\"",
+  47
+ ],
+ [
+  " \"Cannot encode certificate %s in PEM format\"",
+  11
+ ],
+ [
+  " \"L2ROAM Configuration file is corrupted... clearing.\"",
+  10
+ ],
+ [
+  " \"%02x %02x %02x %02x %02x %02x. Error  CCO file Transfer Incomplete download.Check ASD transferLOG %d/%d.\"",
+  0
+ ],
+ [
+  " MSG_SECURITY",
+  38
+ ],
+ [
+  " \"Unable to set AP Manager interface port. Port # %d\"",
+  7
+ ],
+ [
+  " \"Couldn't get exclusive access to the fabric database. %s.\"",
+  1
+ ],
+ [
+  "RP switchover  %s",
+  31
+ ],
+ [
+  "A register write operation has failed for device  %s register  %s error  %s",
+  110
+ ],
+ [
+  " \"Could not get Token Bucket Entry. %s.\"",
+  1
+ ],
+ [
+  "Tracelog number for process %s changed to %d",
+  138
+ ],
+ [
+  " \" %s %s \"",
+  11
+ ],
+ [
+  " Warning  DP Early PacketBuffer low detected. DP%d PacketBuffer=%d\"",
+  60
+ ],
+ [
+  " \"Unable to start ICMP ping to host %s. %s\"",
+  24
+ ],
+ [
+  " \"Could not add foreign mapping to wlan  %d",
+  52
+ ],
+ [
+  " \"ADD or DEL of bonjour profile to PROFILE-DB  %s\"",
+  86
+ ],
+ [
+  " \"Task list corruption detected!!!.\"",
+  24
+ ],
+ [
+  " \" opendns qcreate failed   %s\\",
+  91
+ ],
+ [
+  " \"total checks %d exceeds the max supported %d.\"",
+  61
+ ],
+ [
+  " MSG_SECURITY",
+  18
+ ],
+ [
+  " \"Unable to find Mobile Station Entry for %02X %02X %02X %02X %02X %02X .\"",
+  18
+ ],
+ [
+  " \"Time Drift Detected in %s Task %d - %d = %d. \"",
+  24
+ ],
+ [
+  " \"Invalid cipher text length %u",
+  66
+ ],
+ [
+  " \"%s  Failed to create %s\"",
+  43
+ ],
+ [
+  " Failed to register callback for interface changes\"",
+  52
+ ],
+ [
+  " \"User aborted Auto Install process.\"",
+  89
+ ],
+ [
+  "  Recv Ethernet over IP pkt from %u.%u.%u.%u",
+  21
+ ],
+ [
+  " \"Unable to find mac address %u.%u.%u.%u\"",
+  11
+ ],
+ [
+  "\"Error copying Confd rollback file (%d)  %s\"",
+  27
+ ],
+ [
+  " \"Option length exceeding the length of buffer for the tag %x\"",
+  2
+ ],
+ [
+  " \"WLC HA - Switchover Occurred",
+  125
+ ],
+ [
+  " \" Failed to find an admission request\"",
+  14
+ ],
+ [
+  " \"Invalid configuration file version %u\"",
+  66
+ ],
+ [
+  " Waiting for %d APs to complete their Pre-Download Image - For scheduled autoreboot.\"",
+  16
+ ],
+ [
+  " \"%s. AP  %02x %02x %02x %02x %02x %02x slot %d wlanId %d client  %02x %02x %02x %02x %02x %02x \"",
+  16
+ ],
+ [
+  "A system function was given an invalid argument.",
+  53
+ ],
+ [
+  " \"The system has received invalid ethernet interface count %u from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " Keeping connection from AP %02x %02x %02x %02x %02x %02x in overload condition",
+  16
+ ],
+ [
+  " Discarding lwapp control packet with invalid length Bsn Len = %d",
+  16
+ ],
+ [
+  "The RP I2C has failed initialization because %s",
+  31
+ ],
+ [
+  " \"An attempt to register peer failed because peer address %s is not valid\"",
+  11
+ ],
+ [
+  " \"PEM  no message queue",
+  23
+ ],
+ [
+  " \"%s  Unable to add wired vlan client %02x %02x %02x %02x %02x %02x Vlan %d WGB %02x %02x %02x %02x %02x %02x\"",
+  1
+ ],
+ [
+  " \"802.11g Support changing from %s to %s. APs will reload.\"",
+  1
+ ],
+ [
+  " \"pemDispatcPortChange  Could not update NPU\"",
+  23
+ ],
+ [
+  "\"%s subsystem %s maxiumum sequence depth %d exceeded\"",
+  146
+ ],
+ [
+  " \"Delete client %02x %02x %02x %02x %02x %02xbecause guest user account",
+  18
+ ],
+ [
+  " \"SSHPM  unable to save SA context\"",
+  11
+ ],
+ [
+  "Failed to create user interface peer.",
+  6
+ ],
+ [
+  " \"Policy manager warning callback  %s\"",
+  11
+ ],
+ [
+  " \"Ignoring expiry of mobile %02x %02x %02x %02x %02x %02x as apfMsTimestamp",
+  1
+ ],
+ [
+  " \"Cannot give semaphore %s\"",
+  11
+ ],
+ [
+  " MSG_SECURITY | MSG_TRACEBACK",
+  1
+ ],
+ [
+  " %s failure on radio slot %d on AP %s\"",
+  16
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  24
+ ],
+ [
+  "\"Initialization of %s failed for IOx Manager\"",
+  6
+ ],
+ [
+  "Failed to process virtual service unprovision message",
+  22
+ ],
+ [
+  " \"AP %02x %02x %02x %02x %02x %02x Not in REGISTERED state",
+  51
+ ],
+ [
+  " \"Rejected NEC key %s configuration. Re-use of the same temporary key is not allowed.\"",
+  8
+ ],
+ [
+  "ingress_interface='%s' sgacl_name='%s' action='%s' protocol='%s' src-ip='%s' src-port='%u'  dest-ip='%s' dest-port='%u' sgt='%u' dgt='%u' logging_interval_hits='%u'",
+  49
+ ],
+ [
+  " MSG_TRACEBACK",
+  113
+ ],
+ [
+  " \"Out of memory! Unable to allocate a chunk for pool %ld!.\"",
+  35
+ ],
+ [
+  " \"%s%s\"",
+  78
+ ],
+ [
+  " MSG_TRACEBACK",
+  66
+ ],
+ [
+  " \"Failed to update the internal pem state machine for dot1x authentication for mobile %02x %02x %02x %02x %02x %02x at Wlan Id  %d.\"",
+  23
+ ],
+ [
+  " \"%s not initialized\"",
+  11
+ ],
+ [
+  " \"Interface File migration failed - OUT OF MEMORY!!!.\"",
+  7
+ ],
+ [
+  " \"Unknown message type %d received for processing.\"",
+  64
+ ],
+ [
+  "| \"The regular expression ||%s|| is invalid. Please remove from the '%s' model or via the CLI '%s %s'\"|",
+  27
+ ],
+ [
+  " \"Failed to access the compressed file %s.\"",
+  8
+ ],
+ [
+  " The system is unable to retrieve current time when processing %s from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \" Failure to post Troubleshoot info for msg type %d for  MAC Address  %02x.%02x.%02x.%02x.%02x.%02x \"",
+  13
+ ],
+ [
+  "HA remote sychronize thread has failed and exited.",
+  22
+ ],
+ [
+  " \"Unable to find the DS port while trying to send an Ethernet over IP ping message.\"",
+  21
+ ],
+ [
+  "\"NETCONF/SSH  %s\"",
+  27
+ ],
+ [
+  " \"Radius overrides disabled",
+  1
+ ],
+ [
+  " \"PMIPv6 Mag callback",
+  23
+ ],
+ [
+  "CPP Client FIPS bypass test failed for %s\\n.",
+  140
+ ],
+ [
+  " \"For information regarding Field Recovery Image version",
+  75
+ ],
+ [
+  " \"Error adding Mobility member to heartbeat list",
+  52
+ ],
+ [
+  "Failed to sync the SMUs to switch %s. Install rollback operation may get affected.",
+  17
+ ],
+ [
+  " \"Unable to load L2ROAM configuration\"",
+  10
+ ],
+ [
+  " \"The system could not process CAPWAP packet\"",
+  0
+ ],
+ [
+  "\"MQIPC advance error [%s] reader [%s]\"",
+  108
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  24
+ ],
+ [
+  " The system is unable to encapsulate CAPWAP header for  AP %02x %02x %02x %02x %02x %02x\"",
+  0
+ ],
+ [
+  " \"%s %d Not enough space in packet. Available bytes=%d",
+  86
+ ],
+ [
+  " \"Failed to decode the temporary key %s.\"",
+  8
+ ],
+ [
+  " \"The system could not plumb AP's",
+  0
+ ],
+ [
+  " \"Failed to spawn the TLS Client daemon.\"",
+  75
+ ],
+ [
+  " \"%s  Unable to delete wired client%02x %02x %02x %02x %02x %02x from WGB%02x %02x %02x %02x %02x %02x \"",
+  1
+ ],
+ [
+  " default-flex-group renamed to  %s\"",
+  73
+ ],
+ [
+  " \"%s %u %u %u\"",
+  85
+ ],
+ [
+  " \"Update IP related error  %s.\"",
+  150
+ ],
+ [
+  " \"Unable to gather task metrics. %s.\"",
+  24
+ ],
+ [
+  " \"Binding service port for getting IP Address using DHCP failed.\"",
+  2
+ ],
+ [
+  " Validation of %s",
+  16
+ ],
+ [
+  " MSG_SECURITY|MSG_TRACEBACK",
+  38
+ ],
+ [
+  " \"XML Deploy - Config file parse failure  %s.\"",
+  41
+ ],
+ [
+  " \"Invalid buffer length %u. Internal system error.\"",
+  66
+ ],
+ [
+  " \"Could not process frames received for unknown mobile from the DS. %s.\"",
+  1
+ ],
+ [
+  " \"Bonjour Goodbye pkt received for service instance   %s that is not cached\"",
+  86
+ ],
+ [
+  "Failed to destroy chassis filesystem object %s because %s",
+  31
+ ],
+ [
+  "\"Failed to retrieve CLI engine event (%d)  %s.\"",
+  27
+ ],
+ [
+  "Hardware programmable PSOCs on %s in slot %s were successfully programmed. The card will reload to make new firmware work.",
+  26
+ ],
+ [
+  "Reloading Standby RP  %s",
+  31
+ ],
+ [
+  "Failed to create chassis filesystem object %s property %s because %s",
+  53
+ ],
+ [
+  " Failed to receive a PDU. USP %d/%d/%d. Family=%d",
+  20
+ ],
+ [
+  " \"%s handshake failed for %u.%u.%u.%u HB is down",
+  52
+ ],
+ [
+  " \"Failed to close file\"",
+  24
+ ],
+ [
+  " \"Mobility ping to %u.%u.%u.%u rejected",
+  21
+ ],
+ [
+  " \"Failed to create the task %s\"",
+  15
+ ],
+ [
+  " \"Could not delete Mobility Member. Member=Count %d",
+  52
+ ],
+ [
+  " \"Failed to bind the socket.\"",
+  78
+ ],
+ [
+  " \"Invalid index",
+  15
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " \"Unable to open Ethernet-over-IP socket\"",
+  21
+ ],
+ [
+  " \"%02x %02x %02x %02x %02x %02x is not a client",
+  20
+ ],
+ [
+  " \"Refused new telnet connections. ActiveTelnetAndSshConnections  %d TotalActiveConnections  %d nonTelnetConnection  %d.\"",
+  9
+ ],
+ [
+  " MSG_TRACEBACK",
+  77
+ ],
+ [
+  " \"Attempt to insert PMK to the key cache failed. %s.Length  %d. Station %02x %02x %02x %02x %02x %02x .Cache size reached %d\"",
+  1
+ ],
+ [
+  "\"Attempt made in %s to register with out of bounds key\"",
+  121
+ ],
+ [
+  " \" The input packet has come from an unknown client\"",
+  14
+ ],
+ [
+  " \"License integrity failed.\"",
+  8
+ ],
+ [
+  " \"PreAuth entry is not found for client %02x %02x %02x %02x %02x %02x while processing FT Reassociation request.\"",
+  1
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  " Unable to set %s Arbitration Interframe Space",
+  7
+ ],
+ [
+  " \"",
+  24
+ ],
+ [
+  " \"caught sig int in redirect thread\"",
+  9
+ ],
+ [
+  " \"List is corrupted -",
+  16
+ ],
+ [
+  " \"Failed to %s WLAN %u\"",
+  52
+ ],
+ [
+  " MSG_TRACEBACK",
+  1
+ ],
+ [
+  "Rendering error with %s.%s. Transform is missing or invalid for data.",
+  34
+ ],
+ [
+  " \"Unable to open certificate file to save the generated key\"",
+  11
+ ],
+ [
+  " \"Unable to set IP address %x for the %s\"",
+  78
+ ],
+ [
+  " \"The system has received a join request from an unsupported AP %02x %02x %02x %02x %02x %02x %s",
+  0
+ ],
+ [
+  " \" NEC SKC %s has unknown feature field %s.\"",
+  8
+ ],
+ [
+  " \"Error reading system certificates - certificate is too large\"",
+  11
+ ],
+ [
+  "A process was unable to retrieve a shell-manager peer handle.",
+  138
+ ],
+ [
+  "Stack port %d on %s %d is %s\\n",
+  62
+ ],
+ [
+  "%s %d has been removed from the stack.\\n",
+  62
+ ],
+ [
+  "Failed to activate patch. The patch name is %s and the reason is  %s",
+  182
+ ],
+ [
+  " \"Regulatory domain of the AP %02x %02x %02x %02x %02x %02x does not match the country code",
+  16
+ ],
+ [
+  " \"The feature %s in the SKC %s does not match the image\"",
+  8
+ ],
+ [
+  " \"AP %02x %02x %02x %02x %02x %02x marked as %s but internal counter is zero\"",
+  16
+ ],
+ [
+  " \"%s  Found WGB wired client %02x %02x %02x %02x %02x %02x in blacklist!\"",
+  1
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  24
+ ],
+ [
+  " \"Failed to send a ping %s packet to %u.%u.%u.%u.\"",
+  52
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  " \"Unable to create rfid database \"",
+  56
+ ],
+ [
+  " \"Unable to send AAA request",
+  18
+ ],
+ [
+  "| \"POLICY %s|| EVENT %s\"|",
+  47
+ ],
+ [
+  " %s",
+  16
+ ],
+ [
+  " \"Rejecting WAPI PSK Auth Request for mobile %02x %02x %02x %02x %02x %02x\"",
+  1
+ ],
+ [
+  " \"The system has received %s   %s alert from %i\"",
+  48
+ ],
+ [
+  " \"Unable to start ICMP ping to host %s. %s\"",
+  125
+ ],
+ [
+  " \"Unable to re-open Ethernet-over-IP socket\"",
+  21
+ ],
+ [
+  " \"Unable to delete the address on interface\"",
+  2
+ ],
+ [
+  " \"Failed to sync mobile %02x %02x %02x %02x %02x %02x as PMK cache not found.\"",
+  1
+ ],
+ [
+  " \"Failed to change the Link Aggregation port status. Port # %d\"",
+  7
+ ],
+ [
+  " \"Could not set the port %d as mirror port.Return code %d\"",
+  84
+ ],
+ [
+  "Source URI  %s, Destination URI  %s, errcode  %d",
+  22
+ ],
+ [
+  "One or more sensor fields from the idprom failed to parse properly because %s.",
+  26
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  24
+ ],
+ [
+  " \"Couldn't create flash access semaphore. Internal system error.\"",
+  41
+ ],
+ [
+  " \"Unable to create ap-list entry for AP %02x %02x%02x %02x %02x%02x \"",
+  52
+ ],
+ [
+  " \"Failed to delete WEP cache entry for station %02x %02x %02x %02x %02x %02x with request from controller %u.%u.%u.%u\"",
+  52
+ ],
+ [
+  " MSG_SECURITY",
+  1
+ ],
+ [
+  "Expected chassis filesystem object %s property %s not present.",
+  26
+ ],
+ [
+  "DS-JIB Non-Critical [%s]",
+  141
+ ],
+ [
+  " \"Client count mismatched between database count and running count.  Database count = %d count = %d\"",
+  5
+ ],
+ [
+  " MSG_TRACEBACK",
+  42
+ ],
+ [
+  " \"Https Username Decryption return failed. Error- %s\"",
+  66
+ ],
+ [
+  " \"NGINX config for ms open has chnaged",
+  50
+ ],
+ [
+  " \"Re-Association request from client %02x %02x %02x %02x %02x %02x. AP %02x %02x %02x %02x %02x %02x WLAN %d",
+  1
+ ],
+ [
+  " \"Physical port %d is up!.\"",
+  7
+ ],
+ [
+  " \"Anchor Export Request from controller",
+  52
+ ],
+ [
+  " CF client is NULL",
+  59
+ ],
+ [
+  " \"DHCP Packet Option 82 is repeated.\"",
+  2
+ ],
+ [
+  "Error resolving local FRU  %s",
+  87
+ ],
+ [
+  " \"Failed to allocate from policy manager %s free list. List has not been allocated yet\"",
+  11
+ ],
+ [
+  " \"Username too long. Username length %u.\"",
+  18
+ ],
+ [
+  " The system is unable to add %.*s SSID to override table for AP %s\"",
+  16
+ ],
+ [
+  " \"Received Roam response from %u.%u.%u.%u with no PMK-R1 TLV\"",
+  52
+ ],
+ [
+  " \"The system could not read from the LWAPP socket\"",
+  16
+ ],
+ [
+  " \"Creating service %s on port %u\"",
+  11
+ ],
+ [
+  " The system has received unexpected CCX Linktest report message from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Bypassing AEPI process for mobile %02x %02x %02x %02x %02x %02x\"",
+  23
+ ],
+ [
+  " \"Entry created %s\"",
+  45
+ ],
+ [
+  " \"%s%d.\"",
+  75
+ ],
+ [
+  " \"Unable to retrieve routing information\"",
+  24
+ ],
+ [
+  " \"Policy manager message queue create failed\"",
+  11
+ ],
+ [
+  " \"%s  FAILED to Send remaining %d bytes to AP\"",
+  0
+ ],
+ [
+  " \"The system API sysinfo",
+  24
+ ],
+ [
+  " \"The system is unable to alloc AP entry in database for %s %u\"",
+  0
+ ],
+ [
+  " \"Unable to update state %d Rogue AP %s.\"",
+  1
+ ],
+ [
+  " \"The system is unable to add WLAN on AP %02x %02x %02x %02x %02x %02x - max limit reached\"",
+  16
+ ],
+ [
+  " \"The ioctl system call failed for the option %s.\"",
+  64
+ ],
+ [
+  " MSG_TRACEBACK",
+  73
+ ],
+ [
+  " \"Could not set the 802.11b operational rate. %s.\"",
+  1
+ ],
+ [
+  " \"Certificate addition failed because credential store is full\"",
+  11
+ ],
+ [
+  " \"Invalid Group name and IP. Resetting the RRM grouping\"",
+  37
+ ],
+ [
+  "Virtualization Service%s",
+  6
+ ],
+ [
+  " \"Unable to add the mac address %02x %02x %02x %02x %02x %02x into AVL tree.\"",
+  84
+ ],
+ [
+  " \"Failed to update license storage.\"",
+  75
+ ],
+ [
+  " \"Setting hardware time to %.4d %d %.2d %.2d %.2d %.2d\"",
+  92
+ ],
+ [
+  " \" IGMP query timeout happened for a timer more than 5\"",
+  14
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " \"Binding %s<%s",
+  40
+ ],
+ [
+  "Virtual Service%s",
+  22
+ ],
+ [
+  " \"unable to determine our own local IP address - pptp will be disabled.\"",
+  69
+ ],
+ [
+  " \"DTLS connection established to %u.%u.%u.%u\\n\"",
+  48
+ ],
+ [
+  " MSG_TRACEBACK",
+  154
+ ],
+ [
+  " CTS SXP %s\"",
+  40
+ ],
+ [
+  " \"%s\"",
+  144
+ ],
+ [
+  " \"The system is unable to autoconvert AP %02x %02x %02x %02x %02x %02x to supported mode %d.\"",
+  0
+ ],
+ [
+  "The RP CPLD has failed initialization because %s",
+  31
+ ],
+ [
+  " \"Failed to create capwapping osapi queue.\"",
+  79
+ ],
+ [
+  " \"Unable to find Encryption Policy for Mobile  %02x %02x %02x %02x %02x %02x. Traffic Type %s",
+  1
+ ],
+ [
+  " \"One of Corsica AP is NOT in REG state..Cannot save or clear config\"",
+  92
+ ],
+ [
+  " \"Logical interface create error Ran out of Logical Interface internalnumbers.\"",
+  15
+ ],
+ [
+  " \"Unable to open file <%s>  %d %s.\"",
+  7
+ ],
+ [
+  " \"Queue does not exist  %s\"",
+  86
+ ],
+ [
+  " \" Secure tunnel memory allocation failed for  %s\"",
+  70
+ ],
+ [
+  " MSG_TRACEBACK",
+  18
+ ],
+ [
+  "%s '%s' %s %s",
+  6
+ ],
+ [
+  " \"No SSHPM server found for peer %s\"",
+  11
+ ],
+ [
+  "Could not access command definition file %s  %s",
+  34
+ ],
+ [
+  " \"mDNS module is not initialized yet",
+  0
+ ],
+ [
+  " \"Cannot allocate new Mbuf.Internal system error.\"",
+  66
+ ],
+ [
+  " \"Unable to allocate memory for %s key\"",
+  11
+ ],
+ [
+  "Package  %s",
+  76
+ ],
+ [
+  " \"Unable to set timer for guest accounts. %s.\"",
+  18
+ ],
+ [
+  "Failed Identification Test in %s. The module %s may not be a genuine Cisco product. Cisco warranties and support programs only apply to genuine Cisco products.  If Cisco determines that your insertion of non-Cisco memory, WIC cards, AIM cards, Network Modules, SPA cards, GBICs or other modules into a Cisco product is the cause of a support issue, Cisco may deny support under your warranty or under a Cisco support program.",
+  127
+ ],
+ [
+  " \"Configured static IP Address is not valid for AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Inter WLC Roaming failed for EoGRE Tunnel Client <%s>.\"",
+  107
+ ],
+ [
+  " \"Failed to %s the SSH Rule for ip %s",
+  52
+ ],
+ [
+  " The system detects an invalid parameter  %s in LWAPP packet from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " The system could not allocate an entry for the AP",
+  16
+ ],
+ [
+  " \"Failed to create socket.\"",
+  2
+ ],
+ [
+  " \"The system is unable to alloc AP entry in database for %u.%u.%u.%u %u\"",
+  0
+ ],
+ [
+  " \"PMK cache entry for client %02x %02x %02x %02x %02x %02x has incorrect flex group %d\"",
+  73
+ ],
+ [
+  " MSG_SECURITY",
+  18
+ ],
+ [
+  "An I2C read has failed because %s",
+  31
+ ],
+ [
+  " \"Created CCX RM Task\"",
+  10
+ ],
+ [
+  " \"Ethernet over IP pkt too short",
+  21
+ ],
+ [
+  "Throughput license look-up failed due to '%s'",
+  31
+ ],
+ [
+  " \"%s %d %s %d %s %u.%u.%u.%u %s %u.%u.%u.%u.\"",
+  52
+ ],
+ [
+  " \"Ignoring %sdiscovery request from AP %02x %02x %02x %02x %02x %02x - maximum number of downloads",
+  0
+ ],
+ [
+  "%s in slot %s has been held in reset because %s",
+  31
+ ],
+ [
+  " System is out of memory",
+  59
+ ],
+ [
+  "The guest shell has been enabled. The command '%s' may be used to access it, '%s destroy' to remove it.",
+  22
+ ],
+ [
+  " MSG_TRACEBACK",
+  52
+ ],
+ [
+  "Active %s %d is ready.\\n",
+  62
+ ],
+ [
+  "A card absolute slot number cannot be determined for this chassis type",
+  31
+ ],
+ [
+  " \"Packet log displayed %u of %u packets\"",
+  58
+ ],
+ [
+  " MSG_TRACEBACK | MSG_PROCESS",
+  24
+ ],
+ [
+  " Error decrypting public key in key update response from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " MSG_TRACEBACK",
+  1
+ ],
+ [
+  " \"%5s[AP%s mac=%s cpu=%d%%]\"",
+  109
+ ],
+ [
+  "Failed to get chassis hardware status because %s",
+  53
+ ],
+ [
+  "\"Timer %s update of %s not updated %d\"",
+  145
+ ],
+ [
+  " \"Inbound WCP rule already configured\"",
+  11
+ ],
+ [
+  " \"[CLIENT%s mac=%02x %02x %02x %02x %02x %02x ip=%u.%u.%u.%u][DHCP%s pool=%s] Client lease expired.\"",
+  36
+ ],
+ [
+  " \"The system could not send join reply",
+  16
+ ],
+ [
+  " \"Unable to apply vlan",
+  1
+ ],
+ [
+  "The CONFIG&PICTYPE in slot %d mismatch   CONFIG   %s, PIC   %s",
+  26
+ ],
+ [
+  " \"Attempt to deallocate unallocated policy manager %s free list element\"",
+  11
+ ],
+ [
+  "\"An error has been detected on the ECSR bus\"",
+  127
+ ],
+ [
+  " \" AID audit error  %s slot %d radId %d\"",
+  16
+ ],
+ [
+  " \"Transfer cannot happen in CCO Mode  Poll CCO first\"",
+  7
+ ],
+ [
+  " \"Auto-containment of %s is not supported. Disabling.\"",
+  1
+ ],
+ [
+  " \"Unable to open listener socket.\"",
+  69
+ ],
+ [
+  "Error opening chassis file system object %s  %s",
+  147
+ ],
+ [
+  " \"Received broadcast LLC packet.\"",
+  5
+ ],
+ [
+  " Unable to map to a shared file.File name  %s. %s.\"",
+  41
+ ],
+ [
+  "Virtualization Service%s",
+  6
+ ],
+ [
+  " \"Number of AP Licenses is limited to 250 as DX is enabled\"",
+  7
+ ],
+ [
+  " \"Mbuf index contains Busy tail = %p",
+  66
+ ],
+ [
+  " \"prevCacheEntPtr is NULL.\"",
+  29
+ ],
+ [
+  " \"cannot initialize L2ROAM List Update timer.\"",
+  10
+ ],
+ [
+  " Checkpointing transmit message header transformaton failed",
+  59
+ ],
+ [
+  " \"NEC temporary key %s expired.\"",
+  8
+ ],
+ [
+  " \"Failed to send packet using MM UDP SEND for %s\"",
+  52
+ ],
+ [
+  "Expected chassis filesystem object %s not present.",
+  26
+ ],
+ [
+  " \"Unable to open raw partition  %s. Error  %s\"",
+  25
+ ],
+ [
+  "Single-bit ECC error seen, Cause %s",
+  26
+ ],
+ [
+  "IPC initialization failed because %s",
+  31
+ ],
+ [
+  " \"CCX RM Client database already initialized\"",
+  10
+ ],
+ [
+  " \" All Export-Anchors are down on WLAN %d \"",
+  52
+ ],
+ [
+  "An optional process %s has failed (rc %d)",
+  44
+ ],
+ [
+  "Detected booting up of standby RP with image beyond the ISSU domain of active RP by the %s process. The standby RP is forced to reset.",
+  17
+ ],
+ [
+  " \"WARP KCID  %02x %02x %02x %02x %02x %02x %02x %02x\"",
+  1
+ ],
+ [
+  " \"LIF  Could not find matching table entry for LIF %d.\"",
+  80
+ ],
+ [
+  " \"Registering IP on mscb failed for station%02x %02x %02x %02x %02x %02x\"",
+  2
+ ],
+ [
+  " \"Trap State %d is not valid for interface %d.\"",
+  15
+ ],
+ [
+  " The system is unable to receive %s from AP %02x %02x %02x %02x %02x %02x\"",
+  16
+ ],
+ [
+  " \"Unable to save supported rates for station %02x %02x %02x %02x %02x %02x",
+  1
+ ],
+ [
+  " \"Checkpointing ISSU session",
+  59
+ ],
+ [
+  " \"Country '%s' is set to be unsupported.\"",
+  1
+ ],
+ [
+  "Component [ %s ] administrative state  %s",
+  72
+ ],
+ [
+  " MSG_SECURITY | MSG_NOTIFY_WIDGET",
+  9
+ ],
+ [
+  "Virtual service '%s' %s%s to '%u' %s",
+  22
+ ],
+ [
+  " \"Ipsec file lock init failed during wrapper init\"",
+  162
+ ],
+ [
+  "%s %d is ready.\\n",
+  62
+ ],
+ [
+  " MSG_TRACEBACK",
+  24
+ ],
+ [
+  " \"AID leak %s on Mobile station %02x %02x %02x %02x %02x %02x on AP%02x %02x %02x %02x %02x %02x",
+  1
+ ],
+ [
+  "Staggered AP upgrade event  %s",
+  118
+ ],
+ [
+  " The system has received a join request from AP %s -Cannot Join AP",
+  16
+ ],
+ [
+  " \"The search has failed. The string [%d] was not found for the given key %s\"",
+  3
+ ],
+ [
+  "\"An attempt to synchronize the running configuration to the NETCONF running data store has failed.\"",
+  27
+ ],
+ [
+  "The module %s on slot/subslot %u/%u is not supported in NEBS power mode.",
+  31
+ ],
+ [
+  " \"%s\"",
+  1
+ ],
+ [
+  " \"Policy manager failed to allocate message queue\"",
+  11
+ ],
+ [
+  " \"%s  Set channel on %s AP %02x %02x %02x %02x %02x %02x  %d to %d by configuration change\"",
+  37
+ ],
+ [
+  " \"CTS SXP password changed.\"",
+  40
+ ],
+ [
+  "All %s/%d reloads are being ignored. This is being done for debugging purposes and will be changed at a later time to allow the reload. Critical router functions like RP switchover, router reload, FRU resets, etc. may not function properly.",
+  44
+ ],
+ [
+  " \"Invalid task %p",
+  24
+ ],
+ [
+  " \"%s while communicating with peer %s\\n\"",
+  48
+ ],
+ [
+  " \"Not enough space left for file.Space left %u. File size %u. File name  %s\"",
+  66
+ ],
+ [
+  "%s has been held in reset because of an upsupported upgrade of FP (0x%x -> 0x%x) in the chassis. Reboot the router to bring it up.",
+  31
+ ],
+ [
+  " \"Unable to create rfid interface \"",
+  56
+ ],
+ [
+  " \"Dropping foreign client for dhcp retries",
+  2
+ ],
+ [
+  " \"TFTP Server Error  %d  %s.\"",
+  96
+ ],
+ [
+  " \"Failed to open the file %s.\"",
+  75
+ ],
+ [
+  " \"Error condition detected on link %s",
+  24
+ ],
+ [
+  " \"Could not exclude the mobile %02x %02x %02x %02x %02x %02x.\"",
+  1
+ ],
+ [
+  " \"Unknown system interface type %d.\"",
+  15
+ ],
+ [
+  "\"Failed to add module up check (%d)  %s.\"",
+  27
+ ],
+ [
+  " \"Failed to delete a task osapiTaskFreeList.head %p",
+  24
+ ],
+ [
+  " \"Unable to start the System Trap Reset. %s.\"",
+  24
+ ],
+ [
+  "Reloading %s due to critically high PLIM device error rate.",
+  163
+ ],
+ [
+  " \"The state machine state %s event %s\"",
+  125
+ ],
+ [
+  "ESP%d does not support strong cryptography. Chassis will reload.",
+  31
+ ],
+ [
+  " \"The system is unable to retrieve AP's",
+  16
+ ],
+ [
+  "IOX SERVICE %s LOG  %s",
+  6
+ ],
+ [
+  " \"pemLogInWebAuthUser  Failed to apply RADIUS policy.\"",
+  23
+ ],
+ [
+  " \" Secure tunnel %s route  %s failed\"",
+  70
+ ],
+ [
+  " \"Connection entry error during %s - %s is not valid.Discarding event for client %u.%u.%u.%u %u\\n\"",
+  48
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " \"Cannot find apgroup %s\"",
+  1
+ ],
+ [
+  " \"Loading Enhanced Network Driver.\"",
+  20
+ ],
+ [
+  " \"too low\"",
+  82
+ ],
+ [
+  "Hardware programmable LMK03328 Configurations on %s in slot %s were successfully partially programmed, please reload it to continue programming.",
+  26
+ ],
+ [
+  "Hotspot temperature has exceeded YELLOW threshold\\n",
+  71
+ ],
+ [
+  " NMSP Socket create failed. Listen socket  %d\"",
+  43
+ ],
+ [
+  " \"Memory allocation failed\"",
+  1
+ ],
+ [
+  " MSG_TRACEBACK",
+  20
+ ],
+ [
+  " \"Unable to delete the route",
+  24
+ ],
+ [
+  " \"Unable to start the System Reset. %s.\"",
+  24
+ ],
+ [
+  "%s FPGA error detected  %s",
+  26
+ ]
+]

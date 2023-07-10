@@ -1,0 +1,7135 @@
+[
+ [
+  [
+   "  Changed m4route-mem from ([dec], [dec]) to ([dec], [dec])",
+   "Failed to remove servers in scheme [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Client %s%d or entity%d is not registered %s.",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   " VR ID [dec] on interface [chars] state change request result [chars]",
+   "The card does not have enough hardware resources to send protocol\n  packets destined for [STRING] to the CPU for [STRING],"
+  ],
+  0
+ ],
+ [
+  [
+   "  mts_register failed for PIM  [chars]",
+   "RIP Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] server ceritifcate expired. Cannot enable [chars] server",
+   "Failed to get the CA or RA certificate from the CA server. Reason \n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Key chains [chars] and [chars] contain duplicate key ID %u An attempt is being made to add a new key identifier to a key chain in the router configuration but RSVP detected that this identifier is found in another key chain already assigned to RSVP. Since key identifiers must be unique across all the key chains used by RSVP RSVP will not use the keys with this identifier in all such key chains. This could cause RSVP authentication to fail in some cases.",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Certificate chain validation has failed. The certificate SN  %s is not yet valid Validity period starts on %s",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  0
+ ],
+ [
+  [
+   " VSH registration failed returning [dec]",
+   "The Telnet Connection [IPADDR]([STRING]) request was denied\n   according to ACL rules."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] ACL merge error [int] on route-map [chars]",
+   "Failed to update policy [STRING] due to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't add entry to [chars] PT",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars]  IPSec SA rekeyed  local_ip  [chars], peer_ip  [chars], [chars] SPI  [dec] ([hex])",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  0
+ ],
+ [
+  [
+   "  Exceeded 80 percent of the reserve-limit for VRF [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "The [chars] link [chars] does not exist. Sub-interface  [chars] VLAN-Id  [dec]",
+   "Memory [STRING] threshold has been exceeded."
+  ],
+  0
+ ],
+ [
+  [
+   "Retrieving IP-Pools via user %s",
+   "Failed to apply filtering rules for DHCP packets because some\n   rules are not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "  Nbr [chars] on [chars] went [chars]",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  0
+ ],
+ [
+  [
+   "invalid list AAA ID %u",
+   "Session ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Error initializing %s subblock data structure. %s",
+   "Threshold value [UINT32] reached for active [STRING] routes in all URTs"
+  ],
+  0
+ ],
+ [
+  [
+   "  Private mem malloc ([dec]) failed in [chars]",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   " PTP delay-req interval for [hex] changed to [dec]",
+   "In PTP instance [UINT16], PTP port state changed.\n  (IfIndex=[UINT16], PortName=[STRING], PortState=[STRING],\n  OldPortState=[STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid %s under endpoint",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC];\n   User got online successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "Refresh cap not received from BGP nbr session %s BMP monitoring not possible",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] Issuer-name   [chars] Subject-name   [chars] Serial-number   [chars] End-date   [chars]",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  0
+ ],
+ [
+  [
+   "NULL notification callback In registering a client for service from the Link Bundling subinterface module the callback notification callback function was NULL.",
+   "Instance [UINT32]'s port [STRING] has been set to forwarding state."
+  ],
+  0
+ ],
+ [
+  [
+   "IPC type 0x%x",
+   "Batch backup of standby board in [STRING] has finished."
+  ],
+  0
+ ],
+ [
+  [
+   " Remote change detected on [chars]",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars] thread - message queue receive failure ([dec])",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Empty link bundling function vectors",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to unregister %s session under client %s%d and entity%d",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "For context ID %d %s",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  1
+ ],
+ [
+  [
+   "  bitfield_create() failed for context [chars]",
+   "Failed to verify the peer certificate. Reason  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "SA 0x%x0x%x",
+   "Failed to add flow-table due to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to inherit %s policy config '%s'  %s->%s %s %s",
+   "Failed to extend template hash value of file [STRING] to the PCR."
+  ],
+  0
+ ],
+ [
+  [
+   "  Cleared the API semaphore from [dec]",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] [chars]",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  1
+ ],
+ [
+  [
+   "sa 0x%x cp sa 0x%x",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   "Malformed attribute attr-set received from %s",
+   "BGP.[STRING]  The ratio of the number of routes received from peer\n  [STRING] ([STRING]) to the number of allowed routes [UINT32] has reached the threshold\n  ([UINT32]%)."
+  ],
+  1
+ ],
+ [
+  [
+   "%s  Running %s{ID=%d} ...",
+   "Standby\n   board in [STRING] changed to the master."
+  ],
+  0
+ ],
+ [
+  [
+   " Internal state created [chars]",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] Power-On-System-Test failure in Trial No.[dec]",
+   "Failed to apply or refresh QoS policy [STRING] to the [STRING]\n   direction of VLAN [UINT32]. [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Create-checkpoint success  Name '[chars]',  checkpoint_id  '[dec]'",
+   "IRF\n  merge occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "  Sequence number wraparound event detected",
+   "IS-IS\n  [UINT16], [STRING] adjacency [STRING] ([STRING]), state changed to [STRING],\n  Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Key string in key chain [chars] is  longer than that is supported by Simple authentication",
+   "Threshold value [UINT32] of max active [STRING] routes reached in\n  URT of [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   " Loop guard blocking port [chars] on [chars].",
+   "Failed\n   to create [STRING] because of insufficient resources."
+  ],
+  0
+ ],
+ [
+  [
+   "%s",
+   "Standby board in [STRING] is not ready, reboot ..."
+  ],
+  1
+ ],
+ [
+  [
+   "  Hardware programming for NAT failed [chars]([dec])",
+   "Failed to add flow-table due to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Received packet with invalid [chars] MAC address ([chars]) from [chars] on [chars]",
+   "Detected a user IP address conflict. New user (MAC [STRING],\n   SVLAN [STRING], CVLAN [STRING]) on interface [STRING] and old user (MAC\n   [STRING], SVLAN [STRING], CVLAN [STRING]) on interface [STRING] were using\n   the same IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid issuer_name in CS [chars] configuration",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] is not detected A line card could not be located in a slot where a diagnostic action  was requested.",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) down alarm was\n  cleared."
+  ],
+  0
+ ],
+ [
+  [
+   "%s",
+   "The\n  number of session entries ([UINT32]) supported by hardware already reached."
+  ],
+  0
+ ],
+ [
+  [
+   "LinkDown Interface [chars] changed state to down",
+   "No enough hardware resource for MPLS."
+  ],
+  0
+ ],
+ [
+  [
+   "per-host maximum limit of [dec] reached for [chars].",
+   "Stopped a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to fork process for %s.",
+   "The address pool [STRING] was exhausted."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "Failed to apply classifier-behavior [STRING] in policy [STRING]\n   to the\u00a0 [STRING] direction globally. [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars] [hex]",
+   "Tunnel-bundle[STRING] \n  Switched from protection tunnel [STRING] to working tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Activating service policy [chars] on [chars] in [chars] direction The interface bandwidth is more than the total bandwidth  that is required for QoS policy on this interface.\\n",
+   "Failed to assign a rule for free IP [IPADDR] on interface [STRING]\n  due to lack of ACL resources."
+  ],
+  0
+ ],
+ [
+  [
+   "Could not send Certificate enrollment request to file system.",
+   "Failed to retrieve the CRL. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Process stop. Reason - [chars]",
+   "IS-IS\n  [UINT16], [STRING] adjacency [STRING] ([STRING]), state changed to [STRING],\n  Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to registered Link Bundle subinterface control block",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  1
+ ],
+ [
+  [
+   "BGP update error  %s Missing mandatory attribute treat-as-withdraw by error handling",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  virtual forwarder [UINT32] detected status change (from [STRING] to\n  [STRING])  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[int] Recoverable Internal Error see message occurs during ILMI Primary to Secondary Sync",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to [chars] routes [chars] U6RIB",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "  Private mem malloc ([dec]) failed in [chars]",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "  Message queue receive failed on [chars] queue  [chars]",
+   "Sender MAC [STRING] was not identical to Ethernet source MAC [STRING]\n   on interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "RSVP Message had a bad checksum  [int] foo  [int]",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Data structure failed magic number sanity check",
+   "Pattern 1 Failed to recover the configuration of binding the service card\n   on slot [UINT16] to interface [STRING], because [STRING].Pattern 2 Failed to recover the configuration of binding the service card\n   on chassis [UINT16] slot [UINT16] to interface [STRING], because [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "MLP Bundle %s not appointed",
+   "Authentication\n   failed for [STRING] from [STRING] because of [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Exceeded the limit on interfaces per area [i.e [dec]]",
+   "OSPF [UINT16] Duplicate router ID [STRING] on interface [STRING],\n  sourced from IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "neighbor %i %s on interface %s %s",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "  PTP mode is changed to '[chars]'",
+   "System stratum changed from [UINT32] to [UINT32] after clock\n   update."
+  ],
+  0
+ ],
+ [
+  [
+   "dataplane classification error for interface [chars]",
+   "Failed\n   to activate EDSG service policy [UINT32] on user [UINT32]. The EDSG service\n   policy is not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "Incompatible SR interval from %i on %s %d != %d",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "Process %d area %s  LSA origination prevented by LSA with same LSID but a different mask\\n Existing Type %d LSA  LSID %i%m\\n New Destination  %i%m",
+   "Port modified. InstanceID =[UINT16], IfIndex =[UINT32],\n   PortDown=[STRING], NoRecv=[STRING], NoFwd=[STRING], NoPktIn=[STRING],\n   Speed=[STRING], Duplex=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to create group entry for [chars]",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Resuming Learn ARP entries to install in ARP table.",
+   "Pattern\n   1 The\n   maximum number of dynamic ARP entries for slot [INT32] reached.Pattern\n   2 The\n   maximum number of dynamic ARP entries for chassis [INT32] slot [INT32] reached."
+  ],
+  1
+ ],
+ [
+  [
+   "Key chain name %s on %s is invalid",
+   "Please reset LDP sessions if you want to make the new MPLS LSR ID\n   take effect."
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate reenrollment failed. Delaying before retry",
+   "Local\n   [STRING] certificate in domain [STRING] will expire in [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF detected duplicate router-id %i from %i on interface %s",
+   "OSPF [UINT32] Area [STRING] Router [STRING]([STRING]) CPU usage  [STRING],\n  VPN name  [STRING], IfMTU  [UINT32], Neighbor address  [STRING], NbrID\n  [STRING] changed from [STRING] to [STRING] at [STRING].Last 4 hello packets received at [STRING]Last 4 hello packets sent at [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "  PTP is NOT supported on 100G interface,remove ptp config on this intf for better time-sync",
+   "Session ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "GR reload unsafe configured nsf stalepath time[dec]",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "SA 0x%x0x%x",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=GET-node=[STRING]-value=[STRING];\n   The agent received a message."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to cleanup the BFD sessions during deconfiguration, error [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't originate MSDP data SA in [chars]",
+   "System Leap Indicator changed from [UINT32] to [UINT32] after\n   clock update."
+  ],
+  0
+ ],
+ [
+  [
+   "%s Failure in completing bulk sync before timeout\\n",
+   "Failed to restore configuration for monitoring group [UINT32] in\n   [STRING], because [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to register bundle interface [chars] for Command Replay service",
+   "The\n  number of session entries ([UINT32]) supported by hardware already reached."
+  ],
+  0
+ ],
+ [
+  [
+   "  HA Persistent-store failure for [chars] [chars]  [chars]",
+   "Policy [STRING] requested bandwidth [UINT32](kbps). Only\n   [UINT32](kbps) is available on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP update error  %s Wrong flag 0x%x received for %s attribute fixed by error handling",
+   "Number of [STRING] routes reached the license limit."
+  ],
+  1
+ ],
+ [
+  [
+   "Could not get information for file [chars]. The ifIndex-table is not accesible and hence the facility for ifindex persistence may not be available.",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "Password configuration changed for [chars] An informational LDP notice was generated to report password configuration change for a neighbor.",
+   "Failed to set the MAC address [STRING] on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to delete adjacency by contol plane. Host ip address   [chars]",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]  Running [chars]{ID=[int]} ... Diagnostic testing is running a test on the card",
+   "Hash value of file [STRING] is missing in the RM file."
+  ],
+  0
+ ],
+ [
+  [
+   "Password rolled over for [chars] An informational LDP notice was generated to report lossless password change for a neighbor.",
+   "Session ([STRING], [STRING]) is [STRING] ([STRING]). ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to create watched boolean",
+   "The\n  total number of BFD sessions [ULONG] reached the upper limit. Can\u2019t create a\n  new session."
+  ],
+  1
+ ],
+ [
+  [
+   "  PTP offload [chars]",
+   "Failed to get the CA or RA certificate from the CA server. Reason \n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "   [chars]",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Renew/Shadow event has failed for trustpoint   [chars] Reason   [chars]",
+   "Failed to get the CA or RA certificate from the CA server. Reason \n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Endpoint is not registered yet. Endpoint is not registered yet.",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "Cannot open UDP socket for service %s",
+   "File [STRING] is missing in the RM file."
+  ],
+  0
+ ],
+ [
+  [
+   "MLP Bundle %s not appointed",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User logged off."
+  ],
+  1
+ ],
+ [
+  [
+   "ATM failed to modify VCVCD=%d VPI=%d VCI=%d on Interface %s Cause of the failure  %s",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  0
+ ],
+ [
+  [
+   "OCSP response from [chars] has been successfully processed for certificate   [chars] Serial-number   [hex] Result   [chars]",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  0
+ ],
+ [
+  [
+   "Router-ID %i is in use by ospf process %d",
+   "OSPF Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Standby link-state database validation failed expected/found count  %u/%u chksum  0x%llx/0x%llx",
+   "User [STRING] at [STRING] failed authentication."
+  ],
+  0
+ ],
+ [
+  [
+   " VR[chars] ID [dec] on interface [chars] state changed to [chars], event [chars]",
+   "Failed to activate NAT configuration on interface [STRING],\n   because global IP addresses already bound to another service card."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to set source interface for [chars] ip address",
+   "Tunnel-bundle[STRING] \n  Switched from protection tunnel [STRING] to working tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Unknown entity id under client %s%d",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "Route-map %s not supported for Policy-Based Routing",
+   "Address\n  group [UINT16]; total port blocks [UINT16]; active port blocks [UINT16];\n  usage over [UINT16]%."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars] [chars].",
+   "ACL [UINT32] [STRING] [UINT64] packet(s)."
+  ],
+  1
+ ],
+ [
+  [
+   "%s  %s cannot be executed for active device.",
+   "Usage\n   of CPU [INT] core [INT] exceeded the threshold ([string])."
+  ],
+  1
+ ],
+ [
+  [
+   "Key ID %u in key chain %s does not have a cryptographic algorithm",
+   "OSPF [UINT32] New router ID elected, please restart OSPF if you\n  want to make the new router ID take effect."
+  ],
+  1
+ ],
+ [
+  [
+   "Cannot allocate label for route-map [chars]",
+   "The\n  link to next hop [IPADDR] of policy [STRING] (node ID  [STRING], VPN\n  instance  [STRING]) changed due to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to register with [chars]",
+   "RIP [UINT32] Route limit reached"
+  ],
+  0
+ ],
+ [
+  [
+   " QoS Manager created",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Standby synchronization error  interface not attached to add neighbor %s %i %i",
+   "OSPF\n   [UINT16] Received newer self-originated router-LSAs. Possible conflict of router\n   ID [STRING] in area [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Received CEF Adjacency updation request on different interfaces  [inet] on [chars]",
+   "Duplicate address [STRING] on interface [STRING], sourced from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] [%08X=[chars]] [chars] [dec]",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  1
+ ],
+ [
+  [
+   "  mrib_inherit_oifs()  bitfield is set but oif doesn't exist",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   "Slot %s in invalid transition from %s to %s",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "Interface cannot be decoded for NSR  %s",
+   "OSPF [UINT32] New router ID elected, please restart OSPF if you\n  want to make the new router ID take effect."
+  ],
+  1
+ ],
+ [
+  [
+   "ATM failed to create VC on Interface %s",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't delete interface [chars] from PIM route [chars] in [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF-[dec] NSF started",
+   "SR-TE policy seglist forwarding state down event  Color [UINT32], EndPoint\n  [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32], Reason [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "This is an auxiliary message to several packet-related messages. It provides a raw display of the information in the header of a corrupted data block.",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Packet from [chars] received on [chars] interface [chars]",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars] failed in [chars], errno  [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Attempted to delete path from an empty net for %s",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  Diagnostics is bypassed",
+   "Core\n   usage alarm CPU [INT] core [INT] removed."
+  ],
+  1
+ ],
+ [
+  [
+   "Internal error [chars]",
+   "Session\n  resources supported by hardware had been released."
+  ],
+  0
+ ],
+ [
+  [
+   "  PSS operation [chars] failed in [chars]",
+   "Slot [UINT32] auto-update failed because [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "\\natm-issu-compat  returned FALSE The compatibility checking has failed",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  1
+ ],
+ [
+  [
+   "BFD is supported for single hop neighbors. %s is not single hop neighbor",
+   "BGP.[STRING]  [STRING] state has changed from [STRING] to [STRING].\n  ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Get argument failed",
+   "Memory [STRING] threshold has been exceeded."
+  ],
+  1
+ ],
+ [
+  [
+   "  OSPF shutting self down via restart command",
+   "OSPF\n   [UINT16] Received newer self-originated router-LSAs. Possible conflict of router\n   ID [STRING] in area [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "%d stale-path%s deleted from bgp neighbor %s%s%s %s after %s",
+   "BGP.[STRING]  The route [STRING] [STRING]/[UINT32] learned from\n  peer [STRING] ([STRING]) flapped."
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to do PSS operation  [chars], reason  [hex].",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "Wavl error",
+   "IPv6 ACL [UINT32] [STRING] [UINT64] packet(s)."
+  ],
+  0
+ ],
+ [
+  [
+   "Unable to add Cluster ID %s.",
+   "BGP.[STRING] \n  The number of routes from peer [STRING] ([STRING]) exceeds the limit\n  [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "\\natm-issu-compat  returned FALSE",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  1
+ ],
+ [
+  [
+   "Platform CF - [chars] Failure in some UNIX checkpointing activity.",
+   "Batch backup of standby board in [STRING] has finished."
+  ],
+  1
+ ],
+ [
+  [
+   "Internal software error during updating CEF Adjacency for ARP entry  for %i on [chars]\\n An internal software error has occurred during updating CEF  Adjacency.",
+   "An attack from MAC [STRING] was detected on interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  L[dec] LSP - Possible duplicate system ID [chars] detected",
+   "IS-IS [UINT16], [STRING] adjacency [STRING] ([STRING]), state\n  changed to [STRING], Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars] [hex].",
+   "Local\n   [STRING] certificate in domain [STRING] has expired for [INTEGER] days."
+  ],
+  0
+ ],
+ [
+  [
+   "type %d int %s %sput w0  0x%x w1  0x%x",
+   "IPv6 ACL [UINT32] [STRING] [UINT64] packet(s)."
+  ],
+  1
+ ],
+ [
+  [
+   " VR[chars] ID [dec] on interface [chars] state changed to [chars], event [chars]",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  virtual forwarder [UINT32] detected status change (from [STRING] to\n  [STRING])  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid params %s under session%d",
+   "Telnet client [STRING] failed to log in. The current number of\n   Telnet sessions is [NUMBER]. The maximum number allowed is ([NUMBER])."
+  ],
+  0
+ ],
+ [
+  [
+   "  Error returned from [chars] for [dec] keys, errno  0x[hex] ([chars]) in [chars](). Current  reservation is [dec], new size is [dec]",
+   "Session ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Msg version[int][int] is out of range for msg[int] under client  Msg version is out of range for group registration.",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars] adj L[chars] [chars] over [chars] - [chars] on MT-[dec]",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Duplicate unique_id on session %d  my_uid %d peer_uid %d.",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) forwarding state\n  went down  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "RF event not processed till [int] milliseconds. Code = [int] The event sent to the redundancy facility was not processed till the specific time delay.",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s message from %i discarded  no security association for %i - no RSVP security key configured or no memory left.",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Hello time change to [dec] seconds for instance [chars] is not recommended as it can trigger STP Topology Changes during High Availability Dual-Supervisor Switchover and In-Service Software Upgrade",
+   "STP is now disabled on the device."
+  ],
+  1
+ ],
+ [
+  [
+   "Unknown domain id %d under client %s%d entity %d",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   " PTP priority1 changed to [dec]",
+   "Instance [UINT32]'s port [STRING] has been set to forwarding state."
+  ],
+  0
+ ],
+ [
+  [
+   "Warning  Server %s %d%d is still referenced by server group.",
+   "Standby board in [STRING] changed to the master."
+  ],
+  0
+ ],
+ [
+  [
+   "  Interface [chars] brought down due to overload condition for [chars] af",
+   "Number of peers in Established state reached the license limit."
+  ],
+  0
+ ],
+ [
+  [
+   " PTP announce timeout interval for [hex] changed to [dec]",
+   "IS-IS\n  [UINT16], [STRING] adjacency [STRING] ([STRING]), state changed to [STRING],\n  Reason  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Maximum number of index supported is 20 An SNMP trap contains some number of MIB objects and the size of the instance identifier for these objects is restricted. This message indicates that an attempt was made to generate an SNMP trap containing a MIB object whose size exceeded this limit.",
+   "Failed to\n   authenticate SNMP message."
+  ],
+  1
+ ],
+ [
+  [
+   " Interface [chars] is a member port or portchannel interface with port security configration",
+   "Failed to retrieve the CRL. Reason  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Root guard [chars] on port [chars].",
+   "The current switch is no longer the root of instance [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "Attaching a service policy to a PPP/PPPoE virtual-access interface is not allowed when another policy is already attached to the vc/pvc to which the PPP/PPPoE virtual-access interface is bound.\\n",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "  Sending ARP request for [chars] on an invalid interface [dec],  request from pid  [dec]",
+   "Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];NATSrcIPAddr(1005)=[IPADDR];NATSrcPort(1006)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];NATDstIPAddr(1009)=[IPADDR];NATDstPort(1010)=[UINT16];InitPktCount(1044)=[UINT32];InitByteCount(1046)=[UINT32];RplyPktCount(1045)=[UINT32];RplyByteCount(1047)=[UINT32];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];RcvDSLiteTunnelPeer(1040)=[STRING];SndDSLiteTunnelPeer(1041)=[STRING];BeginTime_e(1013)=[STRING];EndTime_e(1014)=[STRING];Event(1048)=([UNIT16])[STRING];"
+  ],
+  0
+ ],
+ [
+  [
+   "  Flushing [dec] messages from [chars] mq",
+   "Failed to execute theissu loadcommand."
+  ],
+  0
+ ],
+ [
+  [
+   "%s",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  1
+ ],
+ [
+  [
+   "Reached unknown state in neighbor state machine",
+   "OSPF\n   [UINT16] Received newer self-originated router-LSAs. Possible conflict of router\n   ID [STRING] in area [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Default lif learning enable issue on lif 0x[hex] intf [chars]",
+   "The Telnet Connection [IPADDR]([STRING]) request was denied\n   according to ACL rules."
+  ],
+  0
+ ],
+ [
+  [
+   "ILMI[chars]  Auto-configuration already enabled.",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP SR policy failed [chars] -   Restarting BGP may be required",
+   "BGP\n  [STRING].[STRING]  [STRING] state has changed from [STRING] to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "The Network Module in slot [int] reports an invalid [chars] device id  of [hex]. The IMA network module hardware may be bad.",
+   "Hash value of file [STRING] is not consistent with that in the RM\n  file."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to process CA certificate.",
+   "Failed to import the certificate. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "No peer uid found at [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "IPV6 Multicast Packet received with ttl <= 1",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  0
+ ],
+ [
+  [
+   "  PTP is NOT supported on 100G interface,remove ptp config on this intf for better time-sync",
+   "Clock\n  frequency not in locked state."
+  ],
+  1
+ ],
+ [
+  [
+   " Re-exported NFS mounts",
+   "RIP [UINT32] Route limit reached"
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] is empty under client [chars][int] entity[int].",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  1
+ ],
+ [
+  [
+   "  In [chars], [chars] failed with errmsg  [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Peer has been unconfigured on remote switch   Peer-ip  '[chars]'",
+   "Packet was discarded because its sender MAC address was the MAC\n   address of the receiving interface.Interface  [STRING], sender IP  [STRING], target IP  [STRING],VSI\n   index  [UINT32], link ID  [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "Stat Queuing error for interface [chars] qid [dec] vqid [dec]",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "Failed\n   to activate EDSG service policy [UINT32] on user [UINT32]. The EDSG service\n   policy is not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to [chars] the SNMP SAP with status as [chars]",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%d at %s",
+   "Failed to enable Layer 3 multicast for VPN instance [STRING] because\n   of insufficient resources.Failed to enable Layer 3 multicast for the public network because\n   of insufficient resources."
+  ],
+  1
+ ],
+ [
+  [
+   "  ARP entry found with duplicate IP address [chars] on [chars]",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   "  Client [chars] has exceeded ACEs in ACL AV-Pair from ISE. Maximum number of ACEs supported in AV Pair from ISE is 32.",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] An error was encountered in a data sync operation",
+   "Batch backup of standby board in [STRING] has finished."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF process %d removed from interface %s",
+   "Failed to\n   authenticate SNMP message."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  1
+ ],
+ [
+  [
+   "Unknown [chars] event - [int]",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] is empty under endpoint. Item is empty under endpoint.",
+   "Session\n   ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Blank - Please provide info",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  0
+ ],
+ [
+  [
+   "  Could not create [chars] slabs",
+   "Failed\n  to apply the policy [STRING] to interface [STRING] because of [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Not abel to create [chars] server's Trustpoint.Check for CA server config's.",
+   "Failed to get the CA or RA certificate from the CA server. Reason \n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "msgtxt_nomemory",
+   "RIP Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "\\natm-issu-compat  returned FALSE The compatibility checking has failed",
+   "[STRING]\n  agent neighbor aged out on port [STRING] (IfIndex [UINT32]), neighbor's chassis\n  ID is [STRING], port ID is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "NULL mvrf specified in RP mapping notification for RP %i",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "  mrib already running, exiting",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to open message queue [chars]  [chars]",
+   "Local\n   [STRING] certificate in domain [STRING] has expired for [INTEGER] days."
+  ],
+  0
+ ],
+ [
+  [
+   "%s%d is in use under endpoint",
+   "The process\n   [STRING] exited abnormally."
+  ],
+  0
+ ],
+ [
+  [
+   " Forward Delay time change to [dec] seconds for instance [chars] is not recommended as it can cause STP data loops during High Availability Dual-Supervisor Switchover and In-Service Software Upgrade",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   " Internal error while initializing state machine [chars], state [chars]  [chars]",
+   "-IfName=[STRING]-MACAddr=[STRING]; User failed SmartOn\n  authentication because [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "ATM%s  PVCVCD=%d VPI=%d VCI=%d state changed to %s.",
+   "[STRING];\n   Failed to apply the [STRING] weight in [STRING] profile [STRING] to the\n   user. Reason  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Could not set FIPS mode",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars]  [chars] for group [chars]",
+   "Session\n  resources supported by hardware had been released."
+  ],
+  0
+ ],
+ [
+  [
+   "%s iterface %s interface state %d",
+   "The MKA session with CKN [STRING] was re-authenticated on\n  interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Session to peer %i going %s",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User got online failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Attempting to override SLA Trustpoint.  \\n The current running SLA trustpoint config will be retained  \\n Config-Replace errors corresponding to SLA TrustPoint may be  \\n ingored.",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Redistribution route limit has been reached - [dec] routes",
+   "ADJ ([STRING], [STRING], [STRING]) is down [STRING]. ([STRING])"
+  ],
+  0
+ ],
+ [
+  [
+   "  Ignore unrecognized debug flag \"[chars]\"",
+   "[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   " PSS [dec] Code [dec]",
+   "The total UNI bandwidth is greater than the NNI bandwidth.The total UNI bandwidth is greater than the NNI bandwidth. The\n   bandwidth of [STRING] is changed.The total UNI bandwidth is greater than the NNI bandwidth.\n   [STRING] is created based on [STRING] of the UNI interface"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed inserting node for neighbor %39P to wavl tree thread %d %s",
+   "The total number of BFD sessions [ULONG] reached the upper limit.\n   Can\u2019t create a new session."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't close [chars] API",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "ATM SPA doesn't support true non-aggregate WRED. All non-specified  dscp/prec values will be aggregated in default WRED profile ATM SPA has limited hardware capability which is not enough  to support traditional WRED. ATM SPA would support 'limited'  non-aggregate WRED for the specified dscp/prec values maximum of 6",
+   "The total UNI bandwidth is greater than the NNI bandwidth.The total UNI bandwidth is greater than the NNI bandwidth. The\n   bandwidth of [STRING] is changed.The total UNI bandwidth is greater than the NNI bandwidth.\n   [STRING] is created based on [STRING] of the UNI interface"
+  ],
+  1
+ ],
+ [
+  [
+   "  Error returned from mts_drop(), errno  [chars]",
+   "Physical interface [STRING] of IRF port [UINT32] went down."
+  ],
+  0
+ ],
+ [
+  [
+   "processing [chars] of [chars] [dec] msecs",
+   "Max active [STRING] routes [UINT32] reached in URT of [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "RSVP Message had a bad type  [int]",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to restart timer 0x[hex] for [chars] on [chars]",
+   "The configuration failed because of resource insufficiency or\n  conflicts on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Type %u is invalid for collision %s",
+   "User [STRING] at [STRING] was authenticated successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "Maximum implementation message size exceeded actual %u maximum %u",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   "Received PATH %i_%u->%i_%u -  Failed to find interface from IF_ID HOP from neighbor %i",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't add entry to [chars] PT",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Unable to allocate checkpoint queue entry",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Command opcode %#x on channel %d on slot %d was rejected.",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] unable to remove index %08X The specified type of collision is unable to removed the specified  index. This is an internal software error.",
+   "TACACS authentication server became active  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s %s %d %s %d",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   "Bundle creation feature callback failed for [chars] For the given link bundle interface failed to create its feature callback.",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  1
+ ],
+ [
+  [
+   " BFD session to neighbor [chars] on interface [chars] has been created",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User got online failed."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP failed to register with the redundancy facility.",
+   "BGP.[STRING] \n  The proportion of prefixes received from peer [STRING] ([STRING]) to maximum\n  allowed prefixes reached the threshold value ([UINT32]%)."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unexpected 2nd vPC peer [chars] detected (peer [chars]) on [chars] (domain [dec]  misconfig?)",
+   "The MKA session with CKN [STRING] was not secured on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Clear [chars] checkpoint state [chars] by [chars] Checkpoint state for one or more LDP objects has been reset",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   "Can not allocate [chars] under client [chars][int] and entity[int] Can not allocate dummy version under client and entity.",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   "BFD-SYSLOG  bfd_session_created neigh %s proc %s idb %s handle %u %s",
+   "[STRING] used for BFD MAD changed to the [STRING] state."
+  ],
+  1
+ ],
+ [
+  [
+   "%s Side %c %s",
+   "SR-TE policy seglist forwarding state down event  Color [UINT32], EndPoint\n  [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32], Reason [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Proto Client registration for [chars] has failed",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  1
+ ],
+ [
+  [
+   "Radius I/O buffer has overflowed",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   "Maximum number of QoS queues [int] reached.\\n The system has run out of QoS queue identifiers and cannot allocate any more until existing queues are freed up.\\n",
+   "Failed\n   to restore the configuration of queue scheduling profile [STRING] on\n   interface [STRING], because [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  In [chars], [chars] failed while setting [chars] option with errmsg  [chars]",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars] PSS found corrupted",
+   "Failed to remove servers in scheme [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Attaching a service policy to a PPP/PPPoE virtual-access interface is not allowed when another policy is already attached to the subinterface to which the PPP/PPPoE virtual-access interface is bound.\\n",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "Unable to allocate checkpoint buffer  %s",
+   "OSPF [UINT32] Last neighbor down event  Router ID  [STRING] Local\n  address  [STRING] Remote address  [STRING] Reason  [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "  Slab alloc of type [chars] failed for [chars]",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't init mutex [chars]",
+   "No enough hardware resource for MPLS."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] taken out of [chars]channel[int] The given channel member interface was taken out of  the given channel number.",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  1
+ ],
+ [
+  [
+   "ATM[chars]  VCVCD=[dec] VPI=[dec] VCI=[dec] Auto Detected Encap Type is [chars].",
+   "Failed to update policy [STRING] due to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  PTP propagation-delay threshold is changed to [dec] for '[chars]'",
+   "In PTP instance [UINT16], PTP clock source switched.\n  (LastClockID=[STRING], CurrentClockID=[STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Dereferencing NULL pointer %s in %s",
+   "SR-TE policy seglist forwarding down is resolved. (Color [UINT32],\n  EndPoint [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32])"
+  ],
+  1
+ ],
+ [
+  [
+   "User %s blocked for login till %s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]  Scheduled Online Diagnostic is completed The scheduled Diagnostic test is complete.",
+   "The usage of [STRING] ([UINT32]%)\u00a0 exceeded the threshold of\n   [UINT32]%."
+  ],
+  1
+ ],
+ [
+  [
+   "QoS CAC  failed to get the CAC packet info for interface [chars] srcIP=[char]i dstIP=[char]i srcPort=[dec] dstPort=[dec] L3Prot=[dec] L4Prot=[dec]",
+   "RADIUS accounting server became active  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Prefix-accepted counter negative for peer %s prefix %s",
+   "Threshold value [UINT32] reached for active [STRING] routes in all\n  URTs"
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to fork process for %s.",
+   "RADIUS authentication server was blocked  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  In [chars], [chars] failed to connect [chars] with context name [chars] and errmsg  [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Deleting SPF adj with refcount [dec]",
+   "[STRING] failed to login from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate Server is deleted.",
+   "Failed to validate the certificate. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unexpected 2nd vPC peer [chars] detected (peer [chars]) on [chars] (domain [dec]  misconfig?)",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Unable to create PIM timer wheel",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "%s",
+   "Standby\n   board in [STRING] changed to the master."
+  ],
+  1
+ ],
+ [
+  [
+   "%s attempt to add index %08X %s",
+   "Invalid username or password from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars] packet doesn't fit in buffer (packet [dec]/ buffer [dec])",
+   "BGP.[STRING] \n  The proportion of prefixes received from peer [STRING] ([STRING]) to maximum\n  allowed prefixes reached the threshold value ([UINT32]%)."
+  ],
+  0
+ ],
+ [
+  [
+   "Attempt to learn [enet] on [chars] caused system   limit %u to be exceeded. It is not allowed  to learn addresses beyond the system limit.  A service instance  received a frame with unknown source MAC address and if this  address is learnt it would cause the system limit to be  exceeded. The address has not been learnt.",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Version low[int] and high[int] value for msg[int] does not  Version low and high value for msg does not match table size.",
+   "Failed to create VLAN [STRING]. The\n  maximum number of VLANs has been reached."
+  ],
+  0
+ ],
+ [
+  [
+   "%s\\n",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to recreate neighbor [chars]",
+   "Number of [STRING] routes reached the license limit."
+  ],
+  0
+ ],
+ [
+  [
+   " Attempt to delete BFD session for neighbor [chars] failed  Reason [chars] ([hex]).",
+   "Failed to enable Layer 3 multicast for VPN instance [STRING] because\n   of insufficient resources.Failed to enable Layer 3 multicast for the public network because\n   of insufficient resources."
+  ],
+  0
+ ],
+ [
+  [
+   "  In [chars], [chars] failed with errmsg  [chars]",
+   "Current memory usage is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "SA from peer %i RP %i for %i %i exceeded sa-limit of %d",
+   "OSPF [UINT16] Duplicate router ID [STRING] on interface [STRING],\n  sourced from IP address [IPADDR]."
+  ],
+  0
+ ],
+ [
+  [
+   "Fail to create process during FSM init.",
+   "SR-TE policy seglist forwarding down is resolved. (Color [UINT32],\n  EndPoint [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32])"
+  ],
+  0
+ ],
+ [
+  [
+   "Can not allocate [chars][int] [chars]. Can not allocate function callback.",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to create [chars] timer on interface [chars]",
+   "Session\n   ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate chain validation has failed.",
+   "Session\n  resources supported by hardware had been released."
+  ],
+  0
+ ],
+ [
+  [
+   "interface %s  pak_reparent failed\\n",
+   "IRF merge occurred. This IRF system does not need to reboot."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  Scheduled Online Diagnostic is stopped",
+   "Target IP [STRING] was not the IP of the receiving interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  MSDP/BGP local AS number is - [chars]",
+   "BGP process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "The interface %s has an 802.1x capable client with MAC %e",
+   "Failed to enable 802.1X on interface [STRING] due to lack of ACL\n  resources."
+  ],
+  1
+ ],
+ [
+  [
+   "Interface %s does not have an SNMP MIB ifIndex and has been disabled",
+   "OSPF [UINT16] Duplicate router ID [STRING] on interface [STRING],\n  sourced from IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "  NOT sending FOLLOW_UP on interface [chars]",
+   "Time changed to unsynchronized state."
+  ],
+  1
+ ],
+ [
+  [
+   "ATM  %s PVC %d/%d   Error in PPPoE flag",
+   "Session\n   ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Initialization of standby Route Processor in slot [int] failed The initialization of the standby route processor failed. This will  result in the high availability features not being operational.",
+   "Failed to save the IP forwarding table due to lack of storage\n   resources."
+  ],
+  0
+ ],
+ [
+  [
+   "  Exceeded 80 percent of the state-limit for VRF [chars]",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Fail-over of dynamic SA session to interface [chars] failed\\n Dynamic SA session has changed its route out of different physical  interface and queueing can not set-up data-sructures for that new  physical interface\\n",
+   "Failed to apply or refresh QoS policy [STRING] to the [STRING]\n   direction of interface [STRING]. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to [chars] Tunnel multicast concheck Capability. error  [chars]",
+   "The address pool [STRING] was exhausted."
+  ],
+  0
+ ],
+ [
+  [
+   "Attempt for dupe regn with SNMP IM by driver having ifIndex [int] and ifDescr [chars] Driver is attempting to register an idb with the interface manager  while there is already an interface with the same ifIndex and ifDescr  BUT different idb registered. This would lead into the problem that  interface counters shown by snmp would not work properly for this particular interface.",
+   "SNMP [STRING] from [STRING] is rejected due to ACL restriction."
+  ],
+  1
+ ],
+ [
+  [
+   "No peer uid found at %s",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "High availability initialization failure  %s",
+   "The card does not support setting MAC learning limit for VLAN\n  [UINT16]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  %s cannot be executed for active device.",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate import for trustpoint [chars] has failed. Reason   [chars]",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "%s Error Initializing/Updating Linecard Tunnel Configuration",
+   "Failed\n   to save the IP forwarding table due to lack of storage resources."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unknown type [dec] received from [chars] on [chars]",
+   "Failed to refresh IFA action [UINT32] on interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Configured PIM hello interval [dec]ms on interface [chars] is less than the  supported minimum value of [dec]ms, using the minimum  value",
+   "CPU usage severe alarm removed."
+  ],
+  0
+ ],
+ [
+  [
+   "%s%d is in use under endpoint",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "%s reloading %s",
+   "[STRING];\n   Failed to apply the ITA CAR at level [STRING] to the user. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Keytype [dec] mismatched, expected [dec]",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Bad authentication from %i group [int] type [int] Two routers participating in VRRP disagree on  authentication",
+   "Telnet client [STRING] failed to log in. The current number of\n   Telnet sessions is [NUMBER]. The maximum number allowed is ([NUMBER])."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP received an invalid RPKI message from rpki server %s %s %s hex dump  %s",
+   "BGP\n  [STRING]  Number of [STRING] routes reached the license limit."
+  ],
+  1
+ ],
+ [
+  [
+   "CCB record failed.",
+   "Self member-id is changed from [UINT32] to [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars] [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Configuration was modified. Issue \\write memory\\ to save new IOS CA certificate",
+   "Local\n   [STRING] certificate in domain [STRING] will expire in [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "%s rc %d event %s",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  1
+ ],
+ [
+  [
+   "Reloading standby and retrying sync operation retry %d.",
+   "Failed to accelerate IPv6 ACL [UINT32]. ACL acceleration does not\n   support specifying multiple TCP flags in one rule."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to parse [chars] neighbor config for neighbor [chars] [chars] [chars]",
+   "BGP.[STRING]  [STRING] state has changed from [STRING] to [STRING].\n  ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Checkpoint message lost",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to bind the socket due to source interface ip   [chars]",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Unexpected Call on %s. Current state is %d.",
+   "Failed to establish phase 2 SA for the reason of [STRING]. The\n   SA's source address is [STRING], and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't add PIM route [chars] in [chars]",
+   "SR-TE policy seglist forwarding state down event  Color [UINT32], EndPoint\n  [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32], Reason [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Null parameter specified for MVRF lookup.",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "Previous process %d never received mail response from slot %d.",
+   "Failed to allocate resource for file [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "ILMI[chars]  Auto configuration already disabled.",
+   "The maximum number of dynamic ARP entries for the device reached."
+  ],
+  0
+ ],
+ [
+  [
+   "Internal error  %s",
+   "The card does not have enough hardware resources to send protocol\n  packets destined for [STRING] to the CPU for [STRING] on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "No IP address for interface %s",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  0
+ ],
+ [
+  [
+   "BMP Memory Utilization currently at %lu exceeds threshold %lu",
+   "No enough hardware resource for MPLS."
+  ],
+  0
+ ],
+ [
+  [
+   "Too many Login Authentication failures have   occurred in the last one minute on the line [int]. A large number of authentication failures greater than  the configured limit have occurred in the last one",
+   "[STRING] failed to login from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  TCP data stream may be out of sync, suspect TLV type of [dec] from peer  [chars]",
+   "[STRING] [UINT32]'s port [STRING] detected a topology change."
+  ],
+  0
+ ],
+ [
+  [
+   "Entity%d is registered already under client %s%d",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   " dot1x Disabled",
+   "802.1X is not supported on interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars] server [chars] with auth-port [dec] and acct-port [dec] status has changed from [chars] to [chars]. Server was in previous-state for [chars], and total dead time of the server is [chars]",
+   "OSPF [UINT32] New router ID elected, please restart OSPF if you\n  want to make the new router ID take effect."
+  ],
+  0
+ ],
+ [
+  [
+   " LLDP Enabled",
+   "[STRING]\n  agent neighbor aged out on port [STRING] (IfIndex [UINT32]), neighbor's chassis\n  ID is [STRING], port ID is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " VR[chars] ID [dec] on interface [chars] bad advertisement received  reason [chars]",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  received an error packet  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed with GetCertInitial for trustpoint [chars] Reason   [chars]",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Blocking [chars] on [chars]. Inconsistent local vlan.",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  0
+ ],
+ [
+  [
+   " System root usage has reached [dec]%. You may delete some old files from root or /var/log to free up space",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  1
+ ],
+ [
+  [
+   "clearing stuck VCD [int] from map on [chars]   A SVC map entry has a stuck VCD attached to it which has been  previously cleared in the driver.",
+   "Failed to update policy [STRING] due to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Number of prefixes received from %s%s%s afi %d  %d exceeds limit %d",
+   "The card does not support setting MAC learning limit for VLAN\n  [UINT16]."
+  ],
+  0
+ ],
+ [
+  [
+   "BFD-SYSLOG  bfd session get local discriminator [chars] neigh proc [chars]  handle [dec] node  [chars]",
+   "Failed to apply filtering rules for DHCP packets because some\n   rules are not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "Process %d Nbr %i on %s from %s to %s %s",
+   "OSPF [UINT16] Received newer self-originated network-LSAs.\n  Possible conflict of IP address [IPADDR] in area [STRING] on interface\n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "SNMP SET Operation is blocked on STANDBY",
+   "Memory usage has dropped below [STRING] threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to register with OIM module in [chars]",
+   "-User=[STRING]-IPAddr=[STRING]; SNMPv3 message is not in the time\n   window."
+  ],
+  0
+ ],
+ [
+  [
+   " Multiple peers detected on [chars]",
+   "[STRING] agent new neighbor created on port [STRING] (IfIndex\n  [UINT32]), neighbor's chassis ID is [STRING], port ID is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "   Clock id has changed from [hex] [hex] [hex] [hex] [hex] [hex] [hex] [hex] to [hex] [hex] [hex] [hex] [hex] [hex] [hex] [hex]",
+   "Openflow instance [STRING] controller [CHAR]  Failed to delete\n   TTP group [STRING], XID [HEX]. Reason  The TTP group is used by another TTP\n   group."
+  ],
+  0
+ ],
+ [
+  [
+   "%s ACL merge error %d on route-map %s",
+   "Failed to establish phase 2 SA for the reason of [STRING]. The\n   SA's source address is [STRING], and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "MPLS-TP Echo request unsupported",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars][int] is not registered under endpoint. Item is not registered under endpoint.",
+   "The MKA session with CKN [STRING] started on interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Bad state rg \\%s\\  %d",
+   "Max\n  active [STRING] routes [UINT32] reached in URT of [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "No response-code from local RM",
+   "Threshold value [UINT32] of max active [STRING] routes reached in\n  URT of [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "method list '%s'  %s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   "  Error returned from [chars], errno  0x[hex] ([chars]) in [chars]()",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   "cannot set %s%s",
+   "Tunnel-bundle[STRING] \n  Switched from protection tunnel [STRING] to working tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " ACL Upgrade Pending Messages Array is Full with [dec] messages. Failing the MTS message with Opc  [dec], RR_TOKEN  [hex]",
+   "The Telnet Connection [IPADDR]([STRING]) request was denied\n   according to ACL rules."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unknown mtype  [dec]/[dec] in [chars]",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   "Can not find %s under %s session%d.",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  0
+ ],
+ [
+  [
+   "result type 0x%x",
+   "Failed to establish IPsec SA for the reason of [STRING]. The SA's\n   source address is [STRING], and its destination address is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to inherit %s session config '%s'  %s->%s %s",
+   "BGP\n  egress-engineering incoming label [STRING] conflicts with current configuration."
+  ],
+  1
+ ],
+ [
+  [
+   "No uid %d registered with ISSU at %s",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] is empty under client [chars][int]. Item is empty in client.",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "GR reload unsafe configured session restart time[dec]",
+   "Started a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP update error  %s Wrong flag 0x%x received for %s attribute fixed by error handling",
+   "TACACS authorization server was blocked  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s is already registered under client %s%d entity%d and msgtype%d",
+   "Authentication\n   failed for [STRING] from [STRING] because of [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s SRR version missmatch detected.",
+   "SR-TE policy seglist forwarding down is resolved. (Color [UINT32],\n  EndPoint [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32])"
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] Failure in getting event identification\\n QoS configuration can't be synced to the standby\\n",
+   "Failed to apply or refresh QoS policy [STRING] to the [STRING]\n   direction of interface [STRING]. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to extract RP information for the RP in slot [dec] - Peer RP being held in reset state",
+   "Started a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "out sa 0x%x0x%x out sp 0x%x0x%x in sa 0x%x0x%x in sp 0x%x0x%x",
+   "OSPF [UINT32] Router ID changed, reconfigure Vlink on peer"
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] moved to passive state in [chars]channel[int] The given channel member interface became a passive member in the given channel number.",
+   "The PTP\n  standard time offset resumed. (TimeOffset=[UINT16], AlarmThresholdTimeOffset=[UINT16])"
+  ],
+  0
+ ],
+ [
+  [
+   "  DACL [chars] does not exist on switch",
+   "-IfName=[STRING]-MACAddr=[STRING]-VLANID=[STRING]-Username=[STRING];\n  MAC address was already bound to interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  mts_send() failed for [chars], errno  [chars]",
+   "Failed to update policy [STRING] due to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Standby synchronization lost for OSPF-%d was  %s",
+   "OSPF [UINT16] Received newer self-originated router-LSAs. Possible\n  conflict of router ID [STRING] in area [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "IMA Group [chars] now has [int] active links active link bitmap is [hex]. Active Links were added or removed from the Group changing its  bandwidth.",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]  Scheduled Online Diagnostic is stopped The scheduled Diagnostic test has been stopped.",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  0
+ ],
+ [
+  [
+   " aaa request rejected as maximum aaa sessions are in progress",
+   "Telnet client [STRING] failed to log in. The current number of\n   Telnet sessions is [NUMBER]. The maximum number allowed is ([NUMBER])."
+  ],
+  0
+ ],
+ [
+  [
+   " eth_port_sec Enabled on if_index [hex]",
+   "Interface\n  [STRING] failed to add a virtual MAC  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Authentication failed for client %s on Interface %s AuditSessionID %s",
+   "Failed to assign a rule for permitting DHCP and DNS packets on interface\n  [STRING] due to lack of ACL resources."
+  ],
+  1
+ ],
+ [
+  [
+   "Data decode - [chars] [dec]",
+   "Session\n  resources supported by hardware had been released."
+  ],
+  0
+ ],
+ [
+  [
+   "Fatal error slot %s  %s",
+   "Failed\n   to save the IP forwarding table due to lack of storage resources."
+  ],
+  1
+ ],
+ [
+  [
+   "Net %s in %s%s%s has rib-out inconsistency for update-group %d %s- outbound policy %s rib-out %s %s%s",
+   "BGP\n  egress-engineering incoming label [STRING] conflicts with current configuration."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars][int] is registered already under client [chars][int] and  Item is registered already under client and entity.",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  1
+ ],
+ [
+  [
+   "  Packet from [chars] on [chars] received for wrong area [chars]",
+   "OSPF [UINT32]\n   Neighbor [STRING] ([STRING]) changed from [STRING] to [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "No uid [int] registered with ISSU at [chars]",
+   "The status of [STRING] virtual router [UINT32] (configured on\n  [STRING]) changed from [STRING] to [STRING]  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s failed to get SR attributes from SR_APP with error %d",
+   "OSPF [UINT32] Area [STRING] Router [STRING]([STRING]) CPU usage  [STRING],\n  VPN name  [STRING], IfMTU  [UINT32], Neighbor address  [STRING], NbrID\n  [STRING] changed from [STRING] to [STRING] at [STRING].Last 4 hello packets received at [STRING]Last 4 hello packets sent at [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "Message size violation on %u-byte packet from %i discarded",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to remove BFD session, error [chars]",
+   "Failed to extend template hash value of file [STRING] to the PCR."
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF SR Duplicate Node SID index detected SID %u prefix %i/%d %s",
+   "OSPF [UINT16] Received newer self-originated network-LSAs.\n  Possible conflict of IP address [IPADDR] in area [STRING] on interface\n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to allocate buffer for [chars]",
+   "Pattern\n   1 The\n   maximum number of dynamic ARP entries for slot [INT32] reached.Pattern\n   2 The\n   maximum number of dynamic ARP entries for chassis [INT32] slot [INT32] reached."
+  ],
+  1
+ ],
+ [
+  [
+   "%s  Monitoring test %d is disabled since default interval is zero",
+   "CPU usage was [STRING] in last minute."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to query CA certificate.",
+   "Failed to retrieve the CRL. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "The OCSP Server [chars]  failed to verify OCSP response",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "QoS CAC  failed to attach cft flow object for interface [chars] srcIP=[char]i dstIP=[char]i srcPort=[dec] dstPort=[dec] L4Prot=[dec] num flows=[dec]",
+   "[STRING];\n   Failed to apply the [STRING] CAR in [STRING] profile [STRING] to interface\n   [STRING]. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "rc 0x%x sp 0x%x cp sp 0x%x",
+   "Established IPsec SA. The SA's source address is [STRING],\n   destination address is [STRING], protocol is [STRING], and SPI is [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to create BFD IOU Process",
+   "Authentication\n   failed for [STRING] from [STRING] because of [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Reading snmpEngineBoots from flash failed",
+   "BGP.[STRING]  [STRING] state has changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Trying to send packet with packettype [dec] to [chars] on [chars]",
+   "Detected an IP address conflict. The\n  device with MAC address [STRING] connected to interface [STRING] in VSI [STRING]\n  and the device with MAC address [STRING] connected to interface [STRING] in VSI\n  [STRING] were using the same IP address [IPADDR]."
+  ],
+  0
+ ],
+ [
+  [
+   "Fail to create process during FSM init.",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "Authentication protocol md5 support will be deprecated in future",
+   "Failed to\n   authenticate SNMP message."
+  ],
+  1
+ ],
+ [
+  [
+   "A rollover ID certificate has been activated under trustpoint [chars] replacing the previous ID certificate. Issuer-name   [chars] Subject-name   [chars] Serial-number  [chars] End-date   [chars]",
+   "Local\n   [STRING] certificate in domain [STRING] will expire in [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "  Maximum number of LSAs in domain has been reached",
+   "OSPF [UINT32] Area [STRING] Router [STRING]([STRING]) CPU usage  [STRING],\n  VPN name  [STRING], IfMTU  [UINT32], Neighbor address  [STRING], NbrID\n  [STRING] changed from [STRING] to [STRING] at [STRING].Last 4 hello packets received at [STRING]Last 4 hello packets sent at [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "Message%d is incompatible under msg session%d.",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  mts_send() failed for [chars], errno  [chars]",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is up."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to create [chars] timer on interface [chars]",
+   "OSPF [UINT32] Neighbor [STRING] ([STRING]) changed from [STRING]\n  to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Set argument failed An internal software error occurred.",
+   "CPU usage is in severe alarm state.CPU usage  [UINT]% in last 1 minute.CPU usage thresholds Minor  [UINT]%Severe  [UINT]%Recovery  [UINT]%Process info JID \u00a0\u00a0\u00a0\u00a0\u00a0PID \u00a0\u00a0\u00a0\u00a0PRI \u00a0\u00a0\u00a0\u00a0\u00a0State \u00a0\u00a0\u00a0\u00a0FDs \u00a0\u00a0\u00a0\u00a0HH MM SS \u00a0\u00a0CPU \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Name[UINT] [UINT] [UINT] [CHAR] [UINT] [CHAR] \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0[CHAR] \u00a0\u00a0[CHAR]Core states ID \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Idle \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0User \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Kernel \u00a0\u00a0\u00a0\u00a0Interrupt \u00a0BusyCPU[UINT] \u00a0\u00a0[CHAR]\u00a0 \u00a0[CHAR] \u00a0\u00a0[CHAR]\u00a0 \u00a0[CHAR]\u00a0\u00a0 [CHAR]"
+  ],
+  1
+ ],
+ [
+  [
+   "  MTS drop failed on [chars] queue  [chars]",
+   "Detected an IP address conflict. The\n  device with MAC address [STRING] connected to interface [STRING] in VSI [STRING]\n  and the device with MAC address [STRING] connected to interface [STRING] in VSI\n  [STRING] were using the same IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   " VRRP Manager service started",
+   "Authentication failed in [STRING] virtual router [UINT32]\n  (configured on [STRING])  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] Neighbor [chars] is [chars][chars] An LDP neighbor has either come up or gone down. The message describes the change for it.",
+   "Failed to apply classifier-behavior [STRING] in policy [STRING]\n   to the\u00a0 [STRING] direction of interface [STRING]. [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Del-checkpoint failed  Name '[chars]'",
+   "RIP [UINT32] Route limit reached"
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate server now disabled.",
+   "Failed to retrieve the CRL. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Port [chars] instance [chars] role changed to [chars]",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Blank - Please provide info",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Authentication failure for SNMP req from host %i  SNMP agent generated view length greater than that allowed by   definition so the view name was truncated to fit the defined   maximum view name length.",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=GET-node=[STRING]-value=[STRING];\n   The agent received a message."
+  ],
+  1
+ ],
+ [
+  [
+   " Interface [chars] removed from [chars]",
+   "Instance [UINT32]'s ROOT-Protection port [STRING] received superior\n  BPDUs."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to retrieve my hostname.",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  0
+ ],
+ [
+  [
+   " Interface [chars] state changed to [chars]",
+   "Authentication failed in [STRING] virtual router [UINT32]\n  (configured on [STRING])  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  CMI error  No [chars] VRF information found",
+   "Lost\n   synchronization with NTP server with IP address [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " deamon started",
+   "Threshold value [UINT32] of max active [STRING] routes reached in\n  URT of [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "  PTP Neighbor of [chars] changed to IEEE 802.1AS not capable, [chars] % PRId64",
+   "In PTP instance [UINT16], PTP clock source property changed.\n  (SourceName=[STRING], Priority1=[UCHAR], Priority2=[UCHAR],\n  ClockClass=[UINT16], ClockAccuracy=[UINT16]], ClockSourceType=[STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   " Unable to disable eth_port_sec [chars].",
+   "The\n   vlan-type dot1q configuration on [STRING] is not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "Received %s message total/unit %u/%u %s",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  0
+ ],
+ [
+  [
+   "Received collision table of type %u The specified type of collision is an invalid value which indicates  that the message received on the standby RP contains erroneous data.  This is an internal software error which should result in a reload  of the standby RP so that the bulk sync of configuration can be sent  once more by the active RP.",
+   "Failed\n   to activate EDSG service policy [UINT32] on user [UINT32]. The rate limit\n   mode for the EDSG service policy is different from the rate limit mode for\n   an existing EDSG service policy."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to set socket option. Option   [chars]",
+   "Failed to retrieve the CRL. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Authentication protocol md5 support will be deprecated in future",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   "  Source address of packet received from [chars] on [chars] is duplicate of  local virtual ip, [chars]",
+   "The IKE phase 2 SA was deleted for the reason of [STRING]. The\n   SA's source address is [STRING], and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Authentication failure for SNMP req from host %i",
+   "Failed\n   to configure the MPLS Diffserv mode in VPN instance [STRING]. Reason \n   [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  The users are not allow to disable monitoring for Test #%d",
+   "Authentication\n   failed for [STRING] from [STRING] because of [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "AAA unable to handle accounting requests due to insufficient processor memory and could be trashing the queued accounting records",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   "No Radius hosts configured or no valid server present in the server group %s",
+   "RADIUS accounting server was blocked  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Detected router with duplicate router ID %i in area %s",
+   "OSPF [UINT32] Neighbor [STRING] ([STRING]) changed from [STRING]\n  to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid Nas Port Format  %s %c",
+   "Failed to remove servers in scheme [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Group %s  Marked alive as Radius server %s %d%d configured.",
+   "User [STRING] at [STRING] was authenticated successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "User %s locked out on authentication failure",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   " IPSec initialization of [chars] [chars]",
+   "OSPF\n   [UINT16] Duplicate router ID [STRING] on interface [STRING], sourced from IP\n   address [IPADDR]."
+  ],
+  0
+ ],
+ [
+  [
+   "PKCS #12 Export from trustpoint [chars] failed. Reason   [chars]",
+   "The number of MAC address entries exceeded the maximum number\n  [UINT32] in VLAN [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "Attempt to learn [enet] on [chars] caused system   limit %u to be exceeded. It is not allowed  to learn addresses beyond the system limit that allows number of permitted + sticky addresses to be configured in the system.  A service instance  received a frame with unknown source MAC address and if this  address is learnt it would cause the system limit to be  exceeded. The address has not been learnt.",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't init cond var [chars]",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  0
+ ],
+ [
+  [
+   "Stopping test pattern procedure on group [chars]. The link transmitting the test pattern has been removed from the  group thereby stopping the transmission of the test pattern.",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  0
+ ],
+ [
+  [
+   "Policy route-map %s not installed in hardware",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "Extracting subject name from Server certificate failed",
+   "Failed to allocate resource for file [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't get URIB VRF [chars]",
+   "Openflow instance [STRING] controller [CHAR]  Failed to delete\n   TTP group [STRING], XID [HEX]. Reason  The TTP group is used by another TTP\n   group."
+  ],
+  0
+ ],
+ [
+  [
+   "BFD-SYSLOG  bfd config apply idb %s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Proto Client registration for %s has failed",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to delete adjacency by contol plane. Host ip address   [chars]",
+   "Duplicate address [STRING] on interface [STRING], sourced from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to query sysmgr for [chars]",
+   "The service %s status failed   no response!"
+  ],
+  0
+ ],
+ [
+  [
+   "User %s unlocked by %s",
+   "Failed to enable local proxy ARP on interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to allocate buffer for inter-RP IPC message receive An error was encountered in the reception of IPC messages from  the peer Route Processor because a packet buffer to receive the  packet could not be allocated.",
+   "[STRING] [UINT32]'s port [STRING] received its own BPDU."
+  ],
+  0
+ ],
+ [
+  [
+   "QoS CAC  failed to attach cft flow object for interface [chars] srcIP=[char]i dstIP=[char]i srcPort=[dec] dstPort=[dec] L4Prot=[dec] num flows=[dec]",
+   "Failed to add flow-table due to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Could not receive router's Certificate from file system.",
+   "Local\n   [STRING] certificate in domain [STRING] has expired for [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "  Insufficient memory for [chars]",
+   "IS-IS [UINT16], [STRING] adjacency [STRING] ([STRING]), state\n  changed to [STRING], Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] host [inet] is not supported for dyinggasp notification due to [chars]",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  0
+ ],
+ [
+  [
+   "neighbor %i %s on interface %s %s",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "IPSec SA received fragmented ESP packet DP Handle [dec] ipv6 src_addr [char]I ipv6 dest_addr [char]I SPI 0x[hex]",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]  [chars] [chars] [chars] An action attempted by the rsvp implementation encountered an unexpected condition",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed deleting node for LSP [chars] [dec] to wavl tree thread [dec] [chars]",
+   "The\n  total number of BFD sessions [ULONG] reached the upper limit. Can\u2019t create a\n  new session."
+  ],
+  1
+ ],
+ [
+  [
+   "The file nvram ifIndex-table is corrupt. The file is not in the expected format.",
+   "SNMP [STRING] from [STRING] is rejected due to ACL restriction."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] Grp [int] state [chars] -> [chars] The VRRP router has changed state",
+   "RADIUS authentication server became active  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Invalid src address [chars], should not be seen on [chars]",
+   "The number of MAC address entries exceeded the maximum number\n  [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "  MSDP shutting self down via restart command",
+   "Failed to enable IPv6 Layer 3 multicast for VPN instance [STRING]\n   because of insufficient resources.Failed to enable IPv6 Layer 3 multicast for the public network\n   because of insufficient resources."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to get kadis timer tick to start kadis timer.",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "  In [chars], [chars] failed to add mrib route",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   "CSR Fingerprint MD5   [chars] CSR Fingerprint SHA1  [chars]",
+   "Local\n   [STRING] certificate in domain [STRING] has expired for [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars] [chars].",
+   "Failed to accelerate IPv6 ACL [UINT32]. ACL acceleration does not\n   support the rules that contain the hop-by-hop keywords."
+  ],
+  1
+ ],
+ [
+  [
+   " PTP sync interval for [hex] changed to [dec]",
+   "The PTP\n  time offset exceeded the threshold. (TimeOffset=[UINT16],\n  AlarmThresholdTimeOffset=[UINT16])"
+  ],
+  1
+ ],
+ [
+  [
+   "  Invalid DACL name [chars] for client [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] - configured mode[chars] fallback mode[chars] This RP redundancy mode fell back to the indicated mode",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  1
+ ],
+ [
+  [
+   "  Router [chars] on interface [chars] is using our routerid, packet dropped",
+   "OSPF [UINT32] Router ID changed, reconfigure Vlink on peer"
+  ],
+  1
+ ],
+ [
+  [
+   "Warning  Attribute list %s is not defined.",
+   "User [STRING] at [STRING] failed authentication."
+  ],
+  1
+ ],
+ [
+  [
+   "Transport ERP uid control block is NULL",
+   "The configuration failed because of resource insufficiency or conflicts\n  on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Key chain [chars] [chars] for %i because ACL \\[chars]\\ [chars] The ACL specified in the message text associates the key chain specified in the message text with a set of RSVP neighbors. RSVP uses the specified key chain to authenticate each RSVP message exchanged with that set of RSVP neighbors after the association is configured. Subsequently the specified ACL has been reconfigured such that the key chain association is no longer valid for one or more RSVP neighbors in the set. This causes RSVP to search the configuration for another suitable key chain to use with those neighbors. If no such key chain is found RSVP will no longer be able to provide authentication for messages exchanged with those RSVP neighbors. This causes RSVP to discard RSVP messages from that set of neighbors. Because this may ultimately lead to loss of RSVP functionality with those neighbors RSVP generates this system message. This system message may also be generated if the ACL is subsequently changed so that it re-associates RSVP neighbors with the specified key chain. If RSVP is not using another key chain for the set of RSVP neighbors specified by the ACL RSVP will begin using the specified key chain to exchange authenticated RSVP messages with that set of RSVP neighbors potentially restoring RSVP functionality with those neighbors.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  0
+ ],
+ [
+  [
+   "  Usage  mrib [-h] [-d] [-m",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Certificate has a missing or invalid subject name.",
+   "The number of MAC address entries exceeded the maximum number\n  [UINT32] for interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Ignore internal L[dec] route [chars]/[dec] with external metric from [chars]",
+   "IS-IS [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system\n  ID conflict might exist."
+  ],
+  1
+ ],
+ [
+  [
+   " Age Time expired for host [chars] in VLAN [dec] in port [chars]",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  1
+ ],
+ [
+  [
+   "Client '%s' with ID %d has '%s' in session %d.",
+   "The process $1 was\n   skipped because it failed to start within 6 hours."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unexpected registration received from process [dec]",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "BGP DN  Cannot create new neighbor %s for\\nrange %s  maximum number of %d dynamic neighbors limit reached",
+   "The current switch is no longer the root of instance [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to enqueue send element for peer [chars]",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "For multicast route %i %i no register tunnel found for RP %i",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to assign index for target/policy/class/action  %u/%u/%u/[chars] The configuration of queuing has resulted in the failure to  generate an internal unique identifier which represents the queue.  This is an internal software error.",
+   "Failed to configure [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " vPC Peer-link detected [chars]. Disabling [chars].",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate reenrollment has failed after %d attempts",
+   "Driver failed to add MAC address entry  MAC address=[STRING],\n  VLAN=[UINT32], State=[UINT32], interface=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars]",
+   "Failed\n   to restore the configuration of queue scheduling profile [STRING] on\n   interface [STRING], because [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "NULL RP pointer specified for PIM register tunnel creation.",
+   "[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] hw-module slot [int] image [chars]   [chars] This is a notice message about a High Availability System hardware module configuration status condition or event.",
+   "Standby board in [STRING] changed to the master."
+  ],
+  1
+ ],
+ [
+  [
+   "Standby RP in slot %d is operational in %s mode\\n",
+   "Clock\n  frequency resumed to locked state."
+  ],
+  0
+ ],
+ [
+  [
+   " new_role=[chars] interface=[chars] [chars]",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  PTP encapsulation is changed to '[chars]'",
+   "IRF port [UINT32] went down because the heartbeat timed out."
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate reenrollment has failed and retry will happen for %d attempts",
+   "Failed to import the certificate. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Lookup or allocation of MFIB wire failed",
+   "Enabled Layer 3 multicast for VPN instance [STRING] successfully.Enabled Layer 3 multicast for the public network successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars][int] is in use under endpoint Item is in use under endpoint.",
+   "Notification\n   [STRING][STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  In [chars], [chars] failed to create connection with [chars]",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "   [chars]",
+   "Lost synchronization with NTP server with IP address [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "server group '%s'  %s",
+   "Authentication failed in [STRING] virtual router [UINT32]\n  (configured on [STRING])  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " First BPDU transmitted",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  0
+ ],
+ [
+  [
+   " VRRP Engine service started",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  detected a VRRP configuration error  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to add PS adjacency from L2RIB. Host ip address   [chars]",
+   "Failed to establish IPsec SA for the reason of [STRING]. The SA's\n   source address is [STRING], and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Delete msg for [chars] ([dec]) iib [hex] - iib iod [dec] mismatched",
+   "IS-IS [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system\n  ID conflict might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF-%d  Bad build request for LSA type %d LSID %i mask %i",
+   "OSPF\n   [UINT16] Received newer self-originated router-LSAs. Possible conflict of router\n   ID [STRING] in area [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to find LSA area [chars]",
+   "OSPF [UINT32] New router ID elected, please restart OSPF if you\n  want to make the new router ID take effect."
+  ],
+  1
+ ],
+ [
+  [
+   "  CMI error  [chars].",
+   "OSPF Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "AAA ACCT process suspended   low I/O memory",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to send packet, - [chars]",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] An attempt was made to generate an SNMP trap but the trap could not be sent because of the reason given in this message. Most likely this message means that the SNMP traps process is not running.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Managed timer wakeup received by the PIM register tunnel creation process with no expired timers.",
+   "The PTP\n  time offset sum resumed. (TimeOffsetSum=[UINT16], TimeOffsetSumAlarmThreshold=[UINT16])"
+  ],
+  0
+ ],
+ [
+  [
+   "OSPF-[dec] NSF completed",
+   "Telnet client [STRING] failed to log in. The current number of\n   Telnet sessions is [NUMBER]. The maximum number allowed is ([NUMBER])."
+  ],
+  0
+ ],
+ [
+  [
+   "Threshold for maximum number of non self-generated LSA has been reached \\ospf %d\\ - %d LSAs",
+   "OSPF Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid checkpoint message  %s %s",
+   "OSPF [UINT32]\n   Neighbor [STRING] ([STRING]) changed from [STRING] to [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to create ID32 space. Failed to create ID32 space.",
+   "System stratum changed from [UINT32] to [UINT32] after clock\n   update."
+  ],
+  0
+ ],
+ [
+  [
+   "Manual enrollment for trustpoint [chars]",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to install LSA [chars], area [chars] [chars]",
+   "OSPF [UINT16] Received newer self-originated router-LSAs. Possible\n  conflict of router ID [STRING] in area [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "User %s failed attempts reset by %s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] message from %i discarded - incorrect message digest The router received an RSVP message that contained a different secure hash from the one computed by the router. RSVP discarded the message because the message may have come from an untrusted source.",
+   "Unbind target [UINT32] from program [UINT32] and bind target [UINT32]\n   to program [UINT32] by flow ID map [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars] [dec]",
+   "Inform failed to reach NMS [STRING]  Inform [STRING][STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Received SSTP BPDU with bad TLV on [chars] [chars].",
+   "STG count [UINT32] is smaller than the MPU's STG count [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "%s",
+   "The number of MAC address entries exceeded the maximum number\n  [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Objstore API [chars]() failed with error  [dec]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Dummy msg version %d is out of range for msg%d under client %s%d and entity%d.",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   "  PSS [chars] for LSA [chars] failed",
+   "The\n  number of session entries ([UINT32]) supported by hardware already reached."
+  ],
+  0
+ ],
+ [
+  [
+   " PTP disabled",
+   "Received\n  [ULONG] abnormal PTP packets in the last 10 minutes."
+  ],
+  1
+ ],
+ [
+  [
+   "Saving config with new acct ident in nvram.",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "Radix trie initialization failed",
+   "BGP\n  [STRING].[STRING]  The ratio of the number of routes ([UINT32]) received from\n  peer [STRING] ([STRING]) to the number of allowed routes ([UINT32]) has\n  reached the threshold ([UINT32]%)."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to [chars] element [hex]",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]  [chars]{ID=[int]} has failed. Error code = 0x[hex] [chars] A diagnostic test has found an error on the line card.",
+   "Core\n   usage minor alarm CPU [INT] core [INT] removed."
+  ],
+  1
+ ],
+ [
+  [
+   "Too many Login Authentication failures have   occurred in the last one minute on the line [int]. A large number of authentication failures greater than  the configured limit have occurred in the last one",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  0
+ ],
+ [
+  [
+   "Standby synchronization lost for OSPF-%d was  %s",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User logged off."
+  ],
+  0
+ ],
+ [
+  [
+   "Interface %s Changing autovc %d/%d to %s",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  1
+ ],
+ [
+  [
+   "  Error returned from mts_send_notify(), errno  [chars]",
+   "RADIUS authentication server was blocked  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] - error in [chars]  FALSE value returned. Some features/commands may not work properly",
+   "Tunnel-bundle[STRING] \n  Switched from protection tunnel [STRING] to working tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  Unknown opcode %ld is received",
+   "CPU usage recovered to normal state."
+  ],
+  1
+ ],
+ [
+  [
+   "  Received packet with a local source MAC address ([chars]) from [chars] on [chars]",
+   "Failed to enable ARP flood suppression on VSI [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars]",
+   "RIP [UINT32] Route limit reached"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to send out message to CA server.",
+   "Failed to retrieve the CRL. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "idomain [dec] orig adr [hex] port [hex] trans adr [hex] port [hex] vrf [hex] prot [hex] rg [dec]",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "Bad parameters in the route-map %s applied for %s",
+   "BGP.[STRING]  [STRING] state has changed from [STRING] to [STRING].\n  ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "  Router [chars] on interface [chars] is sending OSPFv3 packets from more than  one interfaces",
+   "Batch backup of standby board in [STRING] has finished."
+  ],
+  0
+ ],
+ [
+  [
+   "  Index [dec] for prefix [chars] (from [chars]) is out of srgb range of next-hop [chars]",
+   "IS-IS [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system\n  ID conflict might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "Deprecated PIM Hello Option TLV %d %s from %i %s",
+   "Failed to configure [STRING] ACL [UINT] due to lack of memory."
+  ],
+  0
+ ],
+ [
+  [
+   "Some register [chars] tunnels may not have been deleted.",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is up."
+  ],
+  1
+ ],
+ [
+  [
+   "Received * [inet] Join from [inet] for invalid RP [inet]. SDWAN SPT-only is",
+   "Memory [STRING] threshold has been exceeded."
+  ],
+  0
+ ],
+ [
+  [
+   "ATM failed to create VC on Interface %s",
+   "Standby board in [STRING] changed to the master."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User logged off."
+  ],
+  0
+ ],
+ [
+  [
+   "ATM failed to register AutoVC VCVCD=%d VPI=%d VCI=%d on Interface %s Cause of the failure  %s",
+   "The\n  card does not support setting MAC learning limit for VLAN [UINT16]."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP failed to send update message because the message size reached bgp maximum message size 4096.",
+   "Failed to add flow-table due to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Command opcode [hex] on channel [int] on slot [int] was rejected.  The IMA firmware has rejected the command because of the current  protocol state of the interface or the opcode is undefined.",
+   "Failed to allocate resource for file [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to get the local process JID with err [int]",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] Trustpoint   [chars] Issuer-name   [chars] Subject-name   [chars] Serial-number  [chars] End-date   [chars]",
+   "Failed to validate the certificate. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Trying to awake unawakable thread [chars]",
+   "PVST BPDUs were\n  received on port [STRING], which is enabled with PVST BPDU protection."
+  ],
+  0
+ ],
+ [
+  [
+   "Received Register from router %i for group %i %i not willing to be RP",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to bind the socket due to source interface ip   [chars]",
+   "TACACS accounting server became active  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  IP address [chars] has been used by [chars] and [chars]",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "Running configuration saved to NVRAM",
+   "The card does not have enough hardware resources to send protocol\n  packets destined for [STRING] to the CPU for [STRING] on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "Invalid username or password from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Privacy protocol [chars] support will be deprecated in future",
+   "The Telnet Connection [IPADDR]([STRING]) request was denied\n   according to ACL rules."
+  ],
+  0
+ ],
+ [
+  [
+   "data 0x[hex]",
+   "Port\n  usage reaches [STRING]%; SrcIPAddr=[IPADDR]; VPNInstance=[STRING]; NATIPAddr=[IPADDR];\n  ConnectCount=[UINT16]."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid parameter passed while walking the autorp cache to find a group-to-rp mapping for Sparse RP %i. parameter  0x%x",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "The Trustpool will expire in %s.",
+   "Failed\n   to save the IP forwarding table due to lack of storage resources."
+  ],
+  0
+ ],
+ [
+  [
+   "Version of local ISSU client [chars][int] in session [int] is  The protocol versions of the local and remote clients are incompatible. These clients can not communicate with each other.",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   " Server with Chassis ID [chars] Port ID [chars] on local port [chars] has been removed",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s is empty %s under client %s%d and entity%d.",
+   "The service [STRING] receives an error event in status [STRING],\n  drop it."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] taken out of [chars]channel[dec]",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  1
+ ],
+ [
+  [
+   "RSVP Message had a bad type  [int]",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "System detected Power System [dec] THERMAL FAIL condition.",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "%s",
+   "CPU usage severe alarm removed."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't create txlist for [chars] in VRF [chars]",
+   "The configuration failed because of resource insufficiency or conflicts\n  on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "orh.w0 0x%x error_op 0x%x SA 0x%x0x%x",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User got online failed."
+  ],
+  0
+ ],
+ [
+  [
+   "  TCP data stream may be out of sync, suspect TLV length of [dec] from  peer [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Dynamic MAC addresses for port [chars] cleared",
+   "The\n   vlan-type dot1q configuration on [STRING] is not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "Server '%s'  %s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   "%s",
+   "The address pool [STRING] was exhausted."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  Monitoring interval is 0. Cannot enable monitoring for Test #%d",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  detected a VRRP configuration error  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "AAA unable to create UID for incoming calls due to insufficient processor memory",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) down alarm was\n  cleared."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed inserting node for LSP [chars] [dec] to wavl tree thread [dec] [chars]",
+   "The\n   vlan-type dot1q configuration on [STRING] is not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "On interface %s user-defined wred max threshold higher than default queue-limit \\n",
+   "[STRING] agent new neighbor created on port [STRING] (IfIndex\n  [UINT32]), neighbor's chassis ID is [STRING], port ID is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Queuing error for interface [chars] qid [dec] wred [hex]",
+   "The Telnet Connection [IPADDR]([STRING]) request was denied\n   according to ACL rules."
+  ],
+  0
+ ],
+ [
+  [
+   " PTP vlan for [hex] changed to [dec]",
+   "The\n  clock source class fell below the threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "%s %s",
+   "Standby board in [STRING] is not ready, reboot ..."
+  ],
+  1
+ ],
+ [
+  [
+   "Adaptive QoS functionality is disabled. Shaper is reset to upper-bound",
+   "Failed to apply classifier-behavior [STRING] in policy [STRING]\n   to the\u00a0 [STRING] direction globally. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Client not found",
+   "Failed to create VLAN [STRING]. The\n  maximum number of VLANs has been reached."
+  ],
+  0
+ ],
+ [
+  [
+   "Peer image [chars] version [chars] on peer uid [int] being removed",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "Creation of BFD Private Buffer Pool failed",
+   "Sess[STRING],\n  Ver, Sta  [STRING], Diag  [UINT32]"
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars] thread - Unrecognized MTS opcode [dec]",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "Unknown unique_id is set.",
+   "Core\n   usage minor alarm CPU [INT] core [INT] removed."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] Grp [dec] state [chars] -> [chars]",
+   "The status of port [STRING] changed to up for the [STRING] agent."
+  ],
+  0
+ ],
+ [
+  [
+   " New MAC address [chars] is seen on interface [chars] in [chars] mode",
+   "Threshold value [UINT32] of active [STRING] routes reached in URT\n  of [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "  Error returned from sysmgr_dispatch(), errmsg  [chars]",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   "Proto Client registration for %s has failed",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  0
+ ],
+ [
+  [
+   "%s has %d non-positive ifIndices.",
+   "-User=[STRING]-IPAddr=[STRING]; SNMPv3 message is not in the time\n   window."
+  ],
+  1
+ ],
+ [
+  [
+   "Trustpoint  [chars] created succesfully",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   " TACACS+ daemon exiting  [chars]",
+   "TACACS authorization server became active  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Create-checkpoint failed  Name '[chars]', retval  '0x[hex]'",
+   "Session\n  resources supported by hardware had been released."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] An informational LDP notice was generated for a Graceful Restart event.",
+   "Failed to allocate resource for file [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to creates mpib entry for [chars] for mpib [chars] in VRF [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "%s  The test %d cannot be used as health monitoring test",
+   "IS-IS\n  [UINT16], [STRING] adjacency [STRING] ([STRING]), state changed to [STRING],\n  Reason  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to query CA certificate.",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   " Initialized [chars]",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User logged off."
+  ],
+  0
+ ],
+ [
+  [
+   "NULL MAC address from %i on %s",
+   "Detected a user IP address conflict. New user (MAC [STRING],\n   SVLAN [STRING], CVLAN [STRING]) on interface [STRING] and old user (MAC\n   [STRING], SVLAN [STRING], CVLAN [STRING]) on interface [STRING] were using\n   the same IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "Extcommlist refcount %s wrapping",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Out of memory for IP multicast MFIB. Used  %lu Free  %lu10",
+   "Detected an IP address conflict. The device with MAC address\n   [STRING] connected to interface [STRING] in VSI [STRING] and the device with\n   MAC address [STRING] connected to interface [STRING] in VSI [STRING] were\n   using the same IP address [IPADDR]."
+  ],
+  0
+ ],
+ [
+  [
+   "  MAC Addresses present exceed the allowed number of MAC addresses on Port [chars]. Fix the inconsistency on this port.",
+   "Failed to set the MAC address [STRING] on [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " vPC peer-switch configuration is disabled. Please make sure to change spanning tree bridge priority as per the recommended guidelines.",
+   "[STRING] [UINT32]'s port [STRING] was notified of a topology\n  change."
+  ],
+  1
+ ],
+ [
+  [
+   "Malformed ARP HA checkpointing message size = %u entry count = %u\\n",
+   "Duplicate address [STRING] on interface [STRING], sourced from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Initialized [chars]",
+   "[STRING];\n   Failed to apply the [STRING] weight in [STRING] profile [STRING] to the\n   user. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Learned ARP entries have reached to threshold level %lu",
+   "Failed to enable local proxy ARP on interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "%s",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "Attempt for dupe regn with SNMP IM by driver having ifIndex %d and ifDescr %s",
+   "Core\n   usage minor alarm CPU [INT] core [INT] removed."
+  ],
+  0
+ ],
+ [
+  [
+   "  Function [chars] not supported by OSPF version [chars]",
+   "Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];NATSrcIPAddr(1005)=[IPADDR];NATSrcPort(1006)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];NATDstIPAddr(1009)=[IPADDR];NATDstPort(1010)=[UINT16];InitPktCount(1044)=[UINT32];InitByteCount(1046)=[UINT32];RplyPktCount(1045)=[UINT32];RplyByteCount(1047)=[UINT32];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];RcvDSLiteTunnelPeer(1040)=[STRING];SndDSLiteTunnelPeer(1041)=[STRING];BeginTime_e(1013)=[STRING];EndTime_e(1014)=[STRING];Event(1048)=([UNIT16])[STRING];"
+  ],
+  0
+ ],
+ [
+  [
+   "  Create-checkpoint failed  Name '[chars]', retval  '0x[hex]'",
+   "Invalid username or password from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars] [dec]  Assert, write-lock not acquired",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   " BFD session [chars] removal failed due to missing ACL resources for interface [chars]",
+   "Local\n   [STRING] certificate in domain [STRING] will expire in [INTEGER] days."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars] [dec]",
+   "Invalid username or password from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " vPC peer-link inconsistency cleared unblocking [chars] [chars].",
+   "OSPF [UINT32] Neighbor [STRING] ([STRING]) changed from [STRING]\n  to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to registered Link Bundle subinterface control block In initializing link bundling subinterface feature support could not register for notifications from the common link bundle infrastructure.",
+   "User [STRING] at [STRING] failed authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't remove the txlist element for route [chars] in [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "BGP update error  %s Wrong length %d for %s dropped by error handling",
+   "Number of peers in Established state reached the license limit."
+  ],
+  1
+ ],
+ [
+  [
+   "  MRIB delete route failed in [chars]",
+   "TACACS authentication server became active  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars] as MTS queue receive failed  [chars]",
+   "Pattern 1 The maximum number of dynamic ARP entries for slot [INT32] reached.Pattern 2 The maximum number of dynamic ARP entries for chassis [INT32]\n   slot [INT32] reached."
+  ],
+  1
+ ],
+ [
+  [
+   "No valid keys left for %i",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Number of prefixes received from %s%s%s afi %d reaches %d max %d",
+   "BGP process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "  Refresh non-self-originated level-[dec] LSP [chars]",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to fork process for %s.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   "  Terminated by SYSMAN cleanup signal",
+   "IS-IS [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system\n  ID conflict might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "mismatched IPX network numbers. Ours = %x theirs = %x",
+   "Authentication\n   failed for [STRING] from [STRING] because of [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]  [chars] detected a Major Error. Please use 'show diagnostic result  <target>' to see test results. A major error was detected during diagnostic testing.",
+   "File [STRING] is missing in the RM file."
+  ],
+  0
+ ],
+ [
+  [
+   "ILMI[chars]  This command does not apply to internal terminating port. Internal terminating does not need to be configured with this command.  The command just entered is ignored.",
+   "ADJ ([STRING], [STRING], [STRING]) is down [STRING]. ([STRING])"
+  ],
+  0
+ ],
+ [
+  [
+   "%s  Passed %s",
+   "Usage\n   of CPU [INT] core [INT] exceeded the threshold ([string])."
+  ],
+  1
+ ],
+ [
+  [
+   "Fail-over of dynamic SA session to interface %s failed\\n",
+   "Failed to apply or refresh QoS policy [STRING] to the [STRING]\n   direction of control plane slot [UINT32]. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  PIM init failed  [chars]",
+   "The\n  total number of BFD sessions [ULONG] reached the upper limit. Can\u2019t create a\n  new session."
+  ],
+  0
+ ],
+ [
+  [
+   "PKCS #12 import failed for trustpoint  [chars]. Reason  [chars]",
+   "Failed to extend template hash value of file [STRING] to the PCR."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP update error  %s Wrong length %d for %s dropped by error handling",
+   "Session ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Sending ARP request for [chars] on invalid interface [chars]  request from pid  [dec]",
+   "-IfName=[STRING]-MACAddr=[STRING]-VLANID=[STRING]-Username=[STRING]-ErrCode=[STRING];\n  802.1X user was logged off."
+  ],
+  0
+ ],
+ [
+  [
+   "  TCP data stream may be out of sync, suspect TLV length of [dec] from  peer [chars]",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  bind() on [chars] failed  [chars]",
+   "OSPF [UINT16] Received newer self-originated network-LSAs.\n  Possible conflict of IP address [IPADDR] in area [STRING] on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Error initializing CEF xdr chunks",
+   "Instance [UINT32]'s port [STRING] received no BPDU within the\n  rcvdInfoWhile interval. Information of the port aged out."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't delete entry for [chars] from [chars] PT",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "Maximum implementation message size exceeded actual %u maximum %u",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars] for [chars] information failed",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "The NAT server with Easy IP is invalid because its global\n   settings conflict with that of another NAT server on this interface."
+  ],
+  1
+ ],
+ [
+  [
+   "Number of Routed PW's exceeded supported limit [dec]",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) down alarm was\n  cleared."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] added as passive member to [chars]channel[dec]",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  1
+ ],
+ [
+  [
+   "For multicast route %i %i no register tunnel found for RP %i",
+   "[STRING] failed to login from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " RADIUS daemon exiting  [chars]",
+   "SR-TE policy seglist forwarding state down event  Color [UINT32], EndPoint\n  [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32], Reason [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Invalid next hop %i received from %s  %s",
+   "Telnet client [STRING] failed to log in. The current number of\n   Telnet sessions is [NUMBER]. The maximum number allowed is ([NUMBER])."
+  ],
+  0
+ ],
+ [
+  [
+   "  pthread_create() failed for [chars]",
+   "BGP.[STRING]  [STRING] state has changed from [STRING] to [STRING].\n  ([STRING])"
+  ],
+  0
+ ],
+ [
+  [
+   " [chars]  packets were dropped in the module",
+   "IPsec packet discarded, Src IP [STRING], Dst IP [STRING],\n   SPI [UINT32], SN [UINT32], Cause [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "[Sub/RA]CS Rollover certificate has been generated for [chars] and it will be activated at [chars] Issuer-name [chars] Subject-name [chars] Serial-number [hex] End-date   [chars]",
+   "Failed to add interface [STRING] to the default VLAN."
+  ],
+  0
+ ],
+ [
+  [
+   "  Switch-profile deletion failed switch-profile '[chars]' Session type '[chars]'",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to restart timer 0x[hex] for [chars] on [chars]",
+   "Detected an IP address conflict. The\n  device with MAC address [STRING] connected to interface [STRING] in VSI [STRING]\n  and the device with MAC address [STRING] connected to interface [STRING] in VSI\n  [STRING] were using the same IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to retrieve OTV [chars] info [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Port [chars] instance [chars] priority changed to [dec]",
+   "Port [STRING] became a non-edge port after receiving a BPDU."
+  ],
+  1
+ ],
+ [
+  [
+   "   [chars] [chars]",
+   "The\n  number of session entries ([UINT32]) supported by hardware already reached."
+  ],
+  0
+ ],
+ [
+  [
+   "Invalid XDR slot. Type/len/slot %d/%d/%s. XDR at 0x%08x",
+   "SR-TE policy seglist forwarding state down event  Color [UINT32], EndPoint\n  [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32], Reason [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Received an invalid DCBXP on [chars]",
+   "ADJ ([STRING], [STRING], [STRING]) is down [STRING]. ([STRING])"
+  ],
+  0
+ ],
+ [
+  [
+   "Unknown Accounting type %d flag %d.",
+   "Threshold value [UINT32] of active [STRING] routes reached in URT\n  of [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to find sr [dec]",
+   "OSPF [UINT16] Received newer self-originated router-LSAs. Possible\n  conflict of router ID [STRING] in area [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Rec'd packet not an IPSEC packet dest_addr= [char]I src_addr= [char]I prot= [dec]",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to de-register with [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  1
+ ],
+ [
+  [
+   "  Recovery failed for [chars] DB",
+   "The current switch is no longer the root of instance [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   " Status from linecard  [dec], for module  [chars](ID  [dec]), status   [dec], error_id  [hex], catastrophic  [chars], restart count  [dec].",
+   "[STRING] [UINT32]'s port [STRING] was notified of a topology\n  change."
+  ],
+  0
+ ],
+ [
+  [
+   "Unable to lock the configuration session.  This is a warning message indicating that the configuration session  could not be locked. Simultaneous configuration sessions can corrupt the configuration.",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  1
+ ],
+ [
+  [
+   "Inconsistent rsvp reliable message timer",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) down alarm was\n  cleared."
+  ],
+  0
+ ],
+ [
+  [
+   "Accounting-Session-ID %d exceeded max value allowed",
+   "The address pool [STRING] was exhausted."
+  ],
+  0
+ ],
+ [
+  [
+   "Maximum implementation message size exceeded actual %u maximum %u This is an informational message that appears when LDP receives a request to allocate memory resources for an LDP message with a size exceeding the current implemented maximum.",
+   "ADJ ([STRING], [STRING], [STRING]) is down [STRING]. ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   " SPD Overflow on interface due to IP ACL [chars] bound to crypto map [chars] [dec]",
+   "Standby board in [STRING] changed to the master."
+  ],
+  0
+ ],
+ [
+  [
+   "  Slave port [chars] High correction % PRId64 (nsec)",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't delete PIM route [chars] in [chars]",
+   "Failed to apply filtering rules for DHCP packets because hardware\n   resources are insufficient."
+  ],
+  0
+ ],
+ [
+  [
+   "%s reference tree %s failed",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] [chars] This is a critical error message about a High Availability System interprocess communication status or condition. A message of this type indicates that an interprocess communication failure occurred between  the active system and the standby system.",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  1
+ ],
+ [
+  [
+   "Cap_table_count %d is out of bound max is %d for cap_entry_id %d.",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "  Received unknown minor message type ([dec]) from [chars]",
+   "The maximum number of dynamic ARP entries for the device reached."
+  ],
+  1
+ ],
+ [
+  [
+   "  Startup failure  Failed to [chars]",
+   "Failed to establish IPsec SA for the reason of [STRING]. The SA's\n   source address is [STRING], and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Can not allocate %s for msg session%d registration under client %s%d and entity%d",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "Password configuration changed for [chars] An informational LDP notice was generated to report password configuration change for a neighbor.",
+   "ADJ ([STRING], [STRING], [STRING]) is down [STRING]. ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Active IOS version differs from standby IOS version  This is a notice about High Availablility System version mismatch between the active and standby systems.",
+   "Standby board in [STRING] changed to the master."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to send message [chars] to [chars]",
+   "Failed to restore configuration for monitoring group [UINT32] in\n   [STRING], because [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "%s",
+   "The\n  timestamp state turned to normal."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to get the remainder of packet, expected [dec], got [dec] bytes",
+   "[STRING] failed to login from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "VPI/VCI range parameters are dis-joint on [chars]  MinSvccVci > MaxVci after negotiation with the peer   through ILMI.",
+   "Instance [UINT32]'s port [STRING] has been set to forwarding state."
+  ],
+  0
+ ],
+ [
+  [
+   " Possible MTS buffer leak for SAP [dec]",
+   "Failed to accelerate [STRING] ACL [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "Warning  Unable to allocate port %d",
+   "TACACS authentication server was blocked  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "LinkUp Interface %s changed state to up",
+   "-IfName=[STRING]-MACAddr=[STRING]-VLANID=[STRING]-Username=[STRING]-ErrCode=[STRING];\n  802.1X user was logged off abnormally."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to fork process for %s.",
+   "The actor with CKN [STRING] became principal actor on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Invalid XDR length. Type [int][chars]. XDR/buffer len [int]/[int] An internal software error occured\\n",
+   "Failed to restore the UNI configuration of [STRING], because the\n   total UNI bandwidth is greater than the NNI bandwidth."
+  ],
+  1
+ ],
+ [
+  [
+   "Can not allocate [chars] for msg session[int] registration under  Can not allocate control block for msg session registration.",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "RF event not processed till [int] milliseconds. Code = [int] The event sent to the redundancy facility was not processed till the specific time delay.",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  1
+ ],
+ [
+  [
+   "  Process [chars], Nbr [chars] on [chars] from [chars] to [chars], [chars]",
+   "The MKA session with CKN [STRING] was re-authenticated on\n  interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " access the port in BD [chars]",
+   "Failed to add interface [STRING] to the default VLAN."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to set VRF   [chars] to socket interface",
+   "Local\n   [STRING] certificate in domain [STRING] has expired for [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "invalid cursor index %d max %d service %s protocol %s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   "Blank - Please provide info",
+   "The status of [STRING] virtual router [UINT32] (configured on\n  [STRING]) changed from [STRING] to [STRING]  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Insufficient memory   %s.",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Malloc failed for [chars] [chars]",
+   "Sender IP [STRING] was not on the same network as the receiving interface\n   [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed inserting node for neighbor [inet] to wavl tree thread [dec] [chars]",
+   "[STRING] used for BFD MAD changed to the [STRING] state."
+  ],
+  1
+ ],
+ [
+  [
+   "%s is empty %s under client %s%d and entity%d.",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   " PTP priority1 changed to [dec]",
+   "In PTP instance [UINT16], PTP packets were lost.\n  (PortName=[STRING], PktType=[STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Nexthop %s may not be reachable from neigbor %s - not a loopback",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to set source interface for [chars] ip address",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "QoS CAC  failed to allocate a cft flow object for interface [chars] srcIP=[char]i dstIP=[char]i srcPort=[dec] dstPort=[dec] L4Prot=[dec] num flows=[dec]",
+   "Failed to apply or refresh QoS policy [STRING] to the [STRING]\n   direction of interface [STRING]. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to create shared memory lock  [chars]",
+   "No enough hardware resource for MPLS."
+  ],
+  0
+ ],
+ [
+  [
+   "Default Queuing error for interface [chars] qid [dec] vqid [dec]",
+   "[STRING];\n   Failed to apply the [STRING] weight in [STRING] profile [STRING] to the\n   user. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Local parameter of BFD session [hex] has changed [chars]",
+   "Sess[STRING],\n  Ver, Sta  [STRING], Diag  [UINT32]"
+  ],
+  1
+ ],
+ [
+  [
+   "BFD-SYSLOG  bfd_session_destroyed %s neigh proc %s handle %u %s",
+   "Sess[STRING],\n  Ver, Sta  [STRING], Diag  [UINT32]"
+  ],
+  1
+ ],
+ [
+  [
+   "cannot set [chars][chars] LDP ident",
+   "Session ([STRING], [STRING]) is [STRING] ([STRING]). ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "  Could not do shared database publisher initialization for interfaces rc=0x[hex] [[chars]]",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "  Dot1x is not supported on [chars] port  [chars].",
+   "Failed to assign a rule for redirecting HTTP packets on interface\n  [STRING] due to lack of ACL resources."
+  ],
+  1
+ ],
+ [
+  [
+   " BFD session to neighbor [chars] on interface [chars] has been removed",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "PKCS #12 Export from trustpoint [chars] was successfully Exported.",
+   "Session ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed initializing wavl tree.",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "  Error returned from mts_recv(), errno  [chars]",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "  PTP correction % PRId64  exceeds the threshold. Discarding the correction value. MasterTimestamp % PRIu64 (sec) [dec](nsec), SlaveTimestamp % PRIu64 (sec) [dec](nsec)",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't shutdown [chars] mqloop",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  0
+ ],
+ [
+  [
+   "Fail-over of dynamic interface %s failed\\n",
+   "CBWFQ is removed from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Error in processing IPC message   Opcode = [dec], Error code = [hex]",
+   "Instance [UINT32]'s port [STRING] received no BPDU within the\n  rcvdInfoWhile interval. Information of the port aged out."
+  ],
+  1
+ ],
+ [
+  [
+   "  No memory event detected",
+   "BPDU-Protection port [STRING] received BPDUs."
+  ],
+  0
+ ],
+ [
+  [
+   "Active IOS version differs from standby IOS version",
+   "Instance [UINT32]'s LOOP-Protection port [STRING] failed to\n  receive configuration BPDUs."
+  ],
+  0
+ ],
+ [
+  [
+   "Standby RP in slot [int] is operational in [chars] mode\\n Indicates standby route processor readiness",
+   "Batch backup of standby board in [STRING] started."
+  ],
+  1
+ ],
+ [
+  [
+   "  socket() for [chars] failed  [chars]",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) forwarding state\n  went down  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Blank - Please provide info",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  0
+ ],
+ [
+  [
+   "Some ifindices might not be persisted. There are too many ifindices and the system is unable to persist all of them.",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=SET-errorIndex=[UINT32]-errorStatus=[STRING]-node=[STRING]-value=[STRING];\n   The agent received a message."
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars] failed in [chars]",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Error in subrouter context [chars]  [chars]",
+   "SR-TE policy seglist forwarding down is resolved. (Color [UINT32],\n  EndPoint [STRING], Origin [STRING], Instance [UINT32], Originator [STRING], Discriminator\n  [UINT32], SegListID [UINT32])"
+  ],
+  0
+ ],
+ [
+  [
+   "  Switch-profile delete failed  '[chars]'",
+   "The\n  number of session entries ([UINT32]) supported by hardware already reached."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars]",
+   "The card does not support setting MAC learning limit for VLAN\n  [UINT16]."
+  ],
+  0
+ ],
+ [
+  [
+   "mpls ldp advertise-labels has no effect for lc-atm",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] This is a notice message about a High Availability System status condition or event.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  0
+ ],
+ [
+  [
+   "   [chars]",
+   "The flow entry\n   [UINT32] in table [CHAR] of instance [UINT16] was deleted with a group_mod\n   message."
+  ],
+  0
+ ],
+ [
+  [
+   "Endpoint is registered already. Endpoint is registered already.",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to add a few VRRP-BFD sessions([hex] [hex]), Refer logs",
+   "Invalid username or password from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Attempt to learn %e on %s caused system limit %u to be exceeded.",
+   "NTP server's IP address changed from [STRING] to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Router [chars] on interface [chars] is using our routerid, packet dropped",
+   "Session ([STRING], [STRING]) is [STRING] ([STRING]). ([STRING])"
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]  The test [int] cannot be used as health monitoring test The specified test number cannot be used as a health monitoring test.",
+   "The process\n   [STRING] exited abnormally."
+  ],
+  0
+ ],
+ [
+  [
+   "  Aborting ISSU, GR is disabled in [dec] out of [dec] contexts",
+   "OSPF [UINT16] Duplicate router ID [STRING] on interface [STRING],\n  sourced from IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Error returned from mts_drop(), errno  [chars]",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Version low[int] and high[int] value for msg[int] does not  Version low and high value for msg does not match table size.",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "ATM%s  PVCVCD=%d VPI=%d VCI=%d state changed to %s.",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  1
+ ],
+ [
+  [
+   "NULL mvrf specified in PIM register tunnel entry for RP %i",
+   "Current memory usage is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  OSPF shutting self down due to unknown reason",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  0
+ ],
+ [
+  [
+   " Root guard [chars] on port [chars].",
+   "Established IPsec SA. The SA's source address is [STRING],\n   destination address is [STRING], protocol is [STRING], and SPI is [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't close [chars] API",
+   "Local\n   [STRING] certificate in domain [STRING] will expire in [INTEGER] days."
+  ],
+  0
+ ],
+ [
+  [
+   "System temperature is now normal. The system is operating at a normal temperature.",
+   "Tunnel-bundle[STRING] \n  Switched from protection tunnel [STRING] to working tunnel [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to find interface [chars]",
+   "OSPF Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't delete PIM route [chars] in [chars]",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Default Queuing error for interface [chars] qid [dec] vqid [dec]",
+   "Threshold\n  value [UINT32] reached for active [STRING] routes in all URTs"
+  ],
+  0
+ ],
+ [
+  [
+   "  RPM Callback handle and/or user data missing",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid device number   %s",
+   "Failed to accelerate [STRING] ACL [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "Certificate server now disabled.",
+   "IPsec packet discarded, Src IP [STRING], Dst IP [STRING],\n   SPI [UINT32], SN [UINT32], Cause [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " IKEv1  Phase 2 negotiation failed for peer [chars]",
+   "Failed to establish phase 2 SA for the reason of [STRING]. The\n   SA's source address is [STRING], and its destination address is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "%d %d len %d flags 0x%x source %d",
+   "Failed to add flow-table due to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "method list '%s'",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   " IKEv2 message (from [chars]) parsing error  [chars]",
+   "The IKE phase 2 SA was deleted for the reason of [STRING]. The\n   SA's source address is [STRING], and its destination address is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Attempt to learn denied address %e on %s.",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Sending vrrp arp for [chars] on invalid interface [chars], point-to-point",
+   "The block action by dispute guard was undone on [STRING]\n  [UINT32]'s port [STRING]. The port transited to learning state."
+  ],
+  0
+ ],
+ [
+  [
+   "Enrollment cancelled for trustpoint   [chars]",
+   "Failed to get the CA or RA certificate from the CA server. Reason \n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Received  %i Join from %i for invalid RP %i",
+   "Failed to establish phase 2 SA for the reason of [STRING]. The\n   SA's source address is [STRING], and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] added as passive member to [chars]channel[int] The given interface was added as a passive member in the given channel number.",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  1
+ ],
+ [
+  [
+   "Not abel to create [chars] server's Trustpoint.Check for CA server config's.",
+   "Failed to establish IPsec SA for the reason of [STRING]. The SA's\n   source address is [STRING], and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Usage  mrib [-h] [-d] [-m",
+   "Inform failed to reach NMS [STRING]  Inform [STRING][STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars][int] is registered already under client [chars][int] and  Item is registered already under client and entity.",
+   "The service [STRING] set status [STRING] (Must be [STRING]),\n  Ignore."
+  ],
+  0
+ ],
+ [
+  [
+   "Module [int] [[chars]] Trap This message shows the SNMP agent sends out the Module Up/Down Traps to the engine ID of the remote agent or SNMP manager because the corresponding module is up/down.",
+   "Failed to\n   authenticate SNMP message."
+  ],
+  1
+ ],
+ [
+  [
+   "Received Register from %i for %i %i not willing to be RP",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Cannot fork process %s",
+   "Failed to configure [STRING] ACL [UINT] due to lack of memory."
+  ],
+  0
+ ],
+ [
+  [
+   "Multilink fastsend reentered bundle %s %s packet discarded",
+   "Failed to remove servers in scheme [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Enrollment cancelled for trustpoint   [chars]",
+   "Enabled Layer 3 multicast for VPN instance [STRING] successfully.Enabled Layer 3 multicast for the public network successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "Activating service policy [chars] on [chars] in [chars] direction The interface bandwidth is more than the total bandwidth  that is required for QoS policy on this interface.\\n",
+   "Failed\n   to restore the configuration of queue scheduling profile [STRING] on\n   interface [STRING], because [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Unable to allocate checkpoint queue entry",
+   "OSPF [UINT32] Area [STRING] Router [STRING]([STRING]) CPU usage  [STRING],\n  VPN name  [STRING], IfMTU  [UINT32], Neighbor address  [STRING], NbrID\n  [STRING] changed from [STRING] to [STRING] at [STRING].Last 4 hello packets received at [STRING]Last 4 hello packets sent at [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "Warning  Hardware idb is NULL. No Modem. MoH attribute can not be applied and it is Skipped for authorization.",
+   "Standby board in [STRING] changed to the master."
+  ],
+  0
+ ],
+ [
+  [
+   " IKEv1   Exceeded the limit for number of half open Phase 1 connections",
+   "Pattern 1 Don't reboot the slot [UINT32]. It is loading files.Pattern 2 Don't reboot the chassis [UINT32] slot [UINT32]. It is loading\n  files."
+  ],
+  0
+ ],
+ [
+  [
+   "  In [chars], [chars] failed with errmsg  [chars]",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   "Error opening login banner  %s",
+   "TACACS accounting server became active  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "No attribute-list passed through parser.",
+   "RADIUS authentication server became active  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "ocsp content mismatch",
+   "STG count [UINT32] is smaller than the MPU's STG count [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "Unknown entity id under client [chars][int] Unknown entity id under client",
+   "Threshold value [UINT32] reached for active [STRING] routes in all URTs"
+  ],
+  0
+ ],
+ [
+  [
+   "Attempt to generate SNMP trap from interrupt level",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=SET-errorIndex=[UINT32]-errorStatus=[STRING]-node=[STRING]-value=[STRING];\n   The agent received a message."
+  ],
+  1
+ ],
+ [
+  [
+   "  active_timer_create() failed for mrib_main()",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "%s  Diagnostics is bypassed",
+   "The [STRING] virtual router [UINT32] (configured on [STRING]) failed\n  to add virtual MAC  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Error in feature manager operation",
+   "The [STRING] virtual router [UINT32] (configured on [STRING]) failed\n  to add virtual MAC  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "rc 0x%x",
+   "Failed to establish IPsec SA for the reason of [STRING]. The SA's\n   source address is [STRING], and its destination address is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to fork process for %s.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   "BFD transmit detected on standby",
+   "Core\n   usage minor alarm CPU [INT] core [INT] removed."
+  ],
+  0
+ ],
+ [
+  [
+   "AAA ID %u",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   "CCB playback failed. This is a critical error message about a High Availability System status or condition.",
+   "Port [STRING] with\n  PVID [UINT32] received PVST BPDUs from a port with PVID [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to rotate stdout file  [chars]",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "   [chars]",
+   "Lost\n   synchronization with NTP server with IP address [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "   [chars]",
+   "System stratum changed from [UINT32] to [UINT32] after clock\n   update."
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to remove interface level VRRP-BFD sessions ([hex] [hex]), Refer logs",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  0
+ ],
+ [
+  [
+   "Peer image [chars] version [chars] on peer uid [int] is not in the",
+   "Invalid username or password from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars]  IPSec tunnel deleted  local_ip  [chars], peer_ip  [chars], id  [dec], protocol  [chars], traffic   local  [chars]/[chars], ports  [chars] remote  [chars]/[chars], ports  [chars]",
+   "Failed to establish IPsec SA for the reason of [STRING]. The SA's\n   source address is [STRING], and its destination address is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Internal info [chars]",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  0
+ ],
+ [
+  [
+   "Attempt for dupe regn with SNMP IM by driver having ifIndex [int] and ifDescr [chars] Driver is attempting to register the same idb with the interface manager  while it's already registered. This is just a warning message and handled  by snmp.",
+   "SNMP [STRING] from [STRING] is rejected due to ACL restriction."
+  ],
+  1
+ ],
+ [
+  [
+   "BFD discrminators exhausted. No more sessions can be created.",
+   "Started a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Standby synchronization error  could not add lsa type %d",
+   "OSPF [UINT32] route limit reached."
+  ],
+  1
+ ],
+ [
+  [
+   "ifIndex-table is present in two formats.",
+   "TACACS accounting server became active  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "Bind target [UINT32] to program [UINT32] by flow ID map [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unable to create source entry for [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Key string in key ID [dec] of key chain [chars] is  longer than that is supported by MD5 authentication",
+   "OSPF [UINT16] Duplicate router ID [STRING] on interface [STRING],\n  sourced from IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "Dereferencing NULL pointer [chars] in [chars]  NULL pointer error condition exists.  Some features/commands may not work properly",
+   "Failed to enable 802.1X on interface [STRING] due to lack of ACL\n  resources."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to exchange capability with peer",
+   "Failed to apply classifier-behavior [STRING] in policy [STRING]\n   to the\u00a0 [STRING] direction of control plane slot [UINT32]. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "bfd_pak_coalesce - %s failed",
+   "[STRING] used for BFD MAD changed to the [STRING] state."
+  ],
+  1
+ ],
+ [
+  [
+   "Out of buffers in RM event buffer queue",
+   "Failed to validate the certificate. Reason  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Internal software error during updating CEF Adjacency for ARP entry for %i on %s\\n",
+   "Pattern 1 ARP packet rate limit is not support on slot [INT32].Pattern 2 ARP packet rate limit is not support on chassis [INT32] slot\n   [INT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "Clear LDP neighbors %s by %s",
+   "ADJ ([STRING], [STRING], [STRING]) is down [STRING]. ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "Running configuration saved to NVRAM",
+   "Failed to validate the certificate. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to get uuid from sysmgr during [chars]",
+   "Interface [STRING] received from IP [STRING] an ARP reply that\n   was not requested by the device."
+  ],
+  1
+ ],
+ [
+  [
+   "Interface [chars] assigned DHCP address %i mask %i hostname [chars]\\n The interface has been allocated an address via DHCP",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User got online failed."
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars] [dec]  Assert, write-lock not acquired",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  0
+ ],
+ [
+  [
+   "Not able to find CS [chars]'s keypair label [chars]. Check whether keypair [chars] is available on device",
+   "Local\n   [STRING] certificate in domain [STRING] will expire in [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "Line %u  [chars]",
+   "Max active [STRING] routes [UINT32] reached in URT of [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "Group %s  Radius server %s %d%d is responding again previously dead.",
+   "RADIUS authentication server was blocked  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Key definition ignored.",
+   "RADIUS accounting server became active  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Create process %s failed",
+   "Local\n   [STRING] certificate in domain [STRING] has expired for [INTEGER] days."
+  ],
+  0
+ ],
+ [
+  [
+   "IPC type 0x%x",
+   "Failed to establish IPsec SA for the reason of [STRING]. The SA's\n   source address is [STRING], and its destination address is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  IOD in IM delete message for [chars] ([dec]) mismatches with RIP interface  [hex] (iod [dec])",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  0
+ ],
+ [
+  [
+   "  MRIB add route failed in [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  1
+ ],
+ [
+  [
+   "Unexpected Call on %s. Current state is %d.",
+   "Max active [STRING] routes [UINT32] reached in URT of [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "BGP resetting because of memory exhaustion.",
+   "Established IPsec SA. The SA's source address is [STRING],\n   destination address is [STRING], protocol is [STRING], and SPI is [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "Key ID %u %son interface %s",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] [%08X=[chars]] [chars] [dec]",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to leave [chars] group on interface [chars]",
+   "Tunnel-bundle[STRING] \n  Switched from working tunnel [STRING] to protection tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to create shared memory lock  [chars]",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "  No callback function registered for [chars] in [chars] mode",
+   "Began to establish IPsec SA. The SA's source address is [STRING],\n   and its destination address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Port state change req to PIXM failed, status = [hex] [[chars]] vdc [dec], tree id [dec], num ports [dec], ports [chars] state [chars], opcode [chars], msg id ([dec]), rr_token [hex]",
+   "Instance [UINT32]'s port [STRING] has been set to discarding state."
+  ],
+  1
+ ],
+ [
+  [
+   "Configuration was modified. Issue \\write memory\\ to save new IOS PKI configuration",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "%s",
+   "BGP.[STRING]  The route [STRING] [STRING]/[UINT32] learned from\n  peer [STRING] ([STRING]) flapped."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to [chars] during startup",
+   "The actor with CKN [STRING] became principal actor on interface\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Peer incompatibility set for image [chars] version [chars] on peer",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   " LDP Enabled",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  1
+ ],
+ [
+  [
+   "Attempt to move %e from [%s] to [%s] shutting down the latter",
+   "RIP Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   " Remote DCBXP change detected on [chars]",
+   "[STRING] agent new neighbor created on port [STRING] (IfIndex\n  [UINT32]), neighbor's chassis ID is [STRING], port ID is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "BGP PIC not enabled on [chars]  [chars]",
+   "No enough hardware resource for MPLS."
+  ],
+  1
+ ],
+ [
+  [
+   "Bad state rg \\%s\\  %d",
+   "System Leap Indicator changed from [UINT32] to [UINT32] after\n   clock update."
+  ],
+  0
+ ],
+ [
+  [
+   "%s is duplicated %s under client %s%d and entity%d",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "  Unrecognized [chars] message minor type [dec]",
+   "Packet was discarded because its sender MAC address was the MAC\n   address of the receiving interface.Interface  [STRING], sender IP  [STRING], target IP  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Initialized [chars]",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC];\n   User got online successfully."
+  ],
+  0
+ ],
+ [
+  [
+   " IKE is exiting since it is not enabled",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  virtual forwarder [UINT32] detected status change (from [STRING] to\n  [STRING])  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "bfd_pak_coalesce - %s failed",
+   "Failed to set the TPID value in CVLAN tags to [UINT32]\n  (hexadecimal). The operation is not supported."
+  ],
+  0
+ ],
+ [
+  [
+   " Received BPDU on port [chars] with BPDU Guard enabled. Disabling port.",
+   "Port [STRING] with\n  PVID [UINT32] received PVST BPDUs from a port with PVID [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars] [dec]",
+   "IPv6 ACL [UINT32] [STRING] [UINT64] packet(s)."
+  ],
+  1
+ ],
+ [
+  [
+   "bgp scan-time configuration less than %d seconds can cause high cpu usage by BGP Scanner.",
+   "BGP process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]",
+   "Openflow instance [UINT16] controller [CHAR]  failed to add table\n   miss flow entry, table id [CHAR]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to apply ACL [dec] to interface [chars]. Removing new ACL config reapplying old ACL [dec].",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars] failed in [chars], errno  [chars]",
+   "802.1X is not supported on interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "The sum of all queue-limit value is greater than the hold-queue value. \\n",
+   "The number of [STRING] agent neighbors maintained by the port\n  [STRING] (IfIndex [UINT32]) has reached [UINT32], and no more neighbors can\n  be added."
+  ],
+  0
+ ],
+ [
+  [
+   "%s Neighbor %s is %s%s",
+   "Session ([STRING], [STRING]) is [STRING] ([STRING]). ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "  Port security enabled partially in configuration on this vpc port, port security is not enabled operationally since peer VPC port doesnt have port security enabled.",
+   "Interface\n  [STRING] failed to add a virtual MAC  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Cannot start the VR[chars] [dec] on the interface [chars]. Invalid IP configuration. Reason  [chars]",
+   "The [STRING] virtual router [UINT32] (configured on [STRING]) failed\n  to add virtual MAC  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Can not find [chars] under [chars] session[int]. Can not find function under session.",
+   "Usage\n   of CPU [INT] core [INT] exceeded the threshold ([string])."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  %s{ID=%d} is skipped",
+   "Current memory usage is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "QoS CAC  failed to retreive the CAC config for interface [chars] srcIP=[char]i dstIP=[char]i srcPort=[dec] dstPort=[dec] L3Prot=[dec] L4Prot=[dec]",
+   "Failed to apply classifier-behavior [STRING] in policy [STRING]\n   to the\u00a0 [STRING] direction of interface [STRING]. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  PSS move to [chars] for [chars] information failed",
+   "OSPF [UINT16] Received newer self-originated ase-LSAs. Possible conflict\n  of router ID [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars]",
+   "TACACS authorization server was blocked  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "in_orig adr [hex] port [hex] out_trans adr [hex] port [hex] vrf [hex] prot [hex] cook %llu",
+   "Insufficient\n  memory to alloc nat resource pool."
+  ],
+  1
+ ],
+ [
+  [
+   "Can not find [chars] under [chars] session[int]. Can not find function under session.",
+   "Failed to execute theissu loadcommand."
+  ],
+  1
+ ],
+ [
+  [
+   "Trustpool Download failed",
+   "Failed to import the certificate. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "invalid hdl AAA ID %u hdl %x %s",
+   "Failed to add interface [STRING] to the default VLAN."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to recreate interface [chars]",
+   "Sess[STRING],\n  Ver, Sta  [STRING]->[STRING], Diag  [UINT32]"
+  ],
+  0
+ ],
+ [
+  [
+   "  [chars] thread - Unrecognized message major type [dec]",
+   "Failed to create VLAN [STRING]. The maximum number of VLANs has\n  been reached."
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to create Link Bundle Feature ListQ In initializing link bundling feature support an internal list queue failed to be created.",
+   "The\n   vlan-type dot1q configuration on [STRING] is not supported."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars]",
+   "Failed to apply classifier-behavior [STRING] in policy [STRING]\n   to the\u00a0 [STRING] direction of control plane slot [UINT32]. [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "The file nvram ifIndex-table.gz could not be decompressed. There is either insufficient memory to compress it or the nvram space is insufficient or some other reason.",
+   "User [STRING] at [STRING] was authenticated successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  %s",
+   "Failed to apply queue scheduling on interface [STRING]. Reason \n   [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "  Dvlan client [chars] not allowed. Interace already has non-dvlan clients",
+   "The card does not have enough hardware resources to send protocol\n  packets destined for [STRING] to the CPU for [STRING] on [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Interface %s is attached to more than one area",
+   "File [STRING] is missing in the RM file."
+  ],
+  0
+ ],
+ [
+  [
+   "ILMI[chars]  Auto-configuration cannot be enabled.",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is down."
+  ],
+  1
+ ],
+ [
+  [
+   "%s unable to remove index %08X",
+   "Failed to restore configuration for monitoring group [UINT32] in\n   [STRING], because [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   " PTP sync interval for [hex] changed to [dec]",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "  Bitfield API [chars] failed for [chars] bitfield",
+   "PIM process\n  received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Certificate reenrollment failed. Delaying before retry",
+   "Local\n   [STRING] certificate in domain [STRING] has expired for [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "  PSS read for [chars] information failed",
+   "Failed to apply filtering rules for DHCP packets because some\n   rules are not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "  Error returned from mts_recv(), errmsg  [chars]",
+   "Started a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "AAA ACCT process suspended   low I/O memory",
+   "OSPF Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "sa 0x%x cp sa 0x%x",
+   "Established IPsec SA. The SA's source address is [STRING],\n   destination address is [STRING], protocol is [STRING], and SPI is [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to register bundle interface [chars] for Command Replay service",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  1
+ ],
+ [
+  [
+   "IPSec SA receives HMAC error DP Handle [dec] ipv6 src_addr [char]I ipv6 dest_addr [char]I SPI 0x[hex]",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  virtual forwarder [UINT32] detected status change (from [STRING] to\n  [STRING])  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "FRR not enabled on [chars]. Unsupported EFP and trunk EFP count [dec].  Supported 1",
+   "No enough hardware resource for MPLS."
+  ],
+  1
+ ],
+ [
+  [
+   " System temporary directory usage has reached [dec]%.",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  1
+ ],
+ [
+  [
+   " Became STANDBY from active mode.",
+   "OSPF [UINT16] Received newer self-originated router-LSAs. Possible\n  conflict of router ID [STRING] in area [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Interface [chars] added to [chars] with cost [dec], priority [dec], link-type [chars]",
+   "Session\n   ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "server group '%s'  %s",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   "Issuer name is not BER",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars] failed in [chars] for segment [chars], errno  [chars]",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid XDR slot. Type/len/slot [int]/[int]/[chars]. XDR at 0x%08x Configured extended burst size is less than the Rate. It is considered to be illegal and has been reset based on the Rate.\\n",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  0
+ ],
+ [
+  [
+   " Bridge Assurance unblocking port [chars] [chars].",
+   "Port [STRING] became a non-edge port after receiving a BPDU."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] Grp [int] state [chars] -> [chars] The VRRP router has changed state",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  detected a VRRP configuration error  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Port [chars] in BD [chars]",
+   "Failed to apply filtering rules for DHCP packets because hardware\n   resources are insufficient."
+  ],
+  0
+ ],
+ [
+  [
+   "%s%d is in use under client %s%d and entity%d",
+   "Tunnel-bundle[STRING] \n  Switched from protection tunnel [STRING] to working tunnel [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Successfully completed \"[chars]\" on Generation 2 linecards.",
+   "Failed to accelerate [STRING] ACL [UINT32]. The resources are\n   insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   "  L[dec] [chars] LSP is full and couldn't remove lower priority TLVs to make  room for type [dec] TLV",
+   "IS-IS\n  [UINT16], [STRING] adjacency [STRING] ([STRING]), state changed to [STRING],\n  Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " new_state=[chars] interface=[chars] [chars]",
+   "BPDU-Protection port [STRING] received BPDUs."
+  ],
+  1
+ ],
+ [
+  [
+   "unable to show [dec] entries from bucket [dec]",
+   "Insufficient\n  memory to alloc nat resource pool."
+  ],
+  1
+ ],
+ [
+  [
+   " Event [chars] is invalid for the current state [chars]  [chars] [chars]",
+   "Interface\n  [STRING] failed to add a virtual MAC  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " TACACS+ daemon exiting  [chars]",
+   "User [STRING] at [STRING] failed authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "Interface %s is attached to more than one area",
+   "OSPF [UINT32] Area [STRING] Router [STRING]([STRING]) CPU usage  [STRING],\n  VPN name  [STRING], IfMTU  [UINT32], Neighbor address  [STRING], NbrID\n  [STRING] changed from [STRING] to [STRING] at [STRING].Last 4 hello packets received at [STRING]Last 4 hello packets sent at [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "Bad authentication from [inet] group [dec] type [dec]",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  received an error packet  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "The file nvram ifIndex-table.gz could not be decompressed.",
+   "Notification\n   [STRING][STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Can not allocate entity[int] under client [chars][int] Can not allocate entity control block under client.",
+   "Failed to activate NAT configuration on interface [STRING],\n   because global IP addresses already bound to another service card."
+  ],
+  0
+ ],
+ [
+  [
+   "Standby synchronization error  could not find neighbor %s %i %i",
+   "OSPF [UINT32] Neighbor [STRING] ([STRING]) changed from [STRING]\n  to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't enable PIM on [chars], IGMP is not up",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "unsupported or mal-formatted message received from %s  \\n%s",
+   "Failed\n   to save the IP forwarding table due to lack of storage resources."
+  ],
+  0
+ ],
+ [
+  [
+   "Null parameter specified for MVRF lookup.",
+   "System clock changed from [STRING] to [STRING], the NTP server's\n   IP address is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to free source entry for [chars]",
+   "Stopped a session with peer [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to parse [chars] neighbor config for neighbor [chars] [chars] [chars]",
+   "Batch backup of standby board in [STRING] has finished."
+  ],
+  0
+ ],
+ [
+  [
+   "  Slab alloc of type [chars] failed in [chars]",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] An error occurred while parsing the incoming LDP Initialization message. The FT Reconnect Timer value received was greater than the locally-configured Forwarding State Holding Timer value.",
+   "Session ([STRING], [STRING]) is [STRING] ([STRING]). ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   "  MRIB shared tree entry absent for group [chars]/[dec]",
+   "Session\n   ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Null cursor",
+   "Failed to set the TPID value in CVLAN tags to [UINT32]\n  (hexadecimal). The operation is not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "SA 0x%x0x%x",
+   "Failed to enable Layer 3 multicast for VPN instance [STRING] because\n   of insufficient resources.Failed to enable Layer 3 multicast for the public network because\n   of insufficient resources."
+  ],
+  0
+ ],
+ [
+  [
+   "  Error increasing heap size to [dec], error [dec]",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) down alarm was\n  cleared."
+  ],
+  0
+ ],
+ [
+  [
+   "Client Attempting to renegotiate on session %d",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] server's Trustpoint not available. Check for the trustpoint config.",
+   "Failed to retrieve the CRL. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Certificate chain validation has failed. Unauthorized",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   "Reset of established LDP session required to propagate %s\\nchange to peers that don't support Dynamic Announcement",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Packet %s on interface %s with expired Key ID %u.",
+   "The\n   license for SLB has been uninstalled. Server load balancing is not\n   available."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] message from %i discarded - authentication algorithm mismatch The router received an RSVP message from a source that required authentication but the received message was using the wrong authentication algorithm.",
+   "Session\n  ([STRING])  FRR is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Null vrf entry",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   "  context [chars]  [chars]",
+   "OSPF [UINT32] route limit reached."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]  The users are not allow to disable monitoring for Test #[int] The specified health monitoring test must be run and cannot be  disabled.",
+   "The usage of [STRING] ([UINT32]%)\u00a0 exceeded the threshold of\n   [UINT32]%."
+  ],
+  1
+ ],
+ [
+  [
+   " Interface [chars] is a member of portchannel, dot1x host mode will be multi-host and changing it to single-host mode wontbesupported'",
+   "Failed to assign a rule for permitting DHCP and DNS packets on interface\n  [STRING] due to lack of ACL resources."
+  ],
+  1
+ ],
+ [
+  [
+   "  L[dec] [chars] LSP space is full",
+   "IS-IS\n  [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system ID conflict\n  might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "  Index [dec] for prefix [chars] (from [chars]) is out of srgb range of next-hop [chars]",
+   "Failed to apply filtering rules for DHCP packets because hardware\n   resources are insufficient."
+  ],
+  0
+ ],
+ [
+  [
+   "[int] Internal Error see message occurs during ILMI Primary to Secondary Sync",
+   "Failed to add flow-table due to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "RADIUS process is unable to handle the requests due to insufficient I/O memory",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't set IM-extension for interface [chars]",
+   "Lost synchronization with NTP server with IP address [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unrecognized IP address change notification type [dec]",
+   "The state of track entry [UINT32] changed from [STRING] to\n  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Maximum Redirection limit of %d exceeded trying to retrieve URL %s",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "unsupported or mal-formatted message received from %s  \\n%s",
+   "BGP.[STRING]  The number of routes from peer [STRING] ([STRING])\n  exceeds the limit [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   " Port state change req to PIXM timedout after [dec] sec. vdc [dec], tree id [dec], num ports [dec], ports [chars] state [chars], opcode [chars], msg id ([dec]), rr_token [hex]",
+   "STG count [UINT32] is smaller than the MPU's STG count [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't delete [chars] from local PT",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  0
+ ],
+ [
+  [
+   "  Received short ([dec] < [dec]) MTS message on [chars] queue with opcode [dec],  dropping it",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "  Slave port [chars] High correction % PRId64 (nsec)",
+   "The PTP\n  standard time offset resumed. (TimeOffset=[UINT16], AlarmThresholdTimeOffset=[UINT16])"
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to detach %s %s service policy",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  0
+ ],
+ [
+  [
+   "  Rollback successful  Switch profile '[chars]'",
+   "Interface [STRING]\n  PVC [UINT16]/[UINT16] status is up."
+  ],
+  0
+ ],
+ [
+  [
+   "  Client [chars] has exceeded ACEs in ACL AV-Pair from ISE. Maximum number of ACEs supported in AV Pair from ISE is 32.",
+   "-IfName=[STRING]-MACAddr=[STRING]-VLANID=[STRING]-Username=[STRING];\n  MAC address was already bound to interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "IPSec SA received fragmented ESP packet DP Handle [dec] ipv6 src_addr [char]I ipv6 dest_addr [char]I SPI 0x[hex]",
+   "The IPsec SA was deleted for the reason of [STRING]. The SA's\n   source address is [STRING], destination address is [STRING], protocol is\n   [STRING], and SPI is [UINT32]."
+  ],
+  1
+ ],
+ [
+  [
+   "The Trustpool will expire in %s.",
+   "Local\n   [STRING] certificate in domain [STRING] will expire in [INTEGER] days."
+  ],
+  1
+ ],
+ [
+  [
+   "Polling CA certificate .....",
+   "TACACS authentication server was blocked  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Unblocking port [chars] on [chars]. Port consistency restored.",
+   "STP is now disabled on the device."
+  ],
+  1
+ ],
+ [
+  [
+   "  Error in parsing [chars] message from VLAN Manager",
+   "IS-IS\n  [UINT16], [STRING] adjacency [STRING] ([STRING]), state changed to [STRING],\n  Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " aaa daemon exiting  [chars]",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING];\n  AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   "Certificate server now enabled.",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User logged off."
+  ],
+  0
+ ],
+ [
+  [
+   "  Unable to find interface index [dec] for neighbor [chars]",
+   "OSPF Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "Internal software error during ARP table operation for ARP entry\\n",
+   "Detected an IP address conflict. The device with MAC address [STRING] connected to interface [STRING] in VSI [STRING] and the device with MAC address [STRING] connected to interface [STRING] in VSI [STRING] were using the same IP address [IPADDR]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]   [chars] request failed [chars]",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  1
+ ],
+ [
+  [
+   "in_orig adr [hex] port [hex] out_trans adr [hex] port [hex] vrf [hex] prot [hex] cook [hex] [hex]",
+   "Insufficient\n  memory to alloc nat resource pool."
+  ],
+  1
+ ],
+ [
+  [
+   "Fail malloc atm_swdb at %s",
+   "[STRING] agent neighbor aged out on port [STRING] (IfIndex\n  [UINT32]), neighbor's chassis ID is [STRING], port ID is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Interface %s cannot be encoded for NSR",
+   "Instance [UINT32]'s port [STRING] received no BPDU within the\n  rcvdInfoWhile interval. Information of the port aged out."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars]",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  1
+ ],
+ [
+  [
+   "Power System %u DC condition is now normal The Power System DC is normal.",
+   "Hardware resources for MPLS are restored."
+  ],
+  0
+ ],
+ [
+  [
+   "Warning  Server %s %d%d is not defined.",
+   "BGP.[STRING]  The number of routes from peer [STRING] ([STRING])\n  exceeds the limit [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] Side [char] [chars] A physical error condition detected at the indicated RAC",
+   "Sess[STRING],\n  Ver, Sta  [STRING], Diag  [UINT32]"
+  ],
+  0
+ ],
+ [
+  [
+   "Peer image [chars] version [chars] on peer uid [int] being removed",
+   "The\n   maximum number of dynamic ARP entries for the device reached."
+  ],
+  0
+ ],
+ [
+  [
+   "Can not allocate entity%d under client %s%d",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   "\\n Service policy installation failed   Service policy could not be installed \\n",
+   "CBWFQ is removed from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Re-exported NFS mounts",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  1
+ ],
+ [
+  [
+   "Bad authentication from [inet] group [dec] type [dec] expected [dec]",
+   "Hardware resources for MPLS are restored."
+  ],
+  0
+ ],
+ [
+  [
+   "%s is not detected",
+   "The SAK has been refreshed on interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " ASCII authentication not supported",
+   "RADIUS authentication server was blocked  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Learned ARP entries have reached to threshold level %lu",
+   "Power failure or manual power-off occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "The intended session %d specified in received %s for client %s%d is not found.",
+   "The MKA session with CKN [STRING] stopped on interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  Schedule Diagnostic for [%s %s %2ld %02ld.] is removed",
+   "system memory info total\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0used\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0free\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0shared\u00a0\u00a0\n   \u00a0\u00a0\u00a0\u00a0buffers\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0cachedMem  \u00a0\u00a0\u00a0[ULONG] \u00a0\u00a0\u00a0[ULONG] \u00a0\u00a0\u00a0[ULONG] \u00a0\u00a0\u00a0[ULONG]\u00a0\u00a0\u00a0 [ULONG]\u00a0\u00a0\u00a0 [ULONG]-/+ buffers/cache  \u00a0\u00a0\u00a0[ULONG] \u00a0\u00a0\u00a0[ULONG]Swap \u00a0\u00a0 \u00a0[ULONG] \u00a0\u00a0\u00a0[ULONG] \u00a0\u00a0\u00a0[ULONG]Lowmem  [ULONG]\u00a0 [ULONG] \u00a0\u00a0\u00a0[ULONG]"
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to [chars] [dec] route(s) xid [dec] to ULIB",
+   "IS-IS\n  [UINT16], [STRING] adjacency [STRING] ([STRING]), state changed to [STRING],\n  Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to remove interface level VRRP-BFD sessions ([hex] [hex]), Refer logs",
+   "The status of [STRING] virtual router [UINT32] (configured on\n  [STRING]) changed from [STRING] to [STRING]  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " BFD session [hex] down",
+   "[STRING] used for BFD MAD changed to the [STRING] state."
+  ],
+  1
+ ],
+ [
+  [
+   "  Error returned from mts_send_notify(), errno  [chars]",
+   "OSPF [UINT32] Last neighbor down event  Router ID  [STRING] Local\n  address  [STRING] Remote address  [STRING] Reason  [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "  ARP API Error  Invalid ARP MTS queue in [chars]",
+   "Stopped a session with peer [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "NCP not registered protocol = [int] A PPP NCP request encountered an internal software error.",
+   "System stratum changed from [UINT32] to [UINT32] after clock\n   update."
+  ],
+  0
+ ],
+ [
+  [
+   "PKCS #12 Import into trustpoint [chars] failed. Reason   [chars]",
+   "Failed to import the certificate. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Remote snmpEngineID for %P not found when creating user  %s",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=SET-errorIndex=[UINT32]-errorStatus=[STRING]-node=[STRING]-value=[STRING];\n   The agent received a message."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars]  [chars]{ID=[int]} is not supported The diagnostic test is not supported on current chassis configuration.",
+   "CPU usage is in severe alarm state.CPU usage  [UINT]% in last 1 minute.CPU usage thresholds Minor  [UINT]%Severe  [UINT]%Recovery  [UINT]%Process info JID \u00a0\u00a0\u00a0\u00a0\u00a0PID \u00a0\u00a0\u00a0\u00a0PRI \u00a0\u00a0\u00a0\u00a0\u00a0State \u00a0\u00a0\u00a0\u00a0FDs \u00a0\u00a0\u00a0\u00a0HH MM SS \u00a0\u00a0CPU \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Name[UINT] [UINT] [UINT] [CHAR] [UINT] [CHAR] \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0[CHAR] \u00a0\u00a0[CHAR]Core states ID \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Idle \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0User \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Kernel \u00a0\u00a0\u00a0\u00a0Interrupt \u00a0BusyCPU[UINT] \u00a0\u00a0[CHAR]\u00a0 \u00a0[CHAR] \u00a0\u00a0[CHAR]\u00a0 \u00a0[CHAR]\u00a0\u00a0 [CHAR]"
+  ],
+  1
+ ],
+ [
+  [
+   "Decay time from maximum penalty to suppress penalty is %d secs. Maximum penalty  %d suppress penalty  %d",
+   "BGP.[STRING]  The route [STRING] [STRING]/[UINT32] learned from\n  peer [STRING] ([STRING]) flapped."
+  ],
+  1
+ ],
+ [
+  [
+   "Peer %i is reachable",
+   "System stratum changed from [UINT32] to [UINT32] after clock\n   update."
+  ],
+  1
+ ],
+ [
+  [
+   "Certificate server [chars] CA certificate expired. Regenerate CA certificate manaully.",
+   "Invalid username or password from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Net %s has Nexthop-Label inconsistency",
+   "TACACS authorization server became active  Server IP=[STRING],\n  port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Base topology enabled on interface %s attached to MTR compatible mode area %s",
+   "Failed to set the TPID value in CVLAN tags to [UINT32]\n  (hexadecimal). The operation is not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "Reset of [chars] RP triggered [chars] Reset of the active RP was triggered by the standby RP in response  to some event that caused the standby RP to conclude that the active  RP was no longer functional.",
+   "BGP\n  egress-engineering incoming label [STRING] conflicts with current configuration."
+  ],
+  0
+ ],
+ [
+  [
+   "Can not allocate [chars][int] [chars]. Can not allocate function callback.",
+   "Standby board in [STRING] is not ready, reboot ..."
+  ],
+  0
+ ],
+ [
+  [
+   "  Not sending trap [chars] for [chars] because of trap and version incompatibility",
+   "SR-TE policy (Color [UINT32], EndPoint [STRING]) down alarm was\n  cleared."
+  ],
+  0
+ ],
+ [
+  [
+   "\\nActivating service policy %s in %s direction",
+   "[STRING]; Failed to apply the [STRING] QoS policy [STRING] in\n   user profile [STRING] to the user.Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Can not use configured neighbor %i on %s. Neighbor command only allowed on NBMA and P2MP networks",
+   "Sess[STRING],\n  Ver, Sta  [STRING]->[STRING], Diag  [UINT32]"
+  ],
+  0
+ ],
+ [
+  [
+   "rc [dec]",
+   "All\n  port block resources ran out in address group [UINT 16]."
+  ],
+  1
+ ],
+ [
+  [
+   " VR ID [dec] on interface [chars] state change request result [chars]",
+   "The status of [STRING] virtual router [UINT32] (configured on\n  [STRING]) changed from [STRING] to [STRING]  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Could not receive router's Certificate from file system.",
+   "BGP\n  [STRING]  Number of [STRING] routes reached the license limit."
+  ],
+  0
+ ],
+ [
+  [
+   "Network processor on module in slot [int] failed to come up. An error occured during reset of the IMA NM.",
+   "Insufficient\n  memory to alloc nat resource pool."
+  ],
+  0
+ ],
+ [
+  [
+   "child dataplane classification error for output interface [chars]",
+   "STRING];\n   Failed to apply the [STRING] rate limit to the traffic of user profile\n   [STRING] in all queues. Reason  [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "Cannot create PBR data structures for route-map [chars]",
+   "Failed to update policy [STRING] due to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Malformed attribute in %s received from %s %s",
+   "Session ([STRING], [STRING])  ([STRING])."
+  ],
+  0
+ ],
+ [
+  [
+   "Unable to find bind to forcibly delete",
+   "Failed to activate NAT configuration on interface [STRING],\n   because global IP addresses already bound to another service card."
+  ],
+  1
+ ],
+ [
+  [
+   "  Received unknown mts opcode [dec] in [chars]",
+   "SA from peer [STRING] for ([STRING], [STRING]) exceeded sa-limit of\n  [ULONG]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Failed to set policy or priority",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "  [chars] failed in [chars]",
+   "A NETCONF message was dropped. Reason  Packet size exceeded the\n  upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "  PIM is already running, process exiting",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=SET-errorIndex=[UINT32]-errorStatus=[STRING]-node=[STRING]-value=[STRING];\n   The agent received a message."
+  ],
+  0
+ ],
+ [
+  [
+   "Handle buffer size is [int] should be [int]",
+   "Executed theissu loadcommand\n  successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't create PIM route for [chars] in [chars]",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "Unable to add Cluster ID %s.",
+   "Failed to enable Layer 3 multicast for VPN instance [STRING] because\n   of insufficient resources.Failed to enable Layer 3 multicast for the public network because\n   of insufficient resources."
+  ],
+  0
+ ],
+ [
+  [
+   "Setting image %s version %s on peer uid %d as incompatible",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   " [chars]",
+   "The alarm threshold for dynamic ARP entry learning was reached on\n   interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Burst Bc increased to %d bytes\\n",
+   "[STRING];\n   Failed to apply the [STRING] CAR in [STRING] profile [STRING] to interface\n   [STRING]. Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Exceeded limit of %d extended communities per advertised prefix",
+   "BGP.[STRING]  [STRING] state has changed from [STRING] to [STRING].\n  ([STRING])"
+  ],
+  1
+ ],
+ [
+  [
+   " Eth Port Security Initialization failed  [chars]",
+   "Failed to set the MAC address [STRING] on [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Couldn't initialize [chars] API",
+   "The\n   vlan-type dot1q configuration on [STRING] failed."
+  ],
+  0
+ ],
+ [
+  [
+   "Error initializing CEF repop feature session queue",
+   "Failed\n   to save the IP forwarding table due to lack of storage resources."
+  ],
+  1
+ ],
+ [
+  [
+   "Download of %s to failed to at %#x on IMA Network Module in slot %d.",
+   "Can't collect data of file [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] Rollover certificate has been activated for [chars] replacing the previous [Sub/RA]CA certificate Issuer-name [chars] Subject-name [chars] Serial-number [hex] End-date   [chars]",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "Fatal error slot %s  %s",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC];\n   User got online successfully."
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to init IP, ret [hex], errno [dec]",
+   "The [STRING] virtual router [UINT32] (configured on [STRING])\n  received an error packet  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "The hold-queue value is less than the sum of queue-limit values. \\n",
+   "-UserName=[STRING]-IPAddr=[IPADDR]-IfName=[STRING]-OutVlan=[UINT16]-InVlan=[UINT16]-MACAddr=[MAC]-Reason=[STRING];\n   User got online failed."
+  ],
+  0
+ ],
+ [
+  [
+   "User %s locked out on authentication failure",
+   "File [STRING] is missing in the RM file."
+  ],
+  0
+ ],
+ [
+  [
+   "  Bad source address [chars] - ours on [chars]",
+   "OSPF [UINT32] New router ID elected, please restart OSPF if you\n  want to make the new router ID take effect."
+  ],
+  1
+ ],
+ [
+  [
+   "Attempt to learn denied address [enet] on [chars].  The ethernet service instance specified in the system message has  been configured for restrict-mode MAC Security and has been  configured to deny the MAC address specified in the system  message. A frame was received from this denied MAC address. The  address has not been learnt.",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Key string in key ID [dec] of key chain [chars] is  longer than that is supported by MD5 authentication",
+   "RADIUS accounting server became active  Server IP=[STRING], port=[UINT32], VPN instance=[STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Error in processing IPC message   Opcode = [dec], Error code = [hex]",
+   "The service [STRING] set status [STRING] (Must be [STRING]),\n  Ignore."
+  ],
+  0
+ ],
+ [
+  [
+   " [chars] [chars].",
+   "Please reset LDP sessions if you want to make the new MPLS LSR ID\n   take effect."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars] moved to passive state in [chars]channel[int] The given channel member interface became a passive member in the given channel number.",
+   "The\n   license for SLB has been installed. Server load balancing is available."
+  ],
+  1
+ ],
+ [
+  [
+   "  Exceeded max allowed routes to be sent to MRIB",
+   "Can't collect data of file [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "A request has been issued to remove a PIM register tunnel from multicast entry %s %i but this entry has no RP address.",
+   "Session ([STRING], [STRING]) is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "%s%s",
+   "Enabled Layer 3 multicast for VPN instance [STRING] successfully.Enabled Layer 3 multicast for the public network successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid port number   %s",
+   "The MKA session with CKN [STRING] was re-authenticated on\n  interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "NULL mvrf specified in PIM register tunnel creation request for RP %i",
+   "Partition [%s] is\n   not formatted yet. Please format the partition first."
+  ],
+  0
+ ],
+ [
+  [
+   "Client not found",
+   "Sess[STRING],\n  Ver, Sta  [STRING], Diag  [UINT32]"
+  ],
+  1
+ ],
+ [
+  [
+   "[chars] Power-On-System-Test success in Trial No.[dec]",
+   "The MKA session with CKN [STRING] was secured on interface\n  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to init URIB, ret [hex], errno [dec]",
+   "The [STRING] virtual router [UINT32] (configured on [STRING]) failed\n  to add virtual MAC  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "  Attempt to add for L[dec] [chars]/[dec] on [chars] with unknown (zero) NH address",
+   "IS-IS [UINT16], [STRING] adjacency [STRING] ([STRING]), state\n  changed to [STRING], Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "BFD-SYSLOG  bfd_session_created neigh %s proc %s idb %s handle %u %s",
+   "The usage of [STRING] ([UINT32]%)\u00a0 exceeded the threshold of\n   [UINT32]%."
+  ],
+  0
+ ],
+ [
+  [
+   "%s",
+   "The\n  clock source class crossed the threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "  Failed to create [chars] shared memory",
+   "Memory usage has dropped below [STRING] threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "Password rolled over for %s",
+   "IRF port [UINT32] came up."
+  ],
+  0
+ ],
+ [
+  [
+   "Stale Label   [dec] Neither Allocated nor Deallocated",
+   "Standby board in [STRING] changed to the master."
+  ],
+  0
+ ],
+ [
+  [
+   "%s  %s",
+   "Failed to save the IP forwarding table due to lack of storage\n   resources."
+  ],
+  1
+ ],
+ [
+  [
+   "Route Tracking failed on memory. Neighbor tracking for route-fall-over will stop",
+   "The rollback might not be able to restore the previous version for\n  [STRING] because the status is not normal."
+  ],
+  0
+ ],
+ [
+  [
+   "[chars][int] is in use under endpoint Item is in use under endpoint.",
+   "Switchover completed. The standby process became the active\n  process."
+  ],
+  1
+ ],
+ [
+  [
+   "Invalid register tunnel mode %u.",
+   "[STRING]\n  Neighbor [STRING] ([STRING]) is down."
+  ],
+  1
+ ],
+ [
+  [
+   "Unexpected oce return code",
+   "Ping statistics for [STRING]  [UINT32] packets transmitted,\n   [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max =\n   [UINT32]/[UINT32]/[UINT32] ms."
+  ],
+  1
+ ],
+ [
+  [
+   "Slow peer %s%s%s %s has recovered.",
+   "Number of [STRING] routes reached the license limit."
+  ],
+  1
+ ],
+ [
+  [
+   "  Error returned from MTS operation [chars], errno  [chars]",
+   "IS-IS [UINT16], [STRING] LSP, LSPID=[STRING], SeqNum=[HEX], system\n  ID conflict might exist."
+  ],
+  1
+ ],
+ [
+  [
+   "Command opcode [hex] on channel [int] on slot [int] was rejected.  The IMA firmware has rejected the command because of the current  protocol state of the interface or the opcode is undefined.",
+   "System Leap Indicator changed from [UINT32] to [UINT32] after\n   clock update."
+  ],
+  0
+ ],
+ [
+  [
+   "  Couldn't shutdown thread [chars]",
+   "[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  1
+ ],
+ [
+  [
+   " LLDP Disabled",
+   "[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   "Create process %s failed",
+   "Current memory usage is [STRING]."
+  ],
+  1
+ ]
+]

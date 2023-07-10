@@ -1,0 +1,3530 @@
+[
+ [
+  [
+   "AUDIT/6/AUDIT_RULE_MATCH_AS_IPV4_LOG:Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];UserName(1113)=[STRING];PolicyName(1079)=[STRING];Application(1002)=[STRING];Behavior(1101)=[STRING];BehaviorContent(1102)={Account(1103)=[STRING],Content(1104)=[STRING]};Client(1110)=[STRING];SoftVersion(1111)=[STRING];Action(1053)=[STRING];",
+   "The percentage of the maximum number of active routes was reached in the unicast routing table of a VPN instance."
+  ],
+  0
+ ],
+ [
+  [
+   "SECP/4/SECP_ACCELERATE_NO_RES:Failed to accelerate [STRING] security-policy. The resources are\n  insufficient.",
+   "The DHCP server reclaimed the IPv4 address assigned to a DHCP client."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_INFO_REQ_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is generated when a source or destination IPv4\n  address is translated into another IPv4 address."
+  ],
+  0
+ ],
+ [
+  [
+   "SYSLOG/6/ENCODING:Set the character set encoding to [STRING] for syslog messages.",
+   "The system time changed."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/5/SYSTEM_REBOOT:System is rebooting now.",
+   "The system was manually or automatically rebooted."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_TYPE_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for IPv6 TCP packets whose source IPv6 address is the same as the destination IPv6 address."
+  ],
+  0
+ ],
+ [
+  [
+   "CONNLMT/6/CONNLMT_IPV6_RATELIMIT:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];ServicePort(1071)=[UINT16];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];SndDSLiteTunnelPeer(1041)=[STRING];LimitRate(1073)=[UINT32];LimitRuleNum(1051)=[UINT16];Event(1048)=[STRING];",
+   "A dynamic ACL rule was deleted or modified manually."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_SECURITY_RAW:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "The device failed to redirect HTTP packet with the designated source MAC on an interface because of ACL resource shortage."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/5/MOD_ALM_ON:[STRING]: [STRING] was detected.",
+   "The system failed to perform one of the following actions because hardware resources are insufficient:"
+  ],
+  0
+ ],
+ [
+  [
+   "XMLSOAP/7/REPLY:Sent a NETCONF reply to the client: Session ID=[UINT16],\n  Content=[STRING].OrSent a NETCONF reply to the client: Session ID=[UINT16], Content\n  (partial)=[STRING].",
+   "Another RPR station used the same secondary MAC address."
+  ],
+  0
+ ],
+ [
+  [
+   "TRILL/5/TRILL_MEM_ALERT:TRILL process receive system memory alert [STRING] event.",
+   "The RX power of the transceiver module exceeded the high threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/4/MODULE_IN:[STRING]: The transceiver is [STRING].",
+   "When a transceiver module is inserted, the OPTMOD module generates the message to display the transceiver module type."
+  ],
+  1
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_BLADE_THROUGHPUT_BELOW:Total throughput of blade interfaces dropped\n  below the threshold on [STRING].",
+   "The inner interface throughput decreased\n  below the configured threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "LLDP/5/LLDP_PVID_INCONSISTENT:PVID mismatch discovered on [STRING] (PVID [UINT32]), with [STRING] [STRING] (PVID [STRING]).",
+   "This message is generated when the PVID on the peer is different from the PVID of the local interface."
+  ],
+  1
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_SERVICE_FAIL:Failed to start packet capture. Reason: TCP or UDP port binding faults.",
+   "Packet capture failed to start because an error occurs during TCP or UDP port binding."
+  ],
+  1
+ ],
+ [
+  [
+   "FCZONE/6/FCZONE_ISOLATE_CLEAR_ALLVSAN:-Interface=[STRING]; Isolation status was cleared in all supported VSANs.",
+   "Ethernet OAM is enabled."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ADDRMASK_REQ_RAW:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMP address mask requests of the same attributes, this message is sent only when the first request is received."
+  ],
+  1
+ ],
+ [
+  [
+   "WRDC/6/WRDC_USER_OFFLINE:-UserMAC=[STRING]-UserIP=[IPADDR]-ACIP =[IPADDR]; A user went\n  offline. Reason: [STRING].",
+   "A client went offline."
+  ],
+  1
+ ],
+ [
+  [
+   "WIPS/5/WIPS_ROGUE:-VSD=[STRING]-SrcMAC=[MAC]; Rogue AP detected by radio 1 of sensor [STRING] on channel 149 (RSSI=84).",
+   "A rogue AP was detected."
+  ],
+  1
+ ],
+ [
+  [
+   "LB/5/LB_CHANGE_LINK_PROBERESULT:The probe state of link [STRING] template [STRING] was changed to\n  [STRING].",
+   "Extended authentication failed. This message also displays the\n  failure reason and information about the SA."
+  ],
+  0
+ ],
+ [
+  [
+   "APMGR/6/APMGR_LOG_OFFLINE:AP [STRING] went offline. State changed to Idle.",
+   "The AP went offline. The state of the AP changed to Idle."
+  ],
+  1
+ ],
+ [
+  [
+   "LB/5/LB_CHANGE_RS_CONNRATE_RECOVERY:Chassis:[ChassisID],Slot:[SlotID],CPU:[CPUID].The connection rate\n  of real server [STRING] was [UINT], which had recovered to normal state.",
+   "The connection establishment rate on a real server dropped below\n  the upper limit."
+  ],
+  1
+ ],
+ [
+  [
+   "DEV/5/BOARD_REBOOT:Board is rebooting on chassis [INT32] slot [INT32].",
+   "A card was manually or automatically rebooted."
+  ],
+  1
+ ],
+ [
+  [
+   "SHELL/5/SHELL_COMMIT_REDELAY:The commit delay has been reset, a configuration rollback will be\n  performed in [INT32] minutes.",
+   "The topology information collected by the RPR stations was valid."
+  ],
+  0
+ ],
+ [
+  [
+   "STAMGR/5/STAMGR_TRIGGER_IP:-SSID=[STRING]-UserMAC=[STRING]-VLANID=[STRING]; Intrusion protection triggered. Action: [STRING].",
+   "The HTTP or HTTPS server accepted the request from a client. An HTTP or HTTPS connection was set up."
+  ],
+  0
+ ],
+ [
+  [
+   "WEB/5/LOGIN_FAILED:[STRING] failed to log in from [STRING].",
+   "A user failed to log in."
+  ],
+  1
+ ],
+ [
+  [
+   "HA/5/HA_STANDBY_TO_MASTER:Standby board in [STRING] changed to the master.",
+   "An active and standby MPU switchover occurs. The standby MPU changed to active."
+  ],
+  1
+ ],
+ [
+  [
+   "FS/4/FS_UNFORMATED_PARTITION:Partition [%s] is not\n  formatted yet. Please format the partition first.",
+   "Failed to add a group entry."
+  ],
+  0
+ ],
+ [
+  [
+   "CWC/6/CWC_AP_REBOOT:AP in state [STRING] is rebooting. Reason: [STRING]",
+   "The AP rebooted for a specific reason."
+  ],
+  1
+ ],
+ [
+  [
+   "LLDP/6/LLDP_CREATE_NEIGHBOR:[STRING] agent new neighbor created on port [STRING] (IfIndex [UINT32]), neighbor's chassis ID is [STRING], port ID is [STRING].",
+   "The port received an LLDP message from a new neighbor."
+  ],
+  1
+ ],
+ [
+  [
+   "LOAD/5/LOAD_FINISHED:Board in chassis [INT32] slot [INT32] has finished loading software images.",
+   "The DHCP server failed to back up DHCP bindings to the backup file due to lack of storage resources."
+  ],
+  0
+ ],
+ [
+  [
+   "IRF/4/IRF_MEMBER_LEFT:Member [STRING] left the IRF fabric.",
+   "Failed to delete a table-miss flow entry."
+  ],
+  0
+ ],
+ [
+  [
+   "LS/4/LS_PWD_FAILED2WRITEPASS2FILE:Failed to write the password records to file.",
+   "Failed to write the password records to file."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMPV6_LARGE_RAW:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for large ICMPv6 packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_BOMB:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for IPv4 UDP packets in which the length value in the IP header is larger than the IP header length plus the length in the UDP header."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_TIMEEXCEED:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMP time exceeded logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4/QOS_QMPROFILE_APPLYUSER_FAIL:[STRING]; Failed to apply queue management profile [STRING] in session group profile [STRING] to the user. Reason: [STRING].",
+   "The system failed to perform one of the following actions:"
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_ACK_FLOOD_SZ:SrcZoneName(1025)=[STRING];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "OSPF received a memory alarm."
+  ],
+  0
+ ],
+ [
+  [
+   "WFF/5/WFF_HARDWARE_INIT_FAILED:Firmware [UINT32] was set to pass-through mode because initialization failed.",
+   "TheMKA sessionon the interface was secured. Packets are encrypted and transmitted in cipher text. The event occurs in the following situations:"
+  ],
+  0
+ ],
+ [
+  [
+   "L2PT/4/L2PT_ADD_GROUPMEMBER_FAILED:Failed to add [STRING] as a member to the VLAN tunnel group for [STRING].",
+   "Failed to add an interface to a VLAN tunnel group for a protocol."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_INVALIDFLAGS_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is for IPv4 TCP packets that have invalid flag settings. Invalid flag settings include:"
+  ],
+  1
+ ],
+ [
+  [
+   "RPR/5/RPR_MISCABLING_OVER:A miscabling defect is cleared on ringlet0/ringlet1 corresponding to RPR logical interface [STRING].",
+   "This message is generated when an IPv4 packet matches an audit\n  rule for an unclassified application."
+  ],
+  0
+ ],
+ [
+  [
+   "QOS/4/QOS_POLICY_APPLYUSER_FAIL:[STRING]; Failed to apply the [STRING] QoS policy [STRING] in user profile [STRING] to the user.Reason: [STRING].",
+   "The system failed to perform one of the following actions:"
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/5/ ETHOAM_REMOTE_EXIT:OAM interface [string] quit OAM connection because Ethernet OAM is disabled on the peer interface.",
+   "The local interface ended the OAM connection because Ethernet OAM was disabled on the peer interface."
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/5/ETHOAM_DISCOVERY_EXIT:OAM interface [string] quit the OAM connection.",
+   "The local interface ended the OAM connection."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4/QOS_POLICY_REMOVE:QoS policy [STRING] failed to be applied to [STRING].",
+   "This message is generated when a QoS policy applied to a hub-spoke\n  tunnel on a tunnel interface failed to be modified."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_SOURCEQUENCH:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "The packet capture stopped because the maximum storage space for\n  .cap files on the device was reached."
+  ],
+  0
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_IF_IPV6_DACT_UNK_ERR:Failed to apply or refresh the IPv6 default action to the [STRING] direction of interface [STRING].",
+   "The DHCP server assigned an IPv4 address with a lease to a DHCP client."
+  ],
+  0
+ ],
+ [
+  [
+   "L2VPN/4/L2VPN_HARD_RESOURCE_NOENOUGH:No enough hardware resource for L2VPN.",
+   "The central AC has established a CAPWAP tunnel with the local AC."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/5/TEMP_NORMAL:[STRING]: Temperature is normal.",
+   "The port received an LLDP message from a new neighbor."
+  ],
+  0
+ ],
+ [
+  [
+   "HTTPD/6/HTTPD_DISCONNECT:[STRING] client [STRING] disconnected from the server.",
+   "An HTTP or HTTPS client was disconnected from the server."
+  ],
+  1
+ ],
+ [
+  [
+   "FCZONE/6/FCZONE_ISOLATE_CLEAR_VSAN:-Interface=[STRING]-VSAN=[UINT16]; Isolation status was cleared.",
+   "The isolation status of an interface was cleared in a VSAN."
+  ],
+  1
+ ],
+ [
+  [
+   "AUDIT/6/AUDIT_RULE_MATCH_IM_IPV4_LOG:Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];UserName(1113)=[STRING];PolicyName(1079)=[STRING];Application(1002)=[STRING];Behavior(1101)=[STRING];BehaviorContent(1102)={Account(1103)=[STRING],Content(1104)=[STRING],FileName(1097)=[STRING],FileSize(1105)=[STRING]};Client(1110)=[STRING];SoftVersion(1111)=[STRING];Action(1053)=[STRING];",
+   "This message is generated when an IPv4 packet matches an audit\n  rule for an IM application."
+  ],
+  1
+ ],
+ [
+  [
+   "MDC/5/MDC_LICENSE_EXPIRE:The MDC feature's license will expire in [UINT32] days.",
+   "The license for the MDC feature was about to expire."
+  ],
+  1
+ ],
+ [
+  [
+   "UDPI/6/USER-NETLOG:Protocol(1001)= [STRING];SrcIPAddr(1003)= [IPADDR];SrcPort(1004)=\n  [UINT16];DstIPAddr(1007)= [IPADDR];DstPort(1008)= [UINT16]; User(1098)=%s;\n  Application(1002)= [STRING]; Account(1101)= [STRING].",
+   "This message is generated when a packet matches application\n  account characteristics."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/4/PHONY_MODULE:[STRING]: This transceiver is not sold by H3C. H3C does not guarantee the correct operation of the module or assume maintenance responsibility.",
+   "The QACL resource usage exceeded the\n  configured threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "IPS/4/IPS_IPV6_INTERZONE:Protocol(1001)=[STRING];Application(1002)=[STRING];SrcIPv6Addr(1036)=[IPADDR];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=-[ STRING];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];PolicyName(1079)=[STRING];AttackName(1088)=[STRING];AttackID(1089)=[UINT32];Category(1090)=[STRING];Protection(1091)=[STRING];SubProtection(1092)=[STRING];Severity(1087)=[STRING];Action(1053)=[STRING].",
+   "An IPv6 packet matched an IPS signature."
+  ],
+  1
+ ],
+ [
+  [
+   "SCM/6/SCM_PROCESS_STILL_STARTING:The process $1 on $2 is still starting for $3 minutes.",
+   "ARP detected a duplicate address."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/5/CHKSUM_ERR:[STRING]: Transceiver information checksum error.",
+   "Checksum verification on the register information on the transceiver module failed."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_PORTSCAN:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];RcvVPNInstance(1042)=[STRING];DstIPAddr(1007)=[IPADDR];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when an IPv4 port scan attack is detected."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/5/RX_POW_HIGH:[STRING]: RX power is high.",
+   "The RX power of the transceiver module exceeded the high threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_TCP_WINNUKE_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "The interface performed 802.1X reauthentication."
+  ],
+  0
+ ],
+ [
+  [
+   "RTM/4/RTM_TCL_MODIFY:Failed to execute Tcl-defined policy [STRING] because the policy's Tcl script file had been modified.",
+   "The system failed to perform one of the following actions because an ACL of the same type (IPv4 ACL, IPv6 ACL, or MAC ACL) has already been applied:"
+  ],
+  0
+ ],
+ [
+  [
+   "MACSEC/6/MACSEC_MKA_SESSION_SECURED:The MKA session with CKN [STRING] was secured on interface [STRING].",
+   "TheMKA sessionon the interface was secured. Packets are encrypted and transmitted in cipher text. The event occurs in the following situations:"
+  ],
+  1
+ ],
+ [
+  [
+   "The maximum number of dynamic ARP entries for the device reached.:The maximum number of dynamic ARP entries for the device reached.",
+   "This message is displayed when the maximum number of dynamic ARP\n  entries on the device is reached."
+  ],
+  1
+ ],
+ [
+  [
+   "STAMGR/5/STAMGR_ADD_FAILVLAN:-SSID=[STRING]-UserMAC=[STRING]; Added a user to the Fail VLAN [STRING].",
+   "The AP failed to come online because the memory utilization\n  exceeded the limit."
+  ],
+  0
+ ],
+ [
+  [
+   "NQA/6/NQA_SEVER_FAILURE:Failed to enable the NQA server because listening port [ STRING ]\n   is not available.",
+   "This message is sent when the number of IPv4 RST packets sent to a destination per second exceeds the rate limit."
+  ],
+  0
+ ],
+ [
+  [
+   "PEX/5/PEX_LINK_FORWARD:Status of [STRING] changed from [STRING] to forwarding.",
+   "Data link of the PEX physical port has changed to the forwarding state and can forward data packets."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMPV6_TRACEROUTE_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING].",
+   "This message is for the IPv4 WinNuke attack. The attack uses IPv4 TCP packets with destination port 139, the URG flag set, and a nonzero Urgent Pointer."
+  ],
+  0
+ ],
+ [
+  [
+   "FILTER/6/FILTER_ZONE_EXECUTION_ICMPV6:SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];Type(1067)=[STRING];ObjectPolicy(1072)=[STRING];RuleID(1078)=[UINT32];Protocol(1001)=[STRING];SrcIPv6Addr(1036)=[STRING];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[STRING];DstPort(1008)=[UINT16];MatchCount(1069)=[UINT32];Event(1048)=[STRING];",
+   "ICMPv6 packets matched an object policy. This message is sent when the first ICMPv6 packet of a flow matches the object policy, and the message will be sent regularly for the flow."
+  ],
+  1
+ ],
+ [
+  [
+   "STAMGR/6/SERVICE_BSS_FAILURE:-APID=[STRING]-RadioID=[STRING]-WLANID=[STRING]-ST Name=[STRING];\n  The number of BSSs exceeded the upper limit.",
+   "If log aggregation is enabled, for ICMPv6 time exceeded packets of code 0 of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMP_TRACEROUTE_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is sent when logs are aggregated for IPv4 packets with a datagram smaller than 68 bytes and the MF flag set."
+  ],
+  0
+ ],
+ [
+  [
+   "LS/5/LS_USER_CANCEL:User [STRING] from [STRING] cancelled inputting the password.",
+   "The user cancelled inputting the password or did not input the password in 90 seconds."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_LOOSESRCROUTE:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)= [UINT32].",
+   "This message is sent when logs are aggregated for packets with IP option 131."
+  ],
+  1
+ ],
+ [
+  [
+   "SSHS/6/SSHS_LOG:Authentication failed for [STRING] from [STRING] port [INT32] because of invalid username or wrong password.",
+   "A mesh link was terminated."
+  ],
+  0
+ ],
+ [
+  [
+   "SSHS/6/SSHS_AUTH_EXCEED_RETRY_TIMES:SSH user [STRING] (IP: [STRING]) failed to log in, because the number of authentication attempts exceeded the upper limit.",
+   "The number of authentication attempts by an SSH user reached the upper limit."
+  ],
+  1
+ ],
+ [
+  [
+   "LB/6/LB_NAT44_FLOW:Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];NATSrcIPAddr(1005)=[IPADDR];NATSrcPort(1006)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];NATDstIPAddr(1009)=[IPADDR];NATDstPort(1010)=[UINT16];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];",
+   "This message is generated when a source or destination IPv4\n  address is translated into another IPv4 address."
+  ],
+  1
+ ],
+ [
+  [
+   "DHCP/3/DHCP_NOTSUPPORTED:Failed to apply filtering rules for DHCP packets because some rules are not supported.",
+   "The system failed to perform one of the following actions:"
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_REDIRECT_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMP redirect logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/4/ ETHOAM_NO_ENOUGH_RESOURCE:The configuration failed on OAM interface [string] because of insufficient resources.",
+   "The configuration failed on the OAM interface because of insufficient system resources."
+  ],
+  1
+ ],
+ [
+  [
+   "MACSEC/6/MACSEC_MKA_SESSION_REAUTH:The MKA session with CKN [STRING] was re-authenticated on interface [STRING].",
+   "The interface performed 802.1X reauthentication."
+  ],
+  1
+ ],
+ [
+  [
+   "LAGG/6/LAGG_INACTIVE_LOWER_LIMIT:Member port [STRING] of aggregation group [STRING] changed to the inactive state, because the number of active ports is below the lower limit.",
+   "A member port in an aggregation group was placed in Unselected state because the required minimum number of Selected ports was not reached."
+  ],
+  1
+ ],
+ [
+  [
+   "APMGR/6/APMGR_AP_OFFLINE:AP [STRING] went offline. State changed to Idle.",
+   "The AP went offline. The state of the AP changed to Idle."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_FRAGMENT_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMPv6 echo replies of the same attributes, this message is sent only when the first reply is received."
+  ],
+  0
+ ],
+ [
+  [
+   "WMESH/5/MESH_LINKDOWN:Mesh link on interface [CHAR] is down: peer MAC = [MAC], RSSI =\n  [CHAR], reason: [STRING] ([STRING]).",
+   "This message is generated when the PVID on the peer is different from the PVID of the local interface."
+  ],
+  0
+ ],
+ [
+  [
+   "OFP/5/OFP_FLOW_ADD_DUP:Openflow instance [UINT16] controller [CHAR]: add duplicate flow entry [UINT32], xid 0x[HEX], cookie 0x[HEX], table id [CHAR].",
+   "A duplicate flow entry was added."
+  ],
+  1
+ ],
+ [
+  [
+   "OFP/5/OFP_FLOW_DEL_TABLE_MISS:Openflow instance [UINT16] controller [CHAR]: delete table miss flow entry, xid 0x[HEX], cookie 0x[HEX], table id [STRING].",
+   "A user selected a confirmation option for a command."
+  ],
+  0
+ ],
+ [
+  [
+   "LOGIN/5/LOGIN_FAILED:[STRING] failed to login from [STRING].",
+   "DLDP detected a bidirectional link on an interface."
+  ],
+  0
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_BLADE_THROUGHPUT_EXCEED:Total throughput of blade interfaces\n  reached the threshold [STRING] on [STRING].",
+   "The URL filtering signature library was updated successfully\n  through a manual offline update or triggered online update."
+  ],
+  0
+ ],
+ [
+  [
+   "SSHS/6/SSHS_CONNECT:SSH user [STRING] (IP: [STRING]) connected to the server successfully.",
+   "BGP received a memory alarm."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_FRAGGLE:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "A flow entry was deleted due to a group modification message."
+  ],
+  0
+ ],
+ [
+  [
+   "STM/3/STM_SOMER_CHECK:Neighbor of IRF port [UINT32] cannot be stacked.",
+   "The IPv6 address that was to be assigned to the interface is being used by another device."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_TCP_SYNFIN_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMP time exceeded packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "SSHS/5/SSHS_ENCRYPT_FAIL:The packet to [STRING] failed to be encrypted with [STRING].",
+   "A packet to an SSH client failed to be encrypted."
+  ],
+  1
+ ],
+ [
+  [
+   "WIPS/5/WIPS_MALF:-VSD=[STRING]-SrcMAC=[MAC]; Error detected: [STRING].",
+   "A malformed packet was detected."
+  ],
+  1
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_OPERATION_TIMEOUT:Failed to start or continue packet capture. Reason: Operation timed out.",
+   "This message is generated when one of the following situations occurs:"
+  ],
+  1
+ ],
+ [
+  [
+   "STM/5/STM_AUTO_UPDATING:Don't reboot the slot [UINT32]. It is loading files.",
+   "A user logged in successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "LB/5/LB_CHANGE_RS_CONNRATE_OVER:Chassis:[ChassisID],Slot:[SlotID],CPU:[CPUID].The connection rate\n  of real server [STRING] was [UINT], which had reached the upper limit.",
+   "The local interface ended the OAM connection because Ethernet OAM was disabled on the peer interface."
+  ],
+  0
+ ],
+ [
+  [
+   "CFGMAN/5/CFGMAN_CFGCHANGED:-EventIndex=[INT32]-CommandSource=[INT32]-ConfigSource=[INT32]-ConfigDestination=[INT32]; Configuration changed.",
+   "The running configuration changed in the past 10 minutes."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_STREAMID_RAW_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for packets with IP option 136 and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_BANDWIDTH_EXCEED:Inbound traffic exceeded the total\n  bandwidth usage threshold [STRING] Mbps.",
+   "The number of active routes reached the upper limit in the unicast routing table of a VPN instance."
+  ],
+  0
+ ],
+ [
+  [
+   "EVB/6/EVB_VSI_OFFLINE:VSI [STRING] went offline.",
+   "The VSI interface or VSI aggregate interface is deleted when either of the following events occurs:"
+  ],
+  1
+ ],
+ [
+  [
+   "WIPS/5/MAN_IN_MIDDLE:-VSD=[STRING]-SrcMAC=[MAC]; Man-in-the-middle attack detected.",
+   "Telnet login control ACLs control which Telnet clients can access\n  the Telnet service on the device. The device sends this log message when it\n  denies a Telnet client."
+  ],
+  0
+ ],
+ [
+  [
+   "WEB/5/LOGIN:[STRING] logged in from [STRING].",
+   "The local interface ended Ethernet OAM because it had not received\n  Information OAMPDUs before the timer timed out."
+  ],
+  0
+ ],
+ [
+  [
+   "ETHOAM/4/ETHOAM_LOCAL_DYING_GASP:A local Dying Gasp event has occurred on [string].",
+   "A local Dying Gasp event occurs when you reboot the local device or shut down the interface."
+  ],
+  1
+ ],
+ [
+  [
+   "SSHS/6/SSHS_VERSION_MISMATCH:SSH client [STRING] failed to log in because of version mismatch.",
+   "A user uses thepingcommand to identify whether a destination in a private network is reachable."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/5/TX_ALM_ON:[STRING]: [STRING] was \u00a0detected.",
+   "The AP came online. The state of the AP changed to Run."
+  ],
+  0
+ ],
+ [
+  [
+   "STAMGR/6/STAMGR_CLIENT_FAILURE:Client [STRING] failed to come online from BSS [STRING] with SSID\n  [STRING] on AP [STRING] Radio ID [STRING]. Reason: [STRING].",
+   "The device failed to assign an ACL rule to redirect HTTP packets on an 802.1X-enabled interface because EAD assistant was not supported."
+  ],
+  0
+ ],
+ [
+  [
+   "IPSEC/6/IPSEC_ANTI-REPLAY_WINDOWS_ERROR:Anti-replay dropped a packet: src=[STRING]; time-sent=[STRING],\n  [UINT32] [STRING] [UINT32] [UINT32]:[UINT32]:[UINT32] [UINT32]us;\n  time-received=[STRING], [UINT32] [STRING] [UINT32] [UINT32]:[UINT32]:[UINT32]\n  [UINT32]us; time-diff=[UINT32]us; window-size= +-[FLOAT]ms.",
+   "A packet was dropped. Possible reasons include:"
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_STREAMID_RAW_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "The license for EVB will expire in the specified number of days."
+  ],
+  0
+ ],
+ [
+  [
+   "AUDIT/6/AUDIT_RULE_MATCH_FORUM_IPV4_LOG:Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];UserName(1113)=[STRING];PolicyName(1079)=[STRING];Application(1002)=[STRING];Behavior(1101)=[STRING];BehaviorContent(1102)={Account(1103)=[STRING],Content(1104)=[STRING]};Client(1110)=[STRING];SoftVersion(1111)=[STRING];Action(1053)=[STRING];",
+   "An RX fault was removed from the transceiver module."
+  ],
+  0
+ ],
+ [
+  [
+   "SSHS/6/SSHS_SCP_OPER:User [STRING] at [IPADDR] requested operation: [STRING].",
+   "The SCP sever received an operation request from an SCP client."
+  ],
+  1
+ ],
+ [
+  [
+   "BLS/5/BLS_ENTRY_DEL:SrcIPAddr(1003)=[IPADDR]; DSLiteTunnelPeer(1040)=[STRING]; RcvVPNInstance(1041)=[STRING]; Reason(1052)=[STRING].",
+   "A blacklist entry was deleted. The message is sent when a blacklist entry is manually deleted or dynamically deleted due to the aging."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4/QOS_POLICY_ACTIVATE:QoS policy [STRING] was successfully applied to [STRING].",
+   "The system samples CPU core usage at an interval of 1 minute and\n  generates this message if the sample is greater than the CPU core usage\n  threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "DOT1X/3/DOT1X_NOTENOUGH_EADFREEIP_RES:Failed to assign a rule for Free IP [IPADDR] on interface [STRING] due to lack of ACL resources.",
+   "Failed to issue the NQA operation to driver."
+  ],
+  0
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_SECP_IPV4_EXCEED:Number of IPv4 security policy rules\n  reached the threshold [STRING].",
+   "The local end quit remote loopback after you disabled OAM loopback on the local interface."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMPV6_TRACEROUTE_RAW:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING].",
+   "If log aggregation is enabled, for ICMPv6 time exceeded packets of code 0 of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_TIMESTAMP_RAW:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for packets with IP option 68 and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "DHCPS6/4/DHCPS6_FILE:Failed to save DHCP client information due to lack of storage resources.",
+   "The DHCPv6 server failed to back up DHCPv6 bindings to the backup file due to lack of storage resources."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_SYN_FLOOD:RcvIfName(1023)=[STRING];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "An IKE SA cannot be established in phase 1. The failure reason is displayed."
+  ],
+  0
+ ],
+ [
+  [
+   "CWS/6/CWS_IMG_DOWNLOAD_COMPLETE:System software image file [STRING] downloading through the CAPWAP tunnel for AP [STRING] completed.",
+   "The AP downloaded the image file from the AC successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "CWS/6/CWS_AP_UP:[STRING] CAPWAP tunnel to AP [STRING] went up.",
+   "The AP came online and entered Run state."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/5/TX_ALM_ON:[STRING]: [STRING] was \u00a0detected.",
+   "A TX fault was detected on the transceiver module."
+  ],
+  1
+ ],
+ [
+  [
+   "LB/5/LB_LINK_STATE_ACTIVE:The state of link [STRING] is active.",
+   "This message is generated after an IP address is configured, the\n  health monitoring succeeds, or theundo shutdowncommand is executed."
+  ],
+  1
+ ],
+ [
+  [
+   "DHCPSP6/4/DHCPSP6_FILE:Failed to save DHCP client information due to lack of storage resources.",
+   "All intra-VLAN loops on a port were removed."
+  ],
+  0
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_CONNECTION_EXCEED:Session establishment rate reached the\n  threshold [STRING] on [STRING].",
+   "IRF merge occurred."
+  ],
+  0
+ ],
+ [
+  [
+   "IKE/6/IKE_P2_SA_ESTABLISH_FAIL:Failed to establish phase 2 SA for the reason of [STRING]. The SA's source address is [STRING], and its destination address is [STRING]. As [STRING]",
+   "The connection establishment rate on a link reached the upper\n  limit."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_WINNUKE_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is sent when logs are aggregated for IPv6 TCP packets that have only the FIN flag set."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_GROUPQUERY_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMPv6 multicast listener query logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/4/ETHOAM_NO_ENOUGH_RESOURCE:The configuration failed on OAM interface [string] because of\n  insufficient resources.",
+   "The configuration failed on the OAM interface because of\n  insufficient system resources."
+  ],
+  1
+ ],
+ [
+  [
+   "SSHS/6/SSHS_REACH_USER_LIMIT:SSH client [STRING] failed to log in, because the number of users reached the upper limit.",
+   "If log aggregation is enabled, for ICMP echo replies of the same attributes, this message is sent only when the first reply is received."
+  ],
+  0
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_RAGG_BELOW:Number of Layer 3 aggregate interfaces dropped\n  below the threshold.",
+   "The interface changed from suppressed state to unsuppressed state. When the interface is unsuppressed, the upper-layer services can detect the physical state changes of the interface."
+  ],
+  0
+ ],
+ [
+  [
+   "XMLCFG/3/THREAD:Maximum number of NETCONF threads already reached.",
+   "If log aggregation is enabled, for ICMP time exceeded packets of code 0 of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "PCAPWARE/5/PCAPWARE_STOP:The packet capture\n  stopped because [STRING].",
+   "The packet capture stopped because the maximum storage space for\n  .cap files on the device was reached."
+  ],
+  1
+ ],
+ [
+  [
+   "WIPS/5/HONEYPOT:-VSD=[STRING]-SrcMAC=[MAC]; Honeypot AP detected.",
+   "The specified AP was detected as a honeypot AP."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_UDP_SNORK_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is sent when an IPv6 port scan attack is detected."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_IPSWEEP:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is for the IPv4 fragment attack. The attack uses IPv4 packets with an offset smaller than 5 but bigger than 0."
+  ],
+  0
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_NAT_EXCEED:Number of NAT server mappings and static\n  NAT mappings reached the threshold [STRING].",
+   "This message is sent when an IPv6 port scan attack is detected."
+  ],
+  0
+ ],
+ [
+  [
+   "LS/5/LS_REAUTHEN_FAILURE:User [STRING] from [STRING] failed reauthentication.",
+   "A user failed reauthentication because the old password entered for reauthentication is invalid."
+  ],
+  1
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_AP_OFFLINE:Failed to start packet capture. Reason: AP was offline.",
+   "Packet capture failed to start because the AP configured with packet capture was offline."
+  ],
+  1
+ ],
+ [
+  [
+   "HA/5/HA_STANDBY_TO_MASTER:Standby board in [STRING] changed to the master.",
+   "The AP is rebooting because a physical radio interface of the AP\n  is in down state."
+  ],
+  0
+ ],
+ [
+  [
+   "RPR/5/RPR_EXCEED_MAX_STATION_OVER:A maximum number of stations exceeded defect is cleared on the ring corresponding to RPR logical interface [STRING].",
+   "The system failed to install the WLAN feature package because of\n  insufficient hardware resources."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_IMPOSSIBLE_RAW:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "This message is for the IPv6 impossible packet attack. The attack uses IPv6 packets whose source IPv6 address is the same as the destination IPv6 address."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/5/MOD_ALM_OFF:[STRING]: [STRING] was removed.",
+   "A fault was removed from the transceiver module."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMPV6_TRACEROUTE:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for ICMPv6 time exceeded packets of code 0."
+  ],
+  1
+ ],
+ [
+  [
+   "VRRP/6/VRRP_VF_STATUS_CHANGE:The [STRING] virtual router [UINT32] (configured on [STRING]) virtual forwarder [UINT32] detected status change (from [STRING] to [STRING]): [STRING].",
+   "The status of the virtual forwarder has changed because the weight changed, the timeout timer expired, or VRRP went down."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_PACKETTOOBIG:Icmpv6Type(1064)=[UINT32];RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMPv6 packet too big logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IP_OPTION_RAW_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "The system Leap Indicator changed. For example, the NTP status changed from unsynchronized to synchronized."
+  ],
+  0
+ ],
+ [
+  [
+   "OBJP/4/OBJP_APPLAY_INFO:Failed to apply policy [STRING]. Reason: [STRING].",
+   "An object policy failed to be applied."
+  ],
+  1
+ ],
+ [
+  [
+   "MGROUP/3/MGROUP_SYNC_CFG_FAIL:Failed to restore configuration for mirroring group [UINT16] in [STRING], because [STRING]",
+   "This message is for the IPv4 impossible packet attack. The attack uses IPv4 packets whose source IPv4 address is the same as the destination IPv4 address."
+  ],
+  0
+ ],
+ [
+  [
+   "TACACS/5/TACACS_AUTH_FAILURE:User [STRING] from [STRING] failed authentication.",
+   "An authentication request was rejected by the TACACS server."
+  ],
+  1
+ ],
+ [
+  [
+   "OBJP/4/OBJP_APPLY_POLICY_FAIL:Failed to apply [STRING] object policy [STRING]. The object policy\n  does not exist.",
+   "An object policy failed to be applied because the object policy\n  doesn't exist."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_TIMEEXCEED_RAW:Icmpv6Type(1064)=[UINT32];RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMPv6 time exceeded packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "ACL/3/ACL_NO_MEM:Failed to configure [STRING] ACL [UINT] due to lack of memory.",
+   "Configuring the ACL failed because memory is insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   "EIGRP/5/PEER_CHANGE:EIGRP [UINT32]: Neighbor [STRING] ([STRING]) is [STRING]:\n  [STRING].",
+   "The EIGRP neighbor state changed for a specific reason."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_PORTSCAN_SZ:SrcZoneName(1025)=[STRING];Protocol(1001)=[STRING];SrcIPv6Addr(1036)=[IPADDR];RcvVPNInstance(1042)=[STRING];DstIPv6Addr(1037)=[IPADDR];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when an IPv6 port scan attack is detected."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_REDIRECT_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "If log aggregation is enabled, for ICMP address mask requests of the same attributes, this message is sent only when the first request is received."
+  ],
+  0
+ ],
+ [
+  [
+   "ETHOAM/6/ETHOAM_CONNECTION_SUCCEED:An OAM connection is established on interface [string].",
+   "An OAM connection is established."
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/5/ETHOAM_NOT_CONNECTION_TIMEOUT:Interface [string] quit Ethernet OAM because it received no\n  Information OAMPDU before the timer times out.",
+   "The number of device entries learned within the specified interval reached the threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "IKE/6/IKE_XAUTU_FAILE:Failed to pass extended authentication in [STRING] mode [STRING]\n  state.Reason: [STRING].SA information:\u00b7Role: [STRING].\u00b7Local IP: [STRING].\u00b7Local ID type: [STRING].\u00b7Local ID: [STRING].\u00b7Local port: [UINT32].\u00b7Retransmissions: [UINT32]\u00b7Remote IP: [STRING].\u00b7Remote ID type: [STRING].\u00b7Remote ID: [STRING].\u00b7Remote port: [UINT32].\u00b7Recived retransmissions: [UINT32]\u00b7Inside VPN instance: [STRING].\u00b7Outside VPN instance: [STRING].\u00b7Initiator Cookie: [STRING]\u00b7Responder Cookie: [STRING].\u00b7Message ID: [STRING].\u00b7Connection ID: [UINT32]",
+   "The DHCP snooping device failed to back up DHCP snooping entries to the backup file due to lack of storage resources."
+  ],
+  0
+ ],
+ [
+  [
+   "LS/5/LS_AUTHEN_FAILURE:User [STRING] from [STRING] failed authentication. [STRING]",
+   "The local server rejected a user's authentication request."
+  ],
+  1
+ ],
+ [
+  [
+   "ASPF/6/ASPF_IPV6_DNS:SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];DomainName(1099)=[STRING];Action(1053)=[STRING];Reason(1056)=[STRING].",
+   "ASPF inspection for DNS is configured. The device takes a specific action on IPv6 packets that are determined to be illegal for a reason."
+  ],
+  1
+ ],
+ [
+  [
+   "IRF/2/IRF_LINK_BLOCK:IRF port went blocked.",
+   "The IRF port was blocked. A blocked IRF port cannot send and\n  receive service packets, but it can send and receive IRF protocol packets.\n  For example, this message appears on the member device that has the lower\n  priority when an IRF member ID conflict is detected for member devices."
+  ],
+  1
+ ],
+ [
+  [
+   "LB/5/LB_CHANGE_SF_STATUS:The state of server farm [STRING] was changed to [STRING].",
+   "The state of a server farm changed."
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_GLB_IPV6_DACT_NO_RES:Failed to apply or refresh the IPv6 default action to the [STRING] direction globally. The resources are insufficient.",
+   "The standby MPU did not have enough resources to create the MDC."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_FRAGMENT:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for IPv6 packets with an offset smaller than 5 but bigger than 0."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_LAND_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "The system failed to set a binding rule to the hardware on an interface. The message is sent in any of the following situations:"
+  ],
+  0
+ ],
+ [
+  [
+   "IFNET/5/INTERFACE_SUPPRESSED:Interface [STRING] was suppressed.",
+   "The interface was suppressed because its state frequently changed. When the interface is suppressed, the upper-layer services cannot detect the physical state changes of the interface."
+  ],
+  1
+ ],
+ [
+  [
+   "EVIISIS/5/EVIISIS_NBR_CHG:EVIISIS [UINT32], [STRING] adjacency [STRING] ([STRING]), state changed to: [STRING].",
+   "This message is sent when logs are aggregated for IPv4 TCP packets with destination port 139, the URG flag set, and a nonzero Urgent Pointer."
+  ],
+  0
+ ],
+ [
+  [
+   "WIPS/5/HONEYPOT:-VSD=[STRING]-SrcMAC=[MAC]; Honeypot AP detected.",
+   "The number of routes in the specified address family reached the license limit."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ECHO_REQ_RAW_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];DstPort(1004)=[UINT16];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is sent when ICMPv6 destination unreachable logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_SYNFIN_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is for IPv4 TCP packets that have SYN and FIN flags set."
+  ],
+  1
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_INVALD_FILTER:Failed to start packet capture. Reason: Invalid expression for matching packets to be captured.",
+   "This message is sent when ICMPv6 multicast listener done logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "WFF/5/WFF_HARDWARE_LOOPBACK_FAILED:Firmware [UINT32] was set to pass-through mode because loopback check failed.",
+   "The fan tray started to operate correctly after it was installed."
+  ],
+  0
+ ],
+ [
+  [
+   "APMGR/4/APMGR_AC_MEM_ALERT:The memory usage of the AC has reached the threshold.",
+   "The link layer protocol state changed on an interface."
+  ],
+  0
+ ],
+ [
+  [
+   "RTM/4/RTM_TCL_LOAD_FAILED:Failed to load the Tcl script file of policy [STRING].",
+   "The system failed to load the Tcl script file for the policy to memory."
+  ],
+  1
+ ],
+ [
+  [
+   "SCM/3/SCM_SKIP_PROCESS:The process $1 on $2 was skipped because it failed to start within 6 hours.",
+   "A process failed to start within 6 hours. The device will skip this process and continue to start."
+  ],
+  1
+ ],
+ [
+  [
+   "NTP/5/NTP_CLOCK_CHANGE:System clock changed from [STRING] to [STRING], the NTP server's IP address is [STRING].",
+   "The NTP client has synchronized its time to the NTP server."
+  ],
+  1
+ ],
+ [
+  [
+   "IPSEC/6/IPSEC_SA_ESTABLISH:Established IPsec SA. The SA's source address is [STRING], destination address is [STRING], protocol is [STRING], and SPI is [UINT32].",
+   "The administrator deleted a user from a user group."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_PARAPROBLEM:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMP parameter problem logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "STP/6/STP_FORWARDING:Instance [UINT32]'s port [STRING] has been set to forwarding state.",
+   "MSTP calculated the state of ports within an instance, and a port was set to the forwarding state."
+  ],
+  1
+ ],
+ [
+  [
+   "LAGG/6/LAGG_INACTIVE_BFD:Member port [STRING] of aggregation group [STRING] changed to the inactive state, because the BFD session state of the port was down.",
+   "If log aggregation is enabled, for packets with IP option 7 and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_ECHO_RPL:Icmpv6Type(1064)=[UINT32];RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMPv6 echo reply logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_GLB_IPV4_DACT_UNK_ERR:Failed to apply or refresh the IPv4 default action to the [STRING] direction globally.",
+   "The system failed to perform one of the following actions due to an unknown error:"
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_ECHO_REQ_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMPv6 echo request logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "CFD/6/CFD_ERROR_CCM:MEP [UINT16] in SI [INT32] received an error CCM. It\u2019s SrcMAC is [MAC], SeqNum is [INT32], RMEP is [UINT16], MD ID is [STRING], MA ID is [STRING].",
+   "A MEP received an error CCM containing an unexpected MEP ID or lifetime."
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/6/ ETHOAM_QUIT_LOOPBACK_CTRLLED:The local OAM entity quit remote loopback as controlled DTE on OAM interface [string].",
+   "The AP started to download the image file from the AC."
+  ],
+  0
+ ],
+ [
+  [
+   "AUDIT/6/AUDIT_RULE_MATCH_MAIL_IPV4_LOG:Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];UserName(1113)=[STRING];PolicyName(1079)=[STRING];Application(1002)=[STRING];Behavior(1101)=[STRING];BehaviorContent(1102)={Sender_addr(1106)=[STRING],Receiver_addr(1107)=[STRING],Subject(1108)=[STRING],Body(1109)=[STRING]};Client(1110)=[STRING];SoftVersion(1111)=[STRING];Action(1053)=[STRING];",
+   "This message is generated when an IPv4 packet matches an audit\n  rule for an email application."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_TYPE_RAW_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "A memory alarm was generated, displaying memory usage information."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_TCP_FINONLY_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is sent when the IP usage of the NAT address group in\n  NO-PAT mode exceeded the threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "IPS/4/IPS_IPV4_INTERZONE:Protocol(1001)=[STRING];Application(1002)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];PolicyName(1079)=[STRING];AttackName(1088)=[STRING];AttackID(1089)=[UINT32];Category(1090)=[STRING];Protection(1091)=[STRING];SubProtection(1092)=[STRING];Severity(1087)=[STRING];Action(1053)=[STRING].",
+   "A flow entry was deleted because of a hard time expiration."
+  ],
+  0
+ ],
+ [
+  [
+   "ND/6/ND_SET_PORT_TRUST_NORESOURCE:Not enough resources to complete the operation.",
+   "Failed to execute the command because driver resources were not enough."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_STREAMID_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for packets with IP option 136."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_IMPOSSIBLE_RAW:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "The NAT Server with Easy IP did not take effect because its global settings conflict with that the global settings of another NAT Server on the same interface."
+  ],
+  0
+ ],
+ [
+  [
+   "STAMGR/6/STAMGR_STAIPCHANGE_INFO:IP address of client [STRING] changed to [STRING].",
+   "This message is generated when an IPv6 packet matches an audit\n  rule for a social networking application."
+  ],
+  0
+ ],
+ [
+  [
+   "RPR/5/RPR_TOPOLOGY_INVALID_OVER:A topology invalid defect is cleared on the ring corresponding to RPR logical interface [STRING].",
+   "The topology information collected by the RPR stations was valid."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF/6/OSPF_RTRID_CONFILICT_INTER:OSPF [UINT16] Received newer self-originated ase-LSAs. Possible conflict of router ID [STRING].",
+   "This message is sent when logs are aggregated for IPv6 TCP packets with destination port 139, the URG flag set, and a nonzero Urgent Pointer."
+  ],
+  0
+ ],
+ [
+  [
+   "VLAN/4/VLAN_VLANMAPPING_FAILED:The configuration failed because of resource insufficiency or conflicts on [STRING].",
+   "Part of or all VLAN mapping configurations on the interface were lost because of one of the following occurrences:"
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_FIN_FLOOD:RcvIfName(1023)=[STRING];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when the number of IPv6 FIN packets sent to a destination per second exceeds the rate limit."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMP_SMURF:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "RIP received a memory alarm."
+  ],
+  0
+ ],
+ [
+  [
+   "SCM/4/ SCM_PROCESS_STARTING_TOOLONG:The process $1 on $2 has not finished starting in $3 hours.",
+   "This message is sent when the number of IPv6 SYN packets sent to a destination per second exceeds the rate limit."
+  ],
+  0
+ ],
+ [
+  [
+   "OFP/5/OFP_FLOW_RMV_GROUP:The flow entry [UINT32] in table [CHAR] of instance [UINT16] was deleted with a group_mod message.",
+   "A flow entry was deleted due to a group modification message."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_TIMEEXCEED_RAW_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMPv6 time exceeded packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "WIPS/5/AP_CHANNEL_CHANGE:-VSD=[STRING]-SrcMAC=[MAC]; Channel change detected.",
+   "When packet capture is stopped on the AC, the fit AP might be still uploading the captured frames. This message is generated when the user restarted packet capture at that time."
+  ],
+  0
+ ],
+ [
+  [
+   "NETSHARE/6/NETSHARE_IPV6_LOG:SrcIPv6Addr(1036)=[IPADDR];UserName(1113)=[STRING];TerminalNum(1125)=[UINT16];PolicyName(1079)=[STRING];Action(1053)=[STRING];FreezeTime(1126)=[UINT16].",
+   "The local AC went offline. The state of the local AC changed to\n  Idle."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_FRAGGLE_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for IPv4 UDP packets with source port 7 and destination port 19."
+  ],
+  1
+ ],
+ [
+  [
+   "IPSEC/6/IPSEC_SA_INITIATION:Began to establish IPsec SA.Local address: [STRING]Remote address: [STRING]Sour addr: [STRING]\u00a0 Port: [UINT32]\u00a0 Protocol: [STRING]Dest addr: [STRING]\u00a0 Port: [UINT32]\u00a0 Protocol: [STRING]Inside VPN instance: [STRING]Outside VPN instance: [STRING]ACL number: [UINT32]ACL name: [STRING]",
+   "This message is sent when ICMP echo reply logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_IPSWEEP_SZ:SrcZoneName(1025)=[STRING];Protocol(1001)=[STRING];SrcIPv6Addr(1036)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "Packet capture failed to start because the AP configured with packet capture was offline."
+  ],
+  0
+ ],
+ [
+  [
+   "DOT1X/3/DOT1X_NOTENOUGH_ENABLEDOT1X_RES:Failed to enable 802.1X feature on interface [STRING] due to lack of ACL resources.",
+   "This message is sent when ICMP redirect logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "ACL/6/PFILTER_IPV6_STATIS_INFO:[STRING] ([STRING]): Packet-filter IPv6 [UINT32] [STRING] [STRING] [UINT64] packet(s).",
+   "The number of packets matching the packet-filter IPv6 ACL rule changed."
+  ],
+  1
+ ],
+ [
+  [
+   "DHCPS6/5/DHCPS6_RECLAIM_ADDRESS:DHCPv6 server reclaimed a [STRING] pool's lease(IPv6 address [IPADDR], lease [UINT32] seconds), which is allocated for the DHCPv6 client (DUID [HEX], IAID [HEX]).",
+   "Restoring the binding between the service card and the interface failed."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/5/RPS_NORMAL:RPS [INT32] is normal.",
+   "The RPS started to operate correctly after it was installed."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/5/RX_ALM_ON:[STRING]: [STRING] was detected.",
+   "The number of packets matching the IPv4 ACL rule changed."
+  ],
+  0
+ ],
+ [
+  [
+   "CWS/6/CWS_RUN_DOWNLOAD_START:AP [STRING] started to download the file [STRING].",
+   "The AP started to download the file from the AC."
+  ],
+  1
+ ],
+ [
+  [
+   "LLDP/5/LLDP_REACH_NEIGHBOR_LIMIT:The number of [STRING] agent neighbors maintained by the port [STRING] (IfIndex [UINT32]) has reached [UINT32], and no more neighbors can be added.",
+   "This message is generated when the port with its maximum number of neighbors reached received an LLDP packet."
+  ],
+  1
+ ],
+ [
+  [
+   "DIAG/5/MEM_USAGE:Current memory usage is [STRING].",
+   "Current memory usage of the device."
+  ],
+  1
+ ],
+ [
+  [
+   "CONNLMT/6/CONNLMT_IPV4_RECOVER:RcvIfName(1023)=[STRING];Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];DstIPAddr(1007)=[IPADDR];ServicePort(1071)=[UINT16];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];SndDSLiteTunnelPeer(1041)=[STRING];DropPktCount(1052)=[UINT32];LowerLimit(1050)=[UINT32];LimitRuleNum(1051)=[UINT16];Event(1048)=[STRING];",
+   "The number of concurrent connections dropped below the lower threshold from the upper threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4/QOS_POLICY_APPLYIF_CBFAIL:Failed to apply classifier-behavior [STRING] in policy [STRING] to the\u00a0 [STRING] direction of interface [STRING]. [STRING].",
+   "A local Link Fault event occurred when the local link goes down."
+  ],
+  0
+ ],
+ [
+  [
+   "ND/6/ND_CONFLICT:[STRING] is inconsistent.",
+   "The configuration information in the received router advertisement was not consistent with the configuration on the device. A message is sent if an inconsistency is detected."
+  ],
+  1
+ ],
+ [
+  [
+   "DEV/5/RPS_NORMAL:RPS [INT32] is normal.",
+   "ACL acceleration failed for the IPv6 ACL because rules containing thehop-by-hopkeyword exist in the ACL."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP/5/BGP_RECHED_THRESHOLD:BGP.[STRING]: The proportion of prefixes received from peer [STRING] ([STRING]) to maximum allowed prefixes reached the threshold value ([UINT32]%).",
+   "The bias current of the transceiver module returned to the acceptable range."
+  ],
+  0
+ ],
+ [
+  [
+   "SNMP/6/SNMP_SET:-seqNO=[UINT32]-srcIP=[STRING]-op=SET-errorIndex=[UINT32]-errorStatus=[STRING]-node=[STRING]-value=[STRING]; The agent received a message.",
+   "SNMP received a Set request from an NMS. The system logs SNMP operations only when SNMP logging is enabled."
+  ],
+  1
+ ],
+ [
+  [
+   "RPR/5/RPR_SEC_MAC_DUPLICATE_OVER:A duplicate secondary MAC addresses defect is cleared on the ring corresponding to RPR logical interface [STRING].",
+   "The duplicate secondary MAC address defect was cleared."
+  ],
+  1
+ ],
+ [
+  [
+   "ARP/6/DUPIP:IP address [STRING] conflicted with global or imported IP address, sourced from [STRING].",
+   "The sender IP address of the received ARP packet conflicted with the global or imported IP address."
+  ],
+  1
+ ],
+ [
+  [
+   "NTP/5/NTP_SOURCE_LOST:Lost synchronization with NTP server with IP address [STRING].",
+   "The clock source of the NTP association is in unsynchronized state or it is unreachable."
+  ],
+  1
+ ],
+ [
+  [
+   "PKI/5/REQUEST_CERT_SUCCESS:Request certificate of domain [STRING] successfully.",
+   "An SSH user failed the publickey authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "IFNET/5/PROTOCOL_UPDOWN:Protocol [STRING] state on the interface [STRING] changed to [STRING].",
+   "The state of a protocol has been changed on an interface."
+  ],
+  1
+ ],
+ [
+  [
+   "STAMGR/6/STAMGR_STAIPCHANGE_INFO:IP address of client [STRING] changed to [STRING].",
+   "The IP address of the client was updated."
+  ],
+  1
+ ],
+ [
+  [
+   "EVB/6/EVB_LICENSE_EXPIRE:The EVB feature's license will expire in [UINT32] days.",
+   "The PEX has been unregistered. You cannot operate the PEX from the parent device."
+  ],
+  0
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_VLAN_IPV6_DACT_NO_RES:Failed to apply or refresh the IPv6 default action to the [STRING] direction of VLAN [UINT16]. The resources are insufficient.",
+   "The system failed to perform one of the following actions because hardware resources are insufficient:"
+  ],
+  1
+ ],
+ [
+  [
+   "SECP/6/SECP_RULE_UPDATE_SUCCESS:RuleName(1080)=[STRING];RuleID(1078)=[UINT32];Type(1067)=[STRING];Action(1053)=[STRING];",
+   "A security policy rule was modified successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "DPI/4/DAC_STORE_STATE_FULL:DPI/4/DAC_STORE_STATE_FULL: The [STRING] alarm threshold\n  (AlarmThreshold(1121)=[STRING]) set for StoreName(1119)=[STRING] was\n  exceeded.",
+   "The data analysis center checks the data of each service to\n  determine if the storage time- or storage space-based threshold is exceed on\n  an per hour basis."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ECHO_RPL:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "A CF card was removed."
+  ],
+  0
+ ],
+ [
+  [
+   "STAMGR/6/STAMGR_DELBAC_INFO:Delete BAS AC [STRING].",
+   "Security policy rule matching acceleration failed because of a\n  system failure."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_RST_FLOOD_SZ:SrcZoneName(1025)=[STRING];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when the number of IPv6 RST packets sent to a destination per second exceeds the rate limit."
+  ],
+  1
+ ],
+ [
+  [
+   "CWC/6/CWC_RUN_NO_ENOUGH_SPACE:Insufficient flash memory space for downloading file [STRING].",
+   "The AP failed to download the file from the AC because of insufficient flash memory."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMPV6_FLOOD_SZ:SrcZoneName(1025)=[STRING];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "The AC does not need to send client information to the uplink\n  device because client information already arrived at the end of the IOCTL\n  tunnel."
+  ],
+  0
+ ],
+ [
+  [
+   "PCE/5/PCE_PCEP_SESSION_CHG:Session ([STRING], [STRING]) is [STRING].",
+   "The session state changed."
+  ],
+  1
+ ],
+ [
+  [
+   "ACL/6/ACL_STATIS_INFO:ACL [UINT32] [STRING] [UINT64] packet(s).",
+   "The number of packets matching the IPv4 ACL rule changed."
+  ],
+  1
+ ],
+ [
+  [
+   "UFLT/6/UFLT_NOT_MATCH_IPv4_LOG:Protocol(1001)=[STRING];Application(1002)=[STRING];UserName(1113)=[STRING];SrcMacAddr(1021)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];NATSrcIPAddr(1005)=[IPADDR];NATSrcPort(1006)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];NATDstIPAddr(1009)=[IPADDR];NATDstPort(1010)=[UINT16];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];PolicyName(1079)=[STRING];URLCategory(1094)=[STRING];URL(1093)=[STRING];VistTime(1114)=[STRING];Client(1110)=[STRING];Action(1053)=[STRING];",
+   "The running configuration changed in the past 10 minutes."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_GROUPQUERY_RAW:Icmpv6Type(1064)=[UINT32];RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "The client failed to pass 802.1X authentication. The failure can be caused by one of the following reasons:"
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_IMPOSSIBLE_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for IPv6 packets whose source IPv6 address is the same as the destination IPv6 address."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_STRICTSRCROUTE_RAW:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "This message is generated when the port failed to receive LLDPDUs from the neighbor within a certain period of time."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/4/FIBER_SFPMODULE_INVALID:[STRING]: This transceiver module is not compatible with the interface card. HP does not guarantee the correct operation of the transceiver module. The transceiver module will be invalidated in [UINT32] days. Please replace it with a compatible one as soon as possible.",
+   "This message is sent when the number of IPv6 FIN packets sent to a destination per second exceeds the rate limit."
+  ],
+  0
+ ],
+ [
+  [
+   "CWS/4/CWS_LOCALAC_DOWN:CAPWAP tunnel to local AC [STRING] went down. Reason: [STRING].",
+   "The CAPWAP tunnel between the central AC and the local AC was terminated for a specific reason."
+  ],
+  1
+ ],
+ [
+  [
+   "DOT1X/3/DOT1X_UNICAST_NOT_EFFECTIVE:The unicast trigger feature is enabled but is not effective on interface [STRING].",
+   "When the last link adjacency of the session was lost, session protection started. This message is generated during the session protection process, indicating the current session protection state."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_FRAGMENT:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is for IPv4 TCP packets that have SYN and FIN flags set."
+  ],
+  0
+ ],
+ [
+  [
+   "LS/5/LS_AUTHEN_FAILURE:User [STRING] from [STRING] failed authentication. [STRING]",
+   "Hardware resources for MPLS were restored."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_SECURITY_RAW_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for packets with IP option 130 and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "PIM/5/PIM_NBR_UP:[STRING]PIM-NBR change: Neighbor [STRING]([STRING]) is up. ([STRING][STRING])[STRING]: Neighbor [STRING] ([STRING]) is up.",
+   "The EVI IS-IS adjacency state changed on an interface."
+  ],
+  0
+ ],
+ [
+  [
+   "STAMGR/5/STAMGR_AUTHORACL_FAILURE:-SSID=[STRING]-UserMAC=[STRING]; Failed to assign an ACL. Reason: [STRING].",
+   "The IRF port went down."
+  ],
+  0
+ ],
+ [
+  [
+   "IPSEC/6/IPSEC_PACKET_DISCARDED:IPsec packet discarded, Src IP:[STRING], Dst IP:[STRING], SPI:[UINT32], SN:[UINT32], Cause:[STRING].",
+   "An IPsec packet was dropped. Possible reasons include anti-replay checking failed, AH/ESP authentication failed, invalid SA, ESP decryption failed, source address of packet does not match the SA, and no ACL rule matched."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TINY_FRAGMENT_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "Current memory usage of the device."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ECHO_REQ_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "The MKA session was terminated. Possible reasons include:"
+  ],
+  0
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_VLAN_IPV6_DACT_UNK_ERR:Failed to apply or refresh the IPv6 default action to the [STRING] direction of VLAN [UINT16].",
+   "Failed to import an identity user account from a .csv file and stopped importing remaining identity user accounts."
+  ],
+  0
+ ],
+ [
+  [
+   "SNMP/6/SNMP_NOTIFY:Notification [STRING][STRING].",
+   "Configuring the ACL failed because memory is insufficient."
+  ],
+  0
+ ],
+ [
+  [
+   "EDEV/5/EDEV_FAILOVER_GROUP_STATE_CHANGE:Status of stateful failover group [STRING] with ID [UINT32] changed to\u00a0 [STRING].",
+   "The status of a failover group changed."
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_VLAN_RES_CONFLICT:Failed to apply or refresh [STRING] ACL [UINT] to the [STRING] direction of VLAN [UINT16]. [STRING] ACL [UINT] has already been applied to the VLAN.",
+   "The system failed to perform one of the following actions because an ACL of the same type (IPv4 ACL, IPv6 ACL, or MAC ACL) has already been applied:"
+  ],
+  1
+ ],
+ [
+  [
+   "RPR/4/RPR_EXCEED_MAX_STATION:A maximum number of stations exceeded defect is present on the ring corresponding to RPR logical interface [STRING].",
+   "The number of RPR stations on the ring has reached the upper limit."
+  ],
+  1
+ ],
+ [
+  [
+   "APMGR/4/APMGR_CFG_FAILD:Failed to reset AP [STRING]. Reason: The AP is writing an image\n  file into the flash.",
+   "AP reset failed because the AP is writing an image file into the\n  flash."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_PARAPROBLEM:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is for the IPv6 fragment attack. The attack uses IPv6 packets with an offset smaller than 5 but bigger than 0."
+  ],
+  0
+ ],
+ [
+  [
+   "LAGG/6/LAGG_INACTIVE_PARTNER:Member port [STRING] of aggregation group [STRING] changed to the inactive state, because the aggregation configuration of its peer port is incorrect.",
+   "ICMP packets matched an object policy. This message is sent when the first ICMP packet of a flow matches the object policy, and the message will be sent regularly for the flow."
+  ],
+  0
+ ],
+ [
+  [
+   "RM/4/RM_ACRT_REACH_LIMIT:Max active [STRING] routes [UINT32] reached in URT of [STRING]",
+   "The process initialization takes a long time and has not been finished. Too many processes have been configured or the process is abnormal."
+  ],
+  0
+ ],
+ [
+  [
+   "APMGR/6/APMGR_LOG_LACOFFLINE:Local AC [STRING] went offline. State changed to Idle.",
+   "The local AC went offline. The state of the local AC changed to\n  Idle."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/5/TEMP_HIGH:[STRING]: Temperature is high.",
+   "The temperature of the transceiver module exceeded the high threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "TACACS/4/TACACS_DELETE_HOST_FAIL:Failed to delete servers in scheme [STRING].",
+   "The MP received a Link Open request in confirm received state."
+  ],
+  0
+ ],
+ [
+  [
+   "CWC/6/CWC_LOCALAC_UP:CAPWAP tunnel to Central AC [STRING] went up.",
+   "The central AC has established a CAPWAP tunnel with the local AC."
+  ],
+  1
+ ],
+ [
+  [
+   "STAMGR/6/STAMGR_ADDBAC_INFO:Add BAS AC [STRING].",
+   "The BAS AC was connected to the master AC."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_FRAGMENT:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "The system failed to apply filtering rules for DHCP packets because some rules are not supported on the device."
+  ],
+  0
+ ],
+ [
+  [
+   "PWDCTL/6/ADDBLACKLIST:[STRING] was added to the blacklist for failed login attempts.",
+   "The user entered an incorrect password. It failed to log in to the device and was added to the password control blacklist."
+  ],
+  1
+ ],
+ [
+  [
+   "APMGR/4/APMGR_LOG_MEMALERT:The memory usage of the AC has reached the threshold.",
+   "If log aggregation is enabled, for ICMP information replies of the same attributes, this message is sent only when the first reply is received."
+  ],
+  0
+ ],
+ [
+  [
+   "FILTER/6/FILTER_ZONE_IPV4_EXECUTION:SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];Type(1067)=[STRING];ObjectPolicy(1072)=[STRING];RuleID(1078)=[UINT32];Protocol(1001)=[STRING];Application(1002)=[STRING];SrcIPAddr(1003)=[STRING];SrcPort(1004)=[UINT16];DstIPAddr(1007)=[STRING];DstPort(1008)=[UINT16];MatchCount(1069)=[UINT32];Event(1048)=[STRING];",
+   "Packet capture stopped because the capture failed to upload the captured frames."
+  ],
+  0
+ ],
+ [
+  [
+   "ACL/5/ ACL_RULE_SUBID_EXCEED:The rule ID in [STRING] ACL [UNIT32] is out of range.",
+   "An FLOGI is received when the hardware resources are insufficient."
+  ],
+  0
+ ],
+ [
+  [
+   "RPR/5/RPR_EXCEED_MAX_SEC_MAC_OVER:A maximum number of secondary MAC addresses exceeded defect is cleared on the ring corresponding to RPR logical interface [STRING].",
+   "This message is for IPv4 UDP fraggle attack. The attack uses IPv4 UDP packets with source port 7 and destination port 19."
+  ],
+  0
+ ],
+ [
+  [
+   "SYSLOG/4/SYSLOG_LOGFILE_FULL:Log file space is full.",
+   "This message is sent when ICMP echo request logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_TIMESTAMP_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "No matching URL filtering rule was found for an IPv4 packet."
+  ],
+  0
+ ],
+ [
+  [
+   "SHELL/4/SHELL_CMD_EXECUTEFAIL:-User=[STRING]-IPAddr=[STRING]; Command [STRING] in view [STRING] failed to be executed.",
+   "A command failed to be executed."
+  ],
+  1
+ ],
+ [
+  [
+   "L2VPN/5/L2VPN_BGPVC_CONFLICT_LOCAL:Remote site ID [INT32] (From [STRING], route distinguisher\n  [STRING]) conflicts with local site.",
+   "This message is sent when logs are aggregated for IPv6 TCP packets that have all flags set."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/5/VOLT_NORMAL:[STRING]: Voltage is normal.",
+   "IPSG failed to delete a global static IPSG binding. The message is sent in any of the following situations:"
+  ],
+  0
+ ],
+ [
+  [
+   "LAGG/6/LAGG_INACTIVE_SPEED:Member port [STRING] of aggregation group [STRING] changed to the inactive state, because the speed configuration of the port is incorrect.",
+   "If log aggregation is enabled, for ICMP source quench packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "The number of dynamic neighbor entries on interface\n  GigabitEthernet3/0/1 has reached the maximum.:The number of dynamic neighbor entries on interface [STRING] has\n  reached the maximum.",
+   "The number of dynamic neighbor entries on the interface has\n  reached the upper limit."
+  ],
+  1
+ ],
+ [
+  [
+   "SCM/4/SCM_INSMOD_ADDON_TOOLONG:Failed to finish loading $1 in $2 minutes.",
+   "Kernel file loading timed out during device startup."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_DEST_UNREACH_RAW_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "A user changed the password at the first login."
+  ],
+  0
+ ],
+ [
+  [
+   "SECP/4/SECP_ACCELERATE_UNK_ERR:Failed to accelerate [STRING] security-policy.",
+   "Security policy rule matching acceleration failed because of a\n  system failure."
+  ],
+  1
+ ],
+ [
+  [
+   "RPR/3/RPR_SEC_MAC_DUPLICATE:A duplicate secondary MAC addresses defect is present on the ring corresponding to RPR logical interface [STRING].",
+   "Packet capture failed to start because the device failed to be connected to the FTP server in the same network segment."
+  ],
+  0
+ ],
+ [
+  [
+   "SFLOW/4/SFLOW_HARDWARE_ERROR:Failed to [STRING] on interface [STRING] due to [STRING].",
+   "The configuration failed because the device does not support the fixed flow sampling mode."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4/QOS_POLICY_APPLYUSER_FAIL:[STRING]; Failed to apply the [STRING] QoS policy [STRING] in user profile [STRING] to the user.Reason: [STRING].",
+   "DLDP detected a unidirectional link on an interface."
+  ],
+  0
+ ],
+ [
+  [
+   "STAMGR/6/STAMGR_ROAM_SUCCESS:Client [MAC] roamed from BSSID [MAC] on AP [STRING] Radio ID\n  [STRING] of AC IP [IPADDR] to BSSID [MAC] on AP [STRING] Radio ID [STRING] of\n  AC IP [IPADDR] successfully.",
+   "The client roamed successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "FILTER/6/FILTER_ZONE_IPV6_EXECUTION:SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];Type(1067)=[STRING];ObjectPolicy(1072)=[STRING];RuleID(1078)=[UINT32];Protocol(1001)=[STRING];Application(1002)=[STRING];SrcIPv6Addr(1036)=[STRING];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[STRING];DstPort(1008)=[UINT16];MatchCount(1069)=[UINT32];Event(1048)=[STRING];",
+   "A flow matched an object policy. This message is sent when the first packet of a flow matches the object policy, and the message will be sent regularly for the flow."
+  ],
+  1
+ ],
+ [
+  [
+   "PHYD/2/DRV:-Slot=3.1; [STRING] : Detected hardware fast-forwarding status\n  error. Info saved in [STRING]",
+   "The system monitors hardware fast-forwarding status at intervals.\n  When detecting an error, the system records the error information and\n  displays this message."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF/6/OSPF_LAST_NBR_DOWN:OSPF [UINT32] Last neighbor down event: Router ID: [STRING] Local address: [STRING] Remote address: [STRING] Reason: [STRING]",
+   "The device records the OSPF neighbor down event caused by a specific reason."
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_GLB_IPV4_DACT_NO_RES:Failed to apply or refresh the IPv4 default action to the [STRING] direction globally. The resources are insufficient.",
+   "The system failed to perform one of the following actions because hardware resources are insufficient:"
+  ],
+  1
+ ],
+ [
+  [
+   "The number of dynamic neighbor entries for the device has reached the maximum.:The number of dynamic neighbor entries for the device has reached the maximum.",
+   "The number of dynamic neighbor entries on the device has reached the upper limit."
+  ],
+  1
+ ],
+ [
+  [
+   "LSPV/6/LSPV_PING_STATIS_INFO:Ping statistics for [STRING]: [UINT32] packets transmitted, [UINT32] packets received, [DOUBLE]% packets loss, round-trip min/avg/max = [UINT32]/[UINT32]/[UINT32] ms.",
+   "Ping statistics for an LSP tunnel or a PW."
+  ],
+  1
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_UPLOAD_ERROR:Packet capture aborted. Reason: Failed to upload captured frames.",
+   "Packet capture stopped because the capture failed to upload the captured frames."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_TSTAMP_REQ_RAW:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "The temperature of the transceiver module went below the low threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_TIMEEXCEED_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "The number of RPR stations on the ring has dropped below the upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "FS/4/FS_UNFORMATED_PARTITION:Partition [%s] is not\n  formatted yet. Please format the partition first.",
+   "The partition is not formatted. You must\n  format a partition before you can perform other operations on the partition."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_WINNUKE:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "ACL acceleration failed for the IPv6 ACL because rules containing multiple TCP flags exist in the ACL."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_BOMB:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for IPv6 TCP packets that have no flag set."
+  ],
+  0
+ ],
+ [
+  [
+   "STAMGR/6/SERVICE_FAILURE:Service failure occurred on BSS [STRING] after service template [STRING]\n  with SSID [STRING] was bound to radio [STRING] on AP [STRING] with AP ID\n  [STRING]. Reason: [STRING], code=0x[STRING].",
+   "After the AP came online, BSS activation failed for a specific\n  reason with error code 0x61140001."
+  ],
+  1
+ ],
+ [
+  [
+   "STM/6/STM_LINK_UP:IRF port [UINT32] came up.",
+   "An IRF port came up."
+  ],
+  1
+ ],
+ [
+  [
+   "PING/6/PING_VPN_STATISTICS:[STRING] statistics for [STRING] in VPN instance [STRING] : [UINT32] packets transmitted, [UINT32] packets received, [DOUBLE]% packet loss, round-trip min/avg/max/std-dev = [DOUBLE]/[DOUBLE]/[DOUBLE]/[DOUBLE] ms.",
+   "This message is generated when a source or destination IPv4\n  address is translated into an IPv6 address."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_SNORK:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "A card was manually or automatically rebooted."
+  ],
+  0
+ ],
+ [
+  [
+   "BGP/5/BGP_ROUTE_LICENSE_REACHED:Number of [STRING] routes reached the license limit.",
+   "The number of routes in the specified address family reached the license limit."
+  ],
+  1
+ ],
+ [
+  [
+   "SHELL/5/SHELL_COMMIT:The configuration has been committed.",
+   "The current switch is no longer the root bridge of an instance. It received a superior BPDU after it was configured as the root bridge."
+  ],
+  0
+ ],
+ [
+  [
+   "MDC/5/MDC_OFFLINE:MDC [UINT16] is offline now.",
+   "The system failed to perform one of the following actions because hardware resources are insufficient:"
+  ],
+  0
+ ],
+ [
+  [
+   "IRF/4/IRF_MEMBERID_CONFLICT:IRF member ID conflict occurred. The ID [UINT32] has been used for\n  another device with CPU-Mac: [STRING].",
+   "The number of AP radios using this service template has exceeded\n  the upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "FFILTER/6/FFILTER_IPV6_LOG:Protocol(1001)=[STRING];Application(1002)=[STRING];DataDirection(1081)=[STRING];RuleName(1080)=[STRING];PolicyName(1079)=[STRING];SrcIPv6Addr(1036)=[IPADDR];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];SrcZone(1025)=[STRING];DstZone(1035)=[STRING];UserName(1113)=[STRING];action(1053)=[STRING];",
+   "An IPv6 packet matched a file filtering rule."
+  ],
+  1
+ ],
+ [
+  [
+   "RADIUS/6/RADIUS_AUTH_SUCCESS:User [STRING] from [STRING] was authenticated successfully.",
+   "An authentication request was accepted by the RADIUS server."
+  ],
+  1
+ ],
+ [
+  [
+   "IPS/4/IPS_IPV6_INTERZONE:Protocol(1001)=[STRING];Application(1002)=[STRING];SrcIPv6Addr(1036)=[IPADDR];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=-[ STRING];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];PolicyName(1079)=[STRING];AttackName(1088)=[STRING];AttackID(1089)=[UINT32];Category(1090)=[STRING];Protection(1091)=[STRING];SubProtection(1092)=[STRING];Severity(1087)=[STRING];Action(1053)=[STRING].",
+   "The device records the OSPFv3 neighbor down event caused by a specific reason."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/4/MODULE_OUT:[STRING]: Transceiver absent.",
+   "A blacklist entry was added. The message is sent when a blacklist entry is manually configured or dynamically created according to the scanning result."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_RECORDROUTE_RAW_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for packets with IP option 7 and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "IFNET/3/IF_JUMBOFRAME_WARN:The specified size of jumbo frames on the aggregate interface\n  [STRING] is not supported on the member port [STRING].",
+   "This message is sent when ICMPv6 packet too big logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "VRRP/6/VRRP_AUTH_FAILED:Authentication failed in [STRING] virtual router [UINT32] (configured on [STRING]): [STRING].",
+   "This message is for the ping of death attack. The attack uses ICMP packets larger than 65535 bytes with the MF flag set to 0."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_STREAMID:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for packets with IP option 136."
+  ],
+  1
+ ],
+ [
+  [
+   "LDP/5/LDP_SESSION_CHG:Session ([STRING], [STRING]) is [STRING].",
+   "The session state changed."
+  ],
+  1
+ ],
+ [
+  [
+   "SSHS/5/SSHS_DECRYPT_FAIL:The packet from [STRING] failed to be decrypted with [STRING].",
+   "A packet from an SSH client failed to be decrypted."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ADDRMASK_REQ_RAW_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMP address mask requests of the same attributes, this message is sent only when the first request is received."
+  ],
+  1
+ ],
+ [
+  [
+   "DIAG/1/DIAG_STORAGE_EXCEED_THRESHOLD:The usage of [STRING] ([UINT32]%) exceeded the threshold of [UINT32]%.",
+   "The usage of the storage medium exceeded the threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/5/TX_POW_NORMAL:[STRING]: TX power is normal.",
+   "The TX power of the transceiver module returned to the acceptable range."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4/QOS_CAR_APPLYUSER_FAIL:[STRING]; Failed to apply the [STRING] CAR in [STRING] profile [STRING] to the user. Reason: [STRING].",
+   "The AP went offline. The state of the AP changed to Idle."
+  ],
+  0
+ ],
+ [
+  [
+   "MDC/4/MDC_KERNEL_EVENT_TOOLONG:$1 kernel event in sequence $2 function $3 failed to finish within $4 minutes.",
+   "A group entry is to be added to a group table, according to a group table modification message that has passed the packet check."
+  ],
+  0
+ ],
+ [
+  [
+   "RPR/5/RPR_EXCEED_MAX_SEC_MAC_OVER:A maximum number of secondary MAC addresses exceeded defect is cleared on the ring corresponding to RPR logical interface [STRING].",
+   "The number of secondary MAC addresses on the ring has dropped below the upper limit."
+  ],
+  1
+ ],
+ [
+  [
+   "IRF/2/IRF_LINK_BLOCK:IRF port went blocked.",
+   "The number of dynamic neighbor entries on the device has reached\n  the upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "CWS/6/CWS_IMG_DOWNLOAD_COMPLETE:System software image file [STRING] downloading through the CAPWAP tunnel for AP [STRING] completed.",
+   "The card was starting up (initializing or loading software) or was not operating correctly."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_INVALIDFLAGS_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "A neighboring AP aged out and was restarted."
+  ],
+  0
+ ],
+ [
+  [
+   "ARP/4/ARP_RATE_EXCEEDED:The ARP packet rate ([UINT32] pps) exceeded the rate limit ([UINT32] pps) on interface [STRING] in the last [UINT32] seconds.",
+   "Failed to import an identity group from the LDAP server specified in an LDAP scheme."
+  ],
+  0
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_OPEN_FAIL:Failed to start packet capture. Reason: File for storing captured frames not opened.",
+   "STP was globally disabled on the device."
+  ],
+  0
+ ],
+ [
+  [
+   "NTP/5/NTP_SOURCE_CHANGE:NTP server's IP address changed from [STRING] to [STRING].",
+   "The system changed the time source."
+  ],
+  1
+ ],
+ [
+  [
+   "MACSEC/6/MACSEC_MKA_SESSION_START:The MKA session with CKN [STRING] started on interface [STRING].",
+   "The number of terminals sharing the IPv4 address exceeded the\n  limit set in the NetShare control policy. The IPv4 address will be frozen\n  according to the action set in the policy."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_TCP_INVALIDFLAGS_RAW:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is for IPv6 TCP packets that have invalid flag settings. Invalid flag settings include:"
+  ],
+  1
+ ],
+ [
+  [
+   "L2PT/4/L2PT_CREATE_TUNNELGROUP_FAILED:Failed to create a VLAN tunnel group for [STRING].",
+   "Failed to create a VLAN tunnel group for a protocol."
+  ],
+  1
+ ],
+ [
+  [
+   "IFNET/3/PHY_UPDOWN:Physical state on the interface [STRING] changed to [STRING].",
+   "The AP started to download the file from the AC."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_GROUPQUERY_RAW_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "MAC authentication configuration does not take effect on an interface, because the interface does not support MAC authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "QOS/4/QOS_POLICY_APPLYIF_CBFAIL:Failed to apply classifier-behavior [STRING] in policy [STRING] to the\u00a0 [STRING] direction of interface [STRING]. [STRING].",
+   "The system failed to perform one of the following actions:"
+  ],
+  1
+ ],
+ [
+  [
+   "STAMGR/6/STAMGR_MACA_LOGIN_SUCC:-Username=[STRING]-UserMAC=[STRING]-SSID=[STRING]-VLANID=[STRING]-UsernameFormat=[STRING]; A user passed MAC authentication and came online.",
+   "Part of or all VLAN mapping configurations on the interface were lost because of one of the following occurrences:"
+  ],
+  0
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_OPERATION_TIMEOUT:Failed to start or continue packet capture. Reason: Operation timed out.",
+   "IP change was detected for a specific client."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/4/TEMPERATURE_ALARM:Temperature is greater than the high-temperature alarming threshold on chassis [INT32] slot [INT32] sensor [STRING] [INT32].",
+   "This message is generated when an IPv4 packet matches an audit\n  rule for a search engine application."
+  ],
+  0
+ ],
+ [
+  [
+   "LB_LINK_STATE_INACTIVE:The state of link [STRING] is inactive.",
+   "This message is generated after an IP address is removed from an\n  interface, the health monitoring result changes, or theshutdowncommand is executed."
+  ],
+  1
+ ],
+ [
+  [
+   "FCLINK/4/FCLINK_FLOGI_REJECT_NORESOURCE:VSAN [UINT16], Interface [STRING]: An FLOGI was rejected because the hardware resource is not enough.",
+   "An FLOGI is received when the hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   "FFILTER/6/FFILTER_IPV4_LOG:Protocol(1001)=[STRING];Application(1002)=[STRING];DataDirection(1081)=[STRING];RuleName(1080)=[STRING];PolicyName(1079)=[STRING];SrcIPAddr(1003)=[IPADDR];SrcPort(1004)=[UINT16];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];SrcZone(1025)=[STRING];DstZone(1035)=[STRING];UserName(1113)=[STRING];Action(1053)=[STRING];",
+   "The number of peers in Established state reached the license limit."
+  ],
+  0
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_UNKNOWN_ERROR:Failed to start or continue packet capture. Reason: Unknown error.",
+   "Packet capture failed to start or packet capture stopped because of an unknown error."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_ECHO_RPL_RAW_SZ:Icmpv6Type(1064)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "The number of IPv4 security policy rules\n  exceeded the configured threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/2/POWER_FAILED:Power [INT32] failed.",
+   "A system restart log was created."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_TIMESTAMP_RAW_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "The system failed to perform one of the following actions:"
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_TCP_FINONLY_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for IPv6 TCP packets that have only the FIN flag set."
+  ],
+  1
+ ],
+ [
+  [
+   "STAMGR/6/SERVICE_FAILURE:Service failure occurred on BSS [STRING] after service template [STRING]\n  with SSID [STRING] was bound to radio [STRING] on AP [STRING] with AP ID\n  [STRING]. Reason: [STRING], code=0x[STRING].",
+   "Failed to enable 802.1X on an interface because of ACL resource shortage."
+  ],
+  0
+ ],
+ [
+  [
+   "PWDCTL/6/CNAHGEPASSWORD:[STRING] changed the password because [STRING].",
+   "The percentage of received routes to the maximum allowed routes reached the threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "DFILTER/6/DFILTER_IPV6_LOG:Protocol(1001)=[STRING];Application(1002)=[STRING];DataDirection(1081)=[STRING];RuleName(1080)=[STRING];PolicyName(1079)=[STRING];SrcIPv6Addr(1036)=[IPADDR];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];SrcZone(1025)=[STRING];DstZone(1035)=\n  [STRING];UserName(1113)=[STRING];Action(1053)=[STRING];",
+   "This message is sent when ICMP time exceeded logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "\u00b7APMGR/6/APMGR_AP_ONLINE_FAILED:[STRING] ([STRING]) failed to come online in join state. Reason: [STRING]\n  ([STRING]) was offline.",
+   "The number of active routes reached the threshold in the unicast routing table of a VPN instance."
+  ],
+  0
+ ],
+ [
+  [
+   "ND/6/ND_SET_PORT_TRUST_NORESOURCE:Not enough resources to complete the operation.",
+   "This message is for IPv6 TCP packets that have no flag set."
+  ],
+  0
+ ],
+ [
+  [
+   "IFNET/5/INTERFACE_SUPPRESSED:Interface [STRING] was suppressed.",
+   "The card is loading software images during the boot process."
+  ],
+  0
+ ],
+ [
+  [
+   "SHELL/5/SHELL_COMMIT_REDELAY:The commit delay has been reset, a configuration rollback will be\n  performed in [INT32] minutes.",
+   "The configuration commit delay timer was reconfigured before the\n  timer expires."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_SECURITY_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "If log aggregation is enabled, for IPv6 packets with a user-defined extension header and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "NETSHARE/6/NETSHARE_IPV6_LOG:SrcIPv6Addr(1036)=[IPADDR];UserName(1113)=[STRING];TerminalNum(1125)=[UINT16];PolicyName(1079)=[STRING];Action(1053)=[STRING];FreezeTime(1126)=[UINT16].",
+   "The number of terminals sharing the IPv6 address exceeded the\n  limit set in the NetShare control policy. The IPv6 address will be frozen\n  according to the action set in the policy."
+  ],
+  1
+ ],
+ [
+  [
+   "STP/5/STP_NOT_ROOT:The current switch is no longer the root of instance [UINT32].",
+   "The current switch is no longer the root bridge of an instance. It received a superior BPDU after it was configured as the root bridge."
+  ],
+  1
+ ],
+ [
+  [
+   "MACSEC/5/MACSEC_MKA_SESSION_STOP:The MKA session with CKN [STRING] stopped on interface [STRING].",
+   "The MKA session was terminated. Possible reasons include:"
+  ],
+  1
+ ],
+ [
+  [
+   "UFLT/6/UFLT_MATCH_IPV6_LOG:Protocol(1001)=[STRING];Application(1002)=[STRING];URL(1093)=[STRING];URLCategory(1094)=[STRING];PolicyName(1079)=[STRING];SrcIPv6Addr(1036)=[IPADDR];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];SrcZoneName(1025)=[STRING];DstZoneName(1035)=[STRING];Action(1053)=[STRING].",
+   "An IPv6 packet matched a URL filtering rule."
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/6/ETHOAM_QUIT_LOOPBACK_CONTROLLING:The local OAM entity quit remote loopback as controlling DTE on OAM interface [string].",
+   "A port received PVST BPDUs from a remote port with a different PVID."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMPV6_DEST_UNREACH:Icmpv6Type(1064)=[UINT32];RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMPv6 destination unreachable logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "MACSEC/6/MACSEC_MKA_SESSION_SECURED:The MKA session with CKN [STRING] was secured on interface [STRING].",
+   "This message is sent when ICMP address mask request logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "ACL6/6/ACL_IPV6_STATIS_INFO:IPv6 ACL [UINT32] [STRING] [UINT64] packet(s).",
+   "The number of packets matching the IPv6 ACL rule changed."
+  ],
+  1
+ ],
+ [
+  [
+   "ND/6/ND_CONFLICT:[STRING] is inconsistent.",
+   "The configuration failed on the OAM interface because of\n  insufficient system resources."
+  ],
+  0
+ ],
+ [
+  [
+   "MACSEC/6/MACSEC_MKA_SAK_REFRESH:The SAK has been refreshed on interface [STRING].",
+   "The participant on the interface derived or received a new SAK."
+  ],
+  1
+ ],
+ [
+  [
+   "STP/4/STP_PORT_TYPE_INCONSISTENCY:Access port [STRING] in VLAN [UINT32] received PVST BPDUs from a trunk or hybrid port.",
+   "Creating a VLAN interface for a VLAN cause the dynamic VLAN to become a static VLAN."
+  ],
+  0
+ ],
+ [
+  [
+   "ARP/4/ARP_HOST_IP_CONFLICT:The host [STRING] connected to interface [STRING] cannot communicate correctly, because it uses the same IP address as the host connected to interface [STRING].",
+   "The number of entries in the MAC address table for an interface exceeded the maximum number supported by the table."
+  ],
+  0
+ ],
+ [
+  [
+   "OFP/5/OFP_FLOW_ADD_TABLE_MISS:Openflow instance [UINT16] controller [CHAR]: add table miss flow entry, xid 0x[HEX], cookie 0x[HEX], table id [CHAR].",
+   "A table-miss flow entry is to be added to a flow table, according to a flow table modification message that has passed the packet check."
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_GLB_IPV4_DACT_UNK_ERR:Failed to apply or refresh the IPv4 default action to the [STRING] direction globally.",
+   "The interface was suppressed because its state frequently changed. When the interface is suppressed, the upper-layer services cannot detect the physical state changes of the interface."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IP_OPTION_RAW_SZ:IPOptValue(1061)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for packets with a user-defined IP option and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4/QOS_POLICY_APPLYIF_FAIL:Failed to apply or refresh QoS policy [STRING] to the [STRING] direction of interface [STRING]. [STRING].",
+   "The system failed to perform one of the following actions:"
+  ],
+  1
+ ],
+ [
+  [
+   "SHELL/5/SHELL_COMMIT_ROLLBACKDONE:The configuration rollback has been performed.",
+   "Failed to import identity user accounts and online identity user information from the IMC server because of insufficient memory."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_ACK_FLOOD:RcvIfName(1023)=[STRING];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when the number of IPv4 ACK packets sent to a destination per second exceeds the rate limit."
+  ],
+  1
+ ],
+ [
+  [
+   "LLDP/6/LLDP_DELETE_NEIGHBOR:[STRING] agent neighbor deleted on port [STRING] (IfIndex [UINT32]), neighbor's chassis ID is [STRING], port ID is [STRING].",
+   "The port received a deletion message when a neighbor was deleted."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IPOPT_ABNORMAL_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "This message is for packets that each has more than two IP options."
+  ],
+  1
+ ],
+ [
+  [
+   "OFP/5/OFP_GROUP_ADD:Openflow instance [UINT16] controller [CHAR]: add group [STRING], xid 0x[HEX].",
+   "A user logged out successfully."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_FIN_FLOOD_SZ:SrcZoneName(1025)=[STRING];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when the number of IPv4 FIN packets sent to a destination per second exceeds the rate limit."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_DIS_PORTSCAN:RcvIfName(1023)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "The number of connections on a link reached the upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "PBR/4/PBR_HARDWARE_ERROR:Failed to update policy [STRING] due to [STRING].",
+   "The device failed to update PBR configuration."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/5/RX_POW_LOW:[STRING]: RX power is low.",
+   "This message is sent when ICMP redirect logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_IPV6_EXT_HEADER_RAW_SZ:IPv6ExtHeader(1066)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "A sensor's temperature exceeded the high-temperature warning threshold. The ambient temperature was too high or the fan tray was not operating correctly."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_FRAGMENT_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "This message is for the IPv6 fragment attack. The attack uses IPv6 packets with an offset smaller than 5 but bigger than 0."
+  ],
+  1
+ ],
+ [
+  [
+   "PKTCPT/6/PKTCPT_CONN_FAIL:Failed to start packet capture. Reason: Failed to connect to the FTP server.",
+   "Packet capture failed to start because the device failed to be connected to the FTP server in the same network segment."
+  ],
+  1
+ ],
+ [
+  [
+   "IRF/5/IRF_MERGE_NOT_NEED_REBOOT:IRF merge occurred. This IRF system does not need to reboot.",
+   "IRF merge occurred. This IRF fabric does not need to reboot\n  because the master of this IRF fabric won the master election for IRF merge."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_INFO_REQ_RAW_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMP information requests of the same attributes, this message is sent only when the first request is received."
+  ],
+  1
+ ],
+ [
+  [
+   "MACSEC/6/MACSEC_MKA_SESSION_START:The MKA session with CKN [STRING] started on interface [STRING].",
+   "The MKA session negotiation was initiated. Possible reasons include:"
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_FINONLY_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is for IPv4 TCP packets that have only the FIN flag set."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_UDP_FLOOD:RcvIfName(1023)=[STRING];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "An errored frame seconds event occurred on the peer."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMPV6_LARGE_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when large ICMPv6 packet logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "SHELL/6/SHELL_CMD_INPUT_TIMEOUT:Operation timed out: Getting input for the [STRING] command.",
+   "The user did not respond to the input requirement of a command before the timeout timer expired."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_INFO_RPL_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMP echo request logs are aggregated."
+  ],
+  0
+ ],
+ [
+  [
+   "DHCPS/5/DHCPS_RECLAIM_IP:DHCP server reclaimed a [STRING] pool\u2019s lease(IP [IPADDR], lease [UINT32] seconds), which is allocated for the DHCP client (MAC [MAC]).",
+   "Insufficient hardware resources."
+  ],
+  0
+ ],
+ [
+  [
+   "SCRLSP/4/SCRLSP_LABEL_DUPLICATE:Incoming label [INT32] for static CRLSP [STRING] is duplicate.",
+   "While an ISSU was in switching state, a user executed theissu rollbackcommand or the ISSU automatic-rollback timer expired. However, the status of the MPU was not normal."
+  ],
+  0
+ ],
+ [
+  [
+   "ETHOAM/4/ETHOAM_REMOTE_LINK_FAULT:A remote Link Fault event occurred on interface [string].",
+   "A remote Link Fault event occurred when the remote link went down."
+  ],
+  1
+ ],
+ [
+  [
+   "QOS/4QOS_POLICY_APPLYVLAN_CBFAIL:Failed to apply classifier-behavior [STRING] in policy [STRING] to the\u00a0 [STRING] direction of VLAN [UINT32]. [STRING].",
+   "A power supply was removed."
+  ],
+  0
+ ],
+ [
+  [
+   "TRILL/5/TRILL_DUP_SYSTEMID:Duplicate system ID [STRING] in [STRING] PDU sourced from RBridge 0x[HEX].",
+   "An object policy failed to be applied because the object policy\n  doesn't exist."
+  ],
+  0
+ ],
+ [
+  [
+   "ACL/3/ACL_NO_MEM:Failed to configure [STRING] ACL [UINT] due to lack of memory.",
+   "The system failed to perform one of the following actions due to an unknown error:"
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ADDRMASK_REQ:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "The system failed to perform one of the following actions because hardware resources are insufficient:"
+  ],
+  0
+ ],
+ [
+  [
+   "DHCPS6/5/DHCPS6_ALLOCATE_ADDRESS:DHCPv6 server received a DHCPv6 client\u2019s request packet on interface [STRING], and allocated an IPv6 address [IPADDR] (lease [UINT32] seconds) for the DHCP client(DUID [HEX], IAID [HEX]) from [STRING] pool.",
+   "An AP failed to come online because the number of APs on the AC already reached the upper limit."
+  ],
+  0
+ ],
+ [
+  [
+   "STM/3/STM_SOMER_CHECK:Neighbor of IRF port [UINT32] cannot be stacked.",
+   "The neighbor connected to the IRF port cannot form an IRF fabric with the device."
+  ],
+  1
+ ],
+ [
+  [
+   "STM/4/STM_LINK_MERGE:IRF merge occurred.",
+   "A fault was removed from the transceiver module."
+  ],
+  0
+ ],
+ [
+  [
+   "KHTTP/3/KHTTP_BIND_ADDRESS_INUSED:Failed to bind TCP connection [STRING]/[UINT32] to VPN instance [UINT32] because the address was already used.",
+   "Failed to bind an IP address and a port number to a VPN instance because the IP address was already used and cannot be reused."
+  ],
+  1
+ ],
+ [
+  [
+   "SCM/5/PROCESS_ABNORMAL:The process [STRING] exited abnormally.",
+   "A service exited abnormally."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_STREAMID_RAW:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for packets with IP option 136 and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "L2TPV2/4/L2TPV2_SESSION_EXCEED_LIMIT:Number of L2TP sessions exceeded the limit.",
+   "The local interface ended the OAM connection."
+  ],
+  0
+ ],
+ [
+  [
+   "LDP/5/LDP_SESSION_GR:Session ([STRING], [STRING]): ([STRING]).",
+   "The Tcl script file for the policy was modified."
+  ],
+  0
+ ],
+ [
+  [
+   "LLDP/5/LLDP_PVID_INCONSISTENT:PVID mismatch discovered on [STRING] (PVID [UINT32]), with [STRING] [STRING] (PVID [STRING]).",
+   "The state of a server farm changed."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/5/POWER_MONITOR_RECOVERED:Power monitor unit [INT32] recovered.",
+   "The power monitoring module started to operate correctly after it was installed."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_FRAGMENT_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "This message is for the IPv4 fragment attack. The attack uses IPv4 packets with an offset smaller than 5 but bigger than 0."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_TSTAMP_REQ_RAW_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMP timestamp packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "RPR/5/RPR_PROTECTION_INCONSISTENT_OVER:A protection configuration defect is cleared on the ring corresponding to RPR logical interface [STRING].",
+   "The BSS was created."
+  ],
+  0
+ ],
+ [
+  [
+   "PFILTER/3/\n  PFILTER_APPLYUSER_FAIL:[STRING]; Failed to apply [STRING] ACL [STRING] to the [STRING]\n  direction of user profile [STRING]. Reason: [STRING].",
+   "The local AC went offline. The state of the local AC changed to Idle."
+  ],
+  0
+ ],
+ [
+  [
+   "DHCP/3/DHCP_NORESOURCES:Failed to apply filtering rules for DHCP packets because hardware resources are insufficient.",
+   "The system failed to apply filtering rules for DHCP packets because the hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   "OFP/5/OFP_FLOW_RMV_IDLETIME:The flow entry [UINT32] in table [CHAR] of instance [UINT16] was deleted because of an idle-time expiration.",
+   "An MDC was stopped."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/4/SUBCARD_INSERTED:Subcard was inserted in chassis [INT32] slot [INT32] subslot [INT32], type is [STRING].",
+   "A subcard was installed."
+  ],
+  1
+ ],
+ [
+  [
+   "ASPF/6/ASPF_IPV4_DNS:SrcIPAddr(1003)=[IPADDR];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];RcvDSLiteTunnelPeer(1040)=[STRING];DomainName(1099)=[STRING];Action(1053)=[STRING];Reason(1056)=[STRING].",
+   "If log aggregation is enabled, for ICMPv6 echo requests of the same attributes, this message is sent only when the first request is received."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/4/TEMPERATURE_WARNING:Temperature is greater than the high-temperature warning threshold on chassis [INT32] slot [INT32] sensor [STRING] [INT32].",
+   "This message is sent when logs are aggregated for IPv4 TCP packets that have invalid flag settings. Invalid flag settings include:"
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/5/RX_POW_NORMAL:[STRING]: RX power is normal.",
+   "The RX power of the transceiver module returned to the acceptable range."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ADDRMASK_RPL:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMP address mask reply logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "LOAD/4/BOARD_LOADING:Board in chassis [INT32] slot [INT32] is loading software images.",
+   "The card is loading software images during the boot process."
+  ],
+  1
+ ],
+ [
+  [
+   "WIPS/5/WIPS_UNAUTH:-VSD=[STRING]-SrcMAC=[MAC];Unauthorized client detected by radio 1 of sensor [STRING] on channel 149 (RSSI=84).",
+   "The Stelnet, SCP, SFTP, or NETCONF over SSH service was not\n  available. The server was terminating the connection."
+  ],
+  0
+ ],
+ [
+  [
+   "EVB/6/EVB_VSI_ONLINE:VSI [STRING] came online, status is [STRING].",
+   "The EVB bridge receives a VDP packet and creates a VSI interface or VSI aggregate interface successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_REDIRECT_RAW_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMP redirect packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "LAGG/6/LAGG_INACTIVE_SPEED:Member port [STRING] of aggregation group [STRING] changed to the inactive state, because the speed configuration of the port is incorrect.",
+   "A member port in an aggregation group changed to the Unselected state because the speed was different between the member port and the reference port."
+  ],
+  1
+ ],
+ [
+  [
+   "PKI/5/REQUEST_CERT_SUCCESS:Request certificate of domain [STRING] successfully.",
+   "Successfully requested certificate for a domain."
+  ],
+  1
+ ],
+ [
+  [
+   "OSPF/6/OSPF_RTRID_CONFILICT_INTER:OSPF [UINT16] Received newer self-originated ase-LSAs. Possible conflict of router ID [STRING].",
+   "Two indirectly connected devices in the same OSPF area might have the same router ID. One of the devices is an ASBR."
+  ],
+  1
+ ],
+ [
+  [
+   "PKI/5/REQUEST_CERT_FAIL:Failed to request certificate of domain [STRING].",
+   "Failed to request certificate for a domain."
+  ],
+  1
+ ],
+ [
+  [
+   "OFP/5/OFP_METER_ADD:Openflow instance [UINT16] controller [CHAR]: add meter [STRING], xid 0x[HEX].",
+   "This message is sent when logs are aggregated for IPv4 packets whose source IPv4 address is the same as the destination IPv4 address."
+  ],
+  0
+ ],
+ [
+  [
+   "IDENTITY/5/IDENTITY_CSV_IMPORT_FAILED:Failed to import identity user [STRING] to domain [STRING] from the .csv file.",
+   "Packet capture failed to start because an error occurs during TCP or UDP port binding."
+  ],
+  0
+ ],
+ [
+  [
+   "OFP/5/OFP_FLOW_MOD_TABLE_MISS:Openflow instance [UINT16] controller [CHAR]: modify table miss flow entry, xid 0x[HEX], cookie 0x[HEX], table id [CHAR].",
+   "This message is sent when the number of IPv6 HTTP Get packets sent to a destination per second exceeds the rate limit."
+  ],
+  0
+ ],
+ [
+  [
+   "OPTMOD/2/BIAS_HIGH:[STRING]: Bias current is high.",
+   "The bias current of the transceiver module exceeded the high threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_RECORDROUTE_RAW:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for packets with IP option 7 and of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_UNREACHABLE_RAW:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "If log aggregation is enabled, for ICMP destination unreachable packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  1
+ ],
+ [
+  [
+   "RRPP/4/RRPP_RING_RESTORE:Ring [UINT32] in Domain [UINT32] recovered.",
+   "The ring in the RRPP domain was recovered."
+  ],
+  1
+ ],
+ [
+  [
+   "SCM/5/PROCESS_ABNORMAL:The process [STRING] exited abnormally.",
+   "Successfully requested certificate for a domain."
+  ],
+  0
+ ],
+ [
+  [
+   "QOS/4/QOS_CAR_APPLYUSER_FAIL:[STRING]; Failed to apply the [STRING] CAR in [STRING] profile [STRING] to the user. Reason: [STRING].",
+   "The system failed to perform one of the following actions:"
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_VLAN_MAC_DACT_UNK_ERR:Failed to apply or refresh the MAC default action to the [STRING] direction of VLAN [UINT16].",
+   "The system failed to perform one of the following actions due to an unknown error:"
+  ],
+  1
+ ],
+ [
+  [
+   "RPR/6/RPR_JUMBO_INCONSISTENT:A jumbo configuration defect is present on the ring corresponding to RPR logical interface [STRING].",
+   "This message is generated when an IPv4 packet matches an audit\n  rule for an IM application."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_WINNUKE_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is for the IPv4 WinNuke attack. The attack uses IPv4 TCP packets with destination port 139, the URG flag set, and a nonzero Urgent Pointer."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMPV6_FLOOD_SZ:SrcZoneName(1025)=[STRING];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when the number of ICMPv6 packets sent to a destination per second exceeds the rate limit."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_INFO_REQ:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when the number of IPv4 SYN-ACK packets sent to a destination per second exceeds the rate limit."
+  ],
+  0
+ ],
+ [
+  [
+   "APMGR/4/APMGR_AC_MEM_ALERT:The memory usage of the AC has reached the threshold.",
+   "The AP failed to come online because the memory utilization exceeded the limit."
+  ],
+  1
+ ],
+ [
+  [
+   "MDC/4/MDC_KERNEL_EVENT_TOOLONG:$1 kernel event in sequence $2 function $3 failed to finish within $4 minutes.",
+   "A kernel event stayed unfinished for a long period of time."
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_IF_NOT_SUPPORT:Failed to apply or refresh [STRING] ACL [UINT] [STRING] to the [STRING] direction of interface [STRING]. The ACL is not supported.",
+   "The user did not respond to the input requirement of a command before the timeout timer expired."
+  ],
+  0
+ ],
+ [
+  [
+   "SECP/6/SECP_RULE_UPDATE_SUCCESS:RuleName(1080)=[STRING];RuleID(1078)=[UINT32];Type(1067)=[STRING];Action(1053)=[STRING];",
+   "This message is sent when logs are aggregated for IPv6 packets whose source IPv6 address is the same as the destination IPv6 address."
+  ],
+  0
+ ],
+ [
+  [
+   "OFP/5/OFP_GROUP_ADD:Openflow instance [UINT16] controller [CHAR]: add group [STRING], xid 0x[HEX].",
+   "A group entry is to be added to a group table, according to a group table modification message that has passed the packet check."
+  ],
+  1
+ ],
+ [
+  [
+   "ACL/5/ACL_RULE_REACH_MAXNUM:The maximum number of rules in [STRING] ACL [UNIT32] already\n  reached.",
+   "A dynamic ACL rule failed to be added because the maximum number\n  of rules in the ACL already reached."
+  ],
+  1
+ ],
+ [
+  [
+   "OFP/4/OFP_FLOW_MOD_TABLE_MISS_FAILED:Openflow instance [UINT16] controller [CHAR]: failed to modify table miss flow entry, table id [CHAR].",
+   "Failed to modify a table-miss flow entry."
+  ],
+  1
+ ],
+ [
+  [
+   "DEV/2/BOARD_STATE_FAULT:Board state changed to Fault on chassis [INT32] slot [INT32], type is [STRING].",
+   "If log aggregation is enabled, for ICMP echo requests of the same attributes, this message is sent only when the first request is received."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_TCP_FINONLY_SZ:SrcZoneName(1025)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "A live peer aged out on an interface, because the local participant had not received any MKA packets from the peer before the keepalive timer expired. The local participant removed the peer information from the port."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_IMPOSSIBLE_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "The number of entries in the global MAC address table exceeded the maximum number supported by the table."
+  ],
+  0
+ ],
+ [
+  [
+   "SESSION/6/SESSION_IPV6_FLOW:Protocol(1001)=[STRING];Application(1002)=[STRING];SrcIPv6Addr(1036)=[IPADDR];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];InitPktCount(1044)=[UINT32];InitByteCount(1046)=[UINT32];RplyPktCount(1045)=[UINT32];RplyByteCount(1047)=[UINT32];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];BeginTime_e(1013)=[STRING];EndTime_e(1014)=[STRING];Event(1048)=([UNIT16])[STRING];",
+   "This message is sent in one of the following conditions:"
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_VLAN_IPV4_DACT_UNK_ERR:Failed to apply or refresh the IPv4 default action to the [STRING] direction of VLAN [UINT16].",
+   "The system failed to perform one of the following actions due to an unknown error:"
+  ],
+  1
+ ],
+ [
+  [
+   "ETHOAM/6/ETHOAM_LOOPBACK_EXIT_ERROR_STATU:OAM interface [string] quit remote loopback due to incorrect multiplexer or parser status.",
+   "OAM interface Ethernet1/0/1 ended remote loopback due to incorrect multiplexer or parser status."
+  ],
+  1
+ ],
+ [
+  [
+   "DOT1X/5/DOT1X_WLAN_LOGIN_FAILURE:-Username=[STRING]-UserMAC=[STRING]-SSID=[STRING]-VLANID=[STRING]; A user failed 802.1X authentication.",
+   "The process exited abnormally during card startup. If the process cannot restore after multiple automatic restart attempts, the card will restart automatically."
+  ],
+  0
+ ],
+ [
+  [
+   "VRRP/6/VRRP_PACKET_ERROR:The [STRING] virtual router [UINT32] (configured on [STRING]) received an error packet: [STRING].",
+   "The VRRP group received an invalid VRRP packet. For example, the checksum was not correct."
+  ],
+  1
+ ],
+ [
+  [
+   "RM/4/RM_ACRT_REACH_LIMIT:Max active [STRING] routes [UINT32] reached in URT of [STRING]",
+   "The number of active routes reached the upper limit in the unicast\n  routing table of a VPN instance."
+  ],
+  1
+ ],
+ [
+  [
+   "WMESH/5/MESH_ACTIVELINK_SWITCH:Switch an active link from [MAC] ([CHAR]) to [MAC] ([CHAR]): peer\n  quantity = [UINT64], link quantity = [UINT16], switch reason = [UINT32].",
+   "This message is sent when logs are aggregated for ICMP time exceeded packets of code 0."
+  ],
+  0
+ ],
+ [
+  [
+   "SECDIAG/1/MONITOR_NAT_BELOW:Number of NAT server mappings and static\n  NAT mappings \u00a0dropped below the threshold.",
+   "The local server accepted a user's authentication request."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMP_PINGOFDEATH_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is sent when logs are aggregated for IPv6 TCP packets that have only the FIN flag set."
+  ],
+  0
+ ],
+ [
+  [
+   "FCZONE/6/FCZONE_ISOLATE_CLEAR_VSAN:-Interface=[STRING]-VSAN=[UINT16]; Isolation status was cleared.",
+   "The system failed to perform one of the following actions:"
+  ],
+  0
+ ],
+ [
+  [
+   "MGROUP/3/MGROUP_RESTORE_CPUCFG_FAIL:Failed to restore configuration for mirroring CPU of [STRING] in mirroring group [UINT16], because [STRING]",
+   "When the CPU of the card in the slot is the source CPU in the mirroring group, configuration changes after the card is removed. When the card is reinstalled into the slot, restoring the source CPU configuration might fail."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_PORTSCAN_SZ:SrcZoneName(1025)=[STRING];Protocol(1001)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];RcvVPNInstance(1042)=[STRING];DstIPAddr(1007)=[IPADDR];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message is sent when an IPv4 port scan attack is detected."
+  ],
+  1
+ ],
+ [
+  [
+   "SLSP/4/SLSP_LABEL_DUPLICATE:Incoming label [INT32] for static LSP [STRING] is duplicate.",
+   "The west port of an RPR station was not connected to the east port of anther RPR station."
+  ],
+  0
+ ],
+ [
+  [
+   "STP/4/STP_ROOT_PROTECTION:Instance [UINT32]'s ROOT-Protection port [STRING] received superior BPDUs.",
+   "A root-guard-enabled port received BPDUs that are superior to the BPDUs generated by itself."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_ADDRMASK_REQ_SZ:IcmpType(1062)=[UINT32];SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when ICMP address mask request logs are aggregated."
+  ],
+  1
+ ],
+ [
+  [
+   "SSHS/5/SSHS_AUTH_FAIL:SSH user [STRING] (IP: [STRING]) didn't pass public key authentication for [STRING].",
+   "The number of concurrent connections exceeded the upper threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "ETHOAM/6/ETHOAM_QUIT_LOOPBACK_CONTROLLING:The local OAM entity quit remote loopback as controlling DTE on OAM interface [string].",
+   "The local end quit remote loopback after you disabled OAM loopback on the local interface."
+  ],
+  1
+ ],
+ [
+  [
+   "IDENTITY/5/IDENTITY_IMC_IMPORT_FAILED_NO_MEMORY:Failed to obtain data from IMC. Reason: Not enough memory.",
+   "If log aggregation is enabled, for ICMPv6 parameter problem packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_FRAGGLE_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is for IPv4 UDP fraggle attack. The attack uses IPv4 UDP packets with source port 7 and destination port 19."
+  ],
+  1
+ ],
+ [
+  [
+   "STAMGR/5/STAMGR_AUTHORUSERPROFILE_FAILURE:-SSID=[STRING]-UserMAC=[STRING]; Failed to assign a user profile.",
+   "The AP rebooted for a specific reason."
+  ],
+  0
+ ],
+ [
+  [
+   "PKT2CPU/4/PKT2CPU_NO_RESOURCE:-Interface=[STRING]-ProtocolType=[UINT32]-MacAddr=[STRING]; The resources are insufficient.-Interface=[STRING]-ProtocolType=[UINT32]-SrcPort=[UINT32]-DstPort=[UINT32]; The resources are insufficient.",
+   "Hardware resources were insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_FRAGGLE_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is generated when a QoS policy applied to a hub-spoke\n  tunnel on a tunnel interface is successfully modified."
+  ],
+  0
+ ],
+ [
+  [
+   "L2TPV2/4/L2TPV2_SESSION_EXCEED_LIMIT:Number of L2TP sessions exceeded the limit.",
+   "The number of established L2TP sessions has reached the limit."
+  ],
+  1
+ ],
+ [
+  [
+   "MDC/5/MDC_NO_LICENSE_EXIT:The MDC feature is being disabled, because it has no license.",
+   "The MDC feature was disabled because the license for the MDC feature expired or was uninstalled."
+  ],
+  1
+ ],
+ [
+  [
+   "PFILTER/3/PFILTER_VLAN_MAC_DACT_NO_RES:Failed to apply or refresh the MAC default action to the [STRING] direction of VLAN [UINT16]. The resources are insufficient.",
+   "The system failed to perform one of the following actions because hardware resources are insufficient:"
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/5/ATK_IPOPT_RECORDROUTE_RAW:IPOptValue(1061)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Protocol(1001)=[STRING];Action(1053)=[STRING].",
+   "An IPsec SA cannot be established in phase 2. The failure reason is displayed."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_HTTP_FLOOD:RcvIfName(1023)=[STRING];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "This message occurs when the device detects that it has the same\n  IRF member ID as another device in the same broadcast domain."
+  ],
+  0
+ ],
+ [
+  [
+   "LB/6/LB_NAT66_FLOW:Protocol(1001)=[STRING];SrcIPv6Addr(1003)=[IPADDR];SrcPort(1004)=[UINT16];NATSrcIPv6Addr(1005)=[IPADDR];NATSrcPort(1006)=[UINT16];DstIPv6Addr(1007)=[IPADDR];DstPort(1008)=[UINT16];NATDstIPv6Addr(1009)=[IPADDR];NATDstPort(1010)=[UINT16];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];",
+   "If log aggregation is enabled, for ICMP redirect packets of the same attributes, this message is sent only when the first packet is received."
+  ],
+  0
+ ],
+ [
+  [
+   "WIPS/5/APFLOOD:-VSD=[STRING]; AP flood detected.",
+   "The number of APs detected in the specified VSD reached the threshold."
+  ],
+  1
+ ],
+ [
+  [
+   "ERPS/4/ERPS_STATE_CHANGED:Ethernet ring [UINT16] instance [UINT16] changed state to [STRING]",
+   "The client was disconnected from the BAS AC."
+  ],
+  0
+ ],
+ [
+  [
+   "FCZONE/4/FCZONE_ISOLATE_ALLNEIGHBOR:-VSAN=[UINT16]; The E ports connected to all neighbors were isolated, because the length of the locally generated MR packet exceeded the limit.",
+   "E_Ports connected to all neighbors were isolated because the length of the locally generated MR packet exceeded the limit."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_TCP_WINNUKE_RAW_SZ:SrcZoneName(1025)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "The session state changed."
+  ],
+  0
+ ],
+ [
+  [
+   "DEV/5/TEMPERATURE_NORMAL:Temperature changed to normal on chassis [INT32] slot [INT32] sensor [STRING] [INT32].",
+   "The bias current of the transceiver module exceeded the high threshold."
+  ],
+  0
+ ],
+ [
+  [
+   "IKE/6/IKE_P1_SA_TERMINATE:The IKE phase 1 SA was deleted for the reason of [STRING]. The SA's source address is [STRING], and its destination address is [STRING]. As [STRING].",
+   "A configuration rollback occurred when the configuration commit\n  delay timer expired. However, some commands were not rolled back."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/5/ATK_ICMP_TYPE:IcmpType(1062)=[UINT32];RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING];BeginTime_c(1011)=[STRING];EndTime_c(1012)=[STRING];AtkTimes(1054)=[UINT32].",
+   "This message is sent when logs are aggregated for user-defined ICMP packets."
+  ],
+  1
+ ],
+ [
+  [
+   "DIAG/1/MEM_EXCEED_THRESHOLD:Memory [STRING] threshold has been exceeded.",
+   "A memory alarm was notified."
+  ],
+  1
+ ],
+ [
+  [
+   "ATK/3/ATK_ICMP_TRACEROUTE_RAW:RcvIfName(1023)=[STRING];SrcIPAddr(1003)=[IPADDR];SndDSLiteTunnelPeer(1041)=[STRING];DstIPAddr(1007)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "An OAM connection is established."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP4_UDP_FLOOD:RcvIfName(1023)=[STRING];DstIPAddr(1007)=[IPADDR];DstPort(1008)=[UINT16];RcvVPNInstance(1042)=[STRING];UpperLimit(1049)=[UINT32];Action(1053)=[STRING];BeginTime_c(1011)=[STRING].",
+   "The number of established L2TP tunnels has reached the limit."
+  ],
+  0
+ ],
+ [
+  [
+   "DOT1X/3/DOT1X_NOTSUPPORT_EADMACREDIR_RES:Failed to assign a rule for redirecting HTTP packets with source MAC address [MAC] on interface [STRING]: EAD assistant was not supported.",
+   "Failed to set up the IRF fabric because some member devices are using the same bridge MAC address."
+  ],
+  0
+ ],
+ [
+  [
+   "The number of dynamic neighbor entries for the device has reached\n  the maximum.:The number of dynamic neighbor entries for the device has reached\n  the maximum.",
+   "The number of dynamic neighbor entries on the device has reached\n  the upper limit."
+  ],
+  1
+ ],
+ [
+  [
+   "WFF/5/WFF_HARDWARE_IPC_FAILED:Firmware [UINT32] was set to pass-through mode because IPC check failed.",
+   "Failed to modify a group entry."
+  ],
+  0
+ ],
+ [
+  [
+   "ATK/3/ATK_IP6_TCP_FINONLY_RAW:RcvIfName(1023)=[STRING];SrcIPv6Addr(1036)=[IPADDR];DstIPv6Addr(1037)=[IPADDR];RcvVPNInstance(1042)=[STRING];Action(1053)=[STRING].",
+   "This message is for IPv6 TCP packets that have only the FIN flag set."
+  ],
+  1
+ ],
+ [
+  [
+   "STP/6/STP_CONSISTENCY_RESTORATION:Consistency restored on VLAN [UINT32]'s port [STRING].",
+   "Port link type or PVID inconsistency was removed on a port."
+  ],
+  1
+ ],
+ [
+  [
+   "PCAPWARE/5/PCAPWARE_STOP:The packet capture\n  stopped because [STRING].",
+   "This message is sent when logs are aggregated for IPv4 UDP packets with source port 7, 19, or 135, and destination port 135."
+  ],
+  0
+ ],
+ [
+  [
+   "SCM/3/SCM_ABORT_RESTORE:The process $1 can't be restored, abort it.",
+   "The process exited abnormally during the system operation. If the process cannot restore after multiple automatic restart attempts, the device will not restore the process."
+  ],
+  1
+ ],
+ [
+  [
+   "OPTMOD/4/FIBER_SFPMODULE_NOWINVALID:[STRING]: This is not a supported transceiver for this platform. HP does not guarantee the normal operation or maintenance of unsupported transceivers. Please review the platform datasheet on the HP web site or contact your HP sales rep for a list of supported transceivers.",
+   "The client came online after passing 802.1X authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "DOT1X/3/DOT1X_NOTSUPPORT_EADFREEIP_RES:Failed to assign a rule for free IP [IPADDR] on interface [STRING]: EAD assistant was not supported.",
+   "The DHCP server verified that the DHCP client was not on the user class whitelist."
+  ],
+  0
+ ],
+ [
+  [
+   "SESSION/6/SESSION_IPV6_FLOW:Protocol(1001)=[STRING];Application(1002)=[STRING];SrcIPv6Addr(1036)=[IPADDR];SrcPort(1004)=[UINT16];DstIPv6Addr(1037)=[IPADDR];DstPort(1008)=[UINT16];InitPktCount(1044)=[UINT32];InitByteCount(1046)=[UINT32];RplyPktCount(1045)=[UINT32];RplyByteCount(1047)=[UINT32];RcvVPNInstance(1042)=[STRING];SndVPNInstance(1043)=[STRING];BeginTime_e(1013)=[STRING];EndTime_e(1014)=[STRING];Event(1048)=([UNIT16])[STRING];",
+   "A user entered an invalid username or password."
+  ],
+  0
+ ],
+ [
+  [
+   "LB/5/LB_CHANGE_RS_CONNRATE_RECOVERY:Chassis:[ChassisID],Slot:[SlotID],CPU:[CPUID].The connection rate\n  of real server [STRING] was [UINT], which had recovered to normal state.",
+   "The status of an MDC changed."
+  ],
+  0
+ ],
+ [
+  [
+   "NAT/4/NAT_SERVER_INVALID:The NAT server with Easy IP is invalid because its global settings conflict with that of another NAT server on this interface.",
+   "The FSM of a BGP peer has changed."
+  ],
+  0
+ ],
+ [
+  [
+   "ARP/6/ARP_TARGET_IP_INVALID:Target IP [STRING] was not the IP of the receiving interface [STRING].",
+   "Failed to specify the destination multicast MAC address for tunneled packets."
+  ],
+  0
+ ],
+ [
+  [
+   "L2PT/4/L2PT_SET_MULTIMAC_FAILED:Failed to set a tunnel destination MAC address to [MAC].",
+   "A change in the monitoring result of an NQA reaction entry was\n  detected."
+  ],
+  0
+ ],
+ [
+  [
+   "RIPNG/6/RIPNG_RT_LMT:RIPng [UINT32] Route limit reached",
+   "The MSTP instance or VLAN to which a port belongs had a topology change, and the local end detected the change."
+  ],
+  0
+ ]
+]

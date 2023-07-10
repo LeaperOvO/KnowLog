@@ -1,0 +1,7 @@
+tokenizers==0.12.1
+scikit-learn==1.1.2
+tqdm==4.64.1
+transformers==4.22.2
+numpy==1.22.4
+torch==1.10.1
+huggingface-hub==0.10.0

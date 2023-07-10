@@ -1,0 +1,802 @@
+[
+ [
+  "WLAN/4/STA_ADDRESS_REDIRCET_ATTACK:OID [oid] Address redirection attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+  "The AP received invalid WPI frames."
+ ],
+ [
+  "ENTITYTRAP/6/ENTITYBRDTEMPRESUME:OID [OID] Temperature back to normal level.(Index=[INTEGER], EntryPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\",EntityThresholdType=[INTEGER],EntityThresholdValue=[INTEGER],EntityThresholdCurrent=[INTEGER], EntityTrapFaultID=[INTEGER])",
+  "The temperature becomes within the range of the threshold."
+ ],
+ [
+  "AM/4/IP6ALLOCFAIL: Failed to allocate an IPv6 address. (PoolName=[STRING1], ClientId=[STRING2], Reason=[STRING3], UserType=[STRING4]).",
+  "The address pool had no available IPv6 address.The address pool was locked.The rate at which DHCPv6 users went online exceeded the maximum value."
+ ],
+ [
+  "POE/4/POEPWABSENT:OID [oid] POE Power is absent.(FrameID = [INTEGER], SlotID = [INTEGER])",
+  "No PoE power supply on the PoE device is working properly."
+ ],
+ [
+  "WLAN/6/AP_OPTICAL_TX_POWER_TOO_LOW_RESTORE:OID [oid] The transfer power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical TxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+  "The transmit power of the AP's optical module exceeded the lower threshold."
+ ],
+ [
+  "GTL/4/EMERGENCYSTART:OID [OID] License emergency isstarted.",
+  "The license is in the emergency state after yourun thelicense emergencycommand."
+ ],
+ [
+  "AAA/4/NACUserClearAlarm: OID [OID] The NAC Max User Alarm is cleared.(Slot:[OCTET] User-num:[INTEGER] Threshold:[INTEGER]%)",
+  "The percentage of successfully authenticated NAC users reached or fell below the lower alarm threshold."
+ ],
+ [
+  "RM/4/IPV4_PREFIX_THRESHOLD_EXCEED_RESM:OID [oid] Thenumber of IPv4 prefixes falls below the threshold. (PrefixCount=[Integer],MaxValue=[Integer])",
+  "The network administrator deleted some routes fromthe routing table or the number of routes learned by dynamic protocolsdecreased due to network topology changes."
+ ],
+ [
+  "WEB/4/WEBSOCK:Failed to start web authenticationserver listening port",
+  "The listening port of the Portal authentication serveris occupied."
+ ],
+ [
+  "CLOUD_MNG/6/ONLINE_LOG_INFO: %sOnly cloud APs support this log.",
+  "Table 1Possible CausesLogPossible CauseUse controller address from (controller/DHCP/local config/register center).The AP goes online using the address of the Agile Controller-Campus.Receive controller address from (0/1/2/3).The AP obtains the address of the Agile Controller-Campus.AP Register to controller Success.The AP goes online.AP Offline.The AP goes offline."
+ ],
+ [
+  "UPGRADE/4/WRITE_FLASH: Writing data into the flash memory.",
+  "Writing data into the flash memory started."
+ ],
+ [
+  "WLAN/4/AP_WIRELESS_PORT_DOWN: OID [oid] AP radio is down notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+  "The radio was shut down as configured.The radio was shut down by radio calibration.Due to insufficient AP power, the AP works in low-power state.The radio was shut down due to a system error."
+ ],
+ [
+  "ADA_BFD/4/UPDATEFWDFAIL: Failed to update forward information, type of BFD is [ULONG], discriminator of BFD is [ULONG].",
+  "The BFD type is incorrect."
+ ],
+ [
+  "WEBMNG/6/WEBMNG_POST_LENGTH: The POST data of the request packet is too long.(Length:[ULONG])",
+  "The device can only parse POST packets whose length is less than 1KBytes. If the length of a POST packet exceeds 1KBytes, the device cannot parse the packet and records this log."
+ ],
+ [
+  "SMART_UPGRADE/3/DOWNLOADFAIL:Downloading system software for [STRING1] fails.(systemSoftware=[STRING2]([STRING3]), patch=[STRING4]([STRING5]))",
+  "System file downloading failed due to the loss of network connectivity."
+ ],
+ [
+  "PKI/4/KEY_IMPORT_FAILED: Importing [key_type] key pair [key_name] failed (Reason=[reason]).",
+  "saving key pairs failed: The key pair fails to be saved."
+ ],
+ [
+  "FTPS/3/TRS_FAIL: The user failed to transfer data. (UserName=\"[string]\", IpAddress=[string], VpnInstanceName=\"[string]\")",
+  "An FTP user fails to transmit data."
+ ],
+ [
+  "WLAN/2/IOT_CARD_DISCONNECT_SERVER:OID [oid] The IoT card is disconnected from the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], ApIotCardId=[INTEGER], APIotCardType=[STRING])",
+  "Cause 1: The link between the IoT card and server is disconnected, or the network configuration changes.Cause 2: The IoT card is faulty."
+ ],
+ [
+  "WLAN/4/INNER_BLE_BROKEN_RESTORE: OID [oid] The AP's internal BLE module recovers. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "The heartbeat of the AP's built-in Bluetooth module recovers."
+ ],
+ [
+  "AAA/4/QUIETUSERCLEARALARM: OID [OID] The quiet max user alarm is cleared.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+  "The percentage of current users in quiet state fell equal to or below the lower alarm threshold."
+ ],
+ [
+  "ARP/4/ARP_LEARNSTOP_TRAP:OID [OID]ARP learning stopped because the memory usage reachedthe threshold. (Slot index=[INTEGER], Threshold=[COUNTER]).",
+  "The board memory usage reached the threshold (Boardmemory restart threshold - 1) so that the board stopped learning ARPentries."
+ ],
+ [
+  "PKI/4/GETTING_CRL: Realm [realm_name] is getting CRL through [protocol]...",
+  "The realm was getting CRL automatically."
+ ],
+ [
+  "WLAN/4/MCBC_EXCEED:OID [oid] The number of multicast and broadcast packets received on the AP exceeds the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "The number of multicast and broadcast packets reported by the AP exceeded the alarm threshold."
+ ],
+ [
+  "OSPF/3/VIFAUTFAIL:OID [oid] A packet is received on a virtual interface from a router whose authentication key or authentication type conflicts with the local authentication key or authentication type. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+  "The configuration of authentication of the virtual link interface was incorrect."
+ ],
+ [
+  "WLAN/2/VAP_NUM_EXCEEDED: OID [oid] The number of VAP instances has exceeded the maximum. (Vap = [INTEGER])",
+  "The number of VAP instances reaches the maximum specifications of the system."
+ ],
+ [
+  "AM/4/IPCONFLICTRPT: The client detected an IP address conflict. (PoolName=[STRING], ClientId=[STRING], IpAddress=[IPADDR], UserType=[STRING])",
+  "The server received an IP address conflict report from the client."
+ ],
+ [
+  "WLAN/6/BLE_LOW_POWER_RESTORE: OID [oid] The battery recovers at the BLE site. (BLEMAC=[OPAQUE])",
+  "The battery power of the BLE device is restored to greater than the specified low power alarm threshold for BLE devices."
+ ],
+ [
+  "POE/4/PDINVALIDCLASS: OID [oid] PD with invliad IEEEclass and power denied.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+  "Cause 1: The PD may not comply with standards,whereas the switch supports 802.3af and 802.3at. In this case, thePD class cannot be identified by the switch.Cause 2: The PDhardware is faulty."
+ ],
+ [
+  "WLAN/4/UNAUTHORIZED_AP_RECORD_CLEAR:OID [oid] Unauthorized AP record clear.",
+  "Cause 1:The AP authentication mode is set to MAC address authentication and MAC addresses of unauthorized APs are added to the MAC address whitelist.Cause 2:The AP authentication mode is set to SN authentication and SNs of unauthorized APs are added to the SN whitelist."
+ ],
+ [
+  "WLAN/4/AP_CRC_TOO_HIGH:OID [oid] AP CRC is abnormal notify. (APMAC=[OPAQUE], APName=[STRING], APCrcErrRate=[LONG], PortType=[OCTET],PortID=[INTEGER], APID=[INTEGER])",
+  "The number of CRC error packets collected at a specified sampling interval exceeded the threshold."
+ ],
+ [
+  "WLAN/5/WLAN_DETECT_ROUGE_DEVICE: Detected rogue device. (Device MAC=[OPAQUE], Device type=[INTEGER], Device channel=[INTEGER], Device RSSI =[LONG], Device SSID=[OCTET], Monitor AP name=[OCTET], Monitor AP MAC=[OPAQUE], Monitor APradio =[INTEGER], Monitor AP IP=[OCTET], Monitor AP channel=[INTEGER], Monitor AP ID =[INTEGER])By default, this log is not recorded. If it needs to be recorded, run therogue-device log enablecommand in the WLAN view.",
+  "An AP detects a rogue device."
+ ],
+ [
+  "DHCP/4/DHCP_INFO_LOG_DHCP_SLAVE_LOW_SPACE: There is no space for DHCP on the slave board.",
+  "When the service is being stored, the storage space of the slave board is insufficient."
+ ],
+ [
+  "SW_SNPG/4/PORT_EVT_IGNORE: An event of port notification is ignored by IGMP Snooping",
+  "The port notification event is ignored by the IGMP snooping module."
+ ],
+ [
+  "PKI/4/DEL_LOCAL_OK: Deleting local certificate file ([file_name]) succeeded.",
+  "Deleting a local certificate from the memory succeeded."
+ ],
+ [
+  "AM/6/IPRELEASE: The IP address was released. (PoolName=[STRING], ClientId=[STRING], IpAddress=[IPADDR], Reason=[STRING], UserType=[STRING])",
+  "The client releases the IP address.The lease expires.The administrator resets the IP address."
+ ],
+ [
+  "PKI/5/CONFIRM_NO_CHECK_VALIDATE: The user chose [string] when deciding whether to import expired certificate.",
+  "When the user imported an expired CA or local certificate, this message was displayed to ask the user whether to continue the operation."
+ ],
+ [
+  "WLAN/4/AP_POWER_LIMITED:OID[oid] The AP works in Limited mode due to insufficient power supply.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+  "The device that supplies power to the AP does not meet the AP's power supply requirements."
+ ],
+ [
+  "WEB/6/WEB_USER_QUIETTABLE_ADD: The user is added to quiet-table.(IP:[IPADDR];VPN-Instance:[STRING])",
+  "After the quiet function is enabled, the number of authentication failures for the Portal authentication user exceeds the threshold within a configured quiet period.There is a difference of no more than 15 secondsbetween the configured quiet period and the actual quiet period that takes effect."
+ ],
+ [
+  "WLAN/4/AP_COLD_BOOT_RESTORE:OID [oid] The AP cold boot restore. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+  "The AP is powered on, goes online, and operates properly after an unexpected disconnection."
+ ],
+ [
+  "GTL/4/RESOURCE_USEDUP:OID [OID] Resource item [hwGtlResourceItem] is nearly used up.",
+  "The usage percentage of service resources reached or exceeded 90% of the threshold defined by the license."
+ ],
+ [
+  "MGMD/3/GLBLIMIT:OID [oid] Membership report message is discarded because the total IGMP or MLD group membership limitation is exceeded in all instances. (GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary], LimitCnt=[integer])",
+  "After the limit to the total number of IGMP entries in all instances was set on thewireless access controller, when the total number of IGMP entries reached the limit, new members failed to join the IGMP group and the corresponding trap was generated.Global IGMP entries include the (*,G) entries, (S,G) entries, and entries in the SSM-mapping table in all instances."
+ ],
+ [
+  "WLAN/4/AP_OPTICAL_TX_POWER_TOO_LOW_RESTORE:OID [oid] The transfer power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+  "The transmit power of the AP's optical module exceeded the lower threshold."
+ ],
+ [
+  "DHCP/4/DHCPUSERBINDTRAPVLANRESUME:OID [OID] The number of DHCP users on the vlan descends to alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+  "The number of DHCP snooping binding entries in a VLAN reaches the lower alarm threshold."
+ ],
+ [
+  "DEV/4/ENTUP: [STRING] register success.",
+  "Normal startup process"
+ ],
+ [
+  "WLAN/4/AP_COCHANNEL_INTERFERENCE_RESTORE: OID [oid] The co-channel interference alarm is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], IntfBssId=[OPAQUE], APID=[INTEGER])",
+  "Co-channel interference between APs was removed."
+ ],
+ [
+  "PKI/4/GET_CERT_ERR: Manually obtaining certificate [file_name] through [protocol] failed.",
+  "The link between the device and certificate server is Down.The certificate server is not working properly.The SCEP configuration is incorrect."
+ ],
+ [
+  "AAA/4/PPPUserClearAlarm: OID [OID] The PPP Max User Alarm is cleared.(Slot:[OCTET] User-num:[INTEGER] Threshold:[INTEGER]%)",
+  "The percentage of current PPP users fell equal to or below the lower alarm threshold."
+ ],
+ [
+  "WLAN/6/SNR_NORMAL:OID [oid] The current network cable quality is good. (APMAC=[OPAQUE], APName=[STRING], InterfaceIndex=[INTEGER], InterfaceName=[OCTET], APID=[INTEGER])",
+  "The network cable quality meets communication requirements."
+ ],
+ [
+  "ISIS/2/OWNLSP_PURGE:OID [oid] ISIS received a self-originatedLSP with the age being 0. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], sysInstanceofInterface=[integer], circuit=[integer],ifIndex=[integer], circuitIfIndex=[integer], pduLspId=[opaque], pduRemoteRouterID=[integer],ifName=[string])",
+  "1. The localwireless access controllerdid not refresh its LSPs in time. As a result, Purge packets weregenerated after LSPs were aged and flooded to the localwireless access controller.2. The packet was modified and Purge packets were generatedbecause of transmission failure.3. The localwireless access controllerwas restarted and then received the LSP with the system ID as localIS-IS and the lifetime as 0 from the neighbor."
+ ],
+ [
+  "ENTITYTRAP/3/TRAPID_ENTITY_POWER_FAIL:OID [oid] Power become failure.(EntityPhysicalIndex=[INTEGER], PhysicalName=[OCTET],EntityTrapFaultID=[INTEGER], EntityOperStatus=[INTEGER],EntityTrapReasonDescr=[OCTET])",
+  "Error CodePossible Cause136961Failed to obtain voltage information from the I2C interface.136962Overvoltage occurs.136963Undervoltage occurs."
+ ],
+ [
+  "DHCP/4/NDUSERBINDTRAPGLOBAL:OID [OID]  The number of ND global users exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+  "The number of global ND snooping binding entries reaches the upper alarm threshold."
+ ],
+ [
+  "WLAN/6/AP_POWER_INSERT: OID [oid] Power has been inserted. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+  "A power module was inserted into the AP."
+ ],
+ [
+  "AAA/4/ChangePasswordAlarm: OID [OID] Local account password has been modified.(TYPE:[OCTET] User-name:[OCTET])",
+  "The user password is changed."
+ ],
+ [
+  "WLAN/4/AP_RECEIVED_INVALID_ARP_PACKET:OID [oid] AP received invalid arp packet notify.(APMAC=[OPAQUE], APName=[STRING], RadioID=[INTEGER], WlanID=[INTEGER],Drop Num=[INTEGER], APID=[INTEGER])",
+  "The AP receives invalid ARP packets."
+ ],
+ [
+  "IFPDT/4/INT_INBRDR: The input rate change ratio exceeded the threshold. (IfIndex=[ULONG], InterfaceName=[STRING], ThresholdPercent=[ULONG]%, CurrentStatisticalPeriodRate=[STRING], LastStatisticalPeriodRate=[STRING])",
+  "A loop occurs on the Layer 2 network. As a result, the sudden traffic volume change percentage in the inbound direction of the interface exceeds the threshold."
+ ],
+ [
+  "WLAN/4/AP_REACH_MAX_USERS:OID [oid] AP has the max number of stations notify.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], PermitNum=[INTEGER], APID=[INTEGER])",
+  "The number of STAs connected to the AP has reached the upper limit. New STAs cannot connect to the AP."
+ ],
+ [
+  "WLAN/6/AP_MEM_OVERLOAD_RESTORE:OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+  "The AP's memory usage was restored to the allowed range."
+ ],
+ [
+  "WLAN/4/AP_TEMPERATURE_TOO_LOW:OID [oid] The AP's temperature is too low. (APMAC=[OPAQUE], APName=[STRING], Temperature=[INTEGER]\u00b0C, APID=[INTEGER])",
+  "Cause 1: The lower temperature threshold is set to an improper value.Cause 2: The ambient temperature is too low."
+ ],
+ [
+  "WEBS/4/USER_OFFLINERESULT: USERNAME=[STRING1], IPADDRESS=[STRING2], MAC=[STRING3], ERRCODE=[ULON4G]",
+  "A Portal user went offline."
+ ],
+ [
+  "OSPF/3/VIFCHG:OID [oid] The status of the virtual interface changes. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], VirtIfState=[neighbor-state], InstanceName=[instance-name])",
+  "1. The status of the physical interface of the virtual link changed.2. Router ID of the neighbor on the virtual link changed."
+ ],
+ [
+  "PKI/4/CA_VALID: CA certificate ([subject_name]) will be valid in [day] days.",
+  "The system time of the device does not reach the start time of the certificate validity period."
+ ],
+ [
+  "PIM/3/RPCHG:OID [oid] RP changed. (GroupMappingOrigin=[integer],GroupMappingAddressType=[integer], szGrpAddr=[binary], GrpPfxLen=[gauge],GroupMappingRPAddressType=[integer], RPAddr=[binary], GroupMappingPimMode=[integer],Precedence=[gauge], InstanceID=[integer], InstanceName=[string])",
+  "1. A static RP was re-configured in the network.The command used to configure static RP containspreferred, the static RP is preferred.2. A C-RP with higher priorityemerged in the network."
+ ],
+ [
+  "SECE/3/ARPS_DROP_PACKET_SRC_MAC: Invalid source MAC address.(SourceMAC=[STRING], SourceIP=[STRING], SourceInterface=[STRING], DropTime=[STRING])",
+  "The device receives ARP packets with an invalid source MAC address."
+ ],
+ [
+  "ISIS/2/MANAREA_DROP:OID [oid] Some area addresses werediscarded because the number of area addresses exceeded three. (sysInstance=[process-id],sysInstanceofLevel=[process-id], sysLevel=[level], sysInstanceofManAreaAddrExistState=[process-id],manAreaAddr=[area-address], manAreaAddrExistState=[area-address-state])",
+  "On the Level-1-2wireless access controller, IS-IS leaked the Level-1 area addresses to the Level-2 area. Whenthe number of Level-2 area addresses exceeded 3, IS-IS selected topthree smallest area addresses. Then, the local area addresses in theLevel-2 area may be lost."
+ ],
+ [
+  "IPSEC/4/IKEREACHMAXPEER:OID[OID] Current counts of ike peer will reach max limit.",
+  "The number of IKE peers dynamically created by the firewall has reached 80% of the threshold."
+ ],
+ [
+  "OSPF/3/OVERFLOW:OID [oid] The LSDB overflows. (ProcessId=[process-id], RouterId=[router-id], ExtLsdbLimit=[lsa-limit], InstanceName=[instance-name])",
+  "Too many type 5 and type 7 LSAs existed in the LSDB."
+ ],
+ [
+  "HTTP2C/3/TCP_CONN_SERVER_FAILED: Failed to connect to the TCP server. (DestIp = [STRING], DestPort = [STRING], Result = [STRING], AppType = [STRING])",
+  "-22: Incorrect parameter1: Socket error4: Interrupted system call"
+ ],
+ [
+  "WLAN/4/RADIO_CHANNEL_CHANGE:OID [oid] Channel of radio is changed. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], Channel1=[INTEGER],Channel2=[INTEGER],CauseId=[INTEGER], CauseStr=[OCTET], PreChannel1=[INTEGER],PreChannel2=[INTEGER],APID=[INTEGER], NewChannelHasRadarChannel=[OCTET])",
+  "Cause 1: The radio was calibrated.Cause 2: Users changed the channel.Cause 3: Radar signals conflicted.Cause 4: The channel changed in WDS mode.Cause 5: The channel changed in Mesh mode."
+ ],
+ [
+  "WLAN/6/IOT_CARD_CONNECT_SERVER:OID [oid] The IoT card is connected to the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+  "An IoT card is connected to the server."
+ ],
+ [
+  "AAA/6/LOCALACCOUNT_MODIFY:Local account [STRING] password has been modified.",
+  "The password of the local account was changed."
+ ],
+ [
+  "SMART_UPGRADE/3/UPGRADEFAIL:Upgrade fails.(device=[STRING1], systemSoftware=[STRING2], patch=[STRING3])",
+  "A smart upgrade failed."
+ ],
+ [
+  "DHCP/4/DHCP_ALLOC_ADDRESS: Result of IP address allocation from the DHCP server to wireless users.[WLAN_STA_INFO_IP_CONNECTION]ACMAC:[STRING];ACNAME:[STRING];APMAC:[STRING];APNAME:[STRING];USER:[STRING];MAC:[STRING];TIME:[STRING];ZONE:[STRING];DAYLIGHT:[STRING];ERRCODE:[STRING];RESULT:[STRING]",
+  "When an AC, Fat AP, or cloud AP functions as a DHCP server, the AP through which a wireless user goes online, SSID of the user, and other user information can be obtained and recorded in this log. The following table lists the mapping relationships between error codes (ERRCODE) and address allocation results (RESULT) in logs.Table 1Mapping betweenERRCODEandRESULTERRCODERESULTDescriptionPossible Causes0SuccessAn IP address is successfully allocated.\u2013102DHCP IP POOL IS OUTFLOW(Pool name:name, the idle address num:num)There is no idle IP address in the address pool. Parameters in the brackets indicate the address pool name and number of idle IP addresses.No IP address is available for allocation in the address pool. You can run thedisplay ip poolcommand to check the number of idle IP addresses. Here, the command output indicates that the number of idle IP addresses is 0.103DHCP IP POOL LOCKED(Pool name:name)The address pool is locked. The parameter in the brackets indicates the address pool name.The address pool is locked using thelockcommand in the address pool view.104NOT FIND IP POOL (Receive from interface:if, interface ip:ip. Relay ip:ip. Expect ip:ip)The address pool corresponding to the client-expected IP address is not found. Parameters in the brackets indicate the Layer 3 interface that receives the DHCP Request packet, IP address of the interface, IP address of the DHCP relay agent, and client-expected IP address.Possible cause 1:When a client is associated with an SSID, the client applies for an IP address in two-message exchange mode. That is, the client sends a DHCP Request packet carrying the expected IP address in Option50. The expected IP address is the address that the client has used before.If the client-expected IP address is on a different network segment from the client gateway address or the address pool corresponding to the client-expected IP address cannot be found, the DHCP server will fail to allocate this IP address. In this case, the DHCP server generates this log and returns a DHCP NAK packet to notify the client to apply for an IP address in four-message exchange mode, that is, the client sends a DHCP Discover packet to request for a new address.The network segment is changed when the client switches to another service VLAN.Possible cause 2:The DHCP server receives a DHCP Discover packet from the client. However, only thedhcp select globalcommand is run on the server and no corresponding address pool is created. As a result, the DHCP server generates this log and does not return any packet.This case rarely occurs.105INCORRECT REQUEST IP OR MAC (Ip:ipMAC:mac)The DHCP server cannot allocate the client-expected IP address. Parameters in the brackets indicate the client-expected IP address and client's MAC address.Possible cause 1:The DHCP server receives a DHCP Discover packet from the client. In the packet, the client-expected IP address is carried in Option50. When the client-expected IP address is not on the network segment of the address pool, the DHCP server generates this log and allocates a new IP address to the client.Possible cause 2:When a client is associated with an SSID, the client applies for an IP address in two-message exchange mode. That is, the client sends a DHCP Request packet carrying the expected IP address in Option50. The expected IP address is the address that the client has used before.If the client-expected IP address is within the address pool range but the address pool has no record about allocating any IP address to the client, the address pool does not respond to the request. The client waits till its request expires and begins to apply for a new IP address in four-message exchange mode.This log may be generated if the DHCP server restarts, IP address allocation records are manually cleared using thereset ip poolcommand, or a client exception occurs (for example, the client still uses an IP address after the address expires).106IP CONFLICTED(The conflict ip:ip)An IP address conflict occurs. The parameter in the brackets indicates the conflicted IP address.An IP address conflict is detected when the DHCP server allocates an IP address to a client. The address pool then sets the IP address status to conflicting and allocates a new IP address to the client.If the client-expected IP address is displayed as 255.255.255.255, the client does not expect any specific IP address."
+ ],
+ [
+  "WLAN/6/STA_NUM_EXCEED_THRESHOLD_RESTORE:OID [oid] AP access user number exceed threshold notify restore. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+  "The number of users associated with the AP falls below the alarm threshold."
+ ],
+ [
+  "AM/4/PREFALLOCFAIL: Failed to allocate an IPv6 prefix. (PoolName=[STRING1], ClientId=[STRING2], Reason=[STRING3], UserType=[STRING4])",
+  "IPv6 prefixes in the address pool were used up.The address pool was locked."
+ ],
+ [
+  "WLAN/4/INNER_BLE_BROKEN: OID [oid] The AP's internal BLE module fails. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "The system did not detect heartbeat messages from the AP's built-in Bluetooth module for 32 seconds."
+ ],
+ [
+  "ISIS/2/ADJ_CHANGE:OID [oid] The state of IS-IS adjacencychanged. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],sysInstanceofInterface=[integer], circuit=[integer], ifIndex=[integer],circuitIfIndex=[integer], lspID=[opaque], adjState=[integer], ifName=[string],hwIsisAdjChangeReason=[integer], hwIsisAdjChangeSubReason=[integer])",
+  "1. The IS-IS neighbor relationship went Up or Down.2. The IS-IS configuration was incorrect.3. The systemwas busy, and consequently the IS-IS neighbor relationship was intermittentlyinterrupted.4. The link failed, and consequently the statusof the IS-IS neighbor relationship was changed."
+ ],
+ [
+  "CM/4/USER_ADDCOSFAIL:The class of service cannotbe added for NAC users. Ensure that the system resource is sufficient.([STRING])",
+  "The COS failed to be delivered to the physical chipbecause of the chip error."
+ ],
+ [
+  "ENTITYTRAP/4/STORAGEREMOVE:OID [OID] Storage remove.(Index=[INTEGER],PhysicalName=\"[OCTET]\",StorageName=\"[OCTET]\")",
+  "The storage device is pulled out."
+ ],
+ [
+  "IFNET/4/IF_DELETE :OID [OID] Interface [interface-index]was deleted. (InterfaceName=[STRING])",
+  "Cause 1:This alarm is generated when a specifiedinterface is deleted."
+ ],
+ [
+  "DHCP/5/REQPREF_SUC: The DHCPv6 client acquired IPv6 prefix successfully. (InterfaceName=[STRING1], Prefix=[STRING2], PrefixLength=[INTEGER], ServerDuid=[STRING3])",
+  "A DHCPv6 client obtained an IPv6 prefix successfully."
+ ],
+ [
+  "CM/5/USER_OFFLINERESULT:[USER_INFO_OFFLINE]ACMAC:[CHAR1];ACNAME:[STRING1];APMAC:[CHAR2];APNAME:[STRING2];SSID:[OCTET];RADIOID:[INTEGER];USER:[STRING3];MAC:[CHAR3];IPADDRESS:[IPADDRESS];TIME:[STRING4];ZONE:[STRING5];DAYLIGHT:false;ERRCODE:[STRING6];RESULT:[STRING7];USERGROUP:[STRING8];AUTHENPLACE:[STRING9];EXTENDINFO:[EXTENDINFO];CIB ID:[STRING10];INTERFACE:[STRING11];ACCESS TYPE:[STRING12];SelectRDSIP:[STRING13];SelectERRCODE:[STRING14];RDSIP:[RDSIP];AUTHID=[AUTHID];",
+  "A user goes offline."
+ ],
+ [
+  "AM/6/PREFRENEWOK: An IPv6 prefix was renewed. (PoolName=[STRING], ClientId=[STRING], Prefix=[STRING], LeaseTime=[ULONG], UserType=[STRING], UserMac=[STRING])",
+  "The DHCPv6 PD server recorded this log when a client successfully renewed its IPv6 prefix."
+ ],
+ [
+  "BGP/2/ROUTETHRESHOLDCLEAR:OID [oid] The number of routes received from the BGP peer decreased below the alarm threshold. (InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], MaxRouteNum=[gauge], AlarmThreshold=[gauge])",
+  "The number of routes received from the peer configured with the route limit decreased below the alarm threshold."
+ ],
+ [
+  "ERRDOWN/4/ERRDOWN_DOWNNOTIFY: Notify interface to change status to error-down. (InterfaceName=[STRING], Cause=[STRING])",
+  "The faults detected by service modules triggered errordown events. The possible causes are as follows:EFM detected a link fault, which can be a fault that occurred on the remote end or a threshold-crossing event.The MSTP edge port received BPDU packets."
+ ],
+ [
+  "SSLA/4/MAX_SSL_POLICY:The number of SSL polices configured on the device reaches the threshold.(Spec=[ULONG])",
+  "The number of SSL policies on the device reached the upper limit."
+ ],
+ [
+  "RM/2/PUBLIC_IPV4_PREFIX_EXCEED:OID [oid] The numberof public IPv4 prefixes exceeded the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+  "Cause 1:A large number of IPv4 dynamic protocolroutes (BGP or IGP routes for example), static routes, direct routes, or UNR routeswere added to the routing table.Cause2:The maximum number of IPv4 public route prefixes supportedby the system was decreased."
+ ],
+ [
+  "OSPF/2/IFAUTFAIL:OID [oid] A packet is received on a non-virtual interface from a router whose authentication key or authentication type conflicts with the local authentication key or authentication type. (IfIpAddress=[ip-address], AddressLessIf=[interface-index], ProcessId=[process-id], RouterId=[router-id], PacketSrc=[source-ip-address], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+  "The configuration of interface authentication was incorrect."
+ ],
+ [
+  "WEB/6/WEB_USER_QUIETTABLE_DEL: The user is deleted from quiet-table.(IP:[IPADDR];VPN-Instance:[STRING])",
+  "When the quiet timer expires, the device re-authenticates the user.There is a difference of no more than 15 secondsbetween the configured quiet period and the actual quiet period that takes effect."
+ ],
+ [
+  "WLAN/2/AP_POWER_INVALID: OID [oid] Power is invalid for some reason. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+  "The power module was installed properly but not switched on."
+ ],
+ [
+  "SECE/4/PORT_ATTACK: Port attack occurred.(Slot=[STRING], SourceAttackInterface=[STRING], OuterVlan/InnterVlan=[ULONG]/[ULONG], AttackPackets=[ULONG] packets per second)",
+  "A lot of attack packets from the corresponding VLAN are received on the interface."
+ ],
+ [
+  "WLAN/4/WIDS_DETECT_ATTACK:OID [oid] Detected attackdevices. (Device count=[INTEGER])",
+  "Attack devices are detected."
+ ],
+ [
+  "WLAN/3/AP_NORMAL_TO_FAULT: AP changed from normal to fault. (MAC=[OPAQUE], ApID=[ULONG], Sysname=[STRING], Reason=[STRING])",
+  "For details, seeTable 1."
+ ],
+ [
+  "RDS/4/RDACCTDOWN: Communication with the RADIUS accounting server ( IP:[STRING] ) is interrupted!",
+  "The communication with the RADIUS accounting server is interrupted."
+ ],
+ [
+  "WLAN/4/AP_REACH_MAX_USERS_RESTORE:OID [oid] AP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+  "The number of STAs is smaller than the maximum number."
+ ],
+ [
+  "PKI/4/RSA_DESTROY: RSA local key pair [key_name] will be deleted.",
+  "A command was executed to delete an RSA key pair."
+ ],
+ [
+  "PKI/3/PKIGETCERTFAILCMP:OID[oid] Requesting certificate through CMPv2 failed. (hwCMPUrl=[cmpurl], hwCMPName=[cmpname], CmpSessionName=[sessionname])",
+  "There is no reachable route between the device and CMPv2 server.The PKI configurations of the device and CMPv2 server are incorrect.The CMPv2 server is faulty."
+ ],
+ [
+  "ENTITYTRAP/4/STORAGEINSERT:OID [OID] Storage insert.(Index=[INTEGER],PhysicalName=\"[OCTET]\",StorageName=\"[OCTET]\")",
+  "A storage device is inserted."
+ ],
+ [
+  "WSTA/6/WLAN_LOG_STA_ONLINEFAIL_OR_OFFLINE_INFO:[WLAN_STA_OFFLINE_INFO]STAMAC:[OPAQUE];APNAME:[STRING1];RADIOID:[INTEGER];WLANID:[INTEGER];TIME:[STRING2];SSID:[STRING3];ACCESS TYPE:[STRING4];OfflineReason:[STRING5];",
+  "A STA goes offline."
+ ],
+ [
+  "WLAN/4/BLE_LOW_POWER_RESTORE: OID [oid] The battery recovers at the BLE site. (BLEMAC=[OPAQUE])",
+  "The battery power of the BLE device is restored to greater than the specified low power alarm threshold for BLE devices."
+ ],
+ [
+  "WLAN/6/POOL_LICENSE_AGE_RESTORE: OID [oid] The license resource pool stops aging. (Total number of licenses=[INTEGER], Number of local Shared licenses=[INTEGER])",
+  "Cause 1The network between the license client and license server is restored.Cause 2The configuration of the license client is restored, and the license client re-establishes a shared link with the license server."
+ ],
+ [
+  "AM/6/IP6ALLOCOK: An IPv6 address was allocated. (PoolName=[STRING], ClientId=[STRING], Ipv6Address=[STRING], LeaseTime=[ULONG], UserType=[STRING], UserMac=[STRING])",
+  "The DHCPv6 server recorded this log when the server successfully allocated an IPv6 address to a client."
+ ],
+ [
+  "WLAN/5/STA_REACH_WARNING: OID [oid] The number of stations reaches 80% of the maximum specifications.(MaxStaNum=[INTEGER],CurStaNum=[INTEGER])",
+  "The number of online STAs reaches 80% of the maximum."
+ ],
+ [
+  "PKI/4/PKIGETCRLSUCCESSHTTP:OID[oid] get crl successfully with HTTP. (CrlUrl=[crlurl])",
+  "Obtaining the CRL through HTTP succeeds."
+ ],
+ [
+  "ARP/4/ARP_SUPP_TRAP:OID [OID] Exceed the speed limit value configured. (Ifnet index=[INTEGER], Configured value=[COUNTER], Sampling value=[COUNTER], Speed-limit type=[OCTET],Source Ip address=[IPADDR], Destination Ip address=[IPADDR]).",
+  "Cause 1: The interval for enabling the log function and sending traps for potential attack behaviors was set to Ns. Within the period of N+1s, the number of sent ARP packets was greater than the threshold. Within the first Ns, the average number of sent ARP packets was greater than the threshold.Cause 2: The interval for enabling the log function and sending traps for potential attack behaviors was set to Ns. Within the period of N+1s, the number of sent ARP Miss messages was greater than the threshold. Within the first Ns, the average number of sent ARP Miss messages was greater than the threshold."
+ ],
+ [
+  "WLAN/2/AP_FAN_REMOVE: OID [oid] Fan has been removed. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APFanId=[INTEGER])",
+  "An AP's fan was removed."
+ ],
+ [
+  "WLAN/4/AP_OPTICAL_TX_POWER_TOO_HIGH:OID [oid] AP optical module transfer power is too high notify. (APMAC=[OPAQUE], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+  "The transmit power of the AP's optical module exceeded the upper threshold."
+ ],
+ [
+  "ENTITYTRAP/6/POWERINVALIDRESUME(t): OID [oid] Power resume from invalid situation.(Index=[INTEGER], EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=136966)",
+  "The fault in which the power supply was installed but not powered on was rectified."
+ ],
+ [
+  "CM/3/ALLOCUSERFAIL: The number of [STRING1] usersreaches the upper limit.(UserIP:[STRING2],Mac:[STRING3],Interface:[STRING4])",
+  "The number of NAC users who go online through theinterface exceeds the upper limit."
+ ],
+ [
+  "WLAN/4/UNAUTHORIZED_AP_RECORD_EXIST:OID [oid] Unauthorized AP recordexists.(Record number=[INTEGER])",
+  "Cause 1: The AP authentication mode is set to MACaddress authentication, but the AP is not added offline and its MACaddress is not in the whitelist.Cause 2: The APauthentication mode is set to SN authentication, but the AP is notadded offline and its SN is not in the whitelist."
+ ],
+ [
+  "PM/6/hwPMStatisticsTaskThresholdClearAlarm: OID [OID] The threshold alarm is cleared. (StatisticsTaskName=[OCTET], StatisticsTaskName=[O CTET], StatisticsObjectType=[GAUGE], StatisticsObjectName=[OCTET], StatisticsTaskName=[OCTET], StatisticsObjectType=[GAUGE], StatisticsIndicatorID=[GAUGE], StatisticsTaskName=[OCTET], StatisticsObjectType=[GAUGE], StatisticsIndicatorID=[GAUGE], TriggerType=[integer], StatisticsCycle=[integer], ResumeHighValue=[GAUGE], ResumeLowValue=[GAUGE], CurrentHighValue=[GAUGE], CurrentLowValue=[GAUGE])",
+  "A threshold alarm is generated when KPI values of the monitored object become abnormal. When KPI values restore to the normal range, a clear alarm is generated."
+ ],
+ [
+  "ENTITYTRAP/4/FANINVALID:OID [OID] Fan is invalid.(Index=[INTEGER],EntityPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityTrapFaultID=[INTEGER])",
+  "Fans are faulty. For example, fans stop rotating."
+ ],
+ [
+  "WLAN/4/AP_UBOOT_MISMATCH:OID[oid] AP uboot is not match AP version.(APMAC=[OPAQUE], APName=[STRING],APID=[INTEGER])",
+  "The U-boot version does not match the AP version."
+ ],
+ [
+  "POE/4/PDPRIDIFF: OID [oid] priority corrupt.(IfIndex=[INTEGER], Interface=\"[OCTET]\", PortPriority=[INTEGER], PDPriority=[INTEGER])",
+  "The interface priority is low, whereas the PD priority is high."
+ ],
+ [
+  "PKI/4/GET_CA_CHAIN_ERR: Realm [realm-name] failed to obtain the CA certificate chain through [protocol].",
+  "The link between the device and CA server is Down.The PKI configuration is incorrect.The storage space is insufficient.The CA server is not working properly.The CA server does not support the function of obtaining the CA certificate chain.The CA certificate chain file does not exist in the CA server."
+ ],
+ [
+  "DHCP/4/DHCP_RELAY_WRONG_MAC: DHCP relay receive a dhcp packet with wrong 'chaddr'. (CHADDR=[STRING1], MAC type=[STRING2], InterfaceName=[STRING3]).",
+  "The DHCP relay receives a DHCP packet in which the client MAC address field is set to a broadcast or unicast address. To prevent attacks, the device considers this packet as an invalid packet."
+ ],
+ [
+  "SW_SNPG/4/RPC_FAIL: Failed to send the configuration to LPU because of the failure of RPC. (Slot=[STRING])",
+  "RPC fails."
+ ],
+ [
+  "WLAN/4/AC_AUTHENTICATE_FAIL: Failed to authenticate services with the peer device. (local address=[STRING], peer address=[STRING], service=[STRING])",
+  "Cause 1:The service type is Roam, and no peer member is configured for the mobility group.Cause 2:The service type is Election, and the number of STAs connected to the elected Leader AP has reached the maximum.Cause 3:The service type is ConfigSync, and the configuration synchronization configurations on the local and peer devices are inconsistent."
+ ],
+ [
+  "OSPF/2/IPADDR_CONFLCT:OID [oid] IP addresses of DRsin an intra area conflict. (ProcessId=[integer], AreaId=[ipaddr],SelfIfnetIndex=[integer], NbrIpAddr=[ipaddr], RouterId=[ipaddr], IntierfaceIpAddress=[ipaddr],InterfaceName=[octet])",
+  "The same IP address was configured for two indirectlyconnectedwireless access controllerdevices in the same area. Of which, one was selected as a DR toadvertise network LSAs."
+ ],
+ [
+  "DHCP/2/REQUESTNOTRUST: \"OID [OID] The number of the discarded DHCP request packets exceeds the threshold on the interface because the DHCP snooping trust port is not configured or the trust port is Down. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])\"",
+  "No DHCP snooping-trusted interface was configured on the device.The DHCP snooping-trusted interface was Down."
+ ],
+ [
+  "WLAN/4/STA_SECURITY_CLASS_LOW_ATTACK: OID [oid] Low safelevel attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+  "The AP received key negotiation response packets with incorrect WIEASUE."
+ ],
+ [
+  "ISIS-STD/2/OWNLSP_PURGE:OID [oid] ISIS received a self-originatedLSP with the age being 0. (NotificationSysLevelIndex=[integer], CircuitIfIndex=[integer],PduLspId=[opaque])",
+  "Cause 1: The localwireless access controllerdid not refresh LSPs in time. As a result, purge packets were generatedafter these LSPs aged out and flooded to the localwireless access controller.Cause 2: Packets were changed due to a transmission failureand purge packets were generated.Cause 3: After the localwireless access controllerrestarted, it received an LSP with the same system ID as that ofthe localwireless access controllerthe lifetime of 0."
+ ],
+ [
+  "MID_WLAN/4/CHANNEL_UTIL_EXCEED_THRESHOLD:OID [oid] AP's channel utilization exceeds the threshold. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],ChannelUtil=[INTEGER], APID=[INTEGER])",
+  "The channel usage exceeds the alarm threshold when users associate with the AP."
+ ],
+ [
+  "WSRV/6/VAP_EVENT_PROBE: VAP received probe list.(ApMac=[OPAQUE],RadioId=[INTEGER],Band=[INTEGER],VapId=[INTEGER],SSID=[STRING],ProbeList=[STRING],11klist=[STRING],APScanList=[STRING])",
+  "An AP received probe request packets from STAs."
+ ],
+ [
+  "HSB/5/TUNNLE_CHANGE: [STRING]",
+  "The heartbeat link in the hot-standby system is torn down or reconnected."
+ ],
+ [
+  "ISIS/2/L2_REDIST_EXCEED_LIMIT:OID [oid] The number oflevel-2 imported routes has exceeded the maximum limit.(sysInstance=[integer],sysProtocol=[integer], sysMTIndex=[integer], sysMaxLimit=[integer],sysTotalRedist=[integer])",
+  "The number of imported routes that the routersin the IS-IS Level-2 area advertised exceeded the maximum number ofimported routes that the routers in the IS-IS Level-2 area can advertise."
+ ],
+ [
+  "PKI/4/PKIUPDATELOCALCERTFAILSCEP: OID [OID] Updating the local certificate through SCEP failed. (LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject])",
+  "There is no reachable route between the device and CA server.The PKI configurations of the device and CA server are incorrect.The CA server is faulty."
+ ],
+ [
+  "DHCP/5/GW_RENEW: The gateway assigned by a DHCP server changed. (Client InterfaceName=[STRING1], ServerId=[IPADDR], Old Gateway=[STRING2], New Gateway=[STRING3])",
+  "The gateway address assigned by the DHCP server changed."
+ ],
+ [
+  "LLDP/4/LLDP_LOGID_TOOMANYNEIGHBORS: No enough resources to save neighbors",
+  "The remote neighbor table does not have sufficient space to store new remote neighbor entries."
+ ],
+ [
+  "WLAN/6/BACKUP_LICENSE_AGE_RESTORE:OID [oid] Backup license stops aging. (ACMAC=[OPAQUE], Backup license number=[INTEGER], Origin=[STRING], Backup time=[STRING] )",
+  "1. The link between the active and standby ACs is recovered in the VRRP networking.2. APs successfully go online on the backup AC in the dual-link or N+1 networking."
+ ],
+ [
+  "RM/4/IPV4_PREFIX_THRESHOLD_EXCEED:OID [oid] The numberof IPv4 prefixes exceeded the threshold. (PrefixCount=[Integer], MaxValue=[Integer])",
+  "A large number of IPv4 dynamic protocol routes(BGP or IGP routes for example), static routes, direct routes, or UNR routeswere added to the routing table."
+ ],
+ [
+  "WLAN/6/BLE_OFFLINE_RESTORE: OID [oid] The BLE site recovers. (BLEMAC=[OPAQUE])",
+  "The signal of the BLE device is detected again."
+ ],
+ [
+  "MCAST/6/FIB: There is no flow in the FIB entry (GroupIP=[STRING], SourceIP=[STRING] in-VlanID=[ULONG]).",
+  "Multicast services are interrupted. As a result, there is no data flow corresponding to the specified multicast forwarding entry."
+ ],
+ [
+  "POE/4/PDCONNECT: OID [oid] PD connected.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+  "The system detects a valid PD."
+ ],
+ [
+  "RDS/6/RDAUTHUP: Communication with the RADIUS authentication server (IP:[STRING]) is resumed.",
+  "The communication with the RADIUS authentication server is resumed."
+ ],
+ [
+  "WLAN/6/STA_REACH_WARNING_RESTORE: OID [oid] The number of stations is less than 80% of the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+  "The number of online STAs falls below 80% of the maximum."
+ ],
+ [
+  "SW_SNPG/6/PORT_LEAVE: Querier received an IGMP Leave packet. (Group/Port=[STRING])",
+  "When the querier receives an IGMP leave message, it records the multicast group address and command word."
+ ],
+ [
+  "IKE/3/CERT_VALIDATE_FAILED:Failed to verify the certificate of the peer named [peer-name] and the error code is [error-code].",
+  "The return values and causes of certificate authentication failures are as follows:2: The CA certificate cannot be found.9: The certificate has expired.10: The certificate has not taken effect.19: The local certificate does not match the CA certificate.23: The certificate has been revoked.101: Failed to verify the certificate whitelist.102: Certificate verification fails.103: No CRL file is imported to the device when CRL verification is enabled.104: Online certificate verification fails.105: Failed to verify the in-band status of the certificate.4294967295: Device certificate verification timed out."
+ ],
+ [
+  "IPSEC/4/IPSECREACHMAXTUNNEL: OID [OID] Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it.",
+  "The number of IPSec tunnels has reached 80% of theCPU or license limitthreshold."
+ ],
+ [
+  "OSPF/3/VIFRETX:OID [oid] An OSPF packet is retransmitted on a virtual interface. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], LsdbAreaId=[lsdb-area-id], LsdbType=[lsa-type], LsdbLsid=[lsdb-ls-id], LsdbRouterId=[lsdb-router-id], ProcessId=[process-id], RouterId=[router-id], PacketType=[packet-type], InstanceName=[instance-name])",
+  "1. The address used to forward the packets could not be pinged through.2. The peer regarded the packet as an invalid packet."
+ ],
+ [
+  "WLAN/4/BACKUP_LICENSE_AGE:OID [oid] Backup license is aging. (ACMAC=[OPAQUE], Backup license number=[INTEGER], Origin=[STRING], Last backup time=[STRING])",
+  "1. The link between the active and standby ACs is disconnected in the VRRP networking.2. No AP is online on the backup AC in the dual-link or N+1 networking."
+ ],
+ [
+  "PKI/5/PKIGETCRLSUCCESSSCEP: OID [OID] get crl successfully with SCEP. (CrlUrl=[CrlUrl])",
+  "A CRL is obtained successfully using SCEP."
+ ],
+ [
+  "NAT/4/NAT_SERVERMAP_NUM_REACHLIMIT: OID [OID] The number of NAT ALG servermap tables reaches the upper limit.",
+  "When the number of NAT mapping entries reaches the upper limit, subsequent entries cannot be created. In this case, an alarm is sent to the user."
+ ],
+ [
+  "PKI/4/PKIGETCERTSUCCESSCMP:OID[oid] Requesting certificate through CMPv2 succeeded. (hwCMPUrl=[cmpurl], hwCMPName=[cmpname], CmpSessionName=[sessionname])",
+  "Applying certificate through CMPv2 succeeded."
+ ],
+ [
+  "HTTP2C/3/CERT_AUTH_FAILED: Certificate authentication failed. (AppType = [STRING])",
+  "Certificate authentication failed."
+ ],
+ [
+  "MSTP/2/IVBPDU:OID [oid] The edged-port thatenabled BPDU-Protection will be shutdown, because it received BPDUpacket. (InstanceID=[INTEGER], PortID=[INTEGER], IfIndex=[INTEGER],PortName=[STRING])",
+  "The edge port received BPDUs, and BPDU protectionwas enabled globally."
+ ],
+ [
+  "IFNET/1/IF_LINKDOWN: OID [oid] Interface [interface-index] turned into DOWN state.(AdminStatus=[INTEGER],OperStatus=[INTEGER],InterfaceName=[OCTET])",
+  "Cause 1:The interface became Down and the link was disconnected.Cause 2:The VLANIF interface is deleted."
+ ],
+ [
+  "WLAN/6/AP_FAN_INSERT:OID [oid] Fan has been inserted. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APFanId=[INTEGER])",
+  "The AP's fan was properly installed."
+ ],
+ [
+  "AAA/6/LOCALACCOUNT_MODIFY_PASSWORD_UNLOCK:The passwordof local account [STRING] can be changed.",
+  "The user account was locked. When the locking time expires,the user account is unlocked automatically.The administrator has set the state of the local account toactive."
+ ],
+ [
+  "PKI/5/PKIUPDATELOCALCERTSUCCESSCMP: OID [OID] Updating the local certificate through CMPv2 succeeded. (LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject], NewLocalCertStartTime=[NewLocalCertStartTime], NewLocalCertFinishTime=[NewLocalCertFinishTime])",
+  "After the CMPv2-based automatic certificate update function was enabled, the switch successfully updated the local certificate when the update time arrived."
+ ],
+ [
+  "MDNS/4/MDNS_INFO_LOG_MDNS_SET_ACL_FAILED(l):Set ACL failed.(Command: [STRING])",
+  "ACL resources were insufficient or an error occurred in ACL processing on the device."
+ ],
+ [
+  "WLAN/4/AP_UPDATE_RESULT:OID [oid] AP updates completely. (APMAC=[OPAQUE], APName=[STRING], UpdateResult=[INTEGER],UpdateTime=[OCTET],UpdateFileName=[OCTET],UpdateNextOper=[INTEGER],UpdateStatus=[STRING], APID=[INTEGER])",
+  "AP upgrade finished or failed."
+ ],
+ [
+  "WLAN/4/AP_EXIST_NEED_RECONNECT: OID [oid] There are APs that require reconnections.",
+  "In a VRRP HSB environment, after an AC managing APs running a later version is upgraded to a later version, the APs need to reconnect to the AC."
+ ],
+ [
+  "IPSec/5/IPSEC_INBOUND_SA_MISS: The device failed to decrypt the received IPSec-encrypted packet (Source address=[source-address], Destination address=[destination-address], SPI=[spi], Protocol=[protocol]) because no inbound SA was found.",
+  "The device fails to decapsulate IPSec-encrypted packets received from its peer."
+ ],
+ [
+  "MGMD/3/IFLIMIT:OID [oid] Membership report message is discarded because the interface-specific IGMP or MLD group membership limitation is exceeded. (GroupAddressType=[integer], SrcAddr=[binary], GrpAddr=[binary], Interface=[integer], LimitCnt=[integer], InterfaceName=[string], InstanceName=[string])",
+  "After the limit to the number of IGMP entries was set on an interface, when the number of interface-specific IGMP entries reached the limit, new members failed to join the IGMP group and the corresponding trap was generated.Interface-specific IGMP entries include the (*,G) entries, (S,G) entries, and entries in the SSM-mapping table on the interface."
+ ],
+ [
+  "IFNET/4/INBWRATERESUME:OID [oid] Interface input flow bandwidth usage was restored to thetrap threshold. (Interface=[INTEGER], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER], InterfaceName=[STRING])",
+  "The rate of traffic received by the interface becamelower than the threshold."
+ ],
+ [
+  "WEB/4/PORTALSERVER_DOWN: The portal server is down.(IP:[IPADDR])",
+  "The device detects that the Portal server changes from Up to Down."
+ ],
+ [
+  "PKI/5/CONFIRM_NO_CHECK_ALG: The user chose [string] when deciding whether to import unsafe certificate.",
+  "When the user imported an insecure CA or local certificate, this message was displayed to ask the user whether to continue the operation."
+ ],
+ [
+  "ENTITYTRAP/4/SYSTEMROLL:OID [oid] System rollback.(Reason=[INTEGER],Version =\"[OCTET]\",FileName=\"[OCTET]\")",
+  "Rollback occurs in the system."
+ ],
+ [
+  "PKI/4/CA_IMPORT_ERR: Importing CA certificate file ([file_name]) failed.",
+  "The certificate file does not exist.The certificate file name is invalid.The certificate format is incorrect.The certificate storage path is incorrect.The same certificate exists on the device."
+ ],
+ [
+  "WLAN/6/AP_OPTICAL_INVALID_RESTORE:OID [oid] The optical transceiver has restored. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER])",
+  "The optical module rate matches the interface rate."
+ ],
+ [
+  "PKI/2/PKICRLINVALID:OID[oid] the crl is invalid. (CrlIssuer=[crlissuer], CrlStartTime=[crlstarttime], CrlFinishTime=[crlfinishtime])",
+  "Indicates that the current system time is out of the CRL validity period."
+ ],
+ [
+  "WLAN/6/AP_FMEA_FAULT_PHY_CMOS_RESTORE:OID [oid] AP PHY CMOS fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "The AP's PHY chip fault is rectified."
+ ],
+ [
+  "DHCP/4/NDUSERBINDTRAPIFRESUME:OID [OID] The number of ND users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+  "The number of ND snooping binding entries on an interface reaches the lower alarm threshold."
+ ],
+ [
+  "WLAN/4/AP_OPTICAL_REMOVE:OID [oid] AP optical remove. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER],ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+  "An optical module is removed from the AP."
+ ],
+ [
+  "UPGRADE/4/UPGRADE_SUCCEED: The startup area is changed to [STRING].",
+  "The startup area was switched."
+ ],
+ [
+  "WLAN/4/AP_OPTICAL_TX_POWER_TOO_HIGH_RESTORE:OID [oid] The transmit power of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+  "The transmit power of the AP's optical module recovered and fell below the upper threshold."
+ ],
+ [
+  "AAA/6/USER_EVENT_RADIUS_PROC: radius authentication procedure. (DeviceMac=[DeviceMac], UserMac=[UserMac], UserIP=[UserIP], UserName=[UserName], Result=[Result], Msg=[Msg], TIME=[TIME], AUTHID=[AUTHID], ReplyMsg=[ReplyMsg])The last authentication mode is RADIUS authentication during user authentication.",
+  "After the protocol replay function is enabled, users use RADIUS authentication."
+ ],
+ [
+  "WLAN/4/AP_UNSUPPORT_COUNTRY_CODE:OID [oid] AP not support configured country code notify.(APMAC=[MacAddress], APName=[STRING], COUNTRY CODE=[OCTET], APID=[INTEGER])",
+  "A country code not supported by the RU is configured on the central AP."
+ ],
+ [
+  "SNMP/4/AUTHFAIL:OID [oid] authenticationFailure. (RemoteIpAddressType=[INTEGER],RemoteIpAddress=[STRING])",
+  "The incorrect community name was used to connect devices.The incorrect user name of SNMPv3 was used to connect devices."
+ ],
+ [
+  "ARP/4/ARP_THRESHOLDRESUME_TRAP:OID [OID] Thenumber of ARP entries was restored to the threshold. (entPhysicalIndex=[INTEGER], Slot name=[OCTET],Threshold=[COUNTER], Number of dynamic ARP entries=[COUNTER], Numberof static ARP entries=[COUNTER]).",
+  "The number of ARP entries on the device fell belowthe upper threshold."
+ ],
+ [
+  "BGP/2/BACKWARD:OID [oid] The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=[ipaddr], InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], InterfaceIndex=[integer], BgpPeerLastError=[octet], BgpPeerState=[integer], BgpPeerUnavaiReason=[gauge], InterfaceName=[octet])",
+  "1. The BGP holdtimer timed out and did not receive the Keepalive packet.2. BGP received incorrect BGP packets.3. The BGP neighbor relationship was reset and the neighbor relationship was automatically interrupted.4. BGP received Notification packets from the neighbor."
+ ],
+ [
+  "WLAN/4/BLE_OFFLINE_RESTORE: OID [oid] The BLE site recovers. (BLEMAC=[OPAQUE])",
+  "The signal of the BLE device is detected again."
+ ],
+ [
+  "IFNET/4/IF_SUPPRESS_RESUME:OID [OID] The stateof interface changed from suppress to unsuppress. (InterfaceIndex=[INTEGER],InterfaceExtIndex=[INTEGER], InterfaceName=[STRING], SuppressState=[INTEGER])",
+  "The interface was in the suppression status. Whenthe suppression penalty value of the interface reduced below the reusethreshold or the interface was deleted, the interface changed fromthe suppression status to non-suppression status. As a result, thealarm about that the interface restored the non-suppression statuswas generated."
+ ],
+ [
+  "UPGRADE/4/CHECK_SUCCEED: Succeeded in verifying firmware version.",
+  "Data verification succeeded."
+ ],
+ [
+  "WLAN/3/AP_RESET_FAIL: AP reset failed. (MAC=[OPAQUE],\nApID=[ULONG], Sysname=[STRING], Reason=[STRING])",
+  "The link between the AP and AC was faulty or the link\nenvironments were bad. As a result, the restart packet sent from the\nAC to the AP was lost."
+ ],
+ [
+  "OSPF/3/RESTARTCHG:OID [oid] The GR status changes. (ProcessId=[process-id], RouterId=[router-id], RestartStatus=[gr-reason], RestartInterval=[gr-value], RestartExitReason=[quit-reason], InstanceName=[instance-name])",
+  "1. Thewireless access controllerexited from GR.2. Thewireless access controllerentered GR."
+ ],
+ [
+  "SSH/4/SFTPUSER:OID [oid] The current number [INTEGER]of SFTP online users has reached the maximum [INTEGER], and otherusers' requests will be rejected.",
+  "New users still request to connect to the SFTPserver on which the number of VTY connections has reached the maximumvalue."
+ ],
+ [
+  "DHCP/4/DHCPUSERBINDTRAPGLOBAL:OID [OID] The number of DHCP global users exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+  "The number of global DHCP snooping binding entries reaches the upper alarm threshold."
+ ],
+ [
+  "RDS/6/COA_SESSION_EXPIRED:sessionId = [STRING1]. USER:[STRING2]. MAC:[STRING3].",
+  "A RADIUS CoA entry was not deleted."
+ ],
+ [
+  "MSTP/2/ROOT:OID [OID]: This bridge is no longer the root bridge of the instance [instance-id].",
+  "1.A new link was added to the network topology, and the network topology changed. In addition, the newly-added device became the root bridge through thestp root primarycommand, with the MAC address smaller than that of the previous root bridge.2.The priorities of some switches changed in the network."
+ ],
+ [
+  "IFNET/4/OUTBWRATERESUME:OID [oid] Interface output flow bandwidth usage was restored to thetrap threshold. (Interface=[INTEGER], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER], InterfaceName=[STRING])",
+  "The rate of traffic sent by the interface becamelower than the threshold."
+ ],
+ [
+  "AM/6/PREFALLOCOK: An IPv6 prefix was allocated. (PoolName=[STRING], ClientId=[STRING], Prefix=[STRING], LeaseTime=[ULONG], UserType=[STRING], UserMac=[STRING])",
+  "The DHCPv6 PD server recorded this log when the server successfully allocated an IPv6 prefix to a client."
+ ],
+ [
+  "RM/4/PUBLIC_IPV4_PREFIX_THRESHOLD_EXCEED:OID [oid] Thenumber of public IPv4 prefixes exceeded the threshold. (PrefixCount=[Integer],Threshold=[Integer])",
+  "Cause 1:A large number of IPv4 dynamic protocolroutes (BGP or IGP routes for example), static routes, direct routes, or UNR routeswere added to the routing table.Cause 2:The thresholdof the number of IPv4 public route prefixes was decreased."
+ ],
+ [
+  "WLAN/6/AP_VERSION_CONFLICT_RESTORE:OID [oid] AP-version-not-recommended alarm Restore.",
+  "The involved APs are upgraded to the recommended version."
+ ],
+ [
+  "ISIS-STD/2/VERSION_SKEW:OID [oid] IS-IS received a PDUwith incorrect ProtocolVersion. (NotificationSysLevelIndex=[integer],CircIfIndex=[integer], PduProtocolVersion=[integer], PduFragment=[opaque])",
+  "Cause 1: The IS-IS version numbers supported bythe localwireless access controllerand otherwireless access controllerdevices were inconsistent.Cause 2: The version number fieldwas modified during packet transmission."
+ ],
+ [
+  "PKI/4/RSA_DESTROY_FAILED: Deleting[key_type]local key pair [key_name] failed.",
+  "The key pair does not exist.The key pair is being used by services."
+ ],
+ [
+  "WLAN/4/AP_IOT_CARD_REMOVE:OID [oid] A iot card is removed. (APMAC=[OPAQUE], APName=[STRING], APIotCardId=[INTEGER], APID=[INTEGER], APIotCardType=[STRING])",
+  "An IoT card is removed."
+ ],
+ [
+  "RDS/4/RDACCTUP_WARNING:OID [oid] Communication with the RADIUS accounting server is resumed. (IP=[ip-address], Vpn-Instance:[vpn-instance-name])",
+  "The communication with the RADIUS accounting server is resumed.The RADIUS accounting server restarts."
+ ],
+ [
+  "ENTITYTRAP/1/ENTITYBRDTEMPALARM:OID [OID] Temperature rise over or fall below the warning alarm threshold.(Index=[INTEGER],EntryPhysicalIndex=[INTEGER], PhysicalName=\"[OCTET]\", EntityThresholdType=[INTEGER],EntityThresholdValue=[INTEGER],EntityThresholdCurrent=[INTEGER], EntityTrapFaultID=[INTEGER])",
+  "The device is in a harsh environment or the higher and lower alarm thresholds are incorrectly configured."
+ ],
+ [
+  "ENTITYTRAP/6/FILEERRORRESUME:OID [OID] The storage is recovered.(Index=[INTEGER],PhysicalName=\"[OCTET]\",StorageName=\"[OCTET]\")",
+  "The file system is recovered or formatted."
+ ],
+ [
+  "WLAN/4/AP_HOT_BOOT:OID [oid] AP hot boot. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET],APID=[INTEGER])",
+  "The AP is manually restarted."
+ ],
+ [
+  "AAA/6/DOMAIN_ACTIVE:The domain [STRING] is changedfrom blocked to active because the current time is not within theblocking period.",
+  "The current time is not included in the block periodconfigured bystate block time-range,so the domain status is changed from blocked to activated."
+ ],
+ [
+  "WLAN/4/AP_OPTICAL_TEMPERATURE_TOO_LOW:OID [oid] AP optical module temperature is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+  "The temperature of an AP's optical module is lower than the lower temperature threshold."
+ ],
+ [
+  "VRRP/2/VRRPV3PROTOERROR: OID [oid] VRRP received protocolerror packet. (VrrpIfIndex=[INTEGER], VrId=[INTEGER], InetAddrType=[INTEGER],ProtoErrorType=[INTEGER])",
+  "The device received an incorrect VRRP packet."
+ ],
+ [
+  "RDS/4/RDAUTHUP_WARNING:OID [oid] Communication with the RADIUS authentication server is resumed. (IP=[ip-address], Vpn-Instance:[vpn-instance-name])",
+  "The communication with the RADIUS authentication server is resumed.The RADIUS authentication server restarts."
+ ],
+ [
+  "PKI/4/YANG_CERT_UPDATE_OK: Updating the [certificate-type] certificate (realm=[realm-name]) through controller succeeded.",
+  "The certificate was successfully updated through the controller."
+ ],
+ [
+  "WLAN/6/AP_POE_POWER_OVER_UTILIZATION_THRESHOLD_RESTORE:OID [oid] The power load of a PoE card falls below the upper limit. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoeCurConsumPower=[INTEGER], ApPoeConsumPowerThreshold=[INTEGER], APID=[INTEGER])",
+  "The total power consumption of all the PDs falls below the alarm threshold."
+ ],
+ [
+  "WLAN/6/AP_FMEA_FAULT_IIC_CHANNEL_RESTORE:OID [oid] AP IIC channel fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+  "The AP's IIC channel fault is rectified."
+ ],
+ [
+  "SW_SNPG/4/GLBCNTEXCEED:OID [OID] Exceed the bandwidthlimit on multicast groups.(ConfiguredValue=[INTEGER], CurrentMulticastGroup=[IPADDR])",
+  "New multicast groups intended to join the channelwhen the bandwidth of global multicast groups reached or exceededthe configured value."
+ ],
+ [
+  "LLDP/4/NBRCHGTRAP: OID [oid] Neighbor information is changed. (LldpStatsRemTablesInserts=[INTEGER], LldpStatsRemTablesDeletes=[INTEGER], LldpStatsRemTablesDrops=[INTEGER], LldpStatsRemTablesAgeouts=[INTEGER]).",
+  "Cause 1: A neighbor is found.Cause 2: A neighbor is deleted.Cause 3: A neighbor is aged.Cause 4: A neighbor is discarded because of insufficient space."
+ ]
+]

@@ -1,0 +1,1017 @@
+[
+ [
+  [
+   "The local account[STRING] becomes valid because the current time is within the accesspermission period.",
+   "Protocol [STRING] state on the interface [STRING] changed to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP packets in which the CHADDR field is inconsistent with the source MAC address exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   " DHCP relay receive a dhcp packet with wrong giaddr address. (InterfaceName=[STRING])",
+   "[STRING] ([STRING])  Packet-filter IPv6 [UINT32] [STRING] [STRING] [UINT64] packet(s)."
+  ],
+  0
+ ],
+ [
+  [
+   " Realm [realm_name] is getting CRL through [protocol]...",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] IS-IS received a level-1Hello PDU whose area address is different from the local area address.(sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],sysInstanceofCircIfIndex=[integer], circIndex=[integer], ifIndex=[integer],circIfIndex=[integer], pduFragment=[opaque], ifName=[string])",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The quiet max user alarm is cleared.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   " Importing [key_type] key pair [key_name] succeeded.",
+   "User [STRING] from [STRING] failed authentication."
+  ],
+  0
+ ],
+ [
+  [
+   " Deleting CRL file ([file_name]) succeeded.",
+   "SNMP [STRING] from [STRING] is rejected due to ACL restriction."
+  ],
+  0
+ ],
+ [
+  [
+   " Result of IP address allocation from the DHCP server to wireless users.[WLAN_STA_INFO_IP_CONNECTION]ACMAC [STRING];ACNAME [STRING];APMAC [STRING];APNAME [STRING];USER [STRING];MAC [STRING];TIME [STRING];ZONE [STRING];DAYLIGHT [STRING];ERRCODE [STRING];RESULT [STRING]",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] When a multi-chassis restore a single-chassis device, the interface information is changed.",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=GET-node=[STRING]-value=[STRING]; The agent received a message."
+  ],
+  0
+ ],
+ [
+  [
+   " Importing [key_type] key pair [key_name] succeeded.",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] get crl unsuccessfully with HTTP. (CrlUrl=[crlurl])",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The numberof public IPv4 prefixes exceeded the maximum value. (PrefixCount=[Integer],MaxValue=[Integer])",
+   "Line protocol state on the interface [STRING] changed to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Manually obtaining CRL [file_name] through HTTP failed (Reason=[reason]).",
+   "Failed to recover the configuration of binding the service card on chassis [UINT16] slot [UINT16] to interface [STRING], because [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " The rate of DHCPV6 packets\nexceeds the speed limit. [INTEGER] packets have been discarded.",
+   "OSPFv3 [UINT32] Neighbor [STRING] ([STRING]) received [STRING] and its state from [STRING] to [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "Remote account [STRING] has been locked.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   " AN UNTRUSTED ND SERVER IS FOUND. (SERVER INFO   IP Address=[STRING], MAC Address=[STRING], Interface Name=[STRING], Prefix=[STRING], Prefix len=[ULONG], VLAN=[ULONG])",
+   "-Line=[STRING]-IPAddr=[STRING]-User=[STRING]; Command is [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the vlan exceeds alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   " Deleting[key_type]local key pair [key_name] succeeded.",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP global users exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The state of interfacechanged from unsuppress to suppress. (InterfaceIndex=[INTEGER], InterfaceExtIndex=[INTEGER],InterfaceName=[STRING], SuppressState=[INTEGER])",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA failed."
+  ],
+  0
+ ],
+ [
+  [
+   "User attribute has been changed. (Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING], UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING])",
+   "User [STRING] from [STRING] was authenticated successfully."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Global LLDP is disabled.",
+   "[STRING] agent neighbor aged out on port [STRING] (IfIndex [UINT32]), neighbor's chassis ID is [STRING], port ID is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "The user [STRING1] with IP address [STRING2] changed the password of [STRING3] through the web NMS.",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [UINT32]"
+  ],
+  0
+ ],
+ [
+  [
+   " Manually obtaining CRL [file_name] through [protocol] succeeded.",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The numberof level-2 imported routes has reached the upper threshold value.(sysInstance=[integer], sysProtocol=[integer], sysMTIndex=[integer],sysMaxLimit=[integer], sysUpperThresholdValue=[integer], sysLowerThresholdValue=[integer],sysTotalRedist=[integer])",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "IKEv2 peer [peer-name] begin to re-authenticate.",
+   "Failed to pass extended authentication in [STRING] mode [STRING]\n  state.Reason  [STRING].SA information \u00b7Role  [STRING].\u00b7Local IP  [STRING].\u00b7Local ID type  [STRING].\u00b7Local ID  [STRING].\u00b7Local port  [UINT32].\u00b7Retransmissions  [UINT32]\u00b7Remote IP  [STRING].\u00b7Remote ID type  [STRING].\u00b7Remote ID  [STRING].\u00b7Remote port  [UINT32].\u00b7Recived retransmissions  [UINT32]\u00b7Inside VPN instance  [STRING].\u00b7Outside VPN instance  [STRING].\u00b7Initiator Cookie  [STRING]\u00b7Responder Cookie  [STRING].\u00b7Message ID  [STRING].\u00b7Connection ID  [UINT32]"
+  ],
+  1
+ ],
+ [
+  [
+   " The IP address assigned by a DHCP server conflicted with another host on the link. (Client InterfaceName=[interface-name], ServerId=[ip-address], Assigned IpAddress=[assigned-ip-address])",
+   "IPsec packet discarded, Src IP [STRING], Dst IP [STRING], SPI [UINT32], SN [UINT32], Cause [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Session changes to DOWN. (Index=[integer], ConfigurationName=[octet], PeerIp=[ipaddr], BindIfIndex=[integer], BindIfName=[octet], Diagnosis=[integer], BindVrfIndex=[integer], BindVpnName=[octet], SessionType=[integer], DefaultIp=[integer], BindType=[integer], StaticLspName=[octet], PwSecondary=[integer], NextHop=[ipaddr], VcId=[integer], VsiName=[octet], VsiPeerAddress=[ipaddr], DiscrAuto=[integer], PeerIpv6=[ipv6addr], Ipv6NextHop=[ipv6addr])",
+   "The total number of BFD sessions [ULONG] reached the upper limit. Can\u2019t create a new session."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Thenumber of public IPv4 prefixes exceeded the threshold. (PrefixCount=[Integer],Threshold=[Integer])",
+   "OSPF [UINT32] Router ID changed, reconfigure Vlink on peer"
+  ],
+  0
+ ],
+ [
+  [
+   " Realm [realm-name] failed to obtain the CA certificate chain through [protocol].",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Invalid Register message. (GroupMappingOrigin=[integer],GroupMappingAddressType=[integer], GrpAddr=[binary], GrpPfxLen=[gauge],GroupMappingRPAddressType=[integer], RPAddr=[binary], GroupMappingPimMode=[integer],InvRegAddressType=[integer], InvRegOriginAddr=[binary], InvRegGrpAddr=[binary],InvRegRpAddr=[binary], InstanceID=[integer], InstanceName=[string])",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  0
+ ],
+ [
+  [
+   " Delete dhcp bind-table because IP address conflict. (Bind-table info  InterfaceName=[STRING], Pvlan=[ULONG], Cvlan=[ULONG], IP Address=[IPADDR], MAC Address=[STRING])",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] PIM entries can be created because the number of PIM entriesfalls below the upper limit. (GrpAddrType=[integer], SrcAddr=[binary],GrpAddr=[binary], InstanceID=[integer], InstanceName=[string])",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] IP addresses of DRsin an intra area conflict. (ProcessId=[integer], AreaId=[ipaddr],SelfIfnetIndex=[integer], NbrIpAddr=[ipaddr], RouterId=[ipaddr], IntierfaceIpAddress=[ipaddr],InterfaceName=[octet])",
+   "OSPF [UINT32] Last neighbor down event  Router ID  [STRING] Local address  [STRING] Remote address  [STRING] Reason  [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] Requesting certificate through CMPv2 succeeded. (hwCMPUrl=[cmpurl], hwCMPName=[cmpname], CmpSessionName=[sessionname])",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Thenumber of level-2 imported routes has been less than the lower thresholdvalue.(sysInstance=[integer], sysProtocol=[integer],sysMTIndex=[integer], sysMaxLimit=[integer], sysUpperThresholdValue=[integer],sysLowerThresholdValue=[integer], sysTotalRedist=[integer])",
+   "The rule ID in [STRING] ACL [UNIT32] is out of range."
+  ],
+  0
+ ],
+ [
+  [
+   " The POST data of the requestpacket is too long.(Length [ULONG]).",
+   "[STRING] failed to log in from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The helper status of the non-virtual neighbor changes. (NbrIpAddr=[ip-address], NbrAddressLessIndex=[interface-index], ProcessId=[process-id], RouterId=[router-id], NbrRtrId=[neighbor-router-id], NbrRestartHelperStatus=[gr-helper-state], NbrRestartHelperAge=[gr-helper-value], NbrRestartHelperExitReason=[quit-reason], InstanceName=[instance-name])",
+   "OSPF [UINT32] Last neighbor down event  Router ID  [STRING] Local address  [STRING] Remote address  [STRING] Reason  [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] get crl successfully with SCEP. (CrlUrl=[CrlUrl])",
+   "The number of [STRING] agent neighbors maintained by the port [STRING] (IfIndex [UINT32]) has reached [UINT32], and no more neighbors can be added."
+  ],
+  0
+ ],
+ [
+  [
+   "[STRING] was plugged in.",
+   "Power [INT32] recovered."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of IPv4prefixes exceeded the maximum value. (PrefixCount=[Integer], MaxValue=[Integer])",
+   "The IPsec SA was deleted for the reason of [STRING]. The SA's source address is [STRING], destination address is [STRING], protocol is [STRING], and SPI is [UINT32]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The overload state of IS-IS LSDBchanged. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],overLoadState=[integer])",
+   "IS-IS [UINT32], [STRING] adjacency %s (%s), state changed to %s."
+  ],
+  1
+ ],
+ [
+  [
+   "The passwordhas expired, so the local account [STRING] becomes invalid.",
+   "The host [STRING] connected to interface [STRING] cannot communicate correctly, because it uses the same IP address as the host connected to interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of the discardedND packets that do not match the binding table exceeds the thresholdon the interface. (Interface=[OCTET], VlanID=[INTEGER], LastDroppedSourceMac=[OCTET],DiscardedNumber=[INTEGER])",
+   "Username=[STRING]-UserMAC=[STRING]-SSID=[STRING]-VLANID=[STRING]; Session for an 802.1X user was terminated."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The state of IS-IS adjacencychanged. (sysInstance=[integer], sysInstanceofLevel=[integer], sysLevel=[integer],sysInstanceofInterface=[integer], circuit=[integer], ifIndex=[integer],circuitIfIndex=[integer], lspID=[opaque], adjState=[integer], ifName=[string],hwIsisAdjChangeReason=[integer], hwIsisAdjChangeSubReason=[integer])",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   " Importing CRL file ([file_name]) succeeded.",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The protocol of receivedProtocol TLV is mismatched with local configuration. (sysInstance=[integer],sysInstanceofLevel=[integer], sysLevel=[integer], sysInstanceofCircIfIndex=[integer],circIndex=[integer], ifIndex=[integer], circIfIndex=[integer], pduProtocolsSupported=[opaque],pduLspId=[opaque], pduFragment=[opaque], ifName=[string])",
+   "-Username=[STRING]-UserMAC=[STRING]-SSID=[STRING]-VLANID=[STRING]; A user failed 802.1X authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] When a single-chassisdevice is upgraded to a multi-chassis device, the interface informationis changed.",
+   "Interface [STRING] was suppressed."
+  ],
+  1
+ ],
+ [
+  [
+   " LOCAL certificate ([subject_name]) will expire in [day] days.",
+   "Failed to accelerate ACL [UINT32]. ACL acceleration supports only contiguous wildcard masks."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] PIM neighboradd. (NbrIntIndex=[integer], NbrAddrType=[integer], NbrAddr=[binary],NbrExpiryTime=[timetick], InstanceID=[integer], InstanceName=[string])",
+   "Software version of\n  [STRING] is incompatible with that of the MPU."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The state of interface turned to DOWN because of FLOW DOWN. (Interface=[INTEGER], InterfaceIndex=[INTEGER], SysUpTime=[TIMETICK], FlowStatus=[INTEGER], InterfaceName=[STRING])",
+   "Physical state on the interface [STRING] changed to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] the CA certificate is invalid. (CACertIssuer=[issuer], CACertSubject=[subject], CACertStartTime=[starttime], CACertFinishTime=[finishtime])",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The numberof level-2 imported routes has reached the upper threshold value.(sysInstance=[integer], sysProtocol=[integer], sysMTIndex=[integer],sysMaxLimit=[integer], sysUpperThresholdValue=[integer], sysLowerThresholdValue=[integer],sysTotalRedist=[integer])",
+   "Max active [STRING] routes [UINT32] reached in URT of [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   " Saving the dynamic binding table to a remote server failed. Ensure that the remote server address is reachable and the user name and password and the file path are correct.",
+   "Failed to accelerate IPv6 ACL [UINT32]. ACL acceleration does not support the rules that contain the hop-by-hop keywords."
+  ],
+  0
+ ],
+ [
+  [
+   "The number\nof routes generated by IPSec has reached the maximum value ([ULONG]).",
+   "The address range in address group [UINT16] overlaps with the\n  address range in address group [UINT16]."
+  ],
+  0
+ ],
+ [
+  [
+   " The DHCPv6 client acquired IPv6 address successfully. (InterfaceName=[STRING1], Ipv6Address=[STRING2], ServerDuid=[STRING3])",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  0
+ ],
+ [
+  [
+   " portal authentication procedure.  (DeviceMac=[DeviceMac], UserMac=[UserMac], UserIP=[UserIp], UserName=[UserName], Result=[Result], Msg=[Msg], TIME=[TIME], AUTHID=[AUTHID])",
+   "[STRING] failed to log in from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "The local account [STRING]becomes invalid because the current time is not within the expirydate specified by user.",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [UINT32]"
+  ],
+  0
+ ],
+ [
+  [
+   " CA certificate ([subject_name]) has expired for [day] days.",
+   "The specified size of jumbo frames on the aggregate interface\n  [STRING] is not supported on the member port [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " The IP address lease is successfully renewed. (Client InterfaceName=[STRING], ServerId=[IPADDR], Acquired IpAddress=[IPADDR], Mask=[IPADDR], Gateway=[STRING], Static Route=[STRING], Lease Duration=[STRING], DNS Server=[STRING], DNS Domain=[STRING], Cloud management URL=[STRING], Option43=[STRING])",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] the CA certificate is nearly expired. (CACertIssuer=[issuer], CACertSubject=[subject], CACertStartTime=[starttime], CACertFinishTime=[finishtime])",
+   "The number of [STRING] agent neighbors maintained by port [STRING] (IfIndex [UINT32]) is less than [UINT32], and new neighbors can be added."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP reply packets on the untrusted interface exceeds the threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [UINT32]"
+  ],
+  0
+ ],
+ [
+  [
+   " Updating the local certificate ([certificate-name]) through CMPv2 failed.",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of ND users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Thenumber of level-1 imported routes has been less than the lower thresholdvalue.(sysInstance=[integer], sysProtocol=[integer],sysMTIndex=[integer], sysMaxLimit=[integer], sysUpperThresholdValue=[integer],sysLowerThresholdValue=[integer], sysTotalRedist=[integer])",
+   "-User=[STRING]-IPAddr=[STRING]; SNMPv3 message is not in the time window."
+  ],
+  0
+ ],
+ [
+  [
+   " [STRING]",
+   "Failed to add flow-table due to [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] get certificate successfully with HTTP. (CertUrl=[certurl], CertSaveName=[certsavename])",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "Local account [STRING] password has been modified.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   " RSA local key pair [key_name] will be replaced by a new one.",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " Importing CRL file ([file_name]) succeeded.",
+   "Subcard was removed from chassis [INT32] slot [INT32] subslot [INT32], type is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " The user failed to request an IP address. (Client MAC Address=[STRING], VLAN=[ULONG], APID=[ULONG], APMAC=[STRING], APName=[STRING], RadioId=[ULONG], SSID=[STRING], Failure Reason=[STRING]).",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   " RSA local key pair [key_name] will be replaced by a new one.",
+   "The neighboring AP of the [STRING] agent on port [STRING] (IfIndex\n  [UINT32]) was restarted due to aging."
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of quiet users is reaching the max.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCPv6 client acquired IPv6 address successfully. (InterfaceName=[STRING1], Ipv6Address=[STRING2], ServerDuid=[STRING3])",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=[ipaddr], InstanceId=[gauge], Afi=[integer], Safi=[integer], PeerType=[integer], PeerRemoteAddr=[binary], InterfaceIndex=[integer], BgpPeerLastError=[octet], BgpPeerState=[integer], BgpPeerUnavaiReason=[gauge], InterfaceName=[octet])",
+   "-User=[STRING]-IPAddr=[STRING]; SNMPv3 message is not in the time window."
+  ],
+  0
+ ],
+ [
+  [
+   " [STRING]",
+   "OSPF [UINT32] Neighbor [STRING] ([STRING]) changed from [STRING] to [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   " The user is added to quiet-table.(IP [IPADDR];VPN-Instance [STRING])",
+   "[STRING] logged out from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] authenticationFailure. (RemoteIpAddressType=[INTEGER],RemoteIpAddress=[STRING])",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The portal server isup.(IP [IPADDR] Vpn-Instance [OCTET])",
+   "[STRING] failed to log in from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " The user is deleted from quiet-table.(MAC Address [STRING])",
+   "-Line=[STRING]-IPAddr=[STRING]-User=[STRING]; Command is [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The numberof level-1 imported routes is restored to less than or equal to themaximum limit.(sysInstance=[integer], sysProtocol=[integer],sysMTIndex=[integer], sysMaxLimit=[integer], sysTotalRedist=[integer])",
+   "IS-IS [UINT32], [STRING] adjacency %s (%s), state changed to %s."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] After a systemID conflict was detected within an IS-IS area, IS-IS changed the systemID automatically. (hwisisSysInstance=[integer], hwISISConflictSystemID=[opaque],hwISISAutoSysId=[opaque], hwISISLocalIP=[ipaddr], hwISISRemoteIP=[ipaddr])",
+   "The [STRING] virtual router [UINT32] (configured on [STRING]) virtual forwarder [UINT32] detected status change (from [STRING] to [STRING])  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The LSDB overflows. (ProcessId=[process-id], RouterId=[router-id], ExtLsdbLimit=[lsa-limit], InstanceName=[instance-name])",
+   "OSPF [UINT16] Received newer self-originated network-LSAs. Possible conflict of IP address [IPADDR] in area [STRING] on interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] Updating the local certificate through SCEP succeeded. (LocalCertIssuer=[LocalCertIssuer], LocalCertSubject=[LocalCertSubject], NewLocalCertStartTime=[NewLocalCertStartTime], NewLocalCertFinishTime=[NewLocalCertFinishTime])",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The NAC Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA launched."
+  ],
+  1
+ ],
+ [
+  [
+   "[STRING] is absent.",
+   "Board state changed to Normal on chassis [INT32] slot [INT32], type is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Interface is elected to beDR. (IfIndex=[integer], IfIPverion=[integer], IfAddrType=[integer],Addr=[binary], IfName=[string], InstanceID=[integer], InstanceName=[string])",
+   "The IKE phase 2 SA was deleted for the reason of [STRING]. The SA's source address is [STRING], and its destination address is [STRING]. As [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Invalid Register message. (GroupMappingOrigin=[integer],GroupMappingAddressType=[integer], GrpAddr=[binary], GrpPfxLen=[gauge],GroupMappingRPAddressType=[integer], RPAddr=[binary], GroupMappingPimMode=[integer],InvRegAddressType=[integer], InvRegOriginAddr=[binary], InvRegGrpAddr=[binary],InvRegRpAddr=[binary], InstanceID=[integer], InstanceName=[string])",
+   "PIM process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] After a systemID conflict was detected within an IS-IS area, IS-IS changed the systemID automatically. (hwisisSysInstance=[integer], hwISISConflictSystemID=[opaque],hwISISAutoSysId=[opaque], hwISISLocalIP=[ipaddr], hwISISRemoteIP=[ipaddr])",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The status of peer flapping suppress is changed.(ProcessId=[integer], RouterId=[integer], AreaId=[integer], ifName=[octet], SuppressStatus=[integer], SuppressReason=[integer])",
+   "OSPFv3 [UINT32] Last neighbor down event  Router ID  [STRING]\u00a0 Local interface ID  [UINT32]\u00a0 Remote interface ID  [UINT32]\u00a0 Reason  [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " The user is added to quiet-table.(MAC Address [STRING])",
+   "[STRING]PIM-NBR change  Neighbor [STRING]([STRING]) is up. ([STRING][STRING])[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  0
+ ],
+ [
+  [
+   "Remote account [STRING] has been unlocked.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] A packet is received on a non-virtual interface from a router whose authentication key or authentication type conflicts with the local authentication key or authentication type. (IfIpAddress=[ip-address], AddressLessIf=[interface-index], ProcessId=[process-id], RouterId=[router-id], PacketSrc=[source-ip-address], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+   "OSPF [UINT32] Router ID changed, reconfigure Vlink on peer"
+  ],
+  1
+ ],
+ [
+  [
+   " The number of dynamic peers has reached the\nmaximum value.",
+   "User [STRING] from [STRING] failed authentication."
+  ],
+  0
+ ],
+ [
+  [
+   "The user cannot be authenticated temporarily,because the number of entries in the quiet table exceeds the upper limit.(MAC Address=[STRING])",
+   "Failed to assign a rule for free IP [IPADDR] on interface [STRING]  EAD assistant was not supported."
+  ],
+  1
+ ],
+ [
+  [
+   " LOCAL certificate ([subject_name]) will be valid in [day] days.",
+   "Failed to authenticate SNMP message."
+  ],
+  0
+ ],
+ [
+  [
+   " The rate of DHCP packets exceeds the speed limit. [INTEGER] packets have been discarded.",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The state of VRRP changed from master to other state. (VrrpIfIndex=[VrrpIfIndex], VrId=[VrId], IfIndex=[IfIndex], IPAddress=[IPAddress], NodeName=[NodeName], IfName=[IfName], CurrentState=[CurrentState], ChangeReason=[ChangeReason])",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   " Importing CA certificate file ([file_name]) succeeded.",
+   "PVID mismatch discovered on [STRING] (PVID [UINT32]), with [STRING] [STRING] (PVID [STRING])."
+  ],
+  0
+ ],
+ [
+  [
+   " Saving the dynamic binding table to a remote server failed. Ensure that the remote server address is reachable and the user name and password and the file path are correct.",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   " Deleting CRL file ([file_name]) failed.",
+   "Request certificate of domain [STRING] successfully."
+  ],
+  1
+ ],
+ [
+  [
+   " The static route assigned by a DHCP server changed. (Client InterfaceName=[interface-name], ServerId=[ip-address], Old StaticRoute=[old-static-route], New StaticRoute=[new-static-route])",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The state of interfacechanged from unsuppress to suppress. (InterfaceIndex=[INTEGER], InterfaceExtIndex=[INTEGER],InterfaceName=[STRING], SuppressState=[INTEGER])",
+   "The specified size of jumbo frames on the aggregate interface\n  [STRING] is not supported on the member port [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it at once.",
+   "The [STRING] virtual router [UINT32] (configured on [STRING]) failed to add virtual MAC  [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Session changes to UP. (Index=[integer], ConfigurationName=[octet], PeerIp=[ipaddr], BindIfIndex=[integer], BindIfName=[octet], Diagnosis=[integer], BindVrfIndex=[integer], BindVpnName=[octet], SessionType=[integer], DefaultIp=[integer], BindType=[integer], StaticLspName=[octet], PwSecondary=[integer], NextHop=[ipaddr], VcId=[integer], VsiName=[octet], VsiPeerAddress=[ipaddr], DiscrAuto=[integer], PeerIpv6=[ipv6addr], Ipv6NextHop=[ipv6addr])",
+   "Sess[STRING], Ver, Sta  [STRING]->[STRING], Diag  [UINT32]"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] A packet is received on a virtual interface from a router whose authentication key or authentication type conflicts with the local authentication key or authentication type. (VirtIfAreaId=[area-id], VirtIfNeighbor=[neighbor-router-id], ProcessId=[process-id], RouterId=[router-id], ConfigErrorType=[error-type], PacketType=[packet-type], InstanceName=[instance-name])",
+   "OSPF [UINT32] route limit reached."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The stateof interface changed from suppress to unsuppress. (InterfaceIndex=[INTEGER],InterfaceExtIndex=[INTEGER], InterfaceName=[STRING], SuppressState=[INTEGER])",
+   "The address range in address group [UINT16] overlaps with the\n  address range in address group [UINT16]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] The IPSec tunnel is deleted. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], OfflineReason=[offlinereason], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID])",
+   "IPsec packet discarded, Src IP [STRING], Dst IP [STRING], SPI [UINT32], SN [UINT32], Cause [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] PIM neighbor loss.(NbrIntIndex=[integer], NbrAddrType=[integer], NbrAddr=[binary], NbrUpTime=[timetick],NbrIntName=[string], InstanceID=[integer], InstanceName=[string],NeighborLossReason=[integer])",
+   "[STRING]PIM-NBR change  Neighbor [STRING]([STRING]) is up. ([STRING][STRING])[STRING]  Neighbor [STRING] ([STRING]) is up."
+  ],
+  1
+ ],
+ [
+  [
+   "sessionId = [STRING1]. domain   [STRING2].",
+   "Failed to establish phase 1 SA for the reason of [STRING]. The SA's source address is [STRING], and its destination address is [STRING]. As [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   "The power supply on  [STRING]\nis off.",
+   "Temperature is greater than the high-temperature alarming threshold on chassis [INT32] slot [INT32] sensor [STRING] [INT32]."
+  ],
+  1
+ ],
+ [
+  [
+   " [STRING1] was reset. The reasonwas  [STRING2].",
+   "Board state changed to Fault on chassis [INT32] slot [INT32], type is [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP request packets that do not match the binding table exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   "[STRING] logged in from [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Saving RSA local key pair [key_name] failed.",
+   "Subcard was inserted in chassis [INT32] slot [INT32] subslot [INT32], type is [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of quiet users is reaching the max.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   " Exporting CA certificate file ([string]) failed.",
+   "[STRING]PIM-NBR change  Neighbor [STRING]([STRING]) is down. ([STRING][STRING])[STRING]  Neighbor [STRING] ([STRING]) is down."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Invalid Join/Prune message. (GroupMappingOrigin=[integer],GroupMappingAddrType=[integer], GrpAddr=[binary], GrpPfxLen=[gauge],GroupMappingRPAddrType=[integer], RPAddr=[binary], NbrIfIndex=[integer],NbrAddrType=[integer], NbrAddr=[binary], GroupMappingPimMode=[integer],InvJPAddrType=[integer], InvJPOriginAddr=[binary], InvJPGrpAddr=[binary],InvJPRpAddr=[binary], NbrUpTime=[timetick], NbrIfName=[string], InstanceID=[integer], InstanceName=[string])",
+   "Username=[STRING]-UserMAC=[STRING]-SSID=[STRING]-VLANID=[STRING]; Session for an 802.1X user was terminated."
+  ],
+  0
+ ],
+ [
+  [
+   "The number of half-open SA connections has reached the threshold.",
+   "Failed to establish phase 1 SA for the reason of [STRING]. The SA's source address is [STRING], and its destination address is [STRING]. As [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The size of the localbuffer for originating IS-IS LSPs is smaller than the size of thereceived LSP. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer],ifIndex=[integer], circIfIndex=[integer], pduLspId=[opaque], pduOriginatingBufferSize=[integer],ifName=[string])",
+   "IPsec packet discarded, Src IP [STRING], Dst IP [STRING], SPI [UINT32], SN [UINT32], Cause [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID[OID] Current counts of ike peer reach max limit.",
+   "Anti-replay dropped a packet  src=[STRING]; time-sent=[STRING],\n  [UINT32] [STRING] [UINT32] [UINT32] [UINT32] [UINT32] [UINT32]us;\n  time-received=[STRING], [UINT32] [STRING] [UINT32] [UINT32] [UINT32] [UINT32]\n  [UINT32]us; time-diff=[UINT32]us; window-size= +-[FLOAT]ms."
+  ],
+  1
+ ],
+ [
+  [
+   "The passwordof local account [STRING] can be changed.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA succeeded."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The number of mac quiet users reached the maximum.(Spec of User Num [INTEGER1] Current Threshold [INTEGER2] Lower Threshold [INTEGER3]% Upper Threshold [INTEGER4]%)",
+   "Failed to establish phase 2 SA for the reason of [STRING]. The SA's source address is [STRING], and its destination address is [STRING]. As [STRING]"
+  ],
+  0
+ ],
+ [
+  [
+   " Manually obtaining certificate [file_name] through [protocol] failed.",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " The user chose [string] when deciding whether to import expired certificate.",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " The number of the DHCP discarded packets that Write queue fail. (DiscardedNumber=[STRING], Type=[INTEGER], UTC=[INTEGER])",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCP server did not respond within the specified period. (Client InterfaceName=[STRING], Current state=[IPADDR], MAC address=[STRING], Expected address=[STRING])",
+   "-seqNO=[UINT32]-srcIP=[STRING]-op=SET-errorIndex=[UINT32]-errorStatus=[STRING]-node=[STRING]-value=[STRING]; The agent received a message."
+  ],
+  0
+ ],
+ [
+  [
+   " Exporting local certificatefile ([string]) succeeded.",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] the crl is nearly expired. (CrlIssuer=[crlissuer], CrlStartTime=[crlstarttime],CrlFinishTime=[crlfinishtime])",
+   "Fan [INT32] airflow direction is not preferred on slot [INT32], please check it."
+  ],
+  0
+ ],
+ [
+  [
+   "The passwordhas expired, so the local account [STRING] becomes invalid.",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA failed."
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to start web authenticationserver listening port",
+   "[STRING] failed to log in from [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The rate of DHCP packets exceeds the speed limit. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER]).",
+   "Failed to apply filtering rules for DHCP packets because some rules are not supported."
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCP client acquired IP address successfully. (Client InterfaceName=[STRING], ServerId=[IPADDR], Acquired IpAddress=[IPADDR], Mask=[IPADDR], Gateway=[STRING], Static Route=[STRING], Lease Duration=[STRING], DNS Server=[STRING], DNS Domain=[STRING], Cloud management URL=[STRING], Option43=[STRING])",
+   "Failed to apply filtering rules for DHCP packets because hardware resources are insufficient."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Interface [interface-index] turned into UP state. (AdminStatus=[INTEGER],OperStatus=[INTEGER],InterfaceName=[OCTET])",
+   "IS-IS [UINT32], [STRING] adjacency %s (%s), state changed to %s."
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Interface output flow bandwidth usage exceeded the trap threshold. (Interface=[INTEGER], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER], InterfaceName=[STRING])",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] IS-IS failed to establishthe adjacency with its peer. (sysInstance=[integer], sysInstanceofLevel=[integer],sysLevel=[integer], sysInstanceofCircIfIndex=[integer], circIndex=[integer],ifIndex=[integer], circIfIndex=[integer], pduFragment=[opaque], ifName=[string],hwIsisAdjChangeReason=[integer], hwIsisAdjChangeSubReason=[integer])",
+   "ISIS Process received system memory alert [STRING] event."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Interface output flow bandwidth usage was restored to thetrap threshold. (Interface=[INTEGER], BandWidthUsage=[INTEGER], TrapThreshold=[INTEGER], InterfaceName=[STRING])",
+   "OSPFv3 [UINT32] route limit reached."
+  ],
+  0
+ ],
+ [
+  [
+   "[STRING] was plugged in.DEV/4/MEMORYCARDEVENT [STRING] was pulled out.",
+   "RPS [INT32] is absent."
+  ],
+  1
+ ],
+ [
+  [
+   " Realm [realm-name] failed to obtain the CA certificate chain through [protocol].",
+   "-AAAType=[STRING]-AAADomain=[STRING]-Service=[STRING]-UserName=[STRING]; AAA failed."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The number of IPv4prefixes exceeded the maximum value. (PrefixCount=[Integer], MaxValue=[Integer])",
+   "Max active [STRING] routes [UINT32] reached in URT of [STRING]"
+  ],
+  1
+ ],
+ [
+  [
+   " Realm [realm_name] is getting local certificate through [protocol]...",
+   "Failed to request certificate of domain [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Router IDs conflict inan intra area. (ProcessId=[integer], AreaId=[ipaddr], SelfIfnetIndex=[integer],NbrIpAddr=[ipaddr], RouterId=[ipaddr], NbrRtrId=[ipaddr])",
+   "OSPF [UINT16] Received newer self-originated network-LSAs. Possible conflict of IP address [IPADDR] in area [STRING] on interface [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Interface [interface-index] turned into DOWN state.(AdminStatus=[INTEGER],OperStatus=[INTEGER],InterfaceName=[OCTET])",
+   "The specified size of jumbo frames on the aggregate interface\n  [STRING] is not supported on the member port [STRING]."
+  ],
+  1
+ ],
+ [
+  [
+   "OID[OID] IKE phase1 sa established. (PeerAddress=[PeerAddress], PeerPort=[PeerPort], LocalAddress=[LocalAddress], AuthMethod=[AuthMethod], AuthID=[AuthID], IDType=[IDType], VsysName=[vsys-name], Role=[Role])",
+   "Target IP [STRING] was not the IP of the receiving interface [STRING]."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The session numberin all the IO boards has reached the limit, the new session can notbe created. (TotalSessionLimit=[integer])",
+   "The total number of BFD sessions [ULONG] reached the upper limit. Can\u2019t create a new session."
+  ],
+  1
+ ]
+]

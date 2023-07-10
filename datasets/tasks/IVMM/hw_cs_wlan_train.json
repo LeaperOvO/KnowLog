@@ -1,0 +1,3383 @@
+[
+ [
+  [
+   "OID [oid] A port detects connection of a PD. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The alarm of the WAPI certificate reaching expiration is cleared. (SecurityProfileName=[STRING], CertType=[STRING])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\"][DHCP%s pool=\\\"%s\\\"] Client lease expired.\""
+  ],
+  1
+ ],
+ [
+  [
+   " Clear Rogue device. (Device MAC=[OPAQUE], Device type=[INTEGER], Device channel=[INTEGER], Device RSSI =[LONG], Device SSID=[OCTET], Monitor AP name=[OCTET], Monitor AP MAC=[OPAQUE], MonitorAP radio =[INTEGER], Monitor AP IP=[OCTET], Monitor AP channel=[INTEGER], Monitor AP ID =[INTEGER])By default, this log is not recorded. If it needs to be recorded, run therogue-device log enablecommand in the WLAN view.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Power has been inserted. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The AP's temperature is too low. (APMAC=[OPAQUE], APName=[STRING], Temperature=[INTEGER]\u00b0C, APID=[INTEGER])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] POE Power is absent.(FrameID = [INTEGER], SlotID = [INTEGER])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Interface has turned into UP state. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] No AP needs a reconnection.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The quiet max user alarm is cleared.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The receive power of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical RxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"Form Submission Failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] Reset IKE SA.(VsysName=[vsys-name])",
+   " \"Registering IP on mscb failed for station%02x %02x %02x %02x %02x %02x\""
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to start web authenticationserver listening port",
+   " MSG_TRACEBACK"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] AP CPU overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApCpuRate=[INTEGER], APID=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP's temperature changes to normal. (APMAC=[OPAQUE], APName=[STRING], Temperature=[INTEGER]\u00b0C, APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "Remote account [STRING] has been unlocked.",
+   " MSG_SECURITY"
+  ],
+  1
+ ],
+ [
+  [
+   "A NEW SERVER IS FOUND. (SERVER INFO   IP Address = [IPADDR], MAC Address = [STRING1], Interface = [STRING2])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it.",
+   " \"User  %s SNMPv3 User locked as the maximum failure attempts reached. Please try again after sometime.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations reaches the maximum specifications.(MaxStaNum=[INTEGER],CurStaNum=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   " The static route assigned by a DHCP server changed. (Client InterfaceName=[interface-name], ServerId=[ip-address], Old StaticRoute=[old-static-route], New StaticRoute=[new-static-route])",
+   " \"Dropping packet from %d.%d.%d.%d"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Rogue device is detected notify.(APName=[OCTET], RadioID=[INTEGER], APMAC=[OPAQUE], RogueDeviceMAC=[OPAQUE],RogueDeviceSSID=[STRING], RogueDeviceType=[INTEGER], RogueDeviceRSSI=[INTEGER], RogueDeviceChannelID=[INTEGER], APID=[INTEGER])",
+   " \"Username & password must be supplied. User   %p"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Station author is error notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET],StaAuthenticationMode=[INTEGER],StaFailCodeType=[OCTET],StaAuthenticationFailCause=[INTEGER],StaAuthenticationFailCauseStr=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] MP reached AC through the air,and this MP has reported 'MP joined AC through Ethernet port'warning,so restore it. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"Ipsec signal send %s failed with error %s pid %d\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Power has been inserted. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   " \"Invalid ipv6 address %s"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] There are APs that require reconnections.",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations is less than 80% of the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" name=\\\"%s\\\" seid=\\\"%s\\\" model=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" radios=\\\"%d\\\"][AC%s ip=\\\"%d.%d.%d.%d\\\"] AP goes operational.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] APchanges to fault. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING],APFAULTTIME=[INTEGER], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "An IPSec tunnel is teared down. (PolicyName=[policy-name], IfIndex=[if-index], SeqNum=[seq-num], RuleNum=[rule-num], SrcIP=[src-ip], DstIP=[det-ip], InboundSPI=[inboundspi], Slot=[slot-id], CpuID=[cpu-id], OfflineReason=[offline-reason], State=[state])",
+   " \" Failed to initialise timer\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Station repititive attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "A NEW SERVER IS FOUND. (SERVER INFO   IP Address = [IPADDR], MAC Address = [STRING1], Interface = [STRING2])",
+   " \"Exception occurred on the socket.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The power load of a PoE card falls below the upper limit. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoeCurConsumPower=[INTEGER], ApPoeConsumPowerThreshold=[INTEGER], APID=[INTEGER])",
+   " \"Get sockname system call failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations is less than the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP IIC channel fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"DHCP renew/rebind error lease ip %d.%d.%d.%d is not same as Client's ip address %d.%d.%d.%d.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP PHY CMOS fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] Power of radio is changed.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], ACTUAL POWER=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   "sessionId = [STRING1]. domain   [STRING2].",
+   " \"Could not create RADIUS message. %s. numAVPs %d.\""
+  ],
+  1
+ ],
+ [
+  [
+   "The user cannot be authenticated temporarily,because the number of entries in the quiet table exceeds the upper limit.(MAC Address=[STRING])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " The user is deleted from quiet-table.(IP [IPADDR];VPN-Instance [STRING])",
+   " \"Invalid transmit interface. snmpdTI"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The IGMP snooping bandwidth of VAP has reached the maximum. (APMAC=[OPAQUE], RADIOID=[INTEGER], WLANID=[INTEGER], APName=[STRING], MaxBandWidth=[INTEGER], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[OID] Current counts of ike peer will reach max limit.",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The BLE site recovers. (BLEMAC=[OPAQUE])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   "An IPSec tunnel is established. (PolicyName=[policy-name], IfIndex=[if-index], SeqNum=[seq-num], RuleNum=[rule-name], SrcIP=[src-ip], DstIP=[dst-ip], Slot=[slot-id], CpuID=[cpu-id], State=[state], Role=[Role])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  1
+ ],
+ [
+  [
+   " The rate of DHCPV6 packets\nexceeds the speed limit. [INTEGER] packets have been discarded.",
+   " \"Failed to parse an incoming SNMP PDU. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] Interface [STRING] has turned into DOWN state. (APMAC=[OPAQUE],APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"CHAP challenge for user %s failed - invalid password.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] PD powered on.(IfIndex=[INTEGER],Interface=\"[OCTET]\")",
+   " \"client mac =%02x %02x %02x %02x %02x %02x"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] AP CPU overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApCpuRate=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Recovered from the exception in the AeroScout location function (via AC). (Reason=[OCTET])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Tamper attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP optical module transfer power is too high notify. (APMAC=[OPAQUE], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station authentication success. \""
+  ],
+  1
+ ],
+ [
+  [
+   " AN UNTRUSTED ND SERVER IS FOUND. (SERVER INFO   IP Address=[STRING], MAC Address=[STRING], Interface Name=[STRING], Prefix=[STRING], Prefix len=[ULONG], VLAN=[ULONG])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The IoT card matches the configured type. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP optical module transfer power is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCP client released address successfully. (Client InterfaceName=[STRING], Lease IpAddress=[IPADDR], Client MacAddress=[STRING], Online Duration=[INTEGER], Lease Duration=[STRING])",
+   " MSG_SECURITY"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP optical module transfer power is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"Failed to create LWAPP %s task\""
+  ],
+  0
+ ],
+ [
+  [
+   "An IPSec tunnel is teared down. (PolicyName=[policy-name], IfIndex=[if-index], SeqNum=[seq-num], RuleNum=[rule-num], SrcIP=[src-ip], DstIP=[det-ip], InboundSPI=[inboundspi], Slot=[slot-id], CpuID=[cpu-id], OfflineReason=[offline-reason], State=[state])",
+   " \"Ipsec signal send %s failed with error %s pid %d\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Jam of Other devices is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APID=[INTEGER])",
+   " \"NDP Message from the unknown client mac = %02x %02x %02x %02x %02x %02x"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Jam of Other devices is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] PSE is not overdrawing power. (SlotID=[INTEGER], ConsumingPower=[INTEGER], PowerThreshold=[INTEGER])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  1
+ ],
+ [
+  [
+   " portal authentication procedure.  (DeviceMac=[DeviceMac], UserMac=[UserMac], UserIP=[UserIp], UserName=[UserName], Result=[Result], Msg=[Msg], TIME=[TIME], AUTHID=[AUTHID])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP hot boot restore. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start re-association. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[OID] IKE phase1 sa established. (PeerAddress=[PeerAddress], PeerPort=[PeerPort], LocalAddress=[LocalAddress], AuthMethod=[AuthMethod], AuthID=[AuthID], IDType=[IDType], VsysName=[vsys-name], Role=[Role])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The IGMP snooping user of VAP has reached the maximum. (APMAC=[OPAQUE], RADIOID=[INTEGER], WLANID=[INTEGER], APName=[STRING], MaxUserNum=[INTEGER], APID=[INTEGER])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of NAC users reached the maximum.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   " MSG_TRACEBACK"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] VAP has the max number of stations notify.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER], PermitNum=[INTEGER], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] An IPSec policy is added. (SeqNum=[sequence-number], PolicyName=[policy-name], VsysName=[vsys-name])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The AP resumes from the Limited mode.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " DHCP relay receive a dhcp packet with wrong 'chaddr'. (CHADDR=[STRING1], MAC type=[STRING2], InterfaceName=[STRING3]).",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] VAP create fail restore.(Reason=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The quiet max user alarm on port is cleared.(UserType=[INTEGER], IfName=[OCTET], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   " IP fragmentation failed error code  %d.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Unauthorized AP record clear.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of online APs is less than 80% of the maximum specifications.(APMaxNum=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " The user is added to quiet-table.(IP [IPADDR];VPN-Instance [STRING])",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP License Notify. (Info = [OCTET])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The IoT card is connected to the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   " MSG_SECURITY"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Address redirection attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "The passwordof local account [STRING] cannot be changed.",
+   "Staggered AP upgrade event  %s"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP FMEA fault clear. (APMAC=[OPAQUE], APName=[STRING], FaultID=[INTEGER], Index=[INTEGER], FaultInfo=[STRING], APID=[INTEGER])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "Result of IP address allocation from the DHCP server to wireless users. [STRING]Only wireless users support this log.",
+   " DHCP Packet too big for adding option 82"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP hot boot. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET],APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[OID] IPSec tunnel negotiation fails. (Ifindex=[Ifindex], SeqNum=[SeqNum], Reason=[Reason], ReasonCode=[ReasonCode], PeerAddress=[PeerAddress], PeerPort=[PeerPort], VsysName=[vsys-name], InterfaceName=[InterfaceName], ConnID=[ConnID])",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  1
+ ],
+ [
+  [
+   "",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station authentication success. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The IoT card is connected to the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The IP address of the user conflicts with that of the gateway. (APMAC=[OPAQUE], StaMac=[OPAQUE], APName=[STRING], IPAddress=[STRING], APID=[INTEGER])",
+   " \"Form Submission Failed. The user does not have the right privileges.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP-version-not-recommended alarm Restore.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The AP's internal BLE module fails. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP optical insert. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER],ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The receive power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical RxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"Invalid ipv6 address %s"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The BLE site recovers. (BLEMAC=[OPAQUE])",
+   "AP upgrade process aborted. Failed to send fallback type message to peer"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] MPPcan't reach AC through the Ethernet port,so this MPP joins AC throughthe air,changes itself to MP,and forbid traffic on the Ethernet portin avoid of loopback. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Jam of station is detected notify.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " The DHCPv6 client acquired IPv6 prefix successfully. (InterfaceName=[STRING1], Prefix=[STRING2], PrefixLength=[INTEGER], ServerDuid=[STRING3])",
+   " \"Oversized DHCP packet \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] VAP create fail.(Reason=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP global users exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"Webpage form not found"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations is less than the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   " Resource for WEB in slot [ULONG] is not enough.",
+   " \"The search has failed. The string [%d] was not found for the given key %s\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Power is invalid for some reason. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to modify local account [STRING1] password. FailReason = [STRING2].",
+   " MSG_SECURITY"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP packets in which the CHADDR field is inconsistent with the source MAC address exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   " \"The DHCP request from %d.%d.%d.%d is a non-relay. It is dropped\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] authenticationFailure. (RemoteIpAddressType=[INTEGER],RemoteIpAddress=[STRING])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP ping result. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING], SuccessCount=[INTEGER], FailureCount=[INTEGER]. AverageResponseTime=[INTEGER]ms. MinimumResponseTime=[INTEGER]ms, MaximumResponseTime=[INTEGER]ms, APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The portal server isup.(IP [IPADDR] Vpn-Instance [OCTET])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  0
+ ],
+ [
+  [
+   " Detected rogue device. (Device MAC=[OPAQUE], Device type=[INTEGER], Device channel=[INTEGER], Device RSSI =[LONG], Device SSID=[OCTET], Monitor AP name=[OCTET], Monitor AP MAC=[OPAQUE], Monitor APradio =[INTEGER], Monitor AP IP=[OCTET], Monitor AP channel=[INTEGER], Monitor AP ID =[INTEGER])By default, this log is not recorded. If it needs to be recorded, run therogue-device log enablecommand in the WLAN view.",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The IGMP snooping user of VAP has reached the maximum. (APMAC=[OPAQUE], RADIOID=[INTEGER], WLANID=[INTEGER], APName=[STRING], MaxUserNum=[INTEGER], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Jam of Other devices is detected.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The alarm of the WAPI certificate reaching expiration is cleared. (SecurityProfileName=[STRING], CertType=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " (Fail to execute 'free-rule acl acl-name [STRING1]' due to insufficient resources in slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to execute 'free-rule acl [ULONG2]' due to insufficient resources in slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to execute 'free-rule acl acl-name [STRING1]' in slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to execute 'free-rule acl [ULONG2]' in slot [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to delete free rule, template name [STRING2] rule id [ULONG3] slot id [ULONG1].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to add free rule, template name [STRING2] rule id [ULONG3].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to delete free rule, template name [STRING2] rule id [ULONG3].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to add web server ip, slot [ULONG1] template name [STRING2].)WEB/4/AUTHENTICATION_FREERULE_ACL_FAIL  (Fail to delete web server ip, slot [ULONG1] template name [STRING2].)",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Interface [STRING] has turned into UP state. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"DHCP renew/rebind error lease ip %d.%d.%d.%d is not same as Client's ip address %d.%d.%d.%d.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   " \"Unable to send a message to IPv6 task %s\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP configuration is inconsistent with the actual attribute. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], Config=[OCTET], Reason=[OCTET])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The PPP Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   " \"RADIUS Server %s %u %s\""
+  ],
+  1
+ ],
+ [
+  [
+   " The static route assigned by a DHCP server changed. (Client InterfaceName=[interface-name], ServerId=[ip-address], Old StaticRoute=[old-static-route], New StaticRoute=[new-static-route])",
+   " \"Client %02x %02x %02x %02x %02x %02x may be using an incorrect PSK\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The battery recovers at the BLE site. (BLEMAC=[OPAQUE])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The BLE site recovers. (BLEMAC=[OPAQUE])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of ND global users descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP request packets that do not match the binding table exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   " Missing 802.1X or client control block\""
+  ],
+  0
+ ],
+ [
+  [
+   " The DHCP server did not respond within the specified period. (Client InterfaceName=[STRING], Current state=[IPADDR], MAC address=[STRING], Expected address=[STRING])",
+   " Unable to create raw socket.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The temperature of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical Temperature=[INTEGER]\u00b0C, ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The number of online APs reaches the maximum specifications.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The AP's internal BLE module recovers. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The local AC configuration is inconsitent with that on the remote AC. (RemoteAC=[IPADDR], Reason=[OCTET])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] APchanges to fault. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING],APFAULTTIME=[INTEGER], APID=[INTEGER])",
+   " \"Failed to transmit the PDU for the command %s.Return code %d.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The IoT card does not match the configured type. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON code=\\\"%s\\\" desc=\\\"%s\\\"] AP goes down.\""
+  ],
+  1
+ ],
+ [
+  [
+   " The IP address assigned by a DHCP server conflicted with another interface. (Client InterfaceName=[interface-name], ServerId=[ip-address], Assigned IpAddress=[assigned-ip-address])",
+   " \"Failed to set the option %s on socket.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of ND users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"Creating an AVL tree with %d entries\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The license resource pool stops aging. (Total number of licenses=[INTEGER], Number of local Shared licenses=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station authentication success. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]SubFirmware is not match AP version. (APMAC=[OPAQUE], APName=[STRING],APSubFirmwareName=[STRING], APSubFirmware=[INTEGER], RealVersion=[STRING],ExpectVersion=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The optical transceiver does not work normally. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER], hwWlanApOpticalFaultReason=[OCTET])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   " \"Max EAPOL-key M%u retransmissions exceeded for client %02x %02x %02x %02x %02x %02x\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The number of multicast and broadcast packets received on the AP does not exceed the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " Add ACL failed because of no enough ACL resources. (Slot=[STRING])",
+   " \"LAG in transition. switch reboot DUE\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] An exception occurs at the BLE site. (BLEMAC=[OPAQUE])",
+   " \"Possible authentication attack - %s"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[OID] IKE phase1 sa established. (PeerAddress=[PeerAddress], PeerPort=[PeerPort], LocalAddress=[LocalAddress], AuthMethod=[AuthMethod], AuthID=[AuthID], IDType=[IDType], VsysName=[vsys-name], Role=[Role])",
+   " Web context information missing"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] PSE is not overdrawing power. (SlotID=[INTEGER], ConsumingPower=[INTEGER], PowerThreshold=[INTEGER])",
+   "Timeout occurred either source controller is not responding or has responded with invalid software version. Aborting fallback process"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] PD powered off.(IfIndex=[INTEGER],Interface=\"[OCTET]\")",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The WAPI certificate is nearly expired. (SecurityProfileName=[STRING], CertType=[STRING], CertFileName=[STRING], CertStartTime=[STRING], CertEndTime=[STRING])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP cold boot restore. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Successfully started the server used by the IoT card. (Cause  The UDP port is idle.) (APMAC=[OPAQUE], APName=[STRING],  ApIotCardId=[INTEGER], Port=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " The portal server is down.(IP [IPADDR])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The number of multicast and broadcast packets received on the AP exceeds the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to deliver DTLS PSK. (LinkID=[ULONG], ClientMac=[OPAQUE], Reason=[STRING])",
+   " \"Unable to allocate memory off the stack.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of mac quiet users reached the maximum.(Spec of User Num [INTEGER1] Current Threshold [INTEGER2] Lower Threshold [INTEGER3]% Upper Threshold [INTEGER4]%)",
+   " \"RADIUS %s Server %s %u %s in global list\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP roam channelutilization exceed threshold notify restore. (APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], ChannelUtil=[INTEGER], APID=[INTEGER])",
+   " \"dhcp server  binding to %d.%d.%d.%d\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] The IPSec tunnel is deleted. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], OfflineReason=[offlinereason], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  1
+ ],
+ [
+  [
+   " The IP address assigned by a DHCP server conflicted with another host on the link. (Client InterfaceName=[interface-name], ServerId=[ip-address], Assigned IpAddress=[assigned-ip-address])",
+   " \"Failed to get varbind for %s"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The transfer power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical TxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The IGMP snooping bandwidth of VAP has reached the maximum. (APMAC=[OPAQUE], RADIOID=[INTEGER], WLANID=[INTEGER], APName=[STRING], MaxBandWidth=[INTEGER], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   " A NEW SERVER IS FOUND. (SERVER INFO  IP Address=[STRING], MAC Address=[STRING], Interface=[STRING])",
+   " \"Failed to get %s for Mac address %02x %02x %02x %02x %02x %02x"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The fan module recovered from a complete function failure. (APMAC=[OPAQUE], APName=[STRING], ApFanIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"Maximim user record is 0. Initilized to 1 for default credentials.\""
+  ],
+  0
+ ],
+ [
+  [
+   " The IP address assigned by a DHCP server conflicted with another host on the link. (Client InterfaceName=[interface-name], ServerId=[ip-address], Assigned IpAddress=[assigned-ip-address])",
+   " \"Failed to set the option %s on socket.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The Portal Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   " Web context information missing"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The number of portalusers reached the maximum.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   "AP Upgrade fallback process completed succesfully"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The transmit power of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical TxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" name=\\\"%s\\\" seid=\\\"%s\\\" model=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" radios=\\\"%d\\\"][AC%s ip=\\\"%d.%d.%d.%d\\\"] AP goes operational.\""
+  ],
+  1
+ ],
+ [
+  [
+   "The passwordof local account [STRING] can be changed.",
+   " \"Could not translate AAA AVP to RADIUS AVP. %s.Code=%d"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] No AP needs a reconnection.",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  0
+ ],
+ [
+  [
+   "The number\nof routes generated by IPSec has reached the maximum value ([ULONG]).",
+   " \"Failed to parse an incoming SNMP PDU. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the interface exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"DHCP proxy received runt packet"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The Portal Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   "Timeout occurred either source controller is not responding or has responded with invalid software version. Aborting fallback process"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP software version is not match with AC software version.(APMAC=[OPAQUE], APName=[STRING], APType=[OCTET], APSoftWareVersion=[OCTET], APID=[INTEGER])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The MAC Quiet Max User Alarm is cleared.(Spec of User Num [INTEGER1] Current Threshold [INTEGER2] Lower Threshold [INTEGER3]% Upper Threshold [INTEGER4]%)",
+   " IP fragmentation failed error code  %d.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The AP's temperature is too low. (APMAC=[OPAQUE], APName=[STRING], Temperature=[INTEGER]\u00b0C, APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "The local account [STRING] becomes invalid because the current time is not within the access permission period.",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A storage card is removed. (APMAC=[OPAQUE], APName=[STRING], ApStorageIndex=[INTEGER], ApStorageName=[OCTET], APID=[INTEGER])",
+   " \"RADIUS %s Server %s %u %s on WLAN %u\""
+  ],
+  0
+ ],
+ [
+  [
+   "Failed to change user attribute.Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING],UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING].",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   " The user is added to quiet-table.(MAC Address [STRING])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] Signal strength of the Station is lower than threshold. (ApMac=[OPAQUE],StaMac=[OPAQUE],StaRadioId=[INTEGER],ApName=[OCTET],StaAccessChannel=[INTEGER],StaRssi=[INTEGER],SignalStrengthThreshold=[INTEGER],APID=[INTEGER])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "Local account [STRING] has been locked.",
+   " \"%dth AVP is skipped. RADIUS msgtype=%d. Prev AVP=%dlen=%d offset=%d numAVPs=%d.\""
+  ],
+  1
+ ],
+ [
+  [
+   " The startup area is changed to [STRING].",
+   "Source controller is not responding or has responded with invalid software version"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Radio signal environment deteriorates. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], PER=[INTEGER]%,ConflictRate=[INTEGER]%, APID=[INTEGER], NoiseFloor=[INTEGER]dBm, Reason=[OCTET], BadChannel=[INTEGER])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   "User attribute has been changed. Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING], UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING].",
+   " \"RADIUS Server %s %u %s\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of multicast and broadcast packets received on the AP does not exceed the threshold 1000 pps for 10 seconds.(APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"Empty message received from AAA\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] An IPSec policy is deleted. (SeqNum=[sequence-number], PolicyName=[policy-name], VsysName=[vsys-name])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCP server did not respond within the specified period. (Client InterfaceName=[STRING], Current state=[IPADDR], MAC address=[STRING], Expected address=[STRING])",
+   " \"Received Invalid NDP Message with different Vlan other than Guest Vlan Vlan %d"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] RADIO reach the max number of stations notify clear.(APMAC=[OPAQUE], RADIOID=[INTEGER], APID=[INTEGER], APName=[STRING], StaNum=[INTEGER])",
+   " \"Sending packets through raw socket failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The power load of a PoE card falls below the upper limit. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoeCurConsumPower=[INTEGER], ApPoeConsumPowerThreshold=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP hot boot restore. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET], APID=[INTEGER])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " Start to verify firmware version.",
+   " \"Failed to create LWAPP %s task\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the interface exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP optical module temperature is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start re-association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " The IPv6 prefix assigned bya DHCPv6 server changed. (InterfaceName=[STRING1], OldPrefix=[STRING2],NewPrefix=[STRING3], ServerDuid=[STRING4])",
+   " \"LAG in transition. switch reboot DUE\""
+  ],
+  1
+ ],
+ [
+  [
+   " The rate of DHCP packets exceeds the speed limit. [INTEGER] packets have been discarded.",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it.",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP PHY CMOS fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" name=\\\"%s\\\" seid=\\\"%s\\\" model=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" radios=\\\"%d\\\"][AC%s ip=\\\"%d.%d.%d.%d\\\"] AP goes operational.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP global users descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   " Cancel upgrade result is [STRING].",
+   "Site filters for APSP deleted for the image version %s; new image version is %s"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The BLE site detached restore. (BLEMAC=[OPAQUE(hex)])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The receive power of the AP's optical module increases above the lower threshold.(APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical RxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "The user [STRING1] with IP address [STRING2] changed the password of [STRING3] through the web NMS.",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   " Failed to enable the external Portal server connection function  Protocol([STRING]),Port([ULONG]),SSL Policy([STRING])",
+   " \"Form Submission Failed.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of online APs is less than the maximum specifications.",
+   "AP upgrade process aborted. Failed to send fallback type message to peer"
+  ],
+  0
+ ],
+ [
+  [
+   "The number\nof routes generated by IPSec has reached the maximum value ([ULONG]).",
+   " \"Ipsec signal send %s failed with error %s pid %d\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP detect softgre tunnel down notify.(APMAC=[OPAQUE], DstIP=[IPADDR], APName=[STRING], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] Current counts of ipsec tunnel has been reached max CPU limit or license li mit, please check it at once.",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP request packets that do not match the binding table exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   " \"bogus packet"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP reply packets on the untrusted interface exceeds the threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   " \"Unable to send a message to IPv6 task %s\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] warmStart.",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of PD route for DHCPv6 relay reached the maximum.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] MP reached AC through the Ethernet port,and this MP doesn'tsetup mesh link in avoid of loopback.(APMAC=[OPAQUE], APName=[STRING],APID=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON code=\\\"%s\\\" desc=\\\"%s\\\"] AP goes down.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"Unable to send ARP Request\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The co-channel interference alarm is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE])",
+   " \"Unable to allocate memory for guest account information of user %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "The local account[STRING] becomes valid because the current time is within the accesspermission period.",
+   " \"Failed to create LWAPP %s task\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The license resource pool stops aging. (Total number of licenses=[INTEGER], Number of local Shared licenses=[INTEGER])",
+   " \"Recreating admin login.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] AP radio down is recovered notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] warmStart.",
+   " \"User  %s SNMPv3 User locked as the maximum failure attempts reached. Please try again after sometime.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Detected attackdevices. (Device count=[INTEGER])",
+   " \"Unable to update guest user information at login for %s. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Channel of radio is changed. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],  Channel1=[INTEGER], Channel2=[INTEGER], CauseId=[INTEGER], CauseStr=[OCTET], PreChannel1=[INTEGER], PreChannel2=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to authenticate services with the peer device. (local address=[STRING], peer address=[STRING], service=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start re-association. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] RADIO reach the max number of stations notify.(APMAC=[OPAQUE], RADIOID=[INTEGER], APID=[INTEGER], APName=[STRING], StaNum=[INTEGER], MaxStaNum=[INTEGER])",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Power has been removed. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   "AP Upgrade fallback process started"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] VAP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"] Station roaming. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] AC has system switched notify.(APMAC=[OPAQUE], APName=[STRING], APSN=[OCTET], SwitchType=[INTEGER], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   " The VAP state is changed to off. (APMAC=[OPAQUE], APName=[STRING], RadioID=[INTEGER], WlanID=[INTEGER], SSID=[STRING], Reason=[STRING], APID=[INTEGER])Only cloud APs support this log.",
+   " Unable to get MTU for Interface no %d.\""
+  ],
+  0
+ ],
+ [
+  [
+   " \"OID [OID] The number of the discarded DHCP request packets exceeds the threshold on the interface because the DHCP snooping trust port is not configured or the trust port is Down. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])\"",
+   " Failure occured during initiallization. %s. Action  %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The optical transceiver does not work normally. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER], hwWlanApOpticalFaultReason=[OCTET])",
+   "\"Authentication successful for client (%s) on Interface %s AuditSessionID %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " Start to verify firmware version.",
+   "AP Upgrade fallback process started"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] has detected a classficationovercurrent PD and power denied.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   " \"Unable to set timer for guest accounts. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The battery recovers at the BLE site. (BLEMAC=[OPAQUE])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP optical module temperature is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "Staggered AP upgrade event  %s"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP IIC channel fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " Couldnt get ACL name by ID. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " Writing data into the flash memory.",
+   " \"Failed to get ACE from ACL. %s\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP hot boot restore. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET], APID=[INTEGER])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the interface descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of VAP instances has exceeded the maximum. (Vap = [INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] The IPSec tunnel is established. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], LifeSize=[LifeSize], LifeTime=[LifeTime], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID], Role=[Role])",
+   " \"Could not find appropriate RADIUS server for sgt %ld - %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The AP's working mode is changed.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], Mode=[INTEGER], PreMode=[INTEGER], APID=[INTEGER], ModeDesc=[STRING], PreModeDesc=[STRING])",
+   " \"Form Submission Failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   " AP changed from normal to fault. (MAC=[OPAQUE], ApID=[ULONG], Sysname=[STRING], Reason=[STRING])",
+   "\"Authentication successful for client (%s) on Interface %s AuditSessionID %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " Writing data into the flash memory.",
+   "Timeout occurred either source controller is not responding or has responded with invalid software version. Aborting fallback process"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] A port detects disconnection of a PD. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations is less than the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " \"OID [OID] The number of the discarded DHCP request packets exceeds the threshold on the interface because the DHCP snooping trust port is not configured or the trust port is Down. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])\"",
+   " \"Unable to send ARP Request\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The AP version is not recommended for the current AC.",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP begins to update. Do not power off the AP during the upgrade. (APMAC=[OPAQUE], APName=[STRING],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] VAP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER],CurrentNum=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Power is invalid for some reason. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Channel of radio is changed. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], Channel1=[INTEGER],Channel2=[INTEGER],CauseId=[INTEGER], CauseStr=[OCTET], PreChannel1=[INTEGER],PreChannel2=[INTEGER],APID=[INTEGER], NewChannelHasRadarChannel=[OCTET])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   " The DHCP client acquired IP address successfully. (Client InterfaceName=[STRING], ServerId=[IPADDR], Acquired IpAddress=[IPADDR], Mask=[IPADDR], Gateway=[STRING], Static Route=[STRING], Lease Duration=[STRING], DNS Server=[STRING], DNS Domain=[STRING], Cloud management URL=[STRING], Option43=[STRING])",
+   " \"Default gateway arp lookup failed.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] AP memoryoverload notify.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER],APID=[INTEGER])",
+   " \"No match found for the token [%d] on the string.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Address redirection attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP FMEA fault clear. (APMAC=[OPAQUE], APName=[STRING], FaultID=[INTEGER], Index=[INTEGER], FaultInfo=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] PD connected.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The IoT card is disconnected from the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], ApIotCardId=[INTEGER], APIotCardType=[STRING])",
+   " \"Running %s...\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A port is powered off. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER], Reason=[STRING])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of online APs is less than 80% of the maximum specifications.(APMaxNum=[INTEGER])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The adjacent-channel interference alarm is cleared.(APMAC=[OPAQUE],  RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE], IntfChnl=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of online APs reaches the maximum specifications.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station association success. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] PD powered off.(IfIndex=[INTEGER],Interface=\"[OCTET]\")",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Power resume from invalid situation. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Fan has been removed. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APFanId=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of PD route for DHCPv6 relay descends to alarm threshold.",
+   " \"Failed to store Acl Config to Flash %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The AP's internal BLE module recovers. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The rate of DHCP packets exceeds the speed limit. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER]).",
+   " \"Unable to delete the address on interface\""
+  ],
+  1
+ ],
+ [
+  [
+   " The current version is [STRING1], and the startup area is [STRING2]. The upgrade version is [STRING3].",
+   " \"Failed to encrypt the user password AVP for client %02X %02X %02X %02X %02X %02X.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of the discardedND packets that do not match the binding table exceeds the thresholdon the interface. (Interface=[OCTET], VlanID=[INTEGER], LastDroppedSourceMac=[OCTET],DiscardedNumber=[INTEGER])",
+   " \"Registering IP on mscb failed for station%02x %02x %02x %02x %02x %02x\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP detect softgre tunnel down recover notify.(APMAC=[OPAQUE], DstIP=[IPADDR], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station authentication success. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP roam channelutilization exceed threshold notify restore. (APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], ChannelUtil=[INTEGER], APID=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON code=\\\"%s\\\" desc=\\\"%s\\\"] AP goes down.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] VAP create fail restore.(Reason=[STRING])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] PD with invliad IEEEclass and power denied.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[OID] IPSec tunnel negotiation fails. (Ifindex=[Ifindex], SeqNum=[SeqNum], Reason=[Reason], ReasonCode=[ReasonCode], PeerAddress=[PeerAddress], PeerPort=[PeerPort], VsysName=[vsys-name], InterfaceName=[InterfaceName], ConnID=[ConnID])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"]\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP optical module temperature is too high notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station association success. \""
+  ],
+  1
+ ],
+ [
+  [
+   " Add ACL failed because of no enough ACL resources.([STRING])",
+   " \"Not able to verify PMKR1Name in %s for client %02x %02x %02x %02x %02x %02x\""
+  ],
+  1
+ ],
+ [
+  [
+   "The passwordof local account [STRING] can be changed.",
+   "Source controller is not responding or has responded with invalid software version"
+  ],
+  0
+ ],
+ [
+  [
+   " The user failed to request an IP address. (Client MAC Address=[STRING], VLAN=[ULONG], APID=[ULONG], APMAC=[STRING], APName=[STRING], RadioId=[ULONG], SSID=[STRING], Failure Reason=[STRING]).",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The number of mac quiet users reached the maximum.(Spec of User Num [INTEGER1] Current Threshold [INTEGER2] Lower Threshold [INTEGER3]% Upper Threshold [INTEGER4]%)",
+   " \"Unknown privacy protocol for SNMPv3 user %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Fan has been inserted. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APFanId=[INTEGER])",
+   " \"Failed to get ACE from ACL. %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] AP memoryoverload notify.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station re-association success. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP optical module received power is too high notify. (APMAC=[OPAQUE], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical RxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of ND users on the interface exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " Could not receive the dhcp packet Error.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of online APs is less than the maximum specifications.",
+   " \"Guest user session validation failed for %s. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The optical transceiver has restored. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER])",
+   " \"Webpage form not found"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The Disk usage of an AP restores to the allowed range.( APMAC=[OPAQUE], APName=[STRING],APDiskThresholdWarning=[INTEGER],APDiskThresholdCurrent=[INTEGER],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The status of the IPv6 Interface changed. (IfIndex=[INTEGER], IfDescr=[OCTET], IfOperStatus=[INTEGER],IfAdminStatus=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Upload remote capture file notify. (APMAC=[OPAQUE], APName=[STRING], RadioID=[INTEGER], Info = [OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"] Station roaming. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Low safelevel attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP ping result. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING], SuccessCount=[INTEGER], FailureCount=[INTEGER]. AverageResponseTime=[INTEGER]ms. MinimumResponseTime=[INTEGER]ms, MaximumResponseTime=[INTEGER]ms, APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Shared licenses are aging, and this license will age after 29 days. (ACMAC=[OPAQU E], Number of shared licenses=[INTEGER])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" type=\\\"%x\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"] DHCP reject offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   " \"Unable to delete 802.1X interface\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Radio signal environment resumes. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APID=[INTEGER] )",
+   " \"Invalid transmit interface. snmpdTI"
+  ],
+  0
+ ],
+ [
+  [
+   " Saving the dynamic binding table to a remote server failed. Ensure that the remote server address is reachable and the user name and password and the file path are correct.",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   " The DHCPv6 client acquired IPv6 address successfully. (InterfaceName=[STRING1], Ipv6Address=[STRING2], ServerDuid=[STRING3])",
+   " \"Empty message received from AAA\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The receive power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical RxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Tamper attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Backup license is aging. (ACMAC=[OPAQUE], Backup license number=[INTEGER], Origin=[STRING], Last backup time=[STRING])",
+   " \"Invalid magic cookie in the DHCP packet\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Rogue device is detected notify.(APName=[OCTET], RadioID=[INTEGER], APMAC=[OPAQUE], RogueDeviceMAC=[OPAQUE],RogueDeviceSSID=[STRING], RogueDeviceType=[INTEGER], RogueDeviceRSSI=[INTEGER], RogueDeviceChannelID=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID]  The number of ND global users exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " DHCP Packet too big for adding option 82"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The co-channel interference alarm is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], IntfBssId=[OPAQUE], APID=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations reaches 80% of the maximum specifications.(MaxStaNum=[INTEGER],CurStaNum=[INTEGER])",
+   " \"Failed to store Acl Config to Flash %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The adjacent-channel interference exceeds the alarm threshold.(APMAC=[OPAQUE],RadioID=[INTEGER],APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE],IntfChnl=[INTEGER], RSSI threshold percent=[INTEGER]%)",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to start web authenticationserver listening port",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station re-association success. \""
+  ],
+  0
+ ],
+ [
+  [
+   " The current bios version is [STRING1]. The target bios version is [STRING2].",
+   "Staggered AP upgrade event  %s"
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] An exception occurred in the AeroScout location function (via AC). (Reason=[OCTET])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP-version-not-recommended alarm Restore.",
+   "\"Dot1x unable to start.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] Current counts of ipsec tunnel will reach max CPU limit or license limit, please check it at once.",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] VAP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+   " \"Corrupted value of lifetime for guest user %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP IIC channel fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Backup license is aging. (ACMAC=[OPAQUE], Backup license number=[INTEGER], Origin=[STRING], Last backup time=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] PD disconnected.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   " \"Unable to update foreign AP location.\""
+  ],
+  0
+ ],
+ [
+  [
+   " AP reset failed. (MAC=[OPAQUE],\nApID=[ULONG], Sysname=[STRING], Reason=[STRING])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON code=\\\"%s\\\" desc=\\\"%s\\\"] AP goes down.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] An IPSec policy is applied to an interface. (IfIndex=[interface-index], PolicyName=[policy-name], VsysName=[vsys-name], InterfaceName=[interface-name])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP recovers or has been deleted. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING], APID=[INTEGER])",
+   " \"Unable to verify RADIUS message authenticator for mobile%02x %02x %02x %02x %02x %02x. %s\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The BLE site detached. (BLEMAC=[OPAQUE(hex)])",
+   " \"Unable to send a message to IPv6 task %s\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP PHY CMOS fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " AN UNTRUSTED ND SERVER IS FOUND. (SERVER INFO   IP Address=[STRING], MAC Address=[STRING], Interface Name=[STRING], Prefix=[STRING], Prefix len=[ULONG], VLAN=[ULONG])",
+   " \"Cannot have overlapping networks. Network id  %02d.%02d.%02d.%02d in use by scope %s\\n\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\"][DHCP%s pool=\\\"%s\\\"] Client lease expired.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The AP configuration is inconsistent with the actual attribute. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], Config=[OCTET], Reason=[OCTET])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station re-association success. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Unauthorized AP record clear.",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP optical module received power is too low notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical RxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "Local account [STRING] password has been modified.",
+   " \"Could not process accounting type 0x%x. %s. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] POE Power is present.(FrameID = [INTEGER], SlotID = [INTEGER])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  1
+ ],
+ [
+  [
+   "The domain [STRING] is changedfrom active to blocked because the current time is within the blockingperiod.",
+   " MSG_SECURITY"
+  ],
+  1
+ ],
+ [
+  [
+   " The IP address lease is successfully renewed. (Client InterfaceName=[STRING], ServerId=[IPADDR], Acquired IpAddress=[IPADDR], Mask=[IPADDR], Gateway=[STRING], Static Route=[STRING], Lease Duration=[STRING], DNS Server=[STRING], DNS Domain=[STRING], Cloud management URL=[STRING], Option43=[STRING])",
+   "Site filters for APSP deleted for the image version %s; new image version is %s"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Radio signal environment resumes. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APID=[INTEGER] )",
+   "AP Upgrade fallback process started"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A port detects a PD whose current exceeds the threshold of the corresponding class. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"Sticky cache can't be supported for 9th AP.Client MAC %02x %02x %02x %02x %02x %02x.\""
+  ],
+  0
+ ],
+ [
+  [
+   " The VAP state is changed to off. (APMAC=[OPAQUE], APName=[STRING], RadioID=[INTEGER], WlanID=[INTEGER], SSID=[STRING], Reason=[STRING], APID=[INTEGER])Only cloud APs support this log.",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" type=\\\"%x\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"] DHCP reject offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid]SubFirmware is not match AP version. (APMAC=[OPAQUE], APName=[STRING],APSubFirmwareName=[STRING], APSubFirmware=[INTEGER], RealVersion=[STRING],ExpectVersion=[STRING], APID=[INTEGER])",
+   " \"Guest user account"
+  ],
+  0
+ ],
+ [
+  [
+   " The delegated prefix is too\nsmall to allocate all of its interfaces. (InterfaceName=[STRING1],\nPrefixName=[STRING2], Prefix=[STRING3], PrefixLength=[INTEGER1], RequiredPrefixLength=[INTEGER2],\nServeDuid=[STRING4])",
+   " Invalid relaysrc interface %s configured for linkselection option. Using the client subnet selection address as relaysrc\\n\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] All functions of the fan module failed. (APMAC=[OPAQUE], APName=[STRING], ApFanIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP roam user number exceed threshold notify restore. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+   " \"Form Submission Failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   "Local account [STRING]has been unlocked.",
+   " MSG_SECURITY"
+  ],
+  1
+ ],
+ [
+  [
+   "The domain [STRING] is changedfrom blocked to active because the current time is not within theblocking period.",
+   "AP upgrade process aborted. Failed to send fallback type message to peer"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP memory overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to configure mac authentication because of insufficient resource.(SlotID=[STRING])",
+   " \"Authentication rejected for user %s - user may already be logged in\""
+  ],
+  1
+ ],
+ [
+  [
+   "User attribute has been changed. Attribute=password, OperatorName=[STRING], OperatorIPAddress=[STRING], UserName=[STRING], ServerIPAddress=[STRING], VPNName=[STRING].",
+   " Web context information missing"
+  ],
+  0
+ ],
+ [
+  [
+   "The local account [STRING]becomes invalid because the current time is not within the expirydate specified by user.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP FMEA fault clear. (APMAC=[OPAQUE], APName=[STRING], FaultID=[INTEGER], Index=[INTEGER], FaultInfo=[STRING], APID=[INTEGER])",
+   " \"%s %s form_idx=%d csrf_status=%d.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid]  The WAPI certificate is invalid. (SecurityProfileName=[STRING], CertType=[STRING], CertFileName=[STRING], CertStartTime=[STRING], CertEndTime=[STRING])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\"][DHCP%s pool=\\\"%s\\\"] Client lease expired.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP optical module temperature is too high notify. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " Failure occured during initiallization. %s. Action  %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " dot1x authentication procedure.  (DeviceMac=[DeviceMac], UserMac=[UserMac], Identify=[Identify], Result=[Result], Msg=[Msg], MsgType=[MsgType], TIME=[TIME], AUTHID=[AUTHID])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP has the max number of stations notify.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], PermitNum=[INTEGER], APID=[INTEGER])",
+   "Staggered AP Upgrade error"
+  ],
+  0
+ ],
+ [
+  [
+   "Local account [STRING]has been unlocked.",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   " The VAP state is changed to on. (APMAC=[OPAQUE], APName=[STRING], RadioID=[INTEGER], WlanID=[INTEGER], SSID=[STRING], Reason=[STRING], APID=[INTEGER])Only cloud APs support this log.",
+   " \"Invalid EAPOL packet type %u received from client %02x %02x %02x %02x %02x %02x\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The adjacent-channel interference alarm is cleared.(APMAC=[OPAQUE],  RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], APID=[INTEGER], IntfBssId=[OPAQUE], IntfChnl=[INTEGER])",
+   " \"Possible authentication attack - %s"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP not support configured channel notify.(APMAC=[MacAddress],RadioID=[INTEGER],APName=[OCTET], CONFIGURED BANDWIDTH=[INTEGER], CONFIGURED CHANNEL1=[INTEGER],CONFIGUREDCHANNEL2=[INTEGER],ACTUAL BANDWIDTH=[INTEGER], ACTUAL CHANNEL1=[INTEGER],ACTUAL CHANNEL2=[INTEGER],REASON=[OCTET], APID=[INTEGER])",
+   " \"Deleting the implicit deny rule %d of ACL %s is not allowed.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP optical insert. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER],ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] AP access user number exceed threshold notify. (APMAC=[OPAQUE],RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Dying gasp notify.(APMAC=[OPAQUE],APName=[STRING], APID=[INTEGER])",
+   " \"Get sockname system call failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP cold boot restore. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+   " \"Ipsec signal send %s failed with error %s pid %d\""
+  ],
+  0
+ ],
+ [
+  [
+   " The IPv6 address assigned by a DHCPv6 server conflicts with another host on the link. (InterfaceName=[STRING], Ipv6Address=[STRING], ServerDuid=[STRING])",
+   " \"Unable to get the dhcp relay server's ip address"
+  ],
+  1
+ ],
+ [
+  [
+   "An IPSec tunnel is established. (PolicyName=[policy-name], IfIndex=[if-index], SeqNum=[seq-num], RuleNum=[rule-name], SrcIP=[src-ip], DstIP=[dst-ip], Slot=[slot-id], CpuID=[cpu-id], State=[state], Role=[Role])",
+   " Invalid relaysrc interface %s configured for linkselection option. Using the client subnet selection address as relaysrc\\n\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP detect softgre tunnel down notify.(APMAC=[OPAQUE], DstIP=[IPADDR], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The AP cold boot. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+   " Couldnt get ACL name by ID. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations is less than 80% of the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON code=\\\"%s\\\" desc=\\\"%s\\\"] AP goes down.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] AP memory overload notify.(APMAC=[OPAQUE], APName=[STRING], ApMemRate=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The optical transceiver has restored. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], hwWlanApOpticalFaultID=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Recovered from the exception in the AeroScout location function (via AC). (Reason=[OCTET])",
+   " \"Adding blacklist user '%s' to AAA database.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The power load of a PoE card exceeds the upper limit. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoeCurConsumPower=[INTEGER], ApPoeConsumPowerThreshold=[INTEGER], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " The user failed to request an IP address. (Client MAC Address=[STRING], VLAN=[ULONG], APID=[ULONG], APMAC=[STRING], APName=[STRING], RadioId=[ULONG], SSID=[STRING], Failure Reason=[STRING]).",
+   " \"Failed to update MSCB state.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP optical remove. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER],ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The Disk usage of an AP exceeds the upper threshold.( APMAC=[OPAQUE], APName=[STRING],APDiskThresholdWarning=[INTEGER],APDiskThresholdCurrent=[INTEGER],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] VAP create fail restore.(Reason=[STRING])",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] User with an invalid certificate accesses the network.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] MPPcan't reach AC through the Ethernet port,so this MPP joins AC throughthe air,changes itself to MP,and forbid traffic on the Ethernet portin avoid of loopback. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"Failed to push CPU Acl info the NPU\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The co-channel interference alarm is cleared.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], APChannel=[INTEGER], IntfBssId=[OPAQUE], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] coldStart.",
+   " Failure occured during initiallization. %s. Action  %s.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The number of stations is less than the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station authentication success. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of online APs reaches the maximum specifications.",
+   " \"Unable to create 802.1X interface for AP  %s\""
+  ],
+  0
+ ],
+ [
+  [
+   " DHCP relay receive a dhcp packet with wrong 'chaddr'. (CHADDR=[STRING1], MAC type=[STRING2], InterfaceName=[STRING3]).",
+   " \"Option 0x%02x did not fit into the packet!\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The transmit power of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"User  %s SNMPv3 User locked as the maximum failure attempts reached. Please try again after sometime.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] POE Power is present.(FrameID = [INTEGER], SlotID = [INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A port detects disconnection of a PD. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The temperature of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start re-association. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] An IPSec policy is applied to an interface. (IfIndex=[interface-index], PolicyName=[policy-name], VsysName=[vsys-name], InterfaceName=[interface-name])",
+   " \"Ipsec file operation %s failed with error %s filename %s\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] RPS power cannot provide POE power for this device.(DevID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] An IPSec policy is cancelled on an interface. (IfIndex=[interface-index], PolicyName=[policy-name], VsysName=[vsys-name], InterfaceName=[interface-name])",
+   " \"NDP Message from the unknown client mac = %02x %02x %02x %02x %02x %02x"
+  ],
+  0
+ ],
+ [
+  [
+   " Delete dhcp bind-table because IP address conflict. (Bind-table info  InterfaceName=[STRING], Pvlan=[ULONG], Cvlan=[ULONG], IP Address=[IPADDR], MAC Address=[STRING])",
+   " \"%s %s form_idx=%d csrf_status=%d.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A port is powered off. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER], Reason=[STRING])",
+   " \"Dropping foreign client for dhcp retries"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The battery recovers at the BLE site. (BLEMAC=[OPAQUE])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The status of the IPv6 Interface changed. (IfIndex=[INTEGER], IfDescr=[OCTET], IfOperStatus=[INTEGER],IfAdminStatus=[INTEGER])",
+   " \"Unable to set state of RADIUS authentication server %d to %d. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The PPP Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   " Web context information missing"
+  ],
+  0
+ ],
+ [
+  [
+   " The DHCP client received a NAK packet from a DHCP server. (Client InterfaceName=[interface-name], ServerId=[ip-address])",
+   " \"NDP Message from the unknown client mac = %02x %02x %02x %02x %02x %02x"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] PD with invliad IEEEclass and power denied.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The AP's working mode is changed.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], Mode=[INTEGER], PreMode=[INTEGER], APID=[INTEGER], ModeDesc=[STRING], PreModeDesc=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The number of NAC users reached the maximum.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"]\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] AP uboot is not match AP version.(APMAC=[OPAQUE], APName=[STRING],APID=[INTEGER])",
+   " \"Form Submission Failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The IoT card matches the configured type. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APIotCardId=[INTEGER], APIotCardType=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP PHY CMOS fault. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The receive power of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical RxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The BLE site detached restore. (BLEMAC=[OPAQUE(hex)])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Interface has turned into UP state. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The battery is low at the BLE site. (BLEMAC=[OPAQUE])",
+   "\"Authentication failed for client (%s) with reason (%s) on Interface %s AuditSessionID %s %s %s\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP cold boot restore. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+   " \"Failed to parse an incoming SNMP PDU. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP recovers or has been deleted. (APMAC=[OPAQUE], APType=[STRING], APName=[STRING], APID=[INTEGER])",
+   " \"%s %s form_idx=%d csrf_status=%d.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP IIC channel fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " The rate of DHCP packets exceeds the speed limit. [INTEGER] packets have been discarded.",
+   " \"IP Address could not be de-registered for the station %02x %02x %02x %02x %02x %02x\""
+  ],
+  1
+ ],
+ [
+  [
+   " Cancel upgrade.",
+   " \"initialiseDSForEventLogInSnmp   Failed to create avl tree\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Power resume from invalid situation. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER])",
+   " \"Deleting the implicit deny rule %d of ACL %s is not allowed.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] The number of stations is less than 80% of the maximum specifications.(MaxStaNum =[INTEGER], CurStaNum=[INTEGER])",
+   " Not able to parse KeyData field of %s for client %02x %02x %02x %02x %02x %02x\""
+  ],
+  0
+ ],
+ [
+  [
+   "The local account[STRING] becomes valid because the current time is within the expirydate specified by user.",
+   " \"Failed to encrypt the user password AVP for client %02X %02X %02X %02X %02X %02X.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Dying gasp notify.(APMAC=[OPAQUE],APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start re-association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " DHCP snooping received a message. (Msgtype=[STRING], UserMac=[STRING], Vlan=[INTEGER], TransId=[STRING], ClientIp=[STRING], RequestIp=[STRING], ServerIp=[STRING], YourIp=[STRING], RelayIp=[STRING], SrcMac=[STRING], DstMac=[STRING], SrcIp=[STRING], DstIp=[STRING], BFlag=[INTEGER], ApMac=[STRING], RadioId=[INTEGER], SSID=[STRING], UTC=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Low safelevel attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON code=\\\"%s\\\" desc=\\\"%s\\\"] AP goes down.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP optical remove. (APMAC=[OPAQUE], APName=[STRING], IfIndex=[INTEGER],ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   "Staggered AP Upgrade error"
+  ],
+  0
+ ],
+ [
+  [
+   " Add ACL failed because of no enough ACL resources. (Slot=[STRING])",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP global users descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"Cannot have overlapping networks. Network id  %02d.%02d.%02d.%02d in use by scope %s\\n\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Jam of station is cleared notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],  APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station authentication success. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], FailCause=[INTEGER], CurrentNum=[INTEGER], APID=[INTEGER])",
+   " \"Failure in creating Acl Database. %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] AP radio is down notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   " \"DHCP message getting truncated\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The port priority is different from the PD priority. (APMAC=[OPAQUE], APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET], ApPoePdPriority=[INTEGER], ApPoePortPriority=[INTEGER], APID=[INTEGER])",
+   " \"Received a DHCP packet sent by the controller itself possible network loop!\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The AP version is not recommended for the current AC.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " dot1x authentication procedure.  (DeviceMac=[DeviceMac], UserMac=[UserMac], Identify=[Identify], Result=[Result], Msg=[Msg], MsgType=[MsgType], TIME=[TIME], AUTHID=[AUTHID])",
+   " \"Ignoring pre-auth request from client %02x %02x %02x %02x %02x %02x\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The transfer power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical TxPower=[INTEGER](0.1uw), ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " There is no space for DHCP on the slave board.",
+   " \"dhcp server  binding to %d.%d.%d.%d\""
+  ],
+  1
+ ],
+ [
+  [
+   " Failed to deliver DTLS PSK. (LinkID=[ULONG], ClientMac=[OPAQUE], Reason=[STRING])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON code=\\\"%s\\\" desc=\\\"%s\\\"] AP goes down.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] DNS packets are allowed to pass through during Portal authentication.",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP not support configured channel notify.(APMAC=[MacAddress],RadioID=[INTEGER],APName=[OCTET], CONFIGURED BANDWIDTH=[INTEGER], CONFIGURED CHANNEL1=[INTEGER],CONFIGUREDCHANNEL2=[INTEGER],ACTUAL BANDWIDTH=[INTEGER], ACTUAL CHANNEL1=[INTEGER],ACTUAL CHANNEL2=[INTEGER],REASON=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] The IPSec tunnel is deleted. (Ifindex=[Ifindex], SeqNum=[SeqNum],TunnelIndex=[TunnelIndex], RuleNum=[RuleNum], DstIP=[DstIP], InsideIP=[InsideIP], RemotePort=[RemotePort], CpuID=[CpuID], SrcIP=[SrcIP], FlowInfo=[FlowInfo], OfflineReason=[offlinereason], VsysName=[vsys-name], InterfaceName=[InterfaceName], SlotID=[SlotID])",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  0
+ ],
+ [
+  [
+   "Local account [STRING] has been locked.",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  0
+ ],
+ [
+  [
+   " The portal server is down.(IP [IPADDR])",
+   " \"%s %s form_idx=%d csrf_status=%d.\""
+  ],
+  1
+ ],
+ [
+  [
+   " AC changed from normal to fault. (ACID=[ULONG], MAC=[STRING], Reason=[STRING])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" name=\\\"%s\\\" seid=\\\"%s\\\" model=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" radios=\\\"%d\\\"][AC%s ip=\\\"%d.%d.%d.%d\\\"] AP goes operational.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] The AP works in Limited mode due to insufficient power supply.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Fan has been removed. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APFanId=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "sessionId = [STRING1]. USER [STRING2]. domain   [STRING3].",
+   " \"Received invalid radius response len packet. [code %d"
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP updates completely. (APMAC=[OPAQUE], APName=[STRING], UpdateResult=[INTEGER],UpdateTime=[OCTET],UpdateFileName=[OCTET],UpdateNextOper=[INTEGER],UpdateStatus=[STRING], APID=[INTEGER])",
+   " \"client mac =%02x %02x %02x %02x %02x %02x"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A storage card is inserted. (APMAC=[OPAQUE], APName=[STRING], ApStorageIndex=[INTEGER], ApStorageName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " DHCP snooping received a message. (Msgtype=[STRING], UserMac=[STRING], Vlan=[INTEGER], TransId=[STRING], ClientIp=[STRING], RequestIp=[STRING], ServerIp=[STRING], YourIp=[STRING], RelayIp=[STRING], SrcMac=[STRING], DstMac=[STRING], SrcIp=[STRING], DstIp=[STRING], BFlag=[INTEGER], ApMac=[STRING], RadioId=[INTEGER], SSID=[STRING], UTC=[INTEGER])",
+   " \"bogus packet"
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] Interface [STRING] has turned into DOWN state. (APMAC=[OPAQUE],APName=[STRING], ApIfIndex=[INTEGER], ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"] Station roaming. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Channel of radio is changed. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], Channel1=[INTEGER],Channel2=[INTEGER],CauseId=[INTEGER], CauseStr=[OCTET], PreChannel1=[INTEGER],PreChannel2=[INTEGER],APID=[INTEGER], NewChannelHasRadarChannel=[OCTET])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the vlan descends to alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " Failure occured during initiallization. %s. Action  %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the vlan descends to alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"DHCP message getting truncated\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The AP cold boot. (APMAC=[MacAddress], AP TYPE=[OCTET], AP Sys Name=[OCTET], AP Sys Time=[OCTET], AP Alarm name=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] PD disconnected.(IfIndex=[INTEGER], Interface=\"[OCTET]\")",
+   " \"Unable to reset the Power Supply for %d times. Will try to reset for another %d times.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] AP CPU overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApCpuRate=[INTEGER], APID=[INTEGER])",
+   "AP  %s has incorrect software. AP is going for reset."
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The current network cable quality is poor, causing packet loss risks.(APMAC=[OPAQUE], APName=[STRING], InterfaceIndex=[INTEGER], InterfaceName=[OCTET], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "sessionId = [STRING1]. USER [STRING2]. domain   [STRING3].",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Jam of station is cleared notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],  APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of the discardedND packets that do not match the binding table exceeds the thresholdon the interface. (Interface=[OCTET], VlanID=[INTEGER], LastDroppedSourceMac=[OCTET],DiscardedNumber=[INTEGER])",
+   " \"Received a %s from unknown server %s %u\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The fan module recovered from a complete function failure. (APMAC=[OPAQUE], APName=[STRING], ApFanIndex=[INTEGER], ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] Power become failure. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER], FaultID=[INTEGER], FaultReasonDesc=[STRING])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\"][DHCP%s pool=\\\"%s\\\"] Client lease expired.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The local AC configuration is inconsitent with that on the remote AC. (RemoteAC=[IPADDR], Reason=[OCTET])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The temperature of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical Temperature=[INTEGER]\u00b0C,ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   "Remote account [STRING] has been locked.",
+   " \"Unable to allocate memory for guest account information of user %s.\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] An exception occurs at the BLE site. (BLEMAC=[OPAQUE])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP hot boot. (APMAC=[OPAQUE], APType=[OCTET], APName=[OCTET], APOccurTime=[OCTET], NotifyName=[OCTET],APID=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] AP radio down is recovered notify.(APMAC=[OPAQUE], RadioID=[INTEGER],APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   " \"DHCP Packet Option 82 is repeated.\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] The NAC Max User Alarm is cleared.(Slot [OCTET] User-num [INTEGER] Threshold [INTEGER]%)",
+   " \"User authenticated. Username  %.*s.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of the discarded DHCP packets in which the CHADDR field is inconsistent with the source MAC address exceeds the threshold on the interface. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], VlanID=[INTEGER], DiscardedNumber=[INTEGER])",
+   " \"Form Submission Failed.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A iot card is inserted. (APMAC=[OPAQUE], APName=[STRING], APIotCardId=[INTEGER], APID=[INTEGER], APIotCardType=[STRING])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of ND users on the interface exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], Interface=[OCTET], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Power resume from failure. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], APPowerId=[INTEGER], FaultID=[INTEGER], FaultReasonDesc=[STRING])",
+   " \"Deleting the implicit deny rule %d of ACL %s is not allowed.\""
+  ],
+  0
+ ],
+ [
+  [
+   " The user is added to quiet-table.(MAC Address [STRING])",
+   "\"Authentication successful for client (%s) on Interface %s AuditSessionID %s\""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The number of stations reaches the maximum specifications.(MaxStaNum=[INTEGER],CurStaNum=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   " The DHCPv6 client acquired IPv6 address successfully. (InterfaceName=[STRING1], Ipv6Address=[STRING2], ServerDuid=[STRING3])",
+   " \"Unable to bind the socket.\""
+  ],
+  1
+ ],
+ [
+  [
+   " The DHCP client received a NAK packet from a DHCP server. (Client InterfaceName=[interface-name], ServerId=[ip-address])",
+   " \"LAG in transition. switch reboot DUE\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP PHY CMOS fault clear. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"Failed to store Acl Config to Flash %s.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] AP software version is not match with AC software version.(APMAC=[OPAQUE], APName=[STRING], APType=[OCTET], APSoftWareVersion=[OCTET], APID=[INTEGER])",
+   " \"[CLIENT%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" ip=\\\"%u.%u.%u.%u\\\" devname=\\\"%s\\\"][DHCP%s pool=\\\"%s\\\" if=\\\"%s\\\" type=\\\"%x\\\"] DHCP offer IP address.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID]  The number of ND global users exceeds alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID[oid] The AP works in Limited mode due to insufficient power supply.(APMAC=[OPAQUE], APName=[STRING], PowerWorkMode=[OCTET], ExpectPowerWorkMode=[OCTET], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [OID] The number of ND global users descends to alarm threshold. (IfIndex=[INTEGER], VlanIndex=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " Unable to create raw socket.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The temperature of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical Temperature=[INTEGER]\u00b0C, ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Unauthorized AP recordexists.(Record number=[INTEGER])",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] RADIO reach the max number of stations notify.(APMAC=[OPAQUE], RADIOID=[INTEGER], APID=[INTEGER], APName=[STRING], StaNum=[INTEGER], MaxStaNum=[INTEGER])",
+   " \"[AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" name=\\\"%s\\\" seid=\\\"%s\\\" model=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" radios=\\\"%d\\\"][AC%s ip=\\\"%d.%d.%d.%d\\\"] AP goes operational.\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Detected roguedevices. (Device count=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] VAP has the max number of stations notify restore.(APMAC=[OPAQUE], APName=[STRING], RADIOID=[INTEGER], WLANID=[INTEGER], FailCause=[INTEGER],CurrentNum=[INTEGER], APID=[INTEGER])",
+   " \"Failed to push CPU Acl info the NPU\""
+  ],
+  0
+ ],
+ [
+  [
+   "Local account [STRING] has been deleted.",
+   " \"Acl config is corrupted. Resetting Acl config to default.\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] authenticationFailure. (RemoteIpAddressType=[INTEGER],RemoteIpAddress=[STRING])",
+   " \"Failed to get %s for Mac address %02x %02x %02x %02x %02x %02x"
+  ],
+  1
+ ],
+ [
+  [
+   "sessionId= [STRING].",
+   " \"Ipsec file lock init failed during wrapper init\""
+  ],
+  0
+ ],
+ [
+  [
+   " AP would be reset. (MAC=[OPAQUE], ApID=[ULONG], Sysname=[STRING], Reason=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[oid] AP access user number exceed threshold notify. (APMAC=[OPAQUE],RadioID=[INTEGER], APName=[OCTET], UserNum=[INTEGER], APID=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] A iot card is removed. (APMAC=[OPAQUE], APName=[STRING], APIotCardId=[INTEGER], APID=[INTEGER], APIotCardType=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start re-association. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The license resource pool is aging. After the pool is aged, only the local AC license is valid. (Total number of licenses=[INTEGER], Number of local shared licenses=[INTEGER])",
+   " MSG_TRACEBACK"
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] Jam of station is cleared notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET],  APID=[INTEGER])",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  0
+ ],
+ [
+  [
+   " The POST data of the requestpacket is too long.(Length [ULONG]).",
+   " MSG_TRACEBACK"
+  ],
+  1
+ ],
+ [
+  [
+   " Delete dhcp bind-table because IP address conflict. (Bind-table info  InterfaceName=[STRING], Pvlan=[ULONG], Cvlan=[ULONG], IP Address=[IPADDR], MAC Address=[STRING])",
+   " \"Unable to remove %d.%d.%d.%d from leases.\""
+  ],
+  1
+ ],
+ [
+  [
+   " Succeeded in downloading firmware.",
+   " \"Ipsec signal send %s failed with error %s pid %d\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The IoT card is disconnected from the server. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER], ApIotCardId=[INTEGER], APIotCardType=[STRING])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station authentication failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The license resource pool is aging. After the pool is aged, only the local AC license is valid. (Total number of licenses=[INTEGER], Number of local shared licenses=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The transfer power of the AP's optical module increases above the lower threshold. (APMAC=[MacAddress], APName=[STRING],ApIfIndex=[INTEGER],Ap Optical TxPower=[INTEGER](0.1uw),ApEntityPhysicalName=[OCTET],APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] AP FMEA fault. (APMAC=[OPAQUE], APName=[STRING], FaultID=[INTEGER], Index=[INTEGER], FaultInfo=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][FROM%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][TO%s ip=%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station roaming failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] The radio changes to up. (APMAC=[OPAQUE], ApName=[OCTET], event=[INTEGER], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station start association. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] The number of online APs reaches 80% of the maximum specifications.(APMaxNum=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] MP reached AC through the air,and this MP has reported 'MP joined AC through Ethernet port'warning,so restore it. (APMAC=[OPAQUE], APName=[STRING], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " The IP address assigned by a DHCP server conflicted with another interface. (Client InterfaceName=[interface-name], ServerId=[ip-address], Assigned IpAddress=[assigned-ip-address])",
+   " \"RADIUS %s Server %s %u %s on WLAN %u\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [OID] Current counts of ipsec tunnel has been reached max CPU limit or license li mit, please check it at once.",
+   " \"Ipsec message send failed. method   \\\"%s\\\" errmsg   %s msgtype   %d \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] AP radio is down notify.(APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], CauseId=[INTEGER], CauseStr=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station goes offline. \""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [OID] The number of DHCP users on the vlan exceeds alarm threshold. (IfIndex=[INTEGER], VLANIndex=[INTEGER], VlanID=[INTEGER], CurrentUser=[INTEGER], MaxUser=[INTEGER])",
+   " \"Cannot have overlapping networks. Network id  %02d.%02d.%02d.%02d in use by scope %s\\n\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID [oid] Station repititive attack notify.(APMAC=[OPAQUE],APMAC=[OPAQUE],RadioID=[INTEGER],StaMac=[OPAQUE],APName=[OCTET],StaAssocBssid=[OPAQUE],Ssid=[OCTET], APID=[INTEGER])",
+   " \"timer services failed to start\""
+  ],
+  0
+ ],
+ [
+  [
+   " OID [oid] There are APs that require reconnections.",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station association success. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [OID] The number of quiet users is reaching the max.(UserType=[INTEGER], Threshold=[INTEGER]%, UserNum=[INTEGER], Lower Threshold=[INTEGER]%, Upper Threshold=[INTEGER]%)",
+   " \"%llu\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] Radio signal environment deteriorates. (APMAC=[OPAQUE], RadioID=[INTEGER], APName=[OCTET], PER=[INTEGER]%,ConflictRate=[INTEGER]%, APID=[INTEGER], NoiseFloor=[INTEGER]dBm, Reason=[OCTET], BadChannel=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"] Station re-association success. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] PD powered on.(IfIndex=[INTEGER],Interface=\"[OCTET]\")",
+   " \"poePortResync returned FAILURE. \""
+  ],
+  1
+ ],
+ [
+  [
+   "Failed to modify local account [STRING1] password. FailReason = [STRING2].",
+   " \"TKIP MIC errors reported in EAPOL key msg from client %02x %02x %02x %02x %02x %02x\""
+  ],
+  0
+ ],
+ [
+  [
+   "OID [oid] The temperature of the AP's optical module falls below the upper threshold. (APMAC=[MacAddress], APName=[STRING], ApIfIndex=[INTEGER], Ap Optical Temperature=[INTEGER]\u00b0C, ApEntityPhysicalName=[OCTET], APID=[INTEGER])",
+   " \"[STA%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][AP%s mac=\\\"%02x %02x %02x %02x %02x %02x\\\" radio=\\\"%x\\\"][WLAN%s bssid=\\\"%02x %02x %02x %02x %02x %02x\\\" ssid=\\\"%s\\\" security=\\\"%x\\\"][REASON%s code=\\\"WL%d\\\" desc=\\\"%s\\\"] Station re-association failed. \""
+  ],
+  1
+ ],
+ [
+  [
+   " OID [oid] AP CPU overload notify restore.(APMAC=[OPAQUE], APName=[STRING], ApCpuRate=[INTEGER], APID=[INTEGER])",
+   " \"[USR%s name=\\\"%s\\\" ip=\\\"%d.%d.%d.%d\\\" vlan=\\\"%d\\\" mac=\\\"%02x %02x %02x %02x %02x %02x\\\"][WLAN%s ssid=\\\"%s\\\"][RDS%s nas_id=\\\"%s\\\" nas_port_id=\\\"%s\\\"][REASON%s code=\\\"%s\\\" desc=\\\"%s\\\"]\""
+  ],
+  1
+ ],
+ [
+  [
+   "OID[OID] Current counts of ike peer reach max limit.",
+   " \"%llu\""
+  ],
+  0
+ ]
+]
